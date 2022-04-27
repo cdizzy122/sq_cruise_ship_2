@@ -35,4 +35,4 @@ Will include basic save files within the repo at some point. Might use them for 
 
 Want to include ways to click the appointment reminder message to take us to the next appointment.
 
-Make classes more forgiving in time, can skip 20 min to get to a class if needed
+Make classes more forgiving in time, can skip 20 min to get to a class if needed so the user doesn't have to go up and down stairs to waste time or whatever.
