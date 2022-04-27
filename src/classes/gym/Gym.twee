@@ -1,0 +1,349 @@
+:: Gym [textback] {"position":"1993,643","size":"100,100"}
+<<removeclass "html">><<addclass "html" "gym">><<audio "ship" mute>><<audio "gym" volume 0.2 loop play>><<if $gym is 0>><img src="classes/rae/rae1.jpg" width="70%">
+
+<<speech "rae" "''Rae:''">>
+Hi. My name is Rae. I'm the trainer of this gym. You are going to follow a women exercise routine, just as everyone else, lets see if you can do that. I'll be clear: I'm not into all this lesson shit, specially with a beta like you.
+
+So welcome, bitch, welcome to your worst nightmare. You are a fucking worm. I'm going to make a real man out of you. When I'm done with you you'll have full control over your body and you'll at least look like a decent human being. I'll talk to Holli, the chef, to make sure you follow a proper low-calorie diet.
+
+This is not going to be easy, but I'll make sure you do it. Don't tempt my temper, little boy. I also suppose you don't have a proper outfit for training, so I'll make sure to leave one in your room for tomorrow.
+
+This week we'll be working on getting rid of that excess fat, and resistance running. Your training will only consist in 2 hours of treadmill walk. After that we'll take it up from there. But PLEASE, go ahead and skip this class. That way I don't have to give you any points and I can give you a good spanking at the end of the week. Do me a favor and skip it. But now that you're here, get to it! NOW!<</speech>>
+<<speech "You" "''$name:''">>
+But... I don't have a tracksuit or-<</speech>>
+<<speech "rae" "''Rae:''">>
+Just go to the locker room, you'll find an extra one there. Put it on and come back! I'm watching you...<</speech>>
+[[Go to the locker room|Changing room 2]]
+<<elseif $gym is 1>><img src="places2/gym.jpg" width="70%">
+
+[[Start training][$training to random (0,2), $alreadytrained to true]]
+[[Return|Deck 7]]
+<<elseif $gym is 2>><img src="classes/rae/rae1.jpg" width="70%">
+
+<<speech "rae" "''Rae:''">>
+Hi there, so I see you can still walk. I'll take care of that this week, hehe...
+
+Working out is not only about losing fat, but also pumping up those muscles. I'm going to put you on a strict training of abs and glutes. Most of the exercises will still be cardio-based, but you'll also develop some muscle, if your diet is high on protein and calories, so you better treat Holli right! For most people that works, but I don't know how your body will react, you wimp! See these puppies? *flexes her biceps* These are all hard work! If you want this, you better work it.
+
+Go find your fucking tracksuit at the locker room, bitch. Now just go and start with your session. Don't bother me, I'm busy.<</speech>>
+[[Go to the locker room|Changing room 2]]
+<<elseif $gym is 3>><img src="places2/gym.jpg" width="70%">
+
+[[Start training][$training to random (3,5)]]
+[[Return|Deck 7]]
+<<elseif $gym is 4>><img src="places2/gym.jpg" width="70%">
+
+<<speech "rae" "''Rae:''">>
+Huh? You're still here? I thought you might've given up by now... Maybe you're not as much of a wussy as I thought. Let's take a look a your body results for these two weeks:<</speech>>
+<<if $fit lt 7>><<speech "rae" "''Rae:''">>
+You've only done some cardio and the effects are barely noticeable on your body. *walks around*
+
+I am paid for helping people achieve RESULTS, and although I am against unhealthy methods I am willing to use them on you. What I am NOT willing to do is lose my reputation due to your lack of competence.<</speech>>
+<<speech "You" "''$name:''">>
+What do you mean by that?<</speech>>
+<<speech "rae" "''Rae:''">>
+ *smile* You know... if the change doesn't come from the inside it might as well come from the outside... *imitates a scissor with her fingers*<</speech>>
+<<speech "You" "''$name:''">>
+ *gulp*<</speech>>
+<<speech "rae" "''Rae:''">>
+So, if you don't want that, from now on I expect you to complete your routine every morning, or I will come for you and take you out of any other class for it. I don't give a damn. Get your fucking "tracksuit" or whatever and start training already!<</speech>>
+[[Go to the locker room|Changing room 2]]
+<<else>><<speech "rae" "''Rae:''">>
+You've really done some work on your body and some changes have ocurred. Congratulations. But we are not here to enjoy ourselves, leave that for your free time. This week you will choose one part of your body and concentrate on it. Don't worry about recuperation, I will talk to Holli about the importance of your nutrition, especially this week.
+
+Also, running a gym is tough, even this one. So a little help would be appreciated<</speech>>
+<<speech "You" "''$name:''">>
+(Is she asking for my help...?)<</speech>>
+<<speech "rae" "''Rae:''">>
+If you finish your training and are feeling capable, I'll be there at my personal training room with some chores for you.<</speech>>
+<<speech "You" "''$name:''">>
+Um... ok (This bitch doesn't deserve my help, <span class="pink">but she needs me...</span>)<</speech>>
+<<speech "rae" "''Rae:''">>
+Now decide in which body parts are you going to focus your training this week and go for it already!
+
+[[Forearms, triceps and back|Changing room 2][$training to random(9,11), $sup to true, $gym to 5, $choseparts to 0]]
+[[Leg abductors, hip and glutes|Changing room 2][$training to random(6,8), $sup to false, $gym to 5, $choseparts to 1]]<</speech>>
+[[Return|Deck 7]]<</if>>
+<<elseif $gym is 5>><img src="places2/gym.jpg" width="70%">
+
+<<if $sup is true>>[[Start training][$training to random(9,11)]]<<else>>[[Start training][$training to random(6,8)]]<</if>>
+[[Return|Deck 7]]<<elseif $gym is 6>><img src="classes/rae/rae1.jpg" width="60%">
+
+<<speech "rae" "''Rae:''">>
+<<if $fit gt 12>> *slaps your ass* Daaaamn, you're starting to get a bit pumped, huh?<<else>> *looks you head to toes* Underwhelming... you are really going to need something extra...<</if>><</speech>>
+As you hear her comment, you can only feel uncomfortable.
+
+<<speech "rae" "''Rae:''">>
+Hehehe... that shy face only makes me want to "train" you harder. *Claps hard while tightening her jaw*<</speech>>
+<<speech "You" "''$name:''">>
+(Oh, god...)<</speech>>
+<<speech "rae" "''Rae:''">>
+Today we're going to change the dynamic, we don't want you to burn you out to the point where your body can't obtain any more gains. Stoya has updated your body data, and so I have designed the perfect training you'll need to do to achieve your goals.<</speech>>
+<<speech "You" "''$name:''">>
+My... goals?<</speech>>
+<<speech "rae" "''Rae:''">>
+Yeah, are you deaf? Your goals. Don't make me repeat myself. Now come with me.<</speech>>
+[[Follow her|Go to Rae's office][$raeoffice to 4]]
+
+\\<<elseif $gym is 7>><img src="classes/rae/rae1.jpg" width="50%">
+
+<<speech "rae" "''Rae:''">>
+How about a little training in the morning? I'm up for it!<</speech>>
+<<speech "You" "''$name:''">>
+I-I... (I'm not...)<</speech>>
+<<speech "rae" "''Rae:''">>
+Nobody asked you, little boy! You are coming even if you don't want to.<</speech>>
+[[Exercise first|Changing room 2]]
+<<linkreplace "Pain training">><<speech "You" "''$name:''">>
+(Oh, god...)<</speech>>
+She shakes you around the gym, taking you to her office's secret dark room. She closes the door and turns on the dim lights.
+
+<div class="center"><img src="classes/rae/dungeon.jpg" width="70%"></div>
+<<speech "rae" "''Rae:''">>
+What are you going to choose today?<</speech>>
+She comes closer to you, pinching your body in different places as you try to think clearly.
+
+<<speech "You" "''$name:''">>
+Ouch...<</speech>>
+[[Follow her|Go to Rae's office][$raeoffice to 5]]<</linkreplace>>
+
+
+
+
+
+\\<<elseif $gym is 8>>As you get in the gym you instantly notice something different: there are men working out...
+
+<div class="center"><img src="classes/rae/gymmen.gif" width="50%"></div>
+<<speech "nobody" "''White hunk:''">>
+Argh! Argh! Argh!<</speech>>
+His powerful roars vibrate all around the gym, visibly attracting the attention of the females around. Two women walk past you, and you can hear them talking.
+
+<<speech "nobody" "''Short blonde girl:''">>
+Damn, girl... I don't even know where to start with all these HUNKS!<</speech>>
+<<speech "nobody" "''Asian girl:''">>
+ *giggles* I know... See that one? I might go and-<</speech>>
+She suddenly stops talking, and you can tell why.
+
+<div class="center"><img src="classes/rae/touchygirl.gif" width="50%"></div>
+<<speech "nobody" "''Asian girl:''">>
+Fuck, that bitch! She really is starting early!<</speech>>
+<<speech "nobody" "''Short blonde girl:''">>
+Oh, c'mon, there are loads of them. Let's just work-out, I bet some more will be coming.<</speech>>
+<<speech "You" "''$name:''">>
+(WTF... This is going to be a nightmare...)<</speech>>
+You realize that your looks are probably not the best for this kind of situation. Although you had started feeling comfortable with wearing girly clothes, you now feel like you might receive some unwanted flirting.
+
+<<speech "rae" "''Rae:''">>
+Hi, there you bitch. Enjoying the view, huh? *smirk*<</speech>>
+<<speech "You" "''$name:''">>
+Oh, um, no, I was just-<</speech>>
+<<speech "rae" "''Rae:''">>
+Yeah, I know what you do. PEEKING, AS ALWAYS! HAHAHA<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+C'mon, Rae, let him off the hook...<</speechpatreon>>
+<div class="center"><img src="classes/rae/zasha.jpg" width="40%"></div>
+Just as Zasha arrives, Rae's face suddenly shows respect, something that you thought you'd never see on her...
+
+<<speech "rae" "''Rae:''">>
+Ahem... yeah, sure.<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+So, I see you actually have some will to be fit and look good. I really respect that in a sissy: looks are usually your best tool. Very good...<</speechpatreon>>
+She pats your head. You blush a bit... the way she speaks and treats you reminds you a lot of Tara, but you can tell there's something strange that also makes you fear her, you don't know why.
+
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Don't stare at these men if you're not going to do something about it, alright? We've got work to do, I'm here to help Rae.<</speechpatreon>>
+<<speech "rae" "''Rae:''">>
+ *grumble*<</speech>>
+Zasha turns her head with her eyes open wide.
+
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+You want to say something?<</speechpatreon>>
+<<speech "rae" "''Rae:''">>
+Hm, n-no...<</speech>>
+<<speech "You" "''$name:''">>
+(WTF is going on here?! This is not the usual Rae...)<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Alright then, let's get started. Since this is a gym, I'll let you train. We'll talk afterwards.<</speechpatreon>>
+[[Exercise first|Changing room 2]]
+<<linkreplace "Follow Zasha and Rae">><<speech "You" "''$name:''">>
+Ok, I'm done...<</speech>>
+Rae smiles and pushes you to her office. Zasha smiles, approving of her eagerness. After entering Rae's office, she takes you to the dungeon.
+
+<div class="center"><img src="classes/rae/dungeon.jpg" width="70%"></div>
+Rae pinches you hard all around your body, trying to play a bit.
+
+<<speech "You" "''$name:''">>
+Ouch...<</speech>>
+[[... ...|Go to Rae's office][$raeoffice to 6]]<</linkreplace>>
+
+
+
+
+
+
+
+\\<<elseif $gym is 9>><<if ndef $quest13>>As you get in the gym you take your time to appreciate the new male presence.
+
+<div class="center"><img src="classes/rae/gymmen.gif" width="50%"></div>
+<<speech "nobody" "''White hunk:''">>
+Argh! Argh! Argh!<</speech>>
+His powerful roars are definitely making you uncomfortable, but you can't take your eyes off him.
+
+<<speech "rae" "''Rae'':">>
+Heh, why don't you get closer and fucking smell his junk, sissy? Jeez...<</speech>>
+<<speech "You" "''$name'':">>
+No, I wasn't...<</speech>>
+You stop mid-sentence, embarrased to even try to justify what was obviously peeking.
+
+<<speech "rae" "''Rae'':">>
+Oh, I know what that was for sure. How many times do I have to say it? Don't make my clients feel awkward.<</speech>>
+Suddenly, you both hear some dumbbells falling on the other side of the gym.
+
+<<speech "rae" "''Rae'':">>
+What the-<</speech>>
+<div class="center"><img src="quest13/latino.jpg" width="30%"></div>
+<<speech "nobody" "''Muscular latino hunk'':">>
+Ha! You bitch! You can't even do 30 pull-ups! Look at this, this is how you do it!<</speech>>
+<<speech "nobody" "''White young man'':">>
+That's not even fair bro, I've done a whole routine and you just got here!<</speech>>
+<<speech "nobody" "''Muscular latino hunk'':">>
+That's got a name: pussy! Hahahaha!<</speech>>
+<<speech "nobody" "''White young man'':">>
+Who you calling pussy, you little shit?<</speech>>
+Both men stand close to each other, about to start a fight. The testosterone in the air is the highest you've seen since... well, since probably ever.
+
+Rae storms out getting in the middle of them both.
+
+<<speech "rae" "''Rae'':">>
+Hey, hey, big guys! I know you want to show us that you're the alpha here, but if you keep disturbing the ambience of MY gym, I'm afraid we'll have to let you out the ship. Am I clear?<</speech>>
+Both men look at each other like kids, trying to swallow their own pride.
+
+<<speech "nobody" "''Muscular latino hunk'':">>
+Yeah, whatever... We'll settle this whenever you want. I'm here every fucking day.<</speech>>
+<<speech "nobody" "''White young man'':">>
+You bet.<</speech>>
+<<speech "rae" "''Rae'':">>
+I'm still here, you know? Captain need to know this "testosterone overload" issue...<</speech>>
+Rae get out of the room to visit the captain. You're left there, next to the white guy, so you decide to talk to him.
+
+<<speech "You" "''$name'':">>
+Um... hi, why did that guy wanted to show off?<</speech>>
+<<speech "nobody" "''White young man'':">>
+Bah... who knows, these guys think the gym is like jail or something... fucking latinos...<</speech>>
+<<speech "You" "''$name'':">>
+(Well, a little racist, but ok...)<</speech>>
+<<speech "nobody" "''White young man'':">>
+I'm just trying to make some nice gains, you know. Looking nice and cut, no esteroids LIKE OTHER PEOPLE DO.<</speech>>
+The latino guy looks at him again, angry at what he said, but he stays in place.
+
+<<speech "nobody" "''White young man'':">>
+But I guess he also has a point. I haven't been able to workout properly since I boarded the ship, I thought I brought my protein shakes, but it seems like I didn't... if only I could find some... Oh well...<</speech>>
+The man restarts the clock on the running machine and starts training.
+
+<div class="center"><img src="quest13/running.gif" width="50%"></div>
+As soon as he does so, you can't help but focus on his moving bulge.
+
+<<speech "You" "''$name'':">>
+Oh... ... ...<</speech>>
+...
+
+...
+
+<div class="center"><img src="quest13/bulge.gif" width="30%"></div>
+<<speech "You" "''$name'':">>
+W-well, maybe I could try to find some protein...?<</speech>>
+He stops as he hears you say that.
+
+<<speech "nobody" "''White young man'':">>
+For real? Wow... thanks, that would be awesome... And, of course, I would be pleased to give you some "protein" as well in return...<</speech>>
+He shakes his junk and winks at you, making you blush and a bit uncomfortable at the same time.
+
+<div class="center"><font size="+1"> *''New Side-Quest: Find some protein shakes for the guy at the gym''*</font></div>
+
+As soon as you're finished talking with him, Rae comes back.
+
+<<speech "rae" "''Rae'':">>
+Anyway, where were we? Ah, yes, your training. Come with me.<</speech>>
+Meanwhile you walk behind her, you decide it's a good time to ask for the protein.
+
+<<speech "You" "''$name'':">>
+Hey, do you happen to hace some spare protein shakes? It's for a client here-<</speech>>
+<<speech "rae" "''Rae'':">>
+Those are all mine, this is not a charity.<</speech>>
+<<speech "You" "''$name'':">>
+Do you know where I could find some?<</speech>>
+<<speech "rae" "''Rae'':">>
+I guess you could try your luck at the "Goodies Store". The bartender is usually messing around with more than drink, if you know what I mean.<</speech>>
+<<speech "You" "''$name'':">>
+(Well, I don't. But that's a nice clue.)<</speech>><<set $proteinquest to "Active", $badge to $badge +1, $quest13 to 0>>
+
+[[Go to Rae's office][$raeoffice to 7]]
+
+
+
+\\<<elseif $quest13 is 0>><<if $proteinshakes is true>>As you get into the gym you see the white guy from the other day training his ass off.
+
+<div class="center"><img src="quest13/bulge.gif" width="30%"></div>
+<<speech "nobody" "''White young man'':">>
+Eyes up here, sweetheart! Hehe...<</speech>>
+<<speech "You" "''$name'':">>
+Oh, um...<</speech>>
+Embarrased, you quickly look to the sides.
+
+<<speech "nobody" "''White young man'':">>
+So, did you manage to find some protein?<</speech>>
+<<speech "You" "''$name'':">>
+Well yes, actually! Here you go!<</speech>>
+<<speech "nobody" "''White young man'':">>
+Oh, wow... you're amazing... I bet you're now craving some protein as well, huh? *smirks* I'll make sure you get some, after all you're training too. We don't want you fainting all around the ship. *winks*<</speech>>
+<<speech "You" "''$name'':">>
+Oh, u-um... Y-you really don't need to do that...<</speech>>
+<<speech "nobody" "''White young man'':">>
+Oh, it's only fair... See you in the locker room...<</speech>>
+The guy walks out the training room and into the showers. You think about following him, but then you remember that Rae is probably controlling you. You take a look and see her walking the other way, trying to help a woman with her training.
+
+<<speech "You" "''$name'':">>
+(Perfect chance!)<</speech>>
+[[Sneak into the showers quickly|Gym][$quest13 to 1, $proteinshakes to false, $proteinquest to "Finished", $badge to $badge +1]]
+
+
+\\<<else>><div class="center"><img src="classes/rae/gymmen.gif" width="50%"></div>
+<<speech "You" "''$name:''">>
+(Damn, I can smell the testosterone in the air...)<</speech>>
+You can see Zasha and Rae waiting for you on Rae's office door. You can either train first and then go to their class, or skip the training and just go to class.
+
+You can also see the ''white young man'' looking at you, waiting for his shakes.
+
+<<speech "You" "''$name'':">>
+(Right! I should remember to take his protein shakes from the Goodies Store).<</speech>>
+[[Exercise first|Start training][$training to random(14,16)]]
+[[Go to Rae's office][$raeoffice to 7]]<</if>>
+
+
+
+
+\\<<elseif $quest13 is 1>><<removeclass "html">><<addclass "html" "locker">><<audio "gym" stop>>You get into the dressing room, but there's no one there... You sit on one of the benches, a bit relieved that the encounter is not going to take place.
+
+Suddenly, you see a note next to you:
+
+<div class="center"><span class="noborder"><img src="quest13/note.png" width="50%"></span></div>
+<<speech "You" "''$name'':">>
+Oh, fuck... <span class="pink">Should I go...? hmm...</span><</speech>>
+
+<div class="center">-----</div>
+<font size="+1">''WRITER'S NOTE'': From this moment on, you'll find the option to get into this guy's room at Deck 6. Once the quest is complete, you'll be able to go back into his room once per week.</font>
+<div class="center">-----</div>
+[[Go back to gym|Gym][$quest13 to 2]]
+
+
+
+
+\\<<else>><div class="center"><img src="classes/rae/gymmen.gif" width="50%"></div>
+<<speech "You" "''$name:''">>
+(Damn, I can smell the testosterone in the air...)<</speech>>
+You can see Zasha and Rae waiting for you on Rae's office door. You can either train first and then go to their class, or skip the training and just go to class.
+
+[[Exercise first|Start training][$training to random(14,16)]]
+[[Go to Rae's office][$raeoffice to 7]]<</if>><</if>><<audio "menus" stop>>
+
+

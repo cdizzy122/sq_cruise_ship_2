@@ -1,0 +1,4 @@
+:: BarcelonaAnnouncement 
+You've arrived to Barcelona!
+
+/* TODO: autopopup using the passage title in the popup itself is annoying. need to fix to decouple passage and file names from game experience */

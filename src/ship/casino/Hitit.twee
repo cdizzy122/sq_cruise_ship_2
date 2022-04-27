@@ -1,0 +1,4 @@
+:: Hit it
+<<set $slot to either("simpson", "rloose", "rloose", "rloose", "rloose", "simpson", "rloose", "rloose", "simpson", "rloose", "rloose")>><<goto $slot>>
+
+

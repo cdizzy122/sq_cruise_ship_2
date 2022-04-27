@@ -1,0 +1,23 @@
+:: Peek (might get caught) [noborder textback] {"position":"2121,747","size":"100,100"}
+<<removeclass "html">><<addclass "html" "gym">><<if $peekgym is 0>><<nobr>><<if $training is 0>><img src="classes/rae/peek1.gif" width="30%"><<elseif $training is 1>><img src="classes/rae/peek2.gif" width="70%"><<elseif $training is 2>><img src="classes/rae/peek3.gif" width="50%"><<elseif $training is 3>><img src="classes/rae/peek4.gif" width="70%"><<elseif $training is 4>><img src="classes/rae/peek5.gif" width="70%"><<elseif $training is 5>><img src="classes/rae/peek6.gif" width="70%"><<elseif $training is 6>><img src="classes/rae/peek11.gif" width="70%"><<elseif $training is 7>><img src="classes/rae/peek12.gif" width="60%"><<elseif $training is 8>><img src="classes/rae/peek7.gif" width="70%"><<elseif $training is 9>><img src="classes/rae/peek8.gif" width="70%"><<elseif $training is 10>><img src="classes/rae/peek9.gif" width="70%"><<elseif $training is 11>><img src="classes/rae/peek10.gif" width="70%"><</if>><</nobr>>
+
+At least the view is nice... You take your time finishing your exercise and finally reach your end mark.
+
+<<nobr>><<if ndef $gymgirl>>[[Go to locker room|Gymgirl][$lockergirl to random (1,5)]]<<elseif $gymgirl is 0>>[[Go to locker room|Gymgirl][$lockergirl to random (1,5)]]<<elseif $gymgirl is 1>>[[Go to locker room][$gymshower to 6, $lockergirl to random (1,5)]]<</if>><</nobr>><<elseif $peekgym is 1>><<nobr>><<if $training is 0>><img src="classes/rae/peek1.gif" width="30%"><<elseif $training is 1>><img src="classes/rae/peek2.gif" width="70%"><<elseif $training is 2>><img src="classes/rae/peek3.gif" width="50%"><<elseif $training is 3>><img src="classes/rae/peek4.gif" width="70%"><<elseif $training is 4>><img src="classes/rae/peek5.gif" width="70%"><<elseif $training is 5>><img src="classes/rae/peek6.gif" width="70%"><<elseif $training is 6>><img src="classes/rae/peek11.gif" width="70%"><<elseif $training is 7>><img src="classes/rae/peek12.gif" width="60%"><<elseif $training is 8>><img src="classes/rae/peek7.gif" width="70%"><<elseif $training is 9>><img src="classes/rae/peek8.gif" width="70%"><<elseif $training is 10>><img src="classes/rae/peek9.gif" width="70%"><<elseif $training is 11>><img src="classes/rae/peek10.gif" width="70%"><</if>><</nobr>>
+<<timed .5s>>
+<<speech "rae" "''Rae:''">>
+What the fuck do you think you are doing??<</speech>>
+<span class="pulse"><img src="classes/rae/angryrae.jpg" width="50%"></span>
+
+<<speech "rae" "''Rae:''">>
+You are peeping on my gym? You better keep your head on your exercises or there will be consequences at the end of the week, bitch boi! *smacks ass hard* No points for you, bitch!!<</speech>>
+<<speech "You" "''$name:''">>
+Oww!!<</speech>>
+<<speech "rae" "''Rae:''">>
+I can spank you harder, bitch, so you better keep it up! NOW!<</speech>>
+You gained yourself a red ass for being a peep. No points also... Was it worth it? You finish your routine succesfully.<<set $points to $points -80>>
+
+<div class="center">''<span class="pulse"><span class="notless">-80 POINTS</span></span>''</div>
+<<nobr>><<if ndef $gymgirl>>[[Go to locker room|Gymgirl][$lockergirl to random (1,5)]]<<elseif $gymgirl is 0>>[[Go to locker room|Gymgirl][$lockergirl to random (1,5)]]<<elseif $gymgirl is 1>>[[Go to locker room][$gymshower to 6, $lockergirl to random (1,5)]]<</if>><</nobr>><</timed>><</if>>
+
+

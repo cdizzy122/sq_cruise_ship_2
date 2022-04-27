@@ -1,0 +1,13 @@
+:: Massage [textback] {"position":"2310,526","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spa">><div class="center"><img src="passengers/masseuse.jpg" width="60%"></div>
+<<if $massage is true>><<if $gameDate.getHours() gte 11 and $gameDate.getHours() lt 22>>
+<div class="center">(1 Massage per day Max.)</div>
+<div class="center"><<nobr>>Room A: <<link "Back massage" Backmassage>><<set $massage to false>><</link>><</nobr>>
+<<nobr>>Room B: <<link "Reflexology" Reflexology>><<set $massage to false>><</link>><</nobr>></div><div class="center"><<nobr>><<if $specialmassage is true>>Room C: <<link "Special massage" Specialmassage>><<set $massage to false>><</link>><<else>>Room C: Special massage (needs invitation)<</if>><</nobr>></div>
+<<else>><<speech "nobody" "''Masseuse:''">>
+Only one massage a day. Come back tomorrow.<</speech>>
+<div class="center">(Open --> 11:00-22:00)</div><</if>><<elseif $massage is false>><<speech "nobody" "''Masseuse:''">>
+Sorry, we're closed right now.<</speech>><</if>>
+[[Return|Spa]]<<audio "menus" stop>>
+
+

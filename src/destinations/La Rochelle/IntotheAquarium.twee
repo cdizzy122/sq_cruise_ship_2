@@ -1,0 +1,8 @@
+:: Into the Aquarium [textback] {"position":"3818,1614","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<audio "french" mute>><<audio "mystery" loop play>><div class="center"><img src="dockings/aqhall.jpg" width="70%"></div>
+The aquarium starts with a large tall path made of glass. You can perfectly see the fish of the aquarium swimming frantically from one side to another.
+
+<div class="center"><------[[Exotic species]]------[[Bathroom|bathaq]]------[[Kids fun tank]]------></div>
+<<click "Return" "Aquarium">><<set $aquarium1 to 1>><<if ndef $mute>><<audio "french" unmute>><<else>><</if>><<audio "mystery" stop>><</click>><<audio "menus" stop>><<if ndef $mute>><<audio "mystery" unmute>><<else>><</if>>
+
+

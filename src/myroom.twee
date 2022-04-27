@@ -1,0 +1,9 @@
+:: myroom [textback] {"position":"6,371","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><img src="places1/bedroomhome.jpg" width="90%">
+
+<<speech "You" "''$name:''">>
+(Jesus...I'm tired after all that...)<</speech>>
+<div class="center"><<if ndef $laptopin>><<linkreplace "Sleep">>You can't sleep until you see what's in that laptop<</linkreplace>><<else>><span class="Phone"><span class="fade-ins-out">[[Sleep|sleephouse]]</span></span><</if>></div>
+[[Return|Hall]]<<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() gte 8 and $gameDate.getMinutes() gte 30>><<goto "Emergency">><<else>><</if>><<else>><</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

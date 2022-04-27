@@ -1,0 +1,52 @@
+:: Untitled Passage 30 {"position":"2789,717","size":"100,100"}
+[[Penny arcade][$dayn to 30, $enterarcade to 5]]
+[[Penny arcade][$dayn to 30, $enterarcade to 6]]
+[[Penny arcade][$dayn to 30, $enterarcade to 7]]
+
+
+
+[[Gym][$torture4 to true, $torture5 to true, $torture6 to true]]<<set $gym to 9>>
+[[Captainoffice][$capt to 16]]
+[[Captainoffice][$capt to 17]]
+[[Captainoffice][$capt to 18, $toral to 0]]
+[[Captainoffice][$capt to 19]]
+
+[[Cookingclass][$kitchen to 12]]
+
+[[Finish service][$cheffinish to 0, $serviceright1 to true]]
+[[Finish service][$cheffinish to 1, $serviceright2 to true]]
+[[Finish service][$cheffinish to 2, $serviceright3 to true]]
+[[Finish service][$cheffinish to 3, $serviceright4 to true]]
+[[Finish service][$cheffinish to 4, $serviceright5 to true]]
+[[Finish service][$cheffinish to 5, $serviceright6 to true]]
+
+<<set $anatomy to 8, $styleclass to 8, $jada to 3, $dance to 6, $officedoc to 9, $review to 7, $gym to 8, $capt to 16, $kitchen to 12, $dinner to 7>>
+
+[[Anatomyclass][$sub to 40]]
+[[Stylingclass]]
+[[Therapist]]
+[[Sail]]
+[[Officedoc][$bluevial to false, $roamlab to 0, $newvial2 to true]]
+[[Dining room][$dinner to 9, $dinnerdecide1 to 0]]
+[[Reviews][$points to 1200]]
+[[pennytry]]
+[[VIP zone][$entervip to 0]]
+[[mscene]]
+[[Screenwall][$dayn to 30]]
+[[trypool]]
+[[Beauty Salon][$bsalon to 1]]
+[[Beauty Salon][$bsalon to 2]]
+[[Put on makeup][$skincare to true, $eyemakeup to true, $needshower to true, $trans to 5, $shampoo to true]]
+[[Stage][$stage to 2, $explainmix to 0]]
+
+
+
+
+
+
+[[Spa pool][$inpool to 2, $ssuit to 1]]
+[[Start training][$training to 13]]
+
+[[Romeportt][$tprofile to 3, $road to 1]]
+
+

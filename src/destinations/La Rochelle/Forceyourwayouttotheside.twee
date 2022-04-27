@@ -1,0 +1,52 @@
+:: Force your way out to the side [textback] {"position":"4048,1730","size":"100,100"}
+You can't stand it anymore and just burst. You push the people to your right side so they understand that you ARE getting out.
+
+<<speech "nobody" "''Some woman:''">>
+Hey buddy! No need to be so pushy, ok?! If you want to get out, you just need to ask...<</speech>>
+<<speech "nobody" "''Her husband:''">>
+Hey sweetheart, is this boy bothering you?<</speech>>
+<<speech "nobody" "''Some woman:''">>
+He just pushed me! He just pushed me!<</speech>>
+As the husband hears this, his face starts getting red with anger. Suddenly you see his strong wrist coming to you. Your reflexes have never been very good, but by giving it all you got, you manage to slip out from the crowd to a side.
+
+<<removeclass "html">><<addclass "html" "french">>You run down the market as fast as you can, running by the side of all the farmers and merchants. When you think you have ran enough, you crouch and look behind your back to see if the man keeps following you.
+
+Luckily, you've lost him.
+
+<<speech "nobody" "''???:''">>
+Hey! What are you doing out of the main market route. Are you a thief?!<</speech>>
+<<speech "You" "''$name:''">>
+What?... no! I was just running from a guy that wanted to hit me and-<</speech>>
+<<speech "nobody" "''???:''">>
+Yeah, right! Like I'm going to believe that... Like my name is Bastien that you are a thief! I'm going to call the police.<</speech>>
+<<speech "You" "''$name:''">>
+Wait, you are Bastien, the farmer?<</speech>>
+<<speech "nobody" "''Bastien:''">>
+Yes, that's me! So what?!<</speech>>
+<<speech "You" "''$name:''">>
+(He talks too fucking loud, jeez...) I was coming for the... ware.<</speech>>
+<<speech "nobody" "''Bastien:''">>
+The what?!<</speech>>
+<<speech "You" "''$name:''">>
+(I hoped I didn't have to say it...) The Enhancer...? (such a cheesy name)<</speech>>
+<<speech "nobody" "''Bastien:''">>
+You? Oh... ok, I understand... *suddenly he puts a friendly face* So, how much?<</speech>>
+<<speech "You" "''$name:''">>
+Well, I'm coming on Holli's behalf. She said that you would understand...<</speech>>
+<<speech "nobody" "''Bastien:''">>
+Yes... I've got the stuff.<</speech>>
+He opens a small cabinet hidden in the inside of his tent. There he grabs a small plastic bag filled with some kind of dust.
+
+<<speech "nobody" "''Bastien:''">>
+It's 300 Euros.<</speech>>
+<<speech "You" "''$name:''">>
+But... I thought it was already paid. It's for a company.<</speech>>
+<<speech "nobody" "''Bastien:''">>
+It is paid for Holli. But I don't trust you. You could be from the secret police (altough I doubt it...)<</speech>>
+<<speech "You" "''$name:''">>
+But...<</speech>>
+<<linkreplace "Try to convince him">>(Eww...)<</linkreplace>>
+
+<<click "Return" "rocheport">><<set $market to 0, $drug1 to "1/2 done">><<audio "office" stop>><</click>><<addmins 15>><<audio "french" unmute>><<audio "menus" stop>>
+
+

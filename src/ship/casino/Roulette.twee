@@ -1,0 +1,12 @@
+:: Roulette [textback] {"position":"2614,1016","size":"100,100"}
+<<removeclass "html">><<addclass "html" "velvet">><div class="center"><img src="places2/roulette.jpg" width="83%"></div>
+<<speech "nobody" "''Roulette dealer:''">>
+Hi miss, would you like to play?<</speech>>
+<div class="center">Costs ''5 points''(Difficulty: Medium)
+
+Prize: ''15 points'' (27,3%).
+
+[[Hit it]]
+[[Return|Casino]]</div><<nobr>><<if $gameDate.getHours() is 0 or $gameDate.getHours() lt 8>><<goto [[Dreams]]>><<else>><</if>><</nobr>><<audio "menus" stop>><<if ndef $mute>><<audio "casino" unmute>><<else>><</if>>
+
+

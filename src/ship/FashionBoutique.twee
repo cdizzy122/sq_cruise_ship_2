@@ -1,0 +1,82 @@
+:: Fashion Boutique [textback] {"position":"2020,1066","size":"100,100"}
+<<removeclass "html">><<addclass "html" "shops">><<if $party1 is false>><img src="places2/closed.jpg" width="60%">
+
+//''Open everyday (8:00-22:00)''//
+
+[[Return|Deck 4]]<<else>><<if $gameDate.getHours() gte 8 and $gameDate.getHours() lt 22>><<audio ":back" mute>><<audio "fashion" volume 0.1 loop play>><<if ndef $fashionshop>>You go into the store. It is all full with colors, such as blue, pink, red and so. All you see is women underwear surrounding you. After a few seconds wandering around, one of the dependants approaches you:
+
+<img src="passengers/dependant1.jpg" width="70%">
+
+<<speech "nobody" "''Dependant:''">>
+Hi sweetie, can I help you?<</speech>>
+<<speech "You" "''You:''">>
+Umm... no, I was just looking.<</speech>>
+She looks at you with a condescending smile.
+
+<<speech "nobody" "''Dependant:''">>
+Are you looking at... panties?<</speech>>
+<<speech "You" "''You:''">>
+ *your face turns red* No, I'm just... looking for men's underwear.<</speech>>
+<<speech "nobody" "''Dependant:''">>
+Hm... well, we don't have men's clothing here, this is an all women fashion shop. I guess these panties over here are kind of similar to some briefs. They are not designed for men, but in your case... they could do the trick. Tell me when you decide, sweetheart.<</speech>>
+As embarrased as you are right now, you know that if you don't wear some other underwear next week, Cherry could get mad. And who knows what these crazy women could do to you if that happens...
+
+[[Choose clothes|Fashion Boutique][$fashionshop to 0]]<<elseif $fashionshop is 0>><span class="fade-ins"><<nobr>><<set $fdependant to 1>><<if $fdependant is 1>><img src="passengers/dependant2.jpg" width="70%"><<elseif $fdependant is 2>><img src="passengers/dependant3.jpg" width="75%"><</if>><</nobr>>
+
+<<if $fdependant is 1>><<speech "nobody" "''Dependant:''">>
+Hi gurl, are you getting something?<</speech>><<elseif $fdependant is 2>><<speech "nobody" "''Dependant:''">>
+Hi sweetiepie, can I help you, pretty face?<</speech>><</if>></span>
+
+<div class="leftcolumn"><div class="red"><span class="imgpop under2"><<nobr>><<if $buyunder2 is true>><<linkreplace "Cotton panties">>You already have a pair<</linkreplace>><<else>><<if $points gte 60>><<click "Cotton panties" "Fashion Boutique">><<set $points to $points - 60>><<set $buyunder2 to true>><<if $fashionshop is 0>><<set $fashionshop to 1>><<else>><</if>><</click>><<else>>Cotton panties<</if>><</if>><</nobr>></span></div>Cost: 60 points per unit.
+
+<div class="red"><span class="imgpop upper2"><<nobr>><<if $buyupper2 is true>><<linkreplace "Cute dress">>You already have one<</linkreplace>><<else>><<if $points gte 120>><<if $bdress is true>><<linkreplace "Cute dress">>Not ready for that yet<</linkreplace>><<else>><<click "Cute dress">><<set $buyupper2 to true>><<set $points to $points -120>><<goto "Fashion Boutique">><</click>><</if>><<else>>Cute dress<</if>><</if>><</nobr>></span></div>Cost: 120 points per unit.
+
+<div class="red"><span class="imgpop upper3"><<nobr>><<if $buyupper3 is true>><<linkreplace "Party dress">>You already have one<</linkreplace>><<else>><<if $points gte 200>><<if $bpdress is true>><<linkreplace "Party dress">>Not ready for that yet<</linkreplace>><<else>><<click "Party dress">><<set $buyupper3 to true>><<set $points to $points -200>><<goto "Fashion Boutique">><</click>><</if>><<else>>Party dress<</if>><</if>><</nobr>></span></div>Cost: 200 points per unit.
+
+<div class="red"><span class="imgpop upper0"><<nobr>><<if $buyupper0 is true>><<linkreplace "Swimsuit">>You already have one<</linkreplace>><<else>><<if $points gte 80>><<if $bswim is true>><<linkreplace "Swimsuit">>Why would I do that?<</linkreplace>><<else>><<click "Swimsuit">><<set $buyupper0 to true>><<set $inpool to 2>><<set $ssuit to 1>><<set $swimwear to true>><<set $points to $points -80>><<goto "Fashion Boutique">><</click>><</if>><<else>>Swimsuit<</if>><</if>><</nobr>></span></div>Cost: 80 points per unit.</div><div class="rightcolumn"><div class="red"><span class="imgpop upper4"><<nobr>><<if $buyupper4 is true>><<linkreplace "Elegant dress">>You already have one<</linkreplace>><<else>><<if $points gte 250>><<if $bedress is true>><<linkreplace "Elegant dress">>Not ready for that yet<</linkreplace>><<else>><<click "Elegant dress">><<set $buyupper4 to true>><<set $points to $points -250>><<goto "Fashion Boutique">><</click>><</if>><<else>>Elegant dress<</if>><</if>><</nobr>></span></div>Cost: 250 points per unit.
+
+<div class="red"><span class="imgpop redflats"><<nobr>><<if $buyshoe2 is true>><<linkreplace "Red flats">>You already have one<</linkreplace>><<else>><<if $points gte 150>><<if $bflats is true>><<linkreplace "Red flats">>Not ready for that yet<</linkreplace>><<else>><<click "Red flats">><<set $buyshoe2 to true>><<set $points to $points -150>><<goto "Fashion Boutique">><</click>><</if>><<else>>Red flats<</if>><</if>><</nobr>></span></div>Cost: 150 points per unit.
+
+<div class="red"><span class="imgpop pinkheels"><<nobr>><<if $buyshoe3 is true>><<linkreplace "High heels">>You already have a pair<</linkreplace>><<else>><<if $points gte 300>><<if $bhheels is true>><<linkreplace "High heels">>Not ready for that yet<</linkreplace>><<else>><<click "High heels">><<set $buyshoe3 to true>><<set $points to $points -300>><<goto "Fashion Boutique">><</click>><</if>><<else>>High heels<</if>><</if>><</nobr>></span></div>Cost: 300 points per unit.</div>
+
+<<click "Return" "Deck 4">><<audio "fashion" stop>><</click>><<elseif $fashionshop is 1>><<speech "You" "''You:''">>
+I... I think I'll take these ones.<</speech>>
+<<speech "nobody" "''Dependant:''">>
+Plain panties? Hm... a bit boring, don't you think? *winks*<</speech>>
+Swiftly, she grabs the panties and charges them.
+
+<<speech "nobody" "''Dependant:''">>
+All done! Don't hesitate to come back and try some more of our products.<</speech>>
+ ''*You received panties*''
+
+<<click "Return" "Deck 4">><<set $fashionshop to 2, $dress1 to "1/2 done">><<audio "fashion" stop>><</click>><<elseif $fashionshop is 2>><span class="fade-ins"><<nobr>><<set $fdependant to random (1,2)>><<if $fdependant is 1>><img src="passengers/dependant2.jpg" width="70%"><<elseif $fdependant is 2>><img src="passengers/dependant3.jpg" width="75%"><</if>><</nobr>>
+
+<<if $fdependant is 1>><<speech "nobody" "''Dependant:''">>
+Hi gurl, are you getting something?<</speech>><<elseif $fdependant is 2>><<speech "nobody" "''Dependant:''">>
+Hi sweetiepie, can I help you, pretty face?<</speech>><</if>></span>
+
+<div class="leftcolumn"><div class="red"><span class="imgpop under2"><<nobr>><<if $buyunder2 is true>><<linkreplace "Cotton panties">>You already have a pair<</linkreplace>><<else>><<if $points gte 60>><<click "Cotton panties" "Fashion Boutique">><<set $points to $points - 60>><<set $buyunder2 to true>><<if $fashionshop is 0>><<set $fashionshop to 1>><<else>><</if>><</click>><<else>>Cotton panties<</if>><</if>><</nobr>></span></div>Cost: 60 points per unit.
+
+<div class="red"><span class="imgpop upper2"><<nobr>><<if $buyupper2 is true>><<linkreplace "Cute dress">>You already have one<</linkreplace>><<else>><<if $points gte 120>><<if $bdress is true>><<linkreplace "Cute dress">>Not ready for that yet<</linkreplace>><<else>><<click "Cute dress">><<set $buyupper2 to true>><<set $points to $points -120>><<goto "Fashion Boutique">><</click>><</if>><<else>>Cute dress<</if>><</if>><</nobr>></span></div>Cost: 120 points per unit.
+
+<div class="red"><span class="imgpop upper3"><<nobr>><<if $buyupper3 is true>><<linkreplace "Party dress">>You already have one<</linkreplace>><<else>><<if $points gte 200>><<if $bpdress is true>><<linkreplace "Party dress">>Not ready for that yet<</linkreplace>><<else>><<click "Party dress">><<set $buyupper3 to true>><<set $points to $points -200>><<goto "Fashion Boutique">><</click>><</if>><<else>>Party dress<</if>><</if>><</nobr>></span></div>Cost: 200 points per unit.
+
+<div class="red"><span class="imgpop upper0"><<nobr>><<if $buyupper0 is true>><<linkreplace "Swimsuit">>You already have one<</linkreplace>><<else>><<if $points gte 80>><<if $bswim is true>><<linkreplace "Swimsuit">>Not ready for that yet<</linkreplace>><<else>><<click "Swimsuit">><<set $buyupper0 to true>><<set $swimwear to true>><<set $inpool to 2>><<set $ssuit to 1>><<set $points to $points -80>><<goto "Fashion Boutique">><</click>><</if>><<else>>Swimsuit<</if>><</if>><</nobr>></span></div>Cost: 80 points per unit.</div><div class="rightcolumn"><div class="red"><span class="imgpop upper4"><<nobr>><<if $buyupper4 is true>><<linkreplace "Elegant dress">>You already have one<</linkreplace>><<else>><<if $points gte 250>><<if $bedress is true>><<linkreplace "Elegant dress">>Not ready for that yet<</linkreplace>><<else>><<click "Elegant dress">><<set $buyupper4 to true>><<set $points to $points -250>><<goto "Fashion Boutique">><</click>><</if>><<else>>Elegant dress<</if>><</if>><</nobr>></span></div>Cost: 250 points per unit.
+
+<div class="red"><span class="imgpop redflats"><<nobr>><<if $buyshoe2 is true>><<linkreplace "Red flats">>You already have one<</linkreplace>><<else>><<if $points gte 150>><<if $bflats is true>><<linkreplace "Red flats">>Not ready for that yet<</linkreplace>><<else>><<click "Red flats">><<set $buyshoe2 to true>><<set $points to $points -150>><<goto "Fashion Boutique">><</click>><</if>><<else>>Red flats<</if>><</if>><</nobr>></span></div>Cost: 150 points per unit.
+
+<div class="red"><span class="imgpop pinkheels"><<nobr>><<if $buyshoe3 is true>><<linkreplace "High heels">>You already have a pair<</linkreplace>><<else>><<if $points gte 300>><<if $bhheels>><<linkreplace "High heels">>Not ready for that yet<</linkreplace>><<else>><<click "High heels">><<set $buyshoe3 to true>><<set $points to $points -300>><<goto "Fashion Boutique">><</click>><</if>><<else>>High heels<</if>><</if>><</nobr>></span></div>Cost: 300 points per unit.</div>
+
+
+
+
+<<click "Return" "Deck 4">><<audio "fashion" stop>><</click>><</if>><<else>><img src="places2/closed.jpg" width="60%">
+
+//''Open everyday (8:00-22:00)''//
+
+[[Return|Deck 4]]<</if>><</if>>
+
+
+<<nobr>><<if $gameDate.getHours() is 0 or $gameDate.getHours() lt 8>><<goto [[Dreams]]>><<else>><</if>><</nobr>><<audio "menus" stop>>
+
+

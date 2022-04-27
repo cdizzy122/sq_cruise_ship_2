@@ -1,0 +1,176 @@
+:: StoryCaption
+''//Music://'' <<nobr>><<if ndef $mute>><span class="muteoff"><<link "Mute🔇" `passage()`>>
+	<<script>>
+	Dialog.setup('Mute music');
+	Dialog.wiki(Story.get('Mute music').processText().trim());
+	Dialog.open();
+	<</script>><<script>>state.display(state.active.title, null, "back")<</script>>
+<<audio ":music" mute>><<set $mute to 1>><</link>></span><<else>><span class="muteon"><<link "Mute🔇" `passage()`>>
+	<<script>>
+	Dialog.setup('Mute music');
+	Dialog.wiki(Story.get('Mute music').processText().trim());
+	Dialog.open();
+	<</script>><<script>>state.display(state.active.title, null, "back")<</script>>
+<<audio ":music" mute>><<set $mute to 1>><</link>></span><</if>><</nobr>> | <<nobr>><<if ndef $mute>><span class="muteon"><<link "Unmute🔊" `passage()`>>
+	<<script>>
+	Dialog.setup('Unmute music');
+	Dialog.wiki(Story.get('Unmute music').processText().trim());
+	Dialog.open();
+	<</script>><<script>>state.display(state.active.title, null, "back")<</script>>
+<<audio ":music" unmute>><<unset $mute>><</link>></span><<else>><span class="muteoff"><<link "Unmute🔊" `passage()`>>
+	<<script>>
+	Dialog.setup('Unmute music');
+	Dialog.wiki(Story.get('Unmute music').processText().trim());
+	Dialog.open();
+	<</script>><<script>>state.display(state.active.title, null, "back")<</script>>
+<<audio ":music" unmute>><<unset $mute>><</link>></span><</if>><</nobr>>
+''//FXs://'' <<nobr>><<if ndef $mutefx>><span class="muteoff"><<link "Mute🔇" `passage()`>> 
+	<<script>>
+	Dialog.setup('Mute fx');
+	Dialog.wiki(Story.get('Mute fx').processText().trim());
+	Dialog.open();
+	<</script>>
+<<audio ":fx" mute>><<set $mutefx to 1>><</link>></span><<else>><span class="muteon"><<link "Mute🔇" `passage()`>> 
+	<<script>>
+	Dialog.setup('Mute fx');
+	Dialog.wiki(Story.get('Mute fx').processText().trim());
+	Dialog.open();
+	<</script>>
+<<audio ":fx" mute>><<set $mutefx to 1>><</link>></span><</if>><</nobr>> | <<nobr>><<if ndef $mutefx>><span class="muteon"><<link "Unmute🔊" `passage()`>>
+	<<script>>
+	Dialog.setup('Unmutefx');
+	Dialog.wiki(Story.get('Unmute fx').processText().trim());
+	Dialog.open();
+	<</script>>
+<<audio ":fx" unmute>><<unset $mutefx>><</link>></span><<else>><span class="muteoff"><<link "Unmute🔊" `passage()`>>
+	<<script>>
+	Dialog.setup('Unmutefx');
+	Dialog.wiki(Story.get('Unmute fx').processText().trim());
+	Dialog.open();
+	<</script>>
+<<audio ":fx" unmute>><<unset $mutefx>><</link>></span><</if>><</nobr>>
+
+<<if ndef $dayn>><<else>>''<<showday>>''<</if>><<if ndef $noshit>><<else>><span class="statedit"><<if $calendario is true>>''Date:'' <<date>>
+''Time:'' <<time24h>><<else>><</if>></span><</if>>
+<<nobr>><<if $logstart is true>><span class="log"><<if $badge lte -1>>[[Quest Log]]<<elseif $badge is 0>><span class="badge1" data-badge="1">[[Quest Log]]</span><<elseif $badge is 1>><span class="badge1" data-badge="2">[[Quest Log]]</span><<elseif $badge is 2>><span class="badge1" data-badge="3">[[Quest Log]]</span><<elseif $badge is 3>><span class="badge1" data-badge="4">[[Quest Log]]</span><<elseif $badge is 4>><span class="badge1" data-badge="5">[[Quest Log]]</span><<elseif $badge is 5>><span class="badge1" data-badge="6">[[Quest Log]]</span><<elseif $badge is 6>><span class="badge1" data-badge="7">[[Quest Log]]</span><<elseif $badge is 6>><span class="badge1" data-badge="7">[[Quest Log]]</span><<elseif $badge is 7>><span class="badge1" data-badge="8">[[Quest Log]]</span><<elseif $badge is 8>><span class="badge1" data-badge="9">[[Quest Log]]</span><<elseif $badge is 9>><span class="badge1" data-badge="10">[[Quest Log]]</span><<elseif $badge is 10>><span class="badge1" data-badge="11">[[Quest Log]]</span><<elseif $badge is 11>><span class="badge1" data-badge="12">[[Quest Log]]</span><<elseif $badge is 12>><span class="badge1" data-badge="13">[[Quest Log]]</span><<elseif $badge is 13>><span class="badge1" data-badge="14">[[Quest Log]]</span><<elseif $badge is 14>><span class="badge1" data-badge="15">[[Quest Log]]</span><<elseif $badge is 15>><span class="badge1" data-badge="16">[[Quest Log]]</span><<elseif $badge is 16>><span class="badge1" data-badge="17">[[Quest Log]]</span><<elseif $badge is 17>><span class="badge1" data-badge="18">[[Quest Log]]</span><<elseif $badge is 18>><span class="badge1" data-badge="19">[[Quest Log]]</span><<elseif $badge is 19>><span class="badge1" data-badge="20">[[Quest Log]]</span><<elseif $badge gte 20>><span class="badge1" data-badge="21">[[Quest Log]]</span><</if>></span><<else>><</if>><</nobr>>
+<<if $showstats is true>>
+<<nobr>><a data-passage="Schedule" class="specialeffects"><img src="stuff/schedule.jpg" width="50%"></a><area shape="rect" coords="25,25,75,75" data-passage="Schedule"><</nobr>>
+
+<span class="statedit"><div class="center">Points: <<print $points>> / //Goal: <<if $dayn lte 6>>800<<elseif $dayn gt 6 and $dayn lte 13>>900<<elseif $dayn gt 13 and $dayn lte 20>>1000<<elseif $dayn gt 20 and $dayn lte 27>>1100<<elseif $dayn gt 27>>1200<</if>>//</div></span>
+<span class="statedit"><div class="center">Nutrition:
+<<nobr>><<if $hunger is 100>><div class="meter"><span style="width: 100%"></span></div><<elseif $hunger is 80>><div class="meter"><span style="width: 80%"></span></div><<elseif $hunger is 60>><div class="meter"><span style="width: 60%"></span></div><<elseif $hunger is 40>><div class="meter"><span style="width: 40%"></span></div><<elseif $hunger is 20>><div class="meter"><span style="width: 20%"></span></div><<elseif $hunger lte 0>><div class="meter"><span style="width: 0%"></span></div><</if>><<if $hunger lte 0>>Too hungry to protest<<else>><</if>><<if $hunger isnot 0 and $hunger isnot 20 and $hunger isnot 40 and $hunger isnot 60 and $hunger isnot 80 and $hunger isnot 100>><<set $hunger to 0>><<else>><</if>><</nobr>></div></span><span class="statedit"><div class="tinyletter"><<nobr>><<if $int is 100>><span class="iqback">''IQ Points''<div class="meterstatiq"><span style="width:55%"><span>''<<print $int>> IQ''</span></span></div></span>
+<<elseif $int gt 100 and $int lte 105>><span class="iqback">''IQ Points''<div class="meterstatiq"><span style="width:60%"><span>''<<print $int>> IQ''</span></span></div></span>
+<<elseif $int gt 105 and $int lte 110>><span class="iqback">''IQ Points''<div class="meterstatiq"><span style="width:65%"><span>''<<print $int>> IQ''</span></span></div></span>
+<<elseif $int gt 110 and $int lte 115>><span class="iqback">''IQ Points''<div class="meterstatiq"><span style="width:70%"><span>''<<print $int>> IQ''</span></span></div></span>
+<<elseif $int gt 115 and $int lte 120>><span class="iqback">''IQ Points''<div class="meterstatiq"><span style="width:75%"><span>''<<print $int>> IQ''</span></span></div></span>
+<<elseif $int gt 120 and $int lte 125>><span class="iqback">''IQ Points''<div class="meterstatiq"><span style="width:80%"><span>''<<print $int>> IQ''</span></span></div></span>
+<<elseif $int gt 125 and $int lte 130>><span class="iqback">''IQ Points''<div class="meterstatiq"><span style="width:85%"><span>''<<print $int>> IQ''</span></span></div></span>
+<<elseif $int gt 130 and $int lte 135>><span class="iqback">''IQ Points''<div class="meterstatiq"><span style="width:90%"><span>''<<print $int>> IQ''</span></span></div></span>
+<<elseif $int gt 130 and $int lte 135>><span class="iqback">''IQ Points''<div class="meterstatiq"><span style="width:95%"><span>''<<print $int>> IQ''</span></span></div></span>
+<<elseif $int gt 135>><span class="iqback">''IQ Points''<div class="meterstatiq"><span style="width:100%"><span>''<<print $int>> IQ''</span></span></div></span>
+<<elseif $int lt 100 and $int gte 95>><span class="iqback">''IQ Points''<div class="meterstatiq"><span style="width:50%"><span>''<<print $int>> IQ''</span></span></div></span>
+<<elseif $int lt 95 and $int gte 90>><span class="iqback">''IQ Points''<div class="meterstatiq"><span style="width:45%"><span>''<<print $int>> IQ''</span></span></div></span>
+<<elseif $int lt 90 and $int gte 85>><span class="iqback">''IQ Points''<div class="meterstatiq"><span style="width:40%"><span>''<<print $int>> IQ''</span></span></div></span>
+<<elseif $int lt 85 and $int gte 80>><span class="iqback">''IQ Points''<div class="meterstatiq"><span style="width:35%"><span>''<<print $int>> IQ''</span></span></div></span>
+<<elseif $int lt 80 and $int gte 75>><span class="iqback">''IQ Points''<div class="meterstatiq"><span style="width:30%"><span>''<<print $int>> IQ''</span></span></div></span>
+<<elseif $int lt 75 and $int gte 70>><span class="iqback">''IQ Points''<div class="meterstatiq"><span style="width:25%"><span>''<<print $int>> IQ''</span></span></div></span>
+<<elseif $int lt 70 and $int gte 65>><span class="iqback">''IQ Points''<div class="meterstatiq"><span style="width:20%"><span>''<<print $int>> IQ''</span></span></div></span>
+<<elseif $int lt 65>><span class="iqback">''IQ Points''<div class="meterstatiq"><span style="width:15%"><span>''<<print $int>> IQ''</span></span></div></span>
+<</if>><</nobr>><<nobr>><<if $fit lte 3>><span class="fitback"><div class="black">''Fitness''</div><div class="meterstatfit"><span style="width:10%"><span>''<<print $fit>>''</span></span></div></span>
+<<elseif $fit gt 3 and $fit lte 6>><span class="fitback"><div class="black">''Fitness''</div><div class="meterstatfit"><span style="width:15%"><span>''<<print $fit>>''</span></span></div></span>
+<<elseif $fit gt 6 and $fit lte 9>><span class="fitback"><div class="black">''Fitness''</div><div class="meterstatfit"><span style="width:20%"><span>''<<print $fit>>''</span></span></div></span>
+<<elseif $fit gt 9 and $fit lte 12>><span class="fitback"><div class="black">''Fitness''</div><div class="meterstatfit"><span style="width:25%"><span>''<<print $fit>>''</span></span></div></span>
+<<elseif $fit gt 12 and $fit lte 15>><span class="fitback"><div class="black">''Fitness''</div><div class="meterstatfit"><span style="width:30%"><span>''<<print $fit>>''</span></span></div></span>
+<<elseif $fit gt 15 and $fit lte 18>><span class="fitback"><div class="black">''Fitness''</div><div class="meterstatfit"><span style="width:35%"><span>''<<print $fit>>''</span></span></div></span>
+<<elseif $fit gt 18 and $fit lte 21>><span class="fitback"><div class="black">''Fitness''</div><div class="meterstatfit"><span style="width:40%"><span>''<<print $fit>>''</span></span></div></span>
+<<elseif $fit gt 21 and $fit lte 24>><span class="fitback"><div class="black">''Fitness''</div><div class="meterstatfit"><span style="width:45%"><span>''<<print $fit>>''</span></span></div></span>
+<<elseif $fit gt 24 and $fit lte 27>><span class="fitback"><div class="black">''Fitness''</div><div class="meterstatfit"><span style="width:50%"><span>''<<print $fit>>''</span></span></div></span>
+<<elseif $fit gt 27 and $fit lte 30>><span class="fitback"><div class="black">''Fitness''</div><div class="meterstatfit"><span style="width:55%"><span>''<<print $fit>>''</span></span></div></span>
+<<elseif $fit gt 30 and $fit lte 33>><span class="fitback"><div class="black">''Fitness''</div><div class="meterstatfit"><span style="width:60%"><span>''<<print $fit>>''</span></span></div></span>
+<<elseif $fit gt 33 and $fit lte 36>><span class="fitback"><div class="black">''Fitness''</div><div class="meterstatfit"><span style="width:65%"><span>''<<print $fit>>''</span></span></div></span>
+<<elseif $fit gt 36 and $fit lte 39>><span class="fitback"><div class="black">''Fitness''</div><div class="meterstatfit"><span style="width:70%"><span>''<<print $fit>>''</span></span></div></span>
+<<elseif $fit gt 39 and $fit lte 42>><span class="fitback"><div class="black">''Fitness''</div><div class="meterstatfit"><span style="width:75%"><span>''<<print $fit>>''</span></span></div></span>
+<<elseif $fit gt 42 and $fit lte 45>><span class="fitback"><div class="black">''Fitness''</div><div class="meterstatfit"><span style="width:80%"><span>''<<print $fit>>''</span></span></div></span>
+<<elseif $fit gt 45 and $fit lte 48>><span class="fitback"><div class="black">''Fitness''</div><div class="meterstatfit"><span style="width:85%"><span>''<<print $fit>>''</span></span></div></span>
+<<elseif $fit gt 48 and $fit lte 51>><span class="fitback"><div class="black">''Fitness''</div><div class="meterstatfit"><span style="width:90%"><span>''<<print $fit>>''</span></span></div></span>
+<<elseif $fit gt 51 and $fit lte 54>><span class="fitback"><div class="black">''Fitness''</div><div class="meterstatfit"><span style="width:95%"><span>''<<print $fit>>''</span></span></div></span>
+<<elseif $fit gt 54 and $fit lte 57>><span class="fitback"><div class="black">''Fitness''</div><div class="meterstatfit"><span style="width:100%"><span>''<<print $fit>>''</span></span></div></span>
+<<elseif $fit gt 57>><span class="fitback"><div class="black">''Fitness''</div><div class="meterstatfit"><span style="width:100%"><span>''<<print $fit>>''</span></span></div></span><</if>><</nobr>><<nobr>><<if $sub lte 3>><span class="subback"><div class="black">''Dom/Sub''</div><div class="meterstatsub"><span style="width:10%"><span>''<<print $sub>>''</span></span></div></span>
+<<elseif $sub gt 3 and $sub lte 6>><span class="subback"><div class="black">''Dom/Sub''</div><div class="meterstatsub"><span style="width:15%"><span>''<<print $sub>>''</span></span></div></span>
+<<elseif $sub gt 6 and $sub lte 9>><span class="subback"><div class="black">''Dom/Sub''</div><div class="meterstatsub"><span style="width:20%"><span>''<<print $sub>>''</span></span></div></span>
+<<elseif $sub gt 9 and $sub lte 12>><span class="subback"><div class="black">''Dom/Sub''</div><div class="meterstatsub"><span style="width:25%"><span>''<<print $sub>>''</span></span></div></span>
+<<elseif $sub gt 12 and $sub lte 15>><span class="subback"><div class="black">''Dom/Sub''</div><div class="meterstatsub"><span style="width:30%"><span>''<<print $sub>>''</span></span></div></span>
+<<elseif $sub gt 15 and $sub lte 18>><span class="subback"><div class="black">''Dom/Sub''</div><div class="meterstatsub"><span style="width:35%"><span>''<<print $sub>>''</span></span></div></span>
+<<elseif $sub gt 18 and $sub lte 21>><span class="subback"><div class="black">''Dom/Sub''</div><div class="meterstatsub"><span style="width:40%"><span>''<<print $sub>>''</span></span></div></span>
+<<elseif $sub gt 21 and $sub lte 24>><span class="subback"><div class="black">''Dom/Sub''</div><div class="meterstatsub"><span style="width:45%"><span>''<<print $sub>>''</span></span></div></span>
+<<elseif $sub gt 24 and $sub lte 27>><span class="subback"><div class="black">''Dom/Sub''</div><div class="meterstatsub"><span style="width:50%"><span>''<<print $sub>>''</span></span></div></span>
+<<elseif $sub gt 27 and $sub lte 30>><span class="subback"><div class="black">''Dom/Sub''</div><div class="meterstatsub"><span style="width:55%"><span>''<<print $sub>>''</span></span></div></span>
+<<elseif $sub gt 30 and $sub lte 33>><span class="subback"><div class="black">''Dom/Sub''</div><div class="meterstatsub"><span style="width:60%"><span>''<<print $sub>>''</span></span></div></span>
+<<elseif $sub gt 33 and $sub lte 36>><span class="subback"><div class="black">''Dom/Sub''</div><div class="meterstatsub"><span style="width:65%"><span>''<<print $sub>>''</span></span></div></span>
+<<elseif $sub gt 36 and $sub lte 39>><span class="subback"><div class="black">''Dom/Sub''</div><div class="meterstatsub"><span style="width:70%"><span>''<<print $sub>>''</span></span></div></span>
+<<elseif $sub gt 39 and $sub lte 42>><span class="subback"><div class="black">''Dom/Sub''</div><div class="meterstatsub"><span style="width:75%"><span>''<<print $sub>>''</span></span></div></span>
+<<elseif $sub gt 42 and $sub lte 45>><span class="subback"><div class="black">''Dom/Sub''</div><div class="meterstatsub"><span style="width:80%"><span>''<<print $sub>>''</span></span></div></span>
+<<elseif $sub gt 45 and $sub lte 48>><span class="subback"><div class="black">''Dom/Sub''</div><div class="meterstatsub"><span style="width:85%"><span>''<<print $sub>>''</span></span></div></span>
+<<elseif $sub gt 48 and $sub lte 51>><span class="subback"><div class="black">''Dom/Sub''</div><div class="meterstatsub"><span style="width:90%"><span>''<<print $sub>>''</span></span></div></span>
+<<elseif $sub gt 51 and $sub lte 54>><span class="subback"><div class="black">''Dom/Sub''</div><div class="meterstatsub"><span style="width:95%"><span>''<<print $sub>>''</span></span></div></span>
+<<elseif $sub gt 54 and $sub lte 58>><span class="subback"><div class="black">''Dom/Sub''</div><div class="meterstatsub"><span style="width:100%"><span>''<<print $sub>>''</span></span></div></span>
+<<elseif $sub gt 58>><span class="subback"><div class="black">''Dom/Sub''</div><div class="meterstatsub"><span style="width:100%"><span>''<<print $sub>>''</span></span></div></span><</if>><</nobr>><<nobr>><<if $fem lte 3>><span class="femback">''Feminization''<div class="meterstatfem"><span style="width:10%"><span>''<<print $fem>>''</span></span></div></span>
+<<elseif $fem gt 3 and $fem lte 6>><span class="femback">''Feminization''<div class="meterstatfem"><span style="width:15%"><span>''<<print $fem>>''</span></span></div></span>
+<<elseif $fem gt 6 and $fem lte 9>><span class="femback">''Feminization''<div class="meterstatfem"><span style="width:20%"><span>''<<print $fem>>''</span></span></div></span>
+<<elseif $fem gt 9 and $fem lte 12>><span class="femback">''Feminization''<div class="meterstatfem"><span style="width:25%"><span>''<<print $fem>>''</span></span></div></span>
+<<elseif $fem gt 12 and $fem lte 15>><span class="femback">''Feminization''<div class="meterstatfem"><span style="width:30%"><span>''<<print $fem>>''</span></span></div></span>
+<<elseif $fem gt 15 and $fem lte 18>><span class="femback">''Feminization''<div class="meterstatfem"><span style="width:35%"><span>''<<print $fem>>''</span></span></div></span>
+<<elseif $fem gt 18 and $fem lte 21>><span class="femback">''Feminization''<div class="meterstatfem"><span style="width:40%"><span>''<<print $fem>>''</span></span></div></span>
+<<elseif $fem gt 21 and $fem lte 24>><span class="femback">''Feminization''<div class="meterstatfem"><span style="width:45%"><span>''<<print $fem>>''</span></span></div></span>
+<<elseif $fem gt 24 and $fem lte 27>><span class="femback">''Feminization''<div class="meterstatfem"><span style="width:50%"><span>''<<print $fem>>''</span></span></div></span>
+<<elseif $fem gt 27 and $fem lte 30>><span class="femback">''Feminization''<div class="meterstatfem"><span style="width:55%"><span>''<<print $fem>>''</span></span></div></span>
+<<elseif $fem gt 30 and $fem lte 33>><span class="femback">''Feminization''<div class="meterstatfem"><span style="width:60%"><span>''<<print $fem>>''</span></span></div></span>
+<<elseif $fem gt 33 and $fem lte 36>><span class="femback">''Feminization''<div class="meterstatfem"><span style="width:65%"><span>''<<print $fem>>''</span></span></div></span>
+<<elseif $fem gt 36 and $fem lte 39>><span class="femback">''Feminization''<div class="meterstatfem"><span style="width:70%"><span>''<<print $fem>>''</span></span></div></span>
+<<elseif $fem gt 39 and $fem lte 42>><span class="femback">''Feminization''<div class="meterstatfem"><span style="width:75%"><span>''<<print $fem>>''</span></span></div></span>
+<<elseif $fem gt 42 and $fem lte 45>><span class="femback">''Feminization''<div class="meterstatfem"><span style="width:80%"><span>''<<print $fem>>''</span></span></div></span>
+<<elseif $fem gt 45 and $fem lte 48>><span class="femback">''Feminization''<div class="meterstatfem"><span style="width:85%"><span>''<<print $fem>>''</span></span></div></span>
+<<elseif $fem gt 48 and $fem lte 51>><span class="femback">''Feminization''<div class="meterstatfem"><span style="width:90%"><span>''<<print $fem>>''</span></span></div></span>
+<<elseif $fem gt 51 and $fem lte 54>><span class="femback">''Feminization''<div class="meterstatfem"><span style="width:95%"><span>''<<print $fem>>''</span></span></div></span>
+<<elseif $fem gt 54>><span class="femback">''Feminization''<div class="meterstatfem"><span style="width:100%"><span>''<<print $fem>>''</span></span></div></span>
+<</if>><</nobr>>--
+<<nobr>><<if $lust gte 0 and $lust lt 10>><span class="lustback">''Lust''<div class="meterstatlust"><span style="width:10%"><span>''<<print $lust>>%''</span></span></div></span>
+<<elseif $lust gte 10 and $lust lt 15>><span class="lustback">''Lust''<div class="meterstatlust"><span style="width:15%"><span>''<<print $lust>>%''</span></span></div></span>
+<<elseif $lust gte 15 and $lust lt 20>><span class="lustback">''Lust''<div class="meterstatlust"><span style="width:20%"><span>''<<print $lust>>%''</span></span></div></span>
+<<elseif $lust gte 20 and $lust lt 25>><span class="lustback">''Lust''<div class="meterstatlust"><span style="width:25%"><span>''<<print $lust>>%''</span></span></div></span>
+<<elseif $lust gte 25 and $lust lt 30>><span class="lustback">''Lust''<div class="meterstatlust"><span style="width:30%"><span>''<<print $lust>>%''</span></span></div></span>
+<<elseif $lust gte 30 and $lust lt 35>><span class="lustback">''Lust''<div class="meterstatlust"><span style="width:35%"><span>''<<print $lust>>%''</span></span></div></span>
+<<elseif $lust gte 35 and $lust lt 40>><span class="lustback">''Lust''<div class="meterstatlust"><span style="width:40%"><span>''<<print $lust>>%''</span></span></div></span>
+<<elseif $lust gte 40 and $lust lt 45>><span class="lustback">''Lust''<div class="meterstatlust"><span style="width:45%"><span>''<<print $lust>>%''</span></span></div></span>
+<<elseif $lust gte 45 and $lust lt 50>><span class="lustback">''Lust''<div class="meterstatlust"><span style="width:50%"><span>''<<print $lust>>%''</span></span></div></span>
+<<elseif $lust gte 50 and $lust lt 55>><span class="lustback">''Lust''<div class="meterstatlust"><span style="width:55%"><span>''<<print $lust>>%''</span></span></div></span>
+<<elseif $lust gte 55 and $lust lt 60>><span class="lustback">''Lust''<div class="meterstatlust"><span style="width:60%"><span>''<<print $lust>>%''</span></span></div></span>
+<<elseif $lust gte 60 and $lust lt 65>><span class="lustback">''Lust''<div class="meterstatlust"><span style="width:65%"><span>''<<print $lust>>%''</span></span></div></span>
+<<elseif $lust gte 65 and $lust lt 70>><span class="lustback">''Lust''<div class="meterstatlust"><span style="width:70%"><span>''<<print $lust>>%''</span></span></div></span>
+<<elseif $lust gte 70 and $lust lt 75>><span class="lustback">''Lust''<div class="meterstatlust"><span style="width:75%"><span>''<<print $lust>>%''</span></span></div></span>
+<<elseif $lust gte 75 and $lust lt 80>><span class="lustback">''Lust''<div class="meterstatlust"><span style="width:80%"><span>''<<print $lust>>%''</span></span></div></span>
+<<elseif $lust gte 80 and $lust lt 85>><span class="lustback">''Lust''<div class="meterstatlust"><span style="width:85%"><span>''<<print $lust>>%''</span></span></div></span>
+<<elseif $lust gte 85 and $lust lt 90>><span class="lustback">''Lust''<div class="meterstatlust"><span style="width:90%"><span>''<<print $lust>>%''</span></span></div></span>
+<<elseif $lust gte 90 and $lust lt 95>><span class="lustback">''Lust''<div class="meterstatlust"><span style="width:95%"><span>''<<print $lust>>%''</span></span></div></span>
+<<elseif $lust gte 95 and $lust lte 100>><span class="lustback">''Lust''<div class="meterstatlust"><span style="width:100%"><span>''<<print $lust>>%''</span></span></div></span><</if>><<if $stress gte 0 and $stress lt 10>><span class="stressback">''Stress''<div class="meterstatstress"><span style="width:10%"><span>''<<print $stress>>%''</span></span></div></span>
+<<elseif $stress gte 10 and $stress lt 15>><span class="stressback">''Stress''<div class="meterstatstress"><span style="width:15%"><span>''<<print $stress>>%''</span></span></div></span>
+<<elseif $stress gte 15 and $stress lt 20>><span class="stressback">''Stress''<div class="meterstatstress"><span style="width:20%"><span>''<<print $stress>>%''</span></span></div></span>
+<<elseif $stress gte 20 and $stress lt 25>><span class="stressback">''Stress''<div class="meterstatstress"><span style="width:25%"><span>''<<print $stress>>%''</span></span></div></span>
+<<elseif $stress gte 25 and $stress lt 30>><span class="stressback">''Stress''<div class="meterstatstress"><span style="width:30%"><span>''<<print $stress>>%''</span></span></div></span>
+<<elseif $stress gte 30 and $stress lt 35>><span class="stressback">''Stress''<div class="meterstatstress"><span style="width:35%"><span>''<<print $stress>>%''</span></span></div></span>
+<<elseif $stress gte 35 and $stress lt 40>><span class="stressback">''Stress''<div class="meterstatstress"><span style="width:40%"><span>''<<print $stress>>%''</span></span></div></span>
+<<elseif $stress gte 40 and $stress lt 45>><span class="stressback">''Stress''<div class="meterstatstress"><span style="width:45%"><span>''<<print $stress>>%''</span></span></div></span>
+<<elseif $stress gte 45 and $stress lt 50>><span class="stressback">''Stress''<div class="meterstatstress"><span style="width:50%"><span>''<<print $stress>>%''</span></span></div></span>
+<<elseif $stress gte 50 and $stress lt 55>><span class="stressback">''Stress''<div class="meterstatstress"><span style="width:55%"><span>''<<print $stress>>%''</span></span></div></span>
+<<elseif $stress gte 55 and $stress lt 60>><span class="stressback">''Stress''<div class="meterstatstress"><span style="width:60%"><span>''<<print $stress>>%''</span></span></div></span>
+<<elseif $stress gte 60 and $stress lt 65>><span class="stressback">''Stress''<div class="meterstatstress"><span style="width:65%"><span>''<<print $stress>>%''</span></span></div></span>
+<<elseif $stress gte 65 and $stress lt 70>><span class="stressback">''Stress''<div class="meterstatstress"><span style="width:70%"><span>''<<print $stress>>%''</span></span></div></span>
+<<elseif $stress gte 70 and $stress lt 75>><span class="stressback">''Stress''<div class="meterstatstress"><span style="width:75%"><span>''<<print $stress>>%''</span></span></div></span>
+<<elseif $stress gte 75 and $stress lt 80>><span class="stressback">''Stress''<div class="meterstatstress"><span style="width:80%"><span>''<<print $stress>>%''</span></span></div></span>
+<<elseif $stress gte 80 and $stress lt 85>><span class="stressback">''Stress''<div class="meterstatstress"><span style="width:85%"><span>''<<print $stress>>%''</span></span></div></span>
+<<elseif $stress gte 85 and $stress lt 90>><span class="stressback">''Stress''<div class="meterstatstress"><span style="width:90%"><span>''<<print $stress>>%''</span></span></div></span>
+<<elseif $stress gte 90 and $stress lt 95>><span class="stressback">''Stress''<div class="meterstatstress"><span style="width:95%"><span>''<<print $stress>>%''</span></span></div></span>
+<<elseif $stress gte 95 and $stress lte 100>><span class="stressback">''Stress''<div class="meterstatstress"><span style="width:100%"><span>''<<print $stress>>%''</span></span></div></span><</if>><</nobr>>
+</div><</if>><<if $lust gte 100>><<set $lust to 100>><<else>><</if>><<if $hunger lte 0>><<set $hunger to 0>><<else>><</if>><<if $lust lte 0>><<set $lust to 0>><<else>><</if>><<if $stress lte 0>><<set $stress to 0>><<else>><</if>><<if $stress gte 100>><<set $stress to 100>><<else>><</if>><<if $points lt 0>><<set $points to 0>><<else>><</if>><<if $fitcount gt 2>><<set $fitcount to 2>><<else>><</if>><<if $fitcount lt 0>><<set $fitcount to 0>><<else>><</if>><<if $fit lt 0>><<set $fit to 0>><<else>><</if>><<if $sub lt 0>><<set $sub to 0>><<else>><</if>>
+
+

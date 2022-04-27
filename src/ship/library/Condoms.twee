@@ -1,0 +1,44 @@
+:: Condoms [noreturn] {"position":"158,1683","size":"100,100"}
+<<if $condoms is 1>><img src="clothes/trojanxl.png" width="50%">
+
+A box of 12 Trojan XL condoms (Length: ''8.07 inch.'' Width: ''2.48 inch.''). You've got ''<<print $trojancount>>'' left.
+
+<<if $usetrojan is true>>[[Use]]<<else>><<linkreplace "Use">>You can't use this right now...<</linkreplace>><</if>>
+
+\\<<elseif $condoms is 2>><img src="clothes/durex.png" width="50%">
+
+A box of 12 Durex XXL condoms (Length: ''9.5 inch.'' Width: ''2.56 inch.''). You've got ''<<print $durexcount>>'' left.
+
+<<if $usedurex is true>>[[Use]]<<else>><<linkreplace "Use">>You can't use this right now...<</linkreplace>><</if>>
+
+
+\\<<elseif $condoms is 3>><img src="clothes/mysize.png" width="50%">
+
+A box of 12 MEGA BIG BOY XL condoms (Length: ''10.5 inch.'' Width: ''2.97 inch.''). You've got ''<<print $mysizecount>>'' left.
+
+<<if $usemysize is true>>[[Use]]<<else>><<linkreplace "Use">>You can't use this right now...<</linkreplace>><</if>>
+
+
+
+\\<<elseif $condoms is 4>><img src="clothes/hotlube.png" width="50%">
+
+A bottle of hot sensation lube, perfect for foreplay or massages.
+
+[[Return|Inventory]]
+
+
+\\<<elseif $condoms is 5>><span class="noborder"><img src="clothes/silicone.png" width="20%"></span>
+
+A bottle of silicone based lube, perfect for anal sex.
+
+[[Return|Inventory]]
+
+
+\\<<elseif $condoms is 6>><img src="clothes/cockring.png" width="50%">
+
+An adjustable cockring, fits from average to thicker penises. It help mantaining the quality of the erection for longer periods of time.
+
+<<linkreplace "Use it on yourself">>It would fall right off...<</linkreplace>>
+[[Return|Inventory]]<</if>>
+
+

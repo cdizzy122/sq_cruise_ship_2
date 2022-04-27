@@ -1,0 +1,59 @@
+:: Cope with the pushing [textback] {"position":"3937,1728","size":"100,100"}
+<<removeclass "html">><<addclass "html" "french">>You decide to cope with the pushing. 
+
+<<speech "You" "''$name:''">>
+(Some people really are into this market thing, jeez...)<</speech>>
+The more you get into the market, the more people you find. Suddenly, you feel are little more pushed from behind. You take a look, but all you see is people trying to move forward.
+
+You decide to look up front. But there's something pushing you... especially on your bottom.
+
+<<speech "You" "''$name:''">>
+What the hell is that...?<</speech>>
+You don't have the chance to stop, as there is a whole multitude behind you pushing, but you manage to take a look down.
+
+<<linkreplace "... ...">><div class="center"><span class="fade-ins"><img src="dockings/grope.gif" width="70%"></span></div>
+<<speech "You" "''$name:''">>
+ *gasp*(OMG! The guy behind me has his dick out!) Hey! You!<</speech>>
+You turn back around to look at the guy's face so he would get scared and go away.
+
+But being in the middle of that market it's like being in a river with a strong current. The guy who groped you is now in front of you, smiling with his dick touching your tummy.
+
+<<speech "nobody" "''Groper:''">>
+Vous êtes tellement mignon et beau...mmm...<</speech>>
+The guy starts groping your hips and ass with a smirk on his face.
+
+<<speech "You" "''$name:''">>
+Stop it! Agh!! *jump out*<</speech>>
+With great effort you manage to get out of the market's main road. Like if it was destiny, you find yourself in front of a counter with a name tag. It says: ''Herbes et épices de Bastien''
+
+<<speech "You" "''$name:''">>
+Wait, you are Bastien, the farmer?<</speech>>
+<<speech "nobody" "''Bastien:''">>
+Yes, that's me! So what?!<</speech>>
+<<speech "You" "''$name:''">>
+(He talks too fucking loud, jeez...) I was coming for the... ware.<</speech>>
+<<speech "nobody" "''Bastien:''">>
+The what?!<</speech>>
+<<speech "You" "''$name:''">>
+(I hoped I didn't have to say it...) The Enhancer...? (such a cheesy name)<</speech>>
+<<speech "nobody" "''Bastien:''">>
+You? Oh... ok, I understand... So, how much?<</speech>>
+<<speech "You" "''$name:''">>
+Well, I'm coming on Holli's behalf. She said that you would understand...<</speech>>
+<<speech "nobody" "''Bastien:''">>
+Yes... I've got the stuff.<</speech>>
+He opens a small cabinet hidden on the inside of his tent. There he grabs a small plastic bag filled with some kind of dust.
+
+<<speech "nobody" "''Bastien:''">>
+It's 300 Euros.<</speech>>
+<<speech "You" "''$name:''">>
+But... I thought it was already paid. It's for a company.<</speech>>
+<<speech "nobody" "''Bastien:''">>
+It is paid for Holli. But I don't trust you. You could be from the secret police (altough I doubt it...)<</speech>>
+<<speech "You" "''$name:''">>
+But...<</speech>>
+<<linkreplace "Try to convince him">>(Eww...)<</linkreplace>>
+
+<<click "Return" "rocheport">><<set $market to 0, $drug1 to "1/2 done">><<audio "office" stop>><</click>><</linkreplace>><<addmins 15>><<if ndef $mutefx>><<audio "office" unmute>><<else>><</if>><<if ndef $mute>><<audio "french" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

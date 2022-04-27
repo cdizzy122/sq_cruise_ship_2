@@ -1,0 +1,58 @@
+:: Shopevents [textback] {"position":"1406,871","size":"100,100"}
+<<removeclass "html">><<addclass "html" "bar">><<if $shopevent is 1>><img src="food/smallchoco.jpg" width="50%">
+
+<<speech "nobody" "''Bartender:''">>
+Here, have one "real life" little white candy. Not so fond of little white things now eh? hahaha
+<</speech>>
+<div class="green">''You earn a White Chocodick!''</div>
+[[Return|Buyfood]]
+<<elseif $shopevent is 2>><img src="food/lolli.jpg" width="30%">
+
+<<speech "nobody" "''Bartender:''">>
+A pink lollipop for a pink fairy boi! Here you go honey.<</speech>>
+<div class="green">''You earn a Pink Lollipop!''</div>
+[[Return|Buyfood]]
+<<elseif $shopevent is 3>><img src="food/bigchoco.jpg" width="70%">
+
+<<speech "nobody" "''Bartender:''">>
+A yummy thick pure black chocolate dick. All for you. *wink*<</speech>>
+<div class="green">''You earn a Black Chocodick!''</div>
+[[Return|Buyfood]]
+<<elseif $shopevent is 4>><img src="food/penismug.jpg" width="35%">
+
+<<speech "nobody" "''Bartender:''">>
+Wow, little boi. I didn't think you'd like things like this, but here you go!<</speech>>
+<div class="green">''You earn a Penis Mug!''</div>
+[[Return|Buyfood]]
+<<elseif $shopevent is 5>><img src="food/yogurt.jpg" width="50%">
+
+<<speech "nobody" "''Bartender:''">>
+Here's my special recipe for yogurt, full of protein and vitamins. I bet you are going to enjoy it... ;);)<</speech>>
+<div class="green">''You earn Special Yogurt!''</div>
+[[Return|Buyfood]]
+
+\\<<elseif $shopevent is 6>><img src="quest6/coffee.jpg" width="50%">
+
+<<if $missionbar1 is "Active" or $missionbar1 is "1/2 done">><<speech "nobody" "''Bartender:''">>
+Here's your coffee, are you going to take this one to the workaholic?<</speech>>
+<<speech "You" "''$name'':">>
+Yeah, this one could be for that woman... she wants coffee in order to talk to me, but I don't know how I'm going to convince her to get out of her laptop... *sigh*<</speech>>
+<<speech "nobody" "''Bartender:''">>
+Well... *giggle* I have an idea... I talked to Stoya and figured out a way. Here, let me have that coffee.<</speech>>
+She takes the coffee behind the bar and you see her sprinkle some kind of dust over it. Then she takes the spoon and gives it a quick stir.
+
+<<speech "nobody" "''Bartender:''">>
+Here, done! Give this to her, then I'll go help you.<</speech>>
+<<speech "You" "''$name'':">>
+W-what is that going to do to her...?<</speech>>
+<<speech "nobody" "''Bartender:''">>
+Oh, just help her relax a bit... *giggle*<</speech>>
+<div class="green">''You earn a "Relaxing" Coffee!''</div>
+[[Return|Buyfood][$coffeewoman to 1, $coffeee to 1, $coffee to $coffee -1]]
+
+\\<<else>><<speech "nobody" "''Bartender:''">>
+Here's your coffee!! Hope that helps you wake up!! (sissy...)<</speech>>
+<div class="green">''You earn a Coffee!''</div>
+[[Return|Buyfood][$coffee to $coffee +1]]<</if>><</if>><<audio "menus" stop>>
+
+

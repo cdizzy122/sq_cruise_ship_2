@@ -1,0 +1,8 @@
+:: trysleep [noborder textback] {"position":"112,364","size":"100,100"}
+<<audio "dreams" volume 0.4 loop play>><span class="fade-in-out"><img src="gf/gfdream1.gif" width="70%"></span>
+
+<<speech "You" "''$name:''">>
+$gfname... $gfname... Please don't go...<</speech>>
+<<click "Wake up" "Stand up">><<audio "dreams" stop>><<audio "morning" loop play>><</click>><<set $gameDate to new Date("2018-06-29T07:30")>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() gte 8 and $gameDate.getMinutes() gte 30>><<goto "Emergency">><<else>><</if>><<else>><</if>><<audio "menus" stop>>
+
+

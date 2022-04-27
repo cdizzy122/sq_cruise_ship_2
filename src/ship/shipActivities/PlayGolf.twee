@@ -1,0 +1,527 @@
+:: PlayGolf [noborder textback] {"position":"1752,6","size":"100,100"}
+<<if $golf is 0>><<if ndef $instructor>>You walk to the box and grab a club.
+
+<<speech "You" "''$name'':">>
+(Oh, shit. This one's too long. I should find another one...)<</speech>>
+You search for a shorter club, but it seems like all of them are similar in size.
+
+<div class="center"><img src="quest7/golf2.jpg" width="50%"></div>
+<<speech "nobody" "''Golf instructor'':">>
+ *ugh* Hi there! My name's Molly, can I help you?<</speech>>
+<<speech "You" "''$name'':">>
+Um... yeah, actually... I can't seem to find a stick my size...<</speech>>
+<<speech "nobody" "''Molly'':">>
+Well, it's called "club", not "stick". And, unfortunately, it's more than common to find a "stick" your size... *stares* But you don't see me complaining, do you? Anyway, I'll find it for you...<</speech>>
+Even though Molly is not very tall or corpulent, she gets you out of the way with just a pat in the shoulder. After comparing a few clubs, she manages to pull out a small pink one.
+
+<<speech "nobody" "''Molly'':">>
+Here you go! *hands you the club*<</speech>>
+<<speech "You" "''$name'':">>
+Um... *you take it* Excuse me, but do you think it would be possible to change it for another color-<</speech>>
+<<speech "nobody" "''Molly'':">>
+Listen, buddy! I'm too tired for this, ok? Just grab your "stick" and go play already! *ugh*<</speech>>
+A lot of women have talked to you in a rude manner on this ship, but this one is getting over the top. You stand there with a surprised look while she walks away.
+
+<<speech "You" "''$name'':">>
+(WTF I don't anybody has talked to me like that ever... I mean, I'm a customer after all)<</speech>>
+You give her one last look. She is just standing there in the middle of the course, but you notice something different now: She is putting her hands on her head and you can tell by her face that she is suffering.
+
+<<speech "You" "''$name'':">>
+(Maybe she was so rude because she is having some other problem... I should try and talk to her again)<</speech>>
+[[Play the 8 hole course|PlayGolfResult][$instructor to 0]]
+
+
+\\<<elseif $instructor is 0>><div class="center"><img src="quest7/golfing.gif" width="75%"></div>
+You grab the small pink club from the big box on the side, as well as some balls. You walk to the first hole of the course just to see Molly standing by your side.
+
+<<nobr>><div class="center"><--[[Play the 8 hole course|PlayGolfResult]]--[[Talk to her|PlayGolfResult][$instructor to 1]]--></div><</nobr>>
+
+
+
+
+
+\\<<elseif $instructor is 1>><<if ndef $finishgolf>><div class="center"><img src="quest7/golf1.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+Hey, um... sorry to bother you-<</speech>>
+<<speech "nobody" "''Molly'':">>
+ *ugh* What do you want now?<</speech>>
+Her hands are on her head, and she's continuosly moving and making weird faces.
+
+<<speech "You" "''$name'':">>
+I just wanted to know if you were ok. The other day you seemed mad about something-<</speech>>
+<<speech "nobody" "''Molly'':">>
+And do you know it wasn't you? *ouch* *ugh*<</speech>>
+<<speech "You" "''$name'':">>
+You keep putting your hands on your head and complaining about something...<</speech>>
+<<speech "nobody" "''Molly'':">>
+... *ugh*<</speech>>
+<<speech "You" "''$name'':">>
+See? You did it again!<</speech>>
+<<speech "nobody" "''Molly'':">>
+Ok! I know... and I'm sorry that I was so rude... it's just that I forgot my hat, and Captain T won't give me another one. She says I need to learn my lesson... so now my scalp is burnt. And it hurts! It really hurts! I've got a constant headache...<</speech>>
+<<speech "You" "''$name'':">>
+God, that's horrible... you know what? I'll get you a hat! I'm sure someone has an extra one. If you keep taking the sun with that burn it could really be dangerous...<</speech>>
+<<speech "nobody" "''Molly'':">>
+Could you really do that? *smiles* That would be awesome! You know what? I'll get you a class on the "special" course! *she points to the metallic dome in the middle of the course*<</speech>>
+<<speech "You" "''$name'':">>
+(It's good to finally see her smile!) Nice!<</speech>>
+You walk back to the course.
+
+[[Play the 8 hole course|PlayGolfResult][$instructor to 2, $golfer to "Active", $hat to 0, $badge to $badge +1]]
+
+\\<<elseif $finishgolf is true>><<speech "You" "''$name'':">>
+Hey, is everything alright?<</speech>>
+<<speech "nobody" "''Molly'':">>
+Much better now that I have a hat!<</speech>>
+<<speech "You" "''$name'':">>
+Do you think I could play inside again?<</speech>>
+<<speech "nobody" "''Molly'':">>
+Uh-uh, not for now, sorry...<</speech>>
+[[Return|PlayGolfResult][$instructor to 3]]<</if>>
+
+
+\\<<elseif $instructor is 2>><<if $golfer is "Active" or $golfer is "1/3 done">><div class="center"><img src="quest7/golf1.jpg" width="50%"></div>
+<<speech "nobody" "''Molly'':">>
+ *ouch* Hey... have you found a hat for me yet?<</speech>>
+<<speech "You" "''$name'':">>
+Oh, um... sorry, no...<</speech>>
+<<speech "nobody" "''Molly'':">>
+God... it hurts so bad...<</speech>>
+[[Play the 8 hole course|PlayGolfResult]]
+
+
+\\<<elseif $golfer is "2/3 done">><<set $hatt to false>><div class="center"><img src="quest7/golf2.jpg" width="40%"></div>
+<<speech "You" "''$name'':">>
+Hey, Molly! I finally got a hat for you!<</speech>>
+ *You give Molly the hat*
+
+<<speech "nobody" "''Molly'':">>
+ *gasp* Oh, wow, thanks! I didn't know if you were actually going to do it! Thank you, thank you, thank you! *hugs you and gives you a kiss*<</speech>>
+<<speech "You" "''$name'':">>
+ *blush* Oh, u-um... you're welcome... ahaha<</speech>>
+With an elegant move, Molly puts the hat on her head.
+
+<<speech "nobody" "''Molly'':">>
+Perfect fit! Now I only have to wait for the burn to heal... Oh, I promised you a private golf lesson in the "special" course, didn't I? C'mon, let's go!<</speech>>
+Molly takes your hand and takes you to the metallic dome's door.
+
+<<linkreplace "Door">><span class="fade-ins"><div class="center"><img src="quest7/metaldoor.jpg" width="50%"></div></span>
+
+Molly takes out a pair of keys and opens the door. The first thing you notice is how dark it is in that place.
+
+<div class="center"><img src="quest7/dark.png" width="50%"></div>
+<<speech "nobody" "''Molly'':">>
+Don't worry. The light will turn on as you follow the marked steps. *points to the floor*<</speech>>
+She's right! Right on the floor you can see some fluorescent red footprints that lead to the right.
+
+<<speech "You" "''$name'':">>
+(Oh, that seems to be the way to go.)<</speech>>
+<<speech "nobody" "''Molly'':">>
+Come on, follow me! I can hold your hand if you're scared... *giggle*<</speech>>
+Molly grabs your hand and leads you to what seems like another door, but this one's wide open. Once you cross the door, it closes behind you.
+
+<span class="onomatopeya">SLAM</span>
+
+<<speech "You" "''$name'':">>
+Fuck!<</speech>>
+The light turns on and an average looking mini-golf course appears in front of you.
+
+<span class="onomatopeya">FLASH</span>
+
+<<speech "nobody" "''Molly'':">>
+Hahaha! Don't be a sissy (well...) Here we are, the course usually let's you advance to the next hole once you complete the previous one. But we'll just do the first one so you get the hang of it... Well now, take your club and place yourself in front of the ball.<</speech>>
+You walk closer to the ball and asume the position.
+
+<span class="onomatopeya">HIT... <span class="red">FAILLL</span></span>
+
+<<speech "nobody" "''Molly'':">>
+Oh, yeah. We got that deep voice implemented last summer. I think it's kinda cool, don't you? Anyway, what do you think you did wrong there?<</speech>>
+<<speech "You" "''$name'':">>
+I just missed...?<</speech>>
+<<speech "nobody" "''Molly'':">>
+Well yeah, dummy! But why did that happen? At the top of my head I would say: You need a better position and to relax. You should work on your strength too, because you're focusing too much on it and it doesn't let you focus on what really matters, which is the angle and where you hit the ball.<</speech>>
+You have never heard anyone talk that much about golf, so you can't help but be impressed.
+
+<<speech "nobody" "''Molly'':">>
+C'mon, don't look at me like that! Here, I'll help you...<</speech>>
+Molly comes closer to you and holds your arms from behind. Softly, she caresses your wrists and re-positions your hands.
+
+<<speech "nobody" "''Molly'':">>
+There, with both hands. The first one goes... here, and the other one...here... see? *smooch*<</speech>>
+<<speech "You" "''$name'':">>
+ *gasp* (Did she just kiss me on the cheek...?)<</speech>>
+Even though she already has given you the advice, she is not letting your hands go. She is cheek to cheek to you, and her smile just gets bigger. Suddenly you feel her <span class="imgpop hump"><a class="specialeffects">hump your butt.</a></span>
+
+<<speech "nobody" "''Molly'':">>
+ *hump* Yeah, relax... make all that testosterone go away.<</speech>>
+<<speech "You" "''$name'':">>
+Testosterone? What does that have to do with-?<</speech>>
+<<speech "nobody" "''Molly'':">>
+It doesn't let you focus... *hump, hump* Relax your shoulders, align them, raise your arms... and... SWING!<</speech>>
+<span class="onomatopeya">HIT... <span class="green">HOLE IN 1!</span></span>
+
+<<speech "You" "''$name'':">>
+(Wow! It worked!)<</speech>>
+<<speech "nobody" "''Molly'':">>
+See? You've got to get rid of your bad habits. Now let's see if you can do it alone... but with a few distractions... *beep*<</speech>>
+Molly presses a button and some extra decorations emerge from the walls and the floor.
+
+<span class="onomatopeya">BZZZT</span>
+
+<div class="center"><img src="quest7/dildos.png" width="50%"></div>
+<<speech "You" "''$name'':">>
+What the-<</speech>>
+<<speech "nobody" "''Molly'':">>
+How's that? Now you will really have to focus. But the real challenge is yet to come... See those pink clouds? In a few seconds they will mix with the air.<</speech>>
+<div class="center"><img src="quest7/cloud.png" width="50%"></div>
+<<speech "You" "''$name'':">>
+(This could be a good moment to ask for some information!) And what's in those pink clouds?<</speech>>
+<<speech "nobody" "''Molly'':">>
+Oh, well... nothing to worry about... just some strawberry spray, to distract your sense of smell as well...<</speech>>
+<<speech "You" "''$name'':">>
+(Not even her is believing that made up shit.)<</speech>>
+Molly appears to be blushing and a stupid smile crosses her face. Then she just lays face down on the floor, holding her head with her hands.
+
+<<speech "nobody" "''Molly'':">>
+C'mon, can't you SWING IT? *giggle*<</speech>>
+Once again you raise your arms and prepare to swing. You lower you arms and align your shoulders, and then you take a look the hole's way.
+
+<<speech "nobody" "''Molly'':">>
+Swing that stick, baby... *throws kiss*<</speech>>
+The shot doesn't seem too difficult to make, but your body is not working as just a minute ago. Your hands are sweating, your head aches and your small penis is straining against the <<if $cage is true>>hard cage<<else>>clothes<</if>>.
+
+<<speech "You" "''$name'':">>
+(Aahh... I can't focus! Why is it so difficult? Wait, remember what Molly told me just before: "Make all that testosterone go away". That's going to be impossible if I continue looking at her tits. C'mon, $name, focus on something else...)<</speech>>
+<<linkreplace "Focus on something else...">><span class="fade-ins"><div class="center"><img src="quest7/fist.jpg" width="50%"></div>
+You focus on one of the obstacles of the hole, which seems to be a... dildo?
+
+<<speech "You" "''$name'':">>
+(Is this really what my attention is drawn to? From all the stuff that is here?? It certainly is... <span class="pink">realistic...</span>)<</speech>>
+Unconsciously, you start moving your hips just as Molly was thrusting you from behind.
+
+<<speech "nobody" "''Molly'':">>
+Heyy! Look at mee!<</speech>>
+<div class="center"><img src="quest7/tits.jpg" width="50%"></div>
+<span class="onomatopeya">HIT... <span class="red">FAILLL!</span></span>
+
+<<speech "You" "''$name'':">>
+(Fuck! She made me look and I got all distracted again...)<</speech>>
+<<speech "nobody" "''Molly'':">>
+What's the matter? Am I distracting you? Oops...<</speech>>
+<<speech "You" "''$name'':">>
+(Come on, $name. Focus on the dildo again, that was working...)<</speech>>
+You take another look at the dildo and start moving your hips back and forward again.
+
+<<speech "You" "''$name'':">>
+(I really, really want to... to... <span class="pink">suck on that huge dildo... I need to...</span> send this ball to the hole!)<</speech>>
+<span class="onomatopeya">HIT... <span class="green">HOLE IN 1!</span></span>
+
+<span class="onomatopeya">BZZZZT... SQUIRT, SQUIRT</span>
+
+<<speech "You" "''$name'':">>
+OMG, the dildos are leaking!<</speech>>
+<<speech "nobody" "''Molly'':">>
+wweeeee, you did it! *drinks from one of the dildos* Hahaha, don't worry, it's just flavoured water! Do you want to have a taste?<</speech>>
+<<speech "You" "''$name'':">>
+Um... well, if it's water, sure!<</speech>>
+You get near a bare-titted Molly and she makes you kneel in front of the dildo.
+
+<<speech "nobody" "''Molly'':">>
+There, that's how you suck it! *giggle*<</speech>>
+<<speech "You" "''$name'':">>
+(This pink air must be really fucking with my mind... I-I...<span class="pink">I really want to lick that... mm... it's spurting out of that HUGE thing...</span>)<</speech>>
+You open your mouth and extend your tongue. You give the plastic glans a taste... It's got a salty, but bitter taste...
+
+<<speech "You" "''$name'':">>
+ *slurp* Mmm, what did you say this flavour was?<</speech>>
+<<speech "nobody" "''Molly'':">>
+Oh, I didn't! It's cum!<</speech>>
+<<speech "You" "''$name'':">>
+ *gasp* Oh no!<</speech>>
+The word "cum" triggers your common sense back on, and you manage to stand back up. You notice the pink clouds have already disipated and you feel like you're back in reality.
+
+<<speech "nobody" "''Molly'':">>
+I know! The taste is very well done, but the texture... that's not very good. Well, at least for the guys I suck! Maybe yours is this watery... *giggle*<</speech>>
+Molly face expression changes to a more serious one. It seems like the pink substance has also worn off for her. She puts her shirt back on.
+
+<<speech "nobody" "''Molly'':">>
+Ehem... anyway, thanks for playing. I'll show you the exit... And I hope this lesson really teaches you that things might work out better for you if you listen a bit more to your feminine side... (which seems to be the most prominent one)<</speech>>
+[[Finish quest|Golf][$golfer to "Finished", $instructor to 3, $finishgolf to true]]</span><</linkreplace>><</linkreplace>><</if>>
+
+\\<<elseif $instructor is 3>><div class="center"><img src="quest7/golfing.gif" width="75%"></div>
+You grab the small pink club from the big box on the side, as well as some balls. You walk to the first hole of the course just to see Molly standing by your side.
+
+<<nobr>><div class="center"><--[[Play the 8 hole course|PlayGolfResult]]--[[Talk to her|PlayGolfResult][$instructor to 1]]--></div><</nobr>><</if>>
+
+
+
+
+
+
+
+
+\\<<elseif $golf is 1>><<if ndef $instructor>>You walk to the box and grab a club.
+
+<<speech "You" "''$name'':">>
+(Oh, shit. This one's too long. I should find another one...)<</speech>>
+You search for a shorter club, but it seems like all of them are similar in size.
+
+<div class="center"><img src="quest7/golf2.jpg" width="50%"></div>
+<<speech "nobody" "''Golf instructor'':">>
+ *ugh* Hi there! My name's Molly, can I help you?<</speech>>
+<<speech "You" "''$name'':">>
+Um... yeah, actually... I can't seem to find a stick my size...<</speech>>
+<<speech "nobody" "''Molly'':">>
+Well, it's called "club", not "stick". And, unfortunately, it's more than common to find a "stick" your size... *stares* But you don't see me complaining, do you? Anyway, I'll find it for you...<</speech>>
+Even though Molly is not very tall or corpulent, she gets you out of the way with just a pat in the shoulder. After comparing a few clubs, she manages to pull out a small pink one.
+
+<<speech "nobody" "''Molly'':">>
+Here you go! *hands you the club*<</speech>>
+<<speech "You" "''$name'':">>
+Um... *you take it* Excuse me, but do you think it would be possible to change it for another color-<</speech>>
+<<speech "nobody" "''Molly'':">>
+Listen, buddy! I'm too tired for this, ok? Just grab your "stick" and go play already! *ugh*<</speech>>
+A lot of women have talked to you in a rude manner on this ship, but this one is getting over the top. You stand there with a surprised look while she walks away.
+
+<<speech "You" "''$name'':">>
+(WTF I don't anybody has talked to me like that ever... I mean, I'm a customer after all)<</speech>>
+You give her one last look. She is just standing there in the middle of the course, but you notice something different now: She is putting her hands on her head and you can tell by her face that she is suffering.
+
+<<speech "You" "''$name'':">>
+(Maybe she was so rude because she is having some other problem... I should try and talk to her again)<</speech>>
+[[Play the 16 hole course|PlayGolfResult][$instructor to 0]]
+
+
+\\<<elseif $instructor is 0>><div class="center"><img src="quest7/golfing.gif" width="75%"></div>
+You grab the small pink club from the big box on the side, as well as some balls. You walk to the first hole of the course just to see Molly standing by your side.
+
+<<nobr>><div class="center"><--[[Play the 16 hole course|PlayGolfResult]]--[[Talk to her|PlayGolfResult][$instructor to 1]]--></div><</nobr>>
+
+
+
+
+\\<<elseif $instructor is 1>><<if ndef $finishgolf>><div class="center"><img src="quest7/golf1.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+Hey, um... sorry to bother you-<</speech>>
+<<speech "nobody" "''Molly'':">>
+ *ugh* What do you want now?<</speech>>
+Her hands are on her head, and she's continuosly moving and making weird faces.
+
+<<speech "You" "''$name'':">>
+I just wanted to know if you were ok. The other day you seemed mad about something-<</speech>>
+<<speech "nobody" "''Molly'':">>
+And do you know it wasn't you? *ouch* *ugh*<</speech>>
+<<speech "You" "''$name'':">>
+You keep putting your hands on your head and complaining about something...<</speech>>
+<<speech "nobody" "''Molly'':">>
+... *ugh*<</speech>>
+<<speech "You" "''$name'':">>
+See? You did it again!<</speech>>
+<<speech "nobody" "''Molly'':">>
+Ok! I know... and I'm sorry that I was so rude... it's just that I forgot my hat, and Captain T won't give me another one. She says I need to learn my lesson... so now my scalp is burnt. And it hurts! It really hurts! I've got a constant headache...<</speech>>
+<<speech "You" "''$name'':">>
+God, that's horrible... you know what? I'll get you a hat! I'm sure someone has an extra one. If you keep taking the sun with that burn it could really be dangerous...<</speech>>
+<<speech "nobody" "''Molly'':">>
+Could you really do that? *smiles* That would be awesome! You know what? I'll get you a class on the "special" course! *she points to the metallic dome in the middle of the course*<</speech>>
+<<speech "You" "''$name'':">>
+(It's good to finally see her smile!) Nice!<</speech>>
+You walk back to the course.
+
+[[Play the 16 hole course|PlayGolfResult][$instructor to 2, $golfer to "Active", $hat to 0, $badge to $badge +1]]
+
+\\<<elseif $finishgolf is true>><<speech "You" "''$name'':">>
+Hey, is everything alright?<</speech>>
+<<speech "nobody" "''Molly'':">>
+Much better now that I have a hat!<</speech>>
+<<speech "You" "''$name'':">>
+Do you think I could play inside again?<</speech>>
+<<speech "nobody" "''Molly'':">>
+Uh-uh, not for now, sorry...<</speech>>
+[[Return|Play][$instructor to 3]]<</if>>
+
+
+\\<<elseif $instructor is 2>><<if $golfer is "Active" or $golfer is "1/3 done">><div class="center"><img src="quest7/golf1.jpg" width="50%"></div>
+<<speech "nobody" "''Molly'':">>
+ *ouch* Hey... have you found a hat for me yet?<</speech>>
+<<speech "You" "''$name'':">>
+Oh, um... sorry, no...<</speech>>
+<<speech "nobody" "''Molly'':">>
+God... it hurts so bad...<</speech>>
+[[Play the 16 hole course|PlayGolfResult]]
+
+
+\\<<elseif $golfer is "2/3 done">><<set $hatt to false>><div class="center"><img src="quest7/golf2.jpg" width="40%"></div>
+<<speech "You" "''$name'':">>
+Hey, Molly! I finally got a hat for you!<</speech>>
+ *You give Molly the hat*
+
+<<speech "nobody" "''Molly'':">>
+ *gasp* Oh, wow, thanks! I didn't know if you were actually going to do it! Thank you, thank you, thank you! *hugs you and gives you a kiss*<</speech>>
+<<speech "You" "''$name'':">>
+ *blush* Oh, u-um... you're welcome... ahaha<</speech>>
+With an elegant move, Molly puts the hat on her head.
+
+<<speech "nobody" "''Molly'':">>
+Perfect fit! Now I only have to wait for the burn to heal... Oh, I promised you a private golf lesson in the "special" course, didn't I? C'mon, let's go!<</speech>>
+Molly takes your hand and takes you to the metallic dome's door.
+
+<<linkreplace "Door">><span class="fade-ins"><div class="center"><img src="quest7/metaldoor.jpg" width="50%"></div></span>
+
+Molly takes out a pair of keys and opens the door. The first thing you notice is how dark it is in that place.
+
+<div class="center"><img src="quest7/dark.png" width="50%"></div>
+<<speech "nobody" "''Molly'':">>
+Don't worry. The light will turn on as you follow the marked steps. *points to the floor*<</speech>>
+She's right! Right on the floor you can see some fluorescent red footprints that lead to the right.
+
+<<speech "You" "''$name'':">>
+(Oh, that seems to be the way to go.)<</speech>>
+<<speech "nobody" "''Molly'':">>
+Come on, follow me! I can hold your hand if you're scared... *giggle*<</speech>>
+Molly grabs your hand and leads you to what seems like another door, but this one's wide open. Once you cross the door, it closes behind you.
+
+<span class="onomatopeya">SLAM</span>
+
+<<speech "You" "''$name'':">>
+Fuck!<</speech>>
+The light turns on and an average looking mini-golf course appears in front of you.
+
+<span class="onomatopeya">FLASH</span>
+
+<<speech "nobody" "''Molly'':">>
+Hahaha! Don't be a sissy (well...) Here we are, the course usually let's you advance to the next hole once you complete the previous one. But we'll just do the first one so you get the hang of it... Well now, take your club and place yourself in front of the ball.<</speech>>
+You walk closer to the ball and asume the position.
+
+<span class="onomatopeya">HIT... <span class="red">FAILLL</span></span>
+
+<<speech "nobody" "''Molly'':">>
+Oh, yeah. We got that deep voice implemented last summer. I think it's kinda cool, don't you? Anyway, what do you think you did wrong there?<</speech>>
+<<speech "You" "''$name'':">>
+I just missed...?<</speech>>
+<<speech "nobody" "''Molly'':">>
+Well yeah, dummy! But why did that happen? At the top of my head I would say: You need a better position and to relax. You should work on your strength too, because you're focusing too much on it and it doesn't let you focus on what really matters, which is the angle and where you hit the ball.<</speech>>
+You have never heard anyone talk that much about golf, so you can't help but be impressed.
+
+<<speech "nobody" "''Molly'':">>
+C'mon, don't look at me like that! Here, I'll help you...<</speech>>
+Molly comes closer to you and holds your arms from behind. Softly, she caresses your wrists and re-positions your hands.
+
+<<speech "nobody" "''Molly'':">>
+There, with both hands. The first one goes... here, and the other one...here... see? *smooch*<</speech>>
+<<speech "You" "''$name'':">>
+ *gasp* (Did she just kiss me on the cheek...?)<</speech>>
+Even though she already has given you the advice, she is not letting your hands go. She is cheek to cheek to you, and her smile just gets bigger. Suddenly you feel her <span class="imgpop hump"><a class="specialeffects">hump your butt.</a></span>
+
+<<speech "nobody" "''Molly'':">>
+ *hump* Yeah, relax... make all that testosterone go away.<</speech>>
+<<speech "You" "''$name'':">>
+Testosterone? What does that have to do with-?<</speech>>
+<<speech "nobody" "''Molly'':">>
+It doesn't let you focus... *hump, hump* Relax your shoulders, align them, raise your arms... and... SWING!<</speech>>
+<span class="onomatopeya">HIT... <span class="green">HOLE IN 1!</span></span>
+
+<<speech "You" "''$name'':">>
+(Wow! It worked!)<</speech>>
+<<speech "nobody" "''Molly'':">>
+See? You've got to get rid of your bad habits. Now let's see if you can do it alone... but with a few distractions... *beep*<</speech>>
+Molly presses a button and some extra decorations emerge from the walls and the floor.
+
+<span class="onomatopeya">BZZZT</span>
+
+<div class="center"><img src="quest7/dildos.png" width="50%"></div>
+<<speech "You" "''$name'':">>
+What the-<</speech>>
+<<speech "nobody" "''Molly'':">>
+How's that? Now you will really have to focus. But the real challenge is yet to come... See those pink clouds? In a few seconds they will mix with the air.<</speech>>
+<div class="center"><img src="quest7/cloud.png" width="50%"></div>
+<<speech "You" "''$name'':">>
+(This could be a good moment to ask for some information!) And what's in those pink clouds?<</speech>>
+<<speech "nobody" "''Molly'':">>
+Oh, well... nothing to worry about... just some strawberry spray, to distract your sense of smell as well...<</speech>>
+<<speech "You" "''$name'':">>
+(Not even her is believing that made up shit.)<</speech>>
+Molly appears to be blushing and a stupid smile crosses her face. Then she just lays face down on the floor, holding her head with her hands.
+
+<<speech "nobody" "''Molly'':">>
+C'mon, can't you SWING IT? *giggle*<</speech>>
+Once again you raise your arms and prepare to swing. You lower you arms and align your shoulders, and then you take a look the hole's way.
+
+<<speech "nobody" "''Molly'':">>
+Swing that stick, baby... *throws kiss*<</speech>>
+The shot doesn't seem too difficult to make, but your body is not working as just a minute ago. You hands are sweating, your head aches and your small penis is straining against the hard cage.
+
+<<speech "You" "''$name'':">>
+(Aahh... I can't focus! Why is it so difficult? Wait, remember what Molly told me just before: "Make all that testosterone go away". That's going to be impossible if I continue looking at her tits. C'mon, $name, focus on something else...)<</speech>>
+<<linkreplace "Focus on something else...">><span class="fade-ins"><div class="center"><img src="quest7/fist.jpg" width="50%"></div>
+You focus on one of the obstacles of the hole, which seems to be a... dildo?
+
+<<speech "You" "''$name'':">>
+(Is this really what my attention is drawn to? From all the stuff that is here?? It certainly is... <span class="pink">realistic...</span>)<</speech>>
+Unconsciously, you start moving your hips just as Molly was thrusting you from behind.
+
+<<speech "nobody" "''Molly'':">>
+Heyy! Look at mee!<</speech>>
+<div class="center"><img src="quest7/tits.jpg" width="50%"></div>
+<span class="onomatopeya">HIT... <span class="red">FAILLL!</span></span>
+
+<<speech "You" "''$name'':">>
+(Fuck! She made me look and I got all distracted again...)<</speech>>
+<<speech "nobody" "''Molly'':">>
+What's the matter? Am I distracting you? Oops...<</speech>>
+<<speech "You" "''$name'':">>
+(Come on, $name. Focus on the dildo again, that was working...)<</speech>>
+You take another look at the dildo and start moving your hips back and forward again.
+
+<<speech "You" "''$name'':">>
+(I really, really want to... to... <span class="pink">suck on that huge dildo... I need to...</span> send this ball to the hole!)<</speech>>
+<span class="onomatopeya">HIT... <span class="green">HOLE IN 1!</span></span>
+
+<span class="onomatopeya">BZZZZT... SQUIRT, SQUIRT</span>
+
+<<speech "You" "''$name'':">>
+OMG, the dildos are leaking!<</speech>>
+<<speech "nobody" "''Molly'':">>
+wweeeee, you did it! *drinks from one of the dildos* Hahaha, don't worry, it's just flavoured water! Do you want to have a taste?<</speech>>
+<<speech "You" "''$name'':">>
+Um... well, if it's water, sure!<</speech>>
+You get near a bare-titted Molly and she makes you kneel in front of the dildo.
+
+<<speech "nobody" "''Molly'':">>
+There, that's how you suck it! *giggle*<</speech>>
+<<speech "You" "''$name'':">>
+(This pink air must be really fucking with my mind... I-I...<span class="pink">I really want to lick that... mm... it's spurting out of that HUGE thing...</span>)<</speech>>
+You open your mouth and extend your tongue. You give the plastic glans a taste... It's got a salty, but bitter taste...
+
+<<speech "You" "''$name'':">>
+ *slurp* Mmm, what did you say this flavour was?<</speech>>
+<<speech "nobody" "''Molly'':">>
+Oh, I didn't! It's cum!<</speech>>
+<<speech "You" "''$name'':">>
+ *gasp* Oh no!<</speech>>
+The word "cum" triggers your common sense back on, and you manage to stand back up. You notice the pink clouds have already disipated and you feel like you're back in reality.
+
+<<speech "nobody" "''Molly'':">>
+I know! The taste is very well done, but the texture... that's not very good. Well, at least for the guys I suck! Maybe yours is this watery... *giggle*<</speech>>
+Molly face expression changes to a more serious one. It seems like the pink substance has also worn off for her. She puts her shirt back on.
+
+<<speech "nobody" "''Molly'':">>
+Ehem... anyway, thanks for playing. I'll show you the exit... And I hope this lesson really teaches you that things might work out better for you if you listen a bit more to your feminine side... (which seems to be the most prominent one)<</speech>>
+[[Finish quest|Golf][$golfer to "Finished", $instructor to 3, $finishgolf to true]]</span><</linkreplace>><</linkreplace>><</if>>
+
+
+\\<<elseif $instructor is 3>><div class="center"><img src="quest7/golfing.gif" width="75%"></div>
+You grab the small pink club from the big box on the side, as well as some balls. You walk to the first hole of the course just to see Molly standing by your side.
+
+<<nobr>><div class="center"><--[[Play the 16 hole course|PlayGolfResult]]--[[Talk to her|PlayGolfResult][$instructor to 1]]--></div><</nobr>><</if>>
+
+
+
+
+\\<<elseif $golf is 2>>You approach the metallic dome in the middle of the golf course. You walk around it until you find the door.
+
+<div class="center"><img src="quest7/metaldoor.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+("Special" course? What is this about...? It says I need an invitation)<</speech>>
+[[Return|Golf]]<</if>><<audio "menus" stop>>
+
+

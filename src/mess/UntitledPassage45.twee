@@ -1,0 +1,9 @@
+:: Untitled Passage 45 {"position":"1335,395","size":"100,100"}
+[[Changing room][$wardrobe to true]]
+[[Pool2][$dayn to 24, $bandquestdone to true]]
+
+[[Therapist][$jada to 3, $talkjada3 to 1]]
+
+[[Stylingclass][$styleclass to 2, $under to 4]]
+
+

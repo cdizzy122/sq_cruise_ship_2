@@ -1,0 +1,15 @@
+:: Setting Settings {"position":"1085,1213","size":"100,100"}
+<<script>>
+	Setting.addToggle("showtext", {
+    	label    : "Show some text?",
+    	default  : false
+	});
+	Setting.addList("options", {
+    	label   : "Choose an option",
+    	list    : ["Option 1", "Option 2", "Option 3", "Option Another"],
+    	default : "Option 1"
+	});
+	Setting.save();
+<</script>>
+
+

@@ -1,0 +1,32 @@
+:: vip [textback] {"position":"2348,1058","size":"100,100"}
+<<removeclass "html">><<addclass "html" "velvet">><div class="center"><img src="places2/vipdoor.jpg" width="50%"></div>
+You don't see anyone around the VIP door, so you decide to get in. Suddenly, a security woman steps in your way.
+
+<div class="center"><img src="passengers/guard.gif" width="60%"></div>
+<<speech "nobody" "''Security woman:''">>
+Hey, girl. Can I help you?<</speech>>
+<<if ndef $slots>><<speech "You" "''$name:''">>
+N-no, thank you...<</speech>>
+<span class="imgpop walkaway"><a class="specialeffects">You walk away silently...</a></span>
+
+<<speech "nobody" "''Security woman:''">>
+Yeah, that's what I thought...<</speech>>
+[[Return|Casino]]<<else>><<speech "You" "''$name:''">>
+Actually, yeah... You see that woman at the poker table? Well, she is the poker world champion! I think you might want to bring her in there?<</speech>>
+<<speech "nobody" "''Security woman:''">>
+Not my problem.<</speech>>
+<<speech "You" "''$name:''">>
+What do you mean? She should be in there...<</speech>>
+The security woman grabs you by the shoulder.
+
+<<speech "nobody" "''Security woman:''">>
+Listen, little girl. I could let her in, but you know what? I don't like you. You shouldn't be here, and if you ever come inside here it will be only because my superiors are telling me to. Now scram!<</speech>>
+<<speech "You" "''$name:''">>
+B-but it's not even about me-<</speech>>
+<<speech "nobody" "''Security woman:''">>
+She's a strong independent woman. She can walk here if she wanted to. Get away before I make you.<</speech>>
+<<speech "You" "''$name:''">>
+(God, so rude...)<</speech>>
+[[Return|Casino]]<</if>><<if ndef $mute>><<audio "casino" unmute>><<else>><</if>>
+
+

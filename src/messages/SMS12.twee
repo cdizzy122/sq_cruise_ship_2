@@ -1,0 +1,131 @@
+:: SMS12 [phone] {"position":"1126,2909","size":"100,100"}
+<<if ndef $altersms123>><<speech "mike" "''$fname:''">>
+Man, that neighbour of yours...<</speech>>
+<<speech "You" "''$name:''">>
+I know, I warned you! She's just not right...<</speech>>
+<<speech "mike" "''$fname:''">>
+Man, what are you talking about? She's got issues, but they are the "right" issues, if you know what I mean...<</speech>>
+<<speech "You" "''$name:''">>
+Dude, she was showing her tits at the stores...<</speech>>
+<<speech "mike" "''$fname:''">>
+Oh, well yeah, that was kind of weird, but yesterday was another day.<</speech>>
+<<speech "You" "''$name:''">>
+Oh, you guys actually hung out again?<</speech>>
+<<speech "mike" "''$fname:''">>
+Oooooh boy! We smashed, bro!<</speech>>
+You don't even know why you're so surprised by that, but you certainly weren't expecting it.
+
+<<speech "You" "''$name:''">>
+Aw, man... Um... I'm happy for you!<</speech>>
+<<speech "mike" "''$fname:''">>
+Yeah, dude. Probably best fuck I've had in a while... She even gave road-head!<</speech>>
+<<speech "You" "''$name:''">>
+That's... awesome, man...<</speech>>
+Although you're happy for him, you are still worried that $gffname could tell him about your strange fetishes and small clitty.
+
+<<linkreplace "DING">><<if ndef $mutefx>><<audio "ding" play>><<else>><</if>><<speech "lanad" "''$gffname:''">>
+Heeeeyyy...<</speech>>
+<<speech "You" "''$name:''">>
+Hi.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Huh? Why so sad...? Are you having a lazy day as well? I've been in bed all day, just thinking about yesterday...<</speech>>
+<<speech "You" "''$name:''">>
+ *sigh* Yeah, ok. $fname just told me.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+😆😆 I see you two are close friends! Did he tell you any details?<</speech>>
+<<speech "You" "''$name:''">>
+No, and I don't want any, please...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Hahahaha I love how you say "please", as if you already knew that I was going to tell you about it.<</speech>>
+<<speech "You" "''$name:''">>
+Yeah...<</speech>>
+You wait, suspicious of how silent she is being.
+
+<<speech "lanad" "''$gffname:''">>
+My "simps" at ''OnlyFans'' are really liking the footage from the store the other day. Hell, they even asked for more, but I'm now focused on another kind of content, so no more for now. I even thought of recording my fuck session with $fname.<</speech>>
+<<speech "You" "''$name:''">>
+... *sigh* Ok, I'm glad that you're doing good in there. But can we please stop talking about $fname? He's my friend!<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Actually, I recorded it. It's just that I haven't uploaded it. You know, that wouldn't be right...<</speech>>
+You chuckle to yourself, aware of how ironic that is when she's threatening with doing it to you.
+
+<<speech "lanad" "''$gffname:''">>
+Maybe you'd like to see how I blow a cock? How about I show you a bit...<</speech>>
+[[No, that's too weird!|SMS12][$altersms123 to 0]]
+[[M-maybe just a bit...|SMS12][$altersms123 to 1]]<</linkreplace>>
+
+
+
+\\<<elseif $altersms123 is 0>><<speech "You" "''$name:''">>
+I just told you! I'm not interested!<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Aaalright, don't get saltyyy... 🤗🤗🤫 It just felt right for a shrimpy like you to be curious.<</speech>>
+<<speech "You" "''$name:''">>
+Well... I'm not...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+I bet if I pushed you enough you'd eventually ask me to share the videos with you... 🤣🤣 But I'll let you go for now.<</speech>>
+<<speech "You" "''$name:''">>
+(Whatever... I'll take that) Okay, thank you.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+No problem, little boy. I won't say anything about your friend's big juicy cock.<</speech>>
+<<speech "You" "''$name:''">>
+You've already said something! I don't want to hear it, okay?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Ssshh... don't get mad, shrimpy, or else I'll have to spank you... metaphorically speaking.<</speech>>
+She gets offline...
+
+<<speech "You" "''$name:''">>
+... ... (Now I can't stop thinking about my friend's penis... Aargh...)<</speech>>
+You frown and shake your head, trying to wipe that image off your head. Are you afraid you might like it?
+
+[[Return|Bedroom][$lanasms to 7, $smsm7 to false]]
+
+
+
+\\<<elseif $altersms123 is 1>><<speech "You" "''$name:''">>
+I don't need all the details, but... I could take some information, maybe...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Nice, so you're being receptive. I'll take that into account, good boy! 💋💋 Well, I had seen that big bulge on the pictures, but I have to say that it checks.<</speech>>
+You look away, shocked by the strong start.
+
+<<speech "You" "''$name:''">>
+Um... okay... just too much right there...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh, c'mon. Don't be such a baby! Am I allowed to even say something??<</speech>>
+<<speech "You" "''$name:''">>
+Yeah, okay, just tell me the summary.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Well, if you want a summary, you might as well just watch it, you grumpy fag!<</speech>>
+<<linkreplace "DING">><<if ndef $mutefx>><<audio "ding" play>><<else>><</if>><div class="center"><span class="fade-ins"><img src="lana/friend1.jpg" width="58%"></span></div>
+<<speech "You" "''$name:''">>
+ *gasp* No! T-this is...<</speech>>
+At first, you're mortified as you realize that you're looking at your friend's dick. But then you notice how nice it is and how manly it is. You are actually kind of proud of him, but the predominant feeling is definitely... ''arousal''...
+
+<<speech "lanad" "''$gffname:''">>
+Nice cock, huh? I also played with it for a while.<</speech>>
+<div class="center"><span class="fade-ins"><img src="lana/friend2.gif" width="60%"></span></div>
+<<speech "You" "''$name:''">>
+(Fuck... this is making me so confused...)<</speech>>
+<<speech "lanad" "''$gffname:''">>
+I bet you're having a hard time not jerking off to this, right? Because it would be wrong, wouldn't it? Hahahaha<</speech>>
+<<speech "You" "''$name:''">>
+Okay... just get it over with...<</speech>>
+You can't help but look at them and feel horny as fuck, but a feeling of guilt is also growing inside you, preventing you from masturbating freely.
+
+<<speech "lanad" "''$gffname:''">>
+Awww... don't be such a partypooper! People fuck, that's just how it is! Except you, of course... but there are always exceptions... 😚🤣<</speech>>
+<<speech "You" "''$name:''">>
+Alright, enough of this.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Okayyy, enough of your friend's awesome COCK!<</speech>>
+<<speech "You" "''$name:''">>
+... *sigh*<</speech>>
+<<speech "lanad" "''$gffname:''">>
+🍆🍆👄👅💦<</speech>>
+<<speech "You" "''$name:''">>
+(I hate her...)<</speech>>
+You put away your phone as you try to lower your arousal. You're embarrased about being horny for your friend's cock! But... it's kind of tasty, isn't it?
+
+[[Return|Bedroom][$lanasms to 7, $smsm7 to false]]<</linkreplace>><</if>>
+
+

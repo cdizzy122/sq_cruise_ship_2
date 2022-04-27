@@ -1,0 +1,8 @@
+:: Center [textback] {"position":"3981,1498","size":"100,100"}
+<<removeclass "html">><<addclass "html" "french">><img src="dockings/rochellecenter.jpg" width="70%">
+
+A beautiful little city with lots of tourists.
+
+[[Get into the market]]<<addmins 1>><<if ndef $mute>><<audio "french" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

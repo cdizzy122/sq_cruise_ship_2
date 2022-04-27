@@ -1,0 +1,88 @@
+:: Changing room 2 [noborder textback] {"position":"2343,744","size":"100,100"}
+<<removeclass "html">><<addclass "html" "locker">><<if $dayn gte 1 and $dayn lt 9>>You find the tracksuit asigned to you this week:
+
+<div class="center"><img src="classes/rae/tracksuit1.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(Oh well, it's a bit tight, but it's wearable).<</speech>>
+You take it and put it in with a little bit of pushing.
+
+[[Start training][$training to 0, $alreadytrained to true, $gym to 1]]
+
+
+
+\\<<elseif $dayn gte 9 and $dayn lt 16>>You find the tracksuit asigned to you this week:
+
+<div class="center"><img src="classes/rae/tracksuit2.jpg" width="32%"></div>
+<<speech "You" "''$name'':">>
+(Um... what the hell!! I don't even think this can be called "tracksuit"...)<</speech>>
+You stare at it for a long, long time, but finally decide to give it a try.
+
+<<speech "You" "''$name'':">>
+(I don't think this could even fit a baby! Argh...)<</speech>>
+You push the yoga pants bit and you get it in, although the result is very embarrasing. Fortunately, there's a gray shirt keeping the short top on the inside.
+
+<<speech "You" "''$name'':">>
+(Oh god... my cage is sooo obvious on these...)<</speech>>
+[[Start training][$training to random (3,5), $alreadytrained to true, $gym to 3]]
+
+
+
+\\<<elseif $dayn gte 16 and $dayn lt 23>>You find the tracksuit asigned to you this week:
+
+<div class="center"><img src="classes/rae/tracksuit3.jpg" width="38%"></div>
+<<speech "You" "''$name'':">>
+(No. This not even wearable! What the actual fuck! I can't wear this pink shit...)<</speech>>
+You try to approach the set, taking the upper part and giving it a good look. It's so short that you wouldn't think of buying it for an adult. You bite your lips constantly, knowing that outside that door, Rae is waiting for you, and she's prone to whip your ass if you don't put this thing on...
+
+You take the under part and touch it a bit.
+
+<<speech "You" "''$name'':">>
+(Hm... it's so... <span class="pink">soft...</span> Maybe I could try it...)<</speech>>
+You start getting in it on, and, to your own surprise, it's not as bad as you thought.
+
+<<speech "You" "''$name'':">>
+It's not like I'm a clown... but it definitely makes me feel <span class="pink">like a girl...</span><</speech>>
+<<if $fit lt 7>>[[Start training][$training to random(3,5)]]<<else>><<if $choseparts is 0>>[[Start training (arms)|Start training][$training to random(9,11), $sup to true, $gym to 5]]<<elseif $choseparts is 1>>[[Start training (hips & glutes)|Start training][$training to random(6,8), $sup to false, $gym to 5]]<</if>><</if>>
+
+
+
+\\<<elseif $dayn gte 23 and $dayn lt 30>>You find the tracksuit asigned to you this week:
+
+<div class="center"><img src="classes/rae/tracksuit4.jpg" width="41%"></div>
+You can't help but stare at it with your eyes wide open.
+
+<<speech "You" "''$name'':">>
+(This can't be! How is she always surprising me with these new outfits...? How am I even going to pull this off...?)<</speech>>
+You take your hand to your headm very stressed about the whole situation. Suddenly, you start thinking about how humiliating it would be to get out of the locker room with this little tiny set on you.
+
+<<speech "You" "''$name'':">>
+(All those women would laugh at me... <span class="pink">teehee...</span>)<</speech>>
+Almost with a naughty feeling, you get the outfit and just try it on in front of the mirror. Just to see how it feels, right sissy?
+
+<<speech "You" "''$name'':">>
+I'll just try... you never know... *blush*<</speech>>
+Naughty, naughty sissy...
+
+[[Exercise|Start training][$training to random(12,13)]]
+
+
+
+\\<<elseif $dayn gte 30 and $dayn lt 37>>You find the tracksuit asigned to you this week:
+
+<div class="center"><img src="classes/rae/tracksuit5.jpg" width="40%"></div>
+<<speech "You" "''$name'':">>
+(Oh! Well okay, that seems like a downgrade from last one, but... well not a downgrade, I mean a-).<</speech>>
+You realize that "downgrade" is what you really meant. You really felt looked at with the last one and you feel like you will probably miss the attention, don't you?
+
+<<speech "You" "''$name'':">>
+(I mean... at least I won't have to deal with all those men as much... <span class="pink">*sigh*</span>)<</speech>>
+You put the outfit on and you notice that it certainly is comfortable. But that is not enough for you anymore, no matter how much you try to be content with it. Are you going to miss the humiliation?
+
+Once you're done you take a good look at the mirror.
+
+<div class="center"><img src="classes/rae/tracksuit6.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(Not bad, it displays all my... "curves" well. Rocking it!)<</speech>>
+[[Exercise|Start training][$training to random(14,16), $raeoffice to 6]]<</if>>
+
+

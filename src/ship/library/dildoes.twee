@@ -1,0 +1,24 @@
+:: dildoes [noreturn] {"position":"267,1688","size":"100,100"}
+<<if $dildoes is 3>><img src="clothes/dildo3.jpg" width="50%">
+
+It's a pink vibrator with a curved shape for the prostate. You got it for free at the sex shop.<<elseif $dildoes is 4>><img src="clothes/dildo4.jpg" width="50%">
+
+It's a clitoral vibrator, but you could give it some use. You got it for free at the sex shop.<<elseif $dildoes is 5>><img src="clothes/dildo5.jpg" width="50%">
+
+Small 5,5' white dildo. You got it for free at the sex shop.<<elseif $dildoes is 7>><img src="clothes/dildo7.png" width="50%">
+
+Above average 7' white dildo. Definitely girthier than yours, but not amazing. It's the biggest dildo of that color.<<elseif $dildoes is 8>><img src="clothes/dildo8.png" width="50%">
+
+Large 8' brown dildo. Quite impressive on both lenght and girth. You get hard just by holding it. It so meaty...<<elseif $dildoes is 9>><img src="clothes/dildo9.png" width="50%">
+
+Huge 9' black dildo. You can't even close your hand around it, it's as big as your arm. It's the smallest one in that color...<<elseif $dildoes is 10>><img src="clothes/dildo10.png" width="50%">
+
+Shoking 10' black dildo. You can't even close your hand around it, it's as big as your arm. It's above average in that color...<<elseif $dildoes is 11>><img src="clothes/dildo11.png" width="50%">
+
+Veiny 11' black dildo. It's lenght is mesmerizing, you need both of your hands to hold it straight. It's not easy to imagine a dick so perfect. The vascularity gives it a very realistic touch.<<elseif $dildoes is 12>><img src="clothes/dildo12.png" width="50%">
+
+12' black dildo. The biggest of the brand. It's black, of course. The thickness is madness, and the lenght is just ridiculous. The heavy glans is as big as your fist.<</if>>
+
+[[Return|Inventory]]
+
+

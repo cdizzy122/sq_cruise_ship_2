@@ -1,0 +1,15 @@
+:: toohorny [noreturn] {"position":"1207,1782","size":"100,100"}
+<<if ndef $youcum>><<if ndef $cage or $cage is false>>You just can't hold it anymore and a few drops of translucent cum run through your small cock.
+
+<img src="lust1.gif" width="40%">
+
+[[Return|$return]]<<set $lust to 0>><<set $alreadycame to true>><<elseif $cage is true>>You feel like your body is going to explode, but your cage won't let you... Your manage to lower your lust a bit, but you'll have to find another way if you really want to relieve yourself.<<set $lust to $lust -40>>
+
+<div class="center"><img src="porn/cagecum.gif" width="50%"></div>
+[[Return|$return]]<<set $alreadycame to true>><</if>><<elseif $youcum is 1>>You feel like your body is going to explode, but your cage won't let you... You search for a "tool" to help you with the "task" *wink, wink*
+
+<div class="center">Choose a toy:
+<<if $dildo5 is true>>[[5,5' white dildo|Masturbate][$masturbate to 2, $toy to 2]] | <<else>><</if>><<if $dildo7 is true>>[[7' white dildo|Masturbate][$masturbate to 2, $toy to 4]] | <<else>><</if>><<if $dildo8 is true>>[[8' brown dildo|Masturbate][$masturbate to 2, $toy to 5]] | <<else>><</if>><<if $dildo9 is true>>[[9' black dildo|Masturbate][$masturbate to 2, $toy to 6]] | <<else>><</if>><<if $dildo10 is true>>[[10' black dildo|Masturbate][$masturbate to 2, $toy to 7]] | <<else>><</if>><<if $dildo11 is true>>[[11' black dildo|Masturbate][$masturbate to 2, $toy to 8]] | <<else>><</if>><<if $dildo12 is true>>[[12' black dildo|Masturbate][$masturbate to 2, $toy to 9]] | <<else>><</if>><<if $dildo3 is true>>[[Pink Vibrator|Masturbate][$masturbate to 2, $toy to 1]] | <<else>><</if>><<if $dildo4 is true>>[[Clitoral Vibrator|Masturbate][$masturbate to 2, $toy to 3]]<<else>><</if>></div>
+[[Return|$return]]<</if>><<audio "menus" stop>>
+
+

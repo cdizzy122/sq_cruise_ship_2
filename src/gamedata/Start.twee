@@ -1,0 +1,30 @@
+:: Start [noborder textback] {"position":"1,0","size":"100,100"}
+<span class="no"><<addclass "html" "spades">>Hello there, I'm Tiplick.
+
+Welcome to <span class="shipname">SQ Cruise Ship!</span>
+
+Before we set the names up for the game, I want you to know that I'm currently actively working on this game, and you can follow its development, ask a question or even support the game through the following links:
+
+<span class="fade-ins"><div class="center"><div class="row"><div class="columna">
+<span class="spacebox">''Leave a review''</span>
+<span class="noshit"><a href="https://tfgames.site/index.php?module=viewgame&id=2120" target="_blank"><span class="noborder"><img src="stuff/tfgamessite.png" height="60" width="150"></span></a>
+<area shape="rect" coords="25,25,75,75" href="https://tfgames.site/index.php?module=viewgame&id=2120" target="_blank"></span>
+
+<span class="spacebox">''TF Gamessite Forum Thread''</span>
+<span class="noshit"><a href="https://tfgames.site/phpbb3/viewtopic.php?f=51&t=13010" target="_blank"><img src="stuff/tfgamessite.png" height="60" width="150"></a>
+<area shape="rect" coords="25,25,75,75" href="https://tfgames.site/phpbb3/viewtopic.php?f=51&t=13010" target="_blank"></span></div>
+<div class="columna"><span class="spacebox">''Discord''</span>
+<span class="noshit"><a href="https://discord.gg/vxmRNg8" target="_blank"><img src="stuff/discord.png" height="70" width="70"></a>
+<area shape="rect" coords="25,25,75,75" href="https://discord.gg/vxmRNg8" target="_blank"></span>
+
+<span class="spacebox">''Support the game''</span>
+<span class="noshit"><a href="https://subscribestar.adult/tiplick" target="_blank"><img src="stuff/subscribestar.png" height="60" width="250"></a>
+<area shape="rect" coords="25,25,75,75" href="https://subscribestar.adult/tiplick" target="_blank"></span>
+</div></div></div></span></span>
+
+[[Start New Game|StoryInit]]
+''Continue Game'' → Feature deleted. <font size="+1"><span class="pink">''Save files are now compatible!''</span></font> Load your save file to resume your game. <font size="-1">__Dev's Note__: This feature will come back for the 0.5.7</font>
+
+
+:: StorySettings
+ifid:df490621-ccd5-4039-919a-e9f63f5c9901

@@ -1,0 +1,13 @@
+:: sleephouse [textback] {"position":"6,477","size":"100,100"}
+<span class="fade-ins"><img src="stuff/nap.gif" width="45%"></span>
+
+You take a nice and needed nap... ... ... Suddenly you hear a noise.
+
+<<linkreplace "... ...">><span class="shudder"><span class="onomatopeya">*SLAM!!*</span></span><<if ndef $mutefx>><<audio "slam" play>><<else>><</if>>
+
+That must be $gfname!
+ 
+You're still groggy so you [[Stay in bed][$reception to 0]]
+[[Get up and meet her|Stay in bed][$reception to 1]]<</linkreplace>><<set $gameDate to new Date("2018-06-28T19:00")>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() gte 8 and $gameDate.getMinutes() gte 30>><<goto "Emergency">><<else>><</if>><<else>><</if>><<audio "menus" stop>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>>
+
+

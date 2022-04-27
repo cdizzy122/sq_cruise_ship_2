@@ -1,0 +1,6 @@
+:: Untitled Passage 33 {"position":"945,1108","size":"100,100"}
+[[Go out]]<<set $gotocruise to true>>
+[[mixtry]]
+[[Deck 7]]<<set $dayn to 30>>
+
+

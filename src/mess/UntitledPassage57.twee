@@ -1,0 +1,22 @@
+:: Untitled Passage 57 {"position":"3464,746","size":"100,100"}
+[[deck7][$bandquest to 0, $kittyband to "1/2 done", $sub to 20]]
+
+[[deck7][$bandquest to 0, $kittyband to "1/2 done", $sub to 22]]
+
+[[Go to locker room][$gymshower to 0]]
+
+[[Go to Rae's office][$raeoffice to 4]]
+
+
+[[Penny arcade][$enterarcade to 4, $dayn to 30]]
+
+
+
+[[Beauty Salon][$bsalon to 2, $points to 100000]]
+[[Beauty Salon][$bsalon to 1, $points to 100000]]
+[[Beauty Salon][$bsalon to 0, $points to 100000]]
+
+
+[[Penny's room][$pennyroom to 1, $sample to 1]]
+
+

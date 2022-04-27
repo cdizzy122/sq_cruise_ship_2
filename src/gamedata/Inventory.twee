@@ -1,0 +1,128 @@
+:: Inventory [noreturn] {"position":"141,923","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<if ndef $mutefx>><<audio "button" play>><<else>><</if>><div class="center"><span class="titlelog">INVENTORY</span><div class="linecenter"><div class="rowinv"><div class="columninvl"><span class="onomatopeya">KEY OBJECTS:</span>
+<div class="center"><<if $gfbag is true>> [[GF's lunch]], <<else>><</if>>
+\\
+<<if $proteinshakes is true>> [[Protein Shakes]], <<else>><</if>>
+\\
+<<if $neutralgel is true>> [[Neutral Gel]], <<else>><</if>>
+\\
+<<if $vipticket is true>> [[VIP pass]], <<else>><</if>>
+\\
+<<if $skincare is true>> [[Skincare & Face Makeup Kit|Beauty Products][$beautyproduct to 1]], <<else>><</if>>
+\\
+<<if $eyemakeup is true>> [[Eyes & Lips Makeup Kit|Beauty Products][$beautyproduct to 2]], <<else>><</if>>
+\\
+<<if $lipstick is true>> [[SQ Lipstick™️|Beauty Products][$beautyproduct to 3]], <<else>><</if>>
+\\
+<<if $panther is true>> [[Panther Scent (attracts ♀︎)|Beauty Products][$beautyproduct to 4]], <<else>><</if>>
+\\
+<<if $nymph is true>> [[Nymph Scent (attracts ♂︎)|Beauty Products][$beautyproduct to 5]], <<else>><</if>>
+\\
+<<if $shampoo is true>> [[Strawberry Shampoo|Beauty Products][$beautyproduct to 6]], <<else>><</if>>
+\\
+<<if $conditioner is true>> [[Conditioner|Beauty Products][$beautyproduct to 7]], <<else>><</if>>
+\\
+<<if $polish is true>> [[SQ Nail Polish™️|Beauty Products][$beautyproduct to 8]], <<else>><</if>>
+\\
+<<if $extensions is true>> [[Cheap Nail Extensions|Beauty Products][$beautyproduct to 9]], <<else>><</if>>
+\\
+<<if $lightscreen is true>> [[50+ Sunscreen|Beauty Products][$beautyproduct to 10]], <<else>><</if>>
+\\
+<<if $darkscreen is true>> [[Tanning Lotion|Beauty Products][$beautyproduct to 11]], <<else>><</if>>
+\\
+<<if $casakey is true>> [[Triangle key]], <<else>><</if>>
+\\
+<<if $weewee is true>> [[Wee-wee powder]], <<else>><</if>>
+\\
+<<if $headband is true>> [[Headband]], <<else>><</if>>
+\\
+<<if $fifty is true>> <<if $fiftyeuros is 0>>[[Sixty Euros|Fifty Euros]], <<else>>[[Fifty Euros]], <</if>><<else>><</if>>
+\\
+<<if $screwdriver is true>> [[Screwdriver]], <<else>><</if>>
+\\
+<<if $bluevial is true>> [[Blue Vial]], <<else>><</if>>
+\\
+<<if $headphonesm is true>> [[Cheap headphones]], <<else>><</if>>
+\\
+<<if $hatt is true>> [[Hat]], <<else>><</if>>
+\\
+<<if $tickets is true>> [[Tickets]] x2, <<else>><</if>>
+\\
+<<if $roomkey is true>> [[Roomkey]], <<else>><</if>>
+\\
+<<if $itinerary is true>> [[Itinerary]], <<else>><</if>>
+\\
+<<if $map is true>> [[Map]], <<else>><</if>>
+\\
+<<if $lockerring is true>> [[Locker ring]], <<else>><</if>>
+\\
+<<if $falsemoney is true>> [[False Money]], <<else>><</if>>
+\\
+<<if $smallkey is true>> [[Small key]], <<else>><</if>>
+\\
+<<if $bimbopic is true>> [[Bimbo picture]], <<else>><</if>>
+\\
+<<if $card2 is true>> [[Level 2 card]], <<else>><</if>>
+\\
+<<if $enhancer is true>> [[Enhancer]], <<else>><</if>>
+\\
+<<if $gflask is true>> [[Green flask]], <<else>><</if>>
+\\
+<<if $rflask is true>> [[Red flask]], <<else>><</if>>
+\\
+<<if $dildo3 is true>> [[Pink vibrator|dildoes][$dildoes to 3]], <<else>><</if>>
+\\
+<<if $dildo4 is true>> [[Clitoral Vibrator|dildoes][$dildoes to 4]], <<else>><</if>>
+\\
+<<if $dildo5 is true>> [[5,5' dildo|dildoes][$dildoes to 5]], <<else>><</if>>
+\\
+<<if $dildo7 is true>> [[7' dildo|dildoes][$dildoes to 7]], <<else>><</if>>
+\\
+<<if $dildo8 is true>> [[8' dildo|dildoes][$dildoes to 8]], <<else>><</if>>
+\\
+<<if $dildo9 is true>> [[9' dildo|dildoes][$dildoes to 9]], <<else>><</if>>
+\\
+<<if $dildo10 is true>> [[10' dildo|dildoes][$dildoes to 10]], <<else>><</if>>
+\\
+<<if $dildo11 is true>> [[11' dildo|dildoes][$dildoes to 11]], <<else>><</if>>
+\\
+<<if $dildo12 is true>> [[12' dildo|dildoes][$dildoes to 12]], <<else>><</if>>
+\\
+<<if $hotlube is true>> [[Hot Sensation Lubricant|Condoms][$condoms to 4]], <<else>><</if>>
+\\
+<<if $oilylube is true>> [[Silicone Lubricant|Condoms][$condoms to 5]], <<else>><</if>>
+\\
+<<if $cockring is true>> [[Adjustable Cockring|Condoms][$condoms to 6]], <<else>><</if>>
+\\
+<<if $sunscreen is true>> [[Sunscreen]], <<else>><</if>>
+</div></div><div class="columninvr"><span class="onomatopeya">CONSUMABLES:</span>
+<<if $chococandies is 0>><<elseif $chococandies gte 1>> [[Chocolate Candies]] x<<print $chococandies>>, <</if>>
+\\
+<<if $sample is 0>><<elseif $sample gte 1>> [[Makeup Test Sample Kit|Beauty Products][$beautyproduct to 0]] x<<print $sample>>, <</if>>
+\\
+<<if $suziesbikini is 0>><<elseif $suziesbikini gte 1>> [[Suzie's bikini]] x<<print $suziesbikini>>, <</if>>
+\\
+<<if $coffee is 0>><<elseif $coffee gte 1>> [[Coffee]] x<<print $coffee>>, <</if>>
+\\
+<<if $coffeee is 0>><<elseif $coffeee gte 1>> [[Relaxing coffee]] x<<print $coffeee>>, <</if>>
+\\
+<<if $tea is 0>><<elseif $tea gte 1>> [[Beauty tea]] x<<print $tea>>, <</if>>
+\\
+<<if $pinklolli is 0>><<elseif $pinklolli gte 1>> [[Pink Lollipop]] x<<print $pinklolli>>, <</if>>
+\\
+<<if $chocodick is 0>><<elseif $chocodick gte 1>> [[Chocolate Dick]] x<<print $chocodick>>, <</if>>
+\\
+<<if $penismug is 0>><<elseif $penismug gte 1>> [[Penis Mug]] x<<print $penismug>>, <</if>>
+\\
+<<if $specialyogurt is 0>><<elseif $specialyogurt gte 1>> [[Special Yogurt]] x<<print $specialyogurt>>, <</if>>
+\\
+<<if $trojanxl is 0>><<elseif $trojanxl gte 1>> [[Trojan XL condoms|Condoms][$condoms to 1]] x<<print $trojanxl>>, <</if>>
+\\
+<<if $trojanxxl is 0>><<elseif $trojanxxl gte 1>> [[XXL Durex Condoms|Condoms][$condoms to 2]] x<<print $trojanxxl>>, <</if>>
+\\
+<<if $mysize is 0>><<elseif $mysize gte 1>> [[MEGA BIG BOY XL condoms|Condoms][$condoms to 3]] x<<print $mysize>>, <</if>></div></div></div>
+
+
+[[Return|$return]]</div><<audio "menus" volume 0.15 loop play>><<audio "tinder" stop>><<audio ":back" mute>><<audio "party" mute>><<audio "stage1" mute>><<audio "tinder" mute>><<audio "casino" mute>><<audio "kitchen" mute>><<audio "dorky" mute>><<if ndef $mute>><<audio "menus" unmute>><<else>><</if>>
+
+

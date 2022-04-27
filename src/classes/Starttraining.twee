@@ -1,0 +1,254 @@
+:: Start training [textback] {"position":"2101,639","size":"100,100"}
+<<removeclass "html">><<addclass "html" "gym">><<if $training is 0>><img src="classes/rae/treadmill.gif" width="80%">
+It's been a while since you practice any sport, at least 5 years. But after a few seconds you feel like you get the hang of it.
+
+<span class="Phone">[[Peek (might get caught)][$peekgym to random (0,1), $gymshower to 0]]</span>
+<<linkreplace "Stay focused">>You complete your training succesfully.
+
+<<nobr>><<if ndef $gymgirl>>[[Go to locker room|Gymgirl][$gymshower to 0, $lockergirl to random (1,5)]]<<elseif $gymgirl is 0>>[[Go to locker room|Gymgirl][$gymshower to 0, $lockergirl to random (1,5)]]<<elseif $gymgirl is 1>>[[Go to locker room][$gymshower to 0, $lockergirl to random (1,5)]]<</if>><</nobr>><</linkreplace>>
+<<elseif $training is 1>><img src="classes/rae/flex.gif" width="70%">
+
+<<speech "You" "''$name:''">>
+Fuck... I don't know if my abdomen is going to stand this...<</speech>>
+<span class="Phone">[[Peek (might get caught)][$peekgym to random (0,1), $gymshower to 1]]</span>
+<<linkreplace "Stay focused">>
+You complete your training succesfully.
+
+<<nobr>><<if ndef $gymgirl>>[[Go to locker room|Gymgirl][$gymshower to 1, $lockergirl to random (1,5)]]<<elseif $gymgirl is 0>>[[Go to locker room|Gymgirl][$gymshower to 1, $lockergirl to random (1,5)]]<<elseif $gymgirl is 1>>[[Go to locker room][$gymshower to 1, $lockergirl to random (1,5)]]<</if>><</nobr>><</linkreplace>>
+<<elseif $training is 2>><img src="classes/rae/abs.gif" width="70%">
+
+<<speech "You" "''$name:''">>
+It's been a long time since I exercised my abs... this is going to be hard...<</speech>>
+<span class="Phone">[[Peek (might get caught)][$peekgym to random (0,1), $gymshower to 2]]</span>
+<<linkreplace "Stay focused">>
+You complete your training succesfully.
+
+<<nobr>><<if ndef $gymgirl>>[[Go to locker room|Gymgirl][$gymshower to 2, $lockergirl to random (1,5)]]<<elseif $gymgirl is 0>>[[Go to locker room|Gymgirl][$gymshower to 2, $lockergirl to random (1,5)]]<<elseif $gymgirl is 1>>[[Go to locker room][$gymshower to 2, $lockergirl to random (1,5)]]<</if>><</nobr>><</linkreplace>>
+<<elseif $training is 3>><img src="classes/rae/squats.gif" width="50%">
+
+<<speech "You" "''$name:''">>
+(Thank god we are changing body part! My abs were about to explode. This one might tonify my legs <span class="pink">and my glutes...</span>)<</speech>>
+<span class="Phone">[[Peek (might get caught)][$peekgym to random (0,1), $gymshower to 3]]</span>
+<<linkreplace "Stay focused">>
+You complete your training succesfully.
+
+<<nobr>><<if ndef $gymgirl>>[[Go to locker room|Gymgirl][$gymshower to 3, $lockergirl to random (1,5)]]<<elseif $gymgirl is 0>>[[Go to locker room|Gymgirl][$gymshower to 3, $lockergirl to random (1,5)]]<<elseif $gymgirl is 1>>[[Go to locker room][$gymshower to 3, $lockergirl to random (1,5)]]<</if>><</nobr>><</linkreplace>>
+<<elseif $training is 4>><img src="classes/rae/glutebridge.gif" width="55%">
+
+<<speech "You" "''$name:''">>
+I don't know about this one... I guess this one will be good for my back <span class="pink">and my glutes...</span><</speech>>
+<span class="Phone">[[Peek (might get caught)][$peekgym to random (0,1), $gymshower to 4]]</span>
+<<linkreplace "Stay focused">>
+You complete your training succesfully.
+
+<<nobr>><<if ndef $gymgirl>>[[Go to locker room|Gymgirl][$gymshower to 4, $lockergirl to random (1,5)]]<<elseif $gymgirl is 0>>[[Go to locker room|Gymgirl][$gymshower to 4, $lockergirl to random (1,5)]]<<elseif $gymgirl is 1>>[[Go to locker room][$gymshower to 4, $lockergirl to random (1,5)]]<</if>><</nobr>><</linkreplace>>
+<<elseif $training is 5>><img src="classes/rae/chair.gif" width="50%">
+
+<<speech "You" "''$name:''">>
+Agh... back to the cardio... This one is definitely good for... my <span class="pink">butt :)</span><</speech>>
+<span class="Phone">[[Peek (might get caught)][$peekgym to random (0,1), $gymshower to 5]]</span>
+<<linkreplace "Stay focused">>
+You complete your training succesfully.
+
+<<nobr>><<if ndef $gymgirl>>[[Go to locker room|Gymgirl][$gymshower to 5, $lockergirl to random (1,5)]]<<elseif $gymgirl is 0>>[[Go to locker room|Gymgirl][$gymshower to 5, $lockergirl to random (1,5)]]<<elseif $gymgirl is 1>>[[Go to locker room][$gymshower to 5, $lockergirl to random (1,5)]]<</if>><</nobr>><</linkreplace>>
+<<elseif $training is 6>><img src="classes/rae/squats2.gif" width="45%">
+
+<<speech "You" "''$name:''">>
+(Shit! This one is the hardest! Let's see if <span class="pink">my ass can take it...</span>)<</speech>>
+<span class="Phone">[[Peek (might get caught)][$peekgym to random (0,1), $gymshower to 7]]</span>
+<<linkreplace "Stay focused">>
+You complete your training succesfully.
+
+<<nobr>><<if ndef $gymgirl>>[[Go to locker room|Gymgirl][$gymshower to 7, $lockergirl to random (1,5)]]<<elseif $gymgirl is 0>>[[Go to locker room|Gymgirl][$gymshower to 7, $lockergirl to random (1,5)]]<<elseif $gymgirl is 1>>[[Go to locker room][$gymshower to 7, $lockergirl to random (1,5)]]<</if>><</nobr>><</linkreplace>>
+<<elseif $training is 7>><img src="classes/rae/train7.gif" width="70%">
+
+<<speech "You" "''$name:''">>
+(This one doesn't seem too hard... although I look like a dog doing it...)<</speech>>
+<span class="Phone">[[Peek (might get caught)][$peekgym to random (0,1), $gymshower to 7]]</span>
+<<linkreplace "Stay focused">>
+You complete your training succesfully.
+
+<<nobr>><<if ndef $gymgirl>>[[Go to locker room|Gymgirl][$gymshower to 7, $lockergirl to random (1,5)]]<<elseif $gymgirl is 0>>[[Go to locker room|Gymgirl][$gymshower to 7, $lockergirl to random (1,5)]]<<elseif $gymgirl is 1>>[[Go to locker room][$gymshower to 7, $lockergirl to random (1,5)]]<</if>><</nobr>><</linkreplace>>
+<<elseif $training is 8>><img src="classes/rae/train8.gif" width="70%">
+
+<<speech "You" "''$name:''">>
+(These are hip thrusts...)<</speech>>
+
+<span class="Phone">[[Peek (might get caught)][$peekgym to random (0,1), $gymshower to 7]]</span>
+<<linkreplace "Stay focused">>
+You complete your training succesfully.
+
+<<nobr>><<if ndef $gymgirl>>[[Go to locker room|Gymgirl][$gymshower to 7, $lockergirl to random (1,5)]]<<elseif $gymgirl is 0>>[[Go to locker room|Gymgirl][$gymshower to 7, $lockergirl to random (1,5)]]<<elseif $gymgirl is 1>>[[Go to locker room][$gymshower to 7, $lockergirl to random (1,5)]]<</if>><</nobr>><</linkreplace>>
+<<elseif $training is 9>><img src="classes/rae/train9.gif" width="70%">
+
+<<speech "You" "''$name:''">>
+(This thing is making my arms vibrate a lot!)<</speech>>
+
+<span class="Phone">[[Peek (might get caught)][$peekgym to random (0,1), $gymshower to 7]]</span>
+<<linkreplace "Stay focused">>
+You complete your training succesfully.
+
+<<nobr>><<if ndef $gymgirl>>[[Go to locker room|Gymgirl][$gymshower to 7, $lockergirl to random (1,5)]]<<elseif $gymgirl is 0>>[[Go to locker room|Gymgirl][$gymshower to 7, $lockergirl to random (1,5)]]<<elseif $gymgirl is 1>>[[Go to locker room][$gymshower to 7, $lockergirl to random (1,5)]]<</if>><</nobr>><</linkreplace>>
+<<elseif $training is 10>><img src="classes/rae/train10.gif" width="70%">
+
+<<speech "You" "''$name:''">>
+(Back power)<</speech>>
+
+<span class="Phone">[[Peek (might get caught)][$peekgym to random (0,1), $gymshower to 7]]</span>
+<<linkreplace "Stay focused">>
+You complete your training succesfully.
+
+<<nobr>><<if ndef $gymgirl>>[[Go to locker room|Gymgirl][$gymshower to 7, $lockergirl to random (1,5)]]<<elseif $gymgirl is 0>>[[Go to locker room|Gymgirl][$gymshower to 7, $lockergirl to random (1,5)]]<<elseif $gymgirl is 1>>[[Go to locker room][$gymshower to 7, $lockergirl to random (1,5)]]<</if>><</nobr>><</linkreplace>>
+<<elseif $training is 11>><img src="classes/rae/train11.gif" width="70%">
+
+<<speech "You" "''$name:''">>
+(Push back push ups)<</speech>>
+
+<span class="Phone">[[Peek (might get caught)][$peekgym to random (0,1), $gymshower to 7]]</span>
+<<linkreplace "Stay focused">>
+You complete your training succesfully.
+
+<<nobr>><<if ndef $gymgirl>>[[Go to locker room|Gymgirl][$gymshower to 7, $lockergirl to random (1,5)]]<<elseif $gymgirl is 0>>[[Go to locker room|Gymgirl][$gymshower to 7, $lockergirl to random (1,5)]]<<elseif $gymgirl is 1>>[[Go to locker room][$gymshower to 7, $lockergirl to random (1,5)]]<</if>><</nobr>><</linkreplace>>
+
+
+\\<<elseif $training is 12>>You start training with Rae taking a close look at you from her office.
+
+<<speech "You" "''$name:''">>
+(Damn, I won't be able to skip her crazy punishments...)<</speech>>
+Even though you can feel Rae's gaze on your neck, you try to concentrate and train your legs a bit. As you get to the machine and stat exercising, you get into it a bit too much.
+
+<div class="center"><img src="classes/rae/train12.gif" width="50%"></div>
+<div class="center"><span class="notplus">''FIT +1''</span></div>
+<<speech "rae" "''Rae:''">>
+Alright, enough of that. You're having too much fun and I don't like it.<</speech>>
+<<speech "You" "''$name:''">>
+(Oh, god...)<</speech>>
+She shakes you around the gym, taking you to her office's secret dark room. She closes the door and turns on the dim lights.
+
+<div class="center"><img src="classes/rae/dungeon.jpg" width="70%"></div>
+<<speech "rae" "''Rae:''">>
+What are you going to choose today?<</speech>>
+She comes closer to you, pinching your body in different places as you try to think clearly.
+
+<<speech "You" "''$name:''">>
+Ouch...<</speech>>
+[[Follow her|Go to Rae's office][$raeoffice to 4]]
+
+
+
+
+\\<<elseif $training is 13>>You start training with Rae taking a close look at you from her office.
+
+<<speech "You" "''$name:''">>
+(Damn, I won't be able to skip her crazy punishments...)<</speech>>
+Even though you can feel Rae's gaze on your neck, you try to concentrate and tighten that tummy of yours a bit.
+
+<div class="center"><img src="classes/rae/train13.gif" width="50%"></div>
+<div class="center"><span class="notplus">''FIT +1''</span></div>
+<<speech "rae" "''Rae:''">>
+Alright, enough of that. You're having too much fun and I don't like it.<</speech>>
+<<speech "You" "''$name:''">>
+(Oh, god...)<</speech>>
+She shakes you around the gym, taking you to her office's secret dark room. She closes the door and turns on the dim lights.
+
+<div class="center"><img src="classes/rae/dungeon.jpg" width="70%"></div>
+<<speech "rae" "''Rae:''">>
+What are you going to choose today?<</speech>>
+She comes closer to you, pinching your body in different places as you try to think clearly.
+
+<<speech "You" "''$name:''">>
+Ouch...<</speech>>
+[[Follow her|Go to Rae's office][$raeoffice to 4]]
+
+
+
+
+
+\\<<elseif $training is 14>>You start training with Rae taking a close look at you from her office.
+
+<<speech "You" "''$name:''">>
+(Damn, I won't be able to skip her crazy punishments...)<</speech>>
+Even though you can feel Rae's gaze on your neck, you try to concentrate and tighten that tummy of yours a bit.
+
+<div class="center"><img src="classes/rae/peek13.gif" width="50%"></div>
+<div class="center"><span class="notplus">''FIT +1''</span></div>
+<<speech "rae" "''Rae:''">>
+Hey, I'm looking at you, bitch! Stop looking at my clients' cocks!<</speech>>
+<<speech "You" "''$name:''">>
+(Oh, god...)<</speech>>
+The guy hears Rae's shouting through his headphones and looks at you a bit confused. You decide to resume your training and finish it as soon as possible. Then you go to her office, where both of them are waiting for you.
+
+[[Go to Rae's office][$raeoffice to 7]]
+
+
+
+
+
+
+\\<<elseif $training is 15>>You start training with Rae taking a close look at you from her office.
+
+<<speech "You" "''$name:''">>
+(Damn, I won't be able to skip her crazy punishments...)<</speech>>
+Even though you can feel Rae's gaze on your neck, you try to concentrate and tighten that tummy of yours a bit.
+
+<div class="center"><span class="notplus">''FIT +1''</span></div>
+...
+
+...
+
+<div class="center"><img src="classes/rae/train14.gif" width="50%"></div>
+<<speech "You" "''$name:''">>
+ *gasp* Oh my god, what are you doing?!<</speech>>
+<<speech "nobody" "''Sporty young guy'':">>
+Your posture was not correct, I was just trying to help you avoid some post-training pain.<</speech>>
+<<speech "You" "''$name:''">>
+Oh... well, thanks...<</speech>>
+You resume your training as you think he's gone, but as soon as you start again, he takes your hands, helping you with the weight and thrusting his hips and bulge into your ass.
+
+<<speech "nobody" "''Sporty young guy'':">>
+There, right there... keep pushing, baby...<</speech>>
+You look to the sides, not knowing how to get out of his grip.
+
+<<speech "rae" "''Rae:''">>
+Hey! No fucking in the gym.<</speech>>
+<<speech "nobody" "''Sporty young guy'':">>
+Hey, cutie, don't worry, I was just teaching her the proper position.<</speech>>
+<<speech "rae" "''Rae:''">>
+She's under my surveillance, so she'll be fine. Sorry for that, she's a bit of a slut, waving her ass around...<</speech>>
+<<speech "nobody" "''Sporty young guy'':">>
+No prob *winks at you*<</speech>>
+<<speech "You" "''$name:''">>
+(Oh, god...)<</speech>>
+Rae frowns at you and goes back to her office. You resume your training and finish as fast as you can.
+
+[[Go to Rae's office][$raeoffice to 7]]
+
+
+
+
+
+
+\\<<elseif $training is 16>>You start training with Rae taking a close look at you from her office.
+
+<<speech "You" "''$name:''">>
+(Damn, I won't be able to skip her crazy punishments...)<</speech>>
+Even though you can feel Rae's gaze on your neck, you try to concentrate and tighten that tummy of yours a bit.
+
+<div class="center"><span class="notplus">''FIT +1''</span></div>
+...
+
+...
+
+<div class="center"><img src="classes/rae/peek14.gif" width="55%"></div>
+<<speech "You" "''$name'':">>
+(Why is this guy coming-?! Oh...)<</speech>>
+To your relief, the guy just wanted to go get some water. You keep up your training with a certain feeling of disappointment. Could it be that you actually wanted to talk to this guy?
+
+Just as finish your training and are about to go straight to Rae's office, you stand and take a look at the direction where the guy went before.
+
+<div class="center"><img src="classes/rae/peek15.jpg" width="40%"></div>
+<<speech "You" "''$name'':">>
+(Oh, I see. These girls sure seem to take the lead!)<</speech>>
+[[Go to Rae's office][$raeoffice to 7]]<</if>><<run $gameDate.setHours (11)>><<run $gameDate.setMinutes (0)>><<set $fit to $fit +1>><<if $training lt 12>><<set $points to $points +100>><<else>><</if>><<set $fitcount to 2>>
+
+

@@ -1,0 +1,277 @@
+:: Tabless [textback] {"position":"1646,977","size":"100,100"}
+<<if ndef $tables>><<removeclass "html">><<addclass "html" "bar">><<if $dayn gte 9>><div class="center"><img src="places2/coffeelaptop.jpg" width="50%"></div><<speech "nobody" "''Stressed woman:''">>
+I said I'll have another coffee!<</speech>>
+<<speech "nobody" "''Bartender:''">>
+Um... excuse me miss, I don't mean to tell you what to do, but this is your 6th coffee today...<</speech>>
+<<speech "nobody" "''Stressed woman:''">>
+So what?! Can't I, as a passenger, have access to all the coffee I want?!<</speech>>
+<<speech "nobody" "''Bartender:''">>
+Well... yeah, I'll give it to you really want it, but I'm trying to tell you that you shouldn't have another one-<</speech>>
+<<speech "nobody" "''Stressed woman:''">>
+Yeah, yeah, blablabla! Just give me my coffee, c'mon!<</speech>>
+The bartender serves her a cup of coffee and the woman takes it to her table, which is already full with a bunch of cups, a laptop, a tablet and two smartphones. You get close to the bartender:
+
+<<speech "You" "''$name:''">>
+What is her problem?<</speech>>
+<<speech "nobody" "''Bartender:''">>
+ *sigh* You know... these workaholics... they come here trying to forget work for the summer, but they just can't.<</speech>>
+<<speech "You" "''$name:''">>
+Ah, poor woman, she must be stressed...<</speech>>
+<<speech "nobody" "''Bartender:''">>
+Bah... I don't pity her at all! We have lots of weird guests, you know? But I really can't stand the rude ones, I 'm only doing my work! And she's probably going to stay her the whole day, as well as tomorrow, and so on... *sigh*<</speech>>
+<<speech "You" "''$name:''">>
+... I understand that...<</speech>>
+<<speech "nobody" "''Bartender:''">>
+Hey! You're supposed to get points, aren't you? I'll give you 100 if you help me getting her out of my bar. How does that sound?<</speech>>
+<<speech "You" "''$name:''">>
+Hm... I could try!<</speech>>
+''*New Side-Quest: Make the workaholic at the bar forget about work*''
+
+[[Return|Bar][$missionbar1 to "Active", $badge to $badge +1, $tables to 0, $coffeewoman to 0]]<<else>><div class="center"><img src="places2/coffeelaptop.jpg" width="50%"></div>
+Sitting next to all these women, talking and sharing experiences you really can't relax. You actually feel them jugding you and you can't help but notice that the subject of the conversations changed the moment you arrived...
+
+<<speech "You" "''$name:''">>
+(It's not very comfortable here right now... I should go...)<</speech>>
+[[Return|Bar]]<<addmins 15>><</if>>
+
+
+\\<<elseif $tables is 0>><<if $coffeewoman is 0>><<removeclass "html">><<addclass "html" "bar">>You sit down at the table next to the woman. She is typing frantically.
+
+<<speech "You" "''$name:''">>
+Um... hey! What are you doing?<</speech>>
+<<speech "nobody" "''Stressed woman:''">>
+ *she turns her head* Not your bussiness.<</speech>>
+She starts typing again.
+
+<<speech "You" "''$name:''">>
+(Geez... that was cold...) And, um, why are you-<</speech>>
+<<speech "nobody" "''Stressed woman:''">>
+Hey, listen. I've got a lot of work to do! If you were a MAN maybe I would sacrifice some of my time on you, but you're not even worth it!<</speech>>
+<<speech "You" "''$name:''">>
+This is supposed to be summer cruise-<</speech>>
+<<speech "nobody" "''Stressed woman:''">>
+Listen, buddy: As long as this laptop is turned on, I'm not stopping. I can't. And if you want to behave like the beta you are you can bring me another cup of coffee! Now shush!!<</speech>>
+<<speech "You" "''$name:''">>
+(So rude... If she wants coffee, I might as well give her some coffee...)<</speech>>
+You stand up and get going.
+
+[[Return|Bar][$missionbar1 to "1/2 done", $badge to $badge +1]]<<elseif $coffeewoman is 1>><<removeclass "html">><<addclass "html" "bar">><<set $coffeee to $coffeee -1>>You sit down at the table next to the woman. She is typing frantically.
+
+<<speech "You" "''$name:''">>
+Um... hey! How are you doing?<</speech>>
+<<speech "nobody" "''Stressed woman:''">>
+Look, fairy princess, give me a coffee or go. Do we have to go all over again?<</speech>>
+<<speech "You" "''$name:''">>
+... No need to, no. I brought you a coffee. Thought you may need it.<</speech>>
+You extend your arm and place the "relaxing" coffee next to her laptop. For a moment, the woman stops typing and looks at the cup of coffee. A smile crosses her face.
+
+<<speech "nobody" "''Stressed woman:''">>
+Aw... nice. Good boy. *she taps your hand* You can go now...<</speech>>
+She grabs the filled cup and takes a big gulp of the coffee. Then she places the cup where it was and continues typing. Only ten seconds pass before she talks to you again.
+
+<<speech "nobody" "''Stressed woman:''">>
+Ok! You can go now. Why don't you go a-and... find me... a-an-o-ther... cup... God, why am I so sleepy...<</speech>>
+<<speech "You" "''$name:''">>
+(Oh, god, this is too much... I thought it was just going to relax her!) Hey, are you ok?<</speech>>
+<<speech "nobody" "''Stressed woman:''">>
+ *smiles* Y-yeaah... *zzz*<</speech>>
+<<speech "You" "''$name:''">>
+(She's constantly falling asleep and waking up)<</speech>>
+Just when you're getting worried, you see the bartender coming your way.
+
+<<speech "nobody" "''Bartender:''">>
+Nobody worry! She's just exhausted... poor thing. Come on, $name, help me take her to the infirmary.<</speech>>
+You are amazed by the acting talent of the bartender, but you decide to follow her lead and help her carry the workaholic out of the room. You grab her by the feet, and the bartender grabs her by the armpits. Once you are out of the bar and the sight of the women in there, the bartender gives you a devilish smile.
+
+<<speech "You" "''$name:''">>
+What did you give to her?! Look at her, she's just hallucinating...<</speech>>
+<<speech "nobody" "''Stressed woman:''">>
+Hehehe... boobs...<</speech>>
+<<speech "nobody" "''Bartender:''">>
+Seems to me like she's having fun looking at my boobs, hahaha. Oh, come on, I just gave her what she needed, didn't I sweetie?<</speech>>
+<<speech "nobody" "''Stressed woman:''">>
+Hehehe... boobs...<</speech>>
+<<speech "You" "''$name:''">>
+(Damn, from business woman to mindless toy in 10 seconds...)<</speech>>
+Altough you are curious where the bartender is taking you both, you decide not to ask, because you are probably going to get another of her annoying non-conclusive answers. Luckily, you got your answer a minute later, when the three of you crossed the spa's entry door.
+
+<<speech "nobody" "''Bartender:''">>
+Here we are... I bet Achara will know what to do with her...<</speech>>
+Once you get into the massage center, the bartender just raises her card so the girls there can see it. They start talking in a language you can't understand and lead you to Achara's office.
+
+<<linkreplace "Achara's office">><<removeclass "html">><<addclass "html" "spa">><img src="passengers/special.jpg" width="40%">
+
+<<speech "nobody" "''Achara'':">>
+Oh, hi! I see you are bringing who I guess is my next patient?<</speech>>
+<<speech "nobody" "''Bartender:''">>
+You guessed right! *smiles*<</speech>>
+<<speech "nobody" "''Achara'':">>
+Put her on the table then.<</speech>>
+You are relieved that you are finally getting her off you, your muscles were just about to give up... Once the woman is on the table, the other workers leave the bartender, achara and you alone in the room.
+
+<<speech "nobody" "''Achara'':">>
+I usually only give private massages, but since you are the ones that brought her here, you are responsible for her treatment. Just take a seat.<</speech>>
+The both of you sit on two bamboo chairs a few feet away from the table.
+
+<<speech "nobody" "''Achara'':">>
+Alright... clothes off.<</speech>>
+Achara starts taking her clothes off, until she is totally naked.
+
+<<speech "nobody" "''Stressed woman'':">>
+Hehehe... you like my bewbs?<</speech>>
+<<speech "nobody" "''Achara'':">>
+Oh, hey, you're with us. Better, that way your mind will also relax with the treatment.<</speech>>
+<<speech "nobody" "''Stressed woman'':">>
+Do you like my boobs or not...?<</speech>>
+<<speech "nobody" "''Achara'':">>
+I do, sweetie, these are the BEST boobs I've ever seen...<</speech>>
+Achara treats her as you would treat an annoying child. You can tell that it's not the first time she does this. Meanwhile she compliment her tits, she also washes her hands and then totally cover them with some kind of hot oil with the consistency of a gel.
+
+<<speech "nobody" "''Achara'':">>
+I'm going to awake your senses, ok? You're going to feel things you haven't felt in a while. Don't repress any feeling or thought, share it with us.<</speech>>
+After getting the woman mentally prepared for the massage, Achara sinks into her body, starting with her feet and legs.
+
+<<speech "nobody" "''Stressed woman'':">>
+Ahh... it's soo hot... *makes exaggerated orgasm faces*<</speech>>
+<<speech "nobody" "''Bartender'':">>
+Not even pornstars force an orgasm face that way, hahaha...<</speech>>
+The whole situation feels weird to you, even in the weird context of this cruise ship. You are just watching a drugged woman receive a sensual massage next to the woman that put the drug in her cup. But although this is really a strange situation, you can't help but feel your libido grow. A naked luscious and horny woman is making orgasm faces and sounds in front of you. And also the other two woman are one of the hottest women you've ever seen in your life. You can't believe your luck of being able to see this, but you also feel intimidated: just thinking about your caged small penis and the humiliation you would get if they compared you to their standards makes you feel small. But in a way, even if you can't understand how, this inadequacy makes you feel... hornier...
+
+<<speech "nobody" "''Achara'':">>
+Now, let's go for the torso and face.<</speech>>
+Suddenly, the dugged woman looks at you.
+
+<<speech "nobody" "''Stressed woman'':">>
+Hey... you brought me a coffee... you are a nice guy... do YOU like my bewbs?? *licks lips*<</speech>>
+<<speech "You" "''$name:''">>
+Um... (God, she's so hot... thank god for the cage...)<</speech>>
+<<speech "nobody" "''Achara'':">>
+I don't think he's taken a good look at your perfect boobs... how about we have some fun and integrate him in the treatment. I usually only do this with couples, but you guys seem to have some chemistry, don't you?<</speech>>
+<<speech "nobody" "''Bartender'':">>
+Weee! Come on, get up and help her!<</speech>>
+You get up, worrying about the outline of your swollen caged penis.
+
+<<speech "nobody" "''Achara'':">>
+There, get to that part of the table and take her head on your hands.<</speech>>
+You comply and do as you are told, trying to avoid eye contact with the overly excited woman on the table.
+
+<<speech "nobody" "''Stressed woman'':">>
+ *smooch, smooch* Do you like my boobs?... <</speech>>
+You finally feel like you can't avoid her boobs anymore and look at them.
+
+<<speech "You" "''$name:''">>
+Yeah, I-I do... *blush*<</speech>>
+<<speech "nobody" "''Stressed woman'':">>
+ *licks her lips* Hmm...<</speech>>
+You expected some kind of response from her, but just at that moment, Achara had started spreading the hot gel around her chest area, fondling her breasts and sometimes pinching her nipples.
+
+<div class="center"><img src="quest6/tits.gif" width="50%"></div>
+<<speech "nobody" "''Achara'':">>
+You like that, huh? Enjoy it, let yourself go... $name, massage her scalp. She's very sensitive now, so don't go too crazy.<</speech>>
+<<speech "You" "''$name:''">>
+(How can a head massage drive anyone crazy, come on...) *rub, rub*<</speech>>
+<<speech "nobody" "''Stressed woman'':">>
+AAhhh... Oh... Ah...<</speech>>
+<<speech "nobody" "''Achara'':">>
+Just like that... now, take her boobs, I'm going down...<</speech>>
+This order takes you by surprise and don't really know what to do. You've been told that you don't deserve women, but now you're being allowed to fondle some beautiful breasts... Achara's serious gaze snaps you out of your thoughts and you grab the woman's breasts. The enormous amount of hot gel on her boobs coats your hands in just the first rub.
+
+<<speech "nobody" "''Stressed woman'':">>
+Yeah... grab my tits... mm... what do you have for me there...?<</speech>>
+You are too distracted to see the woman turn her head and start sliding a bit up, where she can sniff your wet crotch. Suddenly, you hear a moan scape her mouth in a more intense way, meaning that Achara has already started messing around with her private parts. You can see both of Achara's wet hands masturbating the woman: one hand is rubbing her clitoris while the other is penetrating her in a very erotic way, but still consistent.
+
+<div class="center"><img src="quest6/pussy.gif" width="50%"></div>
+<<speech "nobody" "''Bartender'':">>
+Oh my god... now that's my kind of "relaxing technique", haha...<</speech>>
+While you are still massaging the woman's breasts, you take a look at the bartender and are shocked by the sight: she is openly masturbating to the scene.
+<<speech "You" "''$name:''">>
+ *shocked* (Why is everyone so horny in this ship?)<</speech>>
+<<speech "nobody" "''Bartender'':">>
+Don't give me that look! You should be worried about the busy girl. *points at her face*<</speech>>
+You didn't even realize it, but she was trying to unbuckle your pants, liking her lips constantly.
+
+<<speech "nobody" "''Stressed woman'':">>
+Give me that dick...<</speech>>
+You try to stop her, but she's already opened your pants and they've fallen to the floor, revealing you cute little locked penis.
+
+<<speech "nobody" "''Stressed woman'':">>
+ *o-face* Hahahahahaha... Why is it so small...?<</speech>>
+She tightly grabs your whole balls and cage with a hand, using it to unleash her upcoming orgasm. Achara is making her body shake, and so does your cage.
+
+<<speech "nobody" "''Bartender'':">>
+That's so... hot... and tiny *giggle*<</speech>>
+Achara notices your straining dick, but she continues working the woman. You don't even have time to complain about it, since you start feeling the humping movement of Achara on your cage, making you very aroused.
+
+<<speech "You" "''$name:''">>
+Ahhh... *rub, rub*<</speech>>
+Since everybody seems to be into it, you decide to give in to the pleasure and you enjoy yourself rubbing her boobs.
+
+<<speech "nobody" "''Stressed woman'':">>
+Yeah... give me that cum... Ah!<</speech>>
+<<speech "nobody" "''Achara'':">>
+ *fap, fap* Yeah, she's coming closer... let it flow through your body...<</speech>>
+With a crazy horny look on her face, the woman drags your crotch by the balls near her mouth, sticking out her tongue and sticking it in the cage, licking your glans in an unexpectedly energetic way.
+
+<<speech "You" "''$name:''">>
+Oh!... (Oh shit... now I'm going to cum for sure...) Ah...<</speech>>
+<<speech "nobody" "''Bartender'':">>
+Oh, fuck, look at his face! hahaha I think you're going to make him cum!<</speech>>
+<<speech "nobody" "''Achara'':">>
+ *fap, FAP, FAP* Yeah! Let it go!<</speech>>
+<<speech "nobody" "''Stressed woman'':">>
+AHHHH!! *squirt*<</speech>>
+<<speech "You" "''$name:''">>
+OHHH!!<</speech>>
+You both come at the same time. Achara finally got the woman to the point of no return and she just squirted all over her. A thin squirt of translucent cum leaks out of your penis, straight to the woman's face, some of it gets inside her mouth.
+
+<div class="center"><img src="quest6/cumcageclose.jpg" width="50%"></div>
+<<speech "nobody" "''Bartender'':">>
+Wooowww hahaha, she really did have some frustrated lust in her!<</speech>>
+<<speech "nobody" "''Achara'':">>
+Yeah, she definitely needed this... hey, how are you feeling?<</speech>>
+<<speech "nobody" "''Stressed woman'':">>
+U-uh...? What? Why am I... here? What the fuck is... THAT!?<</speech>>
+You were so into your orgasm that you didn't have enough time to put your pants back on, and she was still grabbing your balls with the same passion as she was a few seconds ago. In a quick move, she sits on the table, wanting to have a better view of what she is holding.
+
+<<speech "nobody" "''Stressed woman'':">>
+Why the fuck am I holding this faggot's dick? Ew! There's even cum in that cage...<</speech>>
+<<speech "nobody" "''Bartender'':">>
+Um... you should check your mouth, honey...<</speech>>
+The woman takes her hand to the face and instantly finds out what had happened.
+
+<<speech "nobody" "''Stressed woman'':">>
+Ew, ew, ew! *grabs a towel and wipes it out* It doesn't even taste like cum, it just tastes like dirty water or something...<</speech>>
+You take the chance and put your pants back on. Although you are embarrased, you kind of feel like it was worth it since you got a very deserved relief...
+
+<<speech "nobody" "''Achara'':">>
+Hey, relax. I told him to help since you were asking for it...<</speech>>
+<<speech "nobody" "''Stressed woman'':">>
+I wasn't! I don't even know what happened...<</speech>>
+<<speech "nobody" "''Achara'':">>
+Seems to me like you needed to relax and this young man helped you, and you also seemed to like him very much. Are you sure you're not attracted to him?<</speech>>
+<<speech "nobody" "''Stressed woman'':">>
+No. Not in that way at least...<</speech>>
+<<speech "nobody" "''Achara'':">>
+We can talk about your possible repressed feeling next time if you want. I would definitely recommend a session a day for you. You need a bit more enjoyment in your life. Do you agree?<</speech>>
+<<speech "nobody" "''Stressed woman'':">>
+Yeah... I certainly feel... better now...<</speech>>
+<<speech "nobody" "''Achara'':">>
+Nice. Do you feel like having another one now that your own self is consciouss?<</speech>>
+<<speech "nobody" "''Stressed woman'':">>
+Yeah, I guess work can wait a while...<</speech>>
+The woman, still naked, slowly walks to the table and lays down again. The bartender and you silently get out as you see Achara getting her magic hands ready for another round.
+
+<<speech "nobody" "''Bartender'':">>
+Whew... that was intense, wasn't it? Even more for you, I bet *wink* Anyway, I bet she'll be less annoying now. Thanks for helping, $name! I'll make sure that you get 200 points for your time. *leans in and gives you a kiss* See you soon... *smiles*<</speech>>
+<div class="center"><span class="notplus">''POINTS +200''</span></div>
+[[Finish quest|Deck 7][$tables to 1, $missionbar1 to "Finished", $points to $points +200, $coffeee to $coffeee -1]]<</linkreplace>><</if>>
+
+
+\\<<elseif $tables is 1>><<removeclass "html">><<addclass "html" "bar">><div class="center"><img src="places2/coffeelaptop.jpg" width="50%"></div>
+Sitting next to all these women, talking and sharing experiences you really can't relax. You actually feel them jugding you and you can't help but notice that the subject of the conversations changed the moment you arrived...
+
+<<speech "You" "''$name:''">>
+(It's not very comfortable here right now... I should go...)<</speech>>
+[[Return|Bar]]<<addmins 15>><</if>>
+
+

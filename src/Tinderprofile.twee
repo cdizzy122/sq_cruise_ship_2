@@ -1,0 +1,38 @@
+:: Tinderprofile [phone noreturn] {"position":"531,1582","size":"100,100"}
+<<removeclass "html">><<addclass "html" "tinder">><div class="center"><span class="noborder"><img src="stuff/tinder2.png" width="50%"></span>
+
+Welcome to Tinder!
+
+Please, upload a picture showing your assets and write your profile.</div>
+<<if $tprofile is 1>>Profile updated!
+<div class="center"><span class="fade-ins"><img src="stuff/tinderboy.jpg" width="45%">
+<div class="blue">Hey girl, you wanna join the ride? I've got plenty for you, so bring a friend if you can't handle it big. Like me and we will have some fun. FRIGID BITCHES FUCK OFF!</div></span></div>
+It says that I can choose another pic (different pics attract different people):
+
+<<click "Hot white boy" Tinderprofile>><<set $tprofile to 1>><</click>>
+<<click "My original face" Tinderprofile>><<set $tprofile to 2>><</click>>
+<<click "Redhead cutie" Tinderprofile>><<set $tprofile to 3>><</click>>
+
+[[Accept profile|Tinder][$tinder to 2]]
+<<elseif $tprofile is 2>>Profile updated!
+<div class="center"><span class="fade-ins"><img src="stuff/you.jpg" width="50%">
+Hi there... My name is $name and I am on a journey of self-discovery! I am what you see, just a sensible small man with a big big heart. If you think that the motion of the ocean is the most important thing, I'm your boy!</span></div>
+It says that I can choose another pic (different pics attract different people):
+
+<<click "Hot white boy" Tinderprofile>><<set $tprofile to 1>><</click>>
+<<click "My original face" Tinderprofile>><<set $tprofile to 2>><</click>>
+<<click "Redhead cutie" Tinderprofile>><<set $tprofile to 3>><</click>>
+
+[[Accept profile|Tinder][$tinder to 2]]
+<<elseif $tprofile is 3>>Profile updated!
+<div class="center"><span class="fade-ins"><img src="stuff/tinderred.jpg" width="40%">>
+<span class="pink">Hiii! It's been a while since I used this app, but a girl needs some love from time to time😘. But I'm not a bad girl, not usually anyway..😈. Like me if you like me! I will like you!</span></span></div>
+It says that I can choose another pic (different pics attract different people):
+
+<<click "Hot white boy" Tinderprofile>><<set $tprofile to 1>><</click>>
+<<click "My original face" Tinderprofile>><<set $tprofile to 2>><</click>>
+<<click "Redhead cutie" Tinderprofile>><<set $tprofile to 3>><</click>>
+
+[[Accept profile|Tinder][$tinder to 2]]<</if>><<audio "menus" stop>><<if ndef $mute>><<audio "tinder" unmute>><<else>><</if>>
+
+

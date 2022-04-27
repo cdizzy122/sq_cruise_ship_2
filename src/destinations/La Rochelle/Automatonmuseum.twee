@@ -1,0 +1,18 @@
+:: Automaton museum [textback] {"position":"4098,1494","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<audio "french" mute>><<audio "mystery" play>><<if ndef $automat>>You turn right to the ''Puppet and Automaton Museum''. After crossing under a few bridges you arrive to the museum:
+
+<img src="dockings/aut1.jpg" width="90%">
+
+<<speech "You" "''$name:''">>
+(Jesus... this place looks really dark. Gives me shivers...)<</speech>>
+You think about not going in, after all, Tara told you that Bastien was in the market. But your curiosity wins over.
+
+[[Get in|Automaton museum][$automat to 0]]
+<<click "Return" "rocheport">><<audio "mystery" stop>><</click>><<elseif $automat is 0>><span class="fade-ins"><img src="dockings/aut2.jpg" width="90%"></span>
+
+<<speech "You" "''$name:''">>
+(Puppets creep the hell out of me...)<</speech>>
+<div class="center"><------[[Bar|Ba]]------[[Lost items]]------[[Fortune teller]]------></div>
+<<click "Return" "rocheport">><<audio "mystery" stop>><</click>><</if>><<addmins 1>><<audio "menus" stop>><<if ndef $mute>><<audio "mystery" unmute>><<else>><</if>>
+
+

@@ -1,0 +1,40 @@
+:: VIP zone [textback] {"position":"3233,1011","size":"100,100"}
+<<if ndef $entervip>><<removeclass "html">><<addclass "html" "velvet">><div class="center"><img src="places2/vipdoor.jpg" width="50%"></div>
+You don't see anyone around the VIP door, so you decide to get in. Suddenly, a security woman steps in your way.
+
+<div class="center"><img src="passengers/guard.gif" width="60%"></div>
+<<speech "nobody" "''Security woman:''">>
+Hey, girl. Can I help you?<</speech>>
+<<speech "You" "''$name:''">>
+N-no, thank you...<</speech>>
+<span class="imgpop walkaway"><a class="specialeffects">You walk away silently...</a></span>
+
+<<speech "nobody" "''Security woman:''">>
+Yeah, that's what I thought...<</speech>>
+<<if ndef $vipcasino>>[[Return|Casino][$vip1 to "Active", $badge to $badge +1, $vipcasino to 1]]<<elseif $vipcasino is 1>>[[Return|Casino]]<</if>><<audio "menus" stop>><<if ndef $mute>><<audio "casino" unmute>><<else>><</if>>
+
+
+
+\\<<elseif $entervip is 0>><<removeclass "html">><<addclass "html" "velvet">><div class="center"><img src="places2/vipdoor.jpg" width="50%"></div>
+You don't see anyone around the VIP door, so you decide to get in. Suddenly, a security woman steps in your way.
+
+<div class="center"><img src="passengers/guard.gif" width="60%"></div>
+<<speech "nobody" "''Security woman:''">>
+Hey, girl. Can I help you?<</speech>>
+<<speech "You" "''$name:''">>
+Um... yeah, I have a VIP pass invitation from Captain T.<</speech>>
+You hand the pass to the woman. She spends quite some time inspecting it, and after half a minute she opens the door and steps away.
+
+<<speech "nobody" "''Security woman:''">>
+Sure, go ahead.<</speech>>
+She still doesn't seem very happy about it, but you're in!
+
+[[Get in|VIPin]]
+[[Casino]]
+
+
+
+
+\\<<elseif $entervip is 1>><</if>>
+
+

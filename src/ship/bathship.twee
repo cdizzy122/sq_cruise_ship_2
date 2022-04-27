@@ -1,0 +1,12 @@
+:: bathship [textback] {"position":"1561,1328","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><div class="center"><img src="places2/bathroomship.jpg" width="70%">
+
+<<if $needtopee is true>>[[PEE NOW NOW NOW]]
+[[Shower|showership]]
+<<else>><<if $shavebath is true>>[[Shower|showership]]<<if $makeupbath is true>> | [[Put on makeup]]<<else>><</if>>
+<<if $shaving is 0 or $shaving is 2>>[[Use shaving cream]]<<elseif $shaving is 1>><<linkreplace "Use shaving cream">>Your legs are already shaven, the product lasts a week.<</linkreplace>><</if>>
+<<else>>[[Shower|showership]]<</if>><</if>>
+
+[[Return|Bedroom]]<<addmins 1>><<nobr>><<if $gameDate.getHours() is 0 or $gameDate.getHours() lt 8>><<goto [[Dreams]]>><<else>><</if>><</nobr>></div><<audio "shower" stop>><<audio "menus" stop>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "shave" stop>>
+
+

@@ -1,0 +1,4 @@
+:: 1hour {"position":"2214,1","size":"100,100"}
+<<addhours 1>><<goto Suntanning>><<set $suntan += 2>>
+
+

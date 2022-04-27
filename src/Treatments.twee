@@ -1,0 +1,156 @@
+:: Treatments [textback] {"position":"2337,846","size":"100,100"}
+<<removeclass "html">><<addclass "html" "beauty">><<if ndef $treatments>><div class="center"><img src="places2/beautysalon2.jpg" width="55%"></div>
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+Right, so Cherry told me that you're actually looking to look more feminine-<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Oh, um...<</speech>>
+<<speech "style" "''Cherry:''">>
+C'mon, $name, don't interrupt her! Just trust me, ok?<</speech>>
+Lorei looks at you up close, checking your skin and hair.
+
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+So, as it is now, you have some greasy medium-long hair, with no recognizable style. And as far as your skin goes... well, I can tell you are not, like, a tough guy, you know: an alpha. Nope, not that. But those black spots and grease are definitely not very feminine either. It's okay if you want to choose an androgynous style, but these things are common to both gender. Clean hair and skin. Then we'll be talking about the rest... because girl... you are a trainwreck...<</speechpatreon>>
+<<speech "style" "''Cherry:''">>
+Hey! You should've seen her the first day she came here: she was literally a "he". He brought casual clothes, like a boring shirt and some trousers!<</speech>>
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+ *gasp* Oh, no!<</speechpatreon>>
+<<speech "style" "''Cherry:''">>
+And you should have seen his other clothes: A SUIT.<</speech>>
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+Hahaha... Phew, girl... I almost feel sorry for you, Cherry. These crossdressers can get feisty sometimes, but they are usually the most grateful once the transition is over!<</speechpatreon>>
+<<speech "style" "''Cherry:''">>
+I always thought he was cute, you know... trying to resist and all, but baby, style can't be resisted! Hahaha<</speech>>
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+Hahaha totally! Oh well, how about we start then, $name?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Um...<</speech>>
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+I'll take that as a yes.<</speechpatreon>>
+Each one of them grab you by an arm and take you to a reclining chair. Before getting you in there, Cherry helps you take your clothes off, except your underwear.
+
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+Uh-oh! Someone's shy? Not here, all off!<</speechpatreon>>
+Cherry quickly takes it off, exposing your caged clit for Lorei to see. 
+
+<div class="center"><img src="passengers/lorei3.jpg" width="50%"></div>
+You can see a smirk of disapproval from her, but before even saying anything, they show you the way to the chair and you lay down on it.
+
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+Alright, we'll start with that awful skin.<</speechpatreon>>
+<<linkreplace "... ...">><<if ndef $mutefx>><<audio "ow" play>><<else>><</if>><div class="center"><img src="classes/style/salon/skin1.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+Ah!! It hurts!<</speech>>
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+Yes it does! Now you know what it takes to be P.R.E.T.T.Y<</speechpatreon>>
+<<speech "style" "''Cherry:''">>
+Hang in there, $name!<</speech>>
+You see Cherry jumping in a cute way out of the room.
+
+<<speech "You" "''$name'':">>
+(Fuck...) Ouch!<</speech>>
+<<linkreplace "20 minutes later">><<addmins 20>>After what seems like an eternity of popping out black spots and stuff out of your skin, Lorei finally stops.
+
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+Alright, you're going to feel like a new... "girl". Just a bit of cream and we'll get going out for the hair.<</speechpatreon>>
+Lorei extends some cool cream all over you irritated face, making it feel a lot better. She then grabs a mirror and shows your face to you.
+
+<div class="center"><img src="classes/style/salon/skin2.jpg" width="40%"></div>
+<<speech "You" "''$name'':">>
+(Oh, wow... I look like a monster...)<</speech>>
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+Don't worry, it'll go down. Come on, let's get out.<</speechpatreon>>
+[[Beauty Salon|Treatments][$treatments to 0]]<</linkreplace>><</linkreplace>>
+
+
+
+
+
+\\<<elseif $treatments is 0>><div class="center"><img src="places2/beautysalon.jpg" width="60%"></div>
+Lorei takes you out. As soon as the girls there see you, a smile appears on their faces again.
+
+<<speech "nobody" "''Client'':">>
+Oh, jeez... Lorei really went in for that poor girl...<</speech>>
+Without further explanation, she sits you down on one of the empty chairs.
+
+<<speech "You" "''$name'':">>
+And now... what is going to happen?<</speech>>
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+Well, now I'm going to leave in hand of one of my workers. Lola!<</speechpatreon>>
+A spanish girl with huge breasts appears from behind.
+
+<div class="center"><img src="passengers/lola2.jpg" width="50%"></div>
+<<speech "lola" "''Lola:''">>
+Hey, remember me? I was at the costume contest. Apparently, it was rigged.<</speech>>
+<<speech "style" "''Cherry:''">>
+Yeah, right... $name had a better costume than you, girl. I'll tell you even more: she pulled it off better than you!<</speech>>
+<<speech "lola" "''Lola:''">>
+Whatever... I think she enjoyed the huge plastic cock though.<</speech>>
+She takes you hair straight away, taking a good look at it.
+
+<<speech "lola" "''Lola:''">>
+Wow, you really don't even care about your hair, huh? That's not right, girl. We're going to have to wash it really well... Maybe some dying? A cute pink and just cut it to a bob-<</speech>>
+<<speech "style" "''Cherry:''">>
+Hey, Lola! I'm the one in charge of her style, ok? So just wash it well and do a simple cut, just the tips to make it healthy and nice. That's what we'll do for now.<</speech>>
+Lola grunts something, but finally nods and gets to it.
+
+<<linkreplace "... ...">><div class="center"><img src="classes/style/salon/hair1.gif" width="55%"></div>
+<<speech "You" "''$name'':">>
+Oh, wow, this is soo nice...<</speech>>
+<<speech "lola" "''Lola:''">>
+I know, right? Aren't I nice...?<</speech>>
+She rubs your scalp so good that you have to close your eyes and just enjoy.
+
+<<speech "style" "''Cherry:''">>
+Yeah, nice my balls...<</speech>>
+<<speech "lola" "''Lola:''">>
+Probably nicer than you...<</speech>>
+You feel a gentle bump on your head, so you open your eyes:
+
+<div class="center"><img src="classes/style/salon/cleavagelola.gif" width="55%"></div>
+<<speech "You" "''$name'':">>
+Ahh...<</speech>>
+The amazing feeling, along with the view makes the whole process a lot more pleasurable than the skin thing. Once your hair is clean, Lola brings in the mask to moisturize, letting it on for 10 minutes. And then she starts combing and preparing your hair.
+
+<<speech "You" "''$name'':">>
+Ouch! You got my hair...<</speech>>
+<<speech "lola" "''Lola:''">>
+C'mon, you gotta suffer a bit to bring out the goods!<</speech>>
+You close your eyes and get through the occassional hair pulls. After just 10 more minutes, Lola seems to have finished and she lets you see yourself in the mirror.
+
+<div class="center"><img src="classes/style/salon/skin3.jpg" width="50%"></div>
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+Ooooh...<</speechpatreon>>
+<<speech "style" "''Cherry:''">>
+Ooooh...<</speech>>
+<<speech "lola" "''Lola:''">>
+Yeah, I'm good.<</speech>>
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+Perfect, you're not swollen anymore. Just like that, even without makeup,  you look so much more beautiful.<</speechpatreon>>
+Cherry walks to you and stands behind you.
+
+<<speech "style" "''Cherry:''">>
+Oh my god, $name. What do you think?<</speech>>
+You stare at yourself in the mirror, a bit confused by it. Now you really could look like a cute transgender girl. You know you might have been
+able to know that that reflection wasn't a woman, but right now the line is getting very thin.
+
+<<speech "You" "''$name'':">>
+I just...<</speech>>
+<<speech "style" "''Cherry:''">>
+She loves it! I think we're out of time anyway, but I'll let you hang around for a bit more. I'll get going, bye! *throws kiss* And remember! I expect you to have some decent makeup on by next week's class! And since you've been so despective with the art of makeup, you'll have to figure it out by yourself. Good luck. *waves and gets out*<</speech>>
+<div class="center">''New Quest: Get some amateur makeup done by next week's style class.''</div>
+<<click "Finish class" "Beauty Salon">><<set $bsalon to 0, $makeupquest1 to "Active", $badge to $badge +1, $pennyroom to 1, $sample to 0>><<run $gameDate.setHours (20)>><<run $gameDate.setMinutes (0)>><</click>><</linkreplace>>
+
+
+
+
+\\<<elseif $treatments is 1>>
+
+
+
+\\<<elseif $treatments is 2>>
+
+
+
+<</if>><<audio "menus" stop>>
+
+

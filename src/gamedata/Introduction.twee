@@ -1,0 +1,11 @@
+:: Introduction [textback] {"position":"207,3","size":"100,100"}
+The last three years of your life had been awesome but boring. After working for the same marketing company for 8 year, they finally hired you to be the new floor boss. Your routine changed, mostly reviewing work that had been done by others seated in an office, ocassionally firing someone.
+Coming from rich <span class="imgpop parents"><a class="specialeffects">parents</a></span> you really can't complain. You've always had it easy. You went to private schools since you were a little boy, and even though you never had excellent grades, you managed to pass everything.
+
+<span class="imgpop you"><a class="specialeffects">You</a></span> are almost 5'7', which is considered below average. Your pale skin and small frame has always vexed you. All these features, along with your lacking personality, has made you a girl-repellent all your life.
+
+But you are a lucky guy: About a year ago, you met <span class="imgpop gf"><a class="specialeffects">$gfname.</a></span> You both talked a lot and ended up falling in love. A few months ago $gfname suggested going to live to London because of a job offer. Despite having to leave your job, she finally managed to push you to move in with her to a new house, so you asked your parents for the money. Your life together in London has kind of spoiled the relationship. Although you were never a "high libido" couple, these last months have been sex-less.
+
+[[Open your eyes|Wake up]]<<set $boobs to 0>><<set $pen to 0>><<set $ownface to 0>><<set $ass to 0>><<set $appearance to 0>><<set $dreams to 0>><<audio "menus" stop>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>>
+
+

@@ -1,0 +1,170 @@
+:: porn [pinka noreturn textback] {"position":"1425,1885","size":"100,100"}
+<<if $pornaco is 1>><span class="fade-ins"><img src="porn/straight1.png" width="50%"><<addmins 30>>
+
+<<speech "You" "''$name:''">>
+WTF What does this mean?<</speech>>
+<span class="shudder">'Bzzzt! Nudity detected Bzzzt! User Not allowed'</span>
+
+<<return>></span><<elseif $pornaco is 2>><span class="fade-ins"><img src="porn/straight2.gif" width="70%"><<addmins 30>>
+
+<<speech "You" "''$name:''">>
+How can this thing even recognize me?!<</speech>>
+<span class="shudder">'Bzzzt! Nudity detected Bzzzt! User Not allowed'</span>
+
+<<return>></span><<elseif $pornaco is 3>><span class="fade-ins"><img src="porn/straight3.gif" width="60%"><<addmins 30>>
+
+<span class="shudder">'Bzzzt! Nudity detected Bzzzt! User Not allowed'</span>
+
+<<speech "You" "''$name:''">>
+Hey, it's not even censoring the dick! Just the boobs and the pussy.<</speech>>
+<<return>></span><<elseif $pornaco is 4>><span class="fade-ins"><img src="porn/straight4.gif" width="70%"><<addmins 30>>
+
+<span class="shudder">'Bzzzt! Nudity detected Bzzzt! User Not allowed'
+
+<<speech "You" "''$name:''">>
+ *sigh* How long will this go on? At least I can see their legs...<</speech>>
+<<return>></span><<elseif $pornaco is 5>><span class="fade-ins"><img src="porn/straight5.gif" width="30%"><<addmins 30>>
+
+'Bzzzt! Nudity detected Bzzzt! User Not allowed. Changing parameters Bzzzt' 'Sissies want cock, sissies wants cock...'
+
+<<return>></span><<elseif $pornaco is 6>><span class="fade-ins"><img src="porn/blowjob1.gif" width="60%"><<addmins 30>>
+
+'Bzzzt! Content suitable for sissies Bzzzzt! Size matters Bzzzt!'
+
+<<speech "You" "''$name:''">>
+OMG that cock cannot fit in that little girl...can it?<</speech>>
+<<return>></span><<elseif $pornaco is 7>><span class="fade-ins"><img src="porn/blowjob2.gif" width="50%"><<addmins 30>>
+
+'Bzzzt! Content suitable for sissies Bzzzzt! Size matters Bzzzt!' Bzzzt' 
+
+<<speech "You" "''$name:''">>
+Geez...that girl is drooling so heavily, she really must like it...<</speech>>
+<<return>></span><<elseif $pornaco is 8>><span class="fade-ins"><img src="porn/blowjob3.gif" width="70%"><<addmins 30>>
+
+'Bzzzt! Content suitable for sissies Bzzzzt! Size matters Bzzzt!'
+
+<<speech "You" "''$name:''">>
+She really is enjoying herself. It's almost like she is making out with that monster cock...<</speech>>
+<<return>></span><<elseif $pornaco is 9>><span class="fade-ins"><img src="porn/blowjob4.gif" width="40%"><<addmins 30>>
+
+'Bzzzt! Content suitable for sissies Bzzzzt! Size matters Bzzzt!'
+
+<<speech "You" "''$name:''">>
+3 girls 1 dick?! That so crazy...and that monster too...they seem like they like it...<</speech>>
+<<return>></span><<elseif $pornaco is 10>><span class="fade-ins"><img src="porn/blowjob5.gif" width="50%"><<addmins 30>>
+
+'Bzzzt! Content suitable for sissies Bzzzzt! Size matters Bzzzt!'
+
+<<speech "You" "''$name:''">>
+This cock can't be real. She's lubing it up so it fits, but that's impossible, is it?...<</speech>>
+<<return>></span><<elseif $pornaco is 11>><span class="fade-ins"><img src="porn/lesbian1.gif" width="70%"><<addmins 30>>
+
+'Bzzzt! Content suitable for sissies Bzzzzt! Size matters Bzzzt!'
+
+<<speech "You" "''$name:''">>
+Some cunnilingus eh? Hm... could she be doing some tongue game with the labia? or maybe some clitoral action? I bet she tastes amazing though...<</speech>>
+<<return>></span><<elseif $pornaco is 12>><span class="fade-ins"><img src="porn/lesbian2.gif" width="50%"><<addmins 30>>
+
+'Bzzzt! Content suitable for sissies Bzzzzt! Size matters Bzzzt!'
+
+<<speech "You" "''$name:''">>
+OMG that squirt! Is this what a girl pajama party looks like?<</speech>>
+<<return>></span><<elseif $pornaco is 13>><span class="fade-ins"><img src="porn/lesbian3.gif" width="70%"><<addmins 30>>
+
+'Bzzzt! Content suitable for sissies Bzzzzt! Size matters Bzzzt!'
+
+<<speech "You" "''$name:''">>
+Both of them are masturbating on the same dildo! And that dildo is really big and long...um...<</speech>>
+<<return>></span><<elseif $pornaco is 14>><span class="fade-ins"><img src="porn/cuckold1.gif" width="80%"><<addmins 30>>
+
+'Bzzzt! Content suitable for sissies Bzzzzt! Size matters Bzzzt!'
+
+<<speech "You" "''$name:''">>
+Ugh... that is disgusting... she just sucked that big...juicy...cock<</speech>>
+<<return>></span><<elseif $pornaco is 15>><span class="fade-ins"><img src="porn/cuckold2.gif" width="80%"><<addmins 30>>
+
+'Bzzzt! Content suitable for sissies Bzzzzt! Size matters Bzzzt!'
+
+<<speech "You" "''$name:''">>
+The husband is just laying there while the black guy fucks her wife... but they all seem to be enjoying it...<</speech>>
+<<return>></span><<elseif $pornaco is 16>><span class="fade-ins"><img src="porn/cuckold3.gif" width="70%"><<addmins 30>>
+
+'Bzzzt! Content suitable for sissies Bzzzzt! Size matters Bzzzt!'
+
+<<speech "You" "''$name:''">>
+Must be hard for her to satisfy those monsters. At least her cuckold is there to support her. Is that how true love works?<</speech>>
+<<return>></span><<elseif $pornaco is 17>><span class="fade-ins"><img src="porn/cuckold4.gif" width="80%"><<addmins 30>>
+
+'Bzzzt! Content suitable for beta cucks Bzzzzt! She has needs Bzzzt!'
+
+<<speech "You" "''$name:''">>
+Her hubby is near just in case she needs help lubing her lovers cock.<</speech>>
+<<return>></span><<elseif $pornaco is 18>><span class="fade-ins"><img src="porn/cuckold5.gif" width="80%"><<addmins 30>>
+
+'Bzzzt! Content suitable for beta cucks Bzzzzt! Share the taste mMmMm Bzzzt!'
+
+<<speech "You" "''$name:''">>
+The hubby is just kneeling there. He lives as a beta, serving her loving wife and her bull.<</speech>>
+<<return>></span><<elseif $pornaco is 19>><span class="fade-ins"><img src="porn/sissy1.gif" width="80%"><<addmins 30>>
+
+'Bzzzt! Content suitable for sissy bitches Bzzzzt! Get fucked! mMmMm Bzzzt!'
+
+<<speech "You" "''$name:''">>
+That little girl has a dick?! She seems to be enjoying her fuck...<</speech>>
+<<return>></span><<elseif $pornaco is 20>><span class="fade-ins"><img src="porn/sissy2.gif" width="80%"><<addmins 30>>
+
+'Bzzzt! Content suitable for sissy bitches Bzzzzt! Get fucked! mMmMm Bzzzt!'
+
+<<speech "You" "''$name:''">>
+She really seems to be loving the fuck... and she even wants something in her mouth...<</speech>>
+<<return>></span><<elseif $pornaco is 21>><span class="fade-ins"><img src="porn/sissy3.gif" width="80%"><<addmins 30>>
+
+'Bzzzt! Content suitable for sissy bitches Bzzzzt! Get fucked! mMmMm Bzzzt!'
+
+<<speech "You" "''$name:''">>
+Ow! That hurt just by looking at it... But she is enjoying it... sissies like being treated like that?<</speech>>
+<<return>></span><<elseif $pornaco is 22>><span class="fade-ins"><img src="porn/sissy4.gif" width="80%"><<addmins 30>>
+
+'Bzzzt! Content suitable for beta cucks Bzzzzt! Share the taste mMmMm Bzzzt!'
+
+<<speech "You" "''$name:''">>
+The sissy doesn't seem to be enjoying it that much... but she is LOVING it...<</speech>>
+<<return>></span><<elseif $pornaco is 23>><span class="fade-ins"><img src="porn/gay1.gif" width="80%"><<addmins 30>>
+
+'Bzzzt! Content suitable for gay sissies Bzzzzt! Ass <3 Dick mMmMm Bzzt!'
+
+<<speech "You" "''$name:''">>
+The twink is aching to feel that big cock in him. It looks so erotic...I mean...so gay.<</speech>>
+<<return>></span><<elseif $pornaco is 24>><span class="fade-ins"><img src="porn/gay2.gif" width="80%"><<addmins 30>>
+
+'Bzzzt! Content suitable for gay sissies Bzzzzt! Ass <3 Dick mMmMm Bzzt!'
+
+<<speech "You" "''$name:''">>
+JESUS! That dick must be hurting his internal organs...but he seems to be enjoying it...<</speech>>
+<<return>></span><<elseif $pornaco is 25>><span class="fade-ins"><img src="porn/gay3.gif" width="80%"><<addmins 30>>
+
+'Bzzzt! Content suitable for gay sissies Bzzzzt! Ass <3 Dick mMmMm Bzzt!'
+
+<<speech "You" "''$name:''">>
+That floppy dick is hypnotizing...um...I mean...<</speech>>
+<<return>></span><<elseif $pornaco is 26>><span class="fade-ins"><img src="porn/trans1.gif" width="80%"><<addmins 30>>
+
+'Bzzzt! Content suitable for friendly sissy sisters Bzzzzt! Ass <3 Dick mMmMm Bzzt!'
+
+<<speech "You" "''$name:''">>
+<span class="pink">Such a cute couple of friendly bunnies... *giggle*</span><</speech>>
+<<return>></span><<elseif $pornaco is 27>><span class="fade-ins"><img src="porn/trans2.gif" width="45%"><<addmins 30>>
+
+'Bzzzt! Content suitable for friendly sissy sisters Bzzzzt! Ass <3 Dick mMmMm Bzzt!'
+
+<<speech "You" "''$name:''">>
+That tranny doesn't have a big dick, but it still looks <span class="pink">kinda nice...</span> The other gurl surely seems very hungry for it... <span class="pink">Hmmm...</span><</speech>>
+<<return>></span><<elseif $pornaco is 28>><span class="fade-ins"><img src="porn/trans3.gif" width="80%"><<addmins 30>>
+
+'Bzzzt! Content suitable for gay sissies Bzzzzt! Ass <3 Dick mMmMm Bzzt!'
+
+<<speech "You" "''$name:''">>
+Oh wow... *you turn your head to the side* tranny tears... *slide your tongue out* <span class="pink">It looks so real...</span><</speech>>
+<<return>></span><</if>><<if $lust gte 80>><<set $lust to 100>><<goto "toohorny">><<else>><<set $lust to $lust +20>><</if>><<audio "menus" stop>>
+
+

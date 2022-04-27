@@ -1,0 +1,628 @@
+:: Random encounters [noreturn noborder textback] {"position":"2896,141","size":"100,100"}
+<<if $renc is 0>><<audio "myroom" volume 0.2 loop play>><div class="center"><span class="pulse"><img src="tara/tarahall1.jpg" width="60%"></span></div>
+<<speech "tara" "''Tara:''">>
+Hey, honey! How's everything going? Are you being a good boi...?<</speech>>
+She puts a hand behind your head and hugs you, sinking your head in her amazing rack.
+
+<<speech "tara" "''Tara:''">>
+I guess we'll find out on friday, won't we? huh?<</speech>>
+Your small dick is starting to fill with blood, hardening at an increasingly fast rate. Tara looks down to your crotch.
+
+<<speech "tara" "''Tara:''">>
+I know you are happy to see me, but you must learn some self-control, honey... If you behave like a dog, you will be treated like a dog. I'm gonna let this one slide. Just because I think you are cute *smooch*<</speech>>
+As you are heading your way, you feel your neck getting a little numb...
+
+<<speech "You" "''You:''">>
+(I must be tired or something... my mouth is dry...)<</speech>>
+Some images flash on your head:
+
+<div class="row">
+  <div class="columna">
+    <img src="encounters/gay.gif" width="110%">
+  </div><div class="columna">
+    <img src="encounters/bbc.gif" width="110%">
+  </div></div>
+  <span class="notplus">''LUST +30%''</span> <span class="notless">''INT -1''</span><<set $lust to $lust +30>><<set $int to $int -1>>
+
+[[Return|$return]]
+
+
+\\
+<<elseif $renc is 1>><<if ndef $mutefx>><<audio "heels" loop play>><<else>><</if>><div class="center"><span class="pulse"><img src="cap/caphall.jpg" width="40%"></span></div>
+<<speech "cap" "''Captain T:''">>
+Hey, my boy! I hope you're not skipping classes, are you?<</speech>>
+<<speech "You" "''$name:''">>
+No, I, um...<</speech>>
+She is looking at you as if she could really hear your thoughts, and that is making you uncomfortable.
+
+<<speech "cap" "''Captain T:''">>
+You better not, I will find out at the end. You are certainly cute...<</speech>>
+She comes close to you and hugs you.
+
+<<speech "You" "''$name:''">>
+(God... what's with the mood changes!?)<</speech>>
+<<speech "cap" "''Captain T:''">>
+And this mouth... do you want to come to my class and have something to eat? huh? Mommy has something on the oven for you...<</speech>>
+She puts two of her fingers inside your mouth and plays with your tongue a little.
+
+<<speech "You" "''$name:''">>
+I... have to... do things...<</speech>>
+<<speech "cap" "''Captain T:''">>
+Yeah, I bet you have... *grins* Don't forget to come to class, my boy.
+<</speech>>
+On that note, she just continues walking. As she leaves, you feel your tongue getting a bit numb and your head aches.
+
+<<speech "You" "''You:''">>
+(My tongue... iz like frezz out of ze dentizt...)<</speech>>
+Some images flash on your head:
+
+<div class="row">
+  <div class="columna">
+    <img src="encounters/goodgirl.gif" width="110%">
+  </div><div class="columna">
+    <img src="encounters/undress.gif" width="110%">
+  </div></div>
+  <span class="notplus">''LUST +30%''</span> <span class="notless">''INT -1''</span><<set $lust to $lust +30>><<set $int to $int -1>>
+
+[[Return|$return]]
+
+
+\\
+<<elseif $renc is 2>><<audio "style" volume 0.6 loop play>><div class="center"><span class="pulse"><img src="classes/style/cherryhall.jpg" width="70%"></span></div>
+<<speech "style" "''Cherry:''">>
+Hey, cutie! How's everything going? Do you want me to check you down there and make sure how everything's going?<</speech>>
+You quickly back out a little, evading her hands.
+
+<<speech "style" "''Cherry:''">>
+Hahaha, don't worry, honey! We're not on class, I'm just pulling your leg a bit! What do you think about MY clothes though?<</speech>>
+You can't help but blush.
+
+<<speech "You" "''$name:''">>
+Um... *blush* it's...<</speech>>
+<<speech "style" "''Cherry:''">>
+C'mon, don't be shy! What do you think of the fabric? do you like my ears?<</speech>>
+<<speech "You" "''$name:''">>
+It's smooth... (mmm...)<</speech>>
+<<speech "style" "''Cherry:''">>
+Do you like it? Here, come closer... *she pulls you a little closer*<</speech>>
+You are getting hornier, but also, your hand is getting a bit numb...
+
+<<speech "style" "''Cherry:''">>
+Well, I knew you'd like the soft fabric... *smiles* I'll be waiting for the next class.<</speech>>
+She releases you hand and walks away.
+
+<<speech "You" "''You:''">>
+(I must be tired or something... my mouth is dry...)<</speech>>
+Some images flash on your head:
+
+<div class="row">
+  <div class="columna">
+    <img src="encounters/bimbo1.gif" width="110%">
+  </div><div class="columna">
+    <img src="encounters/girl.gif" width="110%">
+  </div></div>
+  <span class="notplus">''LUST +30%''</span> <span class="notless">''INT -1''</span><<set $lust to $lust +30>><<set $int to $int -1>>
+
+[[Return|$return]]
+\\
+
+
+
+<<elseif $renc is 3>><<audio "girltalk1" volume 0.3 loop play>><div class="center"><span class="pulse"><img src="encounters/3hotties.jpg" width="60%"></span></div>
+As you arrive to the deck you see a group of women walking the opposite direction you are. Although you know that they are just passing by and are probably not going to notice you, you can't help but feel nervous.
+
+<<speech "You" "''$name'':">>
+(Oh, god... why am I feeling so ashamed?)<</speech>>
+As you hear them getting closer, you try to keep walking forward and stay as calm as you can. Unconsciously, you progressively lower your head until it's looking straight to the floor. As you are a few feet away from each other you start hearing their conversation become clearer.
+
+<<speech "nobody" "''Brunette girl'':">>
+... I mean, ugh! It's not that I would care if he is not 6 feet, but he would have to compensate, you know... *giggle*<</speech>>
+<<speech "nobody" "''Blonde girl'':">>
+I hear you, girl, stature is very important, but you gotta pick 'em big where it counts!<</speech>>
+<<speech "nobody" "''Black-haired girl'':">>
+Well, I actually think all that is shit. The taller he is, the bigger it's his junk. It's only logical!<</speech>>
+<<speech "nobody" "''Brunette girl'':">>
+Yeah, yeah... tell that into your 5'6'' husband! *giggles*<</speech>>
+<<speech "nobody" "''Blonde girl'':">>
+Hahahaha, Daaaamn!<</speech>>
+As their conversation reaches that point you are almost at the same point of the hall. As they laugh at the brunette's response, you try to sneak to the side and walk quicker. Your heart is pounding and you hope they don't notice you.
+
+<<speech "nobody" "''Blonde girl'':">>
+Hey, look, it's our stowaway! Do you think he knows the answer to our dilemma?<</speech>>
+You face immediately turns red as your way is blocked and are forced to stop. You turn your body to them, but you still keep your face down.
+
+<<speech "nobody" "''Black-haired girl'':">>
+Nah, he's probably one of those "motion of the ocean" believers... *giggle*<</speech>>
+<<speech "nobody" "''Brunette girl'':">>
+Hey, stud! Have you ever had a small guy who had a big dick?<</speech>>
+You are stunned with the question.
+
+<<speech "You" "''$name'':">>
+W-what do you mean if I h-had a guy...?<</speech>>
+<<speech "nobody" "''Blonde girl'':">>
+C'mon honey... you know... *mimics a blowjob*<</speech>>
+They laugh at their friend's joke and you just feel more embarrased.
+
+<<speech "You" "''$name'':">>
+Um... no, I don't do t-that...<</speech>>
+<<speech "nobody" "''Black-haired girl'':">>
+I guess we could figure it out right now...<</speech>>
+She looks at both of her friends and smile. You know what's coming...
+
+<<if $sub gte 13>> /* ''(if SUB is 13 or greater)'' */
+
+Even though you'd like to run away from there, you just stay in place. Even before you can start rethinking your priorities, the black-haired girl comes near you.
+
+<<if $under is 1>><<speech "nobody" "''Brunette girl'':">>
+Wow, such manly underwear!<</speech>>
+<<speech "nobody" "''Blonde girl'':">>
+ *laughs* I thought briefs were only for little boys!<</speech>><<elseif $under is 2 or $under is 3>><<speech "nobody" "''Brunette girl'':">>
+Hahahaha OMG! Are those panties?<</speech>>
+<<speech "nobody" "''Blonde girl'':">>
+Who have you stolen those panties from, you little pervert?! *laughs*<</speech>><<elseif $under is 4>><<speech "nobody" "''Brunette girl'':">>
+Hahahaha OMG! Is that a fucking G-String?<</speech>>
+<<speech "nobody" "''Blonde girl'':">>
+Who's a good pretty girl? *laughs*<</speech>>
+<<speech "nobody" "''Brunette girl'':">>
+Are you sure you haven't had any... *air blowjob*? Hahahaha<</speech>><</if>>
+
+<<speech "nobody" "''Black-haired girl'':">>
+Stop playing, girls. It's time for you to see that I'm right.<</speech>>
+She grabs your underwear and pulls it down, exposing your <<if $cage is true>>caged dick.<<else>>bare penis.<</if>>
+
+<<if $cage is true>><div class="center"><img src="porn/cagecum.gif" width="50%"></div>
+<<speech "nobody" "''Blonde girl'':">>
+Hahahaha Is this for real?<</speech>>
+<<speech "nobody" "''Brunette girl'':">>
+Fuck, what is that...?<</speech>>
+The black-haired girl looses your underwear.
+
+<<speech "nobody" "''Black-haired girl'':">>
+That's a chastity cage, Nicky. It's where tiny dicks as his should be in.<</speech>>
+<<speech "nobody" "''Blonde girl'':">>
+Wow, you're such a faggot! Hahahaha<</speech>>
+<<speech "nobody" "''Brunette girl'':">>
+I guess you're right then, Monika... How can a dick be so small and still call it a dick...?<</speech>>
+They start walking their way, ignoring your naked penis. As soon as they turn the other way, you cover yourself again.
+
+
+\\<<else>><<nobr>><div class="center"><<if $pen is 0>><img src="appearance/pen0.jpg" width="50%"><<elseif $pen is 1>><img src="appearance/pen1.jpg" width="50%"><<elseif $pen is 2>><img src="appearance/pen2.jpg" width="50%"><<elseif $pen is 3>><img src="appearance/pen3.gif" width="50%"><</if>></div><</nobr>>
+
+<<speech "nobody" "''Blonde girl'':">>
+Hahahaha Is this for real?<</speech>>
+<<speech "nobody" "''Brunette girl'':">>
+Fuck, why is it so small?<</speech>>
+The black-haired girl looses your underwear.
+
+<<speech "nobody" "''Black-haired girl'':">>
+That's a white dick... and one of the smaller ones, too. There you go. Do you believe me now?<</speech>>
+<<speech "nobody" "''Blonde girl'':">>
+Wow, does that even get hard?<</speech>>
+<<speech "nobody" "''Brunette girl'':">>
+I guess you're right then, Monika... How can a dick be so small and still call it a dick...?<</speech>>
+They start walking their way, ignoring your naked penis. As soon as they turn the other way, you cover yourself again.<</if>>
+
+
+\\<<elseif $sub lt 13>>''(if SUB less than 13)''
+
+<<speech "You" "''$name'':">>
+Hey, stop it!<</speech>>
+Just as she is coming to grab you, you manage to dodge her.
+
+<<speech "nobody" "''Black-haired girl'':">>
+You have something to hide, little boy?<</speech>>
+<<speech "You" "''$name'':">>
+Just get off me...<</speech>>
+You turn around and continue walking your way. 
+
+<span class="onomatopeya">*SLAPS BUTT*</span>
+
+<<speech "You" "''$name'':">>
+What the fuck did you do that for?!<</speech>>
+<<speech "nobody" "''Black-haired girl'':">>
+Relax... that's not proper language for a cute boy like you. I bet you don't even have a dick, fag. That's why you're so ashamed, am I right, girls?<</speech>>
+<<speech "nobody" "''Brunette girl'':">>
+He's kinda cute.<</speech>>
+<<speech "nobody" "''Blonde girl'':">>
+Maybe even too cute for a boy... *giggles*<</speech>>
+<<speech "nobody" "''Brunette girl'':">>
+Although that doesn't prove your point, Lisa.<</speech>>
+<<speech "nobody" "''Black-haired girl'':">>
+Yeah, yeah, whatever... Let's go then...<</speech>><</if>>
+
+[[Return|$return]]
+
+
+
+
+
+
+\\<<elseif $renc is 4>>As you arrive to the deck you can see a woman sitting on a couch on the side. You decide to continue walking before she notices you, but just as you are doing that you hear her make a sound.
+
+<div class="center"><img src="encounters/blondemilf.jpg" width="38%"></div>
+<<speech "nobody" "''Blonde Milf'':">>
+ Pssst... *throws a kiss to you and smiles*<</speech>>
+<<linkreplace "*muawh*">><<if ndef mutefx>><<audio "kiss" play>><<else>><</if>><<speech "You" "''$name'':">>
+(She is kind of a hottie for her age, but her attitude is a bit weird...)<</speech>>
+You take a look her way, but keep on walking.
+
+<<speech "nobody" "''Blonde Milf'':">>
+Hey, cutie-cutie... *smooch* come here, I want to tell you a secret...<</speech>>
+You don't know if you should go near her, she's really giving you a creepy vibe.
+
+<<speech "You" "''$name'':">>
+(I'll just get a little bit closer...)<</speech>>
+You stop walking forward and start going near the couch.
+
+<<speech "nobody" "''Blonde Milf'':">>
+Yeah, that's right... come here, closer to mommy...<</speech>>
+Her inviting hand is making you feel attracted to her. As you get closer, her scent gets clearer. You can notice a very marked perfume scent, as well as some other that you can't quite identify, but it's very familiar...
+
+<<speech "nobody" "''Blonde Milf'':">>
+Hey, you can tell mommy: is your pee-pee doing fine? *pouts*<</speech>>
+You don't know what is making you more uncomfortable, if the fact that she keeps referring to herself as your "mommy" or that she just called your penis "pee-pee"...
+
+<<speech "You" "''$name'':">>
+(Um... what am I supposed to say to this...?) ...Yes.<</speech>>
+You face the other direction, ready to start walking away.
+
+<<speech "nobody" "''Blonde Milf'':">>
+Oh... tsk-tsk, someone's cranky! *smiles* is your cage a bit too small, huh...?<</speech>>
+<<if $cage is true>><<speech "You" "''$name'':">>
+What?! No, I don't wear chastity cages!<</speech>>
+<<speech "nobody" "''Blonde Milf'':">>
+Well, you certainly seem to know a lot about it for someone who "does not wear chastity cages" *smiles* Why don't you come here and let mommy take a good look at you...?<</speech>>
+She doesn't seem agressive, so you get near her.
+
+<<speech "nobody" "''Blonde Milf'':">>
+Oh... you're pretty... *she raises her hand* come here...<</speech>>
+You crouch a bit so she can caress your face. She then starts rubbing your cheeks and making baby faces, which still make you feel... not very comfortable...
+
+<<speech "nobody" "''Blonde Milf'':">>
+Such a nice smooth face for a boy, what else is smooth?<</speech>>
+With your face already in her hand, she grabs it and pushes you closer. Then, without pulling your pants down, she slides her other hand inside your underwear, reaching your caged dick.
+
+<<speech "You" "''$name'':">>
+ *gasp* Hey! Stop! Get off me! OW!<</speech>>
+You pull out, but she's got you literally by the balls.
+
+<<speech "nobody" "''Blonde Milf'':">>
+Oh, honey... Mommy just wants to make sure your birdy is safe and healthy...<</speech>>
+<div class="center"><img src="encounters/grabballs.gif" width="50%"></div>
+She starts groping and squeezing your balls. With a worried look on your face, you look directly at her lustfull eyes, that seem to be having fun as you suffer.
+
+<<speech "nobody" "''Blonde Milf'':">>
+Everything seems to be in its place... *squeeze*<</speech>>
+Still grabbing your face she taps your cage with her nails.
+
+<div class="center"><span class="onomatopeya">*CLING CLING*</span></div>
+<<speech "nobody" "''Blonde Milf'':">>
+I better not see you walking around not wearing this, son.<</speech>>
+As she lets your face go, you quickly step back. Then you can see where that musky smell was coming from.
+
+<<speech "You" "''$name'':">>
+(Her pussy is leaking... she must've really enjoyed molesting me, fuckin' perv...)<</speech>>
+[[Return|$return]]
+
+
+\\<<else>><<if $sub lt 7>><<speech "You" "''$name'':">>
+What cage? I'm not wearing any cage!<</speech>>
+You walk away as quick as you can.
+
+<<speech "nobody" "''Blonde Milf'':">>
+Hahahaha well, you should, son. *smile*<</speech>>
+Her eyes open even wider as she keeps telling you to come closer. You really don't feel good about that so you walk away.
+
+[[Return|$return]]<<else>><<speech "You" "''$name'':">>
+What cage? I'm not wearing any cage!<</speech>>
+<<speech "nobody" "''Blonde Milf'':">>
+Hahaha, well you should! How about you come here and we talk about it? *wink*<</speech>>
+You decide to comply and start walking her way. Once you arrive to the bench, the hot woman starts talking.
+
+<<speech "nobody" "''Blonde Milf'':">>
+For what the Cap says, you should definitely be wearing a cage for your small dick. You don't want to wait until real men get into the ship to take that decision...<</speech>>
+<<speech "You" "''$name'':">>
+H-how do you even know my dick size?<</speech>>
+<<speech "nobody" "''Blonde Milf'':">>
+Hahaha... well, I'm no rocket scientist, but sweety... I can tell just by looking at you... I have some experience, you know?<</speech>>
+<<speech "You" "''$name'':">>
+Yeah, well... *you get ready to go away*<</speech>>
+<<speech "nobody" "''Blonde Milf'':">>
+Well, prove me wrong! C'mon, son. Do it.<</speech>>
+You really wish you could take your pants off and show a huge dangling cock, but you know that it can only end bad for you. Before you can even say no again, she grabs your pants and pulls them down, exposing your <<if $under is 0>>boxers<<elseif $under is 1>>tight briefs<<elseif $under is 2>>panties<<elseif $under is 3>>naughty panties<<elseif $under is 4>>G-String<<elseif $under is 5>>Girly panties<<elseif $under is 6>>Slutty panties<</if>>.
+
+<<speech "You" "''$name'':">>
+ *gasp*<</speech>>
+The awful feeling of being nearly naked in the middle of the hall gets even worse as you hear a pair of young girl cackle about it as they walk to their rooms.
+
+<<speech "nobody" "''Blonde Milf'':">>
+Aw... well, at least you've got some cute underwear...<</speech>>
+You put a hand on your crotch, but she somehow manages to lower your underwear to your knees. As a defense mechanism, you get on your knees, trying to grab your underwear and pants to get them on again, but she has her heels on top of them, so you can't lift them.
+
+<<speech "You" "''$name'':">>
+N-no, please... let me go...<</speech>>
+<<speech "nobody" "''Blonde Milf'':">>
+Don't be like that, I haven't even seen your pee-pee yet. Can I?<</speech>>
+You take a look to each of the sides, worried that any other women will pass through the hall. The hot milf notices, so she holds a long semi-transparent shawl over your back.
+
+<<speech "nobody" "''Blonde Milf'':">>
+There you go. Now show mommy your white dickie...<</speech>>
+You hinge your hips so she can take a look at your almost hard dick. She frowns her eyebrows and moves her black heels near your balls. She slowly lifts your erection with her foot.
+
+<<speech "nobody" "''Blonde Milf'':">>
+It's hard, isn't it?<</speech>>
+<<speech "You" "''$name'':">>
+(Can't she tell...? I thought she had experience...) Y-yes...<</speech>>
+<<speech "nobody" "''Blonde Milf'':">>
+Oh, of course, yes. Sorry, it's been years since I've actually seen a white one... You must really be horny with all these women around you. Do you see that anklet I have?<</speech>>
+You take another look at her foot.
+
+<div class="center"><img src="encounters/heels.jpg" width="45%"></div>
+<<speech "You" "''$name'':">>
+Um... yeah...<</speech>>
+She starts moving her heels up and down your balls, rubbing your whole crotch each time, which only makes you hornier.
+
+<<speech "nobody" "''Blonde Milf'':">>
+You know what that means?<</speech>>
+<<speech "You" "''$name'':">>
+Huh?<</speech>>
+<<speech "nobody" "''Blonde Milf'':">>
+I am a Queen of Spades, I only fuck black men. BBC stands for Big Black Cock. But I can let you borrow my foot, am I nice or what? Rub it, baby boy...<</speech>>
+<<if $lust gte 50>>You concentrate on your erection and her anklet. The condescending way she talks to you makes you very horny, and you don't even know why.
+
+<div class="center"><img src="cumshot.gif" width="50%"></div>
+<<speech "You" "''$name'':">>
+AAhhh...<</speech>>
+<<speech "nobody" "''Blonde Milf'':">>
+Yeahhh hahahahaha!<</speech>>
+While you are having your orgasm, she lifts the shawl, revealing the whole scene just as another pair of women cross the hall. Embarrased, you pick up your clothes, put them on and get out of there.
+
+<<speech "nobody" "''Blonde Milf'':">>
+We'll see how well you do as soon as men CUM in... *smiles* That'll be something.<</speech>>
+[[Return|$return]]
+
+
+\\<<else>>Although the touch of her shoes on your balls tingle, you feel that the humiliation and exposure is too much to bare. In consequence, you small dick start getting limp. You hump her foot, trying to make your blood flow again, but you know there's no way you're getting that hard again in a while.
+
+<<speech "nobody" "''Blonde Milf'':">>
+ *that puts a smile on her face* See, son? You are not worthy. Even your body knows it, you shouldn't have that clit out. Do us all a favour and get a cage, honey.<</speech>>
+She suddenly lifts the shawl, revealing the whole scene just as another pair of women cross the hall. Embarrased, you pick up your clothes, put them on and get out of there.
+
+[[Return|$return]]<</if>><</if>><</if>><</linkreplace>>
+
+
+\\<<elseif $renc is 5>><div class="center"><img src="encounters/gold1.jpg" width="30%"></div>
+<<speechpatreon "P4c0" "">><span class="imgpop p4c0">''Lizzy''<<nobr>><span class="badge badge-primary"><span class="noshit"><a href="https://www.patreon.com/tiplick_" target="_blank"><img src="https://c10.patreonusercontent.com/3/eyJ3Ijo0MDB9/patreon-media/p/reward/501014/d03dc41c37db4da78b1518c53542b3bd/1.png?token-time=2145916800&token-hash=FRVPN5z4by51Dj3xwd-EflEsehtUOrRhZJEAetXY8Uw%3D" height="25" width="25"></a>
+<area shape="rect" coords="25,25,75,75" href="https://www.patreon.com/tiplick_" target="_blank"></span><</nobr>>:</span>
+Hi, cutie! Have we met before?<</speechpatreon>>
+<<speech "You" "''$name:''">>
+Um... no?<</speech>>
+<<speechpatreon "P4c0" "">><span class="imgpop p4c0">''Lizzy''<<nobr>><span class="badge badge-primary"><span class="noshit"><a href="https://www.patreon.com/tiplick_" target="_blank"><img src="https://c10.patreonusercontent.com/3/eyJ3Ijo0MDB9/patreon-media/p/reward/501014/d03dc41c37db4da78b1518c53542b3bd/1.png?token-time=2145916800&token-hash=FRVPN5z4by51Dj3xwd-EflEsehtUOrRhZJEAetXY8Uw%3D" height="25" width="25"></a>
+<area shape="rect" coords="25,25,75,75" href="https://www.patreon.com/tiplick_" target="_blank"></span><</nobr>>:</span>
+Well, how about you come in and fix that problem? *wink*<</speechpatreon>>
+[[Get in|encpatr][$encpatr to 0]]
+[[Continue walking|$return]]
+
+\\<<elseif $renc is 6>><div class="center"><img src="encounters/gold2.jpg" width="40%"></div>
+
+<<speechpatreon "gg" "">><span class="imgpop gg">''Sam''<<nobr>><span class="badge badge-primary"><span class="noshit"><a href="https://www.patreon.com/tiplick_" target="_blank"><img src="https://c10.patreonusercontent.com/3/eyJ3Ijo0MDB9/patreon-media/p/reward/501014/d03dc41c37db4da78b1518c53542b3bd/1.png?token-time=2145916800&token-hash=FRVPN5z4by51Dj3xwd-EflEsehtUOrRhZJEAetXY8Uw%3D" height="25" width="25"></a>
+<area shape="rect" coords="25,25,75,75" href="https://www.patreon.com/tiplick_" target="_blank"></span><</nobr>>:</span>
+Hey, you are that pretty boy, right? May I ask for some gurl help?<</speechpatreon>>
+<<speech "You" "''$name:''">>
+Um... gurl help?<</speech>>
+<<speechpatreon "gg" "">><span class="imgpop gg">''Sam''<<nobr>><span class="badge badge-primary"><span class="noshit"><a href="https://www.patreon.com/tiplick_" target="_blank"><img src="https://c10.patreonusercontent.com/3/eyJ3Ijo0MDB9/patreon-media/p/reward/501014/d03dc41c37db4da78b1518c53542b3bd/1.png?token-time=2145916800&token-hash=FRVPN5z4by51Dj3xwd-EflEsehtUOrRhZJEAetXY8Uw%3D" height="25" width="25"></a>
+<area shape="rect" coords="25,25,75,75" href="https://www.patreon.com/tiplick_" target="_blank"></span><</nobr>>:</span>
+Yeah, we can help each other...<</speechpatreon>>
+[[Get in|encpatr][$encpatr to 1]]
+[[Continue walking|$return]]
+
+
+\\<<elseif $renc is 7>>As you are walking through the deck, you notice a door opening to your right.
+
+<div class="center"><img src="encounters/milf21.jpg" width="50%"></div>
+<<speech "nobody" "''Flashing tall milf'':">>
+Oh, hey! You are the cute little stowaway, aren't you? Nice to meet you!<</speech>>
+Although her huge height scares you a bit, her compliments compensate.
+
+<<speech "You" "''$name'':">>
+Nice to meet you too... (finally someone nice...)<</speech>>
+<<speech "nobody" "''Flashing tall milf'':">>
+I've got so many questions. Are you on this trip on your own? Do you have a girlfriend?<</speech>>
+<<speech "You" "''$name'':">>
+Yeah, I came by myself. Well, it was kind of a mistake... and yes, I have a girlfriend, but she's at home. And you?<</speech>>
+<<speech "nobody" "''Flashing tall milf'':">>
+Oh, you know... I got married last month, but life took a BIG turn. And now my hubby is taking care of the house. So basically the opposite of you! And did your girl convince you to come? How does she manage to make you eat her lover's creampies? Do you fluff them?<</speech>>
+<<speech "You" "''$name'':">>
+Wow, no, I don't do anything like that. No, she... doesn't know what this ship is about...<</speech>>
+<<speech "nobody" "''Flashing tall milf'':">>
+Oh, so you're a closet fag?<</speech>>
+<<speech "You" "''$name'':">>
+No, I'm not!<</speech>>
+Suddenly the woman raises her skirt.
+
+<div class="center"><img src="encounters/milf2.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+Wow, wow!<</speech>>
+<<speech "nobody" "''Flashing tall milf'':">>
+See? I have that effect over little "men" like you. "REAL" men would fuck me right here. But I bet you couldn't even reach my G-Spot, so it's better this way. Actually, you should be eating me up, like the proper beta you are, sissy.<</speech>>
+She passes two of her fingers across her pussy, and then tries to put them on your lips.
+
+<div class="center"><img src="encounters/pussy.jpg" width="50%"></div>
+<<if $sub gte 15>>You hesitate and her fingers land on your lips.
+
+<<speech "You" "''$name'':">>
+Agh... *spit, spit*<</speech>>
+<<speech "nobody" "''Flashing tall milf'':">>
+C'mon, it's not that awful. I thought sissies like you had to lick a lot of pussy. How about a little snack, huh? Do it for me... I miss my hubby's tongue...<</speech>>
+While you are busy getting her juices off your mouth, she gets closer and grabs your head. Then she throws her bags to the floor and pushes your head down until your knees give.
+
+<div class="center"><img src="encounters/pussy2.jpg" width="50%"></div>
+Before you know it, you find yourself with your tongue in her pussy, automatically working her clitoris. Judging by her light moans, you are doing your job right.
+
+<<speech "nobody" "''Flashing tall milf'':">>
+Yeah... suck that clit... yeah, you fucking cuck... *thrust, thrust*<</speech>>
+<<speech "You" "''$name'':">>
+(I better hurry up before someone comes walking by...)<</speech>>
+You speed up your tongue and focus on her clitoris.
+
+<<speech "nobody" "''Flashing tall milf'':">>
+AH! Wow, wow! What's with that eagerness? There's no bull cum in there for you... ah!...AH!<</speech>>
+<span class="onomatopeya">CUM</span>
+
+<<speech "nobody" "''Flashing tall milf'':">>
+God... good sissy... *pat, pat* I've got to have you fluff my bulls and eat my creampies...<</speech>>
+She lets your head go. You stand up and try to clean some of her juices of your face.
+
+<<speech "nobody" "''Flashing tall milf'':">>
+Aw... look at that clit crying... did you like the idea of eating a creampie?<</speech>>
+<div class="center"><img src="porn/cagecum.gif" width="50%"></div>
+Embarrased, you get your shit together and walk away.
+
+[[Return|$return]]
+
+
+\\<<elseif $sub lt 15>>You are fast enough to get back a bit and evade her, but her smell still remains in your nostrils.
+
+<<speech "nobody" "''Flashing tall milf'':">>
+Hahahaha... you are not so broken yet... we'll see what happens after a while.<</speech>>
+The woman laughs to herself and get in her room.
+
+[[Return|$return]]<</if>>
+
+
+\\<<elseif $renc is 8>>Just when you are passin through the hall you see one of the nearest doors open and some loud music comes out.
+
+<span class="onomatopeya">*TWERKING MUSIC*</span>
+
+<<speech "nobody" "''Extroverted blonde'':">>
+Ashley, remember to get that tampon, you bleeding bitch, hahaha!<</speech>>
+You hear some other girl answer from the room.
+
+<<speech "nobody" "''Ashley'':">>
+Hey, shut up, you cocksucker!<</speech>>
+<<speech "nobody" "''Extroverted blonde'':">>
+Hahaha...<</speech>>
+The blonde woman suddenly turns her head and sees you walking by. You didn't notice it, but you stopped moving as soon as you saw someone else.
+
+<<speech "nobody" "''Extroverted blonde'':">>
+Hey, guuurl! What's up?... Ashley, we got companyyy!<</speech>>
+<<speech "nobody" "''Ashley'':">>
+What's going on? I'm putting it on, can't you wait just a second?!<</speech>>
+<<speech "nobody" "''Extroverted blonde'':">>
+The "man" is here!! Wooooooo<</speech>>
+<<speech "You" "''$name'':">>
+(Is she on cocaine or what??) Um... sorry, I should go.<</speech>>
+<<speech "nobody" "''Ashley'':">>
+What? Oh, you mean "him"?<</speech>>
+<<speech "nobody" "''Extroverted blonde'':">>
+Hey, don't go just yet! Can you stay if I do this?<</speech>>
+She turns around against the wall and starts twerking to the loud latin music.
+
+<div class="center"><img src="encounters/twerk.jpg" width="50%"></div>
+You feel like the situation is too weird to even get horny, but you can't help to notice how unadequate you are...
+
+<<speech "You" "''$name'':">>
+(What am I supposed to do?...)Um...<</speech>>
+She really is going for it, if you hadn't seen her coming out of her room you would definitely think she is drunk and coming from a party. Once the chorus of the song starts, she shows you her real skills reaching the floor with her ass.
+
+<span class="onomatopeya">HUMP HUMP HUMP</span>
+
+<<speech "nobody" "''Extroverted blonde'':">>
+Yeahhh, you like that ass?! *hump, hump* OWW!!<</speech>>
+Suddenly the girl gets up with a hand on her ass.
+
+<<speech "nobody" "''Extroverted blonde'':">>
+Ow... shit, shit, shit!<</speech>>
+<<speech "nobody" "''Ashley'':">>
+What's wrong?! Did that freak do something to you?<</speech>>
+<<speech "nobody" "''Extroverted blonde'':">>
+N-no! I- I- fuck... Ashley, I need you to take a look, now!<</speech>>
+<<speech "nobody" "''Ashley'':">>
+What do you mean? I am busy!<</speech>>
+<<speech "nobody" "''Extroverted blonde'':">>
+You still with the fucking condom?!<</speech>>
+<<speech "nobody" "''Ashley'':">>
+No! But I can't get out just yet! What's wrong?<</speech>>
+<<speech "nobody" "''Extroverted blonde'':">>
+You, come here, now! Ow... Just tell me if something's wrong, ok? C'mon it's no time to be shy!<</speech>>
+She is pointing at her ass and lifting her dress. Then you suddenly see what she's talking about.
+
+<div class="center"><img src="encounters/buttplug.gif" width="30%"></div>
+<<speech "You" "''$name'':">>
+(Oh shit, I get it now...) It's a... a-<</speech>>
+<<speech "nobody" "''Extroverted blonde'':">>
+Yes a fucking buttplug! Is something wrong down there?<</speech>>
+<<speech "You" "''$name'':">>
+(Mmm...) Everything looks... fine to me... <span class="pink">*sniff, sniff*</span><</speech>>
+<<speech "nobody" "''Extroverted blonde'':">>
+Take it out!<</speech>>
+You look up to her, confused.
+
+<<speech "nobody" "''Extroverted blonde'':">>
+C'mon! It hurts!<</speech>>
+<<speech "You" "''$name'':">>
+O-ok...<</speech>>
+You try to grab the buttplug from the handle, but it seems to be very tight and you can barely pull from it. Also, it is covered in lube so you can't really get a good grip.
+
+<<speech "nobody" "''Extroverted blonde'':">>
+Is it coming out?<</speech>>
+<<speech "You" "''$name'':">>
+It's just too slipery... I'm trying, but... *touch it*<</speech>>
+<<speech "nobody" "''Extroverted blonde'':">>
+Ouch! I think it may have hurt my insides! Just grab it! I don't care if it's with your teeth... Just do it!<</speech>>
+<<if $sub gte 13>><<speech "You" "''$name'':">>
+(My teeth? That's a very good idea!) Ok...<</speech>>
+You open your mouth and try to grab the handle with your mouth as subtly as you can. Inevitably, your face is soon touching her naked pussy, feeling how wet wearing that buttplug has made her. Your chin gets all coated in her abundant juices. But your focus is on her ass and the buttplug. With your teeth around the handle you can finally start pulling it out.
+
+<<speech "nobody" "''Extroverted blonde'':">>
+Ah... ow! Mmm...<</speech>>
+<<speech "You" "''$name'':">>
+(Is she liking this or does it hurt?)<</speech>>
+<<speech "nobody" "''Extroverted blonde'':">>
+Ah... yeah, keep doing that... it's coming out...<</speech>>
+<span class="onomatopeya">POP</span>
+
+<<speech "You" "''$name'':">>
+(Yes! It finally came out!)<</speech>>
+<<speech "nobody" "''Ashley'':">>
+Whatthe...!! Get out of her you fucking worm!<</speech>>
+Just as you hear the other girl shout you realize how stupid you look: you are on your knees, with a wet chin and holding a large size buttplug in your mouth.
+
+<<speech "You" "''$name'':">>
+MmmHmmm Ijs nok wha ij lookj ligh!<</speech>>
+<<speech "nobody" "''Ashley'':">>
+Pheww... honey, you've got a buttplug in your mouth, we can't understand you! Hahahaha<</speech>>
+Even if you have already gone through some strange situations on this ship, this one is too embarrasing to bear and you.
+
+<<speech "You" "''$name'':">>
+ *spit the buttplug* I- I just wanted to help...<</speech>>
+<<speech "nobody" "''Ashley'':">>
+Yeah, with your mouth?! Get the fuck out of here!<</speech>>
+<<speech "nobody" "''Extroverted blonde'':">>
+Bye-bye cutie... *throws kiss sarcastically*<</speech>>
+You get on your feet and walk away from them as fast as you can.
+
+[[Return|$return]]
+
+
+\\<<else>><<speech "You" "''$name'':">>
+What!? My teeth? No way!<</speech>>
+<<speech "nobody" "''Extroverted blonde'':">>
+Fuck! It hurts so bad! Just do it, c'mon!<</speech>>
+<<speech "You" "''$name'':">>
+Not with my mouth! I'll just take it out with my hands. Prepare... 1, 2 and-<</speech>>
+<<speech "nobody" "''Ashley'':">>
+Hey you! What the fuck are you doing? Don't touch her like that, she's only into "real" men!<</speech>>
+<<speech "You" "''$name'':">>
+It's not like that... She has a buttplug and-<</speech>>
+<<speech "nobody" "''Ashley'':">>
+Yeah, I know what guys like you do with buttplugs... get off her *pushes you away* Come on sweetie, let's get inside...<</speech>>
+Ashley grabs her friend by the arm and takes her inside.
+
+<span class="onomatopeya">SLAM</span>
+
+<<speech "You" "''$name'':">>
+(Jeez... crazy bitches...)<</speech>>
+[[Return|$return]]<</if>><</if>><<audio "ship" mute>><<audio "menus" stop>><<set $encrandom to 9>>
+
+

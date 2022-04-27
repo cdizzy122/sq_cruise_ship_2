@@ -1,0 +1,20 @@
+:: Road [textback]
+<<removeclass "html">><<addclass "html" "spanish">><<if $busstop is 0>>There is a bus stop.
+
+<img src="dockings/nudist/busstop.jpg" width="90%">
+
+The bus 12 passes through the supermarket.
+
+<<click "Wait for the bus?" Road>><<if ndef $mutefx>><<audio "busdoor" play>><<else>><</if>><<set $busstop to 1>><</click>><<elseif $busstop is 1>>After 10 minutes, the bus number 12 arrives and opens the doors:
+
+<img src="dockings/nudist/busdoor.png" width="50%">
+
+C'mon boy, you gettin'in?
+
+...Yes. How much is it?
+
+It's free. Comunnity service.- you nod and smile as you <<click "get in." places>><<audio "spanish" mute>><<audio "sea" mute>><<set $places to random(1,4)>><</click>><</if>>
+
+[[Return|Nudist beach]]<<if ndef $mute>><<audio "spanish" unmute>><<else>><</if>><<if ndef $mutefx>><<audio "sea" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

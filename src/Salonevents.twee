@@ -1,0 +1,72 @@
+:: Salonevents [textback] {"position":"2234,949","size":"100,100"}
+<<removeclass "html">><<addclass "html" "bar">><<if $salonevent is 1>><div class="center"><img src="classes/style/salon/sample.jpg" width="45%"></div>
+<<speech "lola" "''Lola:''">>
+Great choice! You won't regret it. It's always handy for a gurl to have some of this available. Enjoy, but make sure to use it right!<</speech>>
+[[Return|Beauty Salon][$bsalon to 2]]
+
+\\<<elseif $salonevent is 2>><div class="center"><img src="classes/style/salon/skincare.jpg" width="45%"></div>
+<<speech "lola" "''Lola:''">>
+Great choice! You won't regret it. It's always handy for a gurl to have some of this available. Enjoy, but make sure to use it right!<</speech>>
+[[Return|Beauty Salon][$bsalon to 2]]
+
+
+\\<<elseif $salonevent is 3>><div class="center"><img src="classes/style/salon/eyemakeup.jpg" width="45%"></div>
+<<speech "lola" "''Lola:''">>
+Great choice! You won't regret it. It's always handy for a gurl to have some of this available. Enjoy, but make sure to use it right!<</speech>>
+[[Return|Beauty Salon][$bsalon to 2]]
+
+
+\\<<elseif $salonevent is 4>><div class="center"><img src="classes/style/salon/lipstick.jpg" width="10%"></div>
+<<speech "lola" "''Lola:''">>
+Oooh, that's a special one! We released it last year and it has been a success! It is said to last even after a interracial gangbang! Cool, huh?<</speech>>
+[[Return|Beauty Salon][$bsalon to 2]]
+
+
+\\<<elseif $salonevent is 5>><div class="center"><img src="classes/style/salon/panther.png" width="50%"></div>
+<<speech "lola" "''Lola:''">>
+Panther Scent?? Oh, you're into girls? Oh... yeah, sure... Use it carefully, don't want to disappoint too many girls on this ship...<</speech>>
+[[Return|Beauty Salon][$bsalon to 2]]
+
+
+\\<<elseif $salonevent is 6>><div class="center"><img src="classes/style/salon/nymph.jpg" width="50%"></div>
+<<speech "lola" "''Lola:''">>
+Nymph Scent?? Yeah, that's more like it! Had a friend that used it every day for a week, and apparently, her pussy has not been the same since then...<</speech>>
+[[Return|Beauty Salon][$bsalon to 2]]
+
+
+\\<<elseif $salonevent is 7>><div class="center"><img src="classes/style/salon/shampoo.jpg" width="45%"></div>
+<<speech "lola" "''Lola:''">>
+Not the most exciting thing to have in the shower, but for sure does the job, keeping any long hair soft and clean. Plus, the scent is very nice.<</speech>>
+[[Return|Beauty Salon][$bsalon to 2]]
+
+
+\\<<elseif $salonevent is 8>><div class="center"><img src="classes/style/salon/conditioner.jpg" width="45%"></div>
+<<speech "lola" "''Lola:''">>
+Nice one! This conditioner will hydrate your hair and make your it grow faster and stronger. Want a luscious hair in the near future? You should start using it then.<</speech>>
+[[Return|Beauty Salon][$bsalon to 2]]
+
+
+\\<<elseif $salonevent is 9>><div class="center"><img src="classes/style/salon/polish.jpg" width="45%"></div>
+<<speech "lola" "''Lola:''">>
+Our SQ trademark nail polish. It lasts for weeks if correctly applied, no matter how much cum you get on them or how many ball sacks you fondle... *smirk*<</speech>>
+[[Return|Beauty Salon][$bsalon to 2]]
+
+
+\\<<elseif $salonevent is 10>><div class="center"><img src="classes/style/salon/extensions.jpg" width="45%"></div>
+<<speech "lola" "''Lola:''">>
+Some nail extensions can always come in handy for a special event, they are very fashionable these days! Although they can be quite uncomfortable...<</speech>>
+[[Return|Beauty Salon][$bsalon to 2]]
+
+
+\\<<elseif $salonevent is 11>><div class="center"><img src="classes/style/salon/lightsun.jpg" width="40%"></div>
+<<speech "lola" "''Lola:''">>
+Yeah, better stick to this one for now... *take a judgemental look at your skin*<</speech>>
+[[Return|Beauty Salon][$bsalon to 2]]
+
+
+\\<<elseif $salonevent is 12>><div class="center"><img src="classes/style/salon/darksun.jpg" width="40%"></div>
+<<speech "lola" "''Lola:''">>
+Oooh... so you want to start tanning like the pros? Good for you! Now you only got to think if you're going to leave some tan bikini marks or not. I've heard the boys loooove them...<</speech>>
+[[Return|Beauty Salon][$bsalon to 2]]<</if>>
+
+

@@ -1,0 +1,19 @@
+:: Tap the glass [textback] {"position":"3692,1432","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<speech "You" "''$name:''">>
+ *tap, tap* (They are not doing anything...)<</speech>>
+To catch the attention of the fish you tap the glass harder.
+
+<span class="onomatopeya">TAP TAP</span>
+
+The fish keep swimming without noticing you.
+
+<<speech "You" "''$name:''">>
+(Who would want to see these guys just swim? So boring...)<</speech>>
+<<linkreplace "... ...">><<audio "splash" volume 0.5 play>>Suddenly a fish splashes some water out of the small tank. You jump back, but you can't help getting some on your face.
+
+<<speech "You" "''$name:''">>
+Oh well, it's just water.<</speech>>
+<div class="center"><span class="notplus">FEM +1 </span></div>
+[[Return|Into the Aquarium][$purp to true]]<</linkreplace>><<addmins 5>><<set $fem to $fem +1>><<audio "menus" stop>><<if ndef $mute>><<audio "mystery" unmute>><<else>><</if>>
+
+

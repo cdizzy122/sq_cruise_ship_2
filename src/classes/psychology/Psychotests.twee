@@ -1,0 +1,313 @@
+:: Psychotests [noborder spiral textback] {"position":"1665,397","size":"100,100"}
+<<audio ":back" mute>><<audio "dreams" volume 0.7 play loop>><<if $psychotests is 1>><<if ndef $test1>><<speech "psycho" "''Jada:''">>
+Time for the first test. This one will uncover your depest worries and desires. That way the pace to mental peace will be clearer. What do you see in this image:<</speech>>
+<div class="center"><img src="classes/psycho/test1.png" width="60%"></div>
+[[Camuflage clothes|Psychotests][$test1 to 1]]
+[[Flying penises?|Psychotests][$test1 to 2]]<<elseif $test1 is 1>><<speech "psycho" "''Jada:''">>
+I see... clothes, huh? *She writes something on her tablet* Ok then, follow me.<</speech>>
+You stand up from the couch and follow her to another part of the room. There's what seems like a pair of VR goggles.
+
+<<speech "psycho" "''Jada:''">>
+Sit here and put these on. Don't worry, it's all part of the normal procedure.<</speech>>
+You do as she said. The goggles feel comfortable in your head, and the chair is very ergonomic. You put your arms on the sides of the chair and relax. Suddenly, you feel a strap going over each of your arms and legs.
+
+<span class="shudder"><span class="onomatopeya">*ZZZIP*</span></span>
+
+<<speech "psycho" "''Jada:''">>
+Just for your safety. For some people VR can seem too real. The treatment will last 30 minutes. Call me if you need me.<</speech>>
+<<speech "You" "''$name:''">>
+Ok... (Anything but motivational videos, please...)<</speech>>
+A video appears and starts <<linkappend "playing:">>
+
+<div class="row">
+  <div class="columna">
+    <img src="classes/psycho/clothes1.gif" width="115%">
+  </div><div class="columna">
+    <img src="classes/psycho/clothes2.gif" width="100%">
+  </div></div>
+There's a video on each eye! At first you don't understand what's happening. All this lingerie and stuff doesn't say anything to you, but then you take a closer look and see that some of the women there have... dicks?!
+
+A voice comes in: it's Jada, talking to you in the room.
+
+<<speech "psycho" "''Jada:''">>
+Listen to my voice... you are starting to feel really heavy...
+<</speech>>
+Your consciousness fades away...
+
+<<addmins 30>>''*30 minutes later*''<<set $fem to $fem +1>><<set $sub to $sub +1>><<set $lust to 100>><<set $dreams to 1>>
+
+<<speech "psycho" "''Jada:''">>
+ *Takes off your VR goggles* Alright, we're done for today. How are you feeling?
+<</speech>>
+<<speech "You" "''$name:''">>
+I'm... ok. I feel very good actually!<</speech>>
+<<speech "psycho" "''Jada:''">>
+Oooh... I'm so glad to hear that. I was wondering if these sessions could be too much for you, but they seem to work just fine. We'll continue next week. Goodbye $name.<</speech>>
+<<click "Return" "Deck 8">><<audio "dreams" stop>><<set $jada to 0>><<set $goggles to 2>><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><</click>><</linkappend>>
+<<elseif $test1 is 2>><<speech "psycho" "''Jada:''">>
+I see... penises, huh? *She writes something on her tablet* Ok then, follow me.<</speech>>
+You stand up from the couch and follow her to another part of the room. There's what seems like a pair of VR goggles.
+
+<<speech "psycho" "''Jada:''">>
+Sit here and put these on. Don't worry, it's all part of the normal procedure.<</speech>>
+You do as she said. The goggles feel comfortable in your head, and the chair is very ergonomic. You put your arms on the sides of the chair and relax. Suddenly, you feel a strap going over each of your arms and legs.
+
+<span class="shudder"><span class="onomatopeya">*ZZZIP*</span></span>
+
+<<speech "psycho" "''Jada:''">>
+Just for your safety. For some people VR can seem too real. The treatment will last 30 minutes. Call me if you need me.<</speech>>
+<<speech "You" "''$name:''">>
+Ok... (Anything but motivational videos, please...)<</speech>>
+A video appears and starts <<linkappend "playing:">>
+
+<div class="row">
+  <div class="columna">
+    <img src="classes/psycho/penis1.gif" width="120%">
+  </div><div class="columna">
+    <img src="classes/psycho/penis2.gif" width="120%">
+  </div></div>
+There's a video on each eye! At first you don't understand what's happening. All this naked men are not doing anything for you, but then you start to feel a tingle on your own dick... Your eyes start to focus on their man-parts.
+
+A voice comes in: it's Jada, talking to you in the room.
+
+<<speech "psycho" "''Jada:''">>
+Listen to my voice... you are starting to feel really heavy...
+<</speech>>
+Your consciousness fades away...
+
+<<addmins 30>>''*30 minutes later*''<<set $fem to $fem +2>><<set $sub to $sub +2>><<set $lust to 100>>
+
+<<speech "psycho" "''Jada:''">>
+ *Takes off your VR goggles* Alright, we're done for today. How are you feeling?
+<</speech>>
+<<speech "You" "''$name:''">>
+I'm... ok. I feel very good actually!<</speech>>
+<<speech "psycho" "''Jada:''">>
+Oooh... I'm so glad to hear that. I was wondering if these sessions could be too much for you, but they seem to work just fine. We'll continue next week. Goodbye $name.<</speech>>
+<<click "Return" "Deck 8">><<audio "dreams" stop>><<set $jada to 0>><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><<set $goggles to 2>><</click>><</linkappend>><</if>><<elseif $psychotests is 2>><<if ndef $test2>><<speech "psycho" "''Jada:''">>
+Time for the second test. This one will face you with a choice. An artistic one. This will make you choose between pretty and overwhelming. Imagine going into a museum and you see both of these sculptures: <</speech>>
+<div class="row">
+  <div class="columna">
+    <img src="classes/psycho/test11.jpg" width="120%">
+  </div><div class="columna">
+    <img src="classes/psycho/test12.jpg" width="120%">
+  </div></div>
+[[The little one has more detail|Psychotests][$test2 to 1]]
+[[The big one is... startling|Psychotests][$test2 to 2]]<<elseif $test2 is 1>><<speech "psycho" "''Jada:''">>
+I see... you'd choose the little one then, huh? *She writes something on her tablet* Ok then, follow me.<</speech>>
+You stand up from the couch and follow her to the VR chair. As you sit down she straps your legs and arms and puts the goggles on. After a few seconds of silence, the video starts:
+<div class="center"><div class="row3"><div class="column3">
+ <img src="classes/psycho/smalldick1.gif" width="100%"></div><div class="column3">
+  <img src="classes/psycho/smalldick2.gif" width="125%"></div><div class="column3">
+  <img src="classes/psycho/smalldick3.gif" width="130%"></div></div>
+<<speech "psycho" "''Jada:''">>
+
+//$name... Listen to my voice... 
+
+You are starting to feel really heavy... 
+
+Girls only like big dicks... 
+
+you will never be a man...surrender... 
+
+who would you choose?...//<</speech>></div>
+Your consciousness fades away...
+
+''*1 hour later*''<<set $fem to $fem +1>><<set $sub to $sub +3>><<set $lust to 100>><<set $dreams to 3>>
+
+<<speech "psycho" "''Jada:''">>
+ *Takes off your VR goggles* Alright, we're done for today. How are you feeling?
+<</speech>>
+<<speech "You" "''$name:''">>
+I'm... ok. I feel very good actually! (I'm so fucking horny...)<</speech>>
+<<speech "psycho" "''Jada:''">>
+Oooh... I'm so glad to hear that you are responding well to the treatment. We'll continue next week. Goodbye $name.<</speech>>
+<<click "Return" "Deck 8">><<audio "dreams" stop>><<set $jada to 1>><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><<set $goggles to 4>><</click>><<elseif $test2 is 2>><<speech "psycho" "''Jada:''">>
+I see... you'd choose the big one, huh? *She writes something on her tablet* Ok then, follow me.<</speech>>
+You stand up from the couch and follow her to the VR chair. As you sit down she straps your legs and arms and puts the goggles on. After a few seconds of silence, the video starts:
+<div class="center"><div class="row3"><div class="column3">
+ <img src="classes/psycho/bigdick1.gif" width="140%"></div><div class="column3">
+ <img src="classes/psycho/bigdick2.gif" width="60%"></div>
+ <div class="column3">
+  <img src="classes/psycho/bigdick3.gif" width="60%"></div></div>
+<<speech "psycho" "''Jada:''">>
+//Listen to my voice...
+
+you are starting to feel really heavy... 
+
+Real men have big cocks... you will never be a man... 
+
+Are you jealous of him, or her?...//<</speech>></div>
+Your consciousness fades away...
+
+''*1 hour later*''<<set $fem to $fem +2>><<set $sub to $sub +2>><<set $lust to 100>><<set $dreams to 5>>
+
+<<speech "psycho" "''Jada:''">>
+ *Takes off your VR goggles* Alright, we're done for today. How are you feeling?
+<</speech>>
+<<speech "You" "''$name:''">>
+I'm... ok. I feel very good actually! (I'm so fucking horny...)<</speech>>
+<<speech "psycho" "''Jada:''">>
+Oooh... I'm so glad to hear that you are responding well to the treatment. We'll continue next week. Goodbye $name.<</speech>>
+<<click "Return" "Deck 8">><<audio "dreams" stop>><<set $jada to 1>><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><<set $goggles to 4>><</click>><</if>>
+<<elseif $psychotests is 3>><<speech "psycho" "''Jada:''">>
+So today's test is going to be different. This one is going to make that brain of yours work, especifically you are going to be working on your memory.<</speech>>
+<<speech "You" "''$name:''">>
+(What is all this about...?) Umm... you mean like a memory game or something?<</speech>>
+<<speech "psycho" "''Jada:''">>
+Exactly like that. *she reaches a deck of big cards on the table* The content of these cards has been designed taking your last test results into account, just for it to be more engaging for you.
+
+So here's how this is going to work:
+
+Each one of these cards have two elements, one at the right and the other at the left. I'll show you these cards, one by one and your task is to memorize both of the elements together. I suggest that you find something in common between the two that helps you link them.
+
+After the memorizing stage, I will be showing you only part of one half of the picture and you'll have to link it with it's other half. Understood?<</speech>>
+<<speech "You" "''$name:''">>
+I think so...<</speech>>
+<<speech "psycho" "''Jada:''">>
+ *Jada grabs the cards* Alright then, let's start.<</speech>>
+[[Start test|babecock][$babecock to 0]]
+
+
+\\<<elseif $psychotests is 4>><<speech "psycho" "''Jada:''">>
+Alright, then! Now that we're finished talking, let's stand up and follow me, please.<</speech>>
+You walk behind her, taking a few glimpses at her well-toned ass. After just a few seconds, you arrive to the same chair than where the lasts tests were done.
+
+<<speech "psycho" "''Jada:''">>
+Ok, then. Here we are. Please, take a seat and just relax your whole body.<</speech>>
+You think that it's a bit strange that, after all that speech about "doing a heavier treatment", you are just going to do the same.
+
+<<speech "You" "''$name:''">>
+Um... ok, but-<</speech>>
+<<speech "psycho" "''Jada:''">>
+I know, $name, but don't worry, I know what I'm doing. You will notice that this is not the same chair you were in the other sessions. Go ahead.<</speech>>
+You take a seat and, as soon as you do, Jada straps your forearms and legs to it. Just as you are about to complain, the bottom of the chair opens, leaving your ass exposed.
+
+<<speech "You" "''$name:''">>
+Wait, t-the chair is broken.<</speech>>
+<<speech "psycho" "''Jada:''">>
+It's ok, honey. Everything is under control. Let me just take this off and put on the VR glasses.<</speech>>
+Suddenly, Jada slides your underwear to the side, revealing your tight little ass-pussy. Then she puts on the usual glasses and turns it on.
+
+<span class="onomatopeya">BZZZZTTT</span>
+
+<<speech "psycho" "''Jada:''">>
+Now, are you seeing anything?<</speech>>
+<<speech "You" "''$name:''">>
+Nope...<</speech>>
+<<speech "psycho" "''Jada:''">>
+Ok, perfect. Your mind is empty, just as we need. Now, please, open your mouth.<</speech>>
+<<speech "You" "''$name:''">>
+(um... okay.) Aaaaa...<</speech>>
+Jada gently rubs something on your tongue, making it go out.
+
+<<speech "psycho" "''Jada:''">>
+That's right, get your tongue out...<</speech>>
+Again, she passes that thing over your tongue. She does the same, once every 5 seconds. You didn't notice it the first time, but it is leaving a weird, yet familiar taste on your tongue.
+
+<<speech "You" "''$name:''">>
+Hm...<</speech>>
+Suddenly, a blurry light starts appearing before your eyes.
+
+<<speech "psycho" "''Jada:''">>
+Getting something now?<</speech>>
+<<speech "You" "''$name:''">>
+Uh-huh... (What is that...?)<</speech>>
+The light seems to be moving and slowly getting together, forming what appears to be an image, but you can't quite figure out what that is. After 5 minutes repeating the process, Jada stops rubbing your tongue. Instead, she suddenly puts some kind of object in your mouth. You can't quite identify it, but it feel like some kind of pacifier. You can't ask her either, so you just decide to do as you're told. You are more curious about the image forming before your eyes.
+
+<<speech "psycho" "''Jada:''">>
+It's going to feel cold, but don't be scared. There's nothing to worry about...<</speech>>
+<<if $buttplug is true>>You believe you can hear Jada giggling as she grabs your buttplug tightly and pulls it out.
+
+<<speech "You" "''$name:''">>
+Hmm...<</speech>>
+\\<<else>><</if>>You bump when you feel a cold metallic nub constantly pressing against your ass. Then you hear Jada press a button.
+
+<span class="onomatopeya">BEEP</span>
+
+Both unknown object start slowly moving and rubbing against your pussy and tongue. Your first reaction is to reject it, but without any further advice, you manage to relax and start taking pleasure from them.
+
+<<speech "psycho" "''Jada:''">>
+There you go, just like that... Now you are going to sink deep and let your imagination flow. And you will find that imagination and reality often touch each other. Everything is possible, you will be who you want to be... You are falling deep at the count of 3. Ready?<</speech>>
+<<speech "You" "''$name:''">>
+What? She expects me to sleep? With these things on?<</speech>>
+<<speech "psycho" "''Jada:''">>
+3...
+2...
+1...<</speech>>
+<<linkreplace "Sleep...">><span class="fade-ins"><div class="center"><img src="classes/psycho/light.gif" width="50%"></div></span>
+You are still conscious, but you can feel how your will to fight against your own body and thoughts are suddenly gone. It's like if you were divided in two: your normal self, and your instincts.
+
+Suddenly, the image starts getting clearer, and in just a moment you can see it like if it was real and just in front of your eyes.
+
+<div class="center"><img src="classes/psycho/bigdick4.jpg" width="50%"></div>
+<<speech "You" "''???:''">>
+<span class="pink">Oh, daddyyy... such a big cock... *lick lips*</span><</speech>>
+<<speech "You" "''$name:''">>
+Hey, I didn't say that!<</speech>>
+<<speech "You" "''???:''">>
+<span class="pink">Oh, uhm... $name, I need to suck on it, please...</span><</speech>>
+<<speech "You" "''$name:''">>
+But you... look like me... why?<</speech>>
+<<speech "You" "''???:''">>
+<span class="pink">Can't we talk about this later?? Look at this hunk! OOooooh is that pre-cum?</span><</speech>>
+<<speech "You" "''$name:''">>
+Wait, I just... who are you, and why do you need my consent?<</speech>>
+<<speech "You" "''???:''">>
+<span class="pink">I am you... your real you...see?</span><</speech>>
+<div class="center"><img src="stuff/bimbo1.png" width="50%"></div>
+<<speech "You" "''$name:''">>
+I-I... I remember you!<</speech>>
+<<speech "You" "''???:''">>
+<span class="pink">Listen... it's just a matter of time! You are going to be me! I need you to agree with me, because we are the same person...</span><</speech>>
+<<speech "You" "''$name:''">>
+I'm not you!<</speech>>
+<<speech "You" "''???:''">>
+<span class="pink">Oh, so you want me to prove it? Ok, then. Look at that beautiful Alpha cock. He needs our lips on it. He deserves it... Don't you feel horny just by looking at it?</span><</speech>>
+<<speech "You" "''$name:''">>
+N-no... (It's not horny, everyone would feel horny when seeing any kind of genitalia...)<</speech>>
+<<speech "You" "''???:''">>
+<span class="pink">I can hear your thoughts! I am you... Jesus, and I'm the dumb one, huh? I know you like that dick, because I do! There's no escaping... When you see a dick this big you imagine what would $gfname feel with her pussy around it, and you feel jealous... But, of him? Or of her?</span><</speech>>
+<<speech "You" "''$name:''">>
+... ...<</speech>>
+You feel you other self coming closer to your imaginary body and hugging you. She hugs you strongly and suddenly disappears, leaving a word floating on the air: ''Cock...''
+
+The word has a sudden appeal to it, something you hadn't thought before... you like that word so much... you think it might be your favourite word... You open your eyes again, but the image has changed:
+
+<div class="center"><img src="classes/psycho/pussy1.jpg" width="30%"></div>
+<<speech "You" "''$name:''">>
+Ow...<</speech>>
+To your own surprise, you feel disappointed. It's almost as if you were expecting to see the previous picture, it had some certain "special thing" to it, didn't it?
+
+<<speech "You" "''$name:''">>
+<span class="pink">Submit...</span> Hm... maybe I should submit... then it will come back...<</speech>>
+Without thinking about it, the other "you" is guiding your decisions. You feel the thing in your mouth and close your lips tight on it. The tip feel rounded and nice, and it gives you pleasure to run your wet tongue around it...
+
+The image starts being modified, until the other image comes back, but this time it has something different...
+
+<div class="center"><img src="classes/psycho/bigdick5.png" width="50%"></div>
+<<speech "You" "''$name:''">>
+<span class="pink">Hm... so big, so hard... it needs my mouth!</span> Is that kiss mark mine? I'm not wearing lipstick...<</speech>>
+You lean in to the 3D virtual cock and give it a loving kiss.
+
+<span class="onomatopeya">SMOOCH</span>
+
+<<speech "You" "''$name:''">>
+<span class="pink">It feels real!</span><</speech>>
+It twitches before you, making you smile out of satisfaction. You get excited and lean in to suck the meaty glans. You open your little mouth as far as you can try to reach the end of tip. Just as you are about to taste his manhood, Jada turns off the VR and the mouth and ass machines.
+
+<<speech "psycho" "''Jada:''">>
+Alright! We are out of time for today... Oooh I can tell by the way you've been chewing on the peni-gag that it was intense in there, and probably very productive... did you like the huge cock?<</speech>>
+<<speech "You" "''$name:''">>
+How did you know about that?<</speech>>
+<<speech "psycho" "''Jada:''">>
+Oh, I didn't... I just supposed... *wink*<</speech>>
+Jada helps you stand up and dries you wet clitty with a piece of paper. Then she says goodbye and leads you to the door.
+
+<<click "Finish class" "Deck 8">><<set $psychotests to 5, $fetish2 to 2>><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><</click>><</linkreplace>>
+
+
+
+\\<<elseif $psychotests is 5>><</if>><<audio "menus" stop>>
+
+

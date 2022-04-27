@@ -1,0 +1,81 @@
+:: Reception [textback] {"position":"1201,10","size":"100,100"}
+<<removeclass "html">><<addclass "html" "decks">><<if ndef $receptionship>><img src="places1/receptionist.jpg" width="80%"><<set $port to "Finished">>
+
+<<speech "nobody" "''Receptionist:''">>
+Hi there! You must be $name, right? Here's the key to your room. It's on this deck, the 2nd. Oh, yeah, I guess you've never been on a ship this big:<<set $roomkey to true>> We call the different floors decks. Terminology, you know. *smiles* I'm sure you'll discover everything on this ship very soon, but I am obliged to tell you a few things about the ship before you get to your room:<<set $roomkey to true>>
+
+This is a ultra modern cruise ship, specially designed for our guests.  It has capacity for around 800 passengers and a total of 9 decks, 8 of  wich are usable for all of you (the 1st floor is for employees only, for now).
+
+Here's a map with an integrated itinerary of our dockings and departures, so you can know where we are.
+''*$name received Itinerary*'' <<set $itinerary to true>>
+
+I'll give you a map of the ship. I don't want you to get lost in this big ship.
+''*$name received Map*'' <<set $map to true>>
+
+Please, have in mind that we will be picking up passengers in the different cities, so this is the emptiest you are ever going to see the ship. Enjoy it for yourself while you can! *smiles*
+
+If there's anything I can help you with, please, don't hesitate to come to the reception and ask me, ok? Have a nice trip!<</speech>>
+<<speech "You" "''$name:''">>
+(She seems nice...) Ok! Thanks, I'll keep that in mind.<</speech>>
+You follow her instructions and head to the left row of doors. Your room is near the end of the corridor.
+
+[[Go to your room|Bedroom][$receptionship to 0]]<<set $announcement to true>><<set $needtopee to true>><<elseif $receptionship is 0>><<speech "holli" "''Holli:''">>
+Hi! Did you bring me my... thing?<</speech>>
+You take the bag filled with dust out of your pocket.
+
+<<speech "You" "''$name:''">>
+Yes, I have. Here you go.<</speech>><<set $enhancer to false>>
+You give Holli the bag.
+
+<<speech "holli" "''Holli:''">>
+Thanks, mon garçon...<</speech>>
+She softly strokes your arm and leans over to give you a kiss on the cheek. Your face turns red. Holli notices it and flashes you with a smile.
+
+<<speech "You" "''$name:''">>
+If- if it's not too nosy of me, would you mind telling me what the "enhancer" actually is?<</speech>>
+<<speech "holli" "''Holli:''">>
+Oh, mon petite garçon... *rubs your cheeks* there are so many things you don't know... Do I really have to teach you everything? If you want to know, figure it out yourself. *shakes her hand and walks away*<</speech>>
+<<speech "You" "''$name:''">>
+(Well... maybe I will...)<</speech>>
+[[Return|Bedroom][$drug2 to "Active", $badge to $badge +1]]<<elseif $receptionship is 1>><<speech "tara" "''Tara:''">>
+Oh! You are already here... how did it go, then? *smiles*<</speech>>
+<<speech "You" "''$name:''">>
+Can I have my clothes back now?!<</speech>>
+<<speech "tara" "''Tara:''">>
+Why would you? I think you are liking it... You are soo hot... *she looks you from the bottom to the top*<</speech>>
+<<speech "You" "''$name:''">>
+C'mon, stop it.<</speech>>
+<<speech "tara" "''Tara:''">>
+Haha... ok. Here you go... *gives your clothes back*<</speech>>
+You take them and start putting them on.
+
+<<speech "You" "''$name:''">>
+(Finally, I have my dignity back... <span class="pink">Such a turn-off...</span>)<</speech>>
+You already have your underwear on when you realize how ironic that last thought is. You're thinking about recovering your dignity while you are wearing girl's underwear.
+
+<<speech "tara" "''Tara:''">>
+So, I see you gave all the flyers. Good job! Did you make sure to please everybody?<</speech>>
+<<speech "You" "''$name:''">>
+Yeah, I guess everyone had what they wanted.<</speech>>
+<<speech "tara" "''Tara:''">>
+Good... you are getting good at pleasing people! You are a good boi, honey... and you should consider loosing some of that clothes.<</speech>>
+She grabs your head and gives you a kiss on the cheek.
+
+<<speech "tara" "''Tara:''">>
+I've got to go now. I'll see you this week. Be good, ok?<</speech>>
+''*New Fetish: Exhibitionism*''<<set $fetish3 to true>>
+
+[[Return|Bedroom]]
+
+
+
+\\<<elseif $receptionship is 2>><div class="center"><img src="places2/deck2.jpg" width="40%"></div>
+<<speech "You" "''$name:''">>
+(Oh... nobody here? Better, I guess.)<</speech>>
+All lonely and exhausted you want to your room and lay on your bed.
+
+<<click 'Sleep' Goodmorning>><<if $gameDate.getHours() gte 0 and $gameDate.getHours() lt 8>><<run $gameDate.setHours (8)>><<else>><<adddays 1>><<run $gameDate.setHours (8)>><</if>><</click>>
+
+<</if>><<audio "out" fadeoverto 0.5 0>><<audio "morning" stop>><<audio "office" stop>><<audio "menus" stop>><<audio "girltalk1" stop>><<audio "rome" stop>><<audio "romebar" stop>><<audio "mystery" stop>><<audio "people" stop>><<if ndef $mute>><<audio "ship" loop play>><<audio "ship" unmute>><<else>><</if>>
+
+

@@ -1,0 +1,8 @@
+:: Hypnoright [spiral textback] {"position":"1437,292","size":"100,100"}
+<<set $hypnoright to $hypnoright +1>><div class="center"><img src="classes/psycho/good.gif" width="50%">
+<font size="+2">''GOOD SISSY!''</font></div>
+<<if $psychohypno is 9>><<timed 1.5s>><<goto "Therapist">><</timed>><<if ndef $mutefx>><<audio "robot2" play>><<else>><</if>>
+
+\\<<else>><<timed 1.5s>><<goto "Start Hypno Therapy">><</timed>><<if ndef $mutefx>><<audio "robot2" play>><<else>><</if>><</if>>
+
+

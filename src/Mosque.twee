@@ -1,0 +1,230 @@
+:: Mosque [textback] {"position":"3483,56","size":"100,100"}
+<<removeclass "html">><<addclass "html" "mosque">><<audio "touriststalk" volume 0.2 loop play>><<audio "casablanca" stop>><<if $mosque is 0>><div class="center"><img src="dockings/casablanca/mosque1.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(Oh, so that's the huge tower I saw at the port! It's amazing!)<</speech>>
+You start walking in, along with some other tourists. It's no surprising, but there also also some locals talking and waiting for praying time. As you walk inside the mosque you're amazed by the art inside.
+
+<div class="center"><img src="dockings/casablanca/mosque2.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(God... and I thought our churches were beautiful)<</speech>>
+You walk along the marked place, looking at the ceiling and the sides. You see a group of locals talking at the end of the path, they seem to be preparing for something. It doesn't take long for you to stumble into the big informative sign.
+
+<div class="center">''//Praying time at midday. Meet Imam "Abdallah"!!//''</div>
+<<speech "You" "''$name'':">>
+(Thank god there's a translation there... I don't know who is Abdallah or what is a "Imam", but seems like there's some kind of event happening at midday. I don't think the usually use this mosque to pray, but this must be a very important thing.)<</speech>>
+[[Return|Casablancacenter][$casacenter to 0, $vmosque to true]]<<addmins 5>>
+
+
+\\<<elseif $mosque is 1>><div class="center"><img src="dockings/casablanca/mosque3.jpg" width="65%"></div>
+You get in the beautiful mosque again, but it has changed a lot since a while ago. It's now full of people, each one ocuppying a square of space.
+
+<<speech "You" "''$name'':">>
+(Oh, they seem to be preparing to pray.)<</speech>>
+Suddenly a very nervous man urges you to enter.
+
+<<speech "nobody" "''Nervous man'':">>
+You! Enter? Exit?<</speech>>
+<<speech "You" "''$name'':">>
+Oh, I just got in.<</speech>>
+The man grunts and loudly closes the door tightly behind you.
+
+<span class="onomatopeya">SLAM</span>
+
+<<speech "nobody" "''Nervous man'':">>
+You pick space and silence.<</speech>>
+He pushes you forward and makes you fit into a small space between two other moroccan men. 
+
+<div class="center"><img src="dockings/casablanca/mosque4.jpg" width="50%"></div>
+You notice how those two guys keep looking at you and laughing at each other.
+
+<<speech "You" "''$name'':">>
+(I didn't know there were so many people in here... And why are these two looking at me like that?)<</speech>>
+<span class="onomatopeya">TOOOOOOT</span>
+
+A trumpet like intrument sounds and everybody gets on their knees.
+
+<<speech "nobody" "''Nervous man'':">>
+أهلا بك Abdallah!<</speech>>
+<div class="center"><img src="dockings/casablanca/mosque5.jpg" width="50%"></div>
+The back doors open and a big black man appears. He salutes the people briefly and silently walks across the room until he find his place in front of everyone and kneels.
+
+<<speech "You" "''$name'':">>
+(Oh, I guess we're praying now...)<</speech>>
+You can't help but take a closer look at the man, and even though he is more than 4 meters away, you can clearly see his dick outline.
+
+<div class="center"><img src="dockings/casablanca/mosque6.jpg" width="37%"></div>
+<<speech "You" "''$name'':">>
+<span class="pink">(Now that's a real miracle... hmm...)</span><</speech>>
+The prayer starts, and the embarrasment mixes with the horniness. You clearly have no idea how you should be doing this, and so you try to copy everyone else, moving your mouth like you're saying stuff and bowing down.
+
+Just as you do so, you feel a fat hand grabbing your ass.
+
+<div class="center"><img src="dockings/casablanca/mosque7.gif" width="55%"></div>
+<<speech "You" "''$name'':">>
+ *gasp* Hey!<</speech>>
+Your scream resounds across the mosque and everyone looks at you menacingly.
+
+<<speech "You" "''$name'':">>
+ *whisper* I'm sorry...<</speech>>
+Slowly, every man turns around again and keep praying. But the hand comes back to your ass. You didn't notice before but it is from one of the men on your side, and as you notice it, you grab his hand and push it away. You keep your voice down, but the man keeps insisting in rubbing your asshole. You finally let him do it, just to get it over with.
+
+<<speech "You" "''$name'':">>
+(Fuck this guy! <span class="pink">Hm...</span>)<</speech>>
+Suddenly, the other man grabs the other cheek and does the same, this time stroking your inner thighs.
+
+<<speech "You" "''$name'':">>
+(Fuck... ahh...) *whisper* Please, stop...<</speech>>
+No matter what you tell them, they don't seem to be wanting to stop. Fortunately, the prayer doesn't take that long and the black man stands up, and so they all do the same.
+
+<<speech "You" "''$name'':">>
+(Finally, the abuse stops...)<</speech>>
+You stretch your panties and notice how wet they really are. You are a bit ashamed of getting horny by the abuse of two ugly men. The black man speaks:
+
+<<linkreplace "... ...">><<speech "nobody" "''Abdallah'':">>
+شكرا جزيلا لحضوركم اليوم. بارك الله لكم جميعا.<</speech>>
+<<speech "You" "''$name'':">>
+(Yep, whatever that means...)<</speech>>
+As the man says a few more words you start analyzing him again, and notice some strange long collar. It is shining with a very mysterious glow, and there seems to be a small crooked key at the end of it.
+
+<div class="center"><img src="dockings/casablanca/casakey.png" width="28%"></div>
+<<speech "You" "''$name'':">>
+(That key... it seems to have the same triangle symbol as that hole at the museum... Could that be... No, $name. Focus. You need to find the boss from that place... God I don't even know her name, or what she looks like...)<</speech>>
+While you're thinking about these things, most of the people have already gone out of the mosque. The black man is still there, saying goodbye to everyone. You can see a petite brunette girl next to him and another man who seems to be her father.
+
+You get cautiously closer, trying to hear some of the conversation, but of course, you still don't understand a thing. Finally, the black man guides the girl to his private back room and the other man gets out.
+
+<<speech "You" "''$name'':">>
+(Fuck, I didn't see any other woman! Maybe that girl is the boss?)<</speech>>
+It's time to move.
+
+[[Peek into the room|Mosque][$mosque to 2]]<</linkreplace>><<addmins 30>>
+
+
+\\<<elseif $mosque is 2>><<removeclass "html">><<addclass "html" "home">><<audio "touriststalk" stop>><<if ndef $mutefx>><<audio "spank" volume 0.2 play>><<else>><</if>><<speech "nobody" "Abdallah">>
+Ah, ah, ah...<</speech>>
+<<speech "You" "''$name'':">>
+(Oh, this sounds good...)<</speech>>
+<<speech "nobody" "''Brunette girl'':">>
+Oh. *chuckles*<</speech>>
+<<speech "nobody" "Abdallah">>
+Huh? *slaps her*<</speech>>
+<span class="onomatopeya">SLAP SLAP SLAP</span>
+
+<<speech "nobody" "''Brunette girl'':">>
+Aaahh!! *gag, gag, gag, spit*<</speech>>
+<<speech "nobody" "Abdallah">>
+Aaaargh...<</speech>>
+You open the door a bit and peek in:
+
+<<linkreplace "... ...">><div class="center"><span class="fade-ins"><img src="dockings/casablanca/mosque8.gif" width="50%"></span></div>
+<<speech "nobody" "''Brunette girl'':">>
+ *gag, gag, gag*<</speech>>
+After only a few more strokes, Abdallah lets her go. The girl shouts at him and quickly gathers her clothes and get out through the other door. Thankfully, she didn't go out yours.
+
+<<speech "You" "''$name'':">>
+(That was too short for that stud to cum... then what- Oh, now I get it!)<</speech>>
+Just a look at his black dick is enough to understand the issue and the frustration Abdallah must be feeling.
+
+<div class="center"><img src="dockings/casablanca/softie.jpg" width="50%"></div>
+<<speech "nobody" "Abdallah">>
+ *sigh*<</speech>>
+It's a bit depressing seeing such a hunk like this. Although this is clearly not the best moment, you decide to intervene.
+
+<span class="onomatopeya">KNOCK KNOCK</span>
+
+You wait 5 seconds before going in. Part of you is aching to see that thing move around closer.
+
+<<speech "nobody" "Abdallah">>
+Huh?<</speech>>
+<<speech "You" "''$name'':">>
+Hi, I'm sorry to come in like this. Do you speak english?<</speech>>
+<<speech "nobody" "Abdallah">>
+Little...<</speech>>
+You're surprised by his relaxed tone. Despite the way he treated that girl, he doesn't seem to be violent.
+
+<<speech "You" "''$name'':">>
+Listen, I am looking for a woman. Do you happen to know if that girl was the owner of a stall in the market?<</speech>>
+<<speech "nobody" "Abdallah">>
+Heh... that not a girl. That a boy.<</speech>>
+You blush, embarrased by the realization that that little girl was a sissy, just like you.
+
+<<speech "You" "''$name'':">>
+Oh, um... then I guess... (Fuck this is going awful. I might as well figure what that key is) Hey, I couldn't help but notice this.<</speech>>
+You reach to the small table on the side, where he left his collar.
+
+<<speech "You" "''$name'':">>
+What is this key for?<</speech>>
+Abdallah looks at you very serious.
+
+<<speech "nobody" "Abdallah">>
+Do you know the password?<</speech>>
+<<speech "You" "''$name'':">>
+(What's up with that fucking password...?) I'm trying to learn it.<</speech>>
+<<speech "nobody" "Abdallah">>
+Hm... you a boy too? You can only know it if you complete the training. If you don't know it I can't help you.<</speech>>
+<<speech "You" "''$name'':">>
+Oh, well...<</speech>>
+<<speech "nobody" "Abdallah">>
+Wait. Maybe you can help me. I can't get out of the mosque, people follow me everywhere. But you. You can help me with my... problem.<</speech>>
+He points at his flaccid hanging cock.
+
+<<speech "You" "''$name'':">>
+(Does he want me to...) H-h-how?<</speech>>
+<<speech "nobody" "Abdallah">>
+Go to the market and find a store. It looks normal, but you can ask for... how you call it? Powder, wee-wee powder.<</speech>>
+<<speech "You" "''$name'':">>
+Wee-wee powder? Just like that?<</speech>>
+The man looks at you menacingly, making you nod and just get out of the room.
+
+[[Get out of the mosque|Casablancacenter][$mosque to 3, $weird to 1, $casaquest to "1/4 done", $badge to $badge +1]]<</linkreplace>><<addmins 10>>
+
+
+
+
+\\<<elseif $mosque is 3>>THIS SHOUDLN'T BE SHOWING
+
+[[Reload|Casablancacenter][$mosque to 3]]
+
+
+
+
+\\<<elseif $mosque is 4>><<removeclass "html">><<addclass "html" "home">><<audio "touriststalk" stop>><<if ndef $mutefx>><<audio "knock" play>><<else>><</if>>You knock and open the back door slowly.
+
+<span class="onomatopeya">KNOCK KNOCK</span>
+
+<<speech "You" "''$name'':">>
+Hiii, how are you?<</speech>>
+<div class="center"><img src="dockings/casablanca/softie.jpg" width="50%"></div>
+<<speech "nobody" "Abdallah">>
+... ...<</speech>>
+<<speech "You" "''$name'':">>
+I see... (no better, huh) Well, I brought you the "wee-wee powder".<</speech>>
+You take the little sample out of your pocket.
+
+<<speech "nobody" "Abdallah">>
+That is enough... come.<</speech>>
+You are uncertain of where this is going, but you agree to get closer. Once you are a few feet away, you throw the powder bag to his lap. He happily takes the bag and puts all the powder in a glass. Then he takes a boiling pot and pours some hot water.
+
+<<speech "You" "''$name'':">>
+(Oh, he's making tea, "hard-on" tea.)<</speech>>
+He swallows the whole thing in one goes back to his seat. At first you don't notice any changes, but after a while his breath starts getting more agitated.
+
+<<speech "nobody" "Abdallah">>
+Hmmm...<</speech>>
+With his meaty cock dangling around, he stands up and grabs the collar. He rips the key out and gives it to you. You're a bit afraid of getting closer to him, since his man parts seems to be furiously awakening. While staring at his cock, you grab the key and thank him.
+
+<div class="center"><img src="dockings/casablanca/hardy.gif" width="50%"></div>
+<<speech "You" "''$name'':">>
+Thanks...<</speech>>
+<div class="center">''Crooked key was added to Inventory''</div>
+You hurry and get out as the Abdallah walks towards the other room.
+
+<<speech "nobody" "Abdallah">>
+LILA! LILA!<</speech>>
+<<speech "You" "''$name'':">>
+(Oh, man... that poor girl, I mean... boy)<</speech>>
+You can't help but empathize with that sissy gurl. That could've been you. But you're just happy that it isn't. <<set $weewee to false, $casakey to true>>
+
+[[Return|Casablancacenter][$mosque to 5, $casaquest to "2/4 done", $badge to $badge +1]]<<addmins 10>><</if>><<if ndef $mute>><<audio ":music" unmute>><<else>><</if>><<audio "menus" stop>><<audio "casablanca" stop>>
+
+

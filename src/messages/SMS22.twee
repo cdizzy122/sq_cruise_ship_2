@@ -1,0 +1,57 @@
+:: SMS22 [phone] {"position":"451,2989","size":"100,100"}
+<<if ndef $altersms22>><<speech "mike" "''$fname:''">>
+Hey, $name! How's it going over there!<</speech>>
+<<speech "You" "''$name:''">>
+Oh, hey $fname! As fine as it can go, really. The ship is... really nice, but I'm still occasionally thinking about $gfname...<</speech>>
+<<speech "mike" "''$fname:''">>
+Yeah, I bet... but hey, at least you're in a fucking Cruise Ship with free drinks! You're welcome mate... hahaha<</speech>>
+<<speech "You" "''$name:''">>
+Hahaha... (Maybe I could tell him about what's going on on this Ship!)<</speech>>
+<<click "Ask $fname for help" "SMS22">><<set $altersms22 to 0>><</click>>
+[[Don't bother...|SMS22][$altersms22 to 1]]
+
+
+\\<<elseif $altersms22 is 0>><<speech "You" "''$name:''">>
+$fname, please, listen to me! This Ship is <span class="red"><font size="-2">not what we thought it was! It's supposed to be some kind of "Size Queen" Cruise,</font></span> filled with women <span class="red"><font size="-2">to meet big-dicked guys </font></span>that only want to fuck! <span class="red"><font size="-2">Please, I need you to get me out of here!</font></span><</speech>>
+As you write it, just before you have the chance to send it, you start to see some of the words pop-up in red and reduce in size until they're erased from the text, leaving it as: "$fname, please, listen to me! This Ship is filled with women that only want to fuck!".
+
+ *SEND*
+
+<<speech "You" "''$name:''">>
+(WTF! That's not what I wanted to send!)<</speech>>
+<<speech "mike" "''$fname:''">>
+Wow... Hahahaha okay, bud, I get it! Well then I guess you owe me one, huh? 😂😂 I'm relieved to see you having so much fun in there, really. I've got to go now, but I'll get back to you as soon as I can 🤟🏻<</speech>>
+<<speech "You" "''$name:''">>
+(*sigh* Okay...) Okay, talk to you, $fname.<</speech>>
+As you see $fname go offline, you start trying typing some more lines.
+
+<<speech "You" "''$name:''">>
+<font size="-2"><span class="red">Size Queen, trapped, Cruise...</span></font><</speech>>
+As you see your message dissapear again, you are now certain that Captain T is somehow manipulating the phone she gave you.
+
+<<speech "You" "''$name:''">>
+(I'm fucked...)<</speech>>
+[[Return|Bedroom][$smsm2a to false]]
+
+
+
+
+\\<<elseif $altersms22 is 1>><<speech "mike" "''$fname:''">>
+What else are you telling me then? *psst* Any "nice ladies" over there?<</speech>>
+<<speech "You" "''$name:''">>
+Yeah, it's actually filled with "ladies"...<</speech>>
+<<speech "mike" "''$fname:''">>
+🤣 Bro, listen to yourself. You're writing that as if it was a torture. You know that most guys would give a liver to be in a Ship with a lot of women?<</speech>>
+<<speech "You" "''$name:''">>
+Yeah, I guess so... haha... I-I have had an encounter with one of them, you know...<</speech>>
+<<speech "mike" "''$fname:''">>
+No shit? That's my man! Did you put that bitch on all fours?<</speech>>
+<<speech "You" "''$name:''">>
+Um, no. I didn't have a chance, or... I just... I guess I don't remember...<</speech>>
+You cringe as you send that last message. You really don't want to tell him that much about that encounter with Tara.
+
+<<speech "mike" "''$fname:''">>
+Hahaha sound like fun! I bet the inauguration party rocked. Anyway man, I've got to go now, alright? Keep having fun!<</speech>>
+[[Return|Bedroom][$smsm2a to false]]<</if>>
+
+

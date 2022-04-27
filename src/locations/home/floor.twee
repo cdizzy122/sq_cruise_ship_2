@@ -1,0 +1,9 @@
+:: floor [textback] {"position":"894,105","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><img src="places1/pantiesfloor.jpg" width="60%">
+
+<<if $sniff is true>>[[Return|Underwear drawer]]<<else>>[[Check if it's clean and put it where it belongs]]
+[[Leave it there]]
+
+[[Return|Underwear drawer]]<</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

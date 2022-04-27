@@ -1,0 +1,15 @@
+:: London [textback] {"position":"1208,329","size":"100,100"}
+<<removeclass "html">><<addclass "html" "street">><img src="places1/london.jpg" width="70%">
+
+This is your first time going to the Greenwich Port. 
+You hear noise and shouting behind you, so you turn around and take a <<linkappend "look.">>
+
+<img src="places1/bacheloretteparty.jpg" width="60%">
+
+There seems to be a celebration or pre-celebration going on. And it certainly looks like a Bachelorette party of some kind.
+
+<<speech "You" "''$name:''">>
+(They sure are starting soon... I just hope those don't get on my ship.)<</speech>>
+[[Go in]]<</linkappend>><<audio "menus" stop>><<audio "out" volume 0.8 loop play>><<if ndef $mute>><<audio "out" unmute>><<audio ":back" unmute>><<else>><</if>>
+
+

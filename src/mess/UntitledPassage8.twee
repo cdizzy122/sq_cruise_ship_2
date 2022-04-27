@@ -1,0 +1,7 @@
+:: Untitled Passage 8 {"position":"286,1578","size":"100,100"}
+[[Techphone]]<<set $phone to 1>>
+[[2048]]<<set $messages to 2>>
+
+<<set $techphone to true>><<set $gfsms to 3>><<set $tinder to 1, $tinderphone to 1, $tprofile to 1>>
+
+

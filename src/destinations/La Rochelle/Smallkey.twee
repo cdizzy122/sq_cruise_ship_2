@@ -1,0 +1,7 @@
+:: Small key [noreturn] {"position":"391,1359","size":"100,100"}
+<img src="stuff/smallkey.jpg" width="50%">
+
+<<nobr>><<if $openlocker is 1>>[[Use|Check the lockers][$openlocker to 2]]<<else>><<linkreplace "Use">>You can't use it here<</linkreplace>><</if>><</nobr>>
+[[Return|Inventory]]
+
+

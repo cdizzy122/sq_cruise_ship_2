@@ -1,0 +1,46 @@
+:: Slots machine VIP [textback] {"position":"3449,1016","size":"100,100"}
+<<if ndef $vipslots>><div class="center"><img src="places2/vipslots.jpg" width="60%"></div>
+Although the slots in the casino are usually full, these ones seem to be quite empty. There's literally no-one in the room, and so you feel more comfortable taking a look around.
+
+<<speech "You" "''$name'':">>
+(Not very impressive for a VIP area, actually... Also, no hint of "M" here, so better move on to another area...)<</speech>>
+[[Go ahead and play!|Slots machine VIP][$vipslots to 1]]
+[[Return|VIPin]]
+
+
+
+\\<<elseif $vipslots is 0>><div class="center"><img src="places2/vipslots.jpg" width="60%"></div>
+Although the slots in the casino are usually full, these ones seem to be quite empty. There's literally no-one in the room, and so you feel more comfortable taking a look around.
+
+<<speech "You" "''$name'':">>
+(Not very impressive for a VIP area, actually... Also, no hint of "M" here, so better move on to another area...)<</speech>>
+[[Go ahead and play!|Slots machine VIP][$vipslots to 1]]
+[[Return|VIPin]]
+
+
+
+
+\\<<elseif $vipslots is 1>>You approach one of the slot machines and sit down.
+
+<div class="center"><img src="places2/roulettecloseup.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+Ok, now... how does this work?<</speech>>
+As you look down to figure it out, you see a groove where the coins go. There's even another one for bills.
+
+<<speech "You" "''$name'':">>
+Well, that's weird, bills for a slots machine?<</speech>>
+You also take a look at the prizes:
+
+<div class="center">''- Premium Leather Cockring
+- Experimental lubricant
+- Penis pump XL
+- ...
+- ...
+- ...''</div>
+<<speech "You" "''$name'':">>
+(OMG... well, those are quite the prizes for a jackpot. But I don't have any money right now, maybe in the future, if I find a way to make some while I'm in here.)<</speech>>
+You get going.
+
+[[Return|Slots machine VIP][$vipslots to 0]]<</if>>
+
+

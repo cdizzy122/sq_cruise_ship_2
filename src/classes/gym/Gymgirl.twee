@@ -1,0 +1,354 @@
+:: Gymgirl [noborder textback] {"position":"2310,640","size":"100,100"}
+<<removeclass "html">><<addclass "html" "locker">><<audio "gym" stop>><<if ndef $gymgirl>>As you get in the locker room you see a girl that's sat in a bench. She seems to be very exhausted as she is holding her head with her hand and breathing heavily.
+
+<div class="center"><img src="quest1/gymgirl1.png" width="50%"></div>
+<<speech "You" "''$name'':">>
+Um... hey, are you alright?<</speech>>
+<<speech "nobody" "''Locker room girl'':">>
+ *sigh* yeah... I'm just tired now...<</speech>>
+She raises her head to try to look at you, but it seems to be too heave for her to lift and her eyes are blinking. All of the sudden, her head falls again to her hands.
+
+<<speech "You" "''$name'':">>
+Hey, hey! *you grab her head* You should be resting... what's happened to you?<</speech>>
+<<speech "nobody" "''Locker room girl'':">>
+I'm trying a new diet I read on a magazine before coming to the ship and... *pant, pant* the training is too much...<</speech>>
+<<speech "You" "''$name'':">>
+Well, maybe that diet is too much for you? Have you thought of... I don't know... introducing some snacking, or just changing the diet for another one?<</speech>>
+<<speech "nobody" "''Locker room girl'':">>
+No, no... I want to keep on the diet *pant, pant* I want to be ready when the boys come...<</speech>>
+<<speech "You" "''$name'':">>
+Just a few bites so your body can recover from the exercise would be helpful...<</speech>>
+<<speech "nobody" "''Locker room girl'':">>
+Yeah, I guess you're right... but I will not do it. I want to be fit when the time comes...<</speech>>
+<<speech "You" "''$name'':">>
+Even at the cost of your health?<</speech>>
+The girl gives you a grin and goes back to panting.
+
+<<speech "You" "''$name'':">>
+(I should help her even if she doesn't want to be helped... Maybe if she has the snacks before her she would take them...)<</speech>>
+ ''*Side quest: Bring some snack for the locker room girl*''
+
+[[Go to locker room][$gymgirl to 0, $gymgirl1 to "Active", $badge to $badge +1]]<<elseif $gymgirl is 0>><<if ndef $jerkhand>><<if $chococandies lt 1>><div class="center"><img src="quest1/gymgirl1.png" width="50%"></div>
+<<speech "You" "''$name'':">>
+Um... hey, are you alright?<</speech>>
+<<speech "nobody" "''Locker room girl'':">>
+ *sigh* yeah... I'm just tired now...<</speech>>
+<<speech "You" "''$name'':">>
+(God... poor girl, I should bring something for her to snack on...)<</speech>>
+There's only one locker room for men and women. Luckily there are a few individual showers which are separated from the rest. You get in one of those and close the door.
+
+<div class="center"><span class="fade-ins"><img src="quest1/shower1.jpg" width="30%"></span></div>
+You get a relaxing shower.<<set $stress to 0>> ''*Stress was reduced*''
+
+[[Return|Deck 7]]
+
+
+\\<<else>><div class="center"><img src="quest1/gymgirl1.png" width="50%"></div>
+You take out the candies and put them on the bench. Then you take one and get closer to the girl.
+
+<<speech "You" "''$name'':">>
+Here, just eat one of these little ones. You'll see that you will feel much better in a few minutes.<</speech>>
+<<speech "nobody" "''Locker room girl'':">>
+Well... *pant, pant* I guess something that small won't have a huge impact on my diet.<</speech>>
+She eats the penis shaped chocolate candy. After a few minutes she starts to feel better and gets up from the bench.
+
+<div class="center"><span class="fade-ins"><img src="quest1/gymgirl2.jpg" width="30%"></span></div>
+<<speech "nobody" "''Locker room girl'':">>
+Good, I'm not that dizzy anymore... Thanks... what was your name again?<</speech>>
+<<speech "You" "''$name'':">>
+...Oh! I'm $name. Also, no problem. I'm happy to help, and I really think you shouldn't be pushing yourself that much. You are already very in shape and thin.<</speech>>
+<<speech "nobody" "''Locker room girl'':">>
+Well, thank you sweetheart *smiles* I just wanted to be in perfect shape, you know? Most women come to this cruise with friends, but I've come all by myself. I've never been with a real- I mean, BIG man. I wanted to impress, that's all.<</speech>>
+You stand there in silence with an awkward smile.
+
+<<speech "You" "''$name'':">>
+Well... I hope you achieve your goal then.<</speech>>
+<<speech "nobody" "''Locker room girl'':">>
+ *smiles* Hey... *she touches your tummy* Thank you, really. I'll go and tell one of the crew member what you've done and to add 100 extra points for you. And also... *she stands up and gets into a shower* You came here to shower, didn't you?<</speech>>
+<<speech "You" "''$name'':">>
+... Aha...<</speech>>
+<<speech "nobody" "''Locker room girl'':">>
+Get in then... *wink*<</speech>>
+For a moment this seems like a dream, too good to be true. After all that has gone wrong the last days, it's refreshing to find someone nice.
+
+<<speech "You" "''$name'':">>
+O-okay...<</speech>>
+You walk towards her and get into the shower. Fortunately, it's one of the big ones so the both of you have enough space to not feel claustrophobic. Suddenly, she turns on the water, and looks at you like a hunter looks at its prey and walks behind you. You turn your head.
+
+<div class="center"><span class="fade-ins"><img src="quest1/gymgirl3.jpg" width="35%"></span></div>
+<<speech "You" "''$name'':">>
+(Oh, shit, she's taking off her clothes!)<</speech>>
+You feel dumb by thinking that. Of course she's taking her clothes off, she's showering. And then it hits you: your clothes have to go as well.
+
+<<speech "nobody" "''Locker room girl'':">>
+C'mon now... don't be shy... Let me see what you're hiding there.<</speech>>
+You take your shirt off and start unbuttoning your pants reluctantly. You finally get them off as well as your <<if $under is 1>>briefs<<elseif $under is 2>>panties<</if>>. Of course, you do that facing the other way, so she can't look at your penis and you can hide your underwear under your pants.
+
+<<speech "nobody" "''Locker room girl'':">>
+I promise I won't look. You can get into the shower first if you prefer.<</speech>>
+<<speech "You" "''$name'':">>
+T-thanks...<</speech>>
+Still facing the other way, you walk into the hot water.
+
+<<speech "nobody" "''Locker room girl'':">>
+I don't know if anyone has told you this already, but you've got a nice ass for a boy... very cute *smiles*<</speech>>
+Due to the steamy water running through your skin, your body wants to relax, but you won't let it. There's a girl right behind you that's looking closely at your naked ass. For once you're happy your penis and balls are not big, or she would also be able to see them.
+
+<<speech "nobody" "''Locker room girl'':">>
+Just relax...<</speech>>
+You can hear her clothes fall off and come closer. This just makes your body tense up again, trying to find a way for her not to see your private parts.
+
+<<speech "You" "''$name'':">>
+(Shit, why did I agree to this in the first place...?)<</speech>>
+You want to take a look at her naked body, but you don't want another woman laughing at you for the size of your penis...
+
+<<speech "nobody" "''Locker room girl'':">>
+Shh... do you want to go somewhere? *smiles* Uh-uh...<</speech>>
+By now you can almost feel the warmth of her body on your cold ass.
+
+<<speech "nobody" "''Locker room girl'':">>
+Mmm...<</speech>>
+<<if $cage is true>><div class="center"><video autoplay loop><source src="quest1/showersex2.mp4" type="video/mp4" width="15%">Your browser does not support the video tag.</video></div>
+<<speech "You" "''$name'':">>
+Ahh...<</speech>>
+Although you are a bit rigid, once her hands and mouth touch your body, a hot moan scapes.
+
+<<speech "nobody" "''Locker room girl'':">>
+Aha... *smooch* I know, honey... This cruise ship situation must be HARD to SWALLOW... *giggles* Just let it go...<</speech>>
+Her hands start getting more and more grabby, reaching your pubic area and further. The thought of her finding out about your cage scares you, because although she seems to be nice, you don't really know what to expect from her. You curl in your legs, trying to hide your little secret, which makes your butt stick out a bit.
+
+<<speech "nobody" "''Locker room girl'':">>
+Oh, so you are into that, huh? Nice...<</speech>>
+Your eyes open as you process what she just said. You can feel her hand lightly caressing one of your butt cheeks. You quickly take a small step forward, trying to avoid her touch.
+
+<<speech "You" "''$name'':">>
+N-no, it's not like that! It's just that... (Fuck, I don't want her to know about the cage either) It's just that the water is making my feet slide.<</speech>>
+<<speech "nobody" "''Locker room girl'':">>
+... oh, ok... *rubs ass cheek again*<</speech>>
+<<speech "You" "''$name'':">>
+Hey! I said no!<</speech>>
+<<speech "nobody" "''Locker room girl'':">>
+That's what you say, but I saw you bend over... I think you're just afraid you will like it... *rub, rub*<</speech>>
+<<speech "You" "''$name'':">>
+Hmm... ok, just don't do anything weird...<</speech>>
+<<speech "nobody" "''Locker room girl'':">>
+As you say... then let me see that //anaconda// *giggles*<</speech>>
+You stick your body to the wall so she can't get to your caged penis.
+
+<<speech "nobody" "''Locker room girl'':">>
+C'mon... let me reward you, cutie... If you don't let me do that, I may have to explore your other area... *she rubs your anus*<</speech>>
+<<speech "You" "''$name'':">>
+ *gasp*<</speech>>
+Even though her finger doesn't get any further, her mere touch on your anus takes you by surprise and it makes you jump a little. She takes advantage of this and turns you around with a quick move.
+
+<div class="center"><img src="quest1/showercage.jpg" width="50%"></div>
+<<speech "nobody" "''Locker room girl'':">>
+ *gasp* Oh my God! *she stares at your cage with a mix of a smile and a shocked expression* Can I touch it?<</speech>>
+<<speech "You" "''$name'':">>
+ *sigh* N-no...<</speech>>
+At this point, you've reached the peak of embarrasment and you don't really care what else happens. Your secret has been revealed.
+
+<<speech "nobody" "''Locker room girl'':">>
+The way you said that sounded like you actually wanted me to... *wink* Are you sure you don't want to turn around and-<</speech>>
+<<speech "You" "''$name'':">>
+No! (I am definitely not ready for that... wait, why do I say it like I would ever be ready?) No, I don't...<</speech>>
+<<speech "nobody" "''Locker room girl'':">>
+ *smiles* Agaiiin... hahaha, you don't sound convincing at all! But hey, I will respect your pink ass for now. Just... let me touch that cute little prisoner *she points at your caged penis*<</speech>>
+Now that your secret has been revealed, the thought of this hot girl touching your dick is starting to make you horny, making your small penis strain against the cage.
+
+Without making a sound, you nod your head. At your mark, the girl extends her arm to touch your balls. You have the feeling that even though you had told her no, she probably would had done it anyway...
+
+She scratches your wet balls, making your clit engorge. She presses her body onto yours, reaching behind you and grabbing your ass at the same time. This alone makes your blood rush, but then she starts kissing and biting your neck, working her way to your ear. Then, she grabs your whole crotch with one hand and wiggles it.
+
+<<speech "nobody" "''Locker room girl'':">>
+You are one cute sissy... Such a innocent LITTLE boy, aren't you... I LOVE your cage. *wiggles it harder and giggles*<</speech>>
+Her breath on your ear, her soft hands on your body, and the hot water is making you very aroused. Every minor wall you were trying to stand between her and you breaks. You give yourself in to her.
+
+<<speech "nobody" "''Locker room girl'':">>
+That's right... you like it when I tell you how much I like your clit? *rubs your tiny balls* Yeah?? *kiss, kiss*<</speech>>
+<<speech "You" "''$name'':">>
+AAhhh... *you bite your lips*<</speech>>
+You know you won't be able to resist much longer, you're going to explode. Then she presses her knee on your hot crotch, humping you cage repeatedly.
+
+<<speech "You" "''$name'':">>
+Ah!...mmm... *hump, hump*<</speech>>
+<<speech "nobody" "''Locker room girl'':">>
+Yeah... get into that leg, c'mon... fuck this leg, yes... *bites*<</speech>>
+<<speech "You" "''$name'':">>
+(OMG... she's going to make me...)<</speech>>
+As you get right on the edge, her hand slide even further under your ass. With an unexpected strength, a stream of hot cum shoots from your straining dick.
+
+<<speech "You" "''$name'':">>
+AAAhhhhw My gOddd!<</speech>>
+The stream goes on for a few seconds more than what you're used to. Your surprise transforms into a smile, as you have one of the longer orgasms of your entire life. It takes a while for you to relax a bit.
+
+<<speech "nobody" "''Locker room girl'':">>
+ *smiles* I knew it... you're one of those "boys". I think I found your magic spot, didn't I?<</speech>>
+<<speech "You" "''$name'':">>
+ *pant* Yeah... you did... (Jesus... it's like she literally "drained" me)<</speech>>
+The girl smiles at you and presses her body onto you again. The both of you finish taking the shower, while you try to recover yourself from such intense "sex".
+
+<<speech "nobody" "''Locker room girl'':">>
+Well, I guess we're tied now. *wink* You help me, I help you. I'll see you around *throws a kiss and gets out the shower*<</speech>>
+A strange smile stays on your face for the rest of the shower. You're like floating on a cloud... After a few minutes, your brain starts to work again.
+
+<<speech "You" "''$name'':">>
+Ok, I should finish now.<</speech>>
+<div class="center"><span class="notplus">''POINTS +100''</span></div>
+[[Finish|Deck 7][$points to $points +100, $gymgirl to 1, $gymgirl1 to "Finished"]]
+
+
+<<else>><div class="center"><video autoplay loop><source src="quest1/showersex.mp4" type="video/mp4" width="15%">Your browser does not support the video tag.</video></div>
+<<speech "You" "''$name'':">>
+Oh!<</speech>>
+You weren't expecting her touch on your dick, and so your heart pounds faster... You're just worried that she will laugh at you.
+
+<<speech "nobody" "''Locker room girl'':">>
+Aha... *smooch* I know, honey... This cruise ship situation must be HARD to SWALLOW... *giggles* Just let it go...<</speech>>
+Her hands start getting more and more grabby, jerking your flaccid cock harder and harder. After a few seconds of jerking, she stops.
+
+<<speech "nobody" "''Locker room girl'':">>
+Um... is it going to get hard...?<</speech>>
+Still in a bit of a shock because of her sudden handjob, you stutter trying to come up with an answer.
+
+<<speech "You" "''$name'':">>
+Y-yes, it's just...<</speech>>
+You seem to be out of excuses... After Tara's "sex night" you are even more insecure about your manhood that you were before.
+
+<<speech "nobody" "''Locker room girl'':">>
+Yeah, I have heard that before, you're not my first "man"... but don't you worry, just a little erection won't keep you from having your reward... *giggles*<</speech>>
+The way she said "man" is a bit insulting, specially after what Ms. Foster said in the first class about the Alphas, the Betas and the Sissies. You can't help but wonder if this girl knows about all that stuff, if she's thinking about it right now that she has your penis in her soft hand...
+
+<<speech "nobody" "''Locker room girl'':">>
+I don't know what you're thinking about, but keep it on... it's getting a bit harder... but, is it getting bigger at all? Let me see...<</speech>>
+She grabs your dick with a soft but firm grip and turns you over. Once your semi-hard small penis is exposed, you feel a wave of embarrasment run through your wet body.
+
+<<speech "nobody" "''Locker room girl'':">>
+Aw... it's cute, has someone ever told you how cute your penis is? You remind me of my high-school crush...<</speech>>
+She puts her index between your balls and penis, and then wiggles it up and down.
+
+<<speech "nobody" "''Locker room girl'':">>
+Pee-pee, pee-pee... *giggles*<</speech>>
+Your worst nightmare has just been confirmed. She is laughing at your penis, but you can't really feel angry about it. You kind of understand her reaction, and even though she is mocking you, her defined body and hot faces are distracting you.
+
+<div class="center"><video autoplay loop><source src="quest1/gymgirl4.mp4" type="video/mp4" width="20%">Your browser does not support the video tag.</video></div>
+Your tiny penis was just about to shrink to its flaccid state again, but something about her paying that much attention to your crotch and wiggling it is turning you on. Your wet dick starts filling and pulsating on her finger.
+
+<<speech "nobody" "''Locker room girl'':">>
+Oh... it's getting firmer... are you into this? You want me to keep it up? *smiles*<</speech>>
+Something about the look in her eyes is telling you that she is enjoying this too. She pushes you until your back is on the wall.
+
+<<speech "nobody" "''Locker room girl'':">>
+There, let me grab this cute little thing for you. *she takes your penis with a hand and balls with the other* I think you are even smaller than him, definitely less thick. I could close my fingers around your whole crotch, look!<</speech>>
+She does so and shakes it hard.
+
+<span class="onomatopeya">*SHAKE, SHAKE*</span>
+
+<<speech "nobody" "''Locker room girl'':">>
+Yeah, that's getting it harder... but it's not hard enough for a fuck, don't you think? This seems to be working, so I'll crank it up *devilish smile*<</speech>>
+Keeping her right hand around your penis and balls, she takes the left hand and puts your penis on it. Her smooth hand rubs on your glans, sending wave of pleasure across your spine.
+
+<<speech "You" "''$name'':">>
+Ahh...<</speech>>
+<<speech "nobody" "''Locker room girl'':">>
+Yeah? You like this hand? How about now?<</speech>>
+She whips your cock on her hand.
+
+<<speech "You" "''$name'':">>
+Ow... wait, no-<</speech>>
+She whips it again a little harder. Then she presses your penis, feeling if it's hard enough.
+<<speech "nobody" "''Locker room girl'':">>
+Uh-uh, not hard enough...<</speech>>
+<span class="onomatopeya">*WHIP*</span>
+
+<<speech "You" "''$name'':">>
+Ouch! I don't like this!<</speech>>
+She feels your dick again.
+
+<<speech "nobody" "''Locker room girl'':">>
+Oh, but I think she does... *she looks at your erect penis*<</speech>>
+<<speech "You" "''$name'':">>
+(WTF... why-)<</speech>>
+<<speech "nobody" "''Locker room girl'':">>
+So this is as hard as it gets, huh? Looks like it would bend if I try to fuck it, so how about if I rub one off for you?<</speech>>
+<<speech "You" "''$name'':">>
+(It still hurts a little... but now that we're here I might as well enjoy myself) Uh-huh...<</speech>>
+Once you respond, she softens her grip and takes her hand off you.
+
+<<speech "nobody" "''Locker room girl'':">>
+Ok, then. Here you go. *she flips her hand and gives it to you*<</speech>>
+You look at her hand, confused.
+
+<<speech "nobody" "''Locker room girl'':">>
+What? I already made this mistake with my former boyfriends, I'm not going to give it to you. You can do yourself though. *smiles* Here. Take my hand.<</speech>>
+<div class="center"><img src="quest1/hand.png"></div>
+[[Rub one out with her hand|Gymgirl][$jerkhand to 0]]
+<<if $hunger is 0>><<linkreplace "Decline it">>You're too hungry...<</linkreplace>><<else>>[[Decline it|Gymgirl][$jerkhand to 1]]<</if>><</if>><</if>>
+
+
+
+<<elseif $jerkhand is 0>>You are very horny from all the "foreplay", so you decide to grab her smooth hand. You are thinking of turning her hand into a fleshlight, but before you can even grab it, she turns her hand into a <span class="imgpop v-shape"><a class="specialeffects">v-shape</a></span>, opening her ring and heart fingers.
+
+You understand she wants to use her hand like that. Although it doesn't seem very comfortable, you are so horny that it doesn't matter to you at the moment. You take your already deflating dick and start rubbing it.
+
+<<speech "nobody" "''Locker room girl'':">>
+Omg... you're really doing this... No, no! Don't stop! Go to town on that, stud! *giggles*<</speech>>
+Her humiliating comment doesn't seem to bother you too much, which is strange, considering how ashamed you were just a few minutes ago. But your mind is blurry, now that you've come to here, you want to have it all the way. In a way, the situation makes you feel... excited...
+
+Her thin fingers are not as nice as the palm, but it's the best you've felt in a while with a woman.
+
+<<speech "You" "''$name'':">>
+Ah, ahh! AAHhh...!<</speech>>
+<<speech "nobody" "''Locker room girl'':">>
+Yeah, get into it, yeah... *laughs* OMG, don't tell me you're already going to cum!?<</speech>>
+As you feel like the orgasm in getting dangerously close, you step up the pace, grabbing her arm so she doesn't go away.
+
+<<speech "You" "''$name'':">>
+Oh...OH...AHHH! I'm going to-<</speech>>
+<<speech "nobody" "''Locker room girl'':">>
+Uh-uh. Not. Yet.<</speech>>
+She takes your dick and squishes it until it hurts.
+
+<<speech "You" "''$name'':">>
+Ahhhh! Ouch... Ahhh!<</speech>>
+Your tiny little penis cries a thin river of translucent cum.
+
+<<speech "You" "''$name'':">>
+No! You- why?<</speech>>
+<<speech "nobody" "''Locker room girl'':">>
+Aw... so cute. Did you really think that I was going to let you cum, just like that? Listen, I'm here for a reason. I'm fed up with boys like you acting like you are men. You had the chance to expose your real self in front of you and you didn't! So this is what you get!<</speech>>
+She takes her clothes and opens the shower door. Some women are also there, listening closely and giggling.
+
+<<speech "nobody" "''Locker room girl'':">>
+But if you ever get out of the closet, give me a call. I'd love to give you what you deserve, white boy. *wink*<</speech>>
+Still naked, she gets out and goes away.
+
+<<speech "You" "''$name'':">>
+ *pant, pant*<</speech>>
+Still over-excited from the "sex", you calm yourself as you finish the shower.
+
+<<speech "You" "''$name'':">>
+I think it's time I get going too... *gulp*<</speech>>
+<<set $sub to $sub +1>><div class="center"><span class="notless">''SUB +1''</span> <span class="notplus">''POINTS +100''</span></div>
+[[Finish|Deck 7][$points to $points +100, $gymgirl1 to "Finished", $gymgirl to 1]]
+
+\\<<elseif $jerkhand is 1>><<speech "You" "''$name'':">>
+No! I'm not going to do that! I still have a bit of self-respect!<</speech>>
+You take your clothes and walk right out of the shower, with such bad luck that a group of four women just get in the locker room.
+
+<<speech "nobody" "''Redhead Milf'':">>
+Oh, is it my birthday?! Hahahaha<</speech>>
+<<speech "nobody" "''Blonde Milf'':">>
+Hahahaha I don't think you could be satisfied with that thingy, you fucking size queen!<</speech>>
+Awestruck, you cover your cute private parts from the view of those four tigresses. Then you go into one of the showers and wait until you can't hear a thing.
+
+<<speech "You" "''$name'':">>
+(Fuck! So embarrasing... I don't think I'm going to be able to endure all this stuff...)<</speech>>
+You're certainly embarrased, but what really is making you worry deeply is the raging hard-on you have.
+
+<<speech "You" "''$name'':">>
+I should get going anyway...<</speech>>
+<div class="center"><span class="notplus">''POINTS +100''</span></div>
+[[Finish|Deck 7][$points to $points +100, $gymgirl1 to "Finished", $gymgirl to 1]]<</if>><</if>>
+
+

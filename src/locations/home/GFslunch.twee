@@ -1,0 +1,25 @@
+:: GF's lunch [textback] {"position":"512,2136","size":"100,100"}
+<<if ndef $gflunchbag>><div class="center"><img src="food/tupperware.jpg" width="50%"></div>
+A bag with a chicken pasta tupperware in it.
+<<speech "You" "''$name'':">>
+(Not too fancy, but it does the job. Maybe I should surprise her...?)<</speech>>
+[[Make an easy sause for that (15 min)|GF's lunch][$gflunchbag to 0]]
+[[No time for that|GF's lunch][$gflunchbag to 1]]
+
+<<elseif $gflunchbag is 0>>You don't really know how to cook a thing, but your trusty pre-cooked bolognaise sauce is always there in the pantry!
+
+<<speech "You" "''$name'':">>
+(Yeah... she loves this sauce, I know that! It's much tastier now.)<</speech>>
+<div class="center"><img src="food/tupperware1.jpg" width="50%"></div>
+You mix the pasta with the sauce and put it back in the tupperware inside the bag.
+
+<div class="center"> *''GF's lunch'' added to Inventory*</div><<set $gflunchbag to "saucy", $gflunch to false, $gfbag to true>><<addmins 15>>
+
+[[Return|Kitchen][$gflunchquest to "1/2 done"]]
+
+\\<<elseif $gflunchbag is 1>><div class="center"><img src="food/tupperware2.jpg" width="50%"></div>
+You take the bag as it is.
+
+<div class="center"> *''GF's lunch'' added to Inventory*</div><<set $gflunchbag to "plain", $gflunch to false, $gfbag to true>>
+
+[[Return|Kitchen][$gflunchquest to "1/2 done"]]<</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>>

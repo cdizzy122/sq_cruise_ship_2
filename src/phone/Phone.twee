@@ -1,0 +1,45 @@
+:: Phone [phone noreturn noborder textback] {"position":"108,580","size":"100,100"}
+<<if ndef $techphone>><<if $SMS1 is true>>
+<img src="https://i.imgur.com/nd03aR5.jpg" width="60%">
+Hi. Here's a picture of me, as I figure you will be missing me. Going away for so long...
+
+$name, I am not going to lie to you: I am not happy about us. This might be the perfect time for both of us to think. Think about our lives and our relationship. Maybe...maybe this is a sign.
+
+That doesn't mean that I want to stop talking to you. I still love you, $name. I just think we need some time. 
+
+Anyway, you've got me here if you feel alone or if you miss me. I...I guess we are not officialy together, so we can see other people, though that doesn't mean I will. I'm going to miss you. 
+
+Try to be happy there and have fun.
+
+PS: If you treat me well I might be sending more pics ;)
+
+Well, this is proof that things COULD get worse.
+
+At least she seems to be taking it pretty well. I wasn't expecting such comprhension of her. Especially how angry she was at me last night.
+
+You answer back with a: Ok baby, I understand. Take care, I love you. <3<3
+
+With and unsettling feeling in your guts, you decide to get in bed and try to sleep.
+
+<<return>><<else>><<speech "gfd" "''$gfname'':">>
+Hi, $name. I left early to work and forgot to get my lunch... would you be so kind to bring it before lunch time? Just text me if you're not going to come so I can find some place to buy it.<</speech>>
+You sigh as you read this. These last weeks have been hard for your relationship. Her job seems to be quite stressing and you haven't found one yet. Although you try your best to make plans together, it never seems to be good enough and she has been getting more distant every day.
+
+You take a look at the clock, making sure it's not too late.
+
+<<linkreplace "I'll get it for you">><<speech "You" "''$name'':">>
+Okay honey, I'll get it for you.<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Really? Ok, thanks a lot. I wasn't really sure I could even get out for lunch otherwise, so thanks for saving me!<</speech>>
+<<speech "You" "''$name'':">>
+No problem baby, I'll be there around 13:30 so you have it for your lunch break. See you there 😘😘<</speech>>
+You wait for her to answer to your emojis, but she seems to be too busy for that.<<set $seephone to true>>
+
+[[Return|Stand up][$gflunchquest to "Active", $gflunch to true, $badge to 0, $logstart to true]]<<set $gfcall to true>><</linkreplace>><</if>><<else>><div class="center"><span class="titlelog">''MESSAGES:''</span></div>
+<div class="row3"><div class="column3"><span class="noshit"><a data-passage="GFSMS"><img src="avatars/gf.jpg" width="75%"></a>
+<area shape="rect" coords="25,25,75,75" data-passage="GFSMS"></span></div><div class="column3"><<if ndef $lanasms>><<elseif $lanasms gte 0>><span class="noshit"><a data-passage="LanaSMS"><img src="lana/lanasms.png" width="65%"></a>
+<area shape="rect" coords="25,25,75,75" data-passage="LanaSMS"></span><</if>></div></div>
+[[Return|Techphone]]
+<</if>>
+
+

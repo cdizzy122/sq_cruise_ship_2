@@ -1,0 +1,27 @@
+:: update-save {"position":"934,2421","size":"100,100"}
+<<if $oilylube gte 1>><<set $oilylube to true>><<else>><</if>>
+	<<if $hotlube gte 1>><<set $hotlube to true>><<else>><</if>>
+	<<if $cockring gte 1>><<set $cockring to true>><<else>><</if>>
+	
+	<<if $int lte -20>><<set $int to 80>><<elseif $int gt -20 and $int lte -10>><<set $int to 90>><<elseif $int gt -10 and $int lte 0>><<set $int to 100>><<elseif $int gt 0 and $int lte 10>><<set $int to 110>><<elseif $int gt 10 and $int lte 20>><<set $int to 110>><<elseif $int gt 20 and $int lte 50>><<set $int to 120>><</if>>
+	
+	
+	<<nobr>><<if $ownface is 0>><<set $profileState to 0>><<elseif $ownface is 1>><<set $profileState to 1>><<elseif $ownface is 2>><<set $profileState to 2>><<elseif $ownface is 3>><<set $profileState to 3>><<elseif $ownface is 4>><<set $profileState to 4>><<elseif $ownface is 5>><<set $profileState to 5>><</if>><</nobr>>
+
+<<if ndef $receivemessages>><<set $receivemessages to true>><<else>><</if>>
+
+<<if ndef $sample and $makeupquest1 is "Active">><<set $sample to 0>><<else>><</if>>
+<<if $makeupbath is true and $goggles lt 7 and $pennyroom is 2>><<set $pennyroom to 0>><<else>><</if>>
+<<if $makeupquest1 is "Active">><<set $pennyroom to 1>><<else>><</if>>
+
+
+<<if $dayn gt 3 and $under lt 1>><<set $wardrobe to true>><<set $buyshoe1 to true>><<set $buyleg1 to true>><<set $buyupper1 to true>><<set $buyunder1 to true>><<set $shoe to 1>><<set $leg to 1>><<set $under to 1>><<set $upper to 1>><<set $fashionbuy to 0>><<set $bflats to false, $bdress to true, $bpdress to true, $bedress to true, $bhheels to true, $bswim to false>><<else>><</if>>
+
+<<if $fiftyeuros is 0>><<set $road to 1>><<set $baris to 3>><<else>><</if>>
+
+<<if $chloequest is 1 and $kittyband is "Unstarted">><<set $chloequest to 2>><<else>><</if>>
+<<if $chloequest is 1 and $kittyband is "Finished">><<set $chloequest to 2>><<else>><</if>>
+<<if $kittyband is "Finish">><<set $kittyband to "Finished">><<else>><</if>>
+<<if $chloequest is 1 and $kittyband is "Finish">><<set $chloequest to 2>><<else>><</if>>
+
+

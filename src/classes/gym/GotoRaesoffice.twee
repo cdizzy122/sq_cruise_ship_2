@@ -1,0 +1,277 @@
+:: Go to Rae's office [noborder textback] {"position":"2233,744","size":"100,100"}
+<<audio "gym" loop play>><<if ndef $raeoffice>><<removeclass "html">><<addclass "html" "home">><<speech "You" "''$name'':">>
+ *knock, knock*<</speech>>
+<<speech "rae" "''Rae:''">>
+Come in already! Argh!<</speech>>
+You open the door and find Rae working out on her abs on one of her private machines.
+
+<video autoplay loop>
+<source src="classes/rae/raetrain1.mp4" type="video/mp4" width="50%">
+Your browser does not support the video tag.
+</video>
+
+<<speech "rae" "''Rae:''">>
+What are you waiting for? Argh! Grab a cloth and clean the dust from all the equipment. I'll give you ''40 extra points''. Arrgh!<</speech>>
+<<speech "You" "''$name'':">>
+(*sigh* I thought I was going to do something more important...)<</speech>>
+[[Clean the equipment|Go to Rae's office][$raeoffice to 2, $cleangym to random (0,2)]]
+
+\\
+<<elseif $raeoffice is 0>><<removeclass "html">><<addclass "html" "home">><<speech "You" "''$name'':">>
+ *knock, knock*<</speech>>
+<<speech "rae" "''Rae:''">>
+Come in already! Argh!<</speech>>
+You open the door and find Rae working her biceps hard with quite some weight.
+
+<video autoplay loop>
+<source src="classes/rae/raetrain2.mp4" type="video/mp4" width="50%">
+Your browser does not support the video tag.
+</video>
+
+<<speech "rae" "''Rae:''">>
+What are you waiting for? Argh! Grab a cloth and clean the dust from all the equipment. I'll give you ''40 extra points''. Arrgh!<</speech>>
+<<speech "You" "''$name'':">>
+(*sigh* I thought I was going to do something more important...)<</speech>>
+[[Clean the equipment|Go to Rae's office][$raeoffice to 2, $cleangym to random (0,2)]]
+
+
+\\
+<<elseif $raeoffice is 1>><<removeclass "html">><<addclass "html" "home">><<speech "You" "''$name'':">>
+ *knock, knock*<</speech>>
+<<speech "rae" "''Rae:''">>
+Come in already! Argh!<</speech>>
+You open the door and find Rae working her triceps hard with an amazing amount of weight.
+
+<video autoplay loop>
+<source src="classes/rae/raetrain3.mp4" type="video/mp4" width="30%">
+Your browser does not support the video tag.
+</video>
+
+<<speech "rae" "''Rae:''">>
+AArrrgh!! *leaves the weight on the floor* Oh, you're here, huh? How about you go organize the equipment at the gym. These girls are so indisciplinate... I'll give you ''40 extra points''.<</speech>>
+<<speech "You" "''$name'':">>
+(*sigh* I thought I was going to do something more important...)<</speech>>
+[[Clean the equipment|Go to Rae's office][$raeoffice to 3, $orggym to random (0,1)]]
+
+
+\\
+<<elseif $raeoffice is 2>><<removeclass "html">><<addclass "html" "gym">><img src="classes/rae/clean7.jpg" width="33%">
+
+You grab a cloth and go through the whole gym cleaning the empty machines.
+
+<<if $cleangym is 0>><<speech "nobody" "''Girl''":>>
+Hey, boy! Clean the sweat out of this thing, please.<</speech>>
+<<speech "You" "''$name''":>>
+(Agh...) Ok, coming...<</speech>>
+<img src="classes/rae/clean1.jpg" width="40%">
+
+You feel a little bit degraded, but cleaning the room for incoming women that want to workout makes you feel useful in a way.<<elseif $cleangym is 1>>You can see how a woman takes off a machine and you go to clean the sweat.
+
+<img src="classes/rae/clean9.jpg" width="50%">
+
+<<speech "You" "''$name''":>>
+(God... wtf, does that look like ball sweat or is it just me?)<</speech>>
+<<speech "nobody" "''New girl''":>>
+Hey, are you the cleaner? Clean up then! I need to use that machine!<</speech>>
+<<speech "You" "''$name''":>>
+(Agh...) Ok, coming...<</speech>>
+You quickly clean up the mess so the new girl can use the machine safely. This makes you feel useful in a way.<<elseif $cleangym is 2>>After cleaning a few ones, you just wander around looking for new machines to clean, although it's difficult to concentrate with all the distractions:
+
+<img src="classes/rae/towel.gif" width="50%">
+
+You turn your head to the other side.
+
+<<speech "You" "''$name''":>>
+(WTF Did she do that on purpose?!)<</speech>>
+You look at her again, but now she's just working out on a machine.
+
+<<speech "You" "''$name''":>>
+(Jesus... I'm starting to see things)<</speech>><</if>>
+
+<div class="center"><span class="notplus">''POINTS +40''</span></div>
+<<click "Finish" "Deck 7">><<set $raeoffice to 1, $points to $points +40>><<audio "gym" stop>><</click>>
+
+
+
+\\
+<<elseif $raeoffice is 3>><<removeclass "html">><<addclass "html" "gym">><img src="classes/rae/clean8.jpg" width="50%">
+
+You go through the whole gym organizing and cleaning the equipment that the girls left on the floor, such as differents weights and dumbells.
+
+<<if $orggym is 0>><<speech "nobody" "''Girl''":>>
+Hey, cutie! I'm done with this one, do you think you can take it to its place?<</speech>>
+<<speech "You" "''$name''":>>
+(Agh...) Ok, coming...<</speech>>
+As you grab the dumbell, half of your body almost goes right to the ground. You take a look at the weight: 33lbs.
+
+<<speech "nobody" "''Girl''":>>
+Daamn! Hahaha What's wrong? Is this tiny dumbell too much for you?<</speech>>
+<img src="classes/rae/cleanw1.gif" width="50%">
+
+<<speech "You" "''$name''":>>
+(I wasn't expecting that kind of weight... that girl doesn't look like an athlete or anything...) Argh...<</speech>>
+You take the dumbell with both hands and slowly take it to the holder.<<elseif $orggym is 1>>Suddenly you see a woman asking for help.
+
+<<speech "nobody" "''Girl''":>>
+Excuse me, are you working here?<</speech>>
+<<speech "You" "''$name''":>>
+Apparently...<</speech>>
+<<speech "nobody" "''Girl''":>>
+Oh... well maybe you can help me. I just need you to supervise me while I lift the weight on this pectoral exercise.<</speech>>
+<<speech "You" "''$name''":>>
+Um... yeah, sure...<</speech>>
+She lays face up on the bench and grabs the weights. Meanwhile you are holding it too, just in case she is not strong enough to lift it the whole way through.
+
+<<speech "nobody" "''Girl''":>>
+Ugh... 1! Ugh... 2! ...3!<</speech>>
+She really doesn't need you, and so your eyes wander off to some more interesting parts...
+
+<img src="classes/rae/cleanw3.gif" width="50%">
+
+After 3 sets, she is finished with the exercise, and you can finish organizing the equipment.<</if>>
+
+<div class="center"><span class="notplus">''POINTS +40''</span></div>
+<<click "Finish" "Deck 7">><<set $raeoffice to 0, $points to $points +40>><<audio "gym" stop>><</click>>
+
+
+\\<<elseif $raeoffice is 4>><<removeclass "html">><<addclass "html" "gym">>You see how all the women at the gym look at you passing by, going to Rae's office. Once you get there, she closes the door. Then you see her sliding the mirror, which seems to be a door, to the side, revealing a dark room. Suddenly she grabs your arm and pulls you in with her. Once you are inside, she closes the door and turns on some dim lights.
+
+<<linkreplace "... ...">><<audio "gym" stop>><<audio "punish" volume 0.5 loop play>><<removeclass "html">><<addclass "html" "punish">><div class="center"><img src="classes/rae/dungeon.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+W-where are we...?<</speech>>
+<<speech "rae" "''Rae:''">>
+Say hello to your new "training room". Stoya was right, we were training your strength and endurance, but what's the point of that, huh?<</speech>>
+She stands closer to you and puts her muscular arm around your neck and shoulders.
+
+<<speech "rae" "''Rae:''">>
+No, no, no... that's something I would like to do, but for you... well you don't need it, you need to train some other aspects of your body, and we've got less time now, so it'll need to be extra-hard.<</speech>>
+<<speech "You" "''$name'':">>
+W-what aspects?<</speech>>
+You are afraid of what she could have in her mind, especially now that you are in her domains...
+
+<<speech "rae" "''Rae:''">>
+Well, flexibility, stability and overall control of pain, of course.<</speech>>
+<<speech "You" "''$name'':">>
+Of... pain?!<</speech>>
+<<speech "rae" "''Rae:''">>
+Yeah, honey... Well, Stoya might not have said it exactly in that way... hehehe But who's going to know...?<</speech>>
+Rae pats your belly, but due to her massive strength, it feel like she just punched you.
+
+<<speech "rae" "''Rae:''">>
+Oh, really, that hurt? God, sissy, then you're in for a treat... hahahaha<</speech>>
+You can tell she likes it when you complain and get a bit hurt.
+
+<<speech "You" "''$name'':">>
+(Why is she such a sadist?...)<</speech>>
+<<speech "rae" "''Rae:''">>
+Alright then... choose your punishment, little girl...<</speech>>
+She turns on the lights so you can see the different artifacts you can choose from. While you are trying to think about it, she starts poking your nipples, with the ocasional twisting.
+
+<<speech "You" "''$name'':">>
+Ouch!...<</speech>>
+You see a huge grin on Rae's face. She's certainly the one having the most fun here.
+
+[[A chair|Torture][$torture to 1, $gym to 7]]
+[[Slave driver|Torture][$torture to 2, $gym to 7]]
+[[Cage|Torture][$torture to 3, $gym to 7]]<</linkreplace>>
+
+
+
+
+\\<<elseif $raeoffice is 5>><<audio "gym" stop>><<audio "punish" volume 0.5 loop play>><<removeclass "html">><<addclass "html" "punish">><div class="center"><img src="classes/rae/dungeon.jpg" width="65%"></div>
+<<speech "rae" "''Rae:''">>
+Alright then... choose your punishment, little girl...<</speech>>
+She turns on the lights so you can see the different artifacts you can choose from. While you are trying to think about it, she starts poking your nipples, with the ocasional twisting.
+
+<<speech "You" "''$name'':">>
+Ouch!...<</speech>>
+You see a huge grin on Rae's face. She's certainly the one having the most fun here.
+
+[[A chair|Torture][$torture to 1, $gym to 7]]
+[[Slave driver|Torture][$torture to 2, $gym to 7]]
+[[Cage|Torture][$torture to 3, $gym to 7]]
+
+
+
+
+\\<<elseif $raeoffice is 6>><<audio "gym" stop>><<audio "dreams" volume 0.2 loop play>><<removeclass "html">><<addclass "html" "punish">><div class="center"><img src="classes/rae/dungeon.jpg" width="65%"></div>
+<<speechpatreon "zasha" "">><span class="zasha">''Zasha'':</span>
+So, go ahead, let me see what you got Rae.<</speechpatreon>>
+Rae smiles as she grabs you tight as she leads you to the cage to lock you inside as a dog.
+
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Wait, what? No, no, no...<</speechpatreon>>
+<<speech "rae" "''Rae:''">>
+What?!<</speech>>
+Zasha gets closer to Rae. You can tell Rae is pissed about Zasha getting in the middle of her usual training.
+
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+ *ahem* Well, as you might know, this is not just about pain. This class should be about linking pain and pleasure. Where's the pleasure?<</speechpatreon>>
+Both women stand in front of each other, in a confrontational attitude. Rae is angry, but Zasha has a cold smile on her face.
+
+<<speech "rae" "''Rae:''">>
+That little guy is a bitch, she needs HARD WORK!<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+We have a very different opinion of what hard work means, then... Let me teach you.<</speechpatreon>>
+Zasha takes your hand and takes you to the chair. Rae follows her from behind, with her fists closed in anger.
+
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Darling... choose your nightmare:<</speechpatreon>>
+[[Glans frottage|Torture][$torture to 4, $gym to 9]]
+[[Whip & Peg|Torture][$torture to 5, $gym to 9]]
+[[Testicle smash|Torture][$torture to 6, $gym to 9]]
+
+
+\\<<elseif $raeoffice is 7>><<audio "gym" stop>><<audio "dreams" volume 0.2 loop play>><<removeclass "html">><<addclass "html" "punish">><div class="center"><img src="classes/rae/dungeon.jpg" width="50%"></div>
+<<if $torture4 is true and $torture5 is true and $torture6 is true>><<if $torture7 is true>><<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Alright, come in honey. Penny will not be with us today. Let's just say your needs are different, since your response seems to be very uneven.<</speechpatreon>>
+<<speech "rae" "''Rae:''">>
+Boo-hoo, she can't see her friend. So what?!<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+So, I'm informing her that today she'll be all by herself. It'll be her versus you and me.<</speechpatreon>>
+Zasha takes a strong grip on your arm while giving you a creepy smile.
+
+<<speech "You" "''$name'':">>
+(That smile... really scares me...)<</speech>>
+<<speech "rae" "''Rae:''">>
+C'mon, what will it be today, you punk?<</speech>>
+[[Glans frottage|Torture][$torture to 4, $gym to 9]]
+[[Whip & Peg|Torture][$torture to 5, $gym to 9]]
+[[Testicle smash|Torture][$torture to 6, $gym to 9]]
+
+
+
+
+\\<<else>>As you're about to get to Rae's office, you encounter Penny.
+
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Oh, hi! I'm waiting for my mistress to come! Why are you here?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+I'm also waiting for Zasha, and Rae. I'm supposed to have a class now.<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Oh, awesome! We'll be going together then!<</speechpatreon>>
+Zasha opens the door.
+
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Oh, wow... pretty sissies are my weak spot... come in, lovelies, it's time for some good pain training.<</speechpatreon>>
+[[Get inside|Torture][$torture to 7]]<</if>>
+
+
+
+\\<<else>><<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Alright, come in honey.<</speechpatreon>>
+<<speech "rae" "''Rae:''">>
+"Honey"? Agh... we're supposed to hurt him, for god's sake...<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Just wait until he actually wants it. That's be something worth seeing, trust me...<</speechpatreon>>
+Zasha takes a strong grip on your arm while giving you a creepy smile.
+
+<<speech "You" "''$name'':">>
+(That smile... really scares me...)<</speech>>
+<<speech "rae" "''Rae:''">>
+C'mon, what will it be today, you punk?<</speech>>
+[[Glans frottage|Torture][$torture to 4, $gym to 9]]
+[[Whip & Peg|Torture][$torture to 5, $gym to 9]]
+[[Testicle smash|Torture][$torture to 6, $gym to 9]]<</if>><</if>><<audio "shower" stop>>
+
+

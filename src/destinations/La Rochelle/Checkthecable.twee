@@ -1,0 +1,111 @@
+:: Check the cable [textback] {"position":"4339,1391","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">>You cross the security chain and crouch under the black puppet.
+
+<<speech "You" "''$name:''">>
+(Nobody's here anyways, so whatever...)<</speech>>
+<img src="dockings/cable.jpg" width="60%">
+
+As you tought, the cable is not connected.
+
+<<speech "You" "''$name:''">>
+(Well that was easy...)<</speech>>
+<<linkreplace "Conect it">><<if ndef $mutefx>><<audio "robot2" play>><<else>><</if>>As the current makes contact, the black guy starts moving:
+
+<<speech "nobody" "''Black barman:''">>
+Here you- Bzzzt bzzzt Here you- Bzzzt bzzzt<</speech>>
+<<speech "You" "''$name:''">>
+(Oh, no... It's broken...) Oh well...<</speech>>
+As you speak out loud, the black man stops his loop. He suddenly looks down where you are.
+
+<<speech "nobody" "''Black barman:''">>
+Hello, would you like a drink, sir?<</speech>>
+<<speech "You" "''$name:''">>
+(Does he know I'm here? No, it can't be. He must have been programmed this way... maybe I can get him to fill the old man's glass)
+
+Um... yes, please?<</speech>>
+<<speech "nobody" "''Black barman:''">>
+RRRRRRRRRR  BBZZZZZZT  RRRRRRRR<</speech>>
+The barman's joints seem to be opening, like if it was a transformer... of a much lower quality... and old. When it finishes moving, you look up:
+
+<<linkreplace "... ...">><<if ndef $mutefx>><<audio "robot2" play>><<else>><</if>><div class="center"><span class="noborder"><span class="fade-ins"><img src="dockings/dildo1.png" width="55%"></span></span></div>
+<<speech "You" "''$name:''">>
+Oh My God!!<</speech>>
+A fairly realistic black dildo appears from the barman's pants. His arms are pointing towards it.
+
+<<speech "nobody" "''Old man:''">>
+C'mon, give me a drink! Give me a drink!<</speech>>
+<<speech "You" "''$name:''">>
+Yeah, I know! Shut up! (Wait a minute, this is the drink?!)<</speech>>
+You look towards the old man, and even though nothing has changed, you can't help but think that he is looking at the dildo with a smile on his face.
+
+You get up, carefuly evading the black man's dick. Then you grab the glass in the old man's hand.
+
+<<speech "nobody" "''Old man:''">>
+C'mon, give me a drink! Give me a drink!<</speech>>
+<<speech "You" "''$name:''">>
+I know!! Shut up!!<</speech>>
+You approach the black man with an unsettling feeling in your stomach. You don't have to do this, you know that, but something inside you is just curious, maybe even liking this mystery...
+
+<<speech "You" "''$name:''">>
+Ok, now what...? That's where the "drink" is?? Oh, god...<</speech>>
+You really don't know how to do this, but it's better to do it as aseptic as possible.
+
+<<speech "You" "''$name:''">>
+Ok, I just put it here...<</speech>>
+You put the glass next to the glans of the black dildo, expecting for everything to be over. But nothing happens...
+
+<<speech "You" "''$name:''">>
+Maybe I just need to... <span class="pink">touch it a bit...</span> Ehem... (I must be getting a cold)<</speech>>
+At the same time that you hold the glass into the glans, with the other hand you poke certain areas of the dildo, trying to find some kind of switch or button. First you just touch it with the index finger. After you fail to find any sort of button, you start losing your patience and grab the dildo with your whole hand.
+
+<<speech "You" "''$name:''">>
+I can't even put my hand around it...<span class="pink">wow...</span><</speech>>
+After massaging the entire dick, you realize there's only one place you haven't touched.
+
+<<speech "You" "''$name:''">>
+The balls! Of course!<</speech>>
+You reach down to the balls, which also seem too big to fit the whole sack in your hand. You grab them, stroke them, press them, but nothing happens, until you pull them down.
+
+<<linkreplace "... ...">><<if ndef $mutefx>><<audio "squirt" volume 0.5 play>><<audio "button" play>><<else>><</if>>Suddenly, a white translucent liquid comes out the dick with an overexpected pressure. The glass fills up too quickly, and the man is still cumming.
+
+<span class="onomatopeya">*SQUIRT, SQUIRT*</span>
+
+<<speech "You" "''$name:''">>
+Oh no! My hand got wet!<</speech>>
+You decide to worry about this later and you put the filled glass on the old man's hand again.
+
+...
+...
+...
+
+<<speech "nobody" "''Old man:''">>
+C'mon, give me a drink! Give me a- *glug, glug* ''Hmm... so tasty!'' What's on this new formula, Jacob?<</speech>>
+<<speech "nobody" "''Black barman:''">>
+A taste of my ancestors, Johnny. Your wife is smart, she will definitely know all about it. Ask her!<</speech>>
+<<speech "nobody" "''Old man:''">>
+I will! You should sell this stuff, my people would line up for it everyday!<</speech>>
+<<speech "nobody" "''Black barman:''">>
+I know they do...<</speech>>
+<<speech "nobody" "''Old man:''">>
+Here! *Whips out 5 Euros* Take this for the wonderful drink.<</speech>>
+<<speech "nobody" "''Black barman:''">>
+No need, Mister! The first taste is free, come back for more!<</speech>>
+<span class="onomatopeya">RRRRR</span>
+
+The black automaton returns to its first position and the place remains as silent as before.
+
+<<speech "You" "''$name:''">>
+(What the fuck was that...?)<</speech>>
+You take a look at your wet hand. The black man spilled some of the liquid all over it.
+
+<<speech "You" "''$name:''">>
+(This will probably be just water or something like that, maybe some kind of soda? *sniff, sniff* Smells kind of familiar, not really appealing, but it has something to it... Anyway, I'm definitely not trying it, could be some kind of oil. I'm not risking it.)<</speech>>
+As you are getting out of the bar, you feel an itch on your head. You look back just to make sure everything stays at its place. The 5 Euro bill catches your attention. You grab it.
+
+ ''*False money added to Inventory*''<<set $falsemoney to true>>
+
+<<speech "You" "''$name:''">>
+(He's not going to need it anyway.)<</speech>>
+<<click "Return" "Automaton museum">><<set $autobar to 0, $bootleg to true>><<audio "robot1" stop>><</click>><</linkreplace>><</linkreplace>><</linkreplace>><<addmins 15>><<audio "menus" stop>><<if ndef $mute>><<audio "mystery" unmute>><<else>><</if>>
+
+

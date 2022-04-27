@@ -1,0 +1,39 @@
+:: Spa1 [textback] {"position":"2740,538","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spa">><<audio "spa" volume 0.3 loop play>><img src="places2/spa.jpg" width="90%">
+
+As you step in the spa, you spot the lifeguard talking on the phone.
+
+<div class="center"><img src="quest14/lifeguardphone.jpg" width="50%"></div>
+<<speech "nobody" "''Lifeguard:''">>
+Yeah, well I just cannot make these guys settle. Maybe the schedule was not such a great idea... No, but- No, that's not what I meant! Yes, captain, I know it's my job, but I cannot physically MAKE THEM do anything... What do you mean CONVINCE THEM? I'm not a hooker, I'm a lifeguard!<</speech>>
+<span class="onomatopeya">*HANGS UP*</span>
+
+You approach her, trying to find out why exactly is she so stressed.
+
+<<speech "You" "''$name'':">>
+What's wrong? Everything okay in the pool?<</speech>>
+<<speech "nobody" "''Lifeguard:''">>
+ *looks at you angrily* I think it's fairly obvious that something's wrong... UGH! These men started behaving fine, but this new schedule is a mess! Most of them try to do it right, but others just seem to want to make my job as hard as possible.<</speech>>
+<<speech "You" "''$name'':">>
+You can't make them go away? Well, I bet security can take care of them. There's a woman at the casino that-<</speech>>
+<<speech "nobody" "''Lifeguard:''">>
+I already tried it. *with a mocking voice* "I can't leave the casino, it's part of the job". We're just not ready for this fucking schedule! I can't believe such a huge company is willing to screw everything up just so we can "have more fun"...<</speech>>
+<<speech "You" "''$name'':">>
+... ... C-can I help in any way?<</speech>>
+<<speech "nobody" "''Lifeguard:''">>
+Captain already said it's my job to make sure rules are obeyed... but maybe... yeah! You kinda look cute, don't you?<</speech>>
+<<speech "You" "''$name'':">>
+Uhm... *blush* I mean...<</speech>>
+<<speech "nobody" "''Lifeguard:''">>
+ *smiles* And, for what I've heard, you're doing very good in your classes... I think it's a good opportunity for you to try some real shit and use all that knowledge.<</speech>>
+She pats your back, clearing the way to the pool.
+
+<<speech "nobody" "''Lifeguard:''">>
+I'll be in the salon meanwhile. Let me know when you're done. *wink*<</speech>>
+<<speech "You" "''$name'':">>
+Wait, no... (Ah, fuck!)<</speech>>
+You stare at the pool entrance, wondering if you should go on with this quest or not...
+
+[[Return to Spa|Spa][$spahunkquest to "Active", $badge to $badge +1, $spavariable to true]]<<audio "menus" stop>><<audio "style" stop>><<audio "dorky" stop>><<if ndef $mute>><<audio "spa" unmute>><<else>><</if>>
+
+

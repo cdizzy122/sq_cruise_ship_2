@@ -1,0 +1,204 @@
+:: 10 [phone] {"position":"19,2619","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<if ndef $tenvariable>><<speech "lanad" "''$gffname'':">>
+Heyy<</speech>>
+You grab your phone with fear, not knowing what is awaiting.
+
+<<speech "You" "''$name'':">>
+(Oh god, now what...?) Hi. Are you going to show me something nasty?<</speech>>
+<<speech "lanad" "''$gffname'':">>
+Nasty? You consider me nasty? Have you looked the mirror lately?<</speech>>
+<<speech "You" "''$name'':">>
+No, I don't mean you, $gffname. You know what I mean.<</speech>>
+<<speech "lanad" "''$gffname'':">>
+Haha... don't worry $name, I'm not here as a messenger. I'm just a bit bored 😪😪<</speech>>
+<<speech "You" "''$name'':">>
+(...what the fuck is this?) Are we friends now or what?<</speech>>
+<<speech "lanad" "''$gffname'':">>
+Why so salty dude? I've been documenting your "relationship" so far, just so you can see what your lovely is up to. The way I see it, you owe me one!🤑🤑🤑<</speech>>
+<<speech "You" "''$name'':">>
+Are you really suggesting I pay you for whatever you are doing? Because the way I see it, you're the one who caused this "cuckold" thing in the first place!<</speech>>
+<<speech "lanad" "''$gffname'':">>
+What?!! Well, I might've encouraged her a bit. True. But you can't be for rrrreal! You know you guys had problems, especially that "little" one 🦐<</speech>>
+<<speech "You" "''$name'':">>
+ *sigh* Whatever...<</speech>>
+You are about to leave your phone on the bed, but it sounds again.
+
+<<linkreplace "*DING*">><<if ndef $mutefx>><<audio "ding" play>><<else>><</if>><span class="onomatopeya">DING</span>
+
+<div class="center"><img src="lana/lanaselfie.jpg" width="50%"></div>
+<<speech "lanad" "''$gffname'':">>
+Hey, listen. I'm just trying to be friendly, ok? C'mon, play with me a bit, huh? Also, remember what happened the last time you refused to play with me? I took your girl to the "dark side", the BIG BLACK side.<</speech>>
+You are kind of amazed by how sexy she is, but you know she's a bitch and is just looking to be amused. Despite knowing that, you can't help but feel turned-on by how confident she is and they way she has you by the balls.
+
+<<speech "lanad" "''$gffname'':">>
+So how is it going there? Tell me what are you doing as you know your girl's mouth is full of cock 😂<</speech>>
+<<speech "You" "''$name'':">>
+I'm just... trying to enjoy the fresh air of the ocean.<</speech>>
+<<speech "lanad" "''$gffname'':">>
+So where are you now? Have you managed to have some girls over?<</speech>>
+<<speech "You" "''$name'':">>
+We're going around the western coast of Africa right now. Last stop was Casablanca. Had some fun there experiencing the different culture.<</speech>>
+<<speech "lanad" "''$gffname'':">>
+Aghh I'm actually jealous! I'm stuck at home. I get out on a daily basis, but I want to go somewhere far... like the Caribbean or near. You know: fine sand white beaches, awesome weather, nice food...<</speech>>
+<<speech "You" "''$name'':">>
+I know! I had a blast at Barcelona, the beach was nice. (If only she knew...) compared to England that was a true luxury.<</speech>>
+<<speech "lanad" "''$gffname'':">>
+Aghhh don't tell me too much about it, I'm getting more jealous! Hahaha So what about the other question? Any luck with the ladies? I know you're now a cuckold and you're not supposed to do that, but you can tell me.<</speech>>
+<<speech "You" "''$name'':">>
+Actually... my sex life is... (oh god, should I tell her? This could be awfull... maybe brag, but be as ambiguous as possible.) My sex life has been more... "active" than ever.<</speech>>
+<<speech "lanad" "''$gffname'':">>
+Oh, wow! I hope you're not just talking about jerking that berry off, but some actual interaction with women... (or men...?) Tell me all about it! 😈<</speech>>
+<<speech "You" "''$name'':">>
+I-I- I don't want to talk too much about it... I just-<</speech>>
+<<speech "lanad" "''$gffname'':">>
+What is it? Erectile-dysfunction? Not big enough? Trust me $name, I'm $gfname's best friend, I've hear it aaaaaaaall. No need to hide with me.<</speech>>
+<<speech "You" "''$name'':">>
+Oh, um...<</speech>>
+[[Tell her about your newly acquired tastes (Findom content)|10][$tenvariable to 0]]
+[[Try to pass it as just "erectile-dysfunction" (More cuckold)|10][$tenvariable to 1]]<</linkreplace>>
+
+
+
+\\<<elseif $tenvariable is 0>>You decide to tell her part of the truth, keeping the weirder stuff out, for now.
+
+<<speech "You" "''$name'':">>
+Well, all this about $gfname cuckolding me and the humiliation from it has given me a lot to think about.<</speech>>
+<<speech "lanad" "''$gffname'':">>
+Hahaha I knew you were jerking off to it!<</speech>>
+<<speech "You" "''$name'':">>
+I'm still a bit reluctant about that, actually... It always makes me feel so nervous, but also... horny. But I was talking about the realization that I'm not like... "one of those guys".<</speech>>
+<<speech "lanad" "''$gffname'':">>
+Oh, you mean you're a "Beta"? For sure, that's a given! I'd even go further, you know? A "sissy" would be appropriate. And all those cummies you make, should be reduced as well.<</speech>>
+<<speech "You" "''$name'':">>
+I'm already doing that. (Oh, shit, that came out too quick!)<</speech>>
+<<speech "lanad" "''$gffname'':">>
+What do you mean? Do you even know what a chastity cage is?<</speech>>
+<<speech "You" "''$name'':">>
+... yes... I have one.<</speech>>
+Lana stops typing.
+
+...
+
+...
+
+...
+
+You start getting nervous. You don't know what she could do with this information. She could be telling $gfname, and then she could tell your friends and family!
+
+<<speech "You" "''$name'':">>
+(Oh, this is no good...)<</speech>>
+<<linkreplace "*DING*">><<if ndef $mutefx>><<audio "ding" play>><<else>><</if>><div class="center"><img src="lana/lanaselfie2.jpg" width="41%"></div>
+<<speech "lanad" "''$gffname'':">>
+Oh my god, you got me excited... Is your dick locked? Show me, show me, SHOW ME.<</speech>>
+<<speech "You" "''$name'':">>
+N-no... I was just answering your ques-<</speech>>
+<<speech "lanad" "''$gffname'':">>
+Listen, I've sent you 3 pictures already. Is it too much to ask, 1 fucking picture? But if you need some incentive I can give some!! How about I tell $gfname about this. How about I tell about your little caged friend and your cheating girlfriend on my social media?<</speech>>
+<<speech "You" "''$name'':">>
+ *sigh* Okay...<</speech>>
+You can see her "online", ready for you to send that picture. You know that sending a picture of your caged dick to her is not the best move, taking into account that she just threatened you to share your info. But there's something... you like it, don't you? The feeling of being exposed? The RUSH...
+
+You go to the mirror and take the least compromising picture you can. Without giving it much more thought, you send it away.
+
+<span class="onomatopeya">CLICK</span>
+
+<div class="center"><img src="porn/cage1.gif" width="40%"></div>
+...
+
+...
+
+...
+
+<<speech "You" "''$name'':">>
+(Why is she not responding...?)<</speech>>
+You walk in circles, anxious.
+
+<<speech "lanad" "''$gffname'':">>
+Oh, wow... you're a tiny pathetic little boy... you like being caged?<</speech>>
+<<speech "You" "''$name'':">>
+Um... it-it's been a while... so I guess I'm used to it now.<</speech>>
+<<speech "lanad" "''$gffname'':">>
+An alpha cock wouldn't ever fit in that tiny cage. I bet you love having that cage on to remind you that every day.<</speech>>
+Your face is sad, but you can feel your tiny manhood engorging inside its jail.
+
+<<speech "lanad" "''$gffname'':">>
+So tell me, sissy... what do you do when your little birdie gets "big"? Do you just pinch your nipples or what? 🤣🤣<</speech>>
+<<speech "You" "''$name'':">>
+I sometimes caress my balls, my perineum, my-<</speech>>
+<<speech "lanad" "''$gffname'':">>
+Oh, wow! You're just hanging on the line of being a true faggot, huh? Have you messed around with that sissy-pussy of yours? Show me.<</speech>>
+You can't say "no" now... You bend over and take a picture.
+
+<span class="onomatopeya">CLICK</span>
+
+<<if $anal is 1>><div class="center"><img src="appearance/anal1.jpg" width="50%"></div><<elseif $anal is 2>><div class="center"><img src="appearance/anal2.jpg" width="50%"></div><<elseif $anal is 3>><div class="center"><img src="appearance/anal3.jpg" width="50%"></div><<elseif $anal is 4>><div class="center"><img src="appearance/anal4.jpg" width="50%"></div><</if>>
+
+<<speech "lanad" "''$gffname'':">>
+HAHAHAHA OMG YOU'RE SUCH A FAAAAAAAAAAAG 🤣🖕🏿🤣🖕🏿🤣🖕🏿🤣🖕🏿🤣🖕🏿🤣🖕🏿<</speech>>
+You start instinctively stretching out your ass with a finger, probing a bit. You end up on all fours on the bed, looking at the phone and pinching your nipples.
+
+<<speech "You" "''$name'':">>
+(OMG this is so hot! She's such a bitch, <span class="pink">but I love it so much!</span>)<</speech>>
+<<speech "lanad" "''$gffname'':">>
+I can't stop laughing dude! Can you now record yourself shaking your cage like a good little doggy?<</speech>>
+You stand up inmediately and do so.
+
+<span class="onomatopeya">CLICK</span>
+
+<div class="center"><img src="porn/cage2.gif" width="50%"></div>
+<<speech "lanad" "''$gffname'':">>
+That a boy... You mind if I save these on my phone? I really want to keep them, you know, just in case you someday don't want to do as you're told 😏😘 Or, you know, we can also come to an agreement: ''$$$$$''<</speech>>
+Now she's really got you and you know it, and you love it.
+
+[[Return|Bedroom][$lanasms to 3, $smsm10 to false]]<</linkreplace>>
+
+
+
+
+\\<<elseif $tenvariable is 1>><<speech "You" "''$name'':">>
+Yeah, that's what I meant. It's not always easy to get an erection.<</speech>>
+<<speech "lanad" "''$gffname'':">>
+You mean for YOU. I'm with guys on a daily basis and I can tell you by experience that only "betas" have that problem. My men wake me up in the middle of the night with a pre-morning wood! See?<</speech>>
+<div class="center"><img src="lana/morningwood.jpg" width="41%"></div>
+<<speech "You" "''$name'':">>
+Oh my god! <span class="pink">hmmm...</span><</speech>>
+You weren't expecting such a picture, but you are certainly happy about it. Your mouth is watery just thinking about how that thing must taste.
+
+<<speech "lanad" "''$gffname'':">>
+Oooh, I see you like it, huh? I don't know why I'm surprised. You're a cuckold and a "Beta". It's only natural for you to have some decent "penis envy"! Would you like more?<</speech>>
+<<speech "You" "''$name'':">>
+<span class="pink">Yes!</span> (Oh, shit. That came out too fast!)<</speech>>
+...
+
+...
+
+...
+
+After a couple of minutes, you start receiving a few messages:
+
+<<linkreplace "*DING*">><<if ndef $mutefx>><<audio "ding" play>><<else>><</if>><span class="onomatopeya">DING DING DING</span>
+
+<<timed 1.5s>><<scrolldown>><div class="center"><span class="fade-ins"><img src="lana/cockselfie1.jpg" width="30%"></span></div><<next 1.5s>><<scrolldown>><div class="center"><span class="fade-ins"><img src="lana/cockselfie2.jpg" width="50%"></span></div><<next 1.5s>><<scrolldown>><div class="center"><span class="fade-ins"><img src="lana/cockselfie3.jpg" width="40%"></span></div><<next 1.5s>><span class="fade-ins">
+You open your mouth, amazed. You can't even type in. It's not even how horny you are, but also imagining these dicks inside $gffname or... $gfname. Your cheeks turn red as your tummy aches. You know she'll probably be taking one of these very soon, but you don't know if you are ready for it...
+
+<<speech "lanad" "''$gffname'':">>
+Hahaha I see you're very quiet, I suppose jacking off. You like my taste in men, don't you? Now you get why I got $gfname to try this: it's a completely different type of sex. Alpha men sex is REAL sex. Having sex with a Beta is simply not supposed to happen!<</speech>>
+<<speech "You" "''$name'':">>
+I-I-... How do you do it to take those monsters inside you?<</speech>>
+<<speech "lanad" "''$gffname'':">>
+Hahahahah! You are starting to sound like your very own girlfriend! I'm going to tell you the same as her: suck it good and lube it up! Are you planning on trying one yourself YOU FAG?!<</speech>>
+<<speech "You" "''$name'':">>
+Huh? Oh... haha... no, no, I'm just fascinated.<</speech>>
+<<speech "lanad" "''$gffname'':">>
+And that's just the start, it always hurts, but baby... IS IT GOOOOOOD! That's why having a cleanup boy is really cool. You've got extra spit to lube her up and a soft tongue to make her feel nice after the breeding. I bet she would even let you fluff her bulls, she's a nice girl!<</speech>>
+<<speech "You" "''$name'':">>
+Um...<</speech>>
+You don't know what to say. You are turned on by the thought of seeing some huge men fucking $gfname, but you're also worried about your relationship. You take another look at those huge dicks and your little clit tries to jump out of its tight cage.
+
+<<speech "You" "''$name'':">>
+(OMG I'm really turned on by this. Is it the cuckolding or... the dicks?)<</speech>>
+<<speech "lanad" "''$gffname'':">>
+Hahaha I love seeing you so implicated about your GF's likings! I'll make sure to let you know aaaall about it! 😘🍆🍆<</speech>>
+[[Return|Bedroom][$lanasms to 3, $smsm10 to false]]</span><</timed>><</linkreplace>><</if>><<audio ":back" mute>><<if ndef $mute>><<audio "menus" unmute>><<else>><</if>>
+
+

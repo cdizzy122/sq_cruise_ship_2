@@ -1,0 +1,14 @@
+:: Schedule [noreturn] {"position":"280,1256","size":"100,100"}
+<<if ndef $mutefx>><<audio "button" play>><<else>><</if>><img src="stuff/schedule.jpg" width="100%">
+
+<<if $dayn gte 30>><span class="borderbox"><span class="pink"><span class="noborder"><img src="stuff/ladiesonly.png" width="50px"></span>''Ladies Only'' (15-17):</span> Deck 7, Deck 8, Deck 9.</span><<else>><</if>>
+<span class="borderbox"><span class="blue">Anatomy Class:</span> Library.
+<span class="pink">Styling Class:</span> Deck 2.
+<span class="red">Psychologist:</span> Deck 8.
+<span class="brown">Sailing:</span> Deck 9.
+<span class="green">Health Review:</span> Deck 8.
+<span class="tarafont">Mistress' Week Review:</span> Tara's Room.</span>
+
+[[Return|$return]]<<audio "menus" volume 0.15 loop play>><<audio "tinder" stop>><<audio ":back" mute>><<audio "party" mute>><<audio "stage1" mute>><<audio "tinder" mute>><<audio "casino" mute>><<audio "kitchen" mute>><<audio "dorky" mute>><<if ndef $mute>><<audio "menus" unmute>><<else>><</if>>
+
+

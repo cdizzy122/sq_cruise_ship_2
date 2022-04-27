@@ -1,0 +1,154 @@
+:: laptopin [textback] {"position":"790,212","size":"100,100"}
+<<if $laptopin is 0>><<timed 0.1s>><<if ndef $mutefx>><<audio "button" play>><<else>><</if>><span class="onomatopeya">CLICK</span>
+
+<<next 1s>><<speech "You" "''$name'':">>
+(I can't believe I'm actually doing this...)<</speech>>
+You know exactly what you're doing next: checking her search history and downloads. Your whole body is shaking, because you know how bad would it actually be if she did the same to you.
+
+<<linkreplace "Check downloads">><<if ndef $mutefx>><<audio "button" play>><<else>><</if>><div class="center"><span class="fade-ins"><img src="gf/downloads.png" width="40%"></span></div>
+All you can see are some images she has downloaded. Seems like she's been messing around with the logo of the company she's working for.
+
+<<speech "You" "''$name'':">>
+(Some of these look like penises... nevermind, it must be my mind playing tricks on me...)<</speech>>
+You don't know what exactly you were expecting, but this is not going as bad as you thought.
+
+<<linkreplace "Check search history">><<if ndef $mutefx>><<audio "button" play>><<else>><</if>>You open the browser, just to find some marked favourites: ''Pinterest, Instagram, Snapchat...''
+
+<<speech "You" "''$name'':">>
+(These are all normal, I guess. Although I didn't know she had a Snapchat...)<</speech>>
+Then you open the history tab:
+
+You scroll down, not finding anything too unusual. After checking the last 3 days, you start looking at the last week.
+
+<div class="center"><span class="fade-ins"><img src="gf/history.jpg" width="40%"></span></div>
+<<speech "You" "''$name'':">>
+(Fuck! I knew it!)<</speech>>
+You copy the ''PornHub'' link and open it on a private search tab.
+
+<<linkreplace "CLICK">><<if ndef $mutefx>><<audio "button" play>><<else>><</if>><<scrolldown>><<timed 0.1s>><div class="center"><span class="fade-ins"><img src="gf/pornhub.gif" width="50%"></span></div>
+<<next 3s>><<speech "You" "''$name'':">>
+(OMG!!... ... ...)<</speech>>
+You furiously close the tab, not because it wasn't arousing to you, but because it was making you more confused. Should you be mad? Can you really be mad? Although she doesn't let you watch porn on the TV, you sometime do on your phone, so...
+
+<<speech "You" "''$name'':">>
+I guess it's not that crazy. She's been working a lot and needs a escape... (even if that's watching these huge cocks)<</speech>>
+You know you are going to want to bring this thing up sometime, but not today. You're still trying to get back together.
+
+[[Return to Desktop|Laptop]]<</timed>><</linkreplace>><</linkreplace>><</linkreplace>><</timed>>
+
+
+\\<<elseif $laptopin is 1>><div class="center"><span class="noborder"><img src="gf/gallery.jpg" width="68%"></span></div>
+The Gallery seems to be divided in different folders, which are not organized in any particular order. You can see some places and dates, all from the last years.
+
+<div class="center">[[Date folders|laptopin][$laptopin to 2]] | [[Travelling folders|laptopin][$laptopin to 3]] | <<if ndef $lockedfolder>><span class="Phone">[[Locked folder|laptopin][$laptopin to 4]]</span><<else>>Locked folder (Copied and <span class="red"><span class="fade-ins-out">Unlocking</span></span>)<</if>>
+
+<<if $lockedfolder is 1>>[[Return|Laptop]]<<else>><<linkreplace "Return">>I need to see this...<</linkreplace>><</if>></div>
+
+
+
+
+
+\\<<elseif $laptopin is 2>><<if ndef $mutefx>><<audio "button" play>><<else>><</if>><span class="fade-ins">You decide to take a look at the ones that are just with a year number on them. As you open the last one, you notice there's nothing really strange about it. It could be her Instagram page no problem.
+
+<div class="center"><img src="gf/pics1.jpg" width="60%"></div>
+As you keep scrolling through the pictures and open the next folder, you start feeling worse about doing this.
+
+<<speech "You" "''$name'':">>
+(There's nothing wrong with these...)<</speech>>
+You keep searching for something, but all you can really see are some pretty normal pictures of her and her friends.
+
+You leave the one labelled as "thegoodoldtimes" for last, and once you open it you know you've found the weird one.
+
+<div class="center"><img src="gf/pics2.jpg" width="60%"></div>
+<<speech "You" "''$name'':">>
+(What the-! I didn't know she smoked!)<</speech>>
+You stare at the picture of her naked and smoking, not believing what your eyes are seeing.
+
+[[Return|laptopin][$laptopin to 1]]</span>
+
+
+
+
+
+
+\\<<elseif $laptopin is 3>><<if ndef $mutefx>><<audio "button" play>><<else>><</if>>You know that, if there's something in these folders, it's gotta be in one of the ones labelled as specific places or trips.
+
+You decide to start with the one labelled as "With the gals" and then keep going to the right.
+
+<<linkreplace "Open it">><span class="fade-ins"><div class="center"><img src="gf/pics3.jpg" width="60%"></div>
+As you scroll through the folder, you can't help but feel more than a tingle inside your pants. Your penis is slowly getting hard just by looking at $gfname interact with her hot friends.
+
+<<speech "You" "''$name'':">>
+(Why the heck are they naked and... touching themselves like that?? They must be very drunk... I didn't even know most of these "friends" of hers)<</speech>>
+With a boner in your pants and a lot of questions in your mind you close the folder and open the following one: "Paris".
+
+<div class="center"><img src="gf/pics4.jpg" width="60%"></div>
+<<speech "You" "''$name'':">>
+(Oh wow... $gfname, you're so hot...)<</speech>>
+You know that you really shouldn't, since you're in the room she's sleeping these days, but you know you have to... You pull down your pants and expose your petite manhood, twitching in anticipation. It just takes another look at the pictures and your hand automatically starts stroking it.
+
+<<speech "You" "''$name'':">>
+Aahhh... wow, you're naughty... *rub, rub*<</speech>>
+It's been so long since you've actually had a proper release that you can feel the orgasm already approaching, but you hold on to her laptop and try to keep your cool.
+
+<<speech "You" "''$name'':">>
+Slowly, slowly... *breathe*<</speech>>
+You finish looking at this folder, and so you open the next one. At first you can't really see much, it's all gas stations and beautiful views, but you suddenly step into the first video of the gallery so far:
+
+<<linkreplace "Play video">><<if ndef $mutefx>><<audio "button" play>><<else>><</if>><span class="fade-ins"><div class="center"><img src="gf/pics5.gif" width="60%"></div>
+<span class="blue"><<speech "nobody" "''$gfname's friend'':">>
+Woo-hooo!! Show 'em, $gfname! Hahahaha<</speech>>
+<<speech "nobody" "''Male voice'':">>
+Oh shit...<</speech>></span>
+
+The video stops playing. You take another look at it, just to be sure. Yes, you've heard the voice of a guy. At first you are perplex by that fact, but you slowly start to rationalize it.
+
+<<speech "You" "''$name'':">>
+(I mean... she can have male friends as well, right? It's a road-trip after all, everyone's invited).<</speech>>
+Although that male voice has interrupted your stroking, you resume with it, preparing for the last folder, which is supposed to take place in South America.
+
+<div class="center"><img src="gf/pics6.jpg" width="60%"></div>
+You frown, noticing more and more nudes with each picture.
+
+<<speech "You" "''$name'':">>
+(She's... *fap, fap* such a... *fap, fap* Aaaaahhh...)<</speech>>
+<div class="center"><span class="noborder"><img src="cumshot.gif" width="50%"></span></div>
+<span class="onomatopeya">SPLAT, SPLAT, SPLAT</span>
+
+Your average cumshot splashes and falls to $gfname's floor. Although it takes a minute for you to recover, you instantly take a piece of paper and wipe it out.
+
+<<speech "You" "''$name'':">>
+Okay then...<</speech>>
+The peaceful aftermath of the orgasm you just had overrides the guilt you were feeling just seconds ago. You close the folder.
+
+[[Return|laptopin][$laptopin to 1]]</span><</linkreplace>></span><</linkreplace>>
+
+
+
+
+
+\\<<elseif $laptopin is 4>><<if ndef $mutefx>><<audio "button" play>><<else>><</if>><<speech "You" "''$name'':">>
+Wait, why is that one with a padlock symbol?<</speech>>
+You click on it, just to receive a message asking for another password.
+
+<<speech "You" "''$name'':">>
+Another one??<</speech>>
+You try the same one as before, but it doesn't work. It doesn't take long for you to realize that she's done this with an app, you even remember using it yourself some time ago.
+
+If you remember correctly, there was a way to open it without the password, but it needs time.
+
+<<speech "You" "''$name'':">>
+Maybe I could just copy the folder to my phone and then try it from there.<</speech>>
+You take your USB cable and start copying the folder. It seems to be quite large at around 3 GB, so it take a bit of time. Once in there, you search on your phone for a tutorial on YouTube to learn how to open it.
+
+<div class="center"><img src="gf/tutorial.gif" width="50%"></div>
+<<speech "You" "''$name'':">>
+Come on, get to the point! Jeez...<</speech>>
+You follow the instructions of the guy and it seems to be working!
+
+<div class="center"><img src="gf/copying.gif" width="50%"></div>
+<<speech "You" "''$name'':">>
+3 hours?! Well, okay, I'll ''take a nap'' then. I'll be lucky if this even works...<</speech>>
+[[Return|laptopin][$laptopin to 1, $lockedfolder to 1]]<</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "out" stop>><<audio "morning" stop>><<audio "menus" stop>>
+
+

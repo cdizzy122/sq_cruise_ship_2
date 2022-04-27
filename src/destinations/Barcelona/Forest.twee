@@ -1,0 +1,54 @@
+:: Forest [textback] {"position":"4293,870","size":"100,100"}
+<<removeclass "html">><<addclass "html" "forest">><<if ndef $lesbians>>The trees gradualy become more numerous as you walk. After a few minutes walking, you see smoke on the sky. Maybe there is someone here camping or something. There are also noises coming from that place. The sound like laughing noises. You slowly walk to the smoke, and then you see a wooden house, there's a fire outside. The laughs are getting louder, I better <<linkappend "hide:">>
+
+<div class="center"><span class="fade-ins"><img src="dockings/nudist/lesbians1.jpg" width="50%"></span></div>
+<<speech "You" "''$name'':">>
+Wow, those chicks are really hot... Yes, that's it! I'll tell that guy to come here. It's the perfect place!<</speech>>
+[[Return|Bushes][$bushes to 3]]<</linkappend>><<elseif $lesbians is 0>><img src="dockings/nudist/lesbians2.gif" width="50%">
+
+<<speech "nobody" "''Pervert'':">>
+Fuck me Jesus! You were right, sissy! Nice view... *fap, fap* You go ahead and do the same if you want. HA you can't!<</speech>>
+<<speech "nobody" "''Girl 1'':">>
+Missy, stop. I think I heard something coming from the bushes...<</speech>>
+<<speech "nobody" "''Girl 2'':">>
+No, that must be your imagination. Keep on kissing me... God, I'm so horny...if only Marcus hadn't gone a week ago we could still have his amazing cock... *kiss, kiss*<</speech>>
+<<speech "nobody" "''Girl 1'':">>
+I know, sister...I know... *kiss, kiss*<</speech>>
+<img src="dockings/nudist/danny4.gif" width="50%">
+
+<<speech "nobody" "''Pervert'':">>
+Here I come!! HAHAHAHAHAHA Did you say you needed a good fucking'??<</speech>>
+<<speech "nobody" "''Girl 1'':">>
+Not from you, you hobo!!<</speech>>
+<<speech "nobody" "''Girl 2'':">>
+Sister, wait... are yo- are you seeing the size of that thing?<</speech>>
+<<speech "nobody" "''Girl 1'':">>
+Huh?<</speech>>
+<img src="dockings/nudist/danny5.gif" width="50%">
+
+<<speech "nobody" "''Girl 1'':">>
+Um... do you think he'll do, sis?<</speech>>
+<<speech "nobody" "''Girl 2'':">>My mouth is watering... I need a cock now.<</speech>>
+<<speech "nobody" "''Girl 1'':">>
+Wait, we don't know if we can trust him...<</speech>>
+<<speech "nobody" "''Pervert'':">>
+Ey!! Are you girls gonna gimme those pussies or what?!<</speech>>
+<<speech "nobody" "''Girl 1'':">>
+Ahh...Um...<</speech>>
+They are both holding their pussies as if they were melting. They sure look desperate. Without a second thought, the younger one grabs his hand. 
+
+<<speech "nobody" "''Girl 2'':">>
+Here, come with us. *giggle, giggle*<</speech>>
+<img src="dockings/nudist/danny6.gif" width="50%">
+
+<<speech "You" "''$name'':">>
+(Well, that's a win for everybody. Points for me!)<</speech>>
+<<click "Peek through the window" "Peek through the window">><<set $lesbians to 1, $window to 1>><<set $badge to $badge +1>><<if $flyer is "Active">><<set $flyer to "1/3 done">><<elseif $flyer is "1/3 done">><<set $flyer to "2/3 done">><<elseif $flyer is "2/3 done">><<set $flyer to "Finished">><</if>><</click>>
+<<click "Return" "Bushes">><<set $bushes to 4, $beachright to 3>><<set $badge to $badge +1>><<if $flyer is "Active">><<set $flyer to "1/3 done">><<elseif $flyer is "1/3 done">><<set $flyer to "2/3 done">><<elseif $flyer is "2/3 done">><<set $flyer to "Finished">><</if>><</click>><<elseif $lesbians is 1>><img src="dockings/nudist/house.jpg" width="50%">
+
+The lesbians are in the wooden house fucking with the pervert. I guess you could say I started the relationship.
+
+[[Peek through the window][$window to random (2,3)]]
+[[Return|Bushes][$bushes to 4, $beachright to 4]]<</if>><<if ndef $mute>><<audio "spanish" unmute>><<else>><</if>><<if ndef $mutefx>><<audio "sea" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

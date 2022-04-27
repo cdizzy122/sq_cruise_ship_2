@@ -1,0 +1,36 @@
+:: Go in [textback] {"position":"1208,218","size":"100,100"}
+<<removeclass "html">><<addclass "html" "port">><<audio "office" loop play>>You get in the station see a lot of people who are also waiting to get into the Cruise. Your boarding shouldn't start until 15 mins from now, but just in case you start looking for your boarding gate. 
+
+There are information points, but you are too shy when talking to strangers, so you head to the center of the station, where a couple of screens are displaying all the <<linkappend "departures and arrivals." t8n>>
+
+<img src="places1/da.jpg" width="60%">
+
+Just as it is set in your ticket, the departure will be in 40 mins, at gate 3, so you've got a few minutes to spare before you go and get in line to board.
+
+You take a look to your left, where a wall of glass separates the station and the ships. There you see the <<linkappend "first cruise ship of your life:" t8n>>
+
+<img src="places1/shipoutside.jpg" width="80%">
+
+There you are, in awe. You didn't think they could be so big, so magnificent. You wonder if that one will be the one you'll be in, and, if so, how many people would fit in there?...
+
+Then you feel it: You've got to go to the bathroom. You forgot to go at home and as a consecuence your bladder is about to explode. You don't recall seeing one at the entrance, but there must be one further into the station, near to the boarding gates.
+
+Finally you find one:
+
+<img src="places1/bathport.jpg" width="50%">
+
+<span class="onomatopeya"><span class="shudder">THANK GOD</span></span>
+<<linkreplace "*open the door*" t8n>><<audio "out" mute>><<audio "office" stop>><<if ndef $mutefx>><<audio "door" play>><<audio "laughbath" play>><<else>><</if>><<scrolldown>><img src="places1/girlswedding.jpg" width="60%">
+Suddenly you find yourself as confused as the ladies that are before you. 
+Just as the women at the street before, these seem to be in the middle of a wedding celebration, or a pre-wedding party. 
+They are getting uncomfortable under your staring grin and they start mumbling and giggling.
+
+<<speech "You" "''$name:''">>
+Sorry...<</speech>>
+<<linkreplace "Get out">><<scrolldown>>You turn around and quickly get out of there. Then you take another look at the bathroom door just to find out that you weren't mistaken. The bathroom is not for women, it just doesn't say. No letters, no symbol. There is not another room next to it, and not another bathroom at sight. Maybe they are unisex...?
+
+<<speech "You" "''$name:''">>
+Anyway, it's getting late and I should you to the line now.<</speech>>
+[[Gate 3]]<</linkreplace>><</linkreplace>><</linkappend>><</linkappend>><<audio "menus" stop>>
+
+

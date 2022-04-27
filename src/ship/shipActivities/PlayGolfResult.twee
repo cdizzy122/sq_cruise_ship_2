@@ -1,0 +1,20 @@
+:: PlayGolfResult [noborder textback] {"position":"1650,7","size":"100,100"}
+<<if $golf is 0>><div class="center"><img src="quest7/golfing.gif" width="75%"></div>
+You play for awhile and have fun. Although some of the holes are difficult to complete, especially the last ones, you give it your best effort and manage to finish the course.<<set $stress to $stress -20>>
+
+<div class="center"><span class="notplus">''STRESS -20''</span></div>
+[[Return|Golf]]<<addmins 15>>
+
+\\<<elseif $golf is 1>><div class="center"><img src="quest7/golfing.gif" width="75%"></div>
+You play for awhile and have fun. Although some of the holes are difficult to complete, especially the last ones, you give it your best effort and manage to finish the course.<<set $stress to $stress -40>>
+
+<div class="center"><span class="notplus">''STRESS -40''</span></div>
+[[Return|Golf]]<<addmins 30>>
+
+\\<<elseif $golf is 2>><div class="center"><img src="quest7/golfing.gif" width="75%"></div>
+You play for awhile and have fun. Although some of the holes are difficult to complete, especially the last ones, you give it your best effort and manage to finish the course.<<set $stress to $stress -40>>
+
+<div class="center"><span class="notplus">''STRESS -40''</span></div>
+[[Return|Golf]]<<addmins 30>><</if>><<audio "menus" stop>>
+
+

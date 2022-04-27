@@ -1,0 +1,14 @@
+:: Untitled Passage 21 {"position":"1296,1071","size":"100,100"}
+[[Sex shop][$trojanxl to 0, $trojanxxl to 0, $mysize to 0, $hotlube to 0, $oilylube to 0, $femcondom to 0]]
+<<set $sexs to 7>><<set $points to 1000>><<set $dildosize to 9>>
+
+[[Masturbate][$masturbate to 3, $dildo7 to true, $dildo3 to true]]
+
+[[Robotporn]]<<set $cage to true, $youcum to 1, $prerobot to 0, $lust to 70, $goggles to 5>><<set $arriveplace to 2>>
+
+[[End]]
+
+
+[[Cookingclass][$kitchen to 12]]
+
+

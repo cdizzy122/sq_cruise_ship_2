@@ -1,0 +1,339 @@
+:: Story JavaScript [script]
+Config.saves.onLoad = function () {
+    prerender['update-save-file'] = function (_, taskName) {
+        delete prerender[taskName];
+        new Wikifier(null, Story.get('update-save').text);
+    };
+};
+
+var audioEnabledHandler = function () {
+	if (!settings.audioEnabled) { // is false
+		/*
+			Stops all audio currently playing, via <<audio>> or <<playlist>>,
+			when the setting is disabled.
+		*/ 
+		new Wikifier(null, "<<masteraudio stop>>");
+	}
+};
+
+Setting.addToggle("audioEnabled", {
+	label    : "Enable audio within the story?",
+	default  : true,
+	onInit   : audioEnabledHandler,
+	onChange : audioEnabledHandler
+});
+
+$(document).on("mousedown", function (event) {
+	$(".next")
+	.find('a')
+	.trigger("click");
+});
+
+predisplay["Menu Return"] = function (taskName) {
+	if (! tags().contains("noreturn")) {
+		State.variables.return = passage();
+	}
+};
+
+Macro.add('speechpatreon', {
+	tags     : null,
+	handler  : function () {
+		var id = this.args[0], name = id;
+		if (this.args.length > 1) name = this.args[1];
+		var output = '<div class="speechpatreon ' + id + '">';
+		output += '<span class="avatarpatreon"></span>';
+		output += name + this.payload[0].contents + '</div>';
+		$(this.output).wiki(output);
+	}
+});
+
+Macro.add('ispeech', {
+	tags     : null,
+	handler  : function () {
+		var id = this.args[0], name = id;
+		if (this.args.length > 1) name = this.args[1];
+		var output = '<div class="ispeech ' + id + '">';
+		output += '<span class="iavatar"></span>';
+		output += name + this.payload[0].contents + '</div>';
+		$(this.output).wiki(output);
+	}
+});
+Macro.add('speech', {
+    tags     : null,
+    handler  : function () {
+        var id = this.args[0], name = id;
+        if (this.args.length > 1) name = this.args[1];
+        if (id == 'You') {
+            id = id + '_' + SugarCube.State.variables.profileState;
+        }
+        var output = '<div class="speech ' + id + '">';
+        output += '<span class="avatar"></span>';
+        output += name + this.payload[0].contents + '</div>';
+        $(this.output).wiki(output);
+    }
+});
+
+Macro.add('speechphone', {
+	tags     : null,
+	handler  : function () {
+		var id = this.args[0], name = id;
+		if (this.args.length > 1) name = this.args[1];
+		var output = '<div class="speechphone ' + id + '">';
+		output += '<span class="avatarphone"></span>';
+		output += name + this.payload[0].contents + '</div>';
+		$(this.output).wiki(output);
+	}
+});
+
+/* Usage: <<autopopup "passage">> */
+Macro.add('autopopup', {
+	handler : function () {
+		if (this.args.length === 0) {
+			return this.error('no passage name specified');
+		}
+
+		var passage = this.args[0];
+
+		Dialog.setup(passage, 'popup');
+		Dialog.wiki(Story.get(passage).processText().trim());
+		Dialog.open();
+	}
+});
+
+/* typewriter */
+!function() {
+    postrender.typewriter = function (b) {
+        if (this.tags) {
+            var r = new RegExp("t8n.typewriter.([0-9]+)(?:[^0-9]|$)","g");
+            var t = r.exec(this.tags.toString());
+            if (t) {
+                typeout(b, t[1]+0);
+            }
+        }
+        return b;
+    };
+    var typeout = function(c,t) {
+        var Furl = function(current) {
+            this.n = current;
+            this.out = false;
+            this.data = current.nodeValue;
+            current.nodeValue = "";
+            this.kids = [];
+            var cn = current.childNodes;
+            if (current.style && current.style.display=="none") {
+                return;
+            }
+            while (cn.length>0) {
+                var f = new Furl(cn[0]);
+                current.removeChild(cn[0]);
+                f.out = true;this.kids.push(f);
+            }
+        };
+        var nodes = new Furl(c);
+        var unfurl = function(furled,d) {
+            var n = furled.n;
+            if (furled.out) {
+                d.appendChild(n);
+                furled.out = false;
+            }
+            if (furled.data) {
+                n.nodeValue += furled.data[0];
+                furled.data = furled.data.slice(1);
+                return true;
+            }
+            for (var j=0; j<furled.kids.length; j++) {
+                var ret = unfurl(furled.kids[j],n);
+                if (ret) {
+                    return true;
+                }
+            }
+            return false;
+        };
+        var title = passage();
+        var intr = setInterval (
+            function() {
+                if (passage() == title && unfurl(nodes,null)) {
+                    return;
+                }
+                clearInterval(intr);
+            }
+        ,t);
+    };
+}();
+
+/*
+	<<scrolldown [duration]>>
+
+	duration : (optional) The length of time to animate the scroll, as the
+	           strings 'fast' or 'slow' or a valid CSS time value (e.g. 5s
+	           and 500ms).  The default duration is 'slow'.
+*/
+Macro.add('scrolldown', {
+	handler : function () {
+		var target   = document.scrollingElement || 'html,body';
+		var duration;
+
+		if (this.args.length > 0) {
+			switch (this.args[0]) {
+			case 'fast':
+			case 'slow':
+				duration = this.args[0];
+				break;
+			default:
+				try {
+					duration = Math.max(Engine.minDomActionDelay, Util.fromCssTime(this.args[0]));
+				}
+				catch (ex) {
+					return this.error(ex.message);
+				}
+				break;
+			}
+		}
+		else {
+			duration = 'slow';
+		}
+
+		setTimeout(function () {
+			$(target).animate({
+				scrollTop: $(document).height() - $(window).height()
+			}, duration);
+		}, Engine.minDomActionDelay);
+	}
+});
+
+
+
+
+
+
+
+
+window.countItemByName = function(item_name)
+{
+	var count = 0; 
+	State.variables.playerInventory.forEach(
+	function(item)
+	{
+		if(item.hasOwnProperty("name"))
+		{
+			if (item.name == item_name)
+			{
+				count++;
+			}
+		}
+	});
+	return count;
+};
+window.countItemById = function (searchId) {
+	var item = State.variables.playerInventory.find(function (item) {
+		return item.id === searchId;
+	});
+	return item ? item.count : 0;
+};
+window.getInv = function () {
+	return State.variables.inventory;
+};
+
+Macro.add([ "initInv", "emptyInv" ], {
+	handler : function () {
+		State.variables.inventory = [];
+		
+		State.variables.inventory.findByID = function(obj) {
+			if (this.length === 0) {
+				return false;
+			}
+			if (typeof obj !== "object" || !obj.hasOwnProperty("id")) {
+				return false;
+			}
+			var idx = this.findIndex(function (item) {
+				return item.id === obj.id;
+			});
+			return (idx !== -1);
+		};
+	}
+});
+
+Macro.add("addToInv", {
+	handler : function () {
+		if (this.args.length === 0) {
+			return this.error("no inventory item specified");
+		}
+		var obj = this.args[0];
+		if (typeof obj !== "object" || !obj.hasOwnProperty("id")) {
+			return this.error("inventory item malformed");
+		}
+		var idx = State.variables.inventory.findIndex(function (item) {
+			return item.id === obj.id;
+		});
+		if (idx === -1) {
+			State.variables.inventory.push(obj);
+		}
+		else {
+			State.variables.inventory[idx].count++;
+		}
+	}
+});
+
+Macro.add("removeFromInv", {
+	handler : function () {
+		if (this.args.length === 0) {
+			return this.error("no inventory item specified");
+		}
+		var obj = this.args[0];
+		if (typeof obj !== "object" || !obj.hasOwnProperty("id")) {
+			return this.error("inventory item malformed");
+		}
+		var idx = State.variables.inventory.findIndex(function (item) {
+			return item.id === obj.id;
+		});
+		if (idx !== -1) {
+			if (State.variables.inventory[idx].count > 1) {
+				State.variables.inventory[idx].count--;
+			}
+			else {
+				State.variables.inventory.splice(idx , 1);
+			}
+		}
+	}
+});
+
+Macro.add("inv", {
+	handler : function () {
+		if (State.variables.inventory.length === 0) {
+			new Wikifier(this.output, 'nothing');
+		} else {
+			new Wikifier(
+				this.output,
+				State.variables.inventory.map(function (item) {
+					var temp = [];
+					for (var i = 0; i < item.count; i++) {
+						temp.push(item.name);
+					}
+					return temp.join(', ');
+				}).join(', ')
+			);
+		}
+	}
+});
+
+Macro.add('listInv', {
+	handler : function () {
+		var $list = $(document.createDocumentFragment());
+
+		if (State.variables.inventory.length === 0) {
+			$list.text('Nothing yet...');
+		}
+		else {
+			State.variables.inventory.forEach(function (item) {
+				$list
+					.wiki('[[' + item.name + ']]')
+					.append('\u00A0\u00D7' + item.count)
+					.append('<br>');
+			});
+		}
+
+		$list.appendTo(this.output);
+	}
+});
+
+

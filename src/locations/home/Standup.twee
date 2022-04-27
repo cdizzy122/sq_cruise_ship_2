@@ -1,0 +1,8 @@
+:: Stand up [textback] {"position":"433,2","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><img src="places1/bedroomhome.jpg" width="90%">
+This is your room. Not much compared to what you are used to, but you are planning on buying a big house with all that money that you have earned. Well...and a bit of help from your <span class="imgpop parents"><a class="specialeffects">parents</a></span>.
+
+<<if $Callfriend2 is false>><<if $suit is true or $casual is true>><<if $seephone is true>><<else>><span class="Phone"><span class="fade-ins-out">[[New message|Phone]]</span></span><</if>><<else>><<click "Get dressed" "Get dressed">><<if ndef $mutefx>><<audio "wardrobe1" play>><<else>><</if>><</click>><</if>><<if $seephone is true>>[[Hall]]<<else>><</if>><<else>><<click "Get dressed" "Get dressed">><<if ndef $mutefx>><<audio "wardrobe1" play>><<else>><</if>><</click>>
+[[Hall]]<</if>><<nobr>><<if $gameDate.getHours() is 7 and $gameDate.getMinutes() is 30>><<autopopup Alarm>><<else>><</if>><</nobr>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() gte 8 and $gameDate.getMinutes() gte 30>><<goto "Emergency">><<else>><</if>><<else>><</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

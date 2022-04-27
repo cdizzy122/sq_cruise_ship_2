@@ -1,0 +1,36 @@
+:: Pool2 [textback] {"position":"1688,530","size":"100,100"}
+<<removeclass "html">><<addclass "html" "pool">><<nobr>><div id="background-wrap"><div class="bubble x1"></div><div class="bubble x2"></div><div class="bubble x3"></div><div class="bubble x4"></div><div class="bubble x5"></div><div class="bubble x6"></div><div class="bubble x7"></div><div class="bubble x8"></div><div class="bubble x9"></div><div class="bubble x10"></div></div><</nobr>><<if $dayn lt 23>><div class="center"><img src="places2/pool2.jpg" width="60%"></div>
+You can see a strange sculpture at the left corner of the pool...
+
+<div class="center"><--[[Check the sculpture|Pool3]]----[[Swim right|Pool1]]--></div>
+
+<<else>><<if $kittyband is "Active">><div class="center"><img src="places2/pool2band.jpg" width="60%"></div>
+You can see a strange sculpture at the left corner of the pool, as well as what seems like a lost <span class="pink">kitty headband...</span> That must be the one that girl was looking for!
+
+<div class="center"><--[[Check the sculpture|Pool3]]--<span class="Phone">[[Pick up the headband->Pool2][$headband to true, $kittyband to "1/2 done"]]</span>--[[Swim right|Pool1]]--></div>
+
+
+
+
+\\<<elseif $kittyband is "1/2 done">><div class="center"><img src="places2/pool2.jpg" width="60%"></div>
+You can see a strange sculpture at the left corner of the pool. You've already picked up the kitty headband.
+
+<div class="center"><--[[Check the sculpture|Pool3]]----[[Swim right|Pool1]]--></div>
+
+
+
+
+\\<<elseif $kittyband is "Finished">><div class="center"><img src="places2/pool2.jpg" width="60%"></div>
+You can see a strange sculpture at the left corner of the pool...
+
+<div class="center"><--[[Check the sculpture|Pool3]]----[[Swim right|Pool1]]--></div>
+
+
+
+\\<<else>><div class="center"><img src="places2/pool2.jpg" width="60%"></div>
+<<if $bandquest is 1>>You can see a strange sculpture at the left corner of the pool...<<else>>You can see a strange sculpture at the left corner of the pool, as well as what seems like a lost <span class="pink">kitty headband...</span>
+You decide not to grab it, just so you don't have to walk around with it in your hand asking for its owner...<</if>>
+
+<div class="center"><--[[Check the sculpture|Pool3]]----[[Swim right|Pool1]]--></div><</if>><</if>>
+
+

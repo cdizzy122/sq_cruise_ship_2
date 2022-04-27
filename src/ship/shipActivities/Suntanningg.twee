@@ -1,0 +1,133 @@
+:: Suntanningg [textback] {"position":"1996,1","size":"100,100"}
+<<if ndef $hat>><span class="fade-ins"><div class="center"><img src="quest7/woman.jpg" width="50%"></div></span>
+
+<<speech "You" "''$name'':">>
+(I'm not so good at starting conversations, especially with hotties like her...) Um...hi...<</speech>>
+The girl slowly raises one of her hats and takes her sunglasses off.
+
+<<speech "nobody" "''Brazilian woman'':">>
+Hi... did you want something?<</speech>>
+<<speech "You" "''$name'':">>
+(At least she seems nicer than most women on this ship...) No, nothing special... just wanted to talk to someone...<</speech>>
+<<speech "nobody" "''Brazilian woman'':">>
+Oh...ok.<</speech>>
+She puts back her sunglasses and keeps suntanning, quitting the conversation.
+
+<<speech "You" "''$name'':">>
+(Well, duh, what did I expect. Better come up with something if I want to keep talking to her.) Um... so why did you come to this ship?<</speech>>
+<<speech "nobody" "''Brazilian woman'':">>
+ *raises her head again* Why do you think? *smiles* Of course, you know why, but here I can also have all the sun I want. You know I'm a contestant for Brazil's tanning competition, which is being celebrated in two months from now! So I really need to be able to take some.<</speech>>
+<<speech "You" "''$name'':">>
+Well, that's interesting... *silence* (You can't just say "that's interesting" and then shut up!) And why are you wearing two hats?<</speech>>
+<<speech "nobody" "''Brazilian woman'':">>
+Well, I need to cover my face on this stage. This one covers my right side and this one my left. I should be able to get rid of one of them any time soon, but for now I want to play it safe.<</speech>>
+<<speech "You" "''$name'':">>
+(Well, that's kind of weird...)<</speech>>
+<<speech "nobody" "''Brazilian woman'':">>
+And you are that boy the Captain talked about on the intercom, right? Why did YOU come here, if I may ask?<</speech>>
+<<speech "You" "''$name'':">>
+Well... it was kind of a mistake... nobody told us this ship was like this.<</speech>>
+<<speech "nobody" "''Brazilian woman'':">>
+Us?<</speech>>
+<<speech "You" "''$name'':">>
+Yeah, me and my friend $fname. We went to two travel agencies and apparently this was the only one available for me and my girlfriend.<</speech>>
+<<speech "nobody" "''Brazilian woman'':">>
+Oh! So your "friend" got you and your GF a couple of tickets to a Size Queen sex cruise? Sounds fishy to me...<</speech>>
+<<speech "You" "''$name'':">>
+What do you mean?<</speech>>
+<<speech "nobody" "''Brazilian woman'':">>
+You're alone here right? Your GF didn't come. So your friend probably knew that she wouldn't. I've seen stuff like this before you know... the best friend sends the boyfriend away to take advantage of the GF.<</speech>>
+<<if $setcuckpath is 1>><<speech "You" "''$name'':">>
+What?! $fname? No, he would never do that.<</speech>><<else>><<speech "You" "''$name'':">>
+What?! $fname? No, he would never do that. Plus, I am in contact with my GF and she hasn't been with him.<</speech>><</if>>
+
+<<speech "nobody" "''Brazilian woman'':">>
+That you know of... *giggle* Look, it may just be me, but you know... that's what I think.<</speech>>
+<<speech "You" "''$name'':">>
+(... I'm done talking to her...) Well, thanks for sharing your opinion.<</speech>>
+[[Return|Suntanning]]
+
+
+
+\\<<elseif $hat is 0>><span class="fade-ins"><div class="center"><img src="quest7/woman.jpg" width="50%"></div></span>
+
+<<speech "You" "''$name'':">>
+Hey, excuse me... those hats... do you think you could maybe loose one of them?<</speech>>
+<<speech "nobody" "''Brazilian woman'':">>
+What? Excuse me, are you just asking for me to give you one of my hats?<</speech>>
+<<speech "You" "''$name'':">>
+Oh, no! I'm sorry. It's for a... friend that really needs it. She's already burned and can't take any more sun on her head.<</speech>>
+<<speech "nobody" "''Brazilian woman'':">>
+Well, I don't see how that's my problem! I need this two hats so my face doesn't get too tanned yet!<</speech>>
+<<speech "You" "''$name'':">>
+Oh... well then... I'm sorry...<</speech>>
+Just when you are about to walk away you hear the woman call you.
+
+<<speech "nobody" "''Brazilian woman'':">>
+Hey, boy. Come back here. Actually, I should start tanning my face anytime now. I was going to start tomorrow, but I guess I can do it today. But I want something in exchange: how about a lollipop from the store? I bought a few yesterday but they were so yummy I ate them all!<</speech>>
+<<speech "You" "''$name'':">>
+Nice! I'll get you that lollipop!<</speech>>
+You turn around and start to walk when suddenly, the woman slaps your ass.
+
+<span class="onomatopeya">SLAP</span>
+
+<<speech "nobody" "''Brazilian woman'':">>
+Go for it, cutie! *wink*<</speech>>
+<<speech "You" "''$name'':">>
+(God... so condescending...)<</speech>>
+[[Return|Suntanning][$golfer to "1/3 done", $hat to 1]]
+
+
+\\<<elseif $hat is 1>><<if $pinklolli gte 1>><<set $pinklolli to $pinklolli -1>><<speech "nobody" "''Brazilian woman'':">>
+Got that lollipop yet?<</speech>>
+<<speech "You" "''$name'':">>
+Yeah! Here you go!<</speech>>
+ *You give her the Lollipop*
+
+<<speech "nobody" "''Brazilian woman'':">>
+Oh! Umm *slurp, slurp* I really don't know how they make this thing taste sooo good, but I swear I'm addicted... *slurp*<</speech>>
+<<speech "You" "''$name'':">>
+Yeah, I can tell... (God, if she sucks dick like that...)<</speech>>
+They way she is getting into the lollipop makes your <<if $cage is true>>caged clit twitch...<<else>> penis engorge...<</if>>
+
+<<speech "nobody" "''Brazilian woman'':">>
+Oh, sorry... heh, you want some?<</speech>>
+She puts the wet lollipop in front of your face.
+
+<<speech "You" "''$name'':">>
+(WTF) N-no thanks...<</speech>>
+<<speech "nobody" "''Brazilian woman'':">>
+Oh, I thought you were getting jealous for a moment there... *slurp, slurp* Oh, yeah, here, you can have my hat.<</speech>>
+ *You received the brazilian woman's hat*
+
+[[Return|Suntanning][$golfer to "2/3 done", $hat to 2, $hatt to true]]
+
+
+\\<<else>><<speech "nobody" "''Brazilian woman'':">>
+Got that lollipop yet?<</speech>>
+<<speech "You" "''$name'':">>
+Ooops, I forgot about it. I'll go right now!<</speech>>
+<span class="onomatopeya">SLAP</span>
+
+<<speech "nobody" "''Brazilian woman'':">>
+You go, gurl! *wink*<</speech>>
+[[Return|Suntanning]]<</if>>
+
+
+\\<<elseif $hat is 2>>As you get closer to the woman, you notice how she's lacking any underwear.
+
+<<speech "You" "''$name'':">>
+(OMG, she's totally top-less... and she's so hot...)<</speech>>
+<<speech "nobody" "''Brazilian woman'':">>
+Oh, hey! How are you doing?<</speech>>
+<<speech "You" "''$name'':">>
+Fine, I guess... (don't look at her tits, don't look at her tits...) It's not easy being the only man on this ship but-<</speech>>
+<<speech "nobody" "''Brazilian woman'':">>
+Wait, "man"? That's a bit generous, isn't it? I'd say you are a boy, and a very cute one, too! I would be more than honored if you wanted to suntan with me *pats the nearest hammock*<</speech>>
+<<speech "You" "''$name'':">>
+I'm not really fond of suntanning, I've always been too white and my skin is too fragile.<</speech>>
+<<speech "nobody" "''Brazilian woman'':">>
+I thought so... but if you ever want to, you're more than welcome! *wink*<</speech>>
+[[Return|Suntanning]]<</if>>
+
+

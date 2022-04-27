@@ -1,0 +1,74 @@
+:: Neighbourhood [textback] {"position":"743,626","size":"100,100"}
+<<removeclass "html">><<addclass "html" "street">><img src="places1/neighbourhood.png" width="80%">
+
+You see <span class="imgpop lana"><a class="specialeffects">$gffname</a></span>, $gfname's best friend. You are not very fancy of her, she's a bad influence for your wife and for everybody. She is always carrying that slutty look and bringing new guys home. 
+
+<<speech "You" "''$name:''">>
+(At least she knows how to keep her garden pretty...)<</speech>>
+She sees you from the distance and waves at you. You wave back. She keeps looking directly at you... After a few seconds you feel uncomfortable enough to make you go and at least say hi. Also, she might think you're being rude and tell $gfname. That's the last thing you need today.
+
+After a few indecisive steps you start walking the few feet in-between both of your houses. As you get near her house you see that the garden door is open. She makes you a sign to <<linkappend "come in." t8n>><<if $suit is true>>
+
+<span class="fade-ins"><img src="lana/lanagarden1.jpg" width="40%">
+
+<<speech "lanad" "''$gffname:''">>
+Ooooooohhhh, why do I have the honor of seeing little mister on that elegant suit? It's not even a work day, you twit! Hahaha<</speech>>
+<<speech "You" "''$name:''">>
+Yeah, well...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+"Yeah, well...", c'mon boy, don't be so timid, just talk already<</speech>>
+<<speech "You" "''$name:''">>
+...Sorry, I have to go to meet a friend and...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+You might want to refer to him as THE friend. It's the only one you have.<</speech>>
+<<linkappend "*you smile nervously as you look down*">>
+
+<img src="lana/lanagarden2.jpg" width="45%">
+<<speech "lanad" "''$gffname:''">>
+Hey, what're you looking at? You trying to see my panties, boi? Hahaha (I bet you'd like them...) *cough,cough* <</speech>>
+<<speech "You" "''$name:''">>
+¿Excuse me, did you say something?<</speech>>
+She sarcastically smiles at you while she walks aways from you and grabs a drink from the garden table.
+
+<<speech "You" "''$name:''">>
+I...better get going. It was nice talking to you $gffname, as always...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Yeah, have a nice day, boi. (fag) *cough,cough*<</speech>>
+<img src="lana/lanagarden3.jpg" width="35%">
+
+<<speech "You" "''$name:''">>
+(I could swear she said something there, but it was too quick, damn...)<</speech>><</linkappend>></span><<else>>
+
+<img src="lana/lanagarden1.jpg" width="40%">
+
+<<speech "lanad" "''$gffname:''">>
+Ooooooohhhh, so you decided to wear something else than that fuckin'suit huh? It's a shame that all the clothes you got are the same boring color, just like you! Hahaha<</speech>>
+<<speech "You" "''$name:''">>
+Yeah, well...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+"Yeah, well...", c'mon boy, don't be so timid, just talk already<</speech>>
+<<speech "You" "''$name:''">>
+...Sorry, I have to go to meet a friend and...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+You might want to refer to him as THE friend. It's the only one you have.<</speech>>
+<<linkappend "*you smile nervously as you look down*">>
+<img src="lana/lanagarden2.jpg" width="40%">
+
+<<speech "lanad" "''$gffname:''">>
+Hey, what're you looking at? You trying to see my panties, boi? Hahaha (I bet you'd like them...) *cough,cough* <</speech>>
+<<speech "You" "''$name:''">>
+¿Excuse me, did you say something?<</speech>>
+She sarcastically smiles at you while she walks aways from you and grabs a drink from the garden table.
+
+<<speech "You" "''$name:''">>
+I...better get going. It was nice talking to you $gffname, as always...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Yeah, have a nice day, boi. (fag) *cough,cough* <</speech>>
+<img src="lana/lanagarden3.jpg" width="35%">
+
+<<speech "You" "''$name:''">>
+(I could swear she said something there, but it was too quick, damn...)<</speech>><</linkappend>><</if>><</linkappend>><<set $gotopark to true>>
+
+[[Return|Go out]]<<addmins 5>><<audio "menus" stop>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "touriststalk" stop>>
+
+

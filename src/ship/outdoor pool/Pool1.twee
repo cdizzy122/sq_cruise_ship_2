@@ -1,0 +1,41 @@
+:: Pool1 [textback] {"position":"1795,528","size":"100,100"}
+<<removeclass "html">><<addclass "html" "pool">><<nobr>><div id="background-wrap"><div class="bubble x1"></div><div class="bubble x2"></div><div class="bubble x3"></div><div class="bubble x4"></div><div class="bubble x5"></div><div class="bubble x6"></div><div class="bubble x7"></div><div class="bubble x8"></div><div class="bubble x9"></div><div class="bubble x10"></div></div><</nobr>><<if $poolscene is 0>>You get into a changing room and put on your swimming apparel. You don't think about it too much, but somehow you've accepted the gazes and the comments. You even kind of... like it...
+
+<span class="fade-ins"><div class="center"><img src="passengers/outpool5.jpg" width="40%"></div>
+<<speech "nobody" "''Brown hottie'':">>
+Why is a guy in the pool...? Especially ''this'' "guy"...<</speech>>
+<<speech "You" "''$name'':">>
+(Wow, she's hot...)<</speech>>
+<<speech "nobody" "''Brown hottie'':">>
+Just stop staring at me... *ugh*<</speech>>
+<<speech "You" "''$name'':">>
+(Why does everyone have to be so rude...?)<</speech>>
+You just swim away to the other side of the pool...
+
+[[Return|Pool1][$poolscene to 10]]</span>
+
+
+\\<<elseif $poolscene is 1>>You get into a changing room and put on your swimming apparel. You don't think about it too much, but somehow you've accepted the gazes and the comments. You even kind of... like it...
+
+<span class="fade-ins"><div class="center"><img src="passengers/outpool3.png" width="50%"></div>
+<<speech "nobody" "''Girls'':">>
+ *mutter* Oh, fuck, he's really coming in... *giggle*<</speech>>
+<<speech "You" "''$name'':">>
+(It's better if I just ignore them...)<</speech>>
+<<speech "nobody" "''Asian girl'':">>
+Hey, we love your dressing choice! *giggle* really accentuates your... features...<</speech>>
+All of them laugh and continue to enjoy their drink.
+<<speech "You" "''$name'':">>
+(Well at least they've leaft me alone now...)<</speech>>
+You just swim away to the other side of the pool...
+
+[[Return|Pool1][$poolscene to 10]]</span>
+
+
+\\<<else>>You get into a changing room and put on your swimming apparel. You don't think about it too much, but somehow you've accepted the gazes and the comments. You even kind of... like it...
+
+<div class="center"><span class="fade-ins"><img src="places2/pool1.jpg" width="50%">
+<span class="onomatopeya">''SPLASH''</span>
+<--[[Swim left|Pool2]]----[[Get out|Outside pool]]--></span></div><</if>>
+
+

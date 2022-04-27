@@ -1,0 +1,46 @@
+:: Fortune teller [textback] {"position":"4232,1601","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<if ndef $fortune>><div class="center"><img src="dockings/fortune.jpg" width="60%"></div>
+A creepy gipsy witch automaton is reading the cards, waiting for someone to pull the lever for her to read their future.
+
+[[Pull the lever|Fortune teller][$fortune to 0]]
+[[Automaton museum]]<<elseif $fortune is 0>><<if ndef $mutefx>><<audio "robot1" volume 1.5 play loop>><<else>><</if>>Suddenly the witch starts moving from one side to another, collecting the cards on the table. With a quick movement she shuffles the cards and proceeds to slowly place the face up one by one. When she places the first card a low deep voice starts talking:
+
+<<speech "nobody" "''Witch:''">>
+Bzzzt bzzzzzzzt ''You will go through some changes in your life''<</speech>>
+<<speech "You" "''$name:''">>
+(Yeah, well. Everybody does.)<</speech>>
+<<speech "nobody" "''Witch:''">>
+''You will be conflicted. Your feelings will get on the way. But you have to remember: the only way you can move on in life is by moving forwards.''<</speech>>
+<<speech "You" "''$name:''">>
+(This thing is do cheap... thank god it's free.)<</speech>>
+As you start walking away from it, it calls you:
+
+<<speech "nobody" "''Witch:''">>
+''Wait.''<</speech>>
+<<speech "You" "''$name:''">>
+(Oh, shit. How does that thing know I'm walking away??)<</speech>>
+Scared, you look back to the automaton.
+
+<<speech "nobody" "''Witch:''">>
+''Get close.''<</speech>>
+You take a step, not trusting it completely.
+
+<<speech "nobody" "''Witch:''">>
+''Closer, closer...''<</speech>>
+<<linkreplace "*FLASH*">><<if ndef $mutefx>><<audio "flash" volume 0.7 play>><<else>><</if>><span class="onomatopeya">*FLASH*</span>
+
+<<speech "nobody" "''Witch:''">>
+''Take this picture with you. Your true soul is revealed.'' Bzzzzzzt bzzzzzzt *turns off*<</speech>>
+A small polaroid photograph comes out of the machine's right side. You take it and give it a look. At first there's nothing there, but the shapes slowly appear:<<addmins 10>>
+
+<div class="center"><span class="noborder"><span class="fade-in"><img src="stuff/bimbo1.png" width="65%"></span></span></div>
+<<speech "You" "''$name:''">>
+Who is this?? That is definitely not me. Maybe that was the last person before me? She looks familiar though...<</speech>>
+ ''*Bimbopic was added to Inventory*'' <<set $bimbopic to true>>
+ 
+<<click "Return" "Automaton museum">><<set $fortune to 1>><<audio "robot1" stop>><</click>><</linkreplace>><<elseif $fortune is 1>><div class="center"><img src="dockings/fortune.jpg" width="60%"></div>
+<<speech "You" "''$name:''">>
+I'm not pulling that lever again.<</speech>>
+<<click "Return" "Automaton museum">><<audio "robot1" stop>><</click>><</if>><<audio "menus" stop>><<if ndef $mute>><<audio "mystery" unmute>><<else>><</if>>
+
+

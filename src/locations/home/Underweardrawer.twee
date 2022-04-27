@@ -1,0 +1,10 @@
+:: Underwear drawer [textback] {"position":"996,104","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><<if ndef $mutefx>><<audio "wardrobe1" play>><<else>><</if>><img src="places1/gfdrawer.jpg" width="60%">
+
+<<if $sniff is true>>Wonder if she'll notice the missplaced panties...
+
+[[Return|open gfdoor]]<<else>>There's one on the [[floor]].
+
+[[Return|open gfdoor]]<</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

@@ -1,0 +1,96 @@
+:: Beauty Products [noreturn] {"position":"402,1926","size":"100,100"}
+<<if $beautyproduct is 0>><img src="classes/style/salon/sample.jpg" width="45%">
+
+A sample kit, useful for a daily makeup.
+
+[[Return|Inventory]]
+
+
+
+\\<<elseif $beautyproduct is 1>><img src="classes/style/salon/skincare.jpg" width="45%">
+
+All the makeup you'll need for your skin (no eyes or lips). It includes moisturizer, primer, foundation, concealer, bronzer and blush.
+
+[[Return|Inventory]]
+
+
+
+\\<<elseif $beautyproduct is 2>><img src="classes/style/salon/eyemakeup.jpg" width="45%">
+
+All the makeup you'll need for your eyes and lips. It includes eyeshadow, mascara, eyeliner, eyelash curler, lip liner and lipstick.
+
+[[Return|Inventory]]
+
+
+
+\\<<elseif $beautyproduct is 3>><img src="classes/style/salon/lipstick.jpg" width="10%">
+
+Official lipstick of the SQ Cruise Ship! It will last a lot longer than other lipsticks. It is shaped as a penis and you can feel every single vein while you put it around your lips.
+
+[[Return|Inventory]]
+
+
+
+\\<<elseif $beautyproduct is 4>><span class="noborder"><img src="classes/style/salon/panther.png" width="50%"></span>
+
+Strong Alpha masculine pheromones. Attracts female attention. Should be used with extreme care.
+
+[[Return|Inventory]]
+
+
+
+\\<<elseif $beautyproduct is 5>><img src="classes/style/salon/nymph.jpg" width="50%">
+
+Strong femenine pheromones. Attracts male attention. Should be used with extreme care.
+
+[[Return|Inventory]]
+
+
+
+\\<<elseif $beautyproduct is 6>><img src="classes/style/salon/shampoo.jpg" width="45%">
+
+Basic strawberry scented shampoo. Lasts more than a month.
+
+[[Return|Inventory]]
+
+
+
+\\<<elseif $beautyproduct is 7>><img src="classes/style/salon/conditioner.jpg" width="45%">
+
+Moisturizer for dry and delicate hair. Makes it stronger and healthier. Lasts more than a month.
+
+[[Return|Inventory]]
+
+
+
+\\<<elseif $beautyproduct is 8>><img src="classes/style/salon/polish.jpg" width="45%">
+
+Official SQ Cruise Ship Nail Polish! It is supposed to hang on to your nails no matter what.
+
+[[Return|Inventory]]
+
+
+
+\\<<elseif $beautyproduct is 9>><img src="classes/style/salon/extensions.jpg" width="45%">
+
+Fake nails. Don't look too good, but they do the trick. Very uncomfortable, but very fashionable.
+
+[[Return|Inventory]]
+
+
+
+\\<<elseif $beautyproduct is 10>><img src="classes/style/salon/lightsun.jpg" width="40%">
+
+Sunscreen perfect for paler skins that need maximum protection. One more factor and it would probably become plaster.
+
+[[Return|Inventory]]
+
+
+
+\\<<elseif $beautyproduct is 11>><img src="classes/style/salon/darksun.jpg" width="40%">
+
+Tanning lotion, ideal for darker skins that need less protection.
+
+[[Return|Inventory]]<</if>>
+
+

@@ -1,0 +1,1401 @@
+:: Captainoffice [noborder textback] {"position":"1778,1293","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><<audio "menus" stop>><<audio "ship" mute>><<if ndef $capt>><<if ndef $mutefx>><<audio "heels" loop play>><<else>><</if>><<speech "cap" "''Captain T:''">>
+Well, well, well...$name... First of all, where are my manners? Have a seat and some coffee.<</speech>>
+She guides you to a chair in front of her desk, as she goes around it and sits on the big chair.<<set $mistressroom to true>>
+
+ *Sits down*<<set $newsms to -1>>
+ 
+<<speech "cap" "''Captain T:''">>
+So, Tara, my second aboard told me about your little incident last night. Nono, don't put that face, its alright. You see, I thought that, despite your looks, you had a nice piece of meat. But I see I was wrong, and that IS my fault. Let me explain:
+
+This is the SQ Cruise Ship. The SQ stand for SIZE QUEEN. Do you know what a Size Queen is, $name? I supossed you don't... It is a term that refers to girls who have decided to ONLY have intercourse with above than average penises.
+
+So this ship is a haven for women like us, so to speak. We have always been oppressed by a society that proclaims that "It's the motion of the ocean" that matters and all that kind of BULLSHIT!<</speech>>
+<span class="shudder"><span class="onomatopeya">*THUMP*</span></span>
+
+By this point you are as scared as you can be. Locked in another room with another crazy double-personality bitch.
+
+<<speech "cap" "''Captain T:''">>
+But here... *sigh*<</speech>>
+<<speech "You" "''$name:''">>
+(Did her voice just change?)<</speech>>
+<<speech "cap" "''Captain T:''">>
+Oh, here we can be ourselves. Just have fun and not think about anyone's feelings... *Suddenly, her voice changes again* Men weren't suppossed to get on the ship until we crossed the Atlantic. *She looks at you dead in the eye* And I mean REAL MEN.
+
+I can't afford to have any bad reviews, so I can't just let you get out in the next docking we do. But I can't let you ruin the Size Queen experience for any more passengers either. What am I going to do with you, huh? *Voice change* 
+
+I'll tell you what! It will be fun hehe...I am going to help you get better at sex.<</speech>>
+<<speech "You" "''$name:''">>
+(This is getting even weirder!)<</speech>>
+<<speech "cap" "''Captain T:''">>
+I mean, I don't think that you could ever do anything for any of these women with that little flesh piece, but I can teach you how to please them without using it. It'll be like an academy for you, you know, a SEX ACADEMY hahaha... with classes and all! YES! We'll establish a point system. Each class that you pass succesfully will earn you points. If you don't assist to the classes you'll have to earn those points in some other way.
+
+At the end of each week we'll count your achieved amount of points. If it doesn't get to the needed amount you'll take a punishment. I guarantee, it won't be pleasant, so I suggest you to follow my directions exactly as I say.<</speech>>
+
+<<speech "cap" "''Captain T:''">>
+Last, but not least, here's your brand new ''Lesson Schedule''. Don't be late!<</speech>>
+''*$name received Schedule*''<<set $schedule to true>>
+
+<<speech "cap" "''Captain T:''">>
+Your lessons start tomorrow. Today you are free to take a look at the ship and familiarize yourself with it. I suggest you go to the golf court, the pool, or even to the library, if you are that kind of guy. Oh, I almost forgot:<</speech>>
+She stands up and sits in a chair next to a camera.
+
+ *Transmission starts*
+ 
+<span class="blue"><<speech "cap" "''Captain T:''">>
+//Hi, my dear ladies. I have something to tell you.
+
+Some of you might've already heard something. Yes, we have a stowaway in the ship. He is called $name. Last night he had an impotent and unsuccesful sexual encounter with my beloved second aboard. She has informed that $name is not well suited in the genital department to pass as a man on this ship.
+
+Although he's here because of an administration error, he has decided to stay, as he paid for the full cruise, and have fun like all of us. Please, don't treat him too roughly: he's studying. 
+
+Yes, he is going to be studying how to please a woman, he seems to be in need for some intensive tutoring. My crew and I will teach him each lesson until he is completely reformed.
+
+Meanwhile, please, girls, keep having fun. Remember, the best is yet to come. We'll have a taste of REAL MEN once we cross the Atlantic Ocean. 
+
+Have a nice day and thanks for your attention, this has been Captain T.//<</speech>></span>
+ *Transmission stops*
+ 
+<<speech "You" "''$name:''">>
+You didn't have to do that!<</speech>>
+<<speech "cap" "''Captain T:''">>
+Oh, yes I had to. I mean, you are obviously not a woman, so there's no point in misleading my passengers. The word would've spread anyway, so better sooner that later. And even better if they hear about it by the hand of the Captain. That may save part of my credibility.
+
+Oh! I almost forgot. Give me your phone.<</speech>>
+<<speech "You" "''$name:''">>
+Whhhaat?!<</speech>>
+<<speech "cap" "''Captain T:''">>
+You heard me. I can't trust you...yet.<</speech>>
+<<if $setcuckpath is 1>><<speech "You" "''$name:''">>
+But...how am I going to comunicate with everyone from the outside?<</speech>>
+<<speech "cap" "''Captain T:''">>
+Ah well, you'll be able to respond, if they contact you first.<</speech>>
+<<speech "You" "''$name:''">>
+But I want to be able to talk to them whenever I want! This is kinapping, you know?<</speech>>
+<<speech "cap" "''Captain T:''">>
+Oh, come on, don't be dramatic! Hahaha<</speech>>
+<<speech "You" "''$name:''">>
+I'm not!<</speech>>
+<<speech "cap" "''Captain T:''">>
+Well, then you better do what I say or I'll tell everyone about your little adventure last night and how humiliating it was. Noooo, don't give me that face. Let's hope there will be no need for exposing you... Plus, I'm going to let you talk to your friends. I'm just taking your phone, but I'm giving you THIS one instead.<<set $techphone to true>><</speech>><<else>><<speech "You" "''$name:''">>
+But...how am I going to talk with my girlfriend.<</speech>>
+<<speech "cap" "''Captain T:''">>
+¿You have a girlfriend?¿What is her name?<</speech>>
+<<speech "You" "''$name:''">>
+$gfname. Well...we are taking a time appart.<</speech>>
+<<speech "cap" "''Captain T:''">>
+Hahaha then you better do what I say or I'll tell her about your little adventure last night. Noooo, don't give me that face. There'll be no need for that. Plus, I'm going to let you talk to her. I'm just taking your phone, but I'm giving you THIS one instead.<<set $techphone to true>><</speech>><</if>>
+
+ *You exchange phones*
+ 
+<<speech "cap" "''Captain T:''">>
+Your new phone has some special features, as a tracker, better coverage and some games. It also has a long lasting battery with auto-charge when in your room. There are some things which have been blocked for your protection. I have a clone screen of your phone, so I can see everything you do. Just in case, you never know... *smiles*
+
+As I said, you will receive the messages I consider pertinent and positive for your learning process. <<if $setcuckpath is 1>>That would be the ones from your friends for now...<<else>>That would be the ones from your girlfriend for now...<</if>><</speech>>
+She finally relaxes and lets the chair fully support her body.
+ 
+<<speech "cap" "''Captain T:''">>
+That is all from me, $name. If I were you I'd apologize to Tara. Off you go! Take the day free! *waves her hand*<</speech>>
+<<click "Protest" "protestt">><<audio "heels" stop>><<set $fem to 0>><<set $fitcount to 2>><<set $fit to 0>><<set $int to 100>><<set $sub to 0>><<set $casino to true>><<set $points to 0>><<set $talktara to true>><<set $lust to 0>><<set $stress to 30>><<set $hunger to 80>><<set $capt to 1>><<set $showstats to true>><<set $masturbate to 1>><</click>>
+<<click "Comply" "Deck 3">><<audio "heels" stop>><<set $casino to true>><<set $fitcount to 2>><<set $talktara to true>><<set $fem to 0>><<set $fit to 0>><<set $int to 100>><<set $sub to 0>><<set $points to 0>><<set $lust to 0>><<set $stress to 10>><<set $capt to 1>><<addhours 5>><<set $cap1 to "Finished">><<set $protestt to 1>><<set $tara1 to "Active">><<set $hunger to 80>><<set $stress to 20>><<set $showstats to true>><<set $masturbate to 1>><</click>><<elseif $capt is 1>><img src="cap/desk1.jpg" width="50%">
+
+<<speech "cap" "''Captain T:''">>
+Well, good morning my little boy! This will be your first lesson. First of all, you've got understand that it's not going to be easy for you to please a woman and fulfill her needs. You'll get a better perspective of that idea on anatomy class today. But now you are going to learn the only way you have for sexually pleasing a woman. Your tongue.
+
+Have you ever given head to your girl?<</speech>>
+<<speech "You" "''$name:''">>
+Just a few times, but she told me she wasn't really into the whole oral thing.<</speech>>
+<<speech "cap" "''Captain T:''">>
+Well, that may be because you weren't doing a good job, don't you think?
+But don't worry, this is something that a lot of men, even real men, have problems with.
+
+The first step to understanding oral sex is: DON'T MIND GETTING MESSY.
+It's going to be messy, and you have to be able to get through all the wetness and stickiness of the pussy. Once you get past the messy part of it, we'll start talking about the quality of it.
+
+Come, get on your knees boi.<</speech>>
+[[Obey|obeyt][$obeyt to 1, $capt to 2]]
+<<if $hunger is 0>><<linkreplace "Protest">>You are too hungry...<</linkreplace>><<else>>[[Protest|protestt][$protestt to 1, $capt to 2]]<</if>><<elseif $capt is 2>><img src="cap/desk1.jpg" width="50%">
+
+<<speech "cap" "''Captain T:''">>
+Good morning, sweetie! You know what to do, don't make mommy mad.<</speech>>
+<<speech "You" "''$name:''">>
+... ...<</speech>>
+<<speech "cap" "''Captain T:''">>
+Get to your place, now. *she points under the table*<</speech>>
+[[Obey|obeyt][$obeyt to 2]]
+<<if $hunger is 0>><<linkreplace "Protest">>You're too hungry...<</linkreplace>><<else>>[[Protest|protestt][$protestt to 1]]<</if>><<elseif $capt is 3>><img src="cap/desk1.jpg" width="50%">
+
+<<speech "cap" "''Captain T:''">>
+Good morning, sweetie! Are you coming or what?<</speech>>
+<<speech "You" "''$name:''">>
+... ...<</speech>>
+<<speech "cap" "''Captain T:''">>
+Get to your place, now. *she points under the table*<</speech>>
+[[Obey|obeyt][$obeyt to 3, $capt to 4]]
+<<if $hunger is 0>><<linkreplace "Protest">>You're too hungry...<</linkreplace>><<else>>[[Protest|protestt][$protestt to 1]]<</if>><<elseif $capt is 4>>As you enter Captain's office, you are surprised by the lack of light. Captain T usually has every light turned on, but today she's just got the little one on the table. You look at her chair but she's not there...
+
+<<speech "You" "''$name:''">>
+Hello...?<</speech>>
+<<speech "cap" "''Captain T:''">>
+Hello my boy, come in...<</speech>>
+<div class="center"><span class="noborder"><img src="cap/cap4.jpg" width="70%"></span></div>
+A wave of lust shocks your body, making your small dick strain.
+
+<<speech "You" "''$name:''">>
+ *gulp*<</speech>>
+You start slowly walking towards her. You don't know if she's trying something weird on you, or if maybe giving her that orgasm really changed her.
+ 
+<<speech "cap" "''Captain T:''">>
+You know, $name... it was a while since I had the time to... relax like the other day. It's not like I don't cum often, but it was eye-opening how good I could feel without a male around...<</speech>>
+<<speech "You" "''$name:''">>
+(I feel complimented, even though she just called me a... <span class="pink">girl...</span>)<</speech>>
+<<speech "cap" "''Captain T:''">>
+And, you know... I've never liked being with women either.<</speech>>
+<<speech "You" "''$name:''">>
+(Well then, what am I?)<</speech>>
+<<speech "cap" "''Captain T:''">>
+I think I've found a real gold mine with you. Men don't eat pussy like that, they all go for the prize... but you... you are like the best of both worlds... *smiles devilishly*<</speech>>
+<<speech "You" "''$name:''">>
+Um... thanks?<</speech>>
+Captain T slowly sit down on the border of the bed.
+
+<<speech "cap" "''Captain T:''">>
+Come here, don't be shy...<</speech>>
+With just a step forward you get to just a couple inches from her face. Your crotch is at the same height as her beautiful breasts. Your blood rushes through your body like lightning, making your face go red.
+
+<<speech "cap" "''Captain T:''">>
+Now, I haven't had the opportunity to see what all the fuss was about, did I?<</speech>>
+Her finger is swirling sensually across your tummy. You try to ignore her looking to one side.
+
+<<speech "cap" "''Captain T:''">>
+Look me in the eye when I talk to you, young man!<</speech>>
+<<speech "You" "''$name:''">>
+(I guess she's not that changed after all...) *you look at her*<</speech>>
+Her dominant aura, as well as her breasts pushing your penis is just making more and more aroused.
+
+<<speech "cap" "''Captain T:''">>
+That's more like it... now, let ME take the lead. You'd like that, wouldn't you...? I know I do... mmm<</speech>>
+With firm hands, Captain T starts unbuckling your pants.
+
+<<speech "cap" "''Captain T:''">>
+<<if $under is 1>>Some briefs, huh? Perfect... I like treating you like my little boy. *licks her lips*<<elseif $under is 2>>Oh, my! You are such a naughty boy... or may I call you "girl"? My pretty little girly boy... *licks her tongue*<</if>><</speech>>
+While she caresses your tummy she gets lower and lower, until she reaches your underwear.Then she pulls it down.
+
+<<speech "cap" "''Captain T:''">>
+<<if $cage is true>>OMG I'm in shock! Ohoho...wow! A chastity cage? I haven't seen one of these in years. I bet Tara made you wear this... hm, poor thing... but it's for the best. After all, now we know what your REAL sexual organ is, don't we? Talking of which...<<elseif $cage is false>>OH MY GOD, IT'S SO BIG! HAHAHA just kidding, my little boy. *she pokes your penis* You know you shouldn't be showing that off like that, after all, we know what your REAL sexual organ is, don't we? Talking of which...<</if>><</speech>>
+She gets on all fours on the bed and takes off her panties.
+
+<div class="center"><img src="cap/capdoggy.jpg" width="100%"></div>
+<<speech "cap" "''Captain T:''">>
+Here you go, be my little doggy, baby boy...<</speech>>
+[[Obey|obeyt][$obeyt to 4]]
+<<if $hunger is 0>><<linkreplace "Protest">>You're too hungry...<</linkreplace>><<else>>[[Protest|protestt][$protestt to 3]]<</if>><<elseif $capt is 5>><img src="cap/desk1.jpg" width="50%">
+
+<<speech "cap" "''Captain T:''">>
+Hi there, come in. The other day was fun, wasn't it.<</speech>>
+<<speech "You" "''$name:''">>
+... ...<</speech>>
+<<speech "cap" "''Captain T:''">>
+I'll take that as a yes. Today mommy's got some work to do. So be quiet and enjoy your snack.<</speech>>
+<img src="cap/undertable.gif" width="60%">
+
+Without a complaint, you get on your knees and under the table. You start sucking on her pussy like if it was an ice-cream.
+
+<<speech "You" "''$name:''">>
+(Hmm... mmm... yess... I am liking this too much... what's wrong with me?)<</speech>>
+<<speech "cap" "''Captain T:''">>
+Oooh... someone's hungry, huh? Nice... mommy loves good puppies *tap, tap*<</speech>>
+The time of the class passes too fast for your liking. You successfully make her cum twice, but no squirt.
+
+<<speech "cap" "''Captain T:''">>
+Ok, you're done for today! Good job, my boy. *bites lips* On you go *spank*<</speech>>
+You smile as she spanks you. You're kind of getting her sense of humor, aren't you? You touch your face and feel how sticky and wet it is. It's all covered in Captain's pussy juice. You lick all of what's on your lips, trying to clean them.
+
+<<speech "You" "''$name:''">>
+(Everyday she tastes different... <span class="pink">That's so hot!</span> I mean... uh...curious)<</speech>>
+<<click "Get out" "Deck 3">><<set $points to $points +50>><<run $gameDate.setHours (13)>><</click>><<elseif $capt is 6>><img src="cap/office1.jpg" width="40%">
+
+<<speech "cap" "''Captain T:''">>
+Hi, $name. This weekend I've had time to think, you know?<</speech>>
+You start to worry, unsure of what this woman has on her mind...
+
+<<speech "cap" "''Captain T:''">>
+I think us, the crew, are making a very good job on you, teaching how to please women in ways you never thought you'd knew. Especially me.<</speech>>
+<<speech "You" "''$name:''">>
+(Yeah, very humble...)<</speech>>
+<<speech "cap" "''Captain T:''">>
+Because, you see, time on this cruise is very limited and there are lots of things to do. And teaching someone like you obedience is not easy, $name.
+
+So, just like a loan, I expect you to give back the time and effort I'm spending on you, do you understand?<</speech>>
+<<speech "You" "''$name:''">>
+Um... not exactly, no...<</speech>>
+<<speech "cap" "''Captain T:''">>
+ *smiles* I thought by this time you would already understand things when I speak. But don't worry, I guess it's normal because of your training... Anyway, you're going to help me with some chores, and if you behave like a good pet, I might even let you have some fun *wink*<</speech>>
+<<speech "You" "''$name:''">>
+ *glug*<</speech>>
+<<speech "cap" "''Captain T:''">>
+I have to get back on my desk and get some work done. Get to work, cutie.<</speech>>
+<<if $fetish gte 1>>You are a little annoyed that she is treating you like a pet or a slave, doing some stupid chores, but there's something else that annoys you the most: not being able to eat her pussy today...<<else>><</if>>
+[[Do chores well|obeyt][$obeyt to 5, $capchores to 0, $capt to 7]]
+<<if $hunger is 0>><<linkreplace "Do chores badly">>You're too hungry...<</linkreplace>><<else>>[[Do chores badly|protestt][$protestt to 5, $capt to 7]]<</if>><<elseif $capt is 7>>As you get in Captain T's office, you see her already working.
+
+<<speech "cap" "''Captain T:''">>
+Oh, hi there. Come in, $name. I need silence to work, just do your chores and we'll see about your reward.<</speech>>
+<<speech "You" "''$name:''">>
+("My chores" ha!)<</speech>>
+[[Do chores well|obeyt][$obeyt to 5, $capchores to 0]]
+<<if $hunger is 0>><<linkreplace "Do chores badly">>You're too hungry...<</linkreplace>><<else>>[[Do chores badly|protestt][$protestt to 5]]<</if>>
+
+
+\\<<elseif $capt is 8>><div class="center"><img src="cap/desk1.jpg" width="50%"></div>
+<<speech "cap" "''Captain T:''">>
+Hi, little boy. Come in and sit down.<</speech>>
+<<speech "You" "''$name:''">>
+O-ok... <span class="pink">(she's letting me sit down on a chair... :3)</span><</speech>>
+You take a sit in front of her desk, nervous in anticipation... Captain T is the one who's supposedly going to teach the "oral lessons"...
+
+<<speech "cap" "''Captain T:''">>
+So, seems like, even if I'm too busy for you, you still come back asking for more time. I would say, I didn't expect to be investing so much of my own time into your... training.<</speech>>
+<<speech "You" "''$name:''">>
+(Yeah, I bet she likes it too... especially when I suck her pussy...)<</speech>>
+<<speech "cap" "''Captain T:''">>
+As you know, Foster asigned me the duty of training your mouth. I guess it makes sense, since that's basically what we've been doing so far. Although I must warn you, this is going to be a bit different, as you will see... Come with me.<</speech>>
+Captain T closes her laptop and stands up. You follow her to the bed. With a firm grip, she grabs your right shoulder and makes you kneel before her.
+
+<<speech "cap" "''Captain T:''">>
+Stay there... don't move a muscle, sissy boy...<</speech>>
+Then, she walks to the wardrobe and starts searching for something. You can't help but take a look to see what she's doing.
+
+<<speech "You" "''$name:''">>
+(Hm... she just seems to be looking for something...)<</speech>>
+Suddenly she finds whatever she was looking for and you turn your head back front. Captain T closes your eyes from behind.
+
+<<speech "cap" "''Captain T:''">>
+Like that...<</speech>>
+You can hear her sitting on the bed before you and some mettalic sounds.
+
+<<speech "cap" "''Captain T:''">>
+There you go, open your eyes, baby boy.<</speech>>
+<<linkreplace "... ...">><div class="center"><img src="cap/legstrap.jpg" width="50%"></div>
+<<speech "You" "''$name:''">>
+ *gasp* B-b-but...<</speech>>
+It's not the first time that a dildo is pointing at your face, but the fact that Captain T is the one in control of it is very intimidating. And her devilish smile is not helping you relax.
+
+<<speech "cap" "''Captain T:''">>
+B-b-b... shhh! Your Captain is talking. Pay close attention, because class has started, and I don't like noisy students.<</speech>>
+You look at her and close your mouth, trying to appear as if you weren't freaking out.
+
+<<speech "cap" "''Captain T:''">>
+So... we don't have a real dick available around here, so we'll asume that the man you're about to please orally is already hard, okay? Now, the first rule you need to apply is: "''Worship it''". Yes, you need to understand that, for a sissy like you, having the possibility to suck on a big dick is your main goal in life. You need to be thankful and express yourself. So go on!<</speech>>
+Captain T is waiting for you to say something about the dildo.
+
+[[Compliment its size|Captainoffice][$capt to 9]]
+<<if $hunger is 0>><<linkreplace "Stay quiet">>You're too hungry to protest...<</linkreplace>><<else>>[[Stay quiet|Captainoffice][$capt to 10]]<</if>><</linkreplace>>
+
+
+
+
+
+\\<<elseif $capt is 9>><<speech "You" "''$name:''">>
+<span class="pink">Your... penis... is very big...</span><</speech>>
+<span class="onomatopeya">SLAP</span>
+
+You were so focused on the dildo, that you didn't see Captain T grabbing it and quickly slapping your cheek with it.
+
+<<speech "You" "''$name:''">>
+Ow...<</speech>>
+<<speech "cap" "''Captain T:''">>
+Hm... seems like this big boy liked it... you are a natural! But you certainly have a lot to learn, boy. Now try it again, but really mean it. And, please, honey, you're not fooling anyone. Use YOUR own words.<</speech>>
+Captain T sits back again as the dildo dangles in front of your face, teasing you.
+
+<<speech "You" "''$name:''">>
+<span class="pink">You have a very big penis, sir...</span><</speech>>
+<span class="onomatopeya">SLAP</span>
+
+<<speech "cap" "''Captain T:''">>
+Hahaha, good. But not nearly enough for what I would expect from a sissy. I see you like to be polite, but honey, not while sucking dick! And what's that "penis"? No, no, no... a beta man has a "penis". Alpha men have "dicks, cocks, schlongs, etc...". So try again!<</speech>>
+She dangles the big dildo again.
+
+<<speech "You" "''$name:''">>
+(Ow... it hurts when she hits my face with that thing...) <span class="pink">I love your cock...</span><</speech>>
+You are waiting for her to hit you again, but she doesn't.
+
+<<speech "cap" "''Captain T:''">>
+Uh-huh... go on...<</speech>>
+<<speech "You" "''$name:''">>
+(Oh, so this is the way to go!) <span class="pink">Your dick is so big... and hard-</span><</speech>>
+<span class="onomatopeya">SLAP</span>
+
+<<speech "cap" "''Captain T:''">>
+Yes, yes... you're doing good. Are you sure this is the first time you do this? You're truly a natural! Just give me another one!<</speech>>
+<<speech "You" "''$name:''">>
+(She hit me even if I said it right... *sob*) <span class="pink">I-I-</span><</speech>>
+<span class="onomatopeya">SLAP</span>
+
+<<speech "cap" "''Captain T:''">>
+Hm... such a shame, you were doing so good. A sissy's natural place is where you are now, so you are expected to feel relaxed and in control, within your submissive nature, of course. I'm not goin to lie though, stuttering, blushing, and all that stuff might work with the most dominant ones, but you should be able to choose your attitude on purpose.<</speech>>
+You're not sure you understand everything she just said, but you nod.
+
+<<speech "You" "''$name:''">>
+(So I should be able to behave just as she wants...? That's impossible, I don't know what she wants me to say each time, I can't read minds...)<</speech>>
+You spend most of the time of the class learning how to compliment her dildo, just by looking at her face. Every time you get it a bit wrong, even if it sounds as a standard porn phrase, she slaps your cheek.
+
+<<speech "cap" "''Captain T:''">>
+Alright then, time's over. You are such a cutie, but you've got lots to learn yet... You'll be able to start the next lesson very soon, but first... you need to practice the eye-contact for everything else to work.<</speech>>
+<<speech "You" "''$name:''">>
+(What does this have to do with blowjobs?? I don't understand...)<</speech>>
+<div class="center"><span class="notplus">SUB +1, POINTS +50</span></div>
+<<click "Finish class" "Deck 3">><<set $sub to $sub +1, $points to $points +50>><<audio "lick" stop>><<audio "desk" stop>><<run $gameDate.setHours (13) and $gameDate.setMinutes (0)>><<set $capt to 11>><</click>>
+
+
+
+
+
+
+
+\\<<elseif $capt is 10>><div class="center"><span class="notless">SUB -1</span></div>
+<<speech "You" "''$name:''">>
+... ... ...<</speech>>
+<span class="onomatopeya">SLAP</span>
+
+You were so focused on the dildo, that you didn't see Captain T grabbing it and quickly slapping your cheek with it.
+
+<<speech "You" "''$name:''">>
+Ow...<</speech>>
+<<speech "cap" "''Captain T:''">>
+Oh, so NOW you're talking? No, little boy, you need to open that mouth, and before sucking it, you got to talk to it.<</speech>>
+Captain T sits back again as the dildo dangles in front of your face, teasing you.
+
+<<speech "You" "''$name:''">>
+<span class="pink">You have a penis that-...</span><</speech>>
+<span class="onomatopeya">SLAP</span>
+
+<<speech "cap" "''Captain T:''">>
+Hahaha, what the fuck was that? I guess this dildo might not be enough for you. You're lacking the smell, the taste... but c'mon, just imagine your perfect dick and do it!<</speech>>
+<<speech "You" "''$name:''">>
+(My perfect dick? I don't know...)<</speech>>
+She dangles the big dildo again and you try to get into character. It's not like the situation is not turning you on, because it is. But this situation is fairly new, and you can't help but feel scared by Captain T and her unpredictability.
+
+<span class="onomatopeya">SLAP</span>
+
+<<speech "cap" "''Captain T:''">>
+Come on!<</speech>>
+<<speech "You" "''$name:''">>
+(Ow... it hurts when she hits my face with that thing...) <span class="pink">I love your cock...</span><</speech>>
+You are waiting for her to hit you again, but she doesn't.
+
+<<speech "cap" "''Captain T:''">>
+Uh-huh... go on...<</speech>>
+<<speech "You" "''$name:''">>
+(Oh, so this is the way to go!) <span class="pink">Your dick is so big... and hard-</span><</speech>>
+<span class="onomatopeya">SLAP</span>
+
+<<speech "cap" "''Captain T:''">>
+Yes, yes... you're doing good, for now...<</speech>>
+<<speech "You" "''$name:''">>
+(She hit me even if I said it right... *sob*) <span class="pink">I-I-</span><</speech>>
+<span class="onomatopeya">SLAP</span>
+
+<<speech "cap" "''Captain T:''">>
+Hm... such a shame, you were doing so good. A sissy's natural place is where you are now, so you are expected to feel relaxed and in control, within your submissive nature, of course. I'm not goin to lie though, stuttering, blushing, and all that stuff might work with the most dominant ones, but you should be able to choose your attitude on purpose.<</speech>>
+You're not sure you understand everything she just said, but you nod.
+
+<<speech "You" "''$name:''">>
+(So I should be able to behave just as she wants...? That's impossible, I don't know what she wants me to say each time, I can't read minds...)<</speech>>
+You spend most of the time of the class learning how to compliment her dildo, just by looking at her face. Every time you get it a bit wrong, even if it sounds as a standard porn phrase, she slaps your cheek.
+
+<<speech "cap" "''Captain T:''">>
+Alright then, time's over. You are such a cutie, but you've got lots to learn yet... You'll be able to start the next lesson very soon, but first... you need to practice the eye-contact for everything else to work.<</speech>>
+<<speech "You" "''$name:''">>
+(What does this have to do with blowjobs?? I don't understand...)<</speech>>
+<div class="center"><span class="notplus">POINTS +50</span></div>
+<<click "Finish class" "Deck 3">><<set $points to $points +50, $sub to $sub -1>><<audio "lick" stop>><<audio "desk" stop>><<run $gameDate.setHours (13) and $gameDate.setMinutes (0)>><<set $capt to 11>><</click>><</linkreplace>>
+
+
+
+
+
+\\<<elseif $capt is 11>><<speech "cap" "''Captain T:''">>
+Hi, come in. Take your little friend too and put it on me...<</speech>>
+Captain T points to the knee-strapon on her bed table as she walks to the bed and sits down. You do as she says and kneel in front of her, noticing her dominant smug on her face.
+
+<<speech "cap" "''Captain T:''">>
+Good boy... strap that cock to your mommy's leg. *extends leg*<</speech>>
+You feel embarrased due to her demeaning attitude towards you, although it's not something new at this points, but you can't help it. The only thing that's changed is that now you don't even feel like you should protest. You kind of like being told what to do, that way you don't have to think about it...
+
+<div class="center"><img src="cap/legstrap.jpg" width="50%"></div>
+You wrap the strapon to her knee as she raises your chin so she can have a look at your red face.
+
+<<speech "cap" "''Captain T:''">>
+Hey! Look at mommy... you need to work on that eye contact, little boy... but we have to work on our priorities first. You'll be working the tip today, are you happy?<</speech>>
+<<speech "You" "''$name:''">>
+Um... I-I don't know... *stop looking at her*<</speech>>
+<<speech "cap" "''Captain T:''">>
+I said look at me when I'm talking! Especially when "my cock" is pointing at your face... hehehe<</speech>>
+Captain T dangles her dick, taunting you with it.
+
+<<speech "cap" "''Captain T:''">>
+So now, I'll try to make my best "Alpha male" impersonation, as you try to make your best "yourself", sucking my dick! Ready?<</speech>>
+<<speech "You" "''$name:''">>
+I-I-<</speech>>
+You lean it, trying to think how to start doing it, but you can't seem to understand what the dynamic really is...
+
+<<speech "cap" "''Captain T:''">>
+Ooooh, poor sissy... you really don't know a thing, do you? I'll be guiding you, don't worry. Start by kissing it. *smooch*<</speech>>
+You nod and partially close your eyes, leaning in to kiss the dildo.
+
+<div class="center"><img src="cap/lick.gif" width="50%"></div>
+<<speech "cap" "''Captain T:''">>
+Hm... I can feel the love...<</speech>>
+Captain T contains her impulse to push it in, and just lifts your head instead, so she can see your face. Once you feel the hardness of the dildo on your lips, the situation changes, making the whole scenario a bit less awful. You instantly go on and give it another one.
+
+<<speech "cap" "''Captain T:''">>
+That's it, down the sides too, take your tongue out and lick it.<</speech>>
+You do as you're told, passing your tongue along the sides of the tip, but once you come back to lick the tip, you notice how tasteless the dildo is, compared to what you had in mind. This makes you stop for a moment.
+
+<<speech "cap" "''Captain T:''">>
+Why are you stoppin? Did I tell you to stop?<</speech>>
+<<speech "You" "''$name:''">>
+It's just that I feel... like it's not-<</speech>>
+<<speech "cap" "''Captain T:''">>
+Oh my god! Hahahaha! You are actually craving the taste of a dick? Niiiiice... good little boy, gooood boy... *pat, pat* But honey, you can't let that stop you from doing what I tell you, after all I'm the "man", and even if there's something you don't like, you need to be sucking it.<</speech>>
+You nod again, not wanting to cause any trouble, and start licking it again, but all you can think about this time is the plastic taste it has.
+
+<<speech "cap" "''Captain T:''">>
+Okay, I'm starting to get pissed! If I was a man I wouldn't be very happy with that disgusted face. You need it to taste familiar? Alright then, you'll get it.<</speech>>
+Captain T pushes you back, making you fall to the floor. Then she unstraps the dildo and takes her panties off.
+
+<<speech "cap" "''Captain T:''">>
+Oh, you like this view, huh? Such a sissy... Come the fuck here and take this dildo.<</speech>>
+You grab the dildo and kneel in front of her naked wet pussy.
+
+<<speech "You" "''$name:''">>
+(How is she wet all the time?!)<</speech>>
+<<speech "cap" "''Captain T:''">>
+You want to taste this pussy? Put the dildo in and suck it like a lollipop. Don't even think of touching my pussy with your hands. I want you to use the dildo to eat my pussy. Come on, make mommy happy...<</speech>>
+You frown for a moment, not understanding how this helps, but you do so. Once you start pushing the dildo inside her you feel how her pussy is a lot looser than Tara's. You keep pushing it in slowly.
+
+<<speech "cap" "''Captain T:''">>
+God, you're not even good with a plastic dick, huh? Give me that.<</speech>>
+She takes the dildo from you, roughly fucking her pussy until it is coated in her juices. Then she grabs your shoulder and feeds you the leaking dildo.
+
+<<speech "cap" "''Captain T:''">>
+There, suck the dick. It's all wet and nice for you. Happy now, sissy?<</speech>>
+You get closer and give it a kiss again, licking the tip.
+
+<<speech "You" "''$name:''">>
+<span class="pink">Hm... Tastes good!</span><</speech>>
+Without any more talking you start licking the whole dildo up and down the side, taking your time licking the juices trapped between the glans borders.
+
+<<speech "cap" "''Captain T:''">>
+Exactly... good "gurl"... now look at me and apply lesson 1.<</speech>>
+You lift your face and open your eyes.
+
+<<speech "You" "''$name:''">>
+(Oh, she means compliments?) <span class="pink">Your "cock" tastes soooo good...</span><</speech>>
+Captain T smiles, completely satisfied with your words. Then she proceeds to repeat the same process again.
+
+<<speech "cap" "''Captain T:''">>
+I had my doubts, little boy, but I think you are actually going to be good at this! Just let mommy feed you, say "aahh"<</speech>>
+You open your mouth to lick her juices off the dildo again. After what seems like a very short class, Captain T stands up and let's you go. The next 5 minutes you feel like something is missing in your mouth...
+
+<<speech "You" "''$name:''">>
+<span class="pink">(She tastes sooo good... especially on that hard dildo...)</span><</speech>>
+<div class="center"><span class="notplus">SUB +1, POINTS +50</span></div>
+<<click "Finish class" "Deck 3">><<set $sub to $sub +1, $points to $points +50>><<audio "lick" stop>><<audio "desk" stop>><<run $gameDate.setHours (13) and $gameDate.setMinutes (0)>><<set $capt to 12>><</click>>
+
+
+\\<<elseif $capt is 12>><<speech "cap" "''Captain T:''">>
+Hey, boy, welcome to the blowjob room... Don't look at me like that! I'm more busy than you, you should be thanking me! Come on, get your shit together, we're visiting Ms. Foster today for some info. Not for me, for you.<</speech>>
+<<speech "You" "''$name:''">>
+Oh... ok...<</speech>>
+You lead the way while Captain T keeps an eye on you all the way up to the Library, with the ocasional butt pinching when someone else passes by, making you blush and a bit humiliated.
+
+<span class="onomatopeya">KNOCK KNOCK</span>
+
+<img src="classes/anatomy/foster1.jpg" width="40%">
+
+<<speech "foster" "''Foster:''">>
+Better late than never, I guess. Come in.<</speech>>
+<<speech "cap" "''Captain T:''">>
+Sorry about that, we had to move from deck 3 to here. I don't like wasting your time, Ms. Foster.<</speech>>
+<<speech "foster" "''Foster:''">>
+Well, thanks for appreciating my time. I also appreaciate your, Captain.<</speech>>
+<<speech "cap" "''Captain T:''">>
+Thank you again, Ms. Foster.<</speech>>
+<<speech "You" "''$name:''">>
+(WTF is this? They're a minute away from sucking each others pussies, jeez...)<</speech>>
+<<speech "foster" "''Foster:''">>
+So, please, have a sit, $name. Captain has trusted me to explain you the basics about pleasuring penises, so you can start practicing the real deal. Here's a penis.<</speech>>
+<div class="center"><img src="classes/anatomy/bigcock1.jpg" width="40%"></div>
+<<speech "You" "''$name:''">>
+(Thanks, Sherlock...)<</speech>>
+<<speech "foster" "''Foster:''">>
+As you must know by now, the glans (tip) is the most sensitive area of the penis, and if we're talking about the classic blowjob, you should start by stimulating the area around it, not go directly to it. The idea is that you help the penis reach the fully erect state before going into the blowjob. Just like this:<</speech>>
+Foster turns on the TV.
+
+<div class="center"><img src="classes/anatomy/lick1.gif" width="55%"></div>
+<<speech "You" "''$name:''">>
+(Mmm... such a sexy girl, <span class="pink">and what a cock!</span>)<</speech>>
+<<speech "foster" "''Foster:''">>
+Once the cock is hard and ready for you, which will always be the case if you're working with a dildo, you should stop teasing and playing and get to the sucking. There very different techniques for that and they really depend on who you are sucking on and how his dick behaves, for example-<</speech>>
+<<speech "cap" "''Captain T:''">>
+Ehem... Excuse me, Ms. Foster. Although I find this information interesting I believe you should resume to the basics.<</speech>>
+<<speech "foster" "''Foster:''">>
+I hear you, nice and clear, Captain. So then, let's go right to the basic techniques: LICK, SUCK, DEEPTHROAT, SWALLOW. You will be hearing about these 4 basics for a long time since you will need some thorough training for you to master all of them. For now, I'll explain LICK and SUCK.<</speech>>
+Ms. Foster clicks and the TV changes the video. A woman sucking a dick appears on it, but this time she's a bit more active.
+
+<div class="center"><img src="classes/anatomy/suck1.gif" width="40%"></div>
+<<speech "foster" "''Foster:''">>
+Now, can you see how she is using each part of her anatomy? Her hands are away from the penis, her mouth is stroking it and her tongue is constantly licking around his most sensitive area: under the glans.<</speech>>
+<<speech "You" "''$name:''">>
+Oh... um, yeah...<</speech>>
+You are left speechless due to the intensity of the video. You feel your clit getting hard just from it. The sounds are also a bit to much to bear, with all the "slurps" and "oohhs".
+
+<<speech "foster" "''Foster:''">>
+You will know if you are doing a good job when you sound like that. Also, remember: the tongue is crucial! Don't let it hang there like a dead fish, move it and use it to swirl it around his shaft. Be playful, enjoy it. Also, make sure to hide your teeth in your lips, like this. *she does it*<</speech>>
+<<speech "cap" "''Captain T:''">>
+Exactly! I've already seen you not do that already, $name. You need to do it just like the girl on the video: using her mouth as a moving pussy. No-one want teeth there!<</speech>>
+<<speech "foster" "''Foster:''">>
+To end the basics I will mention the sucking again... there's no just one way to suck a cock, and it really depends on who you're sucking. But you'll find that later, for now, just try to get past the tip and stroking the cock with your mouth, like if it was your hand.<</speech>>
+<<speech "You" "''$name:''">>
+(Oh... ok!)<</speech>>
+<<speech "cap" "''Captain T:''">>
+Alright, thanks for the information, Ms. Foster. That was very useful, I couldn't have put it better. We'll be going now. Come on, $name, stop looking at that screen!<</speech>>
+You stand up, say goodbye to Foster and follow Captain T back to deck 3.
+
+<<speech "cap" "''Captain T:''">>
+No more class for today! I know you would love to try it out right now, but you better assimilate everything and do your best next class. I'll be waiting for a good blowjob then. Goodbye, little boy. And... wipe your leaking cage, sissy.<</speech>>
+<span class="onomatopeya">SLAM</span>
+
+<<speech "You" "''$name:''">>
+(... ... Why am I always surprised by how rude she is? I shouldn't be...)<</speech>>
+<div class="center"><span class="notplus">POINTS +50</span></div>
+<<click "Finish class" "Deck 3">><<set $points to $points +50>><<audio "lick" stop>><<audio "desk" stop>><<run $gameDate.setHours (13) and $gameDate.setMinutes (0)>><<set $capt to 13>><</click>>
+
+
+
+\\<<elseif $capt is 13>><div class="center"><img src="cap/legstrap.jpg" width="50%"></div>
+As you come in the room, Captain T is already sat on the bed and holding the dildo.
+
+<<speech "cap" "''Captain T:''">>
+Oh, hey, I was just about to "flavour" it for you. Come in and do the usual, sissy.<</speech>>
+You close the door and kneel before her. In a fluid movement she inserts the dildo in her a couple of times.
+
+<<speech "cap" "''Captain T:''">>
+ *moans* Hm... are you going to give "daddy" a good blowjob today? Yeah?<</speech>>
+You place yourself in front of her knee, used to licking the dildo there, but to your surprise, she stands up and straps it onto her crotch. Then she sits back down.
+
+<<speech "cap" "''Captain T:''">>
+There! Come and give "daddy" one of those sissy kisses...<</speech>>
+You look at her face, as she told you to the last classes, but you can't help but be alert and afraid, as well as horny. You crawl between her legs as she caresses your cheek, now mostly hidden behind the dildo.
+
+You lean in and give her a kiss on the juicy tip.
+
+<<speech "You" "''$name:''">>
+<span class="pink">Hm... *slurp*</span><</speech>>
+You don't give any time to Captain to talk and directly start licking the dildo's sides up and down, ocasionaly coming back to the tip and licking around it.
+
+<<speech "cap" "''Captain T:''">>
+Oooh... an eager one! I like that tongue play... but my dick is already hard, what else can you do?<</speech>>
+<<speech "You" "''$name:''">>
+(Is this a test??)<</speech>>
+[[Keep licking the shaft|Captainoffice][$capt to 14]]
+[[Start sucking on the tip|Captainoffice][$capt to 15]]
+
+
+
+\\<<elseif $capt is 14>><div class="center"><span class="notless">SUB -1</span></div>
+You get caught in the moment and just keep on licking the sides of the dildo, slurping the extra pussy-juice.
+
+<span class="onomatopeya">SLAP</span>
+
+Suddenly, Captain T slaps your cheek with the hard dildo.
+
+<<speech "cap" "''Captain T:''">>
+No, no... don't you remember? I'm already hard, you need to start sucking your "daddy", little gurl...<</speech>>
+She softly slaps your face a few more time, teasing you with it.
+
+<<speech "You" "''$name:''">>
+(Oh, that's right... But I don't know if I will be able to take even this tip...)<</speech>>
+You shyly start stretching your mouth and shoving the tip into your mouth. Captain T gets too tired of waiting and grabs your head, pushing you onto it.
+
+<<speech "You" "''$name:''">>
+Aaagh!! *slurp, slurp*<</speech>>
+You gag and get scared, so you back out to breathe.
+
+<<speech "cap" "''Captain T:''">>
+What the fuck?! You didn't even pass the tip? How can this even be possible? Did you get nervous trying to fit daddy's cock? Hahahaha<</speech>>
+<<speech "You" "''$name:''">>
+I-I just-... It's my first time...<</speech>>
+<<speech "cap" "''Captain T:''">>
+Oohh, I'm sorry but I don't believe that... your have such a whore face while sucking! I just think you would prefer a real one and are adamant to suck on this one! But come on, try again!<</speech>>
+Captain T grabs your head again and tries to shove the dildo into your mouth, having the same result.
+
+You both keep doing the same for the rest of the class, making Captain T more and more frustrated with each try.
+
+<<speech "cap" "''Captain T:''">>
+I can't believe you! You are a natural sissy!! You should be doing this as well as breathing!! You're just nor complying and trying to resist, just like a bad gurl... and I don't like bad gurls...<</speech>>
+<span class="onomatopeya">SLAP</span>
+
+<<speech "You" "''$name:''">>
+Ow!<</speech>>
+<<speech "cap" "''Captain T:''">>
+Yeah, and you'll get more of that if you are not willing to suck it next time! Class is over!<</speech>>
+<div class="center"><span class="notplus">POINTS +50</span></div>
+<<click "Finish class" "Deck 3">><<set $capt to 13, $points to $points +50, $sub to $sub -1>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><</click>>
+
+
+
+\\<<elseif $capt is 15>>You understand what Captain T means, remembering the awesome video Foster showed you on her classroom. But you know you are not going to be able to do that as well as the girl in the video did... so you decide to at least try to wrap your lips around it, and then see how that develops.
+
+<<speech "You" "''$name:''">>
+Ahm... *slurp, slurp*<</speech>>
+<<speech "cap" "''Captain T:''">>
+Oh, wow, now that's a nice little gurl... use those lips, c'mon, blow me baby.<</speech>>
+You hear what she says and decide to forget about the tongue for now and just focus on moving in and out the dildo, jerking it as Foster told you to.
+
+<div class="center"><img src="classes/oral/suck1.gif" width="50%"></div>
+<<speech "cap" "''Captain T:''">>
+Yeah just like that, you're making "daddy" happy... but enough with the tip...<</speech>>
+She then grabs your head and lightly pushes you in, making you fight against the gag reflex. To your surprise you reach past the tip and maybe a bit further. Captain T let's your head go, feeling how that's your limit for now. You take that chance to get off the plastic dick and breathe a bit.
+
+<<speech "cap" "''Captain T:''">>
+Did I tell you to stop? We've already been through this... breathe through the nose! But don't make "daddy" stop!<</speech>>
+<span class="onomatopeya">SLAP</span>
+
+<<speech "You" "''$name:''">>
+Ow!!<</speech>>
+<<speech "cap" "''Captain T:''">>
+Yeah, yeah, my dick's hard, isn't it? Hahaha... well, come in again, baby.<</speech>>
+This time you don't need Captain's hand to get as deep as you did before. You remember how Foster told you to "stroke it with your mouth", and so you try to do it.
+
+<<speech "cap" "''Captain T:''">>
+Honey, you are doing well, but you know that you're basically sucking on the tip? You look like a little bird... We'll need to push this further in for it to make a man feel good. Also, what's going on with that tongue?<</speech>>
+<<speech "You" "''$name:''">>
+What's wrong...?<</speech>>
+<<speech "cap" "''Captain T:''">>
+You need to move it, sissy! *sigh* Do I need to tell you everything? Come on, try it again.<</speech>>
+Captain T grabs your head and sinks your face into her cock again, while you try to fight against the gag reflex and play with your tongue at the same time.
+
+<<speech "You" "''$name:''">>
+ *slurp, slurp* (God, this is exhausting... it's like eating a pussy, but with a huge thing blocking my tongue!)<</speech>>
+...
+
+...
+
+<<speech "cap" "''Captain T:''">>
+Alright, you can stop now, baby gurl! Very well, very well... we'll have to keep up the good work if you want to get better at this. But for now, you can go.<</speech>>
+You get up and get out the office as Captain gets the strapon off and cleans herself.
+
+<div class="center"><span class="notplus">SUB +1, POINTS +50, ORAL +1</span></div>
+<<click "Finish class" "Deck 3">><<set $capt to 13, $oral to 2, $sub to $sub +1, $points to $points +50>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><</click>>
+
+
+
+\\<<elseif $capt is 16>><<if ndef $pennyblow1>>As you walk closer, you find the door is already ajar. As you get inside, Captain T addresses you.
+
+<<speech "cap" "''Captain T:''">>
+Hi, $name! Please, close the door behind you.<</speech>>
+Just as you do so, you can see Penny kneeling upon the bed. She looks at you with a friendly smile.
+
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Hi! *shakes her hand*<</speechpatreon>>
+<<speech "cap" "''Captain T:''">>
+She's cute, isn't she? I bet you'll be glad to be sharing some of my classes. Today we'll be testing her to know what is her "level". First of all, we should demonstrate. Come here and assume position.<</speech>>
+You walk up next to Penny and kneel next to her in front of the bed. Penny stands up, a bit confused, and takes a couple of steps back. Captain T comes back a few seconds later with a strap-on on.
+
+<div class="center"><img src="cap/capstrapon1.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(Seems like it's the same as last time... I only managed to take the tip...)<</speech>>
+Captain sits on the bed, dangling the dildo right in front of your face.
+
+<<speech "cap" "''Captain T:''">>
+What do you think, Penny? Is this big or average?<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+That's... so big...<</speechpatreon>>
+<<speech "cap" "''Captain T:''">>
+Heh... You heard that, $name? I don't think she's an expert either... and tell me Penny, do you think "she"'s going to be able to take this cock in her mouth?<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Um... *she looks at you* Yeah, maybe!<</speechpatreon>>
+You smile at her, surprised by her optimism.
+
+<<speech "cap" "''Captain T:''">>
+Hahaha *slaps your cheeks with the dildo* I love it when gurls support each other. We'll see about that...<</speech>>
+Captain T suddenly shuts up and looks at you with a smirk. You know what you're supposed to do, but the presence of Penny is kind of making you uncomfortable. Not because you're that embarrased, but because you somehow feel like you should be an good example for Penny. You are not sure yet if she knows that she actually wants to submit to this "training". You don't want her to go through the same as you...
+
+On the other side, you can't take your eyes off Captain's dildo. Every small swing is enough to make you salivate. You can't understand why a piece of plastic is making you that horny, but you know that that dildo is going to end up in your mouth. You want it...
+
+You finally lean forward and give it a few kisses on the tip.
+
+<<speech "cap" "''Captain T:''">>
+That's a good boy...<</speech>>
+You then proceed to kiss it down the shaft, just as you've been taught you should do for a real dick. You lick your way back to the glans and suckle on it, trying to prepare for the moment of truth. You can see Captain getting a bit impatient, shaking the plastic dick and poking your lips.
+
+You know it's going to come sooner or later, so you decide to take a step forward and begin to get some of that thick tip inside your mouth.
+
+<div class="center"><img src="classes/oral/suck1.gif" width="35%"></div>
+<<speech "cap" "''Captain T:''">>
+Theeeere we go, good gurl...<</speech>>
+Captain T grabs your head and start slowly humping it into your already full mouth, but no matter how hard you try it, you can barely get past the glans. As your "teacher" sees you getting stuck on the same spot, she pushes it in your mouth as much as she can.
+
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+ *gasp* ...<</speechpatreon>>
+<<speech "cap" "''Captain T:''">>
+There, in-fucking-there! Suck on it! Damn, you can barely suck it. This is not even considered big!<</speech>>
+<<speech "You" "''$name'':">>
+ *gag, gag* Stop-<</speech>>
+Captain T let's your face go and you cough away. She was harsh, but doesn't seem too angry about it.
+
+<<speech "cap" "''Captain T:''">>
+Well, apparently you haven't improved a thing. This is a mere 8 incher, with an average girth. If I were a man, I'd be very disappointed. You can't even get past the tip and Penny doesn't even know how to do that.<</speech>>
+You look at her trying to find mercy, but all you find is another cock-slap in the cheek.
+
+<span class="onomatopeya">SLAP</span>
+
+<<speech "You" "''$name'':">>
+Ow... I was doing it slowly at first-<</speech>>
+<<speech "cap" "''Captain T:''">>
+No, no. You are supposed to do whatever I, "the one with the real cock", tell you, ok? I was going to take points from you, but I'll let you choose: You can either lose your points and stand back while I test Penny, or you can try to satisfy me with her help. You know, since you seem to want to help each other.<</speech>>
+[[Stay for Penny's turn|Captainoffice][$pennyblow1 to 0]]
+[[Double blowjob class (with Penny)|Captainoffice][$pennyblow1 to 1]]
+
+
+\\<<elseif $pennyblow1 is 0>>You decide to stand back and watch Penny. Although you lose some points, you are not degrading yourself as much.
+
+<<speech "cap" "''Captain T:''">>
+Alright, then. -50 points from you.<</speech>>
+<div class="center"><span class="notless">POINTS -50</span></div>
+You take Penny place and let her kneel before the captain. It doesn't take that much time to notice that Penny doesn't really have any experience sucking dick, not even plastic ones.
+
+<<speech "cap" "''Captain T:''">>
+C'mon bitch, suck on my cock! If I were a man I would have slapped you already!<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+I-I'm trying, but it's too big...<</speechpatreon>>
+<div class="center"><img src="classes/oral/pennysuck1.jpg" width="50%"></div>
+<<speech "cap" "''Captain T:''">>
+Hm... you said that with lust on your eyes, maybe there's hope for you... c'mon, just suck on it, gobble, gobble...<</speech>>
+<span class="onomatopeya">GAG, GAG</span> 
+
+It's a bit sad seeing her gag on barely the tip. Even you did better! But you can feel her struggle, since you've gone through the same thing. After 20 minutes of constant demeanor, Captain T pauses.
+
+<<speech "cap" "''Captain T:''">>
+Anyway... $name, you're still here? You really do love sucking cocks, huh? Hehehe... you can get out now. Not you! You bitch!<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Gag, gag, gag!<</speechpatreon>>
+You take a last look at Penny and get out of the room.
+
+<<click "Finish class" "Deck 3">><<set $capt to 17, $points to $points +50>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><</click>>
+
+
+\\<<elseif $pennyblow1 is 1>>You decide to try it with Penny, everything for the points.
+
+<<speech "You" "''$name'':">>
+Maybe we can try...?<</speech>>
+You look at Penny, just to find a very insecure look on her face. You can tell this is something new for her, so maybe this wasn't the best idea. 
+
+<<speech "cap" "''Captain T:''">>
+Alright then, Penny, come closer.<</speech>>
+Penny gets next to you and kneels. Captain T smiles at both of you and takes your heads.
+
+<<speech "cap" "''Captain T:''">>
+Hm... hehehe, my little cock-suckers... get on to it gurls!<</speech>>
+You know Penny is not going to take the first lick, and so you decide to lead, licking it up and down and swirling the tongue around the tip, while also working your way down.
+
+<div class="center"><img src="classes/oral/suck2.gif" width="50%"></div>
+<span class="onomatopeya">SLURP, SLURP</span>
+
+Penny looks at you surprised at your sudden eagerness.
+
+<<speech "cap" "''Captain T:''">>
+Would you look at that? Such good tongue job, but you're lacking the "sucking" part. I'm not pleased, girls.<</speech>>
+You look at Penny, but she's petrified.
+
+<<speech "You" "''$name'':">>
+Penny...?<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Oh, I-I'm sorry... *lick, lick*<</speechpatreon>>
+She starts licking her side of the cock, making it a lot more fun for the ficticial "man" that Captain is impersonating.
+
+<<speech "cap" "''Captain T:''">>
+There... goooood girls... suck tender mouths... but I'm getting impatient, where's my BLOWJOB? I don't see enough blowing...<</speech>>
+She slaps your cheeks with the dildo playfully.
+
+<span class="onomatopeya">SLAP, SLAP</span>
+
+<<speech "You" "''$name'':">>
+Ow!<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Ow!<</speechpatreon>>
+Captain T smirks and tries to shove the cock in Penny's throat.
+
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+GAG *pushes it away* *cough, cough* I-I can't!<</speechpatreon>>
+You can see Captain T is not very happy with Penny.
+
+<<speech "cap" "''Captain T:''">>
+Alright, $name. You can get going, at least you tried. But this girl... she needs much more training.<</speech>>
+You stand up and get to the door, worried about Penny's remaining class.
+
+<<click "Finish class" "Deck 3">><<set $capt to 17, $points to $points +50>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><</click>><</if>>
+
+
+
+\\<<elseif $capt is 17>>You knock on the closed door.
+
+<span class="onomatopeya">KNOCK KNOCK</span>
+
+<<speech "cap" "''Captain T:''">>
+Come in.<</speech>>
+You do so and close the door behind you.
+
+<<speech "cap" "''Captain T:''">>
+It'll be just you and me today. I'm going to be a bit more busy today, you know, I've also got to work. So you know your place, I have a perfect spot for you.<</speech>>
+She points down her table. You inmediately understand what she's referring to and so you walk closer and get kneel between her open legs.
+
+<<linkreplace "... ...">><div class="center"><img src="cap/undertable3.gif" width="50%"></div>
+You don't even need any further motivation. It's been a while since you've been able to eat some pussy and you can feel how hungry you are for it.
+
+<<speech "You" "''$name'':">>
+Hm... *lick, lick*<</speech>>
+You start licking it down to up, getting as much juice as you can. It tastes just as you remembered: sweet, salty...
+
+<<speech "You" "''$name'':">>
+<span class="pink">(Captain's pussy really has a pecualiar taste... hmm...)</span><</speech>>
+You can feel her tightenning her legs to keep your head in place, which of course you know is not necessary, but is certainly turning you on. You love to hear her typing and doing her stuff while you serve her. It doesn't take long for you to get your face wet. Just as you start to hear her moaning, somebody opens the office door.
+
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Hi, you wanted to see me?<</speechpatreon>>
+<<speech "cap" "''Captain T:''">>
+Oh... *moans* Penny, honey, you're cumming early! Although that's not a new thing, is it? Hahaha Anyway, come in.<</speech>>
+Penny comes in and closes the door. Although you're not as focused, you keep up with your duties, licking and eating her wet pussy.
+
+<div class="center"><img src="cap/below2.gif" width="25%"></div>
+<<speech "cap" "''Captain T:''">>
+Ah, fuck! Damn, this gurl for sure has a gift... I'm such a good teacher!<</speech>>
+<<speech "You" "''$name'':">>
+(Yeah, right...)<</speech>>
+Although you can't see Penny's face, you imagine she's a bit confused.
+
+<<speech "cap" "''Captain T:''">>
+Oh don't look at me like that, Penny! Look who's here.<</speech>>
+Captain grabs your head and pulls you out enough for Penny to see you. All you can see is her giving you a weird smile, since Captain pushes you back in and into her pulsating pussy.
+
+<<speech "cap" "''Captain T:''">>
+Do you listen that slurping sound? Yeah? Well, take notes or something. This gurl down here is top notch, and I expect you to step up your head game quick! Got it?<</speech>>
+<<speech "You" "''$name'':">>
+(Damn, she doesn't need to be so hard with the poor Penny...) *slurp, slurp*<</speech>>
+You can feel the Captain getting closer and closer to orgasm, but you know by experience that she'll need some penetration, and so you stick three of your fingers in there to massage her G-Spot.
+
+<span class="onomatopeya">FAP FAP FAP</span>
+
+<<speech "cap" "''Captain T:''">>
+Aaaaaahh... keep going, right there... Yes, yes, yes, YES! AAAAHHHHHH!<</speech>>
+<div class="center"><img src="cap/squirt2.gif" width="50%"></div>
+You close your eyes and receive your deserved reward: a hot squirt right on the face.
+
+<<speech "cap" "''Captain T:''">>
+Fuck... this gurl... if only you learned how to properly suck dicks, you would do an excellent slut! I'll tell you what: since you seem to be doing such a good job, I'll give you this ''VIP invitation'' for the VIP area in the casino.<</speech>>
+<div class="center"><font size="+1">''VIP ticket'' added to Inventory</font></div><<set $vipticket to true, $entervip to 0, $vip1 to "1/2 done">>
+
+She leans back and let's you stand up. You take a few steps forward and try to make yourself look presentable, albeit it being a clearly impossible mission.
+
+<<speech "cap" "''Captain T:''">>
+What the fuck is that?!<</speech>>
+You look at what Captain is pointing to.
+
+<div class="center"><img src="penny/pennyhard2.jpg" width="50%"></div>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Oh, I'm sorry! I just...<</speechpatreon>>
+Captain T walk to her and makes her stand up.
+
+<<speech "cap" "''Captain T:''">>
+If weren't such a wussy, you would do a good enough white Alpha with that cock. But since you're not, you should be learning to repress those erections. *slaps her dick*<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Ah... Ouch! I'm sorry! I can't help it...<</speechpatreon>>
+<<speech "cap" "''Captain T:''">>
+Hm... well, I guess I can condone that... see, $name? Even with sissies, a bigger dick makes girls like you more... But you, Penny, also need to learn how to suck pussy. Come on. You're done for today, $name.<</speech>>
+You can see Captain pushing Penny under the desk as you get out.
+
+<<click "Finish class" "Deck 3">><<set $capt to 18, $points to $points +50>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><</click>><</linkreplace>>
+
+
+
+\\<<elseif $capt is 18>><<if ndef $toral>>You get to the door and knock a couple of times.
+
+<span class="onomatopeya">KNOCK, KNOCK</span>
+
+<<speech "cap" "''Captain T:''">>
+Yes, get in!<</speech>>
+You get inside the room, just to see Giada and Penny sitting around Captain T's table. There's also Ms. Foster standing next to a TV.
+
+<<speech "cap" "''Captain T:''">>
+Please $name, sit down. Ms. Foster is going to start the theoretical group class. We'll start the practical after that. C'mon, c'mon, c'mon!<</speech>>
+You run all the way over to the remaining seat around the table and sit down.
+
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+You okay?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Yeah... thanks. *smiles*<</speech>>
+<<speech "Giada" "''Giada:''">>
+Stop flirting, you weirdos! Hehehe...<</speech>>
+<<speech "foster" "''Foster'':">>
+Ahem! You should all shut up. Class has already started, ok? Should I get to it, cap? I'm kind of busy today.<</speech>>
+<<speech "cap" "''Captain T:''">>
+Yes, please proceed.<</speech>>
+Ms. Foster turns on the TV.
+
+<<linkreplace "... ...">><div class="center"><img src="classes/oral/deep1.gif" width="50%"></div>
+<<speech "foster" "''Foster'':">>
+Deepthroat. I know any of you three can do it yet, but at the very least, you should know what it is about. It's an advanced sexual technique than consists in supressing the "gag reflex" and swallowing the whole penis of the man. Just like storing it inside your throat! Of course, this is very enjoyable for men, who often cum after performing it.<</speech>>
+Giada raises her hand.
+
+<<speech "foster" "''Foster'':">>
+Yes, Giada?<</speech>>
+<<speech "Giada" "''Giada:''">>
+What is a "gag reflex"<</speech>>
+<<speech "foster" "''Foster'':">>
+Good question, Giada. The "gag reflex" is an automatic response that prevents choking, making you cough to get any piece of food out so it doesn't get in your respiratory area.<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Hm...<</speechpatreon>>
+<<speech "foster" "''Foster'':">>
+And as you can imagine, this is not an easy thing to supress. In fact, not many girls can really do it. Some of them can only do it for a short moment, while pornstars can go for hours swallowing dicks. It's all about: practice.<</speech>>
+<span class="onomatopeya">CLICK</span>
+
+<div class="center"><img src="classes/oral/deep2.gif" width="50%"></div>
+<<speech "foster" "''Foster'':">>
+You will only get better with practice, practice, practice! And in case you're wondering: yes, most guys love cumming all the way in there, but just think about it, it's the least messy way. No spilling!<</speech>>
+<span class="onomatopeya">CLICK</span>
+
+<div class="center"><img src="classes/oral/swallow1.gif" width="50%"></div>
+<<speech "You" "''$name'':">>
+Oh my god...<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Jeez... isn't that dangerous?<</speechpatreon>>
+<<speech "foster" "''Foster'':">>
+What? No, not at all! This is in fact the safest technique, once you master it. Just think about it: would you rather have a huge dangling meat at your face, or have it stuck inside of your expert hole? I can assure you, it's totally fine. But you will need to practice. A LOT.<</speech>>
+<<speech "cap" "''Captain T:''">>
+And that's exactly where I come in handy. *smiles* We'll start a practical group class tomorrow. You'll be learning the technique under my supervision. It'll be fun, right girls?<</speech>>
+The three of you look at each other, not knowing what to say.
+
+<<speech "cap" "''Captain T:''">>
+Alright then, see you tomorrow.<</speech>>
+The class finishes and you get out of the office.
+
+<<click "Finish class" "Deck 3">><<set $capt to 18, $toral to 0, $points to $points +50>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><</click>><</linkreplace>>
+
+
+
+\\<<elseif $toral is 0>><<if ndef $blowfocus1>>You get in the office and see Penny and Giada already seated around the table.
+
+<<speech "cap" "''Captain T:''">>
+Awesome, we're all here. We can finally get started.<</speech>>
+You walk into the same seat as the last time, in the middle.
+
+<<speech "cap" "''Captain T:''">>
+Right, so please, close your eyes.<</speech>>
+You all do so and hear Captain rummaging around her drawers, until she sticks something in front of each one of you.
+
+<<speech "cap" "''Captain T:''">>
+Open! Surprise!<</speech>>
+<<linkreplace "... ...">><div class="center"><img src="clothes/dildo7.png" width="45%"></div>
+<<speech "You" "''$name'':">>
+ *gasp*<</speech>>
+<<speech "cap" "''Captain T:''">>
+Now, listen very carefully: You're going to try your best right now so I can see. Then I'll go away and leave you to practice for 30 minutes. I expect an improvement. Right! So, Giada, if you will...<</speech>>
+Giada approaches the dildo in front of her and spits on it, trying to lube it up before sucking. Then she leans into it and tries her best.
+
+<<speech "cap" "''Captain T:''">>
+Not bad! More than half of it! And it's a 7 inch dildo, so that'll be 4 inches, "average" girth.<</speech>>
+<<speech "You" "''$name'':">>
+(Average my ass...)<</speech>>
+<<speech "cap" "''Captain T:''">>
+Alright then, $name, your turn.<</speech>>
+You lean into it, nervous about not being good enough. At first you try to lube it up, just like Giada, but then you decide to lick the frenulum a bit.
+
+<<speech "cap" "''Captain T:''">>
+C'mon, you little slut, stop teasing it. It's not a real dick, just for practice.<</speech>>
+Captain and Giada laugh at your teasing, while you get into the real deal. Once well lubed you try to get down as far as you can.
+
+<<speech "cap" "''Captain T:''">>
+Oh, not bad, I guess. Although, less impressive than Giada's. You are just a bit less than half of it, probably 3'5 inches, "average" girth.<</speech>>
+<<speech "You" "''$name'':">>
+(Oh, man...)<</speech>>
+<<speech "cap" "''Captain T:''">>
+Alright, Penny, your turn.<</speech>>
+Penny lean over, but you can tell she's still a bit new to the thing. First of all, she forgets to lube it up, so once she tries to swallow it, she just cannot get past the glans.
+
+<<speech "cap" "''Captain T:''">>
+Not going to lie, Penny: that was pretty embarrasing... but that's why we're here. Now, I'll be going for a drink. Once I'm back I want to see an improvement. See you.<</speech>>
+<span class="onomatopeya">SLAM</span>
+
+[[Focus and try your best (+stress, +sub, +oral)|Captainoffice][$blowfocus1 to 0]]
+[[Relax and see what happens (-sub)|Captainoffice][$blowfocus1 to 1]]<</linkreplace>>
+
+
+\\<<elseif $blowfocus1 is 0>><div class="center"><img src="classes/oral/training1.gif" width="50%"></div>
+You focus on your task and really try your best to make it past your last mark.
+
+<<speech "You" "''$name'':">>
+ *Gag, gag, gobble, gobble...*<</speech>>
+<<speech "Giada" "''Giada:''">>
+Wow, you're really into that, huh? Hahaha, you whore!<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Hey, shut up!<</speechpatreon>>
+<<speech "Giada" "''Giada:''">>
+Oooh, look at that, cute sissy girlfriends!<</speech>>
+<<speech "You" "''$name'':">>
+ *slurp* C'mon, less talk, more sucking bitch.<</speech>>
+You taunt her, so she can accept the challenge and make it into a competition. Finally, that makes her shut up, and so all you can hear is the slurping and the bobbing.
+
+<<linkreplace "... ...">><span class="onomatopeya">SLAM</span>
+
+<div class="center"><img src="cap/caphall2.jpg" width="38%"></div>
+<<speech "cap" "''Captain T:''">>
+Alright, mommy's here! Let's see about your results...<</speech>>
+<div class="center">''Giada:'' +0.5 inches
+''$name:'' +0.5 inches
+''Penny:'' +0.5 inches</div>
+<div class="center"><span class="notplus">ORAL +0.5 (again tomorrow for full +1), SUB +1,</span><span class="notless"> STRESS +20</span></div>
+<<speech "cap" "''Captain T:''">>
+Not bad, not bad...<</speech>>
+<<click "Finish class" "Deck 3">><<set $capt to 18, $toral to 1, $points to $points +50, $stress to $stress +20, $sub to $sub +1>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><</click>><</linkreplace>>
+
+
+\\<<elseif $blowfocus1 is 1>><div class="center"><img src="classes/oral/training1.gif" width="50%"></div>
+You can't focus on your task, so you decide to snoop around.
+
+<<speech "Giada" "''Giada:''">>
+Hey, what are you doing? Get to it, slut!<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Hey, shut up! She'll get on it soon enough...<</speechpatreon>>
+<<speech "Giada" "''Giada:''">>
+Well, look who talked! Miss "I can't take a single inch of cock" hahahaha<</speech>>
+<<speech "You" "''$name'':">>
+Shh, I just want to stretch my legs before crushing you on the practice, Giada. So better get to it.<</speech>>
+She grunts, but finally gets to her dildo and goes to town. You wander around her desk, and you can just see a glass full of water and lots of pens. The drawers are locked.
+
+<<speech "You" "''$name'':">>
+(Damn, I need her key for that...)<</speech>>
+You stop wandering and get to your dildo just in time.
+
+<<linkreplace "... ...">><span class="onomatopeya">SLAM</span>
+
+<div class="center"><img src="cap/caphall2.jpg" width="38%"></div>
+<<speech "cap" "''Captain T:''">>
+Alright, mommy's here! Let's see about your results...<</speech>>
+<div class="center">''Giada:'' +0.5 inches
+''$name:'' No progress...
+''Penny:'' +0.5 inches</div>
+<div class="center"><span class="notless">SUB -1</span></div>
+<<speech "cap" "''Captain T:''">>
+Really, $name? Well, no progress for you. So, also, no points...<</speech>>
+<<click "Finish class" "Deck 3">><<set $capt to 18, $toral to 1, $sub to $sub -1>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><</click>><</linkreplace>><</if>>
+
+
+
+
+
+
+\\<<elseif $toral is 1>><<if ndef $blowfocus2>>You get into the office and you can see Giada and Penny are already in place, ready for the blowjob class.
+
+<<speech "cap" "''Captain T:''">>
+Alright honey, we're waiting for you...<</speech>>
+You sit in place and get to it until Captain T gets out the room.
+
+[[Focus and try your best (+stress, +sub, +oral)|Captainoffice][$blowfocus2 to 0]]
+[[Relax and see what happens (-sub)|Captainoffice][$blowfocus2 to 1]]
+
+
+
+\\<<elseif $blowfocus2 is 0>><div class="center"><img src="classes/oral/training1.gif" width="50%"></div>
+You focus on your task and really try your best to make it past your last mark.
+
+<<speech "You" "''$name'':">>
+ *Gag, gag, gobble, gobble...*<</speech>>
+<<speech "Giada" "''Giada:''">>
+Wow, you're really into that, huh? Hahaha, you whore!<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Hey, shut up!<</speechpatreon>>
+<<speech "Giada" "''Giada:''">>
+Oooh, look at that, cute sissy girlfriends!<</speech>>
+<<speech "You" "''$name'':">>
+ *slurp* C'mon, less talk, more sucking bitch.<</speech>>
+You taunt her, so she can accept the challenge and make it into a competition. Finally, that makes her shut up, and so all you can hear is the slurping and the bobbing.
+
+<<linkreplace "... ...">><span class="onomatopeya">SLAM</span>
+
+<div class="center"><img src="cap/caphall2.jpg" width="38%"></div>
+<<speech "cap" "''Captain T:''">>
+Alright, mommy's here! Let's see about your results...<</speech>>
+<div class="center">''Giada:'' +0.4 inches
+''$name:'' +0.6 inches
+''Penny:'' +0.5 inches</div>
+<div class="center"><span class="notplus">SUB +1, <<if $oral is 3>>ORAL +0.5<<else>>ORAL +1<</if>>,</span><span class="notless"> STRESS +20</span></div>
+<<speech "cap" "''Captain T:''">>
+Not bad, not bad...<</speech>>
+<<click "Finish class" "Deck 3">><<if $dayn gte 34>><<set $capt to 19, $points to $points +50, $oral to 3, $stress to $stress +20, $sub to $sub +1>><<else>><<unset $blowfocus2, $points to $points +50, $oral to 3, $stress to $stress +20, $sub to $sub +1>><</if>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><</click>><</linkreplace>>
+
+
+
+\\<<elseif $blowfocus2 is 1>><div class="center"><img src="classes/oral/training1.gif" width="50%"></div>
+You can't focus on your task, so you decide to snoop around.
+
+<<speech "Giada" "''Giada:''">>
+Hey, what are you doing? Get to it, slut!<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Hey, shut up! She'll get on it soon enough...<</speechpatreon>>
+<<speech "Giada" "''Giada:''">>
+Well, look who talked! Miss "I can't take a single inch of cock" hahahaha<</speech>>
+<<speech "You" "''$name'':">>
+Shh, I just want to stretch my legs before crushing you on the practice, Giada. So better get to it.<</speech>>
+She grunts, but finally gets to her dildo and goes to town. You wander around her desk, and you can just see a glass full of water and lots of pens. The drawers are locked.
+
+<<speech "You" "''$name'':">>
+(Damn, I need her key for that...)<</speech>>
+You stop wandering and get to your dildo just in time.
+
+<<linkreplace "... ...">><span class="onomatopeya">SLAM</span>
+
+<div class="center"><img src="cap/caphall2.jpg" width="38%"></div>
+<<speech "cap" "''Captain T:''">>
+Alright, mommy's here! Let's see about your results...<</speech>>
+<div class="center">''Giada:'' +0.5 inches
+''$name:'' No progress...
+''Penny:'' +0.5 inches</div>
+<div class="center"><span class="notplus">SUB -1</span></div>
+<<speech "cap" "''Captain T:''">>
+Really, $name? Well, no progress for you. So, also, no points...<</speech>>
+<<click "Finish class" "Deck 3">><<if $dayn gte 34>><<set $capt to 19, $sub to $sub -1>><<else>><<set $capt to 18, $unset $blowfocus2, $sub to $sub -1>><</if>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><</click>><</linkreplace>><</if>><</if>>
+
+
+
+\\<<elseif $capt is 19>><<if ndef $capcream>>As you arrive to Captain's door you can see Penny standing outside.
+
+<<speech "You" "''$name'':">>
+Hi, Penny! Should we go in?<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Well, I'm not sure... I can hear sound in there and I don't want to knock...<</speechpatreon>>
+Just as she's saying this you can hear the voice of a man inside the office.
+
+...
+
+<<speech "nobody" "''???:''">>
+Yeah, get that thick dick out...<</speech>>
+<<speech "cap" "''Captain T:''">>
+Poor man... how can you walk around with this inside your trousers...?<</speech>>
+...
+
+<<speech "You" "''$name'':">>
+Oops...<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Yes... but we had class, so are we supposed to knock and get in?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Hm... only one way to find out.<</speech>>
+<span class="onomatopeya">KNOCK KNOCK</span>
+
+<<speech "cap" "''Captain T:''">>
+Who is it?<</speech>>
+<<speech "You" "''$name'':">>
+Penny and me, we thought we-<</speech>>
+<<speech "cap" "''Captain T:''">>
+$name, just you. Get inside, I want you to meet someone.<</speech>>
+You look at Penny saying goodbye as you open the door and get inside.
+
+<<linkreplace "... ...">><div class="center"><img src="cap/shane1.jpg" width="50%"></div>
+<<speech "cap" "''Captain T:''">>
+ *slurp, slurp* Hmm... Welcome, $name. Have a seat, plase. This is my bull for today, you like him? He's a bit bigger than your dildos, huh? Hehe...<</speech>>
+<<speech "You" "''$name'':">>
+... ...<</speech>>
+You sit on a chair and just stare at them as they make out and Captain strokes his semi-hard monster black cock.
+
+<<speech "cap" "''Captain T:''">>
+Gosh, I'm so wet... come on, fuck me.<</speech>>
+They both roll on the bed, making out and getting into missionary position to get fucked. The insertion seems a bit of a struggle, but Captain sure looks like she's enjoying it.
+
+<div class="center"><img src="cap/shane2.gif" width="50%"></div>
+<<speech "cap" "''Captain T:''">>
+Ow! God, YES! Finally a man!<</speech>>
+<<speech "nobody" "''Black bull:''">>
+You like that dick, huh? Open up, c'mon, open up for me.<</speech>>
+The bull keeps forcing his thick dick inside the Captain until all of it has gone inside her. Then she just holds on to his back as he humps her like a beast, pumping his cock in and out of her.
+
+<<speech "cap" "''Captain T:''">>
+Just like that... Oh, oh! My god, it's so huge!<</speech>>
+<<speech "nobody" "''Black bull:''">>
+Argh... yeah, that's a tight pussy...<</speech>>
+<<speech "cap" "''Captain T:''">>
+Harder! Fuck me! Yeah...<</speech>>
+You keep watching for around 10 more minutes as their enthusiasm grows to the point where she's almost screaming and laughing at the same time.
+
+<div class="center"><img src="cap/shane3.gif" width="50%"></div>
+<<speech "cap" "''Captain T:''">>
+YES, YES, YES! AAAAHHHH I'M CUMMING!<</speech>>
+<<speech "nobody" "''Black bull:''">>
+Yeah bitch... *HUMP, HUMP*<</speech>>
+Captain takes ahold of the bull's bulky forearms, like taking impulse for her powerful orgasm. In that moment you feel you're really understanding: you will never be able to do that, no matter how much you try to eat her out properly. You are not well equiped at all.
+
+<<speech "cap" "''Captain T:''">>
+Fuck! CUM IN ME! BREED ME, BREED ME!<</speech>>
+<<speech "nobody" "''Black bull:''">>
+Fuck, you gonna take this nut!! AAAAARRGRGGH<</speech>>
+<div class="center"><img src="cumshot.gif" width="50%"></div>
+You stare at the bull's ball twitch and pulsate as he pumps hot streams of cum inside Captain's freshly fucked pussy. After more than 30 seconds of long orgasm, the bull lets her go and falls to the side, letting his huge already flaccid schlong fall out to the side onto his own thigh.
+
+<<speech "cap" "''Captain T:''">>
+Wow, baby... I bet you showed this sissy how to fuck. Did you learn something?<</speech>>
+You stand there speechless and embarrased.
+
+<<speech "nobody" "''Black bull:''">>
+Heh, she shook as fuck!<</speech>>
+<<speech "cap" "''Captain T:''">>
+OMG, I can't even feel your hot load coming out, it must be so deep inside me... I think I might need some help, $name... *devilish smile* come here and help your Captain out...<</speech>>
+[[Help her|Captainoffice][$capcream to 0]]
+<<if $hunger is 0>><<linkreplace "Resist">>You're too hungry...<</linkreplace>><<else>>[[Resist|Captainoffice][$capcream to 1]]<</if>><</linkreplace>>
+
+
+\\<<elseif $capcream is 0>><div class="center"><span class="notplus">POINTS +50</span></div>
+You stand up and get on the bed with them, crawling to her pulsating smelly pussy.
+
+<<speech "cap" "''Captain T:''">>
+That's a good sissy... come here.<</speech>>
+As soon as you're close enough, she gently takes your head and leads you through her thighs into her pussy. Although you can't take your eyes of her pussy, you can feel how wet the insides of her thighs are. The smell is very recognizable, mixing the typical Captain's sweet pussy scent and the musky smell of a man. You finally reach her pussy, and so she let's you get to it.
+
+<<speech "cap" "''Captain T:''">>
+There, c'mon, don't make my bull spank you... hehe...<</speech>>
+<<speech "nobody" "''Black bull:''">>
+Hahaha... such a wuss... *starts stroking his cock*<</speech>>
+You don't know how to approach this pussy. It's weird, because it looks the same as usual, just more dilated. Just as you're about to lick it up, Captain pushes some cum out with her pussy muscles.
+
+<<speech "cap" "''Captain T:''">>
+ *pushes* Ahh... oops...<</speech>>
+<div class="center"><img src="cap/shane4.gif" width="50%"></div>
+As the stream of cum leaks out, you get a bit scared and flinch.
+
+<<speech "cap" "''Captain T:''">>
+$name... my pussy needs some licking...<</speech>>
+Since you've gotten here, you decide to at least try it. And so you take the first lick.
+
+<span class="onomatopeya">SLURP</span>
+
+<<speech "You" "''$name'':">>
+(Hm... <span class="pink">it's not that bad...</span>)<</speech>>
+Once you take the first few licks, the cum mixes with Captain's pussy juices, so it's not as hard. You start forgetting about the cum in her pussy and just start eating her out as you normally would.
+
+<<speech "nobody" "''Black bull:''">>
+Hahaha...<</speech>>
+<<speech "cap" "''Captain T:''">>
+Hahahaha... see? I told you... *starts making out*<</speech>>
+While they start getting it on again, you keep doing your duty. Suddenly, Captain T pushes your head away.
+
+<<speech "cap" "''Captain T:''">>
+Good. Clean enough. Now get out, I need some more of this HUNK!<</speech>>
+Confused, you get off the bed as the bull slaps his slab of meat again her clean pussy. It doesn't take long for him to start the whole process again.
+
+You do as you've been told and get out the room.
+
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+What happened?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Oh, um... she was busy with a man...<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Why did you were in there for so long? What did she make you do?<</speechpatreon>>
+You can tell Penny is a bit excited to know, but also worried, which you appreciate.
+
+<<speech "You" "''$name'':">>
+Oh, the usual: eat her out, just that... well there was cum in there this time.<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Ooh... and... did you like it?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Um... n-no, not really... <span class="pink">Well, but it wasn't "bad"...</span><</speech>>
+Penny gives you a cheering hug and, since the time for the class is over, she gets away. Once left alone with your thoughts you can realize the truth: you actually liked the taste of their juices combined. And the fact of having such a huge penis nearby, being forced to please a girl... you really like all the elements... you think it's wrong that you like those things, but... what's wrong with it, really?
+
+<div class="center">''New Fetish: Creampie Eater''</div>
+<<click "Finish class" "Deck 3">><<set $points to $points +50, $fetish6 to true>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><</click>>
+
+
+
+\\<<elseif $capcream is 1>><div class="center"><span class="notless">POINTS -100</span></div>
+You stay in place, not really knowking what to do.
+
+<<speech "You" "''$name'':">>
+I-I don't... want to do that.<</speech>>
+You feel an adrenaline rush as you say that, but you can tell by Captain's face that you're probably going to regret it. Captain T forces a fake smile on herself.
+
+<<speech "cap" "''Captain T:''">>
+Sure, I won't make you, honey... Just come closer...<</speech>>
+You stand up and sit on the border of the bed.
+
+<<speech "cap" "''Captain T:''">>
+I actually want to go again, you know, so it's fine... oh, but he seems to need some time... but I want it... maybe a sissy like you can put the oral classes to use and help him?<</speech>>
+You stare at her, realizing what she's asking for.
+
+<<speech "nobody" "''Black bull:''">>
+Sissy mouth is always good, or so they say, heh! Good fluffers too!<</speech>>
+<<speech "You" "''$name'':">>
+What? N-no, I'm sorry, but-<</speech>>
+You suddenly focus on the bull's flaccid cock.
+
+<div class="center"><img src="cap/shane5.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+... ... <span class="pink">(Oh, wow... *slurp*)</span><</speech>>
+You don't know if maybe the psychology sessions are messing with your brain, but that sight really paralized you.
+
+<<speech "cap" "''Captain T:''">>
+You sure seem to like that dick... I don't blame you though, that's a nice-ass black cock... C'mon, he needs help, give it to him.<</speech>>
+You unconsciously crawl one step forward, but stop there, insecure about it. The smell is nice, the looks are beautiful... but you don't know if you're ready for that...
+
+<<speech "nobody" "''Black bull:''">>
+Come here, be a good fluffer...<</speech>>
+He gently takes your head and pulls you closer until your face is just a couple inches away from his shaft. You can now smell the remnants of his last orgasm on his glans.
+
+<<speech "You" "''$name'':">>
+(I don't know why, but... <span class="pink">I need to try it...</span> just a lick...)<</speech>>
+<<linkreplace "... ...">><div class="center"><img src="cap/shane6.gif" width="50%"></div>
+<<speech "nobody" "''Black bull:''">>
+Hm...<</speech>>
+He lets your head hover over his glans, so you can choose your speed. It's probably lucky that he just came a minute ago! This relative freedom gives you confidence and, since the first lick was not bad, you take another one, this time trying to close your mouth around it.
+
+<<speech "You" "''$name'':">>
+ *slight moan*<</speech>>
+<<speech "cap" "''Captain T:''">>
+Was that a moan? Goood gurl... *giggles*<</speech>>
+The both start making out as you keep trying to figure out how to approach his massive thick cock. You finally decide to try and take the tip.
+
+<<speech "You" "''$name'':">>
+(I don't even know if my mouth can get around this...)<</speech>>
+It just takes one try to make you realize you can't, so you decide to just try to lick it up and gobble on the tip.
+
+<div class="center"><img src="cap/shane7.gif" width="50%"></div>
+<<speech "nobody" "''Black bull:''">>
+Damn... she's got a soft mouth for sure...<</speech>>
+You can feel his penis getting bigger and bigger, and eventually twitching as you smooch his large frenulum. Suddenly, Captain interrups your makeout session with his dick, so she can start stroking it and getting ready to fuck again.
+
+<<speech "cap" "''Captain T:''">>
+Alright, not too bad... seems like you've got a nice touch for these things, I will take it into account... but we don't need you anymore. Mommy needs her monster cock.<</speech>>
+You stand up, a bit confused by the situation, and walk out of the room.
+
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+What happened?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Oh, um... she was busy with a man...<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Why did you were in there for so long? What did she make you do?<</speechpatreon>>
+You can tell Penny is a bit excited to know, but also worried, which you appreciate.
+
+<<speech "You" "''$name'':">>
+Oh, well they made me watch, and... I had to "fluff" him so they could go again.<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Ooh... and... did you like it?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Um... n-no, not really... <span class="pink">Well, but it wasn't "bad"...</span><</speech>>
+Penny gives you a cheering hug and, since the time for the class is over, she gets away. Once left alone with your thoughts you can realize the truth: you actually loved having enough time to feel your way around such a big real cock. How warm was it, how it was filling up as you kissed it... you know you wanted to try more things.
+
+<div class="center">''New Fetish: Cucky Fluffer''</div>
+<<click "Finish class" "Deck 3">><<set $points to $points -100, $fetish7 to true>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><</click>><</linkreplace>>
+
+
+
+\\<<elseif $capt is 20>><</if>><</if>>
+
+

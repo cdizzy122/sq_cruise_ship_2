@@ -1,0 +1,229 @@
+:: StoryInit [textback] {"position":"103,4","size":"100,100"}
+Before we get started, let's get the names right:
+
+<<ispeech "Youi" "">>
+♂︎ You: <<textbox "$name" "Alex">><</ispeech>><<ispeech "mikei" "">>
+♂︎ Friend: <<textbox "$fname" "Steve">><</ispeech>><<ispeech "gfdi" "">>
+♀︎ GF: <<textbox "$gfname" "Remy">><</ispeech>><<ispeech "lanadi" "">>
+♀︎ GF's friend: <<textbox "$gffname" "Lana">><</ispeech>>
+
+[[Go!|Introduction]]
+<<nobr>><<set $phoni to 0>><<set $lust to 0, $stress to 0>><<set $fit to 0, $fem to 0, $int to 0, $sub to 0>><<set $kitchen to 1>><<set $suntan to 0>><<set $officedoc to 0>><<set $lab to 0>><<set $stage to 0>><<set $carcock to 0>><<set $noshit to true>><<set $calendario to true>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $alreadyshowered to false>><<set $library to 0>><<set $arrival to false>><<set $wardrobe to false>><<set $dos to 4>><<set $massage to true>><<set $logstart to true>><<set $profileState to 0>><<initInv>>
+
+<<cacheaudio "wardrobe1" "audios/wardrobe1.mp3">>
+<<cacheaudio "calling" "audios/calling.mp3">>
+<<cacheaudio "gfdoor" "audios/gfdoor.mp3">>
+<<cacheaudio "door" "audios/door.mp3">>
+<<cacheaudio "splash" "audios/splash.mp3">>
+<<cacheaudio "button" "audios/button.mp3">>
+<<cacheaudio "eat" "audios/eat.mp3">>
+<<cacheaudio "shower" "audios/shower.mp3">>
+<<cacheaudio "uhh" "audios/expressions/uhh.mp3">>
+<<cacheaudio "pee" "audios/pee.mp3">>
+<<cacheaudio "slam" "audios/slam.mp3">>
+<<cacheaudio "intercom" "audios/intercom.mp3">>
+<<cacheaudio "laughbath" "audios/expressions/laughbath.mp3">>
+<<cacheaudio "gm" "audios/expressions/gm.mp3">>
+<<cacheaudio "busdoor" "audios/busdoor.mp3">>
+<<cacheaudio "hey" "audios/expressions/hey.mp3">>
+<<cacheaudio "huh" "audios/expressions/huh.mp3">>
+<<cacheaudio "big" "audios/expressions/big.mp3">>
+<<cacheaudio "robot2" "audios/robot2.mp3">>
+<<cacheaudio "squirt" "audios/squirt.mp3">>
+<<cacheaudio "flash" "audios/flash.mp3">>
+<<cacheaudio "lose" "audios/lose.mp3">>
+<<cacheaudio "win" "audios/win.mp3">>
+<<cacheaudio "shave" "audios/shave.mp3">>
+<<cacheaudio "ding" "audios/ding.mp3">>
+<<cacheaudio "kiss" "audios/kiss.mp3">>
+<<cacheaudio "heels" "audios/heels.mp3">>
+<<cacheaudio "door2" "audios/door2.mp3">>
+<<cacheaudio "locked" "audios/locked.mp3">>
+<<cacheaudio "slurping" "audios/slurping.mp3">>
+<<cacheaudio "desk" "audios/desk.mp3">>
+<<cacheaudio "lick" "audios/lick.mp3">>
+<<cacheaudio "spank" "audios/spank.mp3">>
+<<cacheaudio "ow" "audios/expressions/ow.mp3">>
+<<cacheaudio "fall" "audios/fall.mp3">>
+<<cacheaudio "deck9" "audios/deck9.mp3">>
+<<cacheaudio "office" "audios/office.mp3">>
+<<cacheaudio "park" "audios/park.mp3">>
+<<cacheaudio "stadium" "audios/stadium.mp3">>
+<<cacheaudio "girltalk1" "audios/girltalk1.mp3">>
+<<cacheaudio "robot1" "audios/robot1.mp3">>
+<<cacheaudio "bus" "audios/bus.mp3">>
+<<cacheaudio "sea" "audios/sea.mp3">>
+<<cacheaudio "fireplace" "audios/fireplace.mp3">>
+<<cacheaudio "hm" "audios/expressions/hm.mp3">>
+<<cacheaudio "squeal" "audios/squeal.mp3">>
+<<cacheaudio "what" "audios/expressions/what.mp3">>
+
+
+<<cacheaudio "babecock" "audios/babecock.mp3">>
+<<cacheaudio "morning" "audios/morning.mp3">>
+<<cacheaudio "elevator" "audios/elevator.mp3">>
+<<cacheaudio "out" "audios/out.mp3">>
+<<cacheaudio "ship" "audios/ship.mp3">>
+<<cacheaudio "menus" "audios/menus.mp3">>
+<<cacheaudio "myroom" "audios/myroom.mp3">>
+<<cacheaudio "party" "audios/party.mp3">>
+<<cacheaudio "mystery" "audios/mystery.mp3">>
+<<cacheaudio "gym" "audios/gym.mp3">>
+<<cacheaudio "kitchen" "audios/kitchen.mp3">>
+<<cacheaudio "casino" "audios/casino.mp3">>
+<<cacheaudio "dreams" "audios/dreams.mp3">>
+<<cacheaudio "fashion" "audios/fashion.mp3">>
+<<cacheaudio "sexshop" "audios/sexshop.mp3">>
+<<cacheaudio "spa" "audios/spa.mp3">>
+<<cacheaudio "stage1" "audios/stage1.mp3">>
+<<cacheaudio "french" "audios/french.mp3">>
+<<cacheaudio "spanish" "audios/spanish.mp3">>
+<<cacheaudio "tinder" "audios/tinder.mp3">>
+<<cacheaudio "punish" "audios/punish.mp3">>
+<<cacheaudio "dorky" "audios/dorky.mp3">>
+<<cacheaudio "style" "audios/style.mp3">>
+<<cacheaudio "mozart" "audios/mozart.mp3">>
+<<cacheaudio "chase" "audios/chase.mp3">>
+<<cacheaudio "rome" "audios/rome.mp3">>
+<<cacheaudio "romebar" "audios/romebar.mp3">>
+<<cacheaudio "people" "audios/people.mp3">>
+<<cacheaudio "rometaxi" "audios/rometaxi.mp3">>
+<<cacheaudio "dingdong" "audios/dingdong.mp3">>
+<<cacheaudio "knock" "audios/knock.mp3">>
+<<cacheaudio "zipper" "audios/zipper.mp3">>
+<<cacheaudio "jamaica" "audios/jamaica.mp3">>
+<<cacheaudio "jamaicabar" "audios/jamaicabar.mp3">>
+<<cacheaudio "island" "audios/island.mp3">>
+<<cacheaudio "casablanca" "audios/casablanca.mp3">>
+<<cacheaudio "touriststalk" "audios/touriststalk.mp3">>
+<<cacheaudio "breathe" "audios/breathe.mp3">>
+<<cacheaudio "sdm" "audios/shortdickman.mp3">>
+<<cacheaudio "chill" "audios/chill.mp3">>
+
+<<createaudiogroup ":back">>
+    <<track "myroom">>
+	<<track "morning">>
+	<<track "out">>
+	<<track "ship">>
+	<<track "elevator">>
+	<<track "french">>
+	<<track "spanish">>
+	<<track "mystery">>
+	<<track "rome">>
+	<<track "casablanca">>
+	<<track "morning">>
+	<<track "party">>
+	<<track "gym">>
+	<<track "kitchen">>
+	<<track "casino">>
+	<<track "dreams">>
+	<<track "fashion">>
+	<<track "sexshop">>
+	<<track "spa">>
+	<<track "stage1">>
+	<<track "sea">>
+	<<track "tinder">>
+	<<track "punish">>
+	<<track "dorky">>
+	<<track "style">>
+	<<track "mozart">>
+	<<track "chase">>
+	<<track "romebar">>
+	<<track "touriststalk">>
+<</createaudiogroup>>
+
+
+<<createaudiogroup ":fx">>
+<<track "wardrobe1">>
+<<track "calling">>
+<<track "gfdoor">>
+<<track "door">>
+<<track "splash">>
+<<track "button">>
+<<track "eat">>
+<<track "shower">>
+<<track "uhh">>
+<<track "pee">>
+<<track "slam">>
+<<track "intercom">>
+<<track "laughbath">>
+<<track "gm">>
+<<track "busdoor">>
+<<track "hey">>
+<<track "huh">>
+<<track "big">>
+<<track "robot2">>
+<<track "squirt">>
+<<track "flash">>
+<<track "lose">>
+<<track "win">>
+<<track "shave">>
+<<track "ding">>
+<<track "kiss">>
+<<track "heels">>
+<<track "door2">>
+<<track "locked">>
+<<track "slurping">>
+<<track "desk">>
+<<track "lick">>
+<<track "spank">>
+<<track "ow">>
+<<track "fall">>
+<<track "deck9">>
+<<track "girltalk1">>
+<<track "office">>
+<<track "park">>
+<<track "fireplace">>
+<<track "stadium">>
+<<track "robot1">>
+<<track "sea">>
+<<track "bus">>
+<<track "rometaxi">>
+<<track "dingdong">>
+<<track "people">>
+<<track "knock">>
+<<track "zipper">>
+<<track "breathe">>
+<<track "hm">>
+<<track "squeal">>
+<<track "what">>
+<</createaudiogroup>>
+    
+<<createaudiogroup ":music">>
+<<track "morning">>
+<<track "elevator">>
+<<track "out">>
+<<track "ship">>
+<<track "menus">>
+<<track "myroom">>
+<<track "party">>
+<<track "mystery">>
+<<track "gym">>
+<<track "kitchen">>
+<<track "casino">>
+<<track "dreams">>
+<<track "fashion">>
+<<track "sexshop">>
+<<track "spa">>
+<<track "stage1">>
+<<track "french">>
+<<track "spanish">>
+<<track "sea">>
+<<track "tinder">>
+<<track "punish">>
+<<track "dorky">>
+<<track "style">>
+<<track "mozart">>
+<<track "chase">>
+<<track "rome">>
+<<track "romebar">>
+<<track "casablanca">>
+<<track "touriststalk">>
+<<track "sdm">>
+<<track "chill">>
+<</createaudiogroup>>
+<</nobr>>
+
+    <<set $version to "056">>
+
+

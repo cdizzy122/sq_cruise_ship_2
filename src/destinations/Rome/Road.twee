@@ -1,0 +1,59 @@
+/* got this from the old version. apparently case sensitivity issue */
+/* need to fix this up */
+:: romeroad [textback]
+<<removeclass "html">><<addclass "html" "rome">><<audio "rome" volume 0.4 play loop>><<if ndef $road>><div class="center"><img src="dockings/rome/road.jpg" width="60%"></div>
+As you reach the road, the first thing you look for is a bus or something like that, but all you could see were some taxis lined up on the side and some personal cars, of the locals, you suppose.
+
+<<speech "nobody" "''Taxi driver'':">>
+Hey! English?<</speech>>
+<<speech "You" "''$name'':">>
+Um, yes?<</speech>>
+<<speech "nobody" "''Taxi driver'':">>
+eh, ecco! I take you to place! Come in, come in!<</speech>>
+The man is talking too loud for your liking.
+
+<<speech "You" "''$name'':">>
+N-no thanks. I appreciate it.<</speech>>
+The old man grabs hugs your back and brings you closer.
+
+<<speech "nobody" "''Taxi driver'':">>
+Eio, for a bella donna like you, I do discount! *vigorously points to his taxi*<</speech>>
+<<speech "You" "''$name'':">>
+I said no, thank you!<</speech>>
+You break out from his wrap, and take a step in the opposite direction, but the man didn't seem to take it very well...
+
+<<speech "nobody" "''Taxi driver'':">>
+Ei, no! You not welcome! You want taxi? You can't take taxi! You can ask everyone, nobody will take you!<</speech>>
+Although you know the situation is even worse now, you can't stand that man's smell any longer and you start walking away from the road.
+
+[[Go back to the main street|Street1][$road to 0]]
+
+
+\\<<elseif $road is 0>><div class="center"><img src="dockings/rome/road.jpg" width="60%"></div>
+The taxi man that was supposed to take you to Rome now won't even talk to you. No matter how much you look at him, he seems like he is still mad. Maybe you could convince another one if you show them some money.
+
+<<speech "You" "''$name'':">>
+(How the fuck am I going to convince someone to take me? And what if he doesn't want to, no matter what I do? How will I explain Captain T? I can't imagine what the punishment would be...)<</speech>>
+[[Go back to the main street|Street1][$road to 0]]
+
+
+\\<<elseif $road is 1>><div class="center"><img src="dockings/rome/road.jpg" width="60%"></div>
+You see the taxi man is now busy talking to another pair of tourists, so you go straight to another one behind him.
+
+<<speech "nobody" "''Another taxi driver'':">>
+No, no! I don't take you!<</speech>>
+You take out the money so he can see the bills. After just taking a look at it, he starts to bargain.
+
+<<speech "nobody" "''Another taxi driver'':">>
+40 to go to Rome.<</speech>>
+<<speech "You" "''$name'':">>
+How about 30 to go, and 30 to come back. I won't be gone for long.<</speech>>
+You can see the man thinking and looking at the first taxi driver. He makes a quick move and opens the door of the car.
+
+<<speech "nobody" "''Another taxi driver'':">>
+Ok, I take you and wait until night. 30 go and 30 back.<</speech>>
+<<speech "You" "''$name'':">>
+(Finally...) Fine. Perfect.<</speech>>
+The car engine starts and you get on your way to your date.
+
+<<if $tprofile is 1>><<click "Go to your date" "Aryana">><<if ndef $mutefx>><<audio "rometaxi" play>><<else>><</if>><</click>><<elseif $tprofile is 2>><<click "Go to your date" "BFFF">><<if ndef $mutefx>><<audio "rometaxi" play>><<else>><</if>><</click>><<elseif $tprofile is 3>><<click "Go to your date" "Flat">><<if ndef $mutefx>><<audio "rometaxi" play>><<else>><</if>><</click>><</if>><</if>><<if ndef $mute>><<audio "rome" unmute>><<else>><</if>><<audio "menus" stop>>

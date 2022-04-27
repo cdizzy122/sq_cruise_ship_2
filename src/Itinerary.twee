@@ -1,0 +1,172 @@
+:: Itinerary [noreturn] {"position":"277,1037","size":"100,100"}
+<<if ndef $dayn or $dayn is 1 or $dayn is 2>><img src="itinerary/map1.gif" width="110%">
+
+You just sailed!
+
+Next stop: La Rochelle-France.
+
+[[Return|Inventory]]<<elseif $dayn is 3 or $dayn is 4 or $dayn is 5>><img src="itinerary/map2.gif" width="110%">
+
+You're sailing just above France.
+
+Next stop: La Rochelle-France.
+
+[[Return|Inventory]]<<elseif $dayn is 6 or $dayn is 7>><img src="itinerary/map3.gif" width="110%">
+
+You're sailing the west coast of France.
+
+Next stop: La Rochelle-France.
+
+[[Return|Inventory]]<<elseif $dayn is 8>><img src="itinerary/map4.gif" width="110%">
+
+You arrived to La Rochelle-France!
+
+You'll be sailing tomorrow.
+
+[[Return|Inventory]]<<elseif $dayn is 9>><img src="itinerary/map5.gif" width="110%">
+
+You're sailing the north coast of Spain.
+
+Next stop: Barcelona-Spain.
+
+[[Return|Inventory]]<<elseif $dayn is 10>><img src="itinerary/map6.gif" width="110%">
+
+You're sailing the north coast of Spain.
+
+Next stop: Barcelona-Spain.
+
+[[Return|Inventory]]<<elseif $dayn is 11>><img src="itinerary/map7.gif" width="110%">
+
+You're sailing the west coast of Portugal.
+
+Next stop: Barcelona-Spain.
+
+[[Return|Inventory]]<<elseif $dayn is 12>><img src="itinerary/map8.gif" width="110%">
+
+You're sailing the south coast of Portugal.
+
+Next stop: Barcelona-Spain.
+
+[[Return|Inventory]]<<elseif $dayn is 13>><img src="itinerary/map9.gif" width="110%">
+
+You're crossing the Strait of Gibraltar, between the south coast of Spain and Morocco.
+
+Next stop: Barcelona-Spain.
+
+[[Return|Inventory]]<<elseif $dayn is 14>><img src="itinerary/map10.gif" width="110%">
+
+You're sailing the Mediterranean sea.
+
+Next stop: Barcelona-Spain.
+
+[[Return|Inventory]]<<elseif $dayn is 15>><img src="itinerary/map11.gif" width="110%">
+
+You arrived to Barcelona-Spain!
+
+You'll be sailing tomorrow.
+
+[[Return|Inventory]]<<elseif $dayn gte 16 and $dayn lt 19>><img src="itinerary/map12.gif" width="110%">
+
+You're sailing the Mediterranean sea.
+
+Next stop: Porto Turistico di Roma-Italy.
+
+[[Return|Inventory]]<<elseif $dayn gte 19 and $dayn lt 22>><img src="itinerary/map13.gif" width="110%">
+
+You're sailing the Mediterranean sea, between the islands of Corse and Sardegna.
+
+Next stop: Porto Turistico di Roma-Italy.
+
+[[Return|Inventory]]<<elseif $dayn is 22>><img src="itinerary/map14.gif" width="110%">
+
+You arrived to Porto Turistico di Roma-Italy!
+
+You'll be sailing tomorrow.
+
+[[Return|Inventory]]<<elseif $dayn is 23>><img src="itinerary/map15.gif" width="110%">
+
+You're sailing the Mediterranean sea.
+
+Next stop: Casablanca (Morocco).
+
+[[Return|Inventory]]<<elseif $dayn is 24>><img src="itinerary/map16.gif" width="110%">
+
+You're sailing the Mediterranean sea.
+
+Next stop: Casablanca (Morocco).
+
+[[Return|Inventory]]<<elseif $dayn is 25>><img src="itinerary/map17.gif" width="110%">
+
+You're sailing the Mediterranean sea.
+
+Next stop: Casablanca (Morocco).
+
+[[Return|Inventory]]<<elseif $dayn is 26>><img src="itinerary/map18.gif" width="110%">
+
+You're sailing the Mediterranean sea.
+
+Next stop: Casablanca (Morocco).
+
+[[Return|Inventory]]<<elseif $dayn is 27>><img src="itinerary/map19.gif" width="110%">
+
+You're crossing the Strait of Gibraltar, between the south coast of Spain and Morocco.
+
+Next stop: Casablanca (Morocco).
+
+[[Return|Inventory]]<<elseif $dayn is 28>><img src="itinerary/map20.gif" width="110%">
+
+You're sailing the west coast of Africa (Atlantic sea).
+
+Next stop: Casablanca (Morocco).
+
+[[Return|Inventory]]<<elseif $dayn is 29>><img src="itinerary/map21.gif" width="110%">
+
+You arrived to Casablanca (Morocco)!
+
+You'll be sailing tomorrow.
+
+[[Return|Inventory]]<<elseif $dayn is 30>><img src="itinerary/map22.gif" width="110%">
+
+You're sailing the west coast of Africa, next to the Sahara Dessert (Atlantic sea).
+
+Next stop: Port Autonome de Dakar (Senegal).
+
+[[Return|Inventory]]<<elseif $dayn is 31>><img src="itinerary/map23.gif" width="110%">
+
+You're sailing the west coast of Africa, next to the Sahara Dessert (Atlantic sea).
+
+Next stop: Port Autonome de Dakar (Senegal).
+
+[[Return|Inventory]]<<elseif $dayn is 32>><img src="itinerary/map24.gif" width="110%">
+
+You're sailing the west coast of Africa, next to the Sahara Dessert (Atlantic sea).
+
+Next stop: Port Autonome de Dakar (Senegal).
+
+[[Return|Inventory]]<<elseif $dayn is 33>><img src="itinerary/map25.gif" width="110%">
+
+You're sailing the west coast of Africa, between Sahara and Mauritania (Atlantic sea).
+
+Next stop: Port Autonome de Dakar (Senegal).
+
+[[Return|Inventory]]<<elseif $dayn is 34>><img src="itinerary/map26.gif" width="110%">
+
+You're sailing the west coast of Africa, next to Mauritania (Atlantic sea).
+
+Next stop: Port Autonome de Dakar (Senegal).
+
+[[Return|Inventory]]<<elseif $dayn is 35>><img src="itinerary/map27.gif" width="110%">
+
+You're sailing the west coast of Africa, next to Mauritania (Atlantic sea).
+
+Next stop: Port Autonome de Dakar (Senegal).
+
+[[Return|Inventory]]<<elseif $dayn is 36>><img src="itinerary/map28.gif" width="110%">
+
+You arrived to Port Autonome de Dakar (Senegal)!
+
+You'll be sailing tomorrow.
+
+[[Return|Inventory]]<</if>>
+
+

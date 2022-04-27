@@ -1,0 +1,8 @@
+:: Wake up [textback] {"position":"309,3","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><span class="fade-in"><img src="places1/wakeup.jpg" width="90%">
+You open your eyes and feel the sun light coming through the window.
+
+[[Stand up]]</span>
+<<set $noshit to true>><<set $calendario to true>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $alreadyshowered to false>><<set $library to 0>><<set $arrival to false>><<audio "morning" loop play>><<audio "menus" stop>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>>
+
+

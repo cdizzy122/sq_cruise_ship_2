@@ -1,0 +1,249 @@
+:: SMS5 [phone] {"position":"1230,2873","size":"100,100"}
+<<if ndef $altersms5>><<speech "lanad" "''$gffname:''">>
+Oh My God... turns out that I've got a real talent to taunt you Beta boys!<</speech>>
+<<speech "You" "''$name:''">>
+ *sigh* Good for you...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Goddess $gffname.<</speech>>
+<<speech "You" "''$name:''">>
+What? Do you expect me to-<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Well, of course I do. I'm sure you'd like it if you give it a try. C'mon, say it: "Good for you, Goddess $gffname."<</speech>>
+<<speech "You" "''$name:''">>
+Good for you... G-Goddess $gffname.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+ *smiles* Good boy... I would pat your head if you were here, but I'll give you a condescendant kiss instead.<</speech>>
+<div class="center"><img src="lana/throwkiss.gif" width="35%"></div>
+The way she's teasing you while staying in control, is making you very horny.
+
+<<speech "You" "''$name:''">>
+Um... <span class="pink">Thanks... *blush*</span> (Did I really thank her? She's blackmailed me! $name, wake up!)<</speech>>
+<<speech "lanad" "''$gffname:''">>
+I've gotta say, you pretty boys actually make the world sweeter... but your pee-pees... Ugh! Why are you always sending clitty pics if you know you're so small? Look all these sissies...<</speech>>
+<<linkreplace "DING">><<if ndef $mutefx>><<audio "ding" play>><<else>><</if>><div class="center"><span class="fade-ins"><img src="lana/sissies.jpg" width="60%"></span></div>
+<<speech "You" "''$name:''">>
+ *gasp*<</speech>>
+As you scroll through the snap of her inbox, you can't help but relate with all those tiny clitties.
+
+<<speech "You" "''$name:''">>
+(Oh... they really must be horny... <span class="pink">Just like me...</span>)<</speech>>
+<<speech "lanad" "''$gffname:''">>
+See? Pretty lame, huh? But also... kind of cute... but, of course, they have to pay me to look at these tiny shrimps.<</speech>>
+<<speech "You" "''$name:''">>
+(Cute...? <span class="pink">Maybe she thought mine was cute too?</span>) Some of these are...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Pathetic, yes. And pretty similar to yours as well. 🎵You're not aloooone🎵 Hahahaha<</speech>>
+<<speech "You" "''$name:''">>
+ *blush*<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Talking about you, little guy, how about a new picture of that pretty pinky? 😈😈 Just a quick snappy?<</speech>>
+As she calls your penis "pinky" you feel a twitch on your caged clitty and your already blushes cheeks turn redder.
+
+<<speech "You" "''$name:''">>
+(I'm so horny...)<</speech>>
+[[Take the picture|SMS5][$altersms5 to 0]]
+<<if $lust gte 80>><<linkreplace "Don't do it!">>Your LUST is too high...<</linkreplace>><<else>>[[Don't do it!|SMS5][$altersms5 to 1]]<</if>><</linkreplace>>
+
+
+
+
+\\<<elseif $altersms5 is 0>>You look the other way, but no matter how much you try, you now she's got you by the balls. And that is actually turning you on...
+
+<<speech "You" "''$name:''">>
+(Hmmmm...)<</speech>>
+You try to close your thighs trapping your caged birdy and trying to contain your lust, but it's just too much to bare.
+
+<<speech "lanad" "''$gffname:''">>
+What's wrong, sissy? Are too busy tugging that clitty? 💄💦<</speech>>
+<<speech "You" "''$name:''">>
+(Hmmm... She's so annoying and hot...) <span class="pink">No, I... can't and I shouldn't...</span><</speech>>
+<<speech "lanad" "''$gffname:''">>
+What...? That's the first time I've heard a Beta talk like that. But that's very wise, cutie. Only cocks should be stroked, isn't that right?<</speech>>
+As you're reading this, you reach back to your most sensitive area: your perineum. You rub the area around your ass with your fingers.
+
+<<speech "You" "''$name:''">>
+(Ahm...) <span class="pink">Yes...</span><</speech>>
+You can tell that you're saying things you shouldn't, but the lust is fogging your mind too much for you to even have coherent thoughts anymore.
+
+<<speech "lanad" "''$gffname:''">>
+Yes? I see... and you would stroke a cock, wouldn't you?<</speech>>
+<<speech "You" "''$name:''">>
+Hmm... <span class="pink">yes...</span> *gasp* what?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Ah-hah, too late, you said it. I think your subconscious betrayed you there, shrimpy...<</speech>>
+Your finger moves by itself and gets into your sissy-pussy, making you exhale heavily and moan out of pleasure.
+
+<<speech "You" "''$name:''">>
+(Aahhh...)<</speech>>
+You instantly get your clothes off and get comfortable on the bed while you keep on, touching yourself. You whip your cage from side to side, trying to get some pleasure out of that, but it just makes you more frustrated...
+
+<<speech "lanad" "''$gffname:''">>
+I'm waiting for that picture, I want to have a laugh at that pathetic excuse for a penis.<</speech>>
+You take your phone and without thinking it through you take a picture of your erect leaking clitty inside of its tight cage.
+
+<<linkreplace "FLASH">><<if ndef $mutefx>><<audio "flash" volume 0.6 play>><<else>><</if>><div class="center"><span class="fade-ins"><img src="lana/horny1.gif" width="50%"></span></div>
+ *SEND*
+
+Once you hit send, you now that this is not going to end well for you. Your tummy starts feeling weird and your face expression changes from lust-filled to scared.
+
+...
+
+...
+
+...
+
+After what seems like an eternity, $gffname finally responds.
+
+<<speech "lanad" "''$gffname:''">>
+OH-MY-GOD Yes, God, yes! That-a-boy! 🤣🤣🤣 Let me save this in my gallery! I'll even make a copy! Trully a work of art, I would call it: "Caged False Man". Awesome! How long have you been in that pretty little cage?<</speech>>
+<<speech "You" "''$name:''">>
+It'd be... more than 2 weeks now...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oooh... good puppy... 🐕🐕 And who's your Goddess?<</speech>>
+<<speech "You" "''$name:''">>
+Well... (Am I really about to tell her this...?) <span class="red"><font size="-2">I'm being trained here as a... sissy...</font></span><</speech>>
+You see that last phrase turn red and dissapear, leaving the text basically empty.
+
+<<speech "You" "''$name:''">>
+(I see Captain T is not even trusting me on these...) Her name is... Tara. She's nice... but she's not a "Goddess", but a "Mistress".<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh my God... Even better! I just like them to serve me, but mistresses really like to have sissies. You're a lucky little shrimpy! But... you can have both, you know? She's take your masculinity, and I'll take your money 😍😍🤑<</speech>>
+<<speech "You" "''$name:''">>
+Um... about that...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oooh I see you're hesitating. I bet $gfname would love to know about this... Maybe even your friend $fname...?<</speech>>
+You sink your face into your hands.
+
+<<speech "You" "''$name:''">>
+ *sigh* (This is awful... why the fuck did I do this!?)<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Hah... Just what I thought... My "simps" usually pay me 100$ for me to comment on their useless pee-pees, but I'll give you a discount, since you're my favourite.<</speech>>
+Ironically, you feel a wave of happiness as you read her saying you're her favourite.
+
+<<speech "lanad" "''$gffname:''">>
+How about... 60$?<</speech>>
+<<speech "You" "''$name:''">>
+I... don't think I have that somewhere you can take it from...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+PayPal will do.<</speech>>
+<<speech "You" "''$name'':">>
+(This could be really dangerous, but I don't know what else to do...) T-there's some money in the drawer in my room...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Hm, I'll see if that's enough. It'll be harder to get to your room without $gfname noticing, but I'll try. If she catches me... well, then I'll have to tell her about this... Hahaha<</speech>>
+As she leaves the chat, you keep rubbing your body a bit more until you're too frustrated to keep going.
+
+<<speech "You" "''$name'':">>
+(Agh... I just hope this doesn't escalate more... or else I will run out of change... This will not end well)<</speech>>
+[[Return|Bedroom][$lanasms to 8, $smsm8 to false]]<</linkreplace>>
+
+
+
+
+
+
+
+\\<<elseif $altersms5 is 1>>You know that if you actually send her something, she will try to blackmail you. And you're not going to allow that anymore. But despite that fact, you're also noticing how horny you actually are...
+
+<<speech "You" "''$name:''">>
+(Hmmmm...)<</speech>>
+You try to close your thighs trapping your caged birdy and trying to contain your lust, but it's just too much to bare.
+
+<<speech "lanad" "''$gffname:''">>
+What's wrong, sissy? Are too busy tugging that clitty? 💄💦<</speech>>
+<<speech "You" "''$name:''">>
+(Hmmm... She's so annoying and hot...) <span class="pink">No, I... can't and I shouldn't...</span><</speech>>
+<<speech "lanad" "''$gffname:''">>
+What...? That's the first time I've heard a Beta talk like that. But that's very wise, cutie. Only cocks should be stroked, isn't that right?<</speech>>
+As you're reading this, you reach back to your most sensitive area: your perineum. You rub the area around your ass with your fingers.
+
+<<speech "You" "''$name:''">>
+(Ahm...) <span class="pink">Yes...</span><</speech>>
+You can tell that you're saying things you shouldn't, but the lust is fogging your mind too much for you to even have coherent thoughts anymore.
+
+<<speech "lanad" "''$gffname:''">>
+Yes? I see... and you would stroke a cock, wouldn't you?<</speech>>
+<<speech "You" "''$name:''">>
+Hmm... <span class="pink">yes...</span> *gasp* what?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Ah-hah, too late, you said it. I think your subconscious betrayed you there, shrimpy...<</speech>>
+Your finger moves by itself and gets into your sissy-pussy, making you exhale heavily and moan out of pleasure.
+
+<<speech "You" "''$name:''">>
+(Aahhh...)<</speech>>
+You instantly get your clothes off and get comfortable on the bed while you keep on, touching yourself. You whip your cage from side to side, trying to get some pleasure out of that, but it just makes you more frustrated...
+
+<<speech "lanad" "''$gffname:''">>
+I'm waiting for that picture, I want to have a laugh at that pathetic excuse for a penis.<</speech>>
+You're about to do so, but you stop at the last second.
+
+<<speech "You" "''$name:''">>
+No! I know that if I do so, you'll threat to share it again.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+ *fake gasp* I would do so? Nooo, I wouldn't... I'm a loving Goddess, in fact, YOUR loving Goddess...<</speech>>
+<<linkreplace "DING">><div class="center"><span class="fade-ins"><img src="lana/lananude.jpg" width="50%"></span></div>
+<<speech "lanad" "''$gffname:''">>
+What would you do for me to swallow your weenie? Would you like me to suck on it until you came all over my throat? I bet I could deepthroat your balls too... <span class="imgpop deepballs"><a class="specialeffects">not the first time I would have done it...</a></span><</speech>>
+Just imagining $gffname grabbing you and deepthroating your small penis and balls makes you fluster even more.
+
+<<speech "You" "''$name:''">>
+<span class="pink">Hmmm... that would be amazing...</span><</speech>>
+<<speech "lanad" "''$gffname:''">>
+Yeah, I bet you'd love that... Maybe this Goddess will do so some day, if you behave well and do as I say. Now, Goddess wants to see how horny you are right now.<</speech>>
+You let yourself go, and fogged by her picture and your thoughts, you take a snap of your caged leaking penis.
+
+<<linkreplace "FLASH">><<if ndef $mutefx>><<audio "flash" volume 0.6 play>><<else>><</if>><div class="center"><span class="fade-ins"><img src="lana/horny1.gif" width="50%"></span></div>
+ *SEND*
+
+Once you hit send, you now that this is not going to end well for you. Your tummy starts feeling weird and your face expression changes from lust-filled to scared.
+
+...
+
+...
+
+...
+
+After what seems like an eternity, $gffname finally responds.
+
+<<speech "lanad" "''$gffname:''">>
+OH-MY-GOD Yes, God, yes! That-a-boy! 🤣🤣🤣 Let me save this in my gallery! I'll even make a copy! Trully a work of art, I would call it: "Caged False Man". Awesome! How long have you been in that pretty little cage?<</speech>>
+<<speech "You" "''$name:''">>
+It'd be... more than 2 weeks now...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oooh... good puppy... 🐕🐕 And who's your Goddess?<</speech>>
+<<speech "You" "''$name:''">>
+Well... (Am I really about to tell her this...?) <span class="red"><font size="-2">I'm being trained here as a... sissy...</font></span><</speech>>
+You see that last phrase turn red and dissapear, leaving the text basically empty.
+
+<<speech "You" "''$name:''">>
+(I see Captain T is not even trusting me on these...) Her name is... Tara. She's nice... but she's not a "Goddess", but a "Mistress".<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh my God... Even better! I just like them to serve me, but mistresses really like to have sissies. You're a lucky little shrimpy! But... you can have both, you know? She's take your masculinity, and I'll take your money 😍😍🤑<</speech>>
+<<speech "You" "''$name:''">>
+Um... about that...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oooh I see you're hesitating. I bet $gfname would love to know about this... Maybe even your friend $fname...?<</speech>>
+You sink your face into your hands.
+
+<<speech "You" "''$name:''">>
+ *sigh* (This is awful... why the fuck did I do this!?)<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Hah... Just what I thought... My "simps" usually pay me 100$ for me to comment on their useless pee-pees, but I'll give you a discount, since you're my favourite.<</speech>>
+Ironically, you feel a wave of happiness as you read her saying you're her favourite.
+
+<<speech "lanad" "''$gffname:''">>
+How about... 60$?<</speech>>
+<<speech "You" "''$name:''">>
+I... don't think I have that somewhere you can take it from...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+PayPal will do.<</speech>>
+<<speech "You" "''$name'':">>
+(This could be really dangerous, but I don't know what else to do...) T-there's some money in the drawer in my room...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Hm, I'll see if that's enough. It'll be harder to get to your room without $gfname noticing, but I'll try. If she catches me... well, then I'll have to tell her about this... Hahaha<</speech>>
+As she leaves the chat, you keep rubbing your body a bit more until you're too frustrated to keep going.
+
+<<speech "You" "''$name'':">>
+(Agh... I just hope this doesn't escalate more... or else I will run out of change... This will not end well)<</speech>>
+[[Return|Bedroom][$lanasms to 8, $smsm8 to false]]<</linkreplace>><</linkreplace>><</if>>
+
+

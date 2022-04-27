@@ -1,0 +1,28 @@
+:: Go to Bastien's [textback] {"position":"3994,1844","size":"100,100"}
+<<removeclass "html">><<addclass "html" "french">><<speech "nobody" "''Bastien:''">>
+Hey, boy. Do you have the money?<</speech>>
+<<if $realmoney is true>><<speech "You" "''$name:''">>
+How about this? *you get out the ring*<</speech>>
+Batien looks it with greedy eyes.
+
+<<speech "You" "''$name:''">>
+Wait... first show me the stuff.<</speech>>
+<<speech "nobody" "''Bastien:''">>
+Hahahaha, good boy, you learn fast. *He brings the plastic bag out and puts it on the counter*<</speech>>
+You give him the ring with one hand and grab the bag with the other.
+<<set $drug1 to "Finished">>
+<<speech "You" "''$name:''">>
+(Ok, that should be it. Mission acomplished!)<</speech>>
+ ''*Enhancer was added to Inventory*''<<set $enhancer to true>><<set $lockerring to false>>
+
+<<click "Return" "rocheport">><<set $drug1 to "Finished", $rochellee to 0>><<audio "office" stop>><</click>><<addmins 15>><<elseif $realmoney is false>><<speech "You" "''$name:''">>
+No, not yet. Do you have any clue where I could get any?<</speech>>
+<<speech "nobody" "''Bastien:''">>
+If I were you, I would try with some tourists. Those are always distracted and have their pockets filled with cash.<</speech>>
+<<speech "You" "''$name:''">>
+No, I won't steal. Thank you very much.<</speech>>
+<<speech "nobody" "''Bastien:''">>
+Suit yourself...<</speech>>
+<<click "Return" "rocheport">><<audio "office" stop>><</click>><</if>><<if ndef $mute>><<audio "french" unmute>><<else>><</if>><<if ndef $mutefx>><<audio "office" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

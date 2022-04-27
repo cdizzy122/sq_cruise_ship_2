@@ -1,0 +1,27 @@
+:: Put on makeup [textback] {"position":"1566,1645","size":"100,100"}
+<<if $sample gte 1>>You get every item out of the samples kit, organizing them a bit over the bathroom counter.
+
+<<speech "You" "''$name'':">>
+Well, let's see if I got this right...<</speech>>
+<div class="center"><img src="clothes/makeup2.jpg" width="42%">
+
+''You're wearing some <span class="pink">very basic makeup</span>''</div>
+[[Return|bathship][$wearmakeup to 1]]
+
+
+\\<<elseif $skincare is true and $eyemakeup is true>>You get every item out of the large kits, organizing them a bit over the bathroom counter.
+
+<<speech "You" "''$name'':">>
+Well, let's see if I got this right...<</speech>>
+<div class="center"><img src="clothes/makeup2.jpg" width="42%">
+
+''You're wearing some <span class="pink">very basic makeup</span>''</div>
+[[Return|bathship][$wearmakeup to 1]]
+
+\\<<else>>You don't have enough items for a full makeup.
+
+<<speech "You" "''$name'':">>
+(I should buy some samples, or both the skincare and the eyemakeup kits if I want to try this out...)<</speech>>
+[[Return|bathship]]<</if>>
+
+

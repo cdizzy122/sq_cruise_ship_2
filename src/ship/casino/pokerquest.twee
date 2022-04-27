@@ -1,0 +1,461 @@
+:: pokerquest [textback noborder] {"position":"2136,1051","size":"100,100"}
+<<removeclass "html">><<addclass "html" "velvet">><<if ndef $pokerquest>><div class="center"><img src="places2/poker.jpg" width="80%"></div>
+<<speech "nobody" "''Poker dealer:''">>
+Hi miss, would you like to play?<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''???'':</span>
+Hey, the table's full. Scram.<</speechpatreon>>
+<div class="center"><img src="quest10/maggie1.jpg" width="50%"></div>
+<<speech "nobody" "''Poker dealer:''">>
+Um... yeah, sorry about that. You can sit down miss- I mean, mister.<</speech>>
+<<speech "You" "''$name:''">>
+Um... ok, thanks...<</speech>>
+You can see the strange woman judging you with each move you make. You can't help but feel intimidated by her. You sit on the chair.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''???'':</span>
+ *lights another cigarette* Well, well... so you're feeling brave? Hehe...<</speechpatreon>>
+<<speech "You" "''$name:''">>
+Excuse me miss, but who are you?<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''???'':</span>
+Who am I?! Hell... *exhales smoke*<</speechpatreon>>
+<<speech "nobody" "''Poker dealer:''">>
+I'm sorry, but I have to tell you again: you can't smoke in here, miss-<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''???'':</span>
+Right, right... *takes another puff*<</speechpatreon>>
+<<speech "You" "''$name:''">>
+(She really doesn't care, does she?)<</speech>>
+The dealer subtly rolls her eyes.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Well, I'm Maggie Flush. The Maggie Flush. *smiles cheekily*<</speechpatreon>>
+<<speech "You" "''$name:''">>
+... ... (Who?)<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+I won last year's World Series, and thought I would go to the Extreme Poker Cruise Ship. But, as I'm sure you're aware of... this is not that ship.<</speechpatreon>>
+<<speech "You" "''$name:''">>
+(Did the travel agency also missplaced her?) How come?<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Well... *exhales smoke* I guess someone didn't do their job right. Maybe it's for the better...<</speechpatreon>>
+<<speech "You" "''$name:''">>
+What do you mean?<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Not your business, freak. Since you sat on the table, we should play... Now's when the dealer DEALS the cards.<</speechpatreon>>
+<<speech "nobody" "''Poker dealer:''">>
+O-oh, right.<</speech>>
+The dealer shuffles and deals the cards.
+
+<<nobr>><<if ndef $slots>><<linkreplace "Start game">>You're not ready yet...<</linkreplace>><<elseif $slots is true>>[[Start game|pokerquest][$pokerquest to 1]]<</if>><</nobr>>
+[[Refuse to play yet|Casino][$pokerquest to 0]]
+
+
+\\<<elseif $pokerquest is 0>><<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Is the little girl gonna play now or what?<</speechpatreon>>
+<<speech "nobody" "''Poker dealer:''">>
+ *whisper* ...Nobody will play with you... *cough, cough*<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Excuse me?<</speechpatreon>>
+<<speech "nobody" "''Poker dealer:''">>
+Oh, n-nothing. *starts dealing the cards*<</speech>>
+<<speech "You" "''$name:''">>
+You know, you are paralyzing the whole table. Some girl would like to join in-<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Do I look like I care? Hahaha *exhales smoke*<</speechpatreon>>
+<<speech "You" "''$name:''">>
+I just think it's not fair-<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Fair? I'm better, I win. That's all there is. I risk it, I win. That's how it works.<</speechpatreon>>
+<<speech "You" "''$name:''">>
+Look, back there's a VIP room. I bet you could find some better challenges in there. You win, everyone wins.<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Hehe... That's not how you negociate, gurl... You have to make me think I'm really winning on this. How about we bet! You win, I go and you get a reward. If I win, you are MINE and I'll play wherever the fuck I want. *smiles devilishly*<</speechpatreon>>
+By the way she's looking at you, you can't help but blush and feel nervous. You are about to start a game with the poker world champion, and she's for real...
+
+[[Start game|pokerquest][$pokerquest to 1]]
+
+
+\\<<elseif $pokerquest is 1>><<speech "nobody" "''Poker dealer:''">>
+Alright? Are we starting?<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Shh... just focus on dealing lady.<</speechpatreon>>
+<<speech "nobody" "''Poker dealer:''">>
+ *cough, cough* Fuck you- *cough, cough*<</speech>>
+You lean over and take a shy look at your cards.
+
+<div class="center"><img src="quest10/myhand.jpg" width="50%"></div>
+<<speech "You" "''$name:''">>
+(Huh, it's been a while since I played poker, but... for what I remember, the highest the cards I get the better. A pair would be better, but...)<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+You don't look very convinced with those cards, honey... Hahaha<</speechpatreon>>
+<<speech "You" "''$name:''">>
+(Am I that easy to read??)<</speech>>
+Before you can remember what the next step is, the the dealer puts the first 3 cards on the table.
+
+<<linkreplace "... ...">><div class="center"><div class="row3"><div class="column3">
+ <img src="quest10/aceclubs.png" width="50%"></div><div class="column3">
+  <img src="quest10/acehearts.png" width="50%"></div><div class="column3">
+  <img src="quest10/ninehearts.png" width="50%"></div></div></div>
+You are surprised by how good they are for you. She deals ''2 Aces and a nine''.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Love those cards, huh? Hahaha<</speechpatreon>>
+<<speech "You" "''$name:''">>
+(Jesus, $name, stop grinning...)<</speech>>
+Suddenly, Maggie raises her voice and speaks to the dealer.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+I raise 20.<</speechpatreon>>
+<<speech "You" "''$name:''">>
+Um... (I think I've got a good hand... 3 aces is not bad, although, she could definitely have a full house or something...)<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+What's wrong? Is your hand not that good? *smiles*<</speechpatreon>>
+<<speech "You" "''$name:''">>
+(I should try and read her as well...) I call.<</speech>>
+You figure you can't win if you don't keep playing. With 3 aces you could still get an easy full house or even the 4 aces...
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Nice, seems like you might still have your balls attached. Although it probably wasn't a smart move...<</speechpatreon>>
+<<if $int gte 110>><div class="center"><span class="pink"><span class="fade-in-out">⬇︎IF ''IQ'' MORE THAN 110⬇︎</span></span></div><<speech "You" "''$name:''">>
+(Nah, she's just trying to play with me. I'll just focus on the odds. Even though right now she could have a better hand that me, mine could get a lot better with the next card.)<</speech>>
+You see the dealer putting down the next card, but instead of looking directly at the card, you focus on Maggie's reaction.
+
+<div class="center"><img src="quest10/maggie2.gif" width="50%"></div>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+ *smiles* Nice...<</speechpatreon>>
+You raise your eyebrow a little, surprised by her reaction. Even though it makes you nervous, you can't help but feel like that smile is a little bit forced...
+
+<<speech "You" "''$name:''">>
+(What if she if bluffing...?)<</speech>>
+You look down and look at the new card:
+
+<div class="center"><img src="quest10/tenspades.png" width="30%"></div>
+<<speech "You" "''$name:''">>
+(Yeah, well that one doesn't help, I still have 3 aces...)<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+I raise 50.<</speechpatreon>>
+You stare at her.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+What? Too BIG a challenge for you? I guess you prefer going SMALL... Hahaha<</speechpatreon>>
+<<speech "You" "''$name:''">>
+I call!<</speech>>
+You surprise yourself by saying that. You don't even know if that's smart anymore... Your hand is the same, and her's could be anywhere from great to horrible... But you have already made your mind: She's bluffing.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Oh, yeah? Well, let the game continue then.<</speechpatreon>>
+The dealer puts down the last card of the game:
+
+<div class="center"><img src="quest10/dealercards.jpg" width="50%"></div>
+<<speech "You" "''$name:''">>
+(Not a change... *sigh* I don't know about this...)<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+I raise 150!<</speechpatreon>>
+<<speech "nobody" "''Poker dealer:''">>
+ *whisper* Oh, damn...<</speech>>
+<<speech "You" "''$name:''">>
+(Am I really going to go ahead with only 3 aces? She could have an amazing hand... god, I'm so indecisive...)<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Tic, toc, tic, toc...<</speechpatreon>>
+<<speech "You" "''$name:''">>
+(Fuck it, I may be doing something dumb, but...) I call!<</speech>>
+<<speech "nobody" "''Poker dealer:''">>
+ *sigh* Alrrrrright, cards face up!<</speech>>
+The dealer faces both your cards up. You go straight to see which were Maggie's cards.
+
+<<linkreplace "... ...">><div class="center"><img src="quest10/herhand.jpg" width="50%"></div>
+<<speech "nobody" "''Poker dealer:''">>
+ *gasp* Well, first win on this side in a loooong time! Congrats.<</speech>>
+<<speech "You" "''$name:''">>
+W-what? I won?<</speech>>
+Everything happened so fast you didn't even noticed that 3 of a kind is worth more than 2 pairs, which is what Maggie's got.
+
+<<speech "nobody" "''Poker dealer:''">>
+Yep. Nice job, gir-I mean, guy.<</speech>>
+Maggie keeps calmly smoking what's left of her cigarette. Then she leaves it in the ashtray and get up from the table.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Yeah, well, I thought I was playing with stupid amateurs. Turns out you might not be as stupid as those thots from before... C'mon, follow me, hon.<</speechpatreon>>
+You start walking to the exit of the casino, wondering where will she lead you to. While you are passing by the slots, you can see the asian woman saying thank you while she brings her friends to the poker table.
+
+Once you both are out of the noise, Maggie lights up another cigarette.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Alright then, so I guess you should take the lead, since I'm your reward...<</speechpatreon>>
+<<speech "You" "''$name:''">>
+Oh, um...<</speech>>
+You can only think of your room, but you really wouldn't want her to see any of your toys... so you decide to ask to go to hers.
+
+<<speech "You" "''$name:''">>
+How about your room? I bet it's closer.<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Oh, you can't help yourself, huh? *inhales smoke* Let's go to mine then, it's on the 2nd deck.<</speechpatreon>>
+You both go down on the elevator and arrive to her door, which is only 3 doors away from yours.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Welcome to the fucking paradise. You drink, you fuck, you go. That's what we do here...<</speechpatreon>>
+<div class="center"><img src="quest10/maggieroom.jpg" width="50%"></div>
+It's definitely not as big as Tara's, but seem a bit better than yours for sure. You go and sit on the bed.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Hey, what are you doing? No, no, not on my bed.<</speechpatreon>>
+You stand up, confused.
+
+<<speech "You" "''$name:''">>
+Oh, sorry. But then...<</speech>>
+Without even listening to you, she sits where you were.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Ok, now suit yourself. *exhales smoke*<</speechpatreon>>
+You keep looking at her without knowing what to do. You take a look at her exposed legs and see how she opens then a bit.
+
+<<speech "You" "''$name:''">>
+(Oh, I know that signal)<</speech>>
+Without asking a thing you get on your knees and start giving smooches to her knees, asking for permission.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+What? Oh, there? Hahaha no, no... you are not getting there. You can play with what you see, but that is out of bounds. *inhales smoke*<</speechpatreon>>
+You stand still, kneeling.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+God, you don't even have a clue, do you? Come on, just show me what you're working with and start rubbing it.<</speechpatreon>>
+Maggie takes your clothes off, exposing your already leaking caged penis.
+
+<div class="center"><img src="quest10/cage.jpg" width="50%"></div>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Yeah, well, I've done worse. Come on, I'll give a few minutes. Rub it wherever you want.<</speechpatreon>>
+Naked and with nothing else to hide, you decide to take advantage of your reward. You touch your tiny balls and keep going back to your anus. You just poke it a bit.
+
+<<speech "You" "''$name:''">>
+Ahh...<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Ah, yeah, I thought you were one of those... *throws smoke at your face*<</speechpatreon>>
+<<speech "You" "''$name:''">>
+Ahh... *cough, cough*<</speech>>
+You look at Maggie to make her stop, but it seems like she enjoys bugging you while you try get off.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Are you not even going to touch me...? *fondles breasts*<</speechpatreon>>
+Your tongue sticks out of your mouth and your lean forward trying to grab them. 
+
+<<speech "You" "''$name:''">>
+Hmm... they're huge! (<span class="pink">God, she's so hot...</span>)<</speech>>
+Suddenly, Maggie throws a big cloud of smoke at your face.
+
+<div class="center"><img src="quest10/maggie3.gif" width="50%"></div>
+<<speech "You" "''$name:''">>
+ *cough, cough* No, please, stop that!<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+What? Are you telling me what to do at my room? You do remember that my foot is right under your balls, right?<</speechpatreon>>
+Maggie softly taps your balls repeatedly with her shoe.
+
+<<speech "You" "''$name:''">>
+Ahm...<</speech>>
+You let her massage your balls with her foot while you keep leaning in and trying to get those huge boobs out of that dress. It doesn't take too long for them to pop right out.
+
+<div class="center"><img src="quest10/tits1.jpg" width="50%"></div>
+You start feasting on the left nipple as you feel her foot taps getting harder gradually.
+
+<div class="center"><img src="quest10/tapcage.gif" width="50%"></div>
+<<speech "You" "''$name:''">>
+Ow, ow, OW! No, wait, stop...<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+See? I try to play and you just don't want to... Aaanyway, just finish already.<</speechpatreon>>
+Maggie pulls you closer, so you can cram your cage and balls on her leg.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+There, do that leg like a doggie.<</speechpatreon>>
+By this point you are so horny that you just find yourself doing exactly what she just told you to do. You hump her toned calf with your caged cock, trying to get some kind of stimulus from it. Although you can't feel a thing on your small penis, shivers run down your spine every time your blue balls slap her smooth leg.
+
+<<speech "You" "''$name:''">>
+Ahh... yeah, mmm... *smooch*<</speech>>
+You start making out with her knee again, kissing your way to her inner thigh.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Hm... that's off limits, you dog. *throws smoke at your face*<</speechpatreon>>
+<<speech "You" "''$name:''">>
+ *cough, cough*<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Hahaha *bites her finger* C'mon, hump it, hump it!<</speechpatreon>>
+Maggie starts "helping" you again, pushing her leg against your crotch harder, with the ocasional slow kick. You keep on kissing her leg as she pets your head like if you were a cute puppy.
+
+Time passes by, and you can tell Maggie is getting impatient, since her kicks are no longer pleasurable.
+
+<<speech "You" "''$name:''">>
+Ouch! No, no, no...<</speech>>
+That last kick really hurt a bit more than the rest and you need to stand up. As soon as you stand up, Maggie does as well.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+What's the matter, huh? Well I guess we're done. You know where the door is.<</speechpatreon>>
+<<speech "You" "''$name:''">>
+(Ouch! It still hurts... this bitch is bad!)<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+C'mon, get dressed. I'm gonna go back to the casino now.<</speechpatreon>>
+<<speech "You" "''$name:''">>
+To the casino? Oh, but-<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Yeah, yeah... I'll go and try the VIP area, don't moan about it.<</speechpatreon>>
+You quickly grab your stuff and head straight to your room.
+
+[[Finish|Deck 4][$poker to "Finished", $maggiequest to true]]<</linkreplace>>
+
+
+
+
+
+
+\\<<else>><div class="center"><span class="pink"><span class="fade-in-out">⬇︎IF ''IQ'' LESS THAN 110⬇︎</span></span></div>
+<<speech "You" "''$name:''">>
+(Oh god... I probably shouldn't have... Maybe I could fold and try to win next time-)<</speech>>
+You see the dealer putting down the next card, which makes you extremely nervous, and although you know you should be looking for weird gestures, you can't help but look right into the cards.
+
+<div class="center"><img src="quest10/tenspades.png" width="30%"></div>
+<<speech "You" "''$name:''">>
+(Yeah, well that one doesn't help, I still have 3 aces...)<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+I raise 50.<</speechpatreon>>
+You stare at her.
+
+<div class="center"><img src="quest10/maggie4.gif" width="60%"></div>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+What? Too BIG a challenge for you? I guess you prefer going SMALL... Hahaha<</speechpatreon>>
+<<speech "You" "''$name:''">>
+I call!<</speech>>
+You surprise yourself by saying that. You don't even know if that's smart anymore... Your hand is the same, and her's could be anywhere from great to horrible...
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Oh, yeah? Well, let the game continue then.<</speechpatreon>>
+The dealer puts down the last card of the game:
+
+<div class="center"><img src="quest10/dealercards.jpg" width="50%"></div>
+<<speech "You" "''$name:''">>
+(Not a change... *sigh* I don't know about this...)<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+I raise 150!<</speechpatreon>>
+<<speech "nobody" "''Poker dealer:''">>
+ *whisper* Oh, damn...<</speech>>
+<<speech "You" "''$name:''">>
+(Am I really going to go ahead with only 3 aces? She could have an amazing hand... god, I'm so indecisive...)<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Tic, toc, tic, toc...<</speechpatreon>>
+<<speech "You" "''$name:''">>
+I fold!<</speech>>
+<<speech "nobody" "''Poker dealer:''">>
+ *sigh* Oh... well, then the lady wins.<</speech>>
+The dealer faces both your cards up. You go straight to see which were Maggie's cards.
+
+<<linkreplace "... ...">><div class="center"><img src="quest10/herhand.jpg" width="50%"></div>
+<<speech "nobody" "''Poker dealer:''">>
+ *gasp* Hahaha...<</speech>>
+<<speech "You" "''$name:''">>
+W-what? You only had 2 pairs? (I would have won...)<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Hehehe *inhales some smoke* This is what poker is about, read your opponent. And you are like an open book, little guy.<</speechpatreon>>
+Maggie keeps calmly smoking what's left of her cigarette, then she puts it out in the ashtray and looks at you.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+I guess you're mine now... *exhales smoke* hm, what to do... I know, how about a feet massage while a do another game.<</speechpatreon>>
+<<speech "You" "''$name:''">>
+Um... (not the worst I've done on this ship)<</speech>>
+You stand up and walk to her from the side. Once you are close, she puts a hand on your chest, stopping you.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+No, no... you've got to do it like a good little boi, down the table, c'mon!<</speechpatreon>>
+You crouch and get under the table. The view is not so bad, you're sure that some guys would love to see this.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+C'mon... *takes shoes off* get on it, and you, deal some cards.<</speechpatreon>>
+Just as you are grabbing her feet, a couple of women arrive at the table. You feel sorry for them, but stay quiet and just work on Maggie's massage.
+
+<<speech "You" "''$name:''">>
+(Hmm...)<</speech>>
+You can hear how the game has already started, and Maggie is playing around with the new girls, just as she did with you. When they are in the middle of the first game, she raises her dress a bit with her hand, showing her sexy underwear to you.
+
+<<speech "You" "''$name:''">>
+(She's teasing me? Does she want me to...)<</speech>>
+Just the thought of having a wet pussy in mouth is making your small dick strain against your cage, and you can't help but start kissing your way to her panties. Once you arrive there, Maggie clear the path and puts it aside, so you can have a clear view of it.
+
+<div class="center"><img src="quest10/panties1.gif" width="50%"></div>
+Once her smell reaches your nostrils you just can't hold it anymore and lean it to lick her pussy.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Oooh... well... *exhales smoke*<</speechpatreon>>
+You lick it up and down and make your way into her clitoris, then lick it repeatedly while occasionally sucking on it.
+
+<<speech "nobody" "''Poker dealer:''">>
+ *giggle* Are you ok?<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Ahm? Oh, fuck yeah...<</speechpatreon>>
+You can tell Maggie's movements are making all the other girls suspicious, so you tone it down an just limit the cunnilingus to the licking around.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Oh... hahaha why the weird faces, ladies? I raise!<</speechpatreon>>
+Just as she says that, she pushes your face deep into her crotch. You take this as a sign to keep up the sucking, and so you do.
+
+<<speech "You" "''$name:''">>
+ *slurp, slurp* <span class="pink">Hm... (tastes sooo good...)</span><</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Ah, ah, AH!<</speechpatreon>>
+Suddenly, you see Maggie's cards falling to the floor.
+
+<<speech "nobody" "''Player 1:''">>
+Ok, now, what the hell is happening down there?!<</speech>>
+The annoyed woman crouches under the table, just to see your surprised face covered with Maggie's juices.
+
+<<speech "You" "''$name:''">>
+Oh, um- *slurp, slurp* I-I-<</speech>>
+<<speech "nobody" "''Player 1:''">>
+WTF! You freak!<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+What? You want some licking too? Alright. *pats your head* Go to her now, little boi.<</speechpatreon>>
+The player stands up and goes away, but the other player stays seated. Maggie look at you at points to her instead, so you crawl to the woman and just poke her legs to see if she wants some.
+
+<<speech "nobody" "''Player 2:''">>
+What the- *she takes a look down her legs* Aw... is this cute little guy yours? *smiles*<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+ *inhales smoke* Just for the game...<</speechpatreon>>
+<<speech "nobody" "''Player 2:''">>
+Mind if I borrow him then?<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Suit yourself, I'm already bored.<</speechpatreon>>
+You should be feeling used and embarrased, but you've spent so much time between Captain's legs that this somehow feels natural. Plus, the taste of pussy is highly addictive for you!
+
+<<speech "nobody" "''Player 2:''">>
+Hey, cutie, come here... *pats her thighs*<</speech>>
+You get closer and put your head on her legs. You can see her smiling as she slides her panties to the side.
+
+<<speech "You" "''$name:''">>
+ *sniff, sniff* <span class="pink">AAhhh... so good...</span><</speech>>
+You dive right in and put your chin on the seat, so you can really focus your strength on it. You start doing it as you know, licking it up and getting your tongue as deepn as you can.
+
+<<speech "nobody" "''Player 2:''">>
+Yeah... wow. Ah, ah, AH! Shit!<</speech>>
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Alright, back to this! *points to her own pussy*<</speechpatreon>>
+You crawl back between Maggie's legs and keep on sucking her pussy.
+
+<<speech "nobody" "''Player 2:''">>
+Hey, I'm getting jealous... *giggle*<</speech>>
+You go back to her again and continue your job. They keep sending you back and forth again and again for the game. But then another one comes, and then another one...
+
+<<linkreplace "... ...">><<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Aaand I win again! My turn, boi!<</speechpatreon>>
+<<speech "nobody" "''Player 2:''">>
+Aww... I almost came that time...<</speech>>
+The player stands up and walks away while she places her panties straight. You keep on sucking on Maggie's pussy as fast as you can, but your tongue is already numb and you know you're not really doing a good job.
+
+Suddenly, Maggie pushes your head away from her.
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Enough of that, I'm bored of this shit. Get out of there.<</speechpatreon>>
+You stand up and notice how half of the staff of the casino are laughing at you. That must've been a nice show you gave them...
+
+<<speechpatreon "Maggie" "">><span class="imgpop Maggie">''Maggie Flush'':</span>
+Do us all a favour and wipe up your face, will ya? I'm over this place, I'm going in the VIP area. If you ever get in, which I doubt you will, feel free to find me in there and keep sucking on my pussy. See ya, fag.<</speechpatreon>>
+Maggie walks away and gets in the VIP room. After a few seconds, the women by the slots come to the table.
+
+<<speech "nobody" "''Serious asian woman'':">>
+Hey, thanks for that. We saw from here, and... you really were involved in the cause, gurl... *giggles*<</speech>>
+All the girls sit down and start playing while laughing at you. Embarrased and confused, you walk out of the casino.
+
+[[Finish|Deck 4][$poker to "Finished", $maggiequest to true]]<</linkreplace>><</linkreplace>><</if>><</linkreplace>><</if>>
+<<nobr>><<if $gameDate.getHours() is 0 or $gameDate.getHours() lt 8>><<goto [[Dreams][$dreams to random (1,2)]>><<else>><</if>><</nobr>><<audio "menus" stop>><<if ndef $mute>><<audio "casino" unmute>><<else>><</if>>
+
+

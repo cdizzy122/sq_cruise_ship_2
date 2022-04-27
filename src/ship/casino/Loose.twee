@@ -1,0 +1,33 @@
+:: Loose [textback] {"position":"2606,901","size":"100,100"}
+<<removeclass "html">><<addclass "html" "velvet">><div class="center">YOU LOSE!
+
+<img src="stuff/lose1.gif" width="60%">
+
+$name lost 5 points!
+
+[[Play again|Yes]]
+[[Return|Poker]]</div>
+<<nobr>><<if $gameDate.getHours() is 0 or $gameDate.getHours() lt 8>><<goto [[Dreams]]>><<else>><</if>><</nobr>><<addmins 10>><<set $points to $points -5>><<audio "menus" stop>><<if ndef $mutefx>><<audio "lose" play>><<else>><</if>><<if ndef $mute>><<audio "casino" unmute>><<else>><</if>>
+
+
+<<nobr>><<if ndef $dayn or $dayn lt 1>><<else>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] isnot "Sun">>
+
+<<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">>
+<<nobr>><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 10>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 12>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 14>><<goto "Caught">><<set $caught to 3>><</if>><</nobr>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Mon">>
+<<nobr>><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 10>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 12>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 14>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 18>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 19>><<goto "Caught">><<set $caught to 3>><</if>><</nobr>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Tue">>
+<<nobr>><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 10>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 12>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 14>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 18>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 19>><<goto "Caught">><<set $caught to 3>><</if>><</nobr>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Wed">>
+<<nobr>><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 10>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 12>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 14>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 18>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 19>><<goto "Caught">><<set $caught to 3>><</if>><</nobr>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Thu">>
+<<nobr>><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 10>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 12>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 14>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 18>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 19>><<goto "Caught">><<set $caught to 3>><</if>><</nobr>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Fri">>
+<<nobr>><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 10>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 12>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 14>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 18>><<goto "Caught">><<set $caught to 3>><<elseif $gameDate.getHours() is 19>><<goto "Caught">><<set $caught to 3>><</if>><</nobr>><</if>><<else>><</if>><</if>><</nobr>>
+
+

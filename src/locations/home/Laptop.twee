@@ -1,0 +1,22 @@
+:: Laptop [textback] {"position":"789,108","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><<if $laptop is "moreinchnoflinch" or $laptop is "Moreinchnoflinch" or $laptop is "moreinchneverflinch">><div class="center"><span class="noborder"><img src="gf/laptopgf1.png" width="75%"></span></div>
+As soon as you get access to the laptop, you start feeling bad about it.
+
+<<speech "You" "''$name'':">>
+(I really shouldn't be doing this... this is so invasive...)<</speech>>
+All that really piqued your interest is the internet browser and the photo gallery.<<set $laptopquest to "Finished">>
+
+<div class="center">[[Browser|laptopin][$laptopin to 0]] | [[Gallery|laptopin][$laptopin to 1]]
+<<if $lockedfolder is 1>>[[Close|Laptop][$laptop to ""]]<<else>><<linkreplace "Close">>I need to see this...<</linkreplace>><</if>></div><<audio "morning" stop>>
+
+
+
+\\<<else>><<if ndef $laptopset>><<if $laptopquest is "1/2 done">><<else>><<if $lockedfolder is 1>><<else>><<set $laptopquest to "Active", $badge to $badge +1, $laptopset to 0>><</if>><</if>><<else>><</if>><div class="center"><img src="places1/gflaptop.png" width="60%"></div>
+Obviously, it has a passcode...
+
+<<if $laptopquest is "1/2 done">><<speech "You" "''$name'':">>
+(It was... ''"moreinchnoflinch"''...)<</speech>><<else>><</if>>
+<div class="center"><<textbox "$laptop" "">>[[Enter|Laptop]]</div>
+[[Return|open gfdoor]]<</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

@@ -1,0 +1,57 @@
+:: Changing room [noborder textback] {"position":"1483,531","size":"100,100"}
+<<removeclass "html">><<addclass "html" "hearts">><div class="center"><img src="clothes/changing.jpg" width="25%"></div>
+You get into one of the few small changing rooms at the side of the pool. 
+
+<<if $buyupper0 is true>><<if ndef $putonswim1>>You take out the swimsuit and give it a good look.
+
+<div class="center"><img src="clothes/swimsuit.png" width="40%"></div>
+<<speech "You" "''$name'':">>
+(OMG... for real? Do I really have to wear this?)<</speech>>
+You start getting your clothes off, a bit concerned about the loose lock on the small changing room. Once you've gotten everything off, you start fitting into the tight swimsuit.
+
+<div class="center"><img src="clothes/swimsuit1.jpg" width="40%"></div>
+You blush, embarrased by how absurd your reflection looks. You breathe in and out a few times, trying to relax. Once you feel calm enough, you proceed and get into the swimming pool area.
+
+<span class="normal">[[Swim|Pool1][$outpool to 0, $poolscene to random (0,20), $putonswim1 to 0]]</span>
+
+
+\\<<elseif $putonswim1 is 0>>You take out the swimsuit and put it on.
+
+<div class="center"><img src="clothes/swimsuit1.jpg" width="50%"></div>
+You blush, embarrased by how absurd your reflection looks. You breathe in and out a few times, trying to relax. Once you feel calm enough, you proceed and get into the swimming pool area.
+
+<span class="normal">[[Swim|Pool1][$outpool to 0, $poolscene to random (0,20), $putonswim1 to 0]]</span><</if>>
+
+
+\\<<elseif $buybikini is true>><<if ndef $putonswim2>>You take out the swimsuit and give it a good look.
+
+<div class="center"><img src="clothes/bikini.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(But... how is this thing even going to fit me...?)<</speech>>
+You stare at the small bikini, not even knowing how to approach it. You take your clothes off and try to fit into the bikini.
+
+<div class="center"><img src="clothes/bikini1.jpg" width="50%"></div>
+To your surprise, it fits you well enough. Your crotch is noticeable, but nothing too embarrasing. The bikini hugs your sissy tits tightly.
+
+<<speech "You" "''$name'':">>
+(I guess it's not that bad...)<</speech>>
+<span class="normal">[[Swim|Pool1][$outpool to 0, $poolscene to random (0,20), $putonswim2 to 0]]</span>
+
+
+\\<<elseif $putonswim2 is 0>>You take out the bikini and put it on.
+
+<div class="center"><img src="clothes/bikini1.jpg" width="50%"></div>
+You blush, embarrased by how absurd your reflection looks. You breathe in and out a few times, trying to relax. Once you feel calm enough, you proceed and get into the swimming pool area.
+
+<span class="normal">[[Swim|Pool1][$outpool to 0, $poolscene to random (0,20), $putonswim2 to 0]]</span><</if>>
+
+
+\\<<else>>Although, just as you're getting your clothes off, you remember you don't even have any swimwear.
+
+<<speech "You" "''$name'':">>
+(Oh, great! Then why the fuck did I get in here?)<</speech>>
+You need some swimwear in order to swim around in the pool.
+
+<span class="normal"><<click "Return" "Outside pool">><</click>></span><</if>><<audio "menus" stop>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>>
+
+

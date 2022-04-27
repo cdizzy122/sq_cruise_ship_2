@@ -1,0 +1,97 @@
+:: SMS11 [phone] {"position":"850,3003","size":"100,100"}
+<<speech "mike" "''$fname:''">>
+Hey mate! How are you doing? I'm at the stores right now.<</speech>>
+<<speech "You" "''$name:''">>
+Oh, hey, I'm fine. How are you? What are you buying?<</speech>>
+<<speech "mike" "''$fname:''">>
+Oh, nothing, just a couple of things I needed. I just wanted to ask you if you'd recommend that neighbour of yours.<</speech>>
+<<speech "You" "''$name:''">>
+My neigh- oh, you mean $gffname?<</speech>>
+<<speech "mike" "''$fname:''">>
+Yep, just wanted to ask you, because, well... I've got a match!<</speech>>
+<div class="center"><img src="lana/tinder1.jpg" width="30%"></div>
+<<speech "You" "''$name:''">>
+Oh... well, I think she's... (a bitch...)<</speech>>
+Even though you're kind of happy for $fname, you are still kind of scared of $gffname.
+
+<<speech "You" "''$name:''">>
+(She could easily send him my picture or tell him about all that embarrasing stuff... this is awful!) I don't really think you should mess around with her...<</speech>>
+<<speech "mike" "''$fname:''">>
+Dude, have you seen her? I am going to pound that, that's for sure man...<</speech>>
+<<speech "You" "''$name:''">>
+(Agh...) Well, okay, but I think you should go easy with her. She's kind of a bitch, you know?<</speech>>
+<<speech "mike" "''$fname:''">>
+Hm, I'll take that into consideration.<</speech>>
+<<speech "You" "''$name:''">>
+... which means you don't care.<</speech>>
+<<speech "mike" "''$fname:''">>
+Hahahaha You know me, man!<</speech>>
+You see him going offline.
+
+<<speech "You" "''$name:''">>
+(Fuck...)<</speech>>
+<<linkreplace "DING">><<if ndef $mutefx>><<audio "ding" play>><<else>><</if>><<speech "lanad" "''$gffname:''">>
+LOL Isn't this, like, your only friend?<</speech>>
+<div class="center"><img src="lana/tinder2.jpg" width="30%"></div>
+<<speech "You" "''$name:''">>
+Yeah, he just told me that he found you as well...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oooh, really? And did he say nice things about me?<</speech>>
+<<speech "You" "''$name:''">>
+Look, why don't you talk to him and-<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh, sure. I'll "talk" to him... 😈😈<</speech>>
+...
+
+...
+
+...
+
+<<linkreplace "DING">><<speech "mike" "''$fname:''">>
+Wow, dude... she's actually around the stores as well and we're going to meet in a while!<</speech>>
+<<speech "You" "''$name:''">>
+... ... (Fuck...)<</speech>>
+You don't like this a bit, but if $gffname keeps her mouth shut about you, you really don't care that much about $fname having fun with her.
+
+...
+
+...
+
+...
+
+You let the phone go for a while.
+
+...
+
+...
+
+...
+
+<<linkreplace "BZZZT">><span class="onomatopeya"><span class="rumble">BZZZZZZZT</span></span>
+
+<div class="center"><img src="lana/flash1.jpg" width="40%"></div>
+<<speech "You" "''$name:''">>
+What the-!<</speech>>
+<<speech "mike" "''$fname:''">>
+Hahaha Look at this girl! She's crazy!<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Come here! You like my tits, $fname??<</speech>>
+<div class="center"><img src="lana/flash2.jpg" width="60%"></div>
+<<speech "mike" "''$fname:''">>
+Wow! Hahaha WTF!<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Yeah, and you, $name? Do you like that?<</speech>>
+You are too weirded out by the situation, and so you decide it's better to stay quiet.
+
+<<speech "You" "''$name:''">>
+... ...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Hah! I bet he's jacking off... Come here, $fname, let's have some more fun around here! If you behave, I'll even help you out with that bulge I'm seeing...<</speech>>
+<div class="center"><img src="lana/flash3.gif" width="60%"></div>
+<<speech "mike" "''$fname:''">>
+Ooof... gotta go, buddy!<</speech>>
+<<speech "You" "''$name:''">>
+(This is awful...)<</speech>>
+[[Return|Bedroom][$lanasms to 4, $smsm5a to false]]<</linkreplace>><</linkreplace>><</linkreplace>>
+
+

@@ -1,0 +1,40 @@
+:: Park [textback] {"position":"743,735","size":"100,100"}
+<<removeclass "html">><<addclass "html" "street">><div class="center"><img src="places1/park.jpg" width="80%"></div>
+<<speech "mike" "''$fname:''">>
+There you are! I was just about to call you again. What took you so long??<</speech>>
+<<speech "You" "''$name:''">>
+Oh, I was taking $gfname her lunch. She forgot it to take it with her.<</speech>>
+<<speech "mike" "''$fname:''">>
+Damn, you're the perfect hubby aren't you? Hahaha<</speech>>
+<<speech "You" "''$name:''">>
+Yeah... hahaha<</speech>>
+<<speech "mike" "''$fname:''">>
+I thought you guys were having some issues, is everything better now?<</speech>>
+<<speech "You" "''$name:''">>
+I mean... it's difficult to know with $gfname, but she was sweeter than usual, so I think we'll be fine. She just needs time to adjust to her new job...<</speech>>
+<<speech "mike" "''$fname:''">>
+I bet you'd both love to have some time for yourselves and go somewhere, wouldn't you?<</speech>>
+<<speech "You" "''$name:''">>
+With everything that's been happening we haven't even talked about vacation, but I bet she'd love to get away for a while.<</speech>>
+<<speech "mike" "''$fname:''">>
+Oh, really...?<</speech>>
+$fname smirks as he looks around. You frown, not understanding his expression.
+
+<<speech "You" "''$name:''">>
+... what? what do you- *gasp* really?!<</speech>>
+<<speech "mike" "''$fname:''">>
+Yep, you got it! I'm giving you guys a trip for your anniversary. You've earned it!<</speech>>
+<<speech "You" "''$name:''">>
+No shit! That is amazing!!<</speech>>
+<<speech "mike" "''$fname:''">>
+I know right? hahahaha you fuckin' got the fuckin' best friend in the world.<</speech>>
+<<speech "You" "''$name:''">>
+Oh, wait, this is too much... maybe you can come with us-<</speech>>
+<<speech "mike" "''$fname:''">>
+No need to be polite, $name. I can't go out all summer, I've got to work. Not like you, spoiled brat!<</speech>>
+ *You both laugh*<<addmins 10>>
+  
+<<speech "mike" "''$fname:''">>
+Well, what are we waiting for then? Let's [[go|Travel agency]]<</speech>><<if ndef $mute>><<audio "menus" stop>><<audio ":back" unmute>><<else>><</if>><<if ndef $mutefx>><<audio "park" volume 0 fadein>><<else>><</if>><<audio "touriststalk" stop>>
+
+

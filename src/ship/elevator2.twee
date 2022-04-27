@@ -1,0 +1,24 @@
+:: elevator2 [noborder textback] {"position":"2043,1698","size":"100,100"}
+<<removeclass "html">><<addclass "html" "decks">><<audio "party" fadeout>><<audio "myroom" volume 0.2 loop play>><<if ndef $mute>><<audio "myroom" unmute>><<else>><</if>><img src="places2/elevator.jpg" width="60%">
+
+She presses the DECK 3 button. Just as she does, her eyes stare at you like a predator.
+
+<span class="fade-ins"><img src="tara/taranear.jpg" width="50%"></span>
+
+You open your eyes widely as you know what is coming:
+
+<<linkreplace "... ...">><<audio "kiss" play>><span class="pulse"><img src="tara/tarakissclose.gif" width="60%"></span>
+
+Her soft and juicy lips reach your mouth and opens your lips. Then her wet and jiggly tongue expertly playing in your mouth. She keeps her eyes open, intimidating you more and more, as if she is expecting something from you. 
+
+She finally lets you loose. You breath heavily. It feels like she sucked your life out.
+
+<<speech "tara" "''Tara:''">>
+You really are one of a kind, eh?<</speech>>
+<<speech "You" "''$name:''">>
+What...*sigh* what do you mean?<</speech>>
+<<speech "tara" "''Tara:''">>
+Well, I didn't feel much action there. I guess you are different that the men I use to date. You must be all action down there, huh? *winks*<</speech>>
+[[*Doors open*|Her room]]<</linkreplace>><<audio "menus" stop>>
+
+

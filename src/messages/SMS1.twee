@@ -1,0 +1,116 @@
+:: SMS1 [phone] {"position":"355,2877","size":"100,100"}
+<<if ndef $altercuck>><<if ndef $mutefx>><<audio "ding" play>><<else>><</if>><<speech "lanad" "''$gffname:''">>
+Hey you!<</speech>>
+<<speech "You" "''$name:''">>
+Um... yes?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+$gfname just told me about you fucking STALKING her. You're such a sneaky weasle.<</speech>>
+<<speech "You" "''$name:''">>
+Okay, whatever, I already explained that to $gfname. I don't need to talk about this. Bye.<</speech>>
+You close the conversation as quick as you opened it. You don't really know why did you even check it in the first place.
+
+<<speech "You" "''$name:''">>
+(I should've just ignored her...)<</speech>>
+<span class="onomatopeya">DING</span>
+
+Suddenly, you get another text from her. You are just about to put your phone in your pocket, but something makes you unblock the screen and take a look.
+
+<div class="center"><span class="noborder"><img src="lana/notification.png" width="50%"></span></div>
+<<speech "You" "''$name:''">>
+(Oh, it's a photo...)<</speech>>
+The curiosity is more powerful than your will this time and you tap on the notification.
+
+<<linkreplace "TAP">><div class="center"><img src="lana/lanacleavage1.jpg" width="41%"></div>
+<<speech "You" "''$name:''">>
+... ... What...?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh, got your attention, didn't it? Want to see them like you did at my pool?<</speech>>
+<<speech "You" "''$name:''">>
+(I knew she saw me!) Um... what? N-no, no...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Heh... Right, well, I just wanted to say that, although you are a horny little stalker, I think I can understand your position.<</speech>>
+<<speech "You" "''$name:''">>
+Oh, really? What exactly do you understand?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Well, I bet you've felt pretty lonely since you moved here. I always see you walking with your head down like a loser.<</speech>>
+$gffname has a way of saying things that both sound comforting and bitchy at the same time. And you are still not sure if you are up for it.
+
+<<speech "You" "''$name:''">>
+Whatever, like you would understand a thing.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Of course I do! Don't treat me like some superficial bitch!<</speech>>
+<<speech "You" "''$name:''">>
+(Well, that's exactly what I think you are...)<</speech>>
+<<speech "lanad" "''$gffname:''">>
+I've also had my heart broken and felt left apart. I just wanted you to know that I get your point and that I understand why you did what you did: S T A L K I N G...<</speech>>
+<<speech "You" "''$name:''">>
+Okay, for the last time: I'm not a stalker. I was just worried about out relationship and was trying my best to know what the hell was going on, since $gfname was not talking to me.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Yeah, well, I understand her as well, you know? She's been... around... before you.<</speech>>
+<<speech "You" "''$name:''">>
+What do you mean?<</speech>>
+As soon as you make the question, you regret it. You had enough with the material in her laptop.
+
+<<speech "lanad" "''$gffname:''">>
+I thought you saw her pictures? What are you? A fish?! Jeez, what a memory, little guy...<</speech>>
+<<speech "You" "''$name:''">>
+Well, yes. I know. Please, can you stop talking about those pictures?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Hahaha... but it's not like she even cheated on you. Those were just her exes! I think that's where your reaction was waaaay out of hand. You should've kept the secret to yourself.<</speech>>
+You stare at the wall in front of you for a few seconds, thinking about that.
+
+<<speech "You" "''$name:''">>
+(If I had stayed silent, I wouldn't be stuck in this cruise and I would still be with $gfname...) Maybe you're right. She's with me now for a reason, right?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+I mean, yeah. It's just clearly not your penis.<</speech>>
+<<speech "You" "''$name:''">>
+$gffname, God... this is just embarrasing, I shouldn't talk with you. I don't need this. I'm over it.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh, c'mon! We can talk about this, right? Just like in a girls only <span class="imgpop slumberparty"><a class="specialeffects">slumber party</a></span>! 💄👄<</speech>>
+[[Silence her chat and close the app|Bedroom][$lanasms to 0, $smsm1a to false]]
+[[Tell her to be nice to you, please...|SMS1][$altercuck to 0]]<</linkreplace>>
+
+
+\\<<elseif $altercuck is 0>><<speech "You" "''$name:''">>
+$gffname, I'm serious now. I'm not going to stand this, okay?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh, don't be like that. I like to play rough, I'm just like that! You need to relax a bit, little guy...<</speech>>
+<<speech "You" "''$name:''">>
+It's just that it's a bit much when you try and bring up my exes' penises.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Ooookay, I got it. You really are a thin skin soy-boy, God...<</speech>>
+As you read her insults again, you understand that it's not going to stop. That's just the way she is.
+
+<<speech "You" "''$name:''">>
+So, what happened to you so you can actually relate to my situation?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Of course, the situation is not the same, but similar in a way. When I was still a teenager, my boyfriend of the time was cheating on me with my best friend.<</speech>>
+<<speech "You" "''$name:''">>
+Oh... that must have been hard for sure... Then what?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Well, we had a <span class="imgpop threesome"><a class="specialeffects">threesome</a></span> and-<</speech>>
+You roll your eyes.
+
+<<speech "You" "''$name:''">>
+That is already not at all like my situation.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Hey, don't be rude, you twat! I'm writing now. What I wanted to say was that, after that happened, I stopped talking to those two and found my next boyfriend, who was, like, a whole FOOT taller than him. And boy... don't even get me started on his horsecock... 🐴🍆😍💦<</speech>>
+<<speech "You" "''$name:''">>
+So... what's the moral of the story then?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+The fucking moral is that you should ENJOY THE FUCK OUT OF THAT CRUISE! Jeez... you're so dumb...<</speech>>
+You shrug your shoulders, not being sure if that's even going to be possible on this ship.
+
+<<speech "You" "''$name:''">>
+(Yeah, well... so much for that idea...) Ah-hah... I get it.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+I'll get back to you.<</speech>>
+You can see her getting offline automatically without waiting for a proper goodbye.
+
+<<speech "You" "''$name:''">>
+(Rude as fuck... but weirdly nicer. Almost seemed as if she was concerned for me...)<</speech>>
+You keep thinking about her initial picture. You don't even recall $gfname sending you anything like that while you two were on your prime... She really is a show-off... a very sexy show-off...
+
+[[Return|Bedroom][$lanasms to 0, $smsm1a to false]]<</if>>
+
+

@@ -1,0 +1,36 @@
+:: taraevents [textback] {"position":"2545,1264","size":"100,100"}
+<<removeclass "html">><<addclass "html" "decks">><<if $taraevents is 1>><img src="places2/deck4.png" width="80%">
+
+You are on Deck 4 and you look around, looking for some woman who might look nice and kind enough to take a picture with you. After a while, you approach one of them.
+
+<<speech "You" "''$name:''">>
+Excuse me, would you mind taking a picture for me.<</speech>>
+<<speech "nobody" "''Woman:''">>
+What for? Is it for your jerking fag sessions? *giggles*<</speech>>
+<<speech "You" "''$name:''">>
+N-no... I just have to do it as an assignment.<</speech>>
+<<speech "nobody" "''Woman:''">>
+Yeah, yeah, suuure... C'mon, just take it.<</speech>>
+<<speech "You" "''$name:''">>
+Oh, and um...<</speech>>
+<<speech "nobody" "''Woman:''">>
+Yes?<</speech>>
+<<speech "You" "''$name:''">>
+You have to kiss me or... laugh at me...<</speech>>
+<<speech "nobody" "''Woman:''">>
+Hahahaha! Kiss you? I don't kiss betas, sorryy... Hahaha! You need me to laugh at your small dick? Is this what turns you on??<</speech>>
+<img src="passengers/girl1.gif" width="40%">
+
+<<speech "nobody" "''Woman:''">>
+Itty bitty, little dicky... Hahahaha!<</speech>>
+''You take the picture''
+
+<<speech "You" "''$name:''">>
+ *swallow* T-thanks...<</speech>>
+<<speech "nobody" "''Woman:''">>
+Take care of that clit, PERVERT!<</speech>>
+She walks away...
+
+[[Return|Deck 4][$tasktara1 to "1/2 done", $badge to $badge +1]]<<elseif $taraevents is 2>><<elseif $taraevents is 3>><<elseif $taraevents is 4>><<elseif $taraevents is 5>><</if>>
+
+

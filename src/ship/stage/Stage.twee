@@ -1,0 +1,946 @@
+:: Stage [textback noborder] {"position":"2040,1172","size":"100,100"}
+<<removeclass "html">><<addclass "html" "decks">><<if $stage is 1>><<if ndef $sstage>><img src="passengers/stagewoman.jpg" width="40%"><<addmins 10>>
+
+<<speech "nobody" "''Lady:''">>
+Hi sweetie, coming for the welcome act? May I have your room card for a second.<</speech>>
+ *You hand her your card*
+ 
+<<speech "nobody" "''Lady:''">>
+Allright, all set. Here you go. *she gives your card back* You are the first one to come yet. The seats are not numbered, so sit wherever you feel like. Have fun!<</speech>>
+Without knowing what to expect, you enter the <<linkappend "door to the stage." t8n>>
+
+<img src="places2/stage.png" width="70%">
+
+The luxury and awesomeness of the theater catches you completely by surprise. You certainly weren't expecting something as big as this inside a ship. As you are the first one to arrive, you choose to sit in the front row so you get the best view.
+
+Little by little the crowd fills the theater. Each woman that comes in seems hotter and sexier than the last one. They all come in pair or in groups of three or more. All this is making you feel regretful about sitting in the front row. Every girl that comes in has a full view of you, and every giggle you hear them make, makes you blush even redder. You feel embarrased just for being there. You try to keep your cool and just look ahead to not call unnecesary attention upon yourself.
+
+Time passes and people cease to come in. you take a look back and see that nearly all the seats are occupied, but nobody has sat in the first row. Not even at the second row. You are all alone.
+
+The remaining lights suddenly turn off, that being the starting mark for the show.
+
+<<click "*Music starts*" "Stage">><<audio "stage1" loop play>><<audio "ship" mute>><<set $sstage to 1>><</click>><</linkappend>><<elseif $sstage is 1>><<audio "stage1" loop play>><<if ndef $mute>><<audio "stage1" unmute>><<else>><</if>><<audio "ship" mute>><<speech "nobody" "''Voice:''">>
+//Welcome to the SQ Cruise Ship! The perfect trip for women for high standards! Or should I say THICK standards?//<</speech>>
+<span class="shudder"><span class="onomatopeya">*CROWD CHEERS*</span></span>
+ 
+<<speech "nobody" "''Voice:''">>
+Now, with all of you: the woman that makes this all posible, the Queen between Queens, our sexy and lovely CAPTAIN T!!<</speech>>
+<img src="cap/capcute.jpg" width="50%">
+
+ *Gracefully comes in, walking to the mic with a smile*
+ 
+<<speech "cap" "''Captain T:''">>
+Well Hello! I see some familiar faces, don't I? *laughs*<</speech>>
+<span class="shudder"><span class="onomatopeya">*CROWD CHEERS*</span></span>
+ 
+<<speech "cap" "''Captain T:''">>
+I give my warmest welcome to the new ones, I hope you'll have the time of your lifes here. Trust me: you will.<</speech>>
+<span class="shudder"><span class="onomatopeya">*CROWD CHEERS*</span></span>
+ 
+<<speech "cap" "''Captain T:''">>
+Ok, ladies, I won't retain you much more from the party at the pub on the back of the theater, but I have one surprise more for you...you've all got A FREE ROUND OF DRINKS FOR EACH ONE!<</speech>>
+<span class="shudder"><span class="onomatopeya">*CROWD CHEERS*</span></span>
+ 
+<<speech "cap" "''Captain T:''">>
+So, without further ado...- her eyes heavily stop right into yours.
+Well, girls, looks like we have an unexpected passenger. IT'S A BOY!<</speech>>
+<span class="shudder"><span class="onomatopeya">*CROWD CHEERS*</span></span>
+
+<img src="cap/caphand.jpg" width="50%">
+
+<<speech "cap" "''Captain T:''">>
+Come up with me, so we can all see you. No?...Ah, you're shy? Well that's a shame.<</speech>>
+<span class="shudder"><span class="onomatopeya">*CROWD BOOES*</span></span>
+
+<<speech "cap" "''Captain T:''">>
+Now, now... treat him properly, ladies. I know there weren't supposed to be men until further on in the trip, but oh well... Make him feel like he is at home, and worship him like the man we hope he is.<</speech>>
+Without further ado, let the party <<click "BEGIN!" Lounge>><<addhours 1>><<set $stage to 0>><</click>><</if>>
+
+
+\\<<elseif $stage is 2>><<if ndef $explainmix>><img src="passengers/stagewoman.jpg" width="40%">
+
+<<speech "nobody" "''Lady:''">>
+Hi sweetie, we were just waiting for you! Can I have your card?<</speech>>
+Your eyes open wide. Just when you are about to make up any excuse for leaving it at the room or something, she interrupts your thoughts.
+ 
+<<speech "nobody" "''Lady:''">>
+Oh, she's going to get into the stage now, just go in. C'mon, c'mon!<</speech>>
+The woman takes you by the hand and leads you to one of the last seats left.
+
+<div class="center"><img src="cap/capcute.jpg" width="50%"></div>
+<<speech "cap" "''Captain T:''">>
+Well, hi there, lovelies! I know that we've been having so much fun these week, all by ourselves, but you better brace yourselves, because men are coming in TODAY!<</speech>>
+<span class="shudder"><span class="onomatopeya">*CROWD CHEERS*</span></span>
+
+<<speech "cap" "''Captain T:''">>
+Now, I'm not going to waste your time explaining all the rules, because I'll have to repeat them once men come in, so I'll save it for later! Instead, I'll just tell you that we are going to get to the upper deck and give them an awesome welcome, okay? And please, don't go running down the stairs to meet them before I say so. We want to give them enough time to get in, unpack their stuff and then I'll talk to you through the intercom to convene all of you here to explain the rules.<</speech>>
+
+<span class="shudder"><span class="onomatopeya">*CROWD COMPLAINS*</span></span>
+
+<<speech "cap" "''Captain T:''">>
+I know, girls, I know... but the rules are only going to be there for your enjoyment, have I ever lied to you? And also, believe me, be patient, just for today. You'll have enough dick the rest of the trip!<</speech>>
+<span class="shudder"><span class="onomatopeya">*CROWD CHEERS AGAIN*</span></span>
+
+<<speech "You" "''$name:''">>
+(She seems nice when she wants to...)<</speech>>
+<<speech "cap" "''Captain T:''">>
+So, now, follow the attendants on the sides, they'll lead you to the upper deck.<</speech>>
+Just as the Captain finishes talking, the women stand up, eagerly wanting to go to the upper deck.
+
+<<speech "You" "''$name:''">>
+(Jesus, can't they behave like good girls, <span class="pink">just like me?</span>)<</speech>>
+Your side slowly gets out the stage and, although the line is not very organized, you know the way to the upper deck, so it's just a matter of time, you're not getting lost. On the way to the deck you keep looking around, searching for familiar faces with which share the experience, but all you see is unknown horny and eager bitches, with the ocasional milf that laughs at you and tries to humiliate you by lifting their pinkies or pinching your ass cheeks.
+
+<div class="center"><img src="dockings/casablanca/group.jpg" width="50%"></div>
+After a few minutes you arrive to the upper deck, which you never though could be so full. This overcrowding seems to be slowing down the whole process, so you can hear Captain T talking through the speakers:
+
+<<speech "cap" "''Captain T:''">>
+Please, stack yourselves to the side of the ship so you can have a look to the ground. If you can't see, just go to the 8th deck so you can.<</speech>>
+The first thing you want to do is go back and go down to the 8th deck, but even before you can, a wave of women run down, leaving you no choice but to stay up.
+
+<<speech "tara" "''Tara:''">>
+Hey, $name! Right here, come and take a look!<</speech>>
+You can see Tara calling you from the same deck you're in. You smile at her and walk her way. You crawl through the annoyed crowd until you reach where she is, right at the best spot.
+
+<<speech "You" "''$name:''">>
+Oh, thank you Tara...<</speech>>
+<<speech "tara" "''Tara:''">>
+No prob... *smiles and pats your ass*<</speech>>
+You look down and inmediately are amazed by how high the 9th deck actually is.
+
+<div class="center"><img src="dockings/casablanca/casablanca.jpg" width="70%"></div>
+<<speech "You" "''$name:''">>
+It's so high...<</speech>>
+<<speech "tara" "''Tara:''">>
+I know, but you can really get a good view from here, and also, they can.<</speech>>
+<<speech "You" "''$name:''">>
+Who?<</speech>>
+<<speech "tara" "''Tara:''">>
+Them... *points to a side*<</speech>>
+As you turn your head to the side, you see a line of men walking towards the central door of the ship. Some women have already started to cheer and shout. As they get closer, you understand why that place is perfect for the ocasion. You can get a good idea of how the people getting into the ship look.
+
+<div class="center"><img src="dockings/casablanca/line.jpg" width="50%"></div>
+Captain T gets out the main door and greets them, making signs so they start showing the tickets and going in. Just as they do, all the girls around you, except Tara, start shouting very dirty compliments.
+
+<<speech "tara" "''Tara:''">>
+Do you notice how most of them are black or mixed? That's not only because of where we have docked, but all the men you see are also around the 60% of the total that will come in. We'll be picking up more as we go down the coast of Africa and once we cross the Atlantic ocean. You will see some white guys... but the ratio of black men will always be higher...<</speech>>
+<<speech "You" "''$name:''">>
+Hm...<</speech>>
+You could ask why that is, but you feel like you know the answer.
+
+<<speech "tara" "''Tara:''">>
+Now, see that white guy? I'm sure he has a huge dick. Probably bigger than the black guys next to him.<</speech>>
+<<speech "You" "''$name:''">>
+How do you know that?<</speech>>
+<<speech "tara" "''Tara:''">>
+He's taller, big hands, am overall relaxed, but Alpha vibe... He's got a big one for sure!<</speech>>
+<<speech "You" "''$name:''">>
+Oh... <span class="pink">(Wow... so wise...)</span><</speech>>
+After 10 minutes of men passing by, your attention is already worn out, but suddenly, Tara re-directs your face so you look at the line again.
+
+<<speech "tara" "''Tara:''">>
+There he is!!<</speech>>
+<<speech "You" "''$name:''">>
+Who? What do you mean?<</speech>>
+<<speech "tara" "''Tara:''">>
+See that black guy?<</speech>>
+<<speech "You" "''$name:''">>
+Um... are you for real? You just told me they are all black!<</speech>>
+<<speech "tara" "''Tara:''">>
+Oh, he's sitten on his suitcase...<</speech>>
+You are just about to look at Tara and tell her that she's acting a bit crazy, but just a second after she said that, the tallest beast you've ever seen in your life stands up and walks towards Captain T.
+
+<<speech "You" "''$name:''">>
+OMG! That guy is literally twice as tall as Captain T!!<</speech>>
+<<speech "tara" "''Tara:''">>
+I know... that guys comes every year, he's a regular customer. A very mysterious guy, but certainly the biggest I've ever seen, or felt... *bites lips*<</speech>>
+You try to take a closer look at him and notice how his hands completely cover the Captain's as they pass the ticket over. He even has to crouch so he can get through the door of the ship.
+
+<<speech "tara" "''Tara:''">>
+I'm telling you, $name... you better hope he doesn't like you...<</speech>>
+<<speech "You" "''$name:''">>
+Oh, god...<</speech>>
+Your face turns pale just by the thought of it. You are not even able to manage what every woman on this ship already can, that monster would definitely rip you in half, probably not even needing his dick for that... But you can't help but imagine how would his "thing" look...
+
+<<speech "You" "''$name:''">>
+<span class="pink">(If an average black man has 8/9 thick inches... how would that monster compare... *bite your lips*)</span><</speech>>
+While the rest of the line comes into the ship, you just can't help but keep thinking about that massive black guy and his secrets. You try to convince yourself that "you are not gay, you're just curious...".
+
+After what seems like a very short time to you, Captain T goes back inside and talks on the intercom.
+
+<<speech "cap" "''Captain T:''">>
+Okay, ladies and... gentlemen! We are finally together! But this is not only going to be about pleasure, there are some rules you must follow. To get familiar with them, I'll meet you all at the stage. Men are already there, so please, ladies, make me proud and try not to cause much of a conmotion while you go down... to the stage.<</speech>>
+As Captain T hangs up, most women hurry down the stairs, but some of them try to walk like they normally would. You are even happy that most of them go first, so they get out of the way as soon as possible.
+
+Once you get to the 4th deck and are about to get into the stage, you take a big breath and gather courage to do this.
+
+<<linkreplace "Into the stage">>As soon as you get in, you notice that all the seats are taken by women, no men... but suddenly, you can hear some unusually low voices cat-calling from above. Seems like there was a higher circle of seats around the stage.
+
+<<speech "nobody" "''Mixed man:''">>
+Hey, you! That busty brunette! Yeah, you! I'm gonna grab those titties and cum all over that face of yours! Hahahaha<</speech>>
+About 5 different, but similar women stand up and shake their titties.
+
+<div class="center"><img src="dockings/casablanca/brunette.gif" width="50%"></div>
+<<speech "You" "''$name:''">>
+(God... some bitches are sooo dumb...)<</speech>>
+Captain T comes out to the stage and grabs the mic.
+
+<<speech "cap" "''Captain T:''">>
+Well, hello there, studs!<</speech>>
+<span class="shudder"><span class="onomatopeya">*FEMALE CROWD CHEERS*</span></span>
+
+<<speech "cap" "''Captain T:''">>
+I bet you are hungry for some pussy too, huh?<</speech>>
+<span class="shudder"><span class="onomatopeya">*MALE CROWD CHEERS*</span></span>
+
+<<speech "cap" "''Captain T:''">>
+Hahaha... well, so are we. But we've got to set the rules up first! I've prepared an awesome presentation for the ocasion, so please... LIGHTS OFF!<</speech>>
+[[The lights turn off|Stage][$explainmix to 0]]<</linkreplace>>
+
+
+\\<<elseif $explainmix is 0>><<removeclass "html">><<addclass "html" "home">><<if ndef $mutefx>><<audio "button" play>><<else>><</if>>A couple of girls bring out a white screen from the backstage. Captain T brings out a remote and turns it on.
+
+<<speech "cap" "''Captain T:''">>
+Now, I know we're all eager to have some fun, but we have some rules for you: ''First of all'', I understand you boys are all tough and are used to taking what you want. That's fine, as long as the girl (or girls) are okay with it. There's a very thin line separating rough sex from rape, and we all like to explore it. But make sure that she's into it or I'll be obligated to make you get out of the ship. ''Non-consensual rape is NOT allowed.''<</speech>>
+<span class="onomatopeya">CLICK</span>
+
+<div class="center"><img src="stage/stagecasa1.gif" width="55%"></div>
+<span class="onomatopeya">*FEMALE CROWD BOO*</span>
+
+<<speech "You" "''$name:''">>
+(What? Are they booing? Are these women mad? Why would they want to get raped?)<</speech>>
+<<speech "cap" "''Captain T:''">>
+Silence, girls. I know some of you want to be dominated, but being non-consensually raped is not the same. The rules are there for a reason. ''Second rule:'' Continuing with the limitations for men-<</speech>>
+<span class="onomatopeya">CLICK</span>
+
+<div class="center"><img src="stage/stagecasa2.png" width="30%"></div>
+<span class="onomatopeya">*MALE CROWD BOO*</span>
+
+<<speech "cap" "''Captain T:''">>
+Shhh! More limitations for men: we will have a certain schedule for "women only" for some of the public spaces, like the swimming pools, the gym and the library. This is meant to give us girls the possibility to have our own time whenever we want. Of course, this will only be for a few hours a day. The rest of time, it'll be mixed.
+
+For you, men, you have a "penny arcade" available on the 5th deck. That's a "men only" place, and it's also rules free. So if you women are thinking about going in there, just take into account that rules don't apply, including the rape one...<</speech>>
+<span class="onomatopeya">*MALE CROWD CHEERS*</span>
+
+<<speech "You" "''$name:''">>
+(Well, at least I can get through some places without having to encounter any men...)<</speech>>
+<<speech "cap" "''Captain T:''">>
+''One last thing:'' We have added a new feature to this year's ship. Men have been ranked from ''C to S+'' by our company experts. We've taken a lot of factors into account, like height, penis size, sexual prowess and wealth, among others. You will be able to know this rating on their mandatory badge:<</speech>>
+<span class="onomatopeya">CLICK</span>
+
+<div class="center"><img src="stuff/splus.png" width="30%"></div>
+<span class="onomatopeya">*FEMALE CROWD CHEERS*</span>
+
+<<speech "cap" "''Captain T:''">>
+I know! Exciting, isn't it? I should state that every man on this ship lives up to our standards, so they're all good. But, since this could seem a one-sided decision, we've decided to also add a ''ranking for us women!!''<</speech>>
+<span class="onomatopeya">*MALE CROWD CHEERS*</span>
+
+<span class="onomatopeya">CLICK</span>
+
+<div class="center"><img src="screenwall/0.jpg" width="57%"></div>
+<<speech "cap" "''Captain T:''">>
+As you can see, we won't have to wear badges, since we have not been rated yet. It is YOU guys who will vote us. The girls with the most number of votes will be displayed on top of the list, kind of like a "popularity" contest. So now you know: Girls, be nice to your men... *wink* You will be able to see this list on both deck 5 and 6.
+
+So, in short:<</speech>>
+<span class="onomatopeya">CLICK</span>
+
+<div class="center"><font size="+2"><span class="red">''1. NO NON-CONSENSUAL RAPE'' (except in men only area, "penny arcade")</span>
+<span class="yellow">''2. RESPECT THE WOMEN-ONLY SCHEDULES'' (swimming pools, gym, library)</span>
+<span class="blue">''3. MEN WEAR THEIR RANKING ON A BADGE. WOMEN CAN BE GIVEN VOTES, WHICH WILL BE DISPLAYED ON A SCREEN''</span></font></div>
+<<speech "cap" "''Captain T:''">>
+Now that we're clear on the rules, men will follow me out the stage so me and my staff can show them around their decks. Women will wait until we're out and Tara will lead them back to their rooms. We are in Casablanca, so you'll be able to get out to explore the city in around an hour.<</speech>>
+Captain T leaves the mic and takes the men out of the stage to their decks. Once your group is alone, Tara stands and lead you all to your decks, going down to the third one and then to the second.
+
+[[Get into your room|Stage][$explainmix to 1]]
+
+
+\\<<elseif $explainmix is 1>><<if ndef $mutefx>><<audio "knock" volume 0.6 play>><<else>><</if>><div class="center"><img src="places2/bedroomship.jpg" width="50%"></div>
+Before you can even relax, someone knocks at your door. You go and open it.
+
+<<speech "tara" "''Tara'':">>
+Hey, I'm finally done with the girls. I have a nice surprise for you: I'll be going with you into Casablanca, since I also need to do some important errands. And if everything goes as planned, you'll get an awesome present at the end, you'll see...<</speech>>
+You blush, thinking about what could that "present" be about.
+
+<<speech "You" "''$name:''">>
+Ok... should we go now then?<</speech>>
+<<speech "tara" "''Tara'':">>
+Sure, it's nice that you're not dressed as too much of a slut. Casablanca is not the place for that. You know, they say it's a "multicultural city", but they are pretty conservative when it comes to those things. Although, I must say, you're getting cuter by the day, $name...<</speech>>
+She leans in and gives you a kiss. Then she holds your hand, dragging you out of your room and taking you to the reception and out the ship.
+
+[[Casablanca docking|Casablancaport]]<</if>>
+
+
+
+
+
+\\<<elseif $stage is 0>><<if $dayn is 7>>The stage door is open and ready for the people to come in. Seems like although not many people have come yet, they've turned the lights off already.
+
+[[Get in|Show]]
+
+
+
+\\<<elseif $dayn is 14>><<if $gameDate.getHours() gte 20>><<if $gameDate.getHours() lte 23>>As you cross the corner to the stage, you hear Captain talking to some other woman.
+
+<<speech "cap" "''Captain T:''">>
+The show's about to start, what do you mean you're not happy with outcome of the play?<</speech>>
+<<speech "Ashley" "''???:''">>
+It's just that... you know, I've written it, so I would just like it to be as I pictured it. That's all!<</speech>>
+<<speech "cap" "''Captain T:''">>
+I understand, but you've got to understand that there are no masculine actors on the ship, so it's only logical that a woman would play "the hubby".<</speech>>
+<<speech "Ashley" "''???:''">>
+Yeah, I know, I get it...<</speech>>
+You wait a few seconds for them to go away, but they don't seem like they would be down to stop talking for a while, so you just decide to walk past them and into the stage area.
+
+<<speech "cap" "''Captain T:''">>
+I think it's very well done, my favourite part would be- Oh, hi there, little boy! Are you coming to watch the play? I know you love watching for sure...<</speech>>
+<<speech "You" "''$name:''">>
+Yeah, um... no more class for the rest of the day, so I thought I would come...<</speech>>
+<<speech "cap" "''Captain T:''">>
+Nice, I think you'll find it... instructive.<</speech>>
+Just as you are about to walk past them, the unknown woman whispers something into Captain's ear.
+
+<<speech "cap" "''Captain T:''">>
+Oh, yeah, not a bad idea! Hey, $name, how would you like to become a superstar?<</speech>>
+<<speech "You" "''$name:''">>
+What do you mean?<</speech>>
+<<speech "cap" "''Captain T:''">>
+Ashley here is the original writer of the story you are about to see today. There's a... ''small'' role in the play that we think you could do just fine.<</speech>>
+Instantly embarrased by the idea, you take a good look at Ashley's face:
+
+<div class="center"><img src="passengers/ashley1.jpg" width="50%"></div>
+She's so beautiful that you almost say "yes" without giving it a thought. You should decide. You can either relax and enjoy the show, or please Ashley and try to become an actor for an hour.
+
+[[Accept the role|Show][$outsized to 0]]
+[[Just enjoy the show|Show][$outsized to 1]]
+
+\\<<else>><div class="center"><img src="stuff/showlist.png" width="40%"></div>
+The show started at 21.
+
+[[Return|Deck 4]]<</if>>
+
+\\<<else>><div class="center"><img src="stuff/showlist.png" width="40%"></div>
+The show starts at 21.
+
+[[Return|Deck 4]]<</if>>
+
+
+
+\\<<elseif $dayn gte 16 and $dayn lt 22>><<if $dayn is 21>><<if $gameDate.getHours() gte 20 and $gameDate.getHours() lte 23>><<if $magic is "1/2 done">>The stage door is open and ready for the people to come in. There's a door next to the entrance that leads to the backstage.
+
+[[Go to the backstage|Show]]
+
+\\<<else>><div class="center"><img src="stuff/showlist.png" width="40%"></div>
+//The magic show has been cancelled, due to technical problems. (You'll need to come to the stage before today to know what's going on)//
+
+[[Return|Deck 4]]<</if>>
+
+
+\\<<else>><<if $magic is "1/2 done">><div class="center"><img src="stuff/showlist.png" width="40%"></div>
+//The magic show is at 21:00. You better be there or Ewa will be pissed!//
+
+[[Return|Deck 4]]
+
+\\<<else>><div class="center"><img src="stuff/showlist.png" width="40%"></div>
+//The magic show has been cancelled, due to technical problems. (You'll need to come to the stage before today to know what's going on)//
+
+[[Return|Deck 4]]<</if>><</if>>
+
+
+\\<<else>><<if $magic is "1/2 done">><div class="center"><img src="stuff/showlist.png" width="40%"></div>
+//The magic show is on Saturday at 21:00. You better be there or Ewa will be pissed!//
+
+[[Return|Deck 4]]
+
+
+\\<<else>><<speech "ewa" "''???'':">>
+ *slam* Hey, where the fuck are you going?? The show is this week!<</speech>>
+<<speech "nobody" "''Assistant'':">>
+It's not like I can go anywhere! And fuck your crappy show!<</speech>>
+<<speech "ewa" "''???'':">>
+Crappy?! You are calling my show crappy?! This is the best sex magic show in Las Vegas, honey!<</speech>>
+<<speech "nobody" "''Assistant'':">>
+Just 'cause you know how to suck dick! You have 0 talent and YES, YOUR SHOW IS FUCKING SHIT! I'm out!<</speech>>
+<<speech "ewa" "''Ewa, the great'':">>
+Fine, then! You're fired! Good luck finding a place to work from now on! EWA, THE GREAT has very good contacts! ... ...<</speech>>
+<<speech "nobody" "''Assistant'':">>
+I don't care about your fucking contacts! And you're not firing me, I quit! *slam*<</speech>>
+...
+
+...
+
+The extravagant woman keeps standing near the backstage entrance door, angry, but you can also notice some worry on her face. You don't know if it is a good time to talk to her, so you just stand in place. Just when you're about to get going, Ewa speaks:
+
+<<speech "ewa" "''Ewa, the great'':">>
+What are you looking at? *stares directly at you*<</speech>>
+<<speech "You" "''$name'':">>
+Oh, um... nothing, I was just...<</speech>>
+<<speech "ewa" "''Ewa, the great'':">>
+I know you've seen everything. It's fine... *sigh* just another assistant that runs away... they say my act is too humiliating.<</speech>>
+<<speech "You" "''$name'':">>
+That's a shame... and what's the act about?<</speech>>
+<<speech "ewa" "''Ewa, the great'':">>
+Oh, you know... the classic: "assistant goes into a box, I push swords into the box holes, the assitant dissapears and then appears intact..." You might ask: "how, Ewa, how?" Well, darling... the answer is MAGIC!<</speech>>
+You are soon cringed out by her pompous explanation.
+
+<<speech "ewa" "''Ewa, the great'':">>
+I mean, the public seems to really like the act, but I don't know why nobody wants to do it!<</speech>>
+<<speech "You" "''$name'':">>
+The act sounds a bit dangerous, doesn't it?<</speech>>
+<<speech "ewa" "''Ewa, the great'':">>
+Not at all! In fact is one of the safest ones I do on my show, and is one of the most spectacular ones too! It's the ending of my show, and now... I don't have an ending... A magician can't do a show without a proper ending...<</speech>>
+Even if she seems a bit delusional and eccentric, you can't help but feel sorry for her.
+
+<<speech "You" "''$name'':">>
+There must be a solution! Don't you have another act you could do instead of that one?<</speech>>
+<<speech "ewa" "''Ewa, the great'':">>
+I'm afraid not... that's my main act, the reason why people come. It's got risk, comedy, sexiness... I just need another assistant, but how? We are on a fucking ship!<</speech>>
+You suddenly come up with a possible solution: you could be her assistant for the act. But you don't know if you should say it out loud. After all, her assitants surely quitted for a reason...
+
+<<speech "ewa" "''Ewa, the great'':">>
+I need someone that sticks out from the crowd, someone not too tall since she would need to fit in a box... *she takes a look at you* Hm...<</speech>>
+<<speech "You" "''$name'':">>
+(Uh-oh, don't look at me...)<</speech>>
+<<speech "ewa" "''Ewa, the great'':">>
+What would you say if I asked you to be my assistant? I could give you a proper reward for it, I bet you are aching for one of those... *wink, wink*<</speech>>
+<<speech "You" "''$name'':">>
+Um... I don't know about that...<</speech>>
+Ewa gets closer to you and puts one of her arms on your shoulder, holding your head from behind with her hand.
+
+<<speech "ewa" "''Ewa, the great'':">>
+You know, I'm a magician... I can do things you would think impossible...<</speech>>
+She looks at you and subtly pushes your face towards inches of her ample breasts.
+
+<<speech "ewa" "''Ewa, the great'':">>
+You need to have vision, honey... Look what's in front of your eyes...<</speech>>
+You take the advice literally and stare directly into her huge boobs. The view is really enticing, and you can feel your blood rush as this tall goddess brings you into her embrace.
+
+<<speech "You" "''$name'':">>
+Yeah... we have to do it...<</speech>>
+She smiles at your petition and takes your arm.
+
+<<speech "ewa" "''Ewa, the great'':">>
+Let's rehearse then! *smiles*<</speech>>
+Ewa opens the door and leads you to the backstage.
+
+[[Rehearse|Show][$magic to "Active"]]<</if>><</if>>
+
+\\<<elseif $dayn is 28>><div class="center"><img src="stuff/showlist.png" width="40%"></div>
+//Today's the Costume Contest...//
+
+<<speech "You" "''$name'':">>
+I bet Cherry is getting nervous already...<</speech>>
+[[Return|Deck 4]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\\<<elseif $dayn gte 31 and $dayn lt 35>><<if ndef $zack>>You turn left on Deck 4, getting closer to the closed stage door. You are not sure, but you could swear that you heard someone shouting...
+
+Just as you're about to go back, a naked woman kicks the doors open from inside.
+
+<div class="center"><img src="quest15/girlrun.gif" width="60%"></div>
+<<speech "nobody" "''Naked young lady'':">>
+Ugh... that fucking pervert... What the fuck are you looking at?!<</speech>>
+<<speech "You" "''$name'':">>
+Um... nothing... but why are you-<</speech>>
+<<speech "nobody" "''Naked young lady'':">>
+Naked?! Yeah, I know I'm naked, I'm not stupid! It's just... that fucking guy... Whatever, I don't have time for you!<</speech>>
+She sprints out of the stage area, leaving the stage door open, as well as a lot of questions unanswered.
+
+<<speech "You" "''$name'':">>
+(What the hell?)<</speech>>
+<div class="center"><font size="+1">(This side-quest will be available until ''Friday night'')</font></div>
+[[Explore (will consume 1h total)|Stage][$zack to 0, $zackquest to "Active"]]
+[[Return|Deck 4]]
+
+\\<<elseif $zack is 0>><<removeclass "html">><<addclass "html" "home">><div class="center"><img src="quest15/darkstage.gif" width="60%"></div>
+<<speech "You" "''$name'':">>
+(Jesus, it's literally pitch black in here...)<</speech>>
+You look around, not being able to discern any concrete shape, but looking again, you notice some faint light coming from the lounge room.
+
+<<speech "You" "''$name'':">>
+(What the hell? I though that was only supposed to be functional for after the shows...)<</speech>>
+You walk as carefully as you can, inevitably stepping into the chairs and some stairs, but you finally make your way to the doors.
+
+As subtly as you can, you move the doors apart.
+
+<<linkreplace "... ...">><<audio "chill" volume 0.3 loop play>><<if ndef $mutefx>><<audio "squeal" volume 0.3 play>><<else>><</if>><div class="center"><img src="quest15/opendoor.gif" width="60%"></div>
+<<speech "You" "''$name'':">>
+(Fuck! That made too much noise!)<</speech>>
+Luckily for you, the soft music that's playing covered that screech. You can also tell that there's a woman and a man talking. You get you head inside, trying to understand the conversation.
+
+<<speech "nobody" "''Bartender'':">>
+You're lucky that I let you do this, you know? I don't think captain would approve.<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''???'':</span>
+And you're lucky that I help you with your "culinary project", hehe...<</speechpatreon>>
+His deep voice makes you think that you really shouldn't be there. What if you get caught?
+
+<<speech "nobody" "''Bartender'':">>
+I bet lots of other guys would love to help as well.<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''???'':</span>
+But you've asked me for a reason, right? Plus, I think captain would love this game to be included officially. It fits into this kind of ship.<</speechpatreon>>
+The bartender stops talking for a second.
+
+<<speech "nobody" "''Bartender'':">>
+You don't even know what this ship is. So shut up and just enjoy.<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''???'':</span>
+Hah... Alright then. So, who's coming to play next?<</speechpatreon>>
+<<speech "nobody" "''Bartender'':">>
+No more for today. They're all... probably fucking.<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''???'':</span>
+The heck happened to eroticism? The seductive game?<</speechpatreon>>
+<<speech "nobody" "''Bartender'':">>
+I think you've gotten into the wrong ship, buddy... hahaha Come on, time for your "donation" to the house.<</speech>>
+They both get up and get to the backroom of the bar.
+
+<<speech "You" "''$name'':">>
+(This is the moment!)<</speech>>
+[[Get inside and explore|Stage][$zack to 1]]<</linkreplace>>
+
+
+
+\\<<elseif $zack is 1>><<removeclass "html">><<addclass "html" "home">><div class="center"><span class="normal"><img src="quest15/loungeempty.jpg" width="60%"></span></div>
+The lounge room doesn't seem like the last time. All the chairs have been removed and only one table is available. On that table, all you can see are some cards and chips.
+
+<<speech "You" "''$name'':">>
+(What the hell? Has that guy been playing by himself or what? Why did a naked girl run out from here?)<</speech>>
+<span class="onomatopeya">AAAAHHH</span>
+
+You duck quickly, scared that they might have come back. But the shouting appears to be coming from behind the bar. You slowly crawl to the small window on the backdoors, trying to peek.
+
+<<linkreplace "... ...">><div class="center"><img src="quest15/cum1.gif" width="60%"></div>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''???'':</span>
+Arghhh! Fuck!<</speechpatreon>>
+<<speech "nobody" "''Bartender'':">>
+Oh, don't be so scandalous... c'mon, give me all that juice, thaaaaat's it... *tap, tap*<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''???'':</span>
+Ahh... fucking hell...<</speechpatreon>>
+The guy suddenly takes a look at the window, seeing your face hovering in there with your mouth open.
+
+<<speechpatreon "Zack" "">><span class="imgpop zack">''???'':</span>
+Heh! I thought you said no more today, but look who's there!<</speechpatreon>>
+They both get out of the backroom, as you just die inside, aware that there's no easy scape now.
+
+<<linkreplace "... ...">><<speech "nobody" "''Bartender'':">>
+Hey you, sissy baby! What the fuck are you doing down here?<</speech>>
+<<speech "You" "''$name'':">>
+No, I was just... passing by and-<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+No need for animosity here... Hi, my name is <font size="+1">''Zack''</font>, and I need a player and you just popped in. *points to the table* Let's play then. *smiles*<</speechpatreon>>
+He sits on the table, and now you're able to take a good look at him:
+
+<div class="center"><img src="quest15/zack1.jpg" width="23%"></div>
+<<speech "You" "''$name'':">>
+(Oh, he's... <span class="pink">so hot...</span>)<</speech>>
+You take the other chair and sit down in front of him.
+
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+Did I hear right? Are you a sissy?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Um...<</speech>>
+<<speech "nobody" "''Bartender'':">>
+Yes, of course she is. Can't you see?<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+Hmm... wonderful.<</speechpatreon>>
+You blush as you notice how he's looking at you. Once he heard you were a sissy, you were expecting every other reaction from him except... desire...
+
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+So, let me explain what I'm doing here. This is some STRIP POKER. I do it private since... well I like to bet high, all in. Are you ready to play?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Um... do I have a choice?<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+Hahahaha! I like this one. Do you want a drink? Bring her the "special" if you will.<</speechpatreon>>
+The bartender rolls her eyes back as she starts preparing your drink. After what seems like just stirring, she brings it to you.
+
+<div class="center"><img src="quest15/cumdrink.jpg" width="30%"></div>
+You take it and give it a taste.
+
+<<speech "You" "''$name'':">>
+ *slurp* (Hm... oh wow, so creamy... but I can tell it has a lot of alcohol...) It's nice... *cough, cough*<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+ *smiles* Thank you.<</speechpatreon>>
+<<speech "nobody" "''Bartender'':">>
+ *chuckle*<</speech>>
+[[Start Game|Stage][$zack to 2]]<</linkreplace>><</linkreplace>>
+
+
+
+\\<<elseif $zack is 2>><<removeclass "html">><<addclass "html" "home">><<addhours 1>><<if ndef $zack2>><div class="center"><img src="quest15/poker1.jpg" width="50%"></div>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+Now, this is how we'll play: You just play with the cards you get. Only 5 cards and no changes. All luck. Each player starts with 200 points worth in chips, and for each 50 you lose, you take something off...<</speechpatreon>>
+<<speech "You" "''$name'':">>
+But that's not-<</speech>>
+<<speech "nobody" "''Bartender'':">>
+Yeah, I've already told him that that's not how poker works... oh, well...<</speech>>
+You both start by putting 20 on the table. Zack deals the cards with a smirk on his face. You take a good look at your cards:
+
+<div class="center"><img src="quest15/poker2.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(I'll probably need more than this to win...) And you say I can't change my cards?<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+No, you can't. And now I also know that you probably don't have a good hand.<</speechpatreon>>
+<<speech "You" "''$name'':">>
+... ... (Oh, fuck...) Yeah, well, I-I raise!<</speech>>
+You put 30 more on the table. Zack smiles condescendingly as he calls your raise.
+
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+I see you're eager to show me your body...<</speechpatreon>>
+<<speech "You" "''$name'':">>
+ *gulp*<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+I don't know about yours, but mine is quite BIG. I mean my hand, of course... hehe...<</speechpatreon>>
+Zack flips his cards, exposing his FULL HOUSE. Without any further consideration, he takes your 50 chips.
+
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+You owe me some clothes...<</speechpatreon>>
+<<speech "You" "''$name'':">>
+(Ugh...)<</speech>>
+<div class="center"><img src="quest15/strip1.gif" width="73%"></div>
+You take your shoes off and put them aside. You can see Zack taking a look under the table at your naked feet.
+
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+Those look very smooth...<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Um... thanks-<</speech>>
+Zack takes all the cards and shuffles them. The you both put another 20 on the table.
+
+<<linkreplace "2nd round">>Zack deals the cards again.
+
+<div class="center"><img src="quest15/poker3.jpg" width="50%"></div>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+Heh...<</speechpatreon>>
+You see him smiling to himself, probably due to his amazing hand. You are not amazed by yours, but can certainly play with it.
+
+<<speech "You" "''$name'':">>
+(Since I cannot change cards, I should make him feel like I have a better hand...)<</speech>>
+[[Bluff like you have a Royal Flush|Stage][$zack2 to 0]]
+<<if $int gte 120>>[[Observe his behaviour and play accordingly|Stage][$zack2 to 1]] (INT +120)<<else>><<linkreplace "Observe his behaviour and play accordingly (INT +120)">>INT +120 required<</linkreplace>><</if>><</linkreplace>>
+
+
+\\<<elseif $zack2 is 0>><<speech "You" "''$name'':">>
+(I definitely should try and bluff as hard as I can, even if I have to play "all in"!) Heh...<</speech>>
+You force a smile as hard as you can, and although you are trying your best, it would be clear for anyone watching that you're actually forcing it a bit too much.
+
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+I see you're trying your best to throw in a bluff again... Suit yourself, I have a better hand.<</speechpatreon>>
+Despite your disappointment, you maintain your cocky smile in case it eventually works.
+
+<<speech "You" "''$name'':">>
+(Should I just fold?? B-but maybe he's also bluffing...) Heh, I think it is you who is bluffing now, Zack.<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+How sweet... you know my name. *smiles* Make sure to remember it later... *throws kiss*<</speechpatreon>>
+As he flirts with you, you get visibly nervous, which helps him decide his next move.
+
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+I'll raise.<</speechpatreon>>
+You look at the extra 30 chips he's put on the table, wondering what the best play is...
+
+<<speech "You" "''$name'':">>
+(Oh, I should fold. But if he has a worst hand than mine, then I'll just feel stupid... No! I should call!)<</speech>>
+You throw 30 more chips to call his raise. Zack smile gives away the result of the game before you even have a chance to see his cards.
+
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+Well, well, well... How about this THREE-OF-A-KIND?? Oh, you've got two pair... too bad.<</speechpatreon>>
+You look down, trying to decide what piece of clothing you should get off next. You decide it's better if you start with the upper body.
+
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+There you go... come on, don't cover yourself, let Zack see those sissy tits...<</speechpatreon>>
+Your heart is pounding hard as you feel like you're losing control of the situation. While he keeps making sucking sounds with his mouth, you finally let your arm fall to the sides, exposing your nipples.
+
+<div class="center"><img src="quest15/strip2.gif" width="32%"></div>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+Damn, let's get to the next round...<</speechpatreon>>
+...
+
+...
+
+<span class="onomatopeya">CLING</span>
+
+<<speech "nobody" "''Bartender'':">>
+Whoops... I'm sorry, I was trying to clean these glasses. But Zack, must I remind you that I need your "donation" every 30 minutes?<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+I know, I know... I think the donation will come soon enough...<</speechpatreon>>
+He grabs his junk while shuffling the cards. You both put 20 chips for the next game, and he deals the cards.
+
+<div class="center"><img src="quest15/poker4.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(OMG, yes! A full house! I just won!) I raise!<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+You raise how much...?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+All in!<</speech>>
+You push the remaining 80 chips into the game. Zack looks at you, trying to read through your face. Fortunately, there's nothing to read. You really are happy because you think you can win with that hand.
+
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+I see... well, you've been bluffing the whole game, so... and I think I can definitely win, even if you've got a full house... *smiles*<</speechpatreon>>
+Your smile subtly faints for a second.
+
+<<speech "You" "''$name'':">>
+(How does he know that...?)<</speech>>
+Zack takes all his chips and throws them in.
+
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+I call.<</speechpatreon>>
+Without further interaction, he shows you his hand:
+
+<div class="center"><img src="quest15/poker5.png" width="50%"></div>
+All the joy you had before suddenly breaks into a thousand pieces. You know that a FOUR-OF-A-KIND definitely wins a FULL-HOUSE.
+
+<<speech "You" "''$name'':">>
+(Oh, no...)<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+Oh, c'mon, don't be like that. I get to keep your clothes now! Get it all off!<</speechpatreon>>
+The bartender comes quick to you and tries to defend you.
+
+<<speech "nobody" "''Bartender'':">>
+Hey, Zack, you're getting out of line. This sissy is under the staff's supervision, so you don't get to keep her clothes.<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+Oh, well. At least come here and take it all off.<</speechpatreon>>
+You can see him stroking his fat cock through his pants. Meanwhile, the bartender is helping you take everything out. Eventually, she gets to your crotch.
+
+<<speech "You" "''$name'':">>
+No, at least leave the underwe-<</speech>>
+<<if $cage is true>><div class="center"><img src="porn/cagecum.gif" width="26%"></div><<else>><div class="center"><img src="quest15/clitty.jpg" width="50%"></div><</if>>
+
+<<speech "nobody" "''Bartender'':">>
+Oh, wow! Too much for this girl...<</speech>>
+<span class="onomatopeya">BBBRRRIIIINGGG</span>
+
+<<speech "nobody" "''Bartender'':">>
+It's time for your donation, Zack. Say goodbye to this gurl.<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+What? No way. This sissy is helping me with that "donation". Come here, little gurl. *pats his lap*<</speechpatreon>>
+The bartender looks at you and lightly pushes you closer to him.
+
+<<speech "You" "''$name'':">>
+Please, I just-<</speech>>
+He takes your hips with one hand as he pulls his pants down with the other, exposing his raging hard dick.
+
+<div class="center"><img src="quest15/cock1.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+<span class="pink">Oh my god...</span><</speech>>
+He sits you on his big thigh, giving you a close-up view of his manhood.
+
+<<speech "You" "''$name'':">>
+(It smells... a bit sweaty... but... <span class="pink">very manly...</span>)<</speech>>
+Zack rubs your naked back with his big hand as he twitches his cock on purpose to tease you.
+
+<<speech "nobody" "''Bartender'':">>
+Aaaalright, I see you really want "her" to get that "donation" for me. Fine, then. Here, honey. Get this glass. Please, get as much as possible inside it. This guy doesn't know how to aim...<</speech>>
+You get the glass in one hand and just stare at the big cock, not knowing what to do.
+
+<<speech "nobody" "''Bartender'':">>
+Do I really need to guide you? Okay, then. Come on, sissy! Just take it on your hand.<</speech>>
+The bartender gets on your back, ready to give directions. You approach his twitching penis, but it's so thick that you can barely grab it.
+
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+That's a tiny hand you got there. Is everything this tiny? How about that puckering sissy-pussy that I'm feeling on my thigh.<</speechpatreon>>
+He suddenly starts moving his leg up and down, making you jump on his leg again and again. As he makes you hit his thigh, your prostate vibrates and your clitty starts leaking pre-cum.
+
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+I think she want some action... You like how daddy rocks his gurl?<</speechpatreon>>
+<span class="onomatopeya">JUMP JUMP JUMP</span>
+
+<<speech "You" "''$name'':">>
+Yeah... I-I... <span class="pink">Ohh...</span><</speech>>
+Without even needing any further indications, you instinctively start stroking his thick cock to the rhythm of his rocking.
+
+<<speech "nobody" "''Bartender'':">>
+Oh my god, look at that tiny dicky she's got there! It's leaking so much!<</speech>>
+You couldn't be more embarrased, but the way he's holding your back as he plays with you makes you very comfortable in a weird, new way... If it wasn't enough, Zack takes your nipple inside his mouth and starts licking it.
+
+You weren't expecting such a rush from just your nipple, it's obvious that they are a lot more sensitive than you remember them.
+
+<<speech "You" "''$name'':">>
+<span class="pink">OoOoOhh...</span><</speech>>
+<<speech "nobody" "''Bartender'':">>
+Come on, don't make him wait. Stroke that cock, sissy!<</speech>>
+<div class="center"><img src="quest15/cock2.gif" width="50%"></div>
+You try your best to get ahold of his magnificent penis and stroke it while you put the glass as close as possible. This only makes you get into a weirder position from where your chest and ass are even more exposed.
+
+<<speech "nobody" "''Bartender'':">>
+That's not hard enough. Get in there, come-on-!<</speech>>
+She pushes your head forward, almost touching his penis with your nose, and making your tiny balls dangle free on the air.
+
+<div class="center"><img src="quest15/clitty1.gif" width="50%"></div>
+<<speech "You" "''$name'':">>
+(Oh, I almost fell...) *stroke, stroke*<</speech>>
+<<speech "nobody" "''Bartender'':">>
+Look at these tiny ballsies...<</speech>>
+She suddenly grabs your balls and squeezes them.
+
+<<speech "You" "''$name'':">>
+Ooow! *rapidly strokes*<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+Oooh, yeah! That's what I'm talking about! Keep that up and I... just... will...<</speechpatreon>>
+The bartender squeezes your balls again and you stroke Zacks dick faster.
+
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+EXPLODE!! Arrrgh!<</speechpatreon>>
+<<speech "nobody" "''Bartender'':">>
+The glass, in the glass!!<</speech>>
+You quickly pull the glass closer and try to catch as many squirts as possible.
+
+<div class="center"><img src="quest15/cum.gif" width="70%"></div>
+Before you can even realize how far this situation has gone, the bartender grabs the glass and leaves the room to store it.
+
+<<speech "nobody" "''Bartender'':">>
+That'll be mine, thanks.<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+Phew... those tiny hands... amazing... and how about this ass...?<</speechpatreon>>
+He starts grabbing your ass, probing your hole. You stand up and try to step away, but he stands up as well and gently bends you over the table. With his semi-hard, cum leaking cock, he whips your soft squishy ass.
+
+<div class="center"><img src="quest15/bend.jpg" width="50%"></div>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+Damn, you definitely need to be higher on the ratings, sissy... Although I must warn you: most of the men on this ship don't go for sissies, so be careful what you show them.<</speechpatreon>>
+You take the chance and stand up again as you take your clothes.
+
+<<speech "You" "''$name'':">>
+Uhm... o-okay... (I don't know what to say to that...)<</speech>>
+You blush as you put on your clothes as fast as you can and get out the dark stage.
+
+<<speech "You" "''$name'':">>
+(What the actual fuck... That was awkward... and <span class="pink">so hot as well...</span>)<</speech>>
+<<click "Deck 4" "Deck 4">><<set $zack to 3, $zackquest to "Finished">><<audio "chill" stop>><</click>>
+
+
+
+
+
+
+\\<<elseif $zack2 is 1>><div class="center"><span class="fade-ins-out"><span class="pink">⬇︎IF ''INT'' MORE THAN 120 IQ⬇︎</span></span></div>
+Although you know you're probably going to lose this hand, you are determined to win the game. So you just put on your best poker face and try to read him. You can see...
+
+<<timed 1s>><span class="fade-ins">His smile doesn't seem fake...</span>
+
+<<next 1s>><span class="fade-ins">He's rubbing his junk in anticipation...</span>
+
+<<next 1s>><span class="fade-ins">He's paying special attention to 3 of his 5 cards...</span>
+
+<<next 1s>>Although your pride is telling you to raise, you finally decide it's better to fold on this one.
+
+<<speech "You" "''$name'':">>
+I fold.<</speech>>
+Zack's smile vanishes as you say so, as he sees the opportunity fly away.
+
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+Alright then, I win your 20 on the table, hah!<</speechpatreon>>
+You smile calmly as you tap the table, waiting for him to shuffle and deal again. 
+
+<<speech "You" "''$name'':">>
+Hey, how about I deal the cards now?<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+Heh! Alright then!<</speechpatreon>>
+He lets you take the deck. You try your best shuffling the cards, although it's obvious that it's been a while since you've done so. Then, you start dealing them.
+
+<<speech "You" "''$name'':">>
+5 for you and 5 for me.<</speech>>
+You both put the 20 for starters and pick up your cards:
+
+<div class="center"><img src="quest15/poker4.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(Hm... a FULL HOUSE? That's pretty good...)<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+Mine are actually great, how about yours?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Well, I think I have possibilities... but you can never be too cautious... so I'm not so sure.<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+Oh, so you're playing the ambiguity game now? Hahaha come on, it's obvious you don't have ANYTHING... and that's why I'll raise!<</speechpatreon>>
+Zack pushes 60 more chips in the table.
+...
+
+...
+
+...
+
+You wait 30 seconds in silence, trying to make him lose his patience.
+
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+Are you playing now or what??<</speechpatreon>>
+<<speech "You" "''$name'':">>
+60? Hmmm... (I think that's a bluff) I guess I will...<</speech>>
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+That would mean more clothes off for you, you know that, right?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Sure. *smiles*<</speech>>
+Zack stares at you.
+
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+Naaahhh! That's a bluff! I'm ALL IN.<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Okay then, I call.<</speech>>
+Zack is surprised by your confidence and stares at you with an interested look on his face. Then, he lets his cards fall to the other side on the table.
+
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+I've got nothing, you win...<</speechpatreon>>
+He starts taking his clothes off in front of you.
+
+<div class="center"><img src="quest15/cock3.gif" width="32%"></div>
+You watch him with an open mouth, amazed by how manly and thick everything in his body is...
+
+<<speech "You" "''$name'':">>
+(Oh, my...)<</speech>>
+<span class="onomatopeya">BBBRRRRIIINGGG</span>
+
+<<speech "nobody" "''Bartender'':">>
+Alright, enough of these games. We need another of your donation! Get inside, I'll be just there on a second.<</speech>>
+Zack gets closer to you, with his cock dangling inches from your face.
+
+<<speechpatreon "Zack" "">><span class="imgpop zack">''Zack'':</span>
+I'll get that ass of yours, if you know what I mean... *slaps cock on his own hand*<</speechpatreon>>
+He gets into the backroom. Once you're alone, the bartender approaches you.
+
+<<speech "nobody" "''Bartender'':">>
+Now that you've had your fun, don't think I don't know what your thinking. You will NOT tell Captain T any of this, okay?<</speech>>
+<<speech "You" "''$name'':">>
+Um... sure.<</speech>>
+<<speech "nobody" "''Bartender'':">>
+Don't "sure" me, alright? I'll give you 200 points right now and we have a deal. It's not a negotiation. And I expect you to try my cocktails in the future. I will definitely need a test subjec- I mean, a taster...<</speech>>
+<div class="center"><span class="notplus">''POINTS +200''</span></div><<set $points to $points +200>>
+
+She gets to the back room, presumable about to help Zack with his "donation".
+<<speech "You" "''$name'':">>
+(Why is it that anywhere I go on this ship, everything seems to just keep getting weirder...? Although, that Zack guy looked... <span class="pink">interesting...</span>)<</speech>>
+You take you clothes and get out the lounge and through the dark stage back into Deck 4.
+
+<<click "Deck 4" "Deck 4">><<set $zack to 3, $zackquest to "Finished">><<audio "chill" stop>><</click>><</timed>><</if>>
+
+
+
+
+
+
+\\<<elseif $zack is 3>><div class="center"><img src="stuff/showlist.png" width="40%"></div>
+//There's no show today...//
+
+[[Return|Deck 4]]<</if>>
+
+
+
+
+
+
+
+\\<<elseif $dayn is 35>><div class="center"><img src="stuff/showlist.png" width="40%"></div>
+//It's Anastasia's dance show today! (Not implemented yet...)//
+
+[[Return|Deck 4]]
+
+
+\\<<else>><div class="center"><img src="stuff/showlist.png" width="40%"></div>
+//There's no show today...//
+
+[[Return|Deck 4]]<</if>><</if>><<audio "menus" stop>>
+
+

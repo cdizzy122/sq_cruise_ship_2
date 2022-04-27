@@ -1,0 +1,15 @@
+:: Margarita [textback] {"position":"2253,1494","size":"100,100"}
+<<removeclass "html">><<addclass "html" "lounge">><<if $nomarg is true>>I'm definitely not going back to that fucking poison.
+
+<<return>><<else>><img src="food/margarita.jpg" width="50%">
+
+<<speech "nobody" "''Bartender:''">>
+There you go, pal! This one's free, in with it!<</speech>>
+<<speech "You" "''$name:''">>
+Thanks! *drink* (Wow, that is sooo loaded. Tastes like pure alcohol, fuck...) *COUGH, COUGH*<</speech>>
+<<speech "nobody" "''Bartender:''">>
+You alright, buddy?<</speech>>
+[[Yeah, I'm alright *cough, cough*]]
+[[That is too loaded!]]<</if>><<audio "menus" stop>><<if ndef $mute>><<audio "party" unmute>><<else>><</if>>
+
+

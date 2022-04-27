@@ -1,0 +1,60 @@
+:: Tinder [phone noreturn textback] {"position":"542,1706","size":"100,100"}
+<<removeclass "html">><<addclass "html" "tinder">><<audio "tinder" volume 0.22 play loop>><<audio "ship" mute>><<if $tinder is 1>><div class="center"><span class="noborder"><img src="stuff/tinder2.png" width="50%"></span>
+
+//Welcome to Tinder!
+Please, upload a picture showing your assets and write a few lines about yourself//</div>
+<<if $tprofile is 1>><span class="fade-ins-out">Profile updated!</span>
+<div class="center"><span class="fade-ins"><img src="stuff/tinderboy.jpg" width="45%">
+<div class="blue">Hey girl, you wanna join the ride? I've got plenty for you, so bring a friend if you can't handle it big. Like me and we will have some fun. FRIGID BITCHES FUCK OFF!</div></span></div>
+<<speech "You" "''$name'':">>
+(Of course, Captain T already did the job for me... But apparently I can choose another profile picture)<</speech>>
+<div class="center">(different profiles attract different people)
+
+<<click "Hot white boy" Tinder>><<set $tprofile to 1>><</click>>
+<<click "Your original face" Tinder>><<set $tprofile to 2>><</click>>
+<<click "Redhead cutie" Tinder>><<set $tprofile to 3>><</click>></div>
+
+[[Accept profile|Tinder][$tinder to 2, $tprofile1 to true]]
+<<elseif $tprofile is 2>><span class="fade-ins-out">Profile updated!</span>
+<div class="center"><span class="fade-ins"><img src="stuff/you.jpg" width="50%">
+Hi there... My name is $name and I am on a journey of self-discovery! I am what you see, just a sensible small man with a big big heart. If you think that the motion of the ocean is the most important thing, I'm your boy!</span></div>
+<<speech "You" "''$name'':">>
+(Of course, Captain T already did the job for me... But apparently I can choose another profile picture)<</speech>>
+<div class="center">(different profiles attract different people)
+
+<<click "Hot white boy" Tinder>><<set $tprofile to 1>><</click>>
+<<click "My original face" Tinder>><<set $tprofile to 2>><</click>>
+<<click "Redhead cutie" Tinder>><<set $tprofile to 3>><</click>></div>
+
+[[Accept profile|Tinder][$tinder to 2, $tprofile2 to true]]
+<<elseif $tprofile is 3>>Profile updated!
+<div class="center"><span class="fade-ins"><img src="stuff/tinderred.jpg" width="40%">>
+<span class="pink">Hiii! It's been a while since I used this app, but a girl needs some love from time to time😘. But I'm not a bad girl, not usually anyway..😈. Like me if you like me! I will like you!</span></span></div>
+<<speech "You" "''$name'':">>
+(Of course, Captain T already did the job for me... But apparently I can choose another profile picture)<</speech>>
+<div class="center">(different profiles attract different people)
+
+<<click "Hot white boy" Tinder>><<set $tprofile to 1>><</click>>
+<<click "My original face" Tinder>><<set $tprofile to 2>><</click>>
+<<click "Redhead cutie" Tinder>><<set $tprofile to 3>><</click>></div>
+
+[[Accept profile|Tinder][$tinder to 2, $tprofile3 to true]]<</if>>
+<<elseif $tinder is 2>><div class="center"><span class="noborder"><img src="stuff/tinder2.png" width="50%"></span></div>
+You can't change your profile picture again yet. (Option temporarily blocked)
+
+<<speech "You" "''$name'':">>
+I can't give likes, Captain T will do that for me. I can only imagine what kind of people she will be giving my likes to...<</speech>>
+[[Matches|matchesintt][$tmatch to 1]]
+
+<<click "Return" "Techphone">><<audio "tinder" stop>><</click>>
+<<elseif $tinder is 3>><div class="center"><span class="noborder"><img src="stuff/tinder2.png" width="50%"></span></div>
+
+[[Change profile pic|Tinderprofile]]
+
+I can't give likes, Captain T will do that for me. I can only imagine what kind of guys she would be giving my likes to...
+
+[[Matches|matchesintt][$tmatch to 1]]
+
+<<click "Return" "Techphone">><<audio "tinder" stop>><</click>><</if>><<audio "menus" stop>><<if ndef $mute>><<audio "tinder" unmute>><<else>><</if>>
+
+

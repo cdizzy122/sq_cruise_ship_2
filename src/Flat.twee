@@ -1,0 +1,409 @@
+:: Flat [textback] {"position":"3487,422","size":"100,100"}
+<<if ndef $flat>><<removeclass "html">><<addclass "html" "street">><<audio "rome" stop>><<audio "out" volume 0 fadeto 0.8 loop>><div class="center"><img src="dockings/rome/streetday.jpg" width="50%"></div>
+Rome is beautiful, but the task you have ahead of you is making you anxious. You are going to have a date with a real full grown man.
+
+<<speech "You" "''$name'':">>
+(Well, I mean ''another'' full grown man)<</speech>>
+You really don't believe what you just thought, but you need all the confidence you can gather for this and it's better to pat yourself on the back.
+
+<<speech "You" "''$name'':">>
+Be strong, $name, be strong... Nothing needs to happen, it's just a date. Getting to meet someone new.<</speech>>
+You take a deep breath and take a look at the address that Captain T gave you.
+
+<<speech "You" "''$name'':">>
+(Alright... that should be the street, right around that corner at the end.)<</speech>>
+As you start to walk, you notice how sweat is forming on your skin folds. With the hot weather of a sunny summer it is innevitable, although you can't help but feel worried about it. You want to smell as clean as possible, you may be kind of a sissy, but you're a clean one, especially if you are going to a date.
+
+Once you arrive to the door, you take another look at the paper to make sure.
+
+<<speech "You" "''$name'':">>
+Ok, 4th B... *ahem*<</speech>>
+<<linkappend "*DING, DONG*">><<if ndef $mutefx>><<audio "dingdong" play>><<else>><</if>>
+
+<<speech "netflix" "''Rod'':">>
+Yes?<</speech>>
+<<speech "You" "''$name'':">>
+Hi- *ahem* <span class="pink">Hi, I'm...</span> (Oh, shit, Cap didn't mention what my name was supposed to be...) *ahem* <span class="pink">I'm "your tinder date..."</span><</speech>>
+<<speech "netflix" "''Rod'':">>
+Oh, nice! Come on in, it's open. I'll be waiting for you at the living room.<</speech>>
+<span class="onomatopeya">*BZZZZZ*</span>
+
+<<linkreplace "... ...">><<removeclass "html">><<addclass "html" "home">><<if ndef $mutefx>><<audio "slam" play>><<else>><</if>><<audio "out" stop>>The entrance is not a big deal at all. There's only a couple trash bins and a staircase. No elevator. <<if $fit gt 7>>Fortunately, you've done some exercise on the ship, and you are all fit and healthy<<else>><</if>> Once you arrive to the fourth floor you find the door with the letter "B" on it.
+
+Before getting in you take out your perfect fit wig and dress and quickly put it on near the corner, before anyone else can see you. Luckily, no one does...
+
+Another wave of anxiety crosses your body as you are about to open the already ajar door. A part of you is very disgusted by this "date" thing, but you can't help but find it exciting too... it's just too much for you to handle in a serene way.
+
+<<speech "rede" "''$name'':">>
+Ok... *breathe in... breathe out...*<</speech>>
+You hold the handle of the door and get in.
+
+The place doesn't seem too bad, but it is very obvious that this guy is living by himself. If he knew you were coming, he could at least tidied up... You can see a small kitchen to the left side and a bathroom to the right. The closed door in front of you must be the living room.
+
+You get a step closer to the room and suddenly hear the muffled sound of what seems to be a TV show:
+
+<<linkreplace "... ...">><<speech "rede" "''$name'':">>
+(He hasn't even waited for me... He has already started watching something. Maybe I should get in... Oh god... Will he notice I'm a boy? Will he be angry about it? What if he doesn't like me...?)<</speech>>
+
+<<linkreplace "*open door*">><div class="center"><img src="dockings/rome/rod1.jpg" width="30%"></div>
+<<speech "netflix" "''Rod'':">>
+Oh, hey! Nice to meet you, I'm Rod. Don't worry, I didn't start without you. You told me you already had watched this episode, so I was just refreshing the memory, you know... *smiles*<</speech>>
+He is still seated while you are on your feet and a small uncomfortable pause fills the room.
+
+<<speech "rede" "''$name'':">>
+Oh, um... don't worry about it, hehe... Nice to meet you too. *akwardly waves hand*<</speech>>
+...
+
+...
+
+<<speech "netflix" "''Rod'':">>
+Oh, how rude of me. I'm sorry, I'm still seated and watching TV while you are here!<</speech>>
+He suddenly stands up and goes straight up to you. You think he is going for your hand, but you see how he is planning on another thing, so once he is near enough, you take a step back.
+
+<<speech "netflix" "''Rod'':">>
+Hey, don't worry. I wasn't going to... you know... That's just the way we do it around here, you know... One kiss on each cheek. See?<</speech>>
+Rod takes your forearm with his strong hand and pulls you closer.
+
+<span class="onomatopeya">*SMOOCH, SMOOCH*</span>
+
+You can feel his manly 3 day beard scratching your own very smooth face. Although the feeling is not pleasurable, you do find it soothing...
+
+<<speech "netflix" "''Rod'':">>
+Aaaand *SMOOCH* A third one to you, because you are a very pretty girl.<</speech>>
+<<speech "rede" "''$name'':">>
+ *Your cheeks flush with embarrasment* <span class="pink">Um... thanks, Rod...</span> (He's really biting the hook, thank god...)<</speech>>
+<<speech "netflix" "''Rod'':">>
+So, tell me, would you like a drink? Alcohol or not?<</speech>>
+[[Alcohol|Flat][$flat to 0]]
+[[Not alcohol|Flat][$flat to 1]]<</linkreplace>><</linkreplace>><</linkreplace>><</linkappend>>
+
+\\<<elseif $flat is 0>><<audio "myroom" volume 0.2 play loop>><<speech "rede" "''$name'':">>
+<span class="pink">Alcohol, please...</span> (I might as well have some fun)<</speech>>
+Rod pours some opened red wine on a glass and gives it to you. You look at him, blush, and take the glass. You take a big gulp of wine, trying to swallow your embarrasment with it.
+
+<<speech "netflix" "''Rod'':">>
+Alright then, so I was just watching <<if $netflix is 1>>GOT<<elseif $netflix is 2>>Black Mirror<</if>>, want to join in? I'll go make some popcorn.<</speech>>
+He goes to the kitchen and start microwaving a packet of popcorn.
+
+<<speech "rede" "''$name'':">>
+(He's not even going to talk to me first, or anything? Wow, he's a bit of a jerk... He just want someone to watch TV with. Let's hope it's only that...)<</speech>>
+While he's making the popcorn, you take a seat on the couch. As soon as you sit, you feel that spot is very warm. You know that's his spot, so you move to a side, only to feel something wet on your ass.
+
+<<speech "rede" "''$name'':">>
+(wtf is this...?)<</speech>>
+You get up again and look at it. You suspiciosly look at the sticky poodle on the couch, you get your head closer and smell it... Yeah, it smells familiar... That side is definitely not your side, so you pick the other one, leaving his warm spot in the center for him. You really preferred the other side, though... Yes, this new one is not sticky and wet, but now you are trapped, with the wall on your right.
+
+<<speech "netflix" "''Rod'':">>
+Here I come! I only had one big bowl, but we can both take them from the same one.<</speech>>
+He throws himself into the center of the sofa, manspreading your already little space.
+
+<<speech "netflix" "''Rod'':">>
+Ok, ready? I was just about to finish the last episode, but we can start fresh from the next one. They always do a brief summary of the last chapters at the beginning, so no problem. *takes the controler and presses play*<</speech>>
+As the episode starts playing, Rod turns the lights down and puts the bowl on his lap.
+
+<<speech "netflix" "''Rod'':">>
+Hey, you didn't seem like the shy type! You can take as much popcorn as you want, baby... *puts his arm around your shoulders*<</speech>>
+<<speech "rede" "''$name'':">>
+<span class="pink">Thank you... </span>*smile*<</speech>>
+<div class="center"><img src="dockings/rome/bowl.png" width="50%"></div>
+You decide to bury your feelings, just for the time being. Maybe that way it will go faster. You grab a big handful of popcorn from his bowl and shove it into your mouth.
+
+<<speech "netflix" "''Rod'':">>
+The idea is to eat them, not spread them all over your face. Hahaha...<</speech>>
+Of course, you notice the sexual reference, but you just give a shy smile and keep on eating popcorn from his crotch.
+
+...
+
+...
+
+...
+
+After only 15 minutes in, the bowl is empty. Mostly because of your compulsive eating, but Rod had also taken some to make you feel better about it.
+
+<<speech "netflix" "''Rod'':">>
+You still hungry?<</speech>>
+<<speech "rede" "''$name'':">>
+<span class="pink">Heh, I could eat another BIG bowl of yours...</span> (Oh, fuck, that sounded too bad)<</speech>>
+<<speech "netflix" "''Rod'':">>
+Hm...<</speech>>
+Rod smiles devilishly and leans over to give you a kiss on the head.
+
+<<speech "netflix" "''Rod'':">>
+Damn, you smell good... hmmm...<</speech>>
+Suddenly, you see the empty bowl move. Just one time, up and down. You can't believe that could have had something to do with his... crotch. That bowl is too heavy and it moved like it was going to fall over...
+
+Curious, you can't help but keep looking at it, in case it moved again.
+
+<<speech "rede" "''$name'':">>
+(If that WAS his cock... then it's <span class="pink">amazinggg...</span>)<</speech>>
+<<speech "netflix" "''Rod'':">>
+Sorry I can't give you any more popcorn, you still look hungry as hell, baby... I guess we won't be needing the bowl any longer...<</speech>>
+Rod takes the bowl off his crotch, revealing a massive bulge leaning to your side. His arm squeezes you closer and caresses your arm.
+
+<<speech "rede" "''$name'':">>
+(OMG... why am I feeling ok with this?)<</speech>>
+If you were looking at the bowl earlier, it is now more clear that you can't help but look at his monster bulge. You try to keep your head oriented to the TV, but your eyes are constantly moving towards his manhood, every time it moves. You can see his erection growing...
+
+<<speech "netflix" "''Rod'':">>
+Damn, you really are hungry, aren't you? You want me to go find something appropiate for you to eat?<</speech>>
+He caught you off guard, looking at his pants, so you say the first thing that comes to mind.
+
+<<speech "rede" "''$name'':">>
+<span class="pink">Um, yeah! I was still thinking of that popcorn... man, I love popcorn...</span><</speech>>
+<<speech "netflix" "''Rod'':">>
+I'm all out, but I'm sure we can find something else you can snack on, don't you think? *grabs your chin* Let me go look!<</speech>>
+He suddenly stands up, almost hitting your face with his huge raging erection. Now that you can see the size of the thing face to face, you have gone from curious to scared. Rod walks to the kitchen with his leaking horse-cock dangling all the way.
+
+He just turns the kitchen lights on, and 3 seconds later, off. You know he hasn't looked, but he comes back.
+
+<<speech "netflix" "''Rod'':">>
+Nope, sorry, all out... *walks back in and sits down*<</speech>>
+<<speech "rede" "''$name'':">>
+<span class="pink">Don't worry about it... hehe... Let's just watch TV then.</span><</speech>>
+Rod presses play again on the remote and grabs you again with his arm. His hard dick is now in a different position, still facing your way, but tenting his pants, making it even more obvious.
+
+...
+
+...
+
+...
+
+Another 10 minutes pass, and the series has already started to bore you. You don't even know what is going on anymore, because that monstruous thing is constantly twitching. And by now, you can start seeing some pre-cum on his pants.
+
+<<speech "rede" "''$name'':">>
+(He's not even wearing boxers... That thing is too distracting...)<</speech>>
+After a few more minutes, you feel your posture is not very comfortable, so you try to gain some more space and put your weight into the other leg.
+
+<<speech "netflix" "''Rod'':">>
+Oh, yeah, I know, this sofa can be a bit uncomfortable after a while. Here, just lean over here, see?<</speech>>
+Rod pushes your head into his chest and down to his abs, making a good pillow for you. Then you get your legs up the sofa. Overall, you feel much more comfortable, but there's one BIG problem. There's a monster cock completely blocking the view. But you don't care, you actually think the shape and the movement is more interesting than the show.
+
+<<speech "rede" "''$name'':">>
+(So what happens if I- *you touch his abs with your hand*)<</speech>>
+<span class="onomatopeya">TWITCH</span>
+<<speech "rede" "''$name'':">>
+(Hmm... this is not that bad, I guess...)<</speech>>
+<<speech "netflix" "''Rod'':">>
+Hey, baby? You got a good view of my dick down there? Why don't you quit teasing and give me some of that love you told me you would...? Hm?<</speech>>
+Suddenly, your blood freezes. It's one thing to play at your pace, but you feel panic at the thought of having to have "sex" with a man! You go mute.
+
+<<speech "netflix" "''Rod'':">>
+Maybe you need to see the bait to bite the hook?<</speech>>
+<div class="center"><img src="dockings/rome/dick1.jpg" width="50%"></div>
+Rod suddenly lowers his pants, revealing his huge thick leaking cock. The small touch of alcohol in your blood stream makes you express surprise, opening your mouth, more than you would have wanted.
+
+<<speech "netflix" "''Rod'':">>
+Hehe, you like that dick, huh? You got me hard as a stallion, babe. Come on, give it some love...<</speech>>
+You stay quiet, not knowing how to respond. The strong aroma coming from his dick is not awful, but it certainly doesn't smell anything like yours... Thankfully, he's giving you your time.
+
+But then, a sex scene starts in the series you are watching, although you can barely see it.
+
+<<speech "netflix" "''Rod'':">>
+Damn, girl. Look at that! You want to play "mirror"?<</speech>>
+<<speech "rede" "''$name'':">>
+<span class="pink">Mirror...?</span><</speech>>
+<<speech "netflix" "''Rod'':">>
+Yeah! We do what they do...<</speech>>
+<<speech "rede" "''$name'':">>
+<span class="pink">But... the girl is giving him a...</span><</speech>>
+<<speech "netflix" "''Rod'':">>
+A blowjob, yeah... open up, babe...<</speech>>
+<<speech "rede" "''$name'':">>
+(Fuck, he chose the episode on purpose...)<</speech>>
+Suddenly, Rod's grip on your head firms up, pushing it against him menacing horse dick. You know you have no escape from this one, so you close your mouth and prepare for what's coming. His think glans presses against your lips, wetting up your mouth with his pre-cum.
+
+<<speech "netflix" "''Rod'':">>
+Hey, now... I thought you wanted to play! *laughs* I told you it was big, girl, but I can help you with that...<</speech>>
+Rod then presses a bit harder against your lips. Now that your mouth has been lubed up, it make it easier for him to break into it. He finally manages to put it in, but your mouth is too small for his big penis to fit on the first try.
+
+<<speech "netflix" "''Rod'':">>
+Down, down, down...<</speech>>
+<<speech "rede" "''$name'':">>
+ *gag, gag*<</speech>>
+<<speech "netflix" "''Rod'':">>
+Are you gagging? That's not even the tip, babe... hehe<</speech>>
+<div class="center"><img src="dockings/rome/dick2.gif" width="50%"></div>
+<<speech "rede" "''$name'':">>
+<span class="pink">I- *gag* I can't breathe!</span><</speech>>
+<<speech "netflix" "''Rod'':">>
+Ooops, sorry babe... Your mouth is so small, but it's so good too...<</speech>>
+Rod lets you get off a bit to breathe, but then leans you again and puts his cock in your mouth.
+
+<<speech "rede" "''$name'':">>
+<span class="pink">Wait! I can't! *gag* I really can't!</span><</speech>>
+Rod lets you go completely. You cough and wipe your tears off your eyes.
+
+<<speech "netflix" "''Rod'':">>
+Oh, I'm sorry... I thought you wanted this, we talked about this on Tinder...<</speech>>
+You suddenly see how his attitude has radically changed. He's now a bit sad, and his cock is very slowly getting less-hard...
+
+<<speech "netflix" "''Rod'':">>
+I thought I could find a girl that liked this... huge thing... but, my ex was right... nobody will be able to take this...<</speech>>
+<<speech "rede" "''$name'':">>
+<span class="pink">Hey, wait. I didn't mean that! You know, there are lots of women that would kill for something as big as this cock, trust me... I'll tell you what! You want to make that ex of yours jealous?</span><</speech>>
+<<speech "netflix" "''Rod'':">>
+Well, yeah...<</speech>>
+<<speech "rede" "''$name'':">>
+<span class="pink">Pick the phone and take a picture... *smile*</span><</speech>>
+
+<<speech "netflix" "''Rod'':">>
+OMG that would be awesome... *smiles*<</speech>>
+Rod stands up and makes you crawl out of the couch. Then you put the tip of his cock on your mouth, waiting for the picture. Suddenly, Rod takes your head and pushes you in, gagging you again.
+
+<span class="onomatopeya">CLICK</span>
+
+<div class="center"><img src="dockings/rome/dick3.jpg" width="50%"></div>
+After hearing the camera click, you free yourself and stand up.
+
+<<speech "rede" "''$name'':">>
+<span class="pink">I said don't choke me! You need to control yourself!</span><</speech>>
+<<speech "netflix" "''Rod'':">>
+I-I'm sorry...<</speech>>
+This last gagging makes you angry and you rush through the kitchen and open the door. You close the door behind you, leaving the guy with his dick out. You're about to go away, but then Rod opens the door and grabs your arm.
+
+<<speech "netflix" "''Rod'':">>
+Hey, um... thanks. And I'm really sorry... If you ever come back to Rome, please come again. I promise I will try to go a bit slower.<</speech>>
+<<speech "rede" "''$name'':">>
+(That doesn't sound very convincing... God, this dick taste on my mouth... <span class="pink">I guess it could be worse...</span>)<</speech>>
+You turn around and get out of his place. While walking back to the taxi, you lick your lips, trying to determine wether you like or not that taste...
+
+[[Go back to port|Cinema in piazza][$cinema to 2]]
+
+\\<<elseif $flat is 1>><<audio "myroom" volume 0.2 play loop>><<speech "red" "''$name'':">>
+No, thanks, I'm good.<</speech>>
+<<speech "netflix" "''Rod'':">>
+Alright then, so I was just watching <<if $netflix is 1>>GOT<<elseif $netflix is 2>>Black Mirror<</if>>, want to join in? I'll go make some popcorn.<</speech>>
+He goes to the kitchen and start microwaving a packet of popcorn.
+
+<<speech "rede" "''$name'':">>
+(He's not even going to talk to me first, or anything? Wow, he's a bit of a jerk... He just want someone to watch TV with. Let's hope it's only that...)<</speech>>
+While he's making the popcorn, you take a seat on the couch. As soon as you sit, you feel that spot is very warm. You know that's his spot, so you look to sit on one of the sides. You look to your left and see a small poodle of something sticky.
+
+<<speech "rede" "''$name'':">>
+(wtf is that...? Definitely not sitting there...)<</speech>>
+You take a look at the other side, but you really don't like to be trapped between a wall and this guy. So you grab one of the napkins on the table near the sofa and try to wipe that thing out. Then, you throw the dirty napkin to the side and sit down.
+
+<<speech "netflix" "''Rod'':">>
+Here I come! I only had one big bowl, but we can both take the popcorn from the same one.<</speech>>
+He throws himself into the center of the sofa, manspreading your already little space.
+
+<<speech "netflix" "''Rod'':">>
+Ok, ready? I was just about to finish the last episode, but we can start fresh from the next one. They always do a brief summary of the last chapters at the beginning, so no problem. *takes the controler and presses play*<</speech>>
+As the episode starts playing, Rod turns the lights down and puts the bowl on his lap.
+
+<<speech "netflix" "''Rod'':">>
+Hey, you didn't seem like the shy type! You can take as much popcorn as you want, baby... *puts his arm around your shoulders*<</speech>>
+<<speech "rede" "''$name'':">>
+<span class="pink">Thank you... </span>*smile*<</speech>>
+You see how he places the hot bowl of popcorn on his crotch, and you are definitely not making him think you want something with him by taking some popcorn. You don't want to excite him.
+
+<<speech "netflix" "''Rod'':">>
+You can take some, you know? Heh, don't be shy. *caresses your head*<</speech>>
+<<speech "rede" "''$name'':">>
+ *fake smile* <span class="pink">No thanks... not too hungry yet</span>.<</speech>>
+<<speech "netflix" "''Rod'':">>
+Oh, but I bet you will, baby. I'm here to feed you, just whatever you want. *wink, wink*<</speech>>
+You force a smile out.
+
+<<speech "rede" "''$name'':">>
+(I'm getting out of here as soon as the episode ends...)<</speech>>
+The episode starts, and the time passes by as Rod eats the popcorn. You are getting a bit annoyed by the constant sound he's making, but you stay quiet and wait for it to end.
+
+...
+
+...
+
+...
+
+After a while, you feel Rod's grip has gotten a bit tighter on you, so you decide to make a distraction.
+
+<<speech "rede" "''$name'':">>
+<span class="pink">Sorry, I'm going to the bathroom.</span><</speech>>
+You stand up and go to the bathroom. Once you're there, you lock it and basically wait for the time to pass. You hear how Rod has paused the episode, probably waiting for you to come out to continue watching it.
+
+After what feels like a very long 5 minutes, you come out. You are surprised to see that the living room lights have been turned off and Rod is in another room now, seems like the bedroom.
+
+<<speech "netflix" "''Rod'':">>
+Over here, babe.<</speech>>
+<<speech "rede" "''$name'':">>
+<span class="pink">W-what happened to the TV? Aren't we going to watch the episode?</span><</speech>>
+<<speech "netflix" "''Rod'':">>
+Have you seen "How I Met Your Mother"? You remember Barney Stinson? I thought I might as well try one of his techniques... come in.<</speech>>
+<<speech "rede" "''$name'':">>
+<span class="pink">What do you-</span><</speech>>
+You lean in and open the door.
+
+<<speech "netflix" "''Rod'':">>
+The Naked Man (tm)<</speech>>
+<div class="center"><img src="dockings/rome/naked1.jpg" width="50%"></div>
+<<speech "rede" "''$name'':">>
+<span class="pink">OMG, you're naked!</span><</speech>>
+<<speech "netflix" "''Rod'':">>
+Duh, hehehe... Come here baby...<</speech>>
+Rod gets closer to you, swinging his semi-hard dick around. You are surprised by his size, but also scared, because you really don't want to do this. Plus, you don't even know this guy!
+
+<<speech "rede" "''$name'':">>
+No, wait! Stay there! *cover your eyes*<</speech>>
+You cover your eyes with your hands, which is not a very smart move, since Rod is not stopping and gets inches apart from you. Then he takes your right hand and puts it on his already thick dick.
+
+<<speech "netflix" "''Rod'':">>
+Hmm... these pretty little hands are quite soft... how about those titties...<</speech>>
+You don't want him to find out you are not a woman, so, even though your chest could pass as a woman's, you decide it's better to hide it for now.
+
+<<speech "rede" "''$name'':">>
+<span class="pink">No, wait!... I think it's more fun if we take it slow... Close your eyes and let me give you a- a- a- handjob...</span> (God, that was difficult to say out loud...)<</speech>>
+<<speech "netflix" "''Rod'':">>
+Ooo, you're a kinky one, huh?<</speech>>
+Rod closes his eyes and puts his hands off you, expecting you to grab his dick and stroke.
+
+<<speech "rede" "''$name'':">>
+<span class="pink">Wait for it, baby...</span><</speech>>
+You start walking backwards and slowly get closer to the bedroom door. You manage to walk without making any sound, until you reach the kitchen. The Rod starts getting impatient.
+
+<<speech "netflix" "''Rod'':">>
+Hey, where are you...?<</speech>>
+<<speech "rede" "''$name'':">>
+(Oh, shit, he's opened his eyes! Quick, I'm close to the door, let's get out of here!)<</speech>>
+<<speech "netflix" "''Rod'':">>
+Oh, here you are... hehe<</speech>>
+Scared and surprised you jump and trip with the washing machine. You raise your head to keep an eye on Rod.
+
+<<speech "rede" "''$name'':">>
+(Oh my god, what the hell...) <span class="pink">Why is it... so big?</span><</speech>>
+<<speech "netflix" "''Rod'':">>
+Heh, that's just me baby. You said you loved it on Tinder.<</speech>>
+<<speech "rede" "''$name'':">>
+<span class="pink">But this is too big... it- it would never...</span><</speech>>
+As you start talking about his size, Rod's smile wears off. He's certainly getting self-conscious about it, just as he got when talking about it on Tinder.
+
+<<speech "netflix" "''Rod'':">>
+Oh, I thought you liked it... you're just like my ex then...<</speech>>
+<<speech "rede" "''$name'':">>
+(Am I actually feeling sorry for him...?)<span class="pink"> I mean... it's a very good size, and I know lots of women would love it so much... but I just don't... go that way...?<</speech>>
+<<speech "netflix" "''Rod'':">>
+Oh... well, thanks... I guess.<</speech>>
+You look at Rod's sad expression, which reminds you of that of a kid's. This awakes some kind of tenderness inside you and it makes you want to comfort him. But you are not willing to put up with all that meat either.
+
+You have an idea. You lean in and give his huge schlong a heart-felt kiss on the head.
+
+<div class="center"><img src="dockings/rome/dick4.png" width="50%"></div>
+
+<span class="onomatopeya">SMOOCH</span>
+
+Then you look at him and open your mouth to smile, stretching his drop of pre-cum that stuck to your lips, making you look cute and slutty and the same time.
+
+<<speech "netflix" "''Rod'':">>
+Hm... *smiles* Thank you...<</speech>>
+Now that Rod is confused, but relaxed, you stand up and say goobye. As you open the door, you hear him say one last thing.
+
+<<speech "netflix" "''Rod'':">>
+If you ever come back to Rome, give me a visit... (I love you)<</speech>>
+<<speech "rede" "''$name'':">>
+(Damn, I thought only Betas like me could be losers... but it seems I was wrong...)<</speech>>
+You close the door and get out. While you walk back to the taxi, a wave of recovered self-steem runs through your body. This big-dicked guy was all over you, and you just gave his cock a kissy kiss!
+
+<<speech "rede" "''$name'':">>
+(Damn, if this is what being a woman feels like, it's a lot easier than being a man. Or at least than being a sissy...)<</speech>>
+[[Go back to port|Cinema in piazza][$cinema to 2]]<</if>><<audio "menus" stop>>
+
+

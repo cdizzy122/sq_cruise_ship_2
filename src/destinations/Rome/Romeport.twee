@@ -1,0 +1,8 @@
+:: Romeport [textback] {"position":"3172,509","size":"100,100"}
+<<removeclass "html">><<addclass "html" "rome">><<audio "rome" volume 0.4 play loop>><div class="center"><img src="dockings/rome/rome.jpg" width="60%"></div>
+You walk into a simple but beautiful port. There's not a lot of people, and the ones that pass by don't seem to mind you much.
+
+[[Main street|Street1]]
+<<linkreplace "Return to Ship">>I have to go to the date first...<</linkreplace>><<addmins 1>><<if ndef $mute>><<audio "rome" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

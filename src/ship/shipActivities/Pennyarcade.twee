@@ -1,0 +1,410 @@
+:: Penny arcade [noborder textback] {"position":"2011,853","size":"100,100"}
+<<if $dayn lt 16>><<removeclass "html">><<addclass "html" "decks">><<if ndef $arcade>>Deck 5 has a especially long corridor compared to yours. The room doors are also wider and the space in between one and another is bigger. From the elevators and stairs area you think you can see some lights and a door at the ending of the deck, but you're not so sure...
+
+<<speech "You" "''$name'':">>
+(Hm... That's weird, I don't recall seeing any of those lights in my deck or Tara's...)<</speech>>
+You decide to walk through the deck and find out what those light are. Just as you are half-way through the corridor, you notice something strange: there are no sounds. The deck is too silent... you normally hear some people talking through the doors and walking around, but with the exception of some sounds from the fourth deck, nothing's moving...
+
+<<speech "You" "''$name'':">>
+(Is there really nobody here? Then why is this deck here? Could it be for... the men?)<</speech>>
+<<linkreplace "End of the corridor:">><div class="center"><img src="quest8/door.png" width="30%"></div>
+<<speech "You" "''$name'':">>
+(Penny arcade?? I wonder what they put inside this room... I'm sure they didn't settle for a pool table...)<</speech>>
+You try to open the door, but it is closed. Once you take a step back you see a note:
+
+<div class="center"><img src="quest8/note.png" width="30%"></div>
+<<speech "You" "''$name'':">>
+(Not until the 30th?? *sigh*)<</speech>>
+[[Return|Deck 5][$arcade to 0]]<</linkreplace>>
+
+
+\\<<elseif $arcade is 0>><div class="center"><img src="quest8/door.png" width="30%"></div>
+<<speech "You" "''$name'':">>
+(Penny arcade?? I wonder what they put inside this room... I'm sure they didn't settle for a pool table...)<</speech>>
+You try to open the door, but it is closed. Once you take a step back you see a note:
+
+<div class="center"><img src="quest8/note.png" width="30%"></div>
+<<speech "You" "''$name'':">>
+(Not until the 30th?? *sigh*)<</speech>>
+[[Return|Deck 5][$arcade to 0]]<</if>>
+
+
+
+
+
+
+
+
+
+
+
+\\<<elseif $dayn gte 16 and $dayn lt 30>><<removeclass "html">><<addclass "html" "decks">><<if ndef $arcade>>Deck 5 has a especially long corridor compared to yours. The room doors are also wider and the space in between one and another is bigger. From the elevators and stairs area you think you can see some lights and a door at the ending of the deck, but you're not so sure...
+
+<<speech "You" "''$name'':">>
+(Hm... That's weird, I don't recall seeing any of those lights in my deck or Tara's...)<</speech>>
+You decide to walk through the deck and find out what those light are. Just as you are half-way through the corridor, you notice something strange: there are no sounds. The deck is too silent... you normally hear some people talking through the doors and walking around, but with the exception of some sounds from the fourth deck, nothings moving...
+
+<<speech "You" "''$name'':">>
+(Is there really nobody here? Then why is this deck here? Could it be for... the men?)<</speech>>
+<<linkreplace "End of the corridor:">><div class="center"><img src="quest8/door.png" width="30%"></div>
+<<speech "You" "''$name'':">>
+(Penny arcade?? I wonder what they put inside this room... I'm sure they didn't settle for a pool table...)<</speech>>
+You try to open the door, but it is closed. Once you take a step back you see a note:
+
+<div class="center"><img src="quest8/note.png" width="30%"></div>
+<<speech "You" "''$name'':">>
+(Not until the 30th?? *sigh*)<</speech>>
+...
+
+...
+
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''???''</span>
+ *sniff, sniff*<</speechpatreon>>
+<<speech "You" "''$name'':">>
+(Huh? Did I hear someone cry?)<</speech>>
+You know the sound is not coming from behind the arcade door, but it's definitely near you... You take a few steps back, taking a look at each door, until you finally found what was making those sounds, or who.
+
+<div class="center"><img src="quest8/ethel.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+Hey, what's wrong?<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''???''</span>
+Huh? ...oh...um... I thought you didn't see me. I-I'm fine, really...<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Well, you don't seem too fine...<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''???''</span>
+Jeez, thanks, that's just what I needed!<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Hey, no need to get sarcastic, I just wanted to know why you are all alone here...<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''???''</span>
+Hm... I came for the same reason that you did... to go into the arcade and play for a while, but it's not open yet... not until the 30th...<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Oh, well, I just came in here because I saw some lights...<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''???''</span>
+Heh... what are you, a magpie? *raises eyebrow*<</speechpatreon>>
+She can't help but chuckle to her own joke. Her is contagious, as she puts a smile in your face.
+
+<<speech "You" "''$name'':">>
+(She's so cute...) Do you mind if I take a seat?<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''???''</span>
+Sure...<</speechpatreon>>
+You take a seat on the floor next to her. You both put your back against the random room door. You take a good look at her and see her take out her phone with a worried look on her face.
+
+<<speech "You" "''$name'':">>
+So... you really wanted to get in that arcade, didn't you? To make you cry...<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''???''</span>
+Oh, no... I mean, I wanted to go into the arcade, it's my safe zone you know...<</speechpatreon>>
+She takes another look at her phone, but locks the screen again in a second.
+
+<<speech "You" "''$name'':">>
+So, are you waiting for a call? I can't help but notice how much you're looking at it...<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''???''</span>
+Oh...<</speechpatreon>>
+<<speech "You" "''$name'':">>
+(I should make know she can trust me.) What's your name?<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel''</span>
+I'm Ethel... and you?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+I'm $name... (maybe if I tell something about myself she will open up) You know, it's not like I really want to be on this ship... My girlfriend is back home... and- (I feel like I can tell her.) and I know she's cheating on me. I know what it is to be constantly on my phone waiting for an answer...<</speech>>
+After a few moments of silence, Ethel looks at you.
+
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel''</span>
+How do you know she is cheating?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Well... she's actually sent me a picture...<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel''</span>
+Oh, that's awful... but- but at least you know something for sure. I don't even know what he's doing. I just know he wants to break with me because he found out I was going on this cruise-<</speechpatreon>>
+<<speech "You" "''$name'':">>
+(Well, that's a reasonable reason...) Well...<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel''</span>
+I know, I know... but it's not like that. Just like you, I didn't know I was coming here. This was supposed to be a girls only trip with my friends... But they knew and didn't tell me about it... I would have said no... *sob, sob*<</speechpatreon>>
+You feel terrible for her, she really seems like a good girl that was just too innocent, just like you. As she starts to cry, you get closer and hug her.
+
+<<speech "You" "''$name'':">>
+Hey, it's alright. Maybe he doesn't know about the whole story, but I think it's more than reasonable. Just talk with him and everything should be fine.<</speech>>
+Suddenly, her phone buzzes.
+
+<span class="onomatopeya">BEEP BEEP</span>
+
+She takes her phone and opens the chat with her boyfriend.
+
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel''</span>
+Wha-<</speechpatreon>>
+Ethel's face turns white and drops her phone before crying again.
+
+<<speech "You" "''$name'':">>
+What happened?...<</speech>>
+Then you take the phone she just dropped:
+
+<<linkreplace "read chat">><span class="fade-ins"><div class="center"><img src="quest8/bfethel.gif" width="50%"></div>
+<<speech "You" "''$name'':">>
+(OMG...) Is that... your BF?<</speech>>
+Ethel nods, her face covered with tears.
+
+<<speech "You" "''$name'':">>
+(I can't believe it... she's crying for this <span class="pink">tiny dicked</span> guy... I think he must be my size... If what Miss Foster told me is real... why is she so affected? I guess women can fall in love with non-alphas...) Ethel, maybe this is not a good time to bring this up but... I think you could do much better.<</speech>>
+Ethel looks at you, like she somewhat liked the idea.
+
+<<speech "You" "''$name'':">>
+I mean... after all you are in a sex cruise, aren't you?<</speech>>
+She stops crying.
+
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel''</span>
+Yeah, but... I've only been with Andy, he's been the only one... I don't know if I'm in the mood for any of that...<</speechpatreon>>
+<<speech "You" "''$name'':">>
+You never know... there's a lot of guys out there! And there's going to be very well "equiped" guys on this ship. *wink*<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel''</span>
+ *chuckle* Yeah, but I don't know... that has to hurt. My friends have shown me pictures of some guys they've been with, and they are too big! There's no way those things could fit in me!<</speechpatreon>>
+<<speech "You" "''$name'':">>
+(I bet Tara, Foster and Captain wouldn't agree... Oh, I know!) Hey, I think you should talk with Tara.<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel''</span>
+Who's Tara?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+(Oh, right.) She is part of the crew of the ship. She's helped me a lot with my issues. I bet she could give you good advice!<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel''</span>
+That would... actually be nice. My friend really can't give any good advice. They just tell me to dump my BF all the time, but I have feelings for him, you know? I can't just "dump" him...<</speechpatreon>>
+<<speech "You" "''$name'':">>
+I know... *you stand up* Come on, let's see if she's on her room.<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel''</span>
+Oh, ok... but now? What if she laughs at me?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Don't worry, you'll be fine.<</speech>>
+She smiles and stands up. You lead her to the third deck and knock on Tara's door. 
+
+<span class="onomatopeya">KNOCK KNOCK</span>
+
+She is usually busy doing... well, now that you think about it you don't know what she does... you might ask her that the next time you are alone with her.
+
+Surprisingly, Tara is in her room and opens the door for the both of you.
+
+<div class="center"><img src="quest8/tararoom.jpg" width="30%"></div>
+<<speech "tara" "''Tara:''">>
+Yeah? Oh hey, it's my favourite little guy! How's your cute tail doing in its cage? *smiles ironically*<</speech>>
+Tara pinches your crotch, grabbing your caged penis and instantly making you horny. Even though you remembered how beautiful she was you had almost forgotten how attractive her personality is...
+
+<<speech "tara" "''Tara:''">>
+I see you've made a friend... are you going to introduce us?<</speech>>
+<<speech "You" "''$name'':">>
+Mmm... what? Oh, righ! She's Ethel, and I brought her to you because I think you could maybe give her some advice. You know, a girl talk?<</speech>>
+<<speech "tara" "''Tara:''">>
+Well, I think you almost qualify for doing a "girl talk" yourself, baby. *wink* So, Ethel, what's it about?<</speech>>
+You can tell Ethel is shocked by the way Tara treats you and the way she's still grabbing your dick while asking her a direct question.
+
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel''</span>
+Uhm... I have a boyfriend on land, well... had. *starts crying*<</speechpatreon>>
+<<speech "tara" "''Tara:''">>
+Oh... I see, heart problems... If a boy is giving you a hard time you should reconsider, girl. He'll come back begging for such a cute girl like you. What is it, he is angry you came here, isn't he?<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel''</span>
+Y-yes... But I didn't know where I was coming to! And now he has...<</speechpatreon>>
+<<speech "You" "''$name:''">>
+He has cheated on her...<</speech>>
+<<speech "tara" "''Tara:''">>
+Oh, sounds familiar, $name? Wow, you two look like could learn from each other... May I ask how do you know he's cheating? Most guys are just not very talkative and you can tend to imagine things...<</speech>>
+Ethel slowly raises her unlocked phone until Tara can see the picture that her boyfriend sent her.
+
+<<speech "tara" "''Tara:''">>
+Hm... PFFFTTHAHAHAHA<</speech>>
+You are shocked by how heartless Tara's laugh is.
+
+<<speech "tara" "''Tara:''">>
+Girl, he's done you a favour... $name, we need to have a real girl talk, no boys allowed. *she takes her hand out of your crotch and playfully pushes you back* Come here, Ethel. So how long have you been with this tiny boyfriend of yours?<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel''</span>
+6 years now... we've been together since forever...<</speechpatreon>>
+<<speech "tara" "''Tara:''">>
+Oh my God, girl. You are going to be sooo happy that you came to this cruise, I tell you. Now, let me tell you about-<</speech>>
+<span class="onomatopeya">SLAM</span>
+
+<<speech "You" "''$name:''">>
+(What? She just slammed the door in front of my face... Tara can be a jerk sometimes... <span class="pink">a very hot jerk...</span>)<</speech>>
+[[Return|Deck 5][$ethel to "Active", $arcade to 0]]</span><</linkreplace>><</linkreplace>>
+
+
+
+<<elseif $arcade is 0>><div class="center"><img src="quest8/door.png" width="30%"></div>
+<<speech "You" "''$name'':">>
+(Penny arcade?? I wonder what they put inside this room... I'm sure they didn't settle for a pool table...)<</speech>>
+You try to open the door, but it is closed. Once you take a step back you see a note:
+
+<div class="center"><img src="quest8/note.png" width="30%"></div>
+<<speech "You" "''$name'':">>
+(Not until the 30th?? *sigh*)<</speech>>
+[[Return|Deck 5][$arcade to 0]]<</if>>
+
+
+
+
+
+
+
+
+\\<<elseif $dayn gte 30>><<if ndef $enterarcade>><<removeclass "html">><<addclass "html" "decks">>You walk through the deck 5 corridor, hearing all kinds of deep voices behind the doors. You finally reach the door at the end.
+
+<div class="center"><img src="quest8/door.png" width="30%"></div>
+<<speech "You" "''$name'':">>
+(Penny arcade?? I wonder what they put inside this room... I'm sure they didn't settle for a pool table...)<</speech>>
+You can hear people inside, so you know it's not closed anymore.
+
+[[Open door|Penny arcade][$enterarcade to 1]]
+[[Return|Deck 5][$enterarcade to 0]]
+
+
+
+\\<<elseif $enterarcade is 0>><<removeclass "html">><<addclass "html" "decks">>You walk through the deck 5 corridor, hearing all kinds of deep voices behind the doors. You finally reach the door at the end.
+
+<div class="center"><img src="quest8/door.png" width="30%"></div>
+[[Open door|Penny arcade][$enterarcade to random(1,3)]]
+[[Return|Deck 5][$enterarcade to 0]]
+
+
+
+
+\\<<elseif $enterarcade is 1>><<removeclass "html">><<addclass "html" "arcade1">>As you enter the arcade, you remember the words of Captain T. You know that once you cross this door, the protocol rules are not worth anything.
+
+<<speech "You" "''$name'':">>
+(Maybe I should have put on something more masculine if I intend to interact with these guys...)<</speech>>
+But you've already opened the door and are about to step inside. You really just want to peek.
+
+<div class="center"><img src="places2/arcade1.jpg" width="75%"></div>
+All you can see is a room very similar to a vintage penny arcade, with some game machines and music. You take another step inside to get a better view. You can hear some men around, and so you go throgh the corridor on the right and peek. 
+
+
+<div class="center"><img src="places2/arcade3.jpg" width="50%"></div>
+Most of them are just drinking and playing cards on a table by the side. The dark part of the room, where all the machines are seems to be mostly empty.
+
+<<speech "nobody" "''Blonde man'':">>
+You bet I'm gonna fuck that little redhead, bro.<</speech>>
+You take a step back, scared that that might be you, but apparently not.
+
+<<speech "nobody" "''Black man'':">>
+Yeah, right, I'm gonna get her first. Once she goes black she's not going back to white dudes.<</speech>>
+<<speech "nobody" "''Blonde man'':">>
+Heh... don't forget I have an ''B'' rank, you're just a ''C'', bro<</speech>>
+<<speech "nobody" "''Black man'':">>
+Fuck you, you all know my dick is twice the size of any white boy's thing.<</speech>>
+<<speech "nobody" "''Blonde man'':">>
+Don't think so, buddy! I'll tell you what: we'll play another one, whoever wins takes that pussy first.<</speech>>
+<<speech "nobody" "''Black man'':">>
+Done! You're gonna fall dude!<</speech>>
+You get in and go straight to the darker area.
+
+<<speech "You" "''$name'':">>
+<span class="pink">(Ugh... boys will be boys...)</span><</speech>>
+<div class="center">[[Game machines|Penny arcade][$enterarcade to 4]] | <<if $manlyclothes is true>>[[Approach them|Penny arcade]]<<else>><<linkreplace "Approach them">>You should get some manly clothes first...<</linkreplace>><</if>>
+
+[[Get out|Deck 5][$enterarcade to 0]]</div>
+
+
+
+\\<<elseif $enterarcade is 2>><<removeclass "html">><<addclass "html" "arcade1">>As you enter the arcade, you remember the words of Captain T. You know that once you cross this door, the protocol rules are not worth anything.
+
+<<speech "You" "''$name'':">>
+(Maybe I should have put on something more masculine if I intend to interact with these guys......)<</speech>>
+You are about to get inside when suddenly see the shadow of a big man about to open the door from the other side. Before you can do anything, he opens it:
+
+<div class="center"><img src="places2/arcade4.jpg" width="50%"></div>
+Fortunatelly, he is looking back and talking to someone.
+
+<<speech "nobody" "''Blonde man'':">>
+Hey bro, I'm going to the bar, you want something from there?<</speech>>
+<<speech "nobody" "''Black man'':">>
+Nah, man, I'm good.<</speech>>
+Scared, you run your ass out of there before he sees you.
+
+<<speech "You" "''$name'':">>
+(God, that was close... I can't get in for now, maybe in a while...)<</speech>>
+[[Return|Deck 5]]
+
+
+\\<<elseif $enterarcade is 3>><<removeclass "html">><<addclass "html" "arcade1">>As you enter the arcade, you remember the words of Captain T. You know that once you cross this door, the protocol rules are not worth anything. But, since you can't hear a single thing inside the room, you believe it to be empty, and so you get inside.
+
+<div class="center"><img src="places2/arcade5.jpg" width="40%"></div>
+<<speech "nobody" "''???'':">>
+Hi there... who are you?<</speech>>
+<<speech "You" "''$name'':">>
+I-I'm $name... (Fuck, fuck, fuck...)<</speech>>
+The man puts his enormous hand on your shoulder gently and smiles.
+
+<<speech "nobody" "''???'':">>
+You should be careful wandering along this area, you know that.<</speech>>
+<<speech "You" "''$name'':">>
+I know, I j-just... wanted to check the room out.<</speech>>
+<<speech "nobody" "''???'':">>
+Oh, you're a gamer girl, huh? Yeah, these machines are empty most of the time. Us boys don't have time for that, we prefer to... you know... *winks*<</speech>>
+You smile nervously, afraid of his real intentions, but you can't hep but notice how long his fingers are. Then, you take a look at his shirt and see his badge.
+
+<<speech "You" "''$name'':">>
+ *gasp* (An "S" badge... he must be... <span class="pink">a monster...</span>)<</speech>>
+<<speech "nobody" "''???'':">>
+Anyway, you can probably get in now, everyone's busy somewhere else. *wink*<</speech>>
+Your heart skips a beat.
+
+<<speech "You" "''$name'':">>
+ *smile* T-thanks...<</speech>>
+<<speech "nobody" "''???'':">>
+No problem.<</speech>>
+He confidently walks away through the corridor while you get inside the room.
+
+[[Enter|Penny arcade][$enterarcade to 4]]
+
+
+
+
+
+\\<<elseif $enterarcade is 4>><<removeclass "html">><<addclass "html" "arcade1">><div class="center"><img src="places2/arcade2.jpg" width="70%"></div>
+<<speech "You" "''$name'':">>
+(Wow! Such a shame I couldn't access these before!)<</speech>>
+<div class="center"><div class="row3"><div class="column3">[[Cock Tease! (online)|Penny arcade][$enterarcade to 5]]</div><div class="column3">[[Dick Hero (online)|Penny arcade][$enterarcade to 6]]</div><div class="column3">[[Fap Ninja (online)|Penny arcade][$enterarcade to 7]]</div></div>
+<font size="-1"><div class="row3"><div class="column3">SCORE→''<<print $highgame1>>''</div><div class="column3">SCORE→''<<print $highgame2>>''</div><div class="column3">SCORE→''<<print $highgame3>>''</div></div></font>
+
+[[Get out|Deck 5]]</div>
+
+
+\\<<elseif $enterarcade is 5>><<removeclass "html">><<addclass "html" "arcade2">>You walk up to one of the machines and see what looks like a reversed whack-a-mole, where you're trying to protect your ass from getting fucked by long dicks.
+
+<<speech "You" "''$name'':">>
+(The controls seem fairly simple... maybe I could give it a try!)<</speech>>
+You press the START button and wait for it to start:
+
+<div class="center"><span class="noshit"><a href="https://mikandi.com/adult-games/game/cock-tease" target="_blank"><img src="stuff/button.png" width="13%"></a>
+<area shape="rect" coords="25,25,75,75" href="https://mikandi.com/adult-games/game/cock-tease" target="_blank"></span>
+
+<div class="red">(Not embedded because it messes up the dialogs. Opens in a new tab).</div>
+Enter your highscore once you're finished (it's better if you're honest!)
+
+HIGHSCORE: <<textbox "$highgame1" "0">>
+
+[[Return|Penny arcade][$enterarcade to 4]]</div>
+
+
+\\<<elseif $enterarcade is 6>><<removeclass "html">><<addclass "html" "arcade2">>Classic early platformer... except with a extendable cock that leads to platforms where ladies await to get fucked. Yep...
+
+<<speech "You" "''$name'':">>
+(Flappy birds, but less infuriating... might as well give it a try...)<</speech>>
+You press the START button and wait for it to start:
+
+<div class="center"><span class="noshit"><a href="https://mikandi.com/adult-games/game/dick-hero" target="_blank"><img src="stuff/button.png" width="13%"></a>
+<area shape="rect" coords="25,25,75,75" href="https://mikandi.com/adult-games/game/dick-hero" target="_blank"></span>
+
+<div class="red">(Not embedded because it messes up the dialogs. Opens in a new tab).</div>
+Enter your highscore once you're finished (it's better if you're honest!)
+
+HIGHSCORE: <<textbox "$highgame2" "0">>
+
+[[Return|Penny arcade][$enterarcade to 4]]
+
+\\<<elseif $enterarcade is 7>><<removeclass "html">><<addclass "html" "arcade2">>Several fast mini-games inside the same game. Complete all you can as fast as you can to earn the best highscore!
+
+<<speech "You" "''$name'':">>
+(Damn, just like Mario Party but with hentai porn and alone... Seems fitting.)<</speech>>
+You press the START button and wait for it to start:
+
+<div class="center"><span class="noshit"><a href="https://mikandi.com/adult-games/game/fap-ninja" target="_blank"><img src="stuff/button.png" width="13%"></a>
+<area shape="rect" coords="25,25,75,75" href="https://mikandi.com/adult-games/game/fap-ninja" target="_blank"></span>
+
+<div class="red">(Not embedded because it messes up the dialogs. Opens in a new tab).</div>
+Enter your highscore once you're finished (it's better if you're honest!)
+
+HIGHSCORE: <<textbox "$highgame3" "0">>
+
+[[Return|Penny arcade][$enterarcade to 4]]<</if>><</if>><<audio "menus" stop>><<nobr>><<if $gameDate.getHours() is 0 or $gameDate.getHours() lt 8>><<goto [[Dreams]]>><<else>><</if>><</nobr>>
+
+

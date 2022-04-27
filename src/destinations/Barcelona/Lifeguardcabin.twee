@@ -1,0 +1,45 @@
+:: Life guard cabin [textback] {"position":"3996,995","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spanish">><<if ndef $lgcabin>><img src="dockings/nudist/guardgirl.gif" width="40%">
+
+<<speech "nobody" "''Apprentice'':">>
+Where the FUCK is he?! Ugh!!<</speech>>
+<<speech "You" "''$name'':">>
+Excuse me miss, what's wrong?<</speech>>
+<<speech "nobody" "''Apprentice'':">>
+I'm not supposed to be alone here. There could be two emergencies and I am not able to save two people at once, you know?! And it's my first day here, he's supposed to teach me how things go around here!<</speech>>
+<<speech "You" "''$name'':">>
+Can I help you in any way?<</speech>>
+<<speech "nobody" "''Apprentice'':">>
+Well, it would be really helpful if you could find him and convince him to come and help me. I'm really stressed out! Anything could happen! What if I need him? What if someone dies just because he's not here?! FUCK!<</speech>>
+<<speech "You" "''$name'':">>
+Ok, relax. I'll try to find him and bring him back. Do you know where he is?<</speech>>
+<<speech "nobody" "''Apprentice'':">>
+I bet he's around here, on the beach, fuckin'sunbathing or something...<</speech>>
+[[Accept mission|Life guard cabin][$lgcabin to 1]]
+
+[[Not yet|Nudist beach]]<<elseif $lgcabin is 1>><img src="dockings/nudist/cabin.jpg" width="50%">
+
+The beach apparently ends here, with a barrier of rocks after the lifeguard's cabin. The lifeguard's apprentice is inside.
+
+[[Climb up the rocks|lilbeach]]
+[[Return|Nudist beach]]<<elseif $lgcabin is 2>><img src="dockings/nudist/guardgirl.gif" width="40%">
+
+<<speech "nobody" "''Apprentice'':">>
+Do you know something new about my fucking mentor?<</speech>>
+<<speech "You" "''$name'':">>
+Well, in fact I do! He's right there, behind those rocks. There's a little beach, and he's there by himself.<</speech>>
+<<speech "nobody" "''Apprentice'':">>
+I can't believe it! He's going to know who I am!<</speech>>
+She goes directly to the rocks and starts climbing them.
+
+<<speech "You" "''$name'':">>
+She really looks mad... makes me almost feel bad for the guy.<</speech>>
+<<click "Climb up the rocks" "lilbeach">><<set $lifeguard to 2>><<set $badge to $badge +1>><<set $lgcabin to 3>><<if $flyer is "Active">><<set $flyer to "1/3 done">><<elseif $flyer is "1/3 done">><<set $flyer to "2/3 done">><<elseif $flyer is "2/3 done">><<set $flyer to "Finished">><</if>><</click>>
+<<click "Return" "Nudist beach">><<set $badge to $badge +1>><<set $lifeguard to 2>><<set $lgcabin to 3>><<if $flyer is "Active">><<set $flyer to "1/3 done">><<elseif $flyer is "1/3 done">><<set $flyer to "2/3 done">><<elseif $flyer is "2/3 done">><<set $flyer to "Finished">><</if>><</click>><<elseif $lgcabin is 3>><img src="dockings/nudist/cabin.jpg" width="50%">
+
+The beach apparently ends here, with a barrier of rocks after the lifeguard's cabin. The lifeguard's apprentice is on the little beach behind the rocks having a "discussion" with her mentor.
+
+[[Climb up the rocks|lilbeach]]
+[[Return|Nudist beach]]<</if>><<audio "menus" stop>><<if ndef $mute>><<audio "spanish" unmute>><<else>><</if>><<if ndef $mutefx>><<audio "sea" unmute>><<else>><</if>>
+
+

@@ -1,0 +1,65 @@
+:: Left [textback] {"position":"4145,629","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spanish">><<if ndef $leftbeach>>You start walking to the left side of the beach. Your heart beats fast with embarrassment, but, as everyone is naked as well, you start enjoying the freedom. Not many people look at you, they're just enjoying the beach. But your cage, imprissoning your little clitty, on the other side is drawing all the attention. Girls and boys look at that little spot of your body when you pass through.
+
+Suddenly, you hear a couple talking:
+
+<<speech "nobody" "''Woman:''">>
+See, that's what I was telling you about! He's so sexy...<</speech>>
+<<speech "nobody" "''Man:''">>
+But, honey...It's probably very uncomfortable, and...<</speech>>
+<<speech "nobody" "''Woman:''">>
+Well, yes, but you can't hold yourself...You need some containment.<</speech>>
+You keep on walking as you hear someone running behind you:
+
+<<linkreplace "... ...">><<if ndef $mutefx>><<audio "hey" play>><<else>><</if>><<speech "nobody" "''Woman:''">>
+Hey! Excuse me!<</speech>>
+<img src="dockings/nudist/hotwife.gif" width="50%">
+
+<<speech "nobody" "''Woman:''">>
+Hi there, sexy. I see you've got a nice present there, huh? *she touches your cage, playfully wiggling it a bit* My GOD...so hot...Where is your wife?<</speech>>
+<<speech "You" "''$name:''">>
+I... I don't have a wife...<</speech>>
+<<speech "nobody" "''Woman:''">>
+And why are you caging your little dick then?<</speech>>
+<<speech "You" "''$name:''">>
+My... mistress told me to.<</speech>>
+<<speech "nobody" "''Woman:''">>
+Hmm...such an obedient boi. VERY-GOOD-BOI. *pats your cage* You see, I have a problem, and I was wondering if you could help me.<</speech>>
+<<speech "You" "''$name:''">>
+Um, yeah sure. What is it?<</speech>>
+<<speech "nobody" "''Woman:''">>
+I'm married to the man I love. He's there on the sand. Can you see him?<</speech>>
+<img src="dockings/nudist/cuck.jpg" width="50%">
+
+<<speech "You" "''$name:''">>
+Yeah, I see him...<</speech>>
+<<speech "nobody" "''Woman:''">>
+As you see, there's always been a SMALL problem in our relationship. It's not doing it for me, you know...I've tried to make him wear a chastity cage for a week, but he's not really buying the idea.
+
+I've always had BIG dicks. Like really big. All my exes were very well hung, with heavy black balls hanging down, mmm...<</speech>>
+...
+...
+
+<<speech "You" "''$name:''">>
+Ehem.<</speech>>
+<<speech "nobody" "''Woman:''">>
+Um, yeah...I just want you to talk to him and convince him to wear the cage I bought yesterday for him. Something has got to change in our relationship, I can't help it anymore.<</speech>>
+<<speech "You" "''$name:''">>
+I don't know if I can do that...<</speech>>
+<<speech "nobody" "''Woman:''">>
+Come on! I know you can, he will surely listen to a cutie like you. *she caresses your balls and gives you a kiss on the cheek*<</speech>>
+<<speech "You" "''$name:''">>
+Ok, I'll...I'll try to.<</speech>>
+<<speech "nobody" "''Woman:''">>
+Such a good boi. I wish he was more like you. Such a great ass! *she grabs your ass* hehe...Come, I'll introduce you to him.<</speech>>
+[[Accept mission|Cuckyevent]]
+[[Not yet|Nudist beach]]<</linkreplace>><<elseif $leftbeach is 0>>Here's the cuckold couple. They are talking about something important, and the hotwife seems to be teasing the hubby's caged dick.
+
+<<speech "nobody" "''Woman:''">>
+Hey, sissy! We are going now to that place, are you coming?<</speech>>
+[[Go with them|Cuckyevent][$leftbeach to 1, $cuckybeach to 0]]
+[[Return|Nudist beach]]<<elseif $leftbeach is 1>><<nobr>><div class="center"><<set $nbimg to random(1,6)>><<if $nbimg is 1>><img src="dockings/nudist/nude1.jpg" width="70%"><<elseif $nbimg is 2>><img src="dockings/nudist/nude2.jpg" width="70%"><<elseif $nbimg is 3>><img src="dockings/nudist/nude3.jpg" width="70%"><<elseif $nbimg is 4>><img src="dockings/nudist/nude4.jpg" width="60%"><<elseif $nbimg is 5>><img src="dockings/nudist/nude5.jpg" width="70%"><<elseif $nbimg is 6>><img src="dockings/nudist/nude6.jpg" width="70%"><</if>></div><</nobr>>
+<div class="center">Nothing else to do here...</div>
+[[Return|Nudist beach]]<</if>><<if ndef $mute>><<audio "spanish" unmute>><<else>><</if>><<if ndef $mutefx>><<audio "sea" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

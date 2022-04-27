@@ -1,0 +1,45 @@
+:: SMS1 GF [phone textback] {"position":"1829,2245","size":"100,100"}
+<<if ndef $setcuckpath>><img src="gf/sms1.jpg" width="40%">
+
+<<speech "gfd" "''$gfname:''">>
+Hi. Here's a pic, as I figure you will be missing me. Going away for so long...
+Look $name, I am not going to lie to you: I am not happy about us. This might be the perfect time for both of us to think. Think about our lives and our relationship. Maybe...maybe this is a sign.
+
+That doesn't mean that I want to stop talking to you. I still love you, $name. I just think we need some time. 
+
+Anyway, you've got me here if you feel alone or if you miss me. I...I guess we are not officialy together, so we can see other people, though that doesn't mean I will. I'm going to miss you. 
+
+Try to be happy there and have fun.
+
+PS: If you treat me well I might be sending more pics ;)<</speech>>
+[[Be nice and soothe the situation (CUCKOLD PATH)|SMS1 GF][$setcuckpath to 0]]
+[[Fuck her! (ALTERNATIVE PATH)|SMS1 GF][$setcuckpath to 1]]
+
+
+
+
+\\<<elseif $setcuckpath is 0>>Well, this is proof that things COULD get worse... At least she seems to be taking it pretty well...
+
+<<speech "You" "''$name:''">>
+(I wasn't expecting such comprehension of her, especially considering how angry she was at me last night) Ok baby, I understand. Take care, I love you. <3<3<</speech>>
+Although you have lots of questions for her, you decide it's best to swallow your pride and do your best to forget about it.
+
+With an unsettling feeling in your guts, you decide to get in bed and try to <<click "sleep" "Goodmorning">><<set $receivemessages to true>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 0>><<adddays 1>><</click>><<set $gfsms to 0>><<set $announcement2 to true>><<audio "menus" stop>>
+
+
+
+
+
+\\<<elseif $setcuckpath is 1>>Thinking about swallowing your pride just makes you angrier. You know this has crossed a line you weren't expecting it to...
+
+<<speech "You" "''$name:''">>
+(Maybe it's better for us to be apart after all...) Yeah, I'm not happy either. We totally should break up, especially after knowing I can't trust you. Heh... I bet you send lewd pics to everyone else, but I'm just receiving a lame selfie?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+You are being unfair and you know it! Those were old pictures and you weren't supposed to know of their existence.<</speech>>
+<<speech "You" "''$name:''">>
+Whatever, I just don't feel I can trust you, so I think being apart is a great idea. We'll talk about the house and everything else once I'm back.<</speech>>
+You see her writing back, but her message never arrives. It seems like she's given up.
+
+With an unsettling feeling in your guts, you decide to get in bed and try to <<click "sleep" "Goodmorning">><<set $receivemessages to true>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 0>><<adddays 1>><</click>><<set $gfsms to 0>><<set $announcement2 to true>><<audio "menus" stop>><</if>>
+
+

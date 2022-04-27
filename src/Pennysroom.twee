@@ -1,0 +1,224 @@
+:: Penny's room [textback] {"position":"1649,1217","size":"100,100"}
+<<if ndef $pennyroom>><div class="center"><img src="places2/pennydoor.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(I don't know if I should bother him...)<</speech>>
+As much as you'd like to have a talk with Penny, you also don't know how he's actually feeling. Maybe it's better to leave him alone until you get to know each other.
+
+[[Deck 2]]
+
+
+
+\\<<elseif $pennyroom is 0>><div class="center"><img src="places2/pennydoor.jpg" width="50%"></div>
+You knock on Penny's door, waiting for a response.
+
+<span class="onomatopeya">KNOCK KNOCK KNOCK</span>
+
+<div class="center"><img src="penny/penny2.jpg" width="50%"></div>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Oh, hi $name! Please, come in.<</speechpatreon>>
+<<linkreplace "Get inside">><div class="center"><img src="places2/pennybedroom.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+Wow, this room looks similar to mine... although it's bigger... (Do I really have the worst room on the ship?!)<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Yeah, I guess that makes sense! Most rooms on this deck look very similar. Please, take a seat on the bed or wherever you want.<</speechpatreon>>
+You sit on her bed. You can't help but notice a red button similar to the one in your room.
+
+<<speech "You" "''$name'':">>
+(Huh, so those VR goggles are part of every room?) So tell me Penny, how did you arrive to Casablanca, you don't look like you're from there.<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+I know! Hahaha... well, to be honest, I don't completely remember. I know I'm an orphan, so don't have parents, and I'm from the USA. But I can't seem to remember how I ended up in there... Zasha told me, for sure, but I don't remember now... it's like my memories have just vanished somehow...<</speechpatreon>>
+She looks down, trying to think about it, but you can tell she's not going to be able to get anything from it. Maybe they've managed to do something similar as with Anastasia, making her behave differently and locking some of her memories.
+
+<<speech "You" "''$name'':">>
+Um... Callum Fritz!... ...<</speech>>
+Penny stare at you, smiling weirdly.
+
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Um... what was that?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+(Well, that did not work...) Oh nothing... and what exactly did you guys do underground in Casablanca? What was Zasha doing to you?<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Oh, you know... something similar to here: teaching me very useful things about being how I want to be. I had an artist in me, and so I'm good at makeup and all that stuff, but I'm not that good with... the stuff I'm supposed to be good at.<</speechpatreon>>
+<<speech "You" "''$name'':">>
+But they forced you to do something at all?<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Hm... not really, no... From what I can remember I've always wanted to be like this.<</speechpatreon>>
+<<speech "You" "''$name'':">>
+(Hm... Poor Penny, they have erased her memory for sure... at least she's not conflicting like me...)<</speech>>
+You both stay silent for a few seconds.
+
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+So, how about you? Do you remember something about your life?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Well, yes. I have... had a girlfriend near London, where we were living together. My friend bought both of us tickets to the ship, but I ended up coming by myself... And so, they are literally retaining me on the ship, forcing me to "enjoy the trip".<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Wow... I understand how that could be traumatic... and aren't they helping you as well?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Well, yeah... but it wasn't my choice to be here and do all this, you know... it's just that I wish I had a chance, that's all.<</speech>>
+...
+
+...
+
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+I know...<</speechpatreon>>
+Penny puts her arm around you, consoling you as a friend. After a minute she stands up.
+
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Hey, how about we share our favourite stuff? To know each other better? What's your favourite makeup article, food, spirit animal, porn category-<</speechpatreon>>
+From all the list of thing, the porn one catches your attention.
+
+<<speech "You" "''$name'':">>
+What? Porn category?<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Yeah, you know... gangbang, threesome, cuckold, sissy?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Yes, yes, I know what that means, but... *smiles* it just shocked me. Um... well, I guess I like... blowjobs...<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Oh, c'mon, everybody likes blowjobs! I'm talking about some other ones, you know? How about femdom and strapon?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Um... *blush* (she didn't seem that straightforward before...) yeah, and also... um... the ones you mentioned before.<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Oh, cool! I do to! And how about... sissy on sissy?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+What? ... oh, well, I haven't seen those... only Alpha on Beta...<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Oh, yeah, I guess you really love... Alphas. Don't get me wrong, that's cool! But trans are more... relatable to me... you should check it out!<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Hm, I will!<</speech>>
+You both smile and have a sincere hug. Feels good to have a friend in here, doesn't it?
+
+<div class="center">''New porn category: Transgender''</div>
+
+<<click "Get out" "Deck 2">><<if $makeupbath is true>><<set $pennyroom to 2>><<else>><<set $pennyroom to 1>><</if>><<set $goggles to 7>><</click>><</linkreplace>>
+
+
+
+
+\\<<elseif $pennyroom is 1>><div class="center"><img src="places2/pennydoor.jpg" width="50%"></div>
+You knock on Penny's door, waiting for a response.
+
+<span class="onomatopeya">KNOCK KNOCK KNOCK</span>
+
+<div class="center"><img src="penny/penny2.jpg" width="50%"></div>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Oh, hi $name!<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Hi, Penny! I was wondering if I could get some help with makeup...<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Sure, did you bring some?<</speechpatreon>>
+<<if $sample gte 1>><<speech "You" "''$name'':">>
+Yes, I brought some samples!<</speech>>
+<<linkreplace "Get inside">><div class="center"><img src="places2/pennybedroom.jpg" width="50%"></div>
+You get inside the room and sit on one of the chairs she has in front of a mirror. You put your sample makeup kit on the table, waiting for Penny to help you out.
+
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+ *smiles* I started just like you, not knowing what to do with each thing. I'll try to speak up everything I do.<</speechpatreon>>
+She rummages around the kit, taking all the articles out and displaying them on the table:
+
+<div class="center"><img src="penny/makeup1.jpg" width="50%"></div>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+So, we usually start cleaning the face and taking care of the skin. It's our canvass after all!<</speechpatreon>>
+She picks up the creams and moisturizers and applies them on your face. You're about to integrate it into your face by yourself, but she takes your hands away with a gentle smile and does it herself.
+
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+And now we get the foundation, concealer, contour and blush on you. This'll take more time. What we're doing is mainly build a base with foundation, so we can start shading with the contour and blush.<</speechpatreon>>
+She starts doing so, this time for about 5 minutes. Once your face is convered by the foundation, Penny starts using a brush to contour your face and mark some shadows and blush.
+
+<div class="center"><img src="penny/makeup2.gif" width="50%"></div>
+<<speech "You" "''$name'':">>
+ *sneeze* Oh, sorry...<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Hahaha, don't worry, we're almost over with this. Do you like it so far?<</speechpatreon>>
+You take a look at the mirror in front of you, amazed by how much smoother your skin looks now.
+
+<<speech "You" "''$name'':">>
+... oh my...<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+I know... have you taken a skin treatment lately?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Cherry made me do it on Tuesday...<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+I can tell! It's amazing how smooth it is...<</speechpatreon>>
+Penny rubs a couple fingers across your skin. You both look at each other, confused. You don't know if maybe she's attracted to you...? Maybe you're just reading this too far.
+
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Ahem- and now we still need to do eyes and lips, I'll be quick, we don't want to make it too difficult, right? You've got to be able to do it yourself. So, we'll be starting with some eyeshadow, to give you some color, some eyeliner for the countour of the eye-lids, and then we'll do some quick mascara.<</speechpatreon>>
+<div class="center"><img src="penny/makeup3.gif" width="50%"></div>
+She start brushing some of the eyeshadow over your eye-lids, then she quickly starts drawing a thin dark line across your eyes, just ending with a couple dashes of mascara. You're about to take a look at the mirror, but Penny has already started working on your lips.
+
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Just a bit of this lipstick, and... all done!<</speechpatreon>>
+<div class="center"><img src="penny/makeup4.png" width="50%"></div>
+<<speech "You" "''$name'':">>
+ *gasp*<</speech>>
+You stare at yourself. You can't believe that's actually you, and you're almost scared, because you know that if you had seen yourself like this a month ago you might not have even recognized yourself.
+
+<<speech "You" "''$name'':">>
+Wow, I'm...<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+...hot?<</speechpatreon>>
+You both look at each other, blushing.
+
+<<speech "You" "''$name'':">>
+Thanks a lot, Penny... I don't know if I could have done that without you.<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+My pleasure, I love this stuff! But I should warn you: this kind of makeup washes away in a day, so you might want to buy more samples, or something that lasts longer. But yeah... you really look cute... *bites lower lip*<</speechpatreon>>
+You smile to her and are about to get up, when you feel some pressure on your wrist.
+
+<<linkreplace "... ...">><div class="center"><img src="penny/pennyhard1.gif" width="50%"></div>
+<<speech "You" "''$name'':">>
+ *gasp* Oh my god!<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Wha- Oh, no! I'm so sorry... *stands up quickly*<</speechpatreon>>
+As she stand up from the chair, her hard dick swings from side to side inside her dress. You can definitely see a wet spot in there where the tip is leaking pre-cum. Your eyes are fixed on it.
+
+<<speech "You" "''$name'':">>
+That's fine... <span class="pink">*lick lips*</span><</speech>>
+You can't control yourself and decide to give it a light touch, so you extend your hand and just try to localize it in the dress with your hand.
+
+<div class="center"><img src="penny/stroke1.gif" width="50%"></div>
+You can feel it is very hard and leaking from the tip. You can't help but smile at it. For the first time you feel in control of the penis, and you're liking it.
+
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+No, wai- oh, oh, oh!<</speechpatreon>>
+<div class="center"><img src="cumshot.gif"></div>
+Penny can't hold it in and so she spurts all inside her dress. You take back your hand, a bit confused about the situation.
+
+<<speech "You" "''$name'':">>
+Oh, I'm sorry, I just... was curious, but...<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Oh, no, I know, it's okay... I really have a problem with that. Premature ejaculation...<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Oh... okay...<</speech>>
+The situation has suddenly turned a bit awkward, since you know that she's waiting for you to get out to clean herself.
+
+<<speech "You" "''$name'':">>
+Oh, well, I should get going then... I wish I could help, though, after all you've done for me...<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+It's okay, I don't think there's anything to do with that...<</speechpatreon>>
+You get out of there, wondering how you could help Penny with her "premature ejaculation" problem.
+
+<div class="center">''New Quest: Find a way to help Penny with her "premature ejaculation"''</div><<set $prematurequest to "Active">>
+<div class="center">''New Area: Put on makeup in bathroom''</div>
+<<click "Get out" "Deck 2">><<set $pennyroom to 2>><<set $makeupquest1 to "1/2 done", $badge to $badge +1, $ejaculationquest to "Active">><<set $makeupbath to true>><<set $pennyroom to 0>><</click>><</linkreplace>><</linkreplace>>
+
+
+
+\\<<elseif $sample lt 1>><<speech "You" "''$name'':">>
+No...<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Oh well...<</speechpatreon>>
+You should get some ''samples'' from the ''Beauty Salon''!
+
+[[Get out|Deck 2]]<</if>>
+
+
+
+\\<<elseif $pennyroom is 2>><div class="center"><img src="places2/pennydoor.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(I don't want to bother her unnecessarily...)<</speech>>
+<<if $makeupbath is true>>("Quick-Shot" quest will be resumed on the 0.5.7)<<else>>(Wait until you can buy makeup)<</if>>
+
+[[Deck 2]]<</if>>
+
+

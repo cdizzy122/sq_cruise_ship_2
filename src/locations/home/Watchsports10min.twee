@@ -1,0 +1,9 @@
+:: Watch sports (10 min) [textback] {"position":"240,419","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><<if ndef $mutefx>><<audio "stadium" volume 0.5 play loop>><<else>><</if>><img src="places1/sports.gif" width="100%">
+You roll your eyes...
+
+<<speech "You" "''$name:''">>
+They should be recording the match, not these crazy brats!<</speech>>
+[[Watch TV]]<<set $watchsports to true>><<addmins 10>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() gte 8 and $gameDate.getMinutes() gte 30>><<goto "Emergency">><<else>><</if>><<else>><</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

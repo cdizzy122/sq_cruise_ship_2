@@ -1,0 +1,35 @@
+:: places [textback] {"position":"4239,743","size":"100,100"}
+<<removeclass "html">><<addclass "html" "street">><<if ndef $mutefx>><<audio "bus" volume 0.6 loop play>><<else>><</if>><<if $places is 1>><img src="dockings/nudist/places1.gif" width="70%">
+
+<<speech "You" "''$name'':">>
+People here have really weird fetishes... well, I really shouldn't talk to much myself...)<</speech>>
+<<click "Get out" "Supermarket">><<audio "bus" stop>><</click>>
+<<elseif $places is 2>><img src="dockings/nudist/places2.jpg" width="50%">
+
+<<speech "You" "''$name'':">>
+(Is this a bus for models or what?)<</speech>>
+<<speech "nobody" "''Model 1'':">>
+Hi, gurl. Oh...I see you have something extra... (pssst, Tiffany, look at his little dick...it's in a cage!)<</speech>>
+<<speech "nobody" "''Model 2'':">>
+ *gasp*<</speech>>
+<<speech "You" "''$name'':">>
+(Ugh, this is embarrasing...)<</speech>>
+<<click "Get out" "Supermarket">><<audio "bus" stop>><</click>>
+<<elseif $places is 3>><div class="row"><div class="columna">
+<<speech "nobody" "''Boy 1'':">>
+Pssst, ey! Gurl! You like this dick, don't you?
+<span class="fade-ins"><img src="dockings/nudist/buscock1.jpg" width="100%"></span><</speech>></div><div class="columna">
+<<speech "nobody" "''Boy 1'':">>
+Pssst, don't listen to that guy! Mine is better...
+<span class="fade-ins"><img src="dockings/nudist/buscock2.jpg" width="90%"></span><</speech>></div></div>
+Just when they are starting to get closer to you, you arrive to your destination.
+
+<<speech "You" "''$name'':">>
+(Whew! That was close...)<</speech>>
+<<click "Get out" "Supermarket">><<audio "bus" stop>><</click>><<elseif $places is 4>><img src="dockings/nudist/places4.gif" width="50%">
+
+<<speech "You" "''$name'':">>
+(These guys don't have any respect...although I shouldn't be so close-minded. I'm naked and with a chastity cage after all...)<</speech>>
+<<click "Get out" "Supermarket">><<audio "bus" stop>><</click>><</if>><<audio "menus" stop>><<if ndef $mute>><<audio "spanish" unmute>><<else>><</if>><<audio "sea" mute>>
+
+

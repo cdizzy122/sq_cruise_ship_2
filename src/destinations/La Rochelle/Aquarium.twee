@@ -1,0 +1,41 @@
+:: Aquarium [textback] {"position":"3868,1498","size":"100,100"}
+<<removeclass "html">><<addclass "html" "french">><<if ndef $aquarium1>><img src="dockings/aquarium.jpg" width="100%">
+
+You walk down the road until you find the Aquarium. It is not hard to see. The place looks fairly new and modern.
+
+[[Entrance|Aquarium][$aquarium1 to 0]]<<elseif $aquarium1 is 0>><div class="center"><img src="dockings/aquarium.jpg" width="100%"></div>
+You approach the ticket office. There you see a teenager with a bored look on his face. 
+
+<div class="center"><img src="dockings/teenbored.png" width="50%"></div>
+<<speech "You" "''You:''">>
+Excuse me?<</speech>>
+<<speech "nobody" "''Teen:''">>
+... ...<</speech>>
+<<speech "You" "''You:''">>
+Ehem! Excuse me!<</speech>>
+<<speech "nobody" "''Teen:''">>
+Ah! Oh, um... sorry. How can I help you?<</speech>>
+<<speech "You" "''You:''">>
+How much is a ticket?<</speech>>
+<<speech "nobody" "''Teen:''">>
+One ticket - 5 Euros.
+Two tickets - 8 Euros.
+Three tickets...<</speech>>
+<<speech "You" "''You:''">>
+(This guy really is bored, jesus...)<</speech>>
+<<if $bootleg is true>><<linkreplace "Bring out the false bill">><<speech "nobody" "''Teen:''">>
+You can also have the Family ticket...<</speech>>
+<<speech "You" "''You:''">>
+Hey, buddy! One ticket, please! *you put the false money on the counter*<</speech>>
+<<speech "nobody" "''Teen:''">>
+ *click, click* Here you go, sir!<</speech>>
+<<speech "You" "''$name:''">>
+Thanks! (He is too bored to notice, yes!)<</speech>><<set $falsemoney to false>>
+[[Into the Aquarium][$aquarium to 1]]
+[[Return|rocheport][$aquarium1 to 1]]<</linkreplace>><<else>>[[Return|rocheport]]<</if>><<elseif $aquarium1 is 1>><div class="center"><img src="dockings/aquarium.jpg" width="100%"></div>
+The ticket guy is just bored in his ticket shop. The aquarium ticket is for the whole day, no need to "buy" another one.
+
+[[Into the Aquarium]]
+[[Return|rocheport]]<</if>><<addmins 1>><<if ndef $mute>><<audio "french" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

@@ -1,0 +1,9 @@
+:: Pink Lollipop [noreturn] {"position":"156,1360","size":"100,100"}
+<img src="food/lolli.jpg" width="40%">
+
+A pink lollipop. Tastes of cherry and... cream? It has an addicting taste. ''(LUST +30, FEM +2, INT -2, HUNGER +20)''
+
+<<click "Eat" "Inventory">><<set $pinklolli to $pinklolli -1>><<set $lust to $lust +30>><<set $fem to $fem +2>><<set $int to $int -2>><<set $hunger to $hunger +20>><</click>>
+[[Return|Inventory]]
+
+

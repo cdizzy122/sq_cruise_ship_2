@@ -1,0 +1,4 @@
+:: wrong
+<<if $match lt 14>><<set $wrong to $wrong +1>><<goto "phase2">><<else>><<set $wrong to $wrong +1>><<goto "babecock">><<set $babecock to 3>><</if>>
+
+

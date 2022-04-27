@@ -1,0 +1,7 @@
+:: Untitled Passage 5 {"position":"3567,747","size":"100,100"}
+[[Poker]]
+[[Gym]]
+[[Peek (might get caught)]]
+[[Torture][$torture to 1]]<<set $pvip to 0>><<set $rvip to 0>><<set $svip to 0>><<set $gym to 6>><<set $training to 3>><<set $gymshower to 3>><<set $peekgym to 1>><<set $chococandies to 1, $gymgirl to 0>>
+
+

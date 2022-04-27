@@ -1,0 +1,9 @@
+:: Red flask [noreturn] {"position":"386,1027","size":"100,100"}
+<img src="stuff/redflask.jpg" width="50%">
+
+A red flask.
+
+<<if $abledrink is true>><span class="Phone">[[Drink->Inventory][$drinkflask to "red", $rflask to false, $flasks to "1/2 done"]]</span><<else>><<linkreplace "Drink">>You don't know what that red stuff is!<</linkreplace>><</if>>
+[[Return|Inventory]]
+
+

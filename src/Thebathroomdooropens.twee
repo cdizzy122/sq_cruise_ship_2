@@ -1,0 +1,29 @@
+:: The bathroom door opens [textback] {"position":"2043,2019","size":"100,100"}
+<<if ndef $mutefx>><<audio "door" play>><<else>><</if>><<speech "tara" "''Tara:''">>
+Here I am, big boy.<</speech>>
+<img src="tara/tarastand.jpg" width="40%">
+
+<<speech "You" "''$name:''">>
+(OMG...)<</speech>>
+You stand there in the middle of the room with your mouth widely open. You can't recall seeing a woman so perfect before, she is amazing. Perfect face, perfect tits, fit like an athlete...
+
+<<speech "tara" "''Tara:''">>
+Are you just going to stand there all night?<</speech>>
+Without knowing what to do, or what to answer, you keep staring at her naked body like if she was the first girl you'd ever seen. 
+
+<<speech "tara" "''Tara:''">>
+ *smiles* You must be one of those rare guys who don't like be in control. Let me take care of you then.<</speech>>
+She starts coming closer and whispers in your ear:
+
+<<speech "tara" "''Tara:''">>
+Come and let me ride that ANACONDA sweetie, don't make me beg...<</speech>>
+Then she grabs you softly by the shirt and pulls you towards the bed. After putting you in place, she lets her gorgeous body fall in the bed, letting you know that THIS TIME, RIGHT NOW would be a good time to let yourself fall in her embrace.
+
+<img src="tara/taralay.jpg" width="40%">
+
+She's looking, you better do something:
+
+[[Get in the bed]]
+[[Tell her that you can't do this]]<<audio "menus" stop>>
+
+

@@ -1,0 +1,53 @@
+:: Gelateria [textback] {"position":"3172,729","size":"100,100"}
+<<removeclass "html">><<addclass "html" "rome">><<audio "rome" mute>><<audio "romebar" volume 0.45 play loop>><<audio "people" play loop>><<if ndef $gelateria>>The minute you open the door, a strangers back appears on the other side.
+
+<<speech "You" "''$name'':">>
+(Are you for real? Is this really the line??)<</speech>>
+Although the place look quite small from the outside, a lot of people can fit inside. Seems like the ice-creams are very good there.
+
+You squeeze yourself against the last man in the line.
+
+<<speech "nobody" "''Stranger'':">>
+ehi, attento, amico!...<</speech>>
+<<speech "You" "''$name'':">>
+Oh, yeah... I don't understand... sorry...<</speech>>
+You finally manage to get into the store and see the counter. The path is completely blocked, but since the line goes around the other side of the store, at least you can have access to the menu.
+
+<<speech "nobody" "''Man ordering'':">>
+um ... sì, avrò un gelato alla straciatella...<</speech>>
+<<speech "nobody" "''Woman'':">>
+Perfetto! Il tuo appuntamento è tra 10 minuti! *hands him a red voucher*<</speech>>
+The man that was ordering sits on the tables without any ice-cream. You notice how some other men are also sitting there as well.
+
+<<speech "You" "''$name'':">>
+(No ice-cream? They have to prepare it or something...? Doesn't make sense, that girl has all the ice-cream flavours right in front of her... What's going on?)<</speech>>
+For a moment you just take your time to look at the people in the line. To your surprise, you can only see men... and one would also expect to see children and families, but everyone that tries to get in has the same problem you had, so they give up and go away.
+
+<<speech "You" "''$name'':">>
+(Should I wait in line? I can't be spending all day here just for an ice-cream!)<</speech>>
+[[Skip the line and talk to the girl on the counter|Gelateria][$gelateria to 0]]
+[[Get out|Bari][$gelateria to 1]]
+
+
+\\<<elseif $gelateria is 0>><div class="center"><img src="dockings/rome/icecream.jpg" width="60%"></div>
+<<speech "You" "''$name'':">>
+Um... excuse me, I just wanted to-<</speech>>
+<<speech "nobody" "''Woman'':">>
+Eee, you end of line! Wait for turn!<</speech>>
+While the woman is telling you to wait for your turn, you see one of the men that were waiting walk inside of what seems to be the back of the store. The other men look briefly at him and keep waiting.
+
+<<speech "You" "''$name'':">>
+(That's weird...) Ok, sorry, sorry...<</speech>>
+You walk back to the end of the line again.
+
+<<speech "You" "''$name'':">>
+(I'll have to find out what's going on in there...)<</speech>>
+[[Get out|Bari][$gelateria to 1]]<<nobr>><<if ndef $backalley>><<set $backalley to 0>><<else>><</if>><</nobr>>
+
+
+\\<<elseif $gelateria is 1>><<speech "You" "''$name'':">>
+(Damn, the line is as long as it was before...)<</speech>>
+[[Skip the line and talk to the girl on the counter|Gelateria][$gelateria to 0]]
+[[Get out|Bari][$gelateria to 1]]<</if>><<if ndef $mute>><<audio "romebar" unmute>><<audio "people" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

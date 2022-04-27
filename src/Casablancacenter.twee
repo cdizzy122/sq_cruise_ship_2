@@ -1,0 +1,84 @@
+:: Casablancacenter [textback] {"position":"3480,162","size":"100,100"}
+<<removeclass "html">><<addclass "html" "casablanca1">><<audio "casablanca" volume 0.3 loop play>><<if ndef $casacenter>><div class="center"><img src="dockings/casablanca/street.jpg" width="60%">
+<font size="-1">//''Casablanca:'' Largest city in Morocco with more than 4 million people. It's considered one of the most multicultural cities in the country.//</font></div>
+
+<<speech "You" "''$name'':">>
+Oh my god...<</speech>>
+As you step in the city, you are in awe of the beautiful buildings and the ample main street. Just walking around gives you a feeling of freedom that you'd been lacking for a month now.
+
+<<speech "tara" "''Tara'':">>
+It really is beautiful, even more from the inside, isn't it?<</speech>>
+<<speech "You" "''$name'':">>
+... ...<</speech>>
+You're too caught up in your thoughts to respond.
+
+<<speech "tara" "''Tara'':">>
+Are you impressed by the size or what? *pokes your belly* Hahaha<</speech>>
+<<speech "You" "''$name'':">>
+Ow, hahaha... yeah, it's the first time I'm in a city since London. It's all been small coastal towns.<</speech>>
+<<speech "tara" "''Tara'':">>
+Well, don't get lost cutie!<</speech>>
+You keep following Tara, until you both arrive to an intersection and she stops.
+
+<<speech "tara" "''Tara'':">>
+I need to go do an errand by myself before we get into the market. Sorry, ship business, you know... but you can check the other places until I come back, ok? Just make sure to come back to this intersection in around an hour. Bye...<</speech>>
+You stand there as Tara gets into a small street and disappears.
+
+<<speech "You" "''$name'':">>
+Fuck, I thought we were going to be together today... Oh, well, it's only an hour... I might as well visit the nearby places.<</speech>>
+<div class="center"><div class="row3"><div class="column3">⇇ [[Hassan II Mosque|Mosque][$casacenter to 0, $mosque to 0]]</div><div class="column3">⇈ <<linkreplace "Central Market">>I should wait for Tara...<</linkreplace>> ⇈</div><div class="column3">[[Museum][$casacenter to 0]] ⇉</div></div>
+
+
+\\<<elseif $casacenter is 0>><div class="center"><img src="dockings/casablanca/street.jpg" width="60%">
+<font size="-1">//''Casablanca:'' Largest city in Morocco with more than 4 million people. It's considered one of the most multicultural cities in the country.//</font></div>
+
+<<speech "You" "''$name'':">>
+(Tara's not here yet, I can keep visiting places... This is not that bad, having some time for tourism for a change!)<</speech>>
+<div class="center"><div class="row3"><div class="column3">⇇ [[Hassan II Mosque|Mosque][$mosque to 0]]</div><div class="column3">⇈ <<if ndef $zoco>><<linkreplace "Central Market">>I should wait for Tara...<</linkreplace>><<elseif $zoco is 0>>[[Central Market]]<</if>> ⇈</div><div class="column3"><<if ndef $muslimmuseum>>[[Museum]]<<elseif $muslimmuseum is 0>><<linkreplace "Museum">>You need to follow Tara!<</linkreplace>><<elseif $muslimmuseum is 1>>[[Museum]]<<else>><</if>> ⇉</div></div>
+<<nobr>><<if $vmuseum is true and $vmosque is true>><div class="center"><span class="Phone">[[Wait for Tara|Casablancacenter][$casacenter to 1, $mosque to 0]]</span></div><<else>><</if>><</nobr>>
+
+
+
+\\<<elseif $casacenter is 1>><div class="center"><img src="dockings/casablanca/street.jpg" width="60%">
+<font size="-1">//''Casablanca:'' Largest city in Morocco with more than 4 million people. It's considered one of the most multicultural cities in the country.//</font></div>
+
+<<speech "tara" "''Tara'':">>
+Oh hey! I was almost going to start looking for you, I was worried.<</speech>>
+<<speech "You" "''$name'':">>
+Oh, haha... No need to! I was just taking a look at the mosque and the museum, and-<</speech>>
+Suddenly, Tara interrupts you.
+
+<<speech "tara" "''Tara'':">>
+ *gasp* Look at that HUNK! *points to your left*<</speech>>
+<div class="center"><img src="dockings/casablanca/hunk.jpg" width="42%"></div>
+Tara keeps pointing at him as you admire his amazing body.
+
+<<speech "tara" "''Tara'':">>
+Hm... llo at that bulge... We could try some muslim dick together, I bet you'd like that. But we have errands to do now.<</speech>>
+<<speech "You" "''$name'':">>
+... ... (She interrupted me for... that?)<</speech>>
+<<speech "tara" "''Tara'':">>
+Oh, you look a bit mad there... Right, you were telling me all about your 20 minute tourism! Sorry, honey... I just thought you'd like the view.<</speech>>
+<<speech "You" "''$name'':">>
+It's ok...<</speech>>
+Tara leans in and gives you a kiss on the forehead. That puts a smile on your face and makes you instantly forget about it.
+
+<<speech "tara" "''Tara'':">>
+So? You went to the museum, huh? I've heard cool things about it, for sure.<</speech>>
+<<speech "You" "''$name'':">>
+I bet you would love it! There are all kinds of antique object, some of them are even ancient sexual toys.<</speech>>
+<<speech "tara" "''Tara'':">>
+Wow, maybe we can stop by again after our errands, how about that? I bet I can make that visit more... exciting... *wink*<</speech>>
+You blush as she starts walking forward into the street into the central market.
+
+<<speech "You" "''$name'':">>
+Oh... wait!<</speech>>
+[[Central Market][$zoco to 0]]
+
+
+
+\\<<elseif $casacenter is 2>><div class="center"><img src="dockings/casablanca/street.jpg" width="60%">
+<font size="-1">//''Casablanca:'' Largest city in Morocco with more than 4 million people. It's considered one of the most multicultural cities in the country.//</font></div>
+<div class="center"><div class="row3"><div class="column3">⇇ <<if $mosque lt 3>>[[Hassan II Mosque|Mosque]]<<elseif $mosque is 3>><<linkreplace "Hassan II Mosque">>You need the "wee-wee powder" first.<</linkreplace>><<elseif $mosque is 4>>[[Hassan II Mosque|Mosque]]<<elseif $mosque is 5>><<linkreplace "Hassan II Mosque">>No need to go there now.<</linkreplace>><</if>></div><div class="column3">⇈ [[Central Market]] ⇈</div><div class="column3"><<if $muslimmuseum is 2>><<linkreplace "Museum">>No need to go there now.<</linkreplace>><<else>>[[Museum]]<</if>> ⇉</div></div><</if>><<if ndef $mute>><<audio ":music" unmute>><<else>><</if>><<audio "menus" stop>><<audio "touriststalk" stop>><<audio "dreams" stop>>
+
+

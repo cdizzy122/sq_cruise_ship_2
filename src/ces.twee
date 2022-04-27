@@ -1,0 +1,4 @@
+:: ces {"position":"1302,864","size":"100,100"}
+[[Lunch Time]]<<set $lunch to 0>><<set $badlunch to random(3, 5)>><<set $kitchen to 3>>
+
+

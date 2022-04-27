@@ -1,0 +1,10 @@
+:: La Rochelle [textback] {"position":"3984,1274","size":"100,100"}
+<<removeclass "html">><<addclass "html" "french">><<audio "french" volume 0.45 play loop>><<audio "ship" mute>><img src="dockings/larochelle1.jpg" width="100%">
+
+As get out of the ship you see a beautiful beach town, filled with historic monuments. A soft breeze combs your hair as you remember what it's like to be on land.
+
+<<speech "You" "''$name:''">>
+(God... I never thought I could miss solid ground so much...)<</speech>>
+<div class="center">[[Go to port|rocheport][$bathaq to 0, $openlocker to 0, $realmoney to false, $receptionship to 0]]</div><<if ndef $mute>><<audio "french" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

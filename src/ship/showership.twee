@@ -1,0 +1,25 @@
+:: showership [textback] {"position":"1670,1324","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><div class="center"><<if $needshower is true>><<audio "shower" volume 0 fadein>><<if ndef $trans>>
+<img src="porn/shower1.gif" width="60%"><<addmins 20>>
+
+All clean.<<elseif $trans is 0>><img src="porn/shower2.gif" width="60%"><<addmins 20>>
+
+You feel kind of funny. You ass is warm and your skin feels a bit smoother than usual...<<elseif $trans is 1>><img src="porn/shower3.gif" width="60%"><<addmins 20>>
+
+All clean.<<elseif $trans is 2>><img src="porn/shower4.gif" width="50%"><<addmins 20>>
+
+All clean.<<elseif $trans is 3>><img src="porn/shower5.gif" width="50%"><<addmins 20>>
+
+All clean.<<elseif $trans is 4>><img src="porn/shower6.gif" width="50%"><<addmins 20>>
+
+All clean.<<elseif $trans is 5>><img src="porn/shower7.gif" width="50%"><<addmins 20>>
+
+<<if $conditioner is true>>You use some of that <span class="pink">conditioner</span> from the Beauty Salon. It makes your hair silky smooth and almost addictive to the touch.<<elseif $shampoo is true>>You use some of that <span class="pink">strawberry shampoo</span> from the Beauty Salon. It leaves a yummy scent in your hair.<</if>>
+
+All clean.<</if>><<set $needshower to false>><<else>><img src="stuff/noshower.gif" width="60%">
+
+No need to shower.<</if>>
+
+[[Return|bathship]]</div><<audio "menus" stop>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>>
+
+

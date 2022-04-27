@@ -1,0 +1,93 @@
+:: Go to the lounge room [textback] {"position":"2458,1162","size":"100,100"}
+<<removeclass "html">><<addclass "html" "lounge">><<if ndef $lounge2>><div class="center"><img src="places2/lounge2.jpg" width="50%"></div>
+
+<span class="onomatopeya">CONGRATULATIONS!!</span>
+
+You are shocked and scared by the sudden surprise. A lot of women of the cruise have decided to make the party into a surprise party for when you came in.
+
+<<speech "style" "''Cherry:''">>
+Hahaha you should have seen your own face!<</speech>>
+<<speech "tara" "''Tara:''">>
+Babyyyy! Hahahaha You were amazing, and you look so good! I see you liked your costume enough to wear it on the party, huh? You mind if I take a picture?<</speech>>
+<<speech "You" "''$name:''">>
+No, no! Please, n-<</speech>>
+<span class="onomatopeya">FLASH</span>
+
+Tara's picture sets a wave of flashes from all the other women who wanted a picture.
+
+<<speech "tara" "''Tara:''">>
+Hey, hey, hey! Girls! Enough with MY sissy! Let's party!<</speech>>
+The music is turned on again and the party continues. Tara puts her arm around you as you see Holli walking towards you with a glass.
+
+<<speech "holli" "''Holli:''">>
+For ze talented lady!<</speech>>
+<<speech "tara" "''Tara:''">>
+Oh, "lady"! Hahaha fancy, fancy!<</speech>>
+Tara grabs your shoulders and shakes you a bit while she dances and drink from her own drink. You take the drink that Holli brought for you and take a sip.
+
+<<speech "Anastasia" "''Anastasia:''">>
+Heeeey! You girls want to danceee?!<</speech>>
+Anastasia starts twerking on your lap, as Tara keep on drinking and laughing. You hadn't noticed, but you are laughing as well. Are you having fun? With a girly costume on and being humiliated by these women? Well, yes!
+
+<<speech "You" "''$name:''">>
+Hahahaha *starts dancing a bit*<</speech>>
+<<speech "tara" "''Tara:''">>
+How about a cutie sandwich??<</speech>>
+Anastasia and Tara grab you from each side and kiss your cheeks while they hump you. You can't but laugh again.
+
+<span class="onomatopeya">FLASH</span>
+
+<<speech "You" "''$name:''">>
+Oh! Hey!<</speech>>
+<<speech "tara" "''Tara:''">>
+C'mon baaaabe! Hahahaha We're just having fun here!<</speech>>
+You slowly let yourself go, feeling more comfortable around Tara and Anastasia and in a dark room where no one can see your horrible dancing skills. In the middle of the fun, you feel your phone buzzing.
+
+It's a message, you know it's probably from <<if $setcuckpath is 1>>$gffname<<else>>$gfname<</if>>, so you take your phone and get into the chat. Just when you are about to read the message, Tara fetches it playfully.
+
+<<speech "tara" "''Tara:''">>
+Heyyy! No phones, honey! You are dancing with us!<</speech>>
+<<speech "You" "''$name:''">>
+It's not funny, Tara! Give me back my phone!<</speech>>
+<<speech "tara" "''Tara:''">>
+What? This? OOOOPS<</speech>>
+<span class="onomatopeya">FLASH</span>
+
+<<speech "You" "''$name:''">>
+I told you no pictures!! *you retrieve it again* (Oh, no, where is it? The camera app is not on... Please, god, no! Not on the chat!!)<</speech>>
+<<if $setcuckpath is 1>>[[Read the chat...|8a]]<<else>>[[Read the chat...|8]]<</if>>
+
+
+\\<<elseif $lounge2 is 1>><<speech "tara" "''Tara:''">>
+Come on, honey! Just leave that shit in your pocket and enjoy!<</speech>>
+You would really want to, but this last event has totally ruined the night for you. To your own surprise, you don't blame Tara, since you know that at some point, your little secret would have been discovered. And this is just the start. You can't imagine what kind of stuff will Lana make you do.
+
+<<speech "You" "''$name:''">>
+<<if $setcuckpath is 1>>(She will find out about the anal, the usual clothes... *sob*) I'm sorry Tara, but I have to go...<<else>>(She will find out about the cage, the ship, the anal, the usual clothes... *sob*) I'm sorry Tara, but I have to go...<</if>><</speech>>
+<<speech "tara" "''Tara:''">>
+What? Why?<</speech>>
+Tara follows you outside the lounge and into the elevator, bringing memories from the first day of cruise.
+
+<<speech "tara" "''Tara:''">>
+<<if $setcuckpath is 1>>It's ok, honey... I guess someone finally found out about it? It was about time baby, this way you can be free and do this for YOU.<<else>>It's ok, honey... I guess your girlfriend found out about it? It was about time baby, this way you can be free and do this for YOU.<</if>><</speech>>
+<<speech "You" "''$name:''">>
+<<if $setcuckpath is 1>>Yeah... it's $gfname's friend, she found out that that was me and is blackmailing me.<<else>>No, she doesn't know yet... it's her friend, she found out and is blackmailing me.<</if>><</speech>>
+<<speech "tara" "''Tara:''">>
+Honey, I know it's in your nature to comply to other people's desires, but sometimes you've got to step up. I would never do that to you... I would treat you like my pretty little girl *caresses your hair*<</speech>>
+You blush, and although you would love to believe that, you can't help but think of your caged clit, and how she's played with it these last weeks. But somehow, you feel like she has a point, because you know that deep inside, you enjoy it...
+
+Once you arrive to your room, Tara gives you a sincere hug. Once you both separate, she gently cups your balls through your pants.
+
+<<speech "tara" "''Tara:''">>
+You are my sissy. I love you so much...<</speech>>
+Then she winks at you and walks away.
+
+<<speech "You" "''$name:''">>
+(Her sissy? She loves me...?)<</speech>>
+You blush as you get into your room and close the door. With a sweet and sour feeling, you get your clothes off and get into the bed.
+
+<<speech "You" "''$name:''">>
+(I'm sooo tired...)<</speech>>
+You fade out and fall <<click 'asleep' Goodmorning>><<if $gameDate.getHours() gte 0 and $gameDate.getHours() lt 8>><<run $gameDate.setHours (8)>><<else>><<adddays 1>><<run $gameDate.setHours (8)>><</if>><<set $announcement3 to true>><</click>><</if>>
+
+

@@ -1,0 +1,7 @@
+:: Spa pool [textback] {"position":"2209,527","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spa">><div class="center"><img src="places2/spapool.jpg" width="90%">
+
+<<if $inpool is 2>><<linkreplace "Swim for a bit">><<if $ssuit gt 0>><<goto "Swim for a bit">><<else>>You need a feminine swimsuit.<</if>><</linkreplace>><<else>>[[Swim for a bit]] (30 min)<</if>></div>
+[[Return|Spa]]<<audio "menus" stop>>
+
+

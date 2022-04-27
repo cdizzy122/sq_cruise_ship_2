@@ -1,0 +1,11 @@
+:: Blue Vial [noreturn] {"position":"406,1818","size":"100,100"}
+<img src="stuff/bluevial.png" width="50%">
+
+A blue vial. It lets you stay awake at the Health Review.
+
+<<if ndef $roamlab>><<if $dayn is 27>><span class="Phone">[[Drink->Inventory][$newvial to true, $bluevial to false]]</span><<else>><<linkreplace "Drink">>Not yet! Wait until just before the Health Review!<</linkreplace>><</if>>
+
+\\<<elseif $roamlab is 0>><<if $dayn is 34>><span class="Phone">[[Drink->Inventory][$newvial2 to true, $bluevial to false]]</span><<else>><<linkreplace "Drink">>Not yet! Wait until just before the Health Review!<</linkreplace>><</if>><</if>>
+[[Return|Inventory]]
+
+

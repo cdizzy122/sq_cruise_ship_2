@@ -1,0 +1,14 @@
+:: Check if it's clean and put it where it belongs [textback] {"position":"994,209","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><<speech "You" "''$name:''">>
+It seems clean, but...<</speech>>
+<span class="fade-ins">You grab the panties and take them to your nose. You take a deep breath. It doesn't smell like much, so that probably means it's clean. The subtle hint of $gfname's vaginal residue intoxicates you and makes you go for another breath. This time you close your eyes and take your time to enjoy it...
+
+<img src="places1/panty-sniffing.jpg">
+
+<<speech "You" "''$name:''">>
+I should put it back already...<</speech>>
+You put it back in the drawer.
+
+[[Return|Underwear drawer]]</span><<set $sniff to true>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

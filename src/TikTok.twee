@@ -1,0 +1,153 @@
+:: TikTok [phone noreturn] {"position":"406,1474","size":"100,100"}
+<<removeclass "html">><<addclass "html" "tiktok">><<if ndef $tiktok>><span class="fade-ins"><div class="center"><img src="" width="50%"></div>
+As you open the app, it makes you choose your likings.
+
+<<speech "You" "''$name'':">>
+(Oh... Um, well I guess this is good...) *tap, tap, tap*<</speech>>
+You randomly tap 3 or 4 tags, actually curious about what will be expecting you in this app. Once you do so, the app starts loading...
+
+...
+
+...
+
+<<speech "You" "''$name'':">>
+(This is taking way too long!)<</speech>>
+<<linkreplace "A notification arrives">><<if ndef $mutefx>><<audio "ding" play>><<else>><</if>><div class="center"><img src="" width="50%"></div>
+<<speech "You" "''$name'':">>
+(What? An error?)<</speech>>
+You tap out of the app and restart it, but as you do so, a message appears on the screen:
+
+<span class="shudder"><font size="+2"><span class="red">YOUR PREFERENCES HAVE ALREADY BEEN DEFINED</span></font></span>
+
+<<speech "You" "''$name'':">>
+(Does that mean mine worked?)<</speech>>
+[[Use TikTok|TikTok][$tiktok to 0]]<</linkreplace>></span>
+
+
+
+\\<<elseif $tiktok is 0>><div class="center"><img src="" width="50%">
+
+[[For you button|TikTok][$tiktok to random(1,20)]]</div>
+
+
+
+\\<<elseif $tiktok is 1>><div class="center"><img src="" width="50%"></div>
+<<speech "You" "''$name'':">>
+COMMENT ABOUT IT<</speech>>
+<div class="center"><div class="row2"><div class="column2">[[Close app|Techphone]]</div><div class="column2">[[Swipe down (next video)|TikTok][$tiktok to random(2,20)]]</div></div></div>1
+
+
+\\<<elseif $tiktok is 2>><div class="center"><img src="" width="50%"></div>
+<<speech "You" "''$name'':">>
+COMMENT ABOUT IT<</speech>>
+<div class="center"><div class="row2"><div class="column2">[[Close app|Techphone]]</div><div class="column2">[[Swipe down (next video)|TikTok][$tiktok to either(1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)]]</div></div></div>2
+
+
+\\<<elseif $tiktok is 3>><div class="center"><img src="" width="50%"></div>
+<<speech "You" "''$name'':">>
+COMMENT ABOUT IT<</speech>>
+<div class="center"><div class="row2"><div class="column2">[[Close app|Techphone]]</div><div class="column2">[[Swipe down (next video)|TikTok][$tiktok to either(1,2,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)]]</div></div></div>3
+
+
+\\<<elseif $tiktok is 4>><div class="center"><img src="" width="50%"></div>
+<<speech "You" "''$name'':">>
+COMMENT ABOUT IT<</speech>>
+<div class="center"><div class="row2"><div class="column2">[[Close app|Techphone]]</div><div class="column2">[[Swipe down (next video)|TikTok][$tiktok to either(1,2,3,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)]]</div></div></div>4
+
+
+\\<<elseif $tiktok is 5>><div class="center"><img src="" width="50%"></div>
+<<speech "You" "''$name'':">>
+COMMENT ABOUT IT<</speech>>
+<div class="center"><div class="row2"><div class="column2">[[Close app|Techphone]]</div><div class="column2">[[Swipe down (next video)|TikTok][$tiktok to either(1,2,3,4,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)]]</div></div></div>5
+
+
+\\<<elseif $tiktok is 6>><div class="center"><img src="" width="50%"></div>
+<<speech "You" "''$name'':">>
+COMMENT ABOUT IT<</speech>>
+<div class="center"><div class="row2"><div class="column2">[[Close app|Techphone]]</div><div class="column2">[[Swipe down (next video)|TikTok][$tiktok to either(1,2,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18,19,20)]]</div></div></div>6
+
+
+\\<<elseif $tiktok is 7>><div class="center"><img src="" width="50%"></div>
+<<speech "You" "''$name'':">>
+COMMENT ABOUT IT<</speech>>
+<div class="center"><div class="row2"><div class="column2">[[Close app|Techphone]]</div><div class="column2">[[Swipe down (next video)|TikTok][$tiktok to either(1,2,3,4,5,6,8,9,10,11,12,13,14,15,16,17,18,19,20)]]</div></div></div>7
+
+
+\\<<elseif $tiktok is 8>><div class="center"><img src="" width="50%"></div>
+<<speech "You" "''$name'':">>
+COMMENT ABOUT IT<</speech>>
+<div class="center"><div class="row2"><div class="column2">[[Close app|Techphone]]</div><div class="column2">[[Swipe down (next video)|TikTok][$tiktok to either(1,2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20)]]</div></div></div>8
+
+
+\\<<elseif $tiktok is 9>><div class="center"><img src="" width="50%"></div>
+<<speech "You" "''$name'':">>
+COMMENT ABOUT IT<</speech>>
+<div class="center"><div class="row2"><div class="column2">[[Close app|Techphone]]</div><div class="column2">[[Swipe down (next video)|TikTok][$tiktok to either(1,2,3,4,5,6,7,8,10,11,12,13,14,15,16,17,18,19,20)]]</div></div></div>9
+
+
+\\<<elseif $tiktok is 10>><div class="center"><img src="" width="50%"></div>
+<<speech "You" "''$name'':">>
+COMMENT ABOUT IT<</speech>>
+<div class="center"><div class="row2"><div class="column2">[[Close app|Techphone]]</div><div class="column2">[[Swipe down (next video)|TikTok][$tiktok to either(1,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19,20)]]</div></div></div>10
+
+
+\\<<elseif $tiktok is 11>><div class="center"><img src="" width="50%"></div>
+<<speech "You" "''$name'':">>
+COMMENT ABOUT IT<</speech>>
+<div class="center"><div class="row2"><div class="column2">[[Close app|Techphone]]</div><div class="column2">[[Swipe down (next video)|TikTok][$tiktok to either(1,2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20)]]</div></div></div>11
+
+
+\\<<elseif $tiktok is 12>><div class="center"><img src="" width="50%"></div>
+<<speech "You" "''$name'':">>
+COMMENT ABOUT IT<</speech>>
+<div class="center"><div class="row2"><div class="column2">[[Close app|Techphone]]</div><div class="column2">[[Swipe down (next video)|TikTok][$tiktok to either(1,2,3,4,5,6,7,8,9,10,11,13,14,15,16,17,18,19,20)]]</div></div></div>12
+
+
+\\<<elseif $tiktok is 13>><div class="center"><img src="" width="50%"></div>
+<<speech "You" "''$name'':">>
+COMMENT ABOUT IT<</speech>>
+<div class="center"><div class="row2"><div class="column2">[[Close app|Techphone]]</div><div class="column2">[[Swipe down (next video)|TikTok][$tiktok to either(1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20)]]</div></div></div>13
+
+
+\\<<elseif $tiktok is 14>><div class="center"><img src="" width="50%"></div>
+<<speech "You" "''$name'':">>
+COMMENT ABOUT IT<</speech>>
+<div class="center"><div class="row2"><div class="column2">[[Close app|Techphone]]</div><div class="column2">[[Swipe down (next video)|TikTok][$tiktok to either(1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18,19,20)]]</div></div></div>14
+
+
+\\<<elseif $tiktok is 15>><div class="center"><img src="" width="50%"></div>
+<<speech "You" "''$name'':">>
+COMMENT ABOUT IT<</speech>>
+<div class="center"><div class="row2"><div class="column2">[[Close app|Techphone]]</div><div class="column2">[[Swipe down (next video)|TikTok][$tiktok to either(1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,18,19,20)]]</div></div></div>15
+
+
+\\<<elseif $tiktok is 16>><div class="center"><img src="" width="50%"></div>
+<<speech "You" "''$name'':">>
+COMMENT ABOUT IT<</speech>>
+<div class="center"><div class="row2"><div class="column2">[[Close app|Techphone]]</div><div class="column2">[[Swipe down (next video)|TikTok][$tiktok to either(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20)]]</div></div></div>16
+
+
+\\<<elseif $tiktok is 17>><div class="center"><img src="" width="50%"></div>
+<<speech "You" "''$name'':">>
+COMMENT ABOUT IT<</speech>>
+<div class="center"><div class="row2"><div class="column2">[[Close app|Techphone]]</div><div class="column2">[[Swipe down (next video)|TikTok][$tiktok to either(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,18,19,20)]]</div></div></div>17
+
+
+\\<<elseif $tiktok is 18>><div class="center"><img src="" width="50%"></div>
+<<speech "You" "''$name'':">>
+COMMENT ABOUT IT<</speech>>
+<div class="center"><div class="row2"><div class="column2">[[Close app|Techphone]]</div><div class="column2">[[Swipe down (next video)|TikTok][$tiktok to either(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,19,20)]]</div></div></div>18
+
+
+\\<<elseif $tiktok is 19>><div class="center"><img src="" width="50%"></div>
+<<speech "You" "''$name'':">>
+COMMENT ABOUT IT<</speech>>
+<div class="center"><div class="row2"><div class="column2">[[Close app|Techphone]]</div><div class="column2">[[Swipe down (next video)|TikTok][$tiktok to either(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,20)]]</div></div></div>19
+
+
+\\<<elseif $tiktok is 20>><div class="center"><img src="" width="50%"></div>
+<<speech "You" "''$name'':">>
+COMMENT ABOUT IT<</speech>>
+<div class="center"><div class="row2"><div class="column2">[[Close app|Techphone]]</div><div class="column2">[[Swipe down (next video)|TikTok][$tiktok to either(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19)]]</div></div></div>20<</if>>
+
+

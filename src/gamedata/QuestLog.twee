@@ -1,0 +1,424 @@
+:: Quest Log [quest noreturn] {"position":"786,2013","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<removeclass "html">><<addclass "html" "spades">><<if ndef $mutefx>><<audio "button" play>><<else>><</if>><div class="center"><span class="titlelog">QUEST LOG</span></div>
+<<if $gflunchquest is "Unstarted">><<elseif $gflunchquest is "Active">><span class="active"><div class="center">__''LUNCH BREAK:''__</div>''Description:'' Get $gfname's lunch from the kitchen and take it to her at work.
+''Status:'' <<print $gflunchquest>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $gflunchquest is "1/2 done">><span class="active"><div class="center">__''LUNCH BREAK:''__</div>''Description:'' Take $gfname's lunch to her at work.
+''Status:'' <<print $gflunchquest>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $gflunchquest is "Finished">><span class="finished"><div class="center">__''LUNCH BREAK:''__</div>''Description:'' Take $gfname's lunch to her at work.
+''Status:'' <<print $gflunchquest>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $gflunchquest to "Unstarted">><<elseif $gflunchquest is "Failed">><span class="failed"><div class="center">__''LUNCH BREAK:''__</div>''Description:'' Get $gfname's lunch from the kitchen and take it to her at work.
+''Status:'' <<print $gflunchquest>>.</span><</if>>
+\\
+<<if $walkpark is "Unstarted">><<elseif $walkpark is "Active">><span class="active"><div class="center">__''A WALK IN THE PARK:''__</div>''Description:'' Go to the park and see what $fname wants. 
+''Status:'' <<print $walkpark>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $walkpark is "Finished">><span class="finished"><div class="center">__''A WALK IN THE PARK:''__</div>
+Description: Go to the park and see what $fname wants. 
+Status: <<print $walkpark>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $walkpark to "Unstarted">><<elseif $walkpark is "Failed">><span class="failed"><div class="center">__''A WALK IN THE PARK:''__</div>
+Description: Go to the park and see what $fname wants.
+Status: <<print $walkpark>>.</span><</if>>
+\\
+<<if $laptopquest is "Unstarted">><<elseif $laptopquest is "Active">><span class="actives"><div class="center">__''STALKER:''__</div>''Description:'' Figure out $gfname's password and open her laptop.
+''Status:'' <<print $laptopquest>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $laptopquest is "1/2 done">><span class="actives"><div class="center">__''STALKER:''__</div>''Description:'' Get back home and input the password into the laptop -> ''moreinchnoflinch''
+''Status:'' <<print $laptopquest>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $laptopquest is "Finished">><span class="finished"><div class="center">__''STALKER:''__</div>''Description:'' Figure out $gfname's password and open her laptop.
+''Status:'' <<print $laptopquest>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $laptopquest to "Unstarted">><<elseif $laptopquest is "Failed">><span class="failed"><div class="center">__''STALKER:''__</div>''Description:'' Figure out $gfname's password and open her laptop.
+''Status:'' <<print $laptopquest>>.</span><</if>>
+\\
+<<if $port is "Unstarted">><<elseif $port is "Active">><span class="active"><div class="center">__''SET SAIL:''__</div>''Description:'' Go to London Port and board the ship. 
+''Status:'' <<print $port>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $port is "Finished">><span class="finished"><div class="center">__''SET SAIL:''__</div>''Description:'' Go to London Port and board the ship. 
+''Status:'' <<print $port>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $port to "Unstarted">><<elseif $port is "Failed">><span class="failed"><div class="center">__''SET SAIL:''__</div>''Description:'' Go to London Port and board the ship. 
+''Status:'' <<print $port>>.</span><</if>>
+\\
+<<if $party is "Unstarted">><<elseif $party is "Active">><span class="active"><div class="center">__''PARTY NIGHT:''__</div>''Description:'' Go to the presentation party. 
+''Status:'' <<print $party>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $party is "Finished">><span class="finished"><div class="center">__''PARTY NIGHT:''__</div>''Description:'' Go to the presentation party.
+''Status:'' <<print $party>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $party to "Unstarted">><<elseif $party is "Failed">><span class="failed"><div class="center">__''PARTY NIGHT:''__</div>''Description:'' Go to the presentation party.
+''Status:'' <<print $party>>.</span><</if>>
+\\
+<<if $cap1 is "Unstarted">><<elseif $cap1 is "Active">><span class="active"><div class="center">__''THE SQ CRUISE SHIP:''__</div>''Description:'' Talk to Captain T in her office on Deck 3. 
+''Status:'' <<print $cap1>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $cap1 is "Finished">><span class="finished"><div class="center">__''THE SQ CRUISE SHIP:''__</div>''Description:'' Talk to Captain T in her office on Deck 3.
+''Status:'' <<print $cap1>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $cap1 to "Unstarted">><<elseif $cap1 is "Failed">><span class="failed"><div class="center">__''THE SQ CRUISE SHIP:''__</div>''Description:'' Talk to Captain T in her office on Deck 3.
+''Status:'' <<print $cap1>>.</span><</if>>
+\\
+<<if $tara1 is "Unstarted">><<elseif $tara1 is "Active">><span class="active"><div class="center">__''APOLOGIZE:''__</div>''Description:'' Find Tara and talk to her.
+''Status:'' <<print $tara1>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $tara1 is "Finished">><span class="finished"><div class="center">__''APOLOGIZE:''__</div>''Description:'' Find Tara and talk to her.
+''Status:'' <<print $tara1>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $tara1 to "Unstarted">><<elseif $tara1 is "Failed">><span class="failed"><div class="center">__''APOLOGIZE:''__</div>''Description:'' Find Tara and talk to her.
+''Status:'' <<print $tara1>>.</span><</if>>
+\\
+<<if $tasktara1 is "Unstarted">><<elseif $tasktara1 is "Active">><span class="active"><div class="center">__''PIC TASK:''__</div>''Description:'' Take a pic of a woman and show it to Tara. <span class="queststart"><span class="Phone">[[Start|taraevents][$taraevents to 1]]</span></span>
+''Deadline:'' <span class="deadline">Sunday, 30th June.</span>
+''Status:'' <<print $tasktara1>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $tasktara1 is "1/2 done">><span class="active"><div class="center">__''PIC TASK:''__</div>''Description:'' Take a pic of a woman and show it to Tara.
+''Deadline:'' <span class="deadline">Sunday, 30th June.</span>
+''Status:'' <<print $tasktara1>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $tasktara1 is "Finished">><span class="finished"><div class="center">__''PIC TASK:''__</div>''Description:'' Take a pic of a woman and show it to Tara.
+''Status:'' <<print $tasktara1>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $tasktara1 to "Unstarted">><<elseif $tasktara1 is "Failed">><span class="failed"><div class="center">__''PIC TASK:''__</div>''Description:'' Take a pic of a woman and show it to Tara.
+''Deadline:'' <span class="deadline">Sunday, 30th June.</span>
+''Status:'' <<print $tasktara1>>.</span><</if>>
+<<if $badge gte 0>><<set $badge to -1>><<elseif $badge lt 0>><</if>>
+\\
+<<if $dress1 is "Unstarted">><<elseif $dress1 is "Active">><span class="active"><div class="center">__''UNDERWEAR CHANGE:''__</div>''Description:'' Buy and wear another piece of underwear to class next week.
+''Status:'' <<print $dress1>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div><<elseif $dress1 is "1/2 done">><span class="active"><div class="center">__''UNDERWEAR CHANGE:''__</div>''Description:'' Buy and wear another piece of underwear to class next week.
+''Status:'' <<print $dress1>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div><<elseif $dress1 is "Finished">><span class="finished"><div class="center">__''UNDERWEAR CHANGE:''__</div>''Description:'' Buy and wear another piece of underwear to class next week.
+''Status:'' <<print $dress1>>.<<set $dress1 to "Unstarted">>
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div><<elseif $dress1 is "Failed">><span class="failed"><div class="center">__''UNDERWEAR CHANGE:''__</div>''Description:'' Buy and wear another piece of underwear to class next week.
+''Status:'' <<print $dress1>>.
+<div class="right">[[Erase|Quest Log][$dress1 to "Unstarted"]]</div></span><</if>>
+\\
+<<if $lab1 is "Unstarted">><<elseif $lab1 is "Active">><span class="active"><div class="center">__''WHAT'S THAT LAB?:''__</div>''Description:'' Get in that lab and unravel the mistery.
+''Status:'' <<print $lab1>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $lab1 is "1/2 done">><span class="active"><div class="center">__''WHAT'S THAT LAB?:''__</div>''Description:'' Use your new Level 2 staff card and get into the lab on Deck 8.
+''Status:'' <<print $lab1>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $lab1 is "Finished">><span class="finished"><div class="center">__''WHAT'S THAT LAB?:''__</div>''Description:'' Use your new Level 2 staff card and get into the lab on Deck 8.
+''Status:'' <<print $lab1>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $lab1 to "Unstarted">><<elseif $lab1 is "Failed">><span class="failed"><div class="center">__''WHAT'S THAT LAB?:''__</div>''Description:'' Get in that lab and unravel the mistery.
+''Status:'' <<print $anatomy1>>.</span><</if>>
+\\
+<<if $anatomy1 is "Unstarted">><<elseif $anatomy1 is "Active">><span class="active"><div class="center">__''GET WET:''__</div>''Description:'' Make Captain T cum. That may soften her heart.
+''Status:'' <<print $anatomy1>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $anatomy1 is "1/2 done">><span class="active"><div class="center">__''GET WET:''__</div>''Description:'' Make Captain T cum. That may soften her heart.
+''Status:'' <<print $anatomy1>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $anatomy1 is "Finished">><span class="finished"><div class="center">__''GET WET:''__</div>''Description:'' Make Captain T cum. That may soften her heart.
+''Status:'' <<print $anatomy1>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $anatomy1 to "Unstarted">><<elseif $anatomy1 is "Failed">><span class="failed"><div class="center">__''GET WET:''__</div>''Description:'' Make Captain T cum. That may soften her heart.
+''Status:'' <<print $anatomy1>>.</span><</if>>
+\\
+<<if $vip1 is "Unstarted">><<elseif $vip1 is "Active">><span class="active"><div class="center">__''VERY IMPORTANT PERSON:''__</div>''Description:'' Obtain a pass and get into the VIP zone.
+''Status:'' <<print $vip1>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $vip1 is "1/2 done">><span class="active"><div class="center">__''VERY IMPORTANT PERSON:''__</div>''Description:'' <<if $vipticket is true>>Use your VIP pass and get inside the VIP area.<<else>>Obtain a pass and get into the VIP zone.<</if>> <span class="red">"M" is here!</span>
+''Status:'' <<print $vip1>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $vip1 is "Finished">><span class="finished"><div class="center">__''VERY IMPORTANT PERSON:''__</div>''Description:'' Obtain a pass and get into the VIP zone. Meet "M".
+''Status:'' <<print $vip1>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $vip1 to "Unstarted">><<elseif $vip1 is "Failed">><span class="failed"><div class="center">__''VERY IMPORTANT PERSON:''__</div>''Description:'' Obtain a pass and get into the VIP zone.
+''Status:'' <<print $vip1>>.</span><</if>>
+\\
+<<if $drug1 is "Unstarted">><<elseif $drug1 is "Active">><span class="active"><div class="center">__''GOLD DUST:''__</div>''Description:'' Get ''The Enhancer'' from Bastien.
+''Status:'' <<print $drug1>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $drug1 is "1/2 done">><span class="active"><div class="center">__''GOLD DUST:''__</div>''Description:'' Get 300 Euros and buy ''The Enhancer'' from Bastien.
+''Status:'' <<print $drug1>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $drug1 is "Finished">><span class="finished"><div class="center">__''GOLD DUST:''__</div>''Description:'' Get ''The Enhancer'' from Bastien.
+''Status:'' <<print $drug1>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $drug1 to "Unstarted">><<elseif $drug1 is "Failed">><span class="failed"><div class="center">__''GOLD DUST:''__</div>''Description:'' Get ''The Enhancer'' from Bastien.
+''Status:'' <<print $drug1>>.</span><</if>>
+\\
+<<if $shave is "Unstarted">><<elseif $shave is "Active">><span class="active"><div class="center">__''HAIR FREE:''__</div>''Description:'' Use the shaving cream in the shower and show Cherry at class.
+''Status:'' <<print $shave>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $shave is "1/2 done">><span class="active"><div class="center">__''HAIR FREE:''__</div>''Description:'' Use the shaving cream in the shower and show Cherry at class.
+''Status:'' <<print $shave>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $shave is "Finished">><span class="finished"><div class="center">__''HAIR FREE:''__</div>''Description:'' Use the shaving cream in the shower and show Cherry at class.
+''Status:'' <<print $shave>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $shave to "Unstarted">><<elseif $shave is "Failed">><span class="failed"><div class="center">__''HAIR FREE:''__</div>''Description:'' Use the shaving cream in the shower and show Cherry at class.
+''Status:'' <<print $shave>>.
+<div class="right">[[Erase|Quest Log][$shave to "Unstarted"]]</div></span><</if>>
+\\
+<<if $drug2 is "Unstarted">><<elseif $drug2 is "Active">><span class="active"><div class="center">__''GOLD DUST 2:''__</div>''Description:'' Find out more about ''The Enhancer''.
+''Status:'' <<print $drug2>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $drug2 is "1/2 done">><span class="active"><div class="center">__''GOLD DUST 2:''__</div>''Description:'' Ask Anastasia about who ''"M"'' is.
+''Status:'' <<print $drug2>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $drug2 is "Finished">><span class="finished"><div class="center">__''GOLD DUST 2:''__</div>''Description:'' Ask Anastasia about who ''"M"'' is.
+''Status:'' <<print $drug2>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $drug2 to "Unstarted">><<elseif $drug2 is "Failed">><span class="failed"><div class="center">__''GOLD DUST 2:''__</div>''Description:'' Ask Anastasia about who ''"M"'' is.
+''Status:'' <<print $drug2>>.</span><</if>>
+\\
+<<if $flyer is "Unstarted">><<elseif $flyer is "Active">><span class="active"><div class="center">__''FLYERS:''__</div>''Description:'' Distribute 3 flyers at the beach.
+''Status:'' <<print $flyer>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $flyer is "1/3 done">><span class="active"><div class="center">__''FLYERS:''__</div>''Description:'' Distribute 3 flyers at the beach.
+''Status:'' <<print $flyer>>.
+<div class="meter"><span style="width: 33%"><span>1/3</span></span></div></span><<elseif $flyer is "2/3 done">><span class="active"><div class="center">__''FLYERS:''__</div>''Description:'' Distribute 3 flyers at the beach.
+''Status:'' <<print $flyer>>.
+<div class="meter"><span style="width: 66%"><span>2/3</span></span></div></span><<elseif $flyer is "Finished">><span class="finished"><div class="center">__''FLYERS:''__</div>''Description:'' Distribute 3 flyers at the beach.
+''Status:'' <<print $flyer>>.
+<div class="meter"><span style="width: 100%"><span>3/3</span></span></div></span><<set $flyer to "Unstarted">><<elseif $flyer is "Failed">><span class="failed"><div class="center">__''FLYERS:''__</div>''Description:'' Distribute 3 flyers at the beach.
+''Status:'' <<print $flyer>>.</span><</if>>
+\\
+<<if $cum is "Unstarted">><<elseif $cum is "Active">><span class="active"><div class="center">__''ALTERNATIVE MASTURBATION:''__</div>''Description:'' Find an alternative way to cum on a regular basis.
+''Status:'' <<print $cum>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $cum is "1/2 done">><span class="active"><div class="center">__''ALTERNATIVE MASTURBATION:''__</div>''Description:'' Find an alternative way to cum on a regular basis.
+''Status:'' <<print $cum>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $cum is "Finished">><span class="finished"><div class="center">__''ALTERNATIVE MASTURBATION:''__</div>''Description:'' Find an alternative way to cum on a regular basis.
+''Status:'' <<print $cum>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $cum to "Unstarted">><<elseif $cum is "Failed">><span class="failed"><div class="center">__''ALTERNATIVE MASTURBATION:''__</div>''Description:'' Find an alternative way to cum on a regular basis.
+''Status:'' <<print $cum>>.</span><</if>>
+\\
+<<if $flasks is "Unstarted">><<elseif $flasks is "Active">><span class="active"><div class="center">__''STAY AWAKE:''__</div>''Description:'' Drink the stolen flask before Stoya's review.
+''Status:'' <<print $flasks>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $flasks is "1/2 done">><span class="active"><div class="center">__''STAY AWAKE:''__</div>''Description:'' Drink the stolen flask before Stoya's review.
+''Status:'' <<print $flasks>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $flasks is "Finished">><span class="finished"><div class="center">__''STAY AWAKE:''__</div>''Description:'' Drink the stolen flask before Stoya's review.
+''Status:'' <<print $flasks>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $flasks to "Unstarted">><<elseif $flasks is "Failed">><span class="failed"><div class="center">__''STAY AWAKE:''__</div>''Description:'' Drink the stolen flask before Stoya's review.
+''Status:'' <<print $flasks>>.
+<div class="right">[[Erase|Quest Log][$flasks to "Unstarted"]]</div></span><</if>>
+\\
+<<if $m1 is "Unstarted">><<elseif $m1 is "Active">><span class="active"><div class="center">__''WHO'S "M"?:''__</div>''Description:'' Ask Anastasia about "M".
+''Status:'' <<print $m1>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $m1 is "1/2 done">><span class="active"><div class="center">__''WHO'S "M"?:''__</div>''Description:'' Ask Anastasia about "M".
+''Status:'' <<print $m1>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $m1 is "Finished">><span class="finished"><div class="center">__''WHO'S "M"?:''__</div>''Description:'' Find Doctor M.
+''Status:'' <<print $m1>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $m1 to "Unstarted">><<elseif $m1 is "Failed">><span class="failed"><div class="center">__''WHO'S "M"?:''__</div>''Description:'' Find Doctor M.
+''Status:'' <<print $m1>>.</span><</if>>
+\\
+<<if $fritz1 is "Unstarted">><<elseif $fritz1 is "Active">><span class="active"><div class="center">__''CALLUM FRITZ:''__</div>''Description:'' Find out more about Anastasia's dad.
+''Status:'' <<print $fritz1>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $fritz1 is "1/2 done">><span class="active"><div class="center">__''CALLUM FRITZ:''__</div>''Description:'' Use the information to trigger Anastasia memories.
+''Status:'' <<print $fritz1>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $fritz1 is "Finished">><span class="finished"><div class="center">__''CALLUM FRITZ:''__</div>''Description:'' Use the information to trigger Anastasia memories.
+''Status:'' <<print $fritz1>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $fritz1 to "Unstarted">><<elseif $fritz1 is "Failed">><span class="failed"><div class="center">__''CALLUM FRITZ:''__</div>''Description:'' Use the information to trigger Anastasia memories.
+''Status:'' <<print $fritz1>>.</span><</if>>
+\\
+<<if $tinder1 is "Unstarted">><<elseif $tinder1 is "Active">><span class="active"><div class="center">__''TINDER:''__</div>''Description:'' Check out the new hookup-app on your phone.
+''Status:'' <<print $tinder1>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $tinder1 is "1/2 done">><span class="active"><div class="center">__''TINDER:''__</div>''Description:'' Check out the new hookup-app on your phone.
+''Status:'' <<print $tinder1>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $tinder1 is "Finished">><span class="finished"><div class="center">__''TINDER:''__</div>''Description:'' Check out the new hookup-app on your phone.
+''Status:'' <<print $tinder1>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $tinder1 to "Unstarted">><<elseif $tinder1 is "Failed">><span class="failed"><div class="center">__''TINDER:''__</div>''Description:'' Check out the new hookup-app on your phone.
+''Status:'' <<print $tinder1>>.</span><</if>>
+\\
+<<if $dress2 is "Unstarted">><<elseif $dress2 is "Active">><span class="active"><div class="center">__''PRETTY WOMAN:''__</div>''Description:'' Buy and wear another piece of underwear and shave for next week.
+''Status:'' <<print $dress2>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div><<elseif $dress2 is "1/2 done">><span class="active"><div class="center">__''PRETTY WOMAN:''__</div>''Description:'' Did you do it? Good for you! Cherry postponed the revision for next week.
+''Status:'' <<print $dress2>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div><<elseif $dress2 is "Finished">><span class="finished"><div class="center">__''PRETTY WOMAN:''__</div>''Description:'' Did you do it? Good for you! Cherry postponed the revision for next week.
+''Status:'' <<print $dress2>>.<<set $dress2 to "Unstarted">>
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div><<elseif $dress2 is "Failed">><span class="failed"><div class="center">__''PRETTY WOMAN:''__</div>''Description:'' Did you do it? Good for you! Cherry postponed the revision for next week.
+''Status:'' <<print $dress2>>.
+<div class="right">[[Erase|Quest Log][$dress2 to "Unstarted"]]</div></span><</if>>
+\\
+<<if $cum2 is "Unstarted">><<elseif $cum2 is "Active">><span class="active"><div class="center">__''STRETCH IT:''__</div>''Description:'' Ask Ms. Foster for help with your "tightness" problems on Monday.
+''Status:'' <<print $cum2>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $cum2 is "1/2 done">><span class="active"><div class="center">__''STRETCH IT:''__</div>''Description:'' Ask Ms. Foster for help with your "tightness" problems on Monday.
+''Status:'' <<print $cum2>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $cum2 is "Finished">><span class="finished"><div class="center">__''STRETCH IT:''__</div>''Description:'' Ask Ms. Foster for help with your "tightness" problems on Monday.
+''Status:'' <<print $cum2>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $cum to "Unstarted">><<elseif $cum2 is "Failed">><span class="failed"><div class="center">__''STRETCH IT:''__</div>''Description:'' Ask Ms. Foster for help with your "tightness" problems on Monday.
+''Status:'' <<print $cum2>>.</span><</if>>
+\\
+<<if $tinder2 is "Unstarted">><<elseif $tinder2 is "Active">><span class="active"><div class="center">__''IT'S A DATE:''__</div>''Description:'' Go to your date at Italy with <<if $tprofile is 1>>''Aryana''<<elseif $tprofile is 2>>''Lelu''<<elseif $tprofile is 3>>that ''Netflix'' guy...<</if>>
+''Status:'' <<print $tinder2>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $tinder2 is "1/2 done">><span class="active"><div class="center">__''IT'S A DATE:''__</div>''Description:'' Go to your date at Italy with <<if $tprofile is 1>>''Aryana''<<elseif $tprofile is 2>>''Lelu''<<elseif $tprofile is 3>>that ''Netflix'' guy...<</if>>
+''Status:'' <<print $tinder2>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $tinder2 is "Finished">><span class="finished"><div class="center">__''IT'S A DATE:''__</div>''Description:'' Go to your date at Italy with <<if $tprofile is 1>>''Aryana''<<elseif $tprofile is 2>>''Lelu''<<elseif $tprofile is 3>>that ''Netflix'' guy...<</if>>
+''Status:'' <<print $tinder2>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $tinder2 to "Unstarted">><<elseif $tinder2 is "Failed">><span class="failed"><div class="center">__''IT'S A DATE:''__</div>''Description:'' Go to your date at Italy with <<if $tprofile is 1>>''Aryana''<<elseif $tprofile is 2>>''Lelu''<<elseif $tprofile is 3>>that ''Netflix'' guy...<</if>>
+''Status:'' <<print $tinder2>>.</span><</if>>
+\\
+<<if $missionbar1 is "Unstarted">><<elseif $missionbar1 is "Active">><span class="actives"><div class="center">__''WORKAHOLIC:''__</div>''Description:'' Make that business woman at the bar relax.
+''Status:'' <<print $missionbar1>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $missionbar1 is "1/2 done">><span class="actives"><div class="center">__''WORKAHOLIC:''__</div>''Description:'' Get a coffee for the business woman at the bar.
+''Status:'' <<print $missionbar1>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $missionbar1 is "Finished">><span class="finished"><div class="center">__''WORKAHOLIC:''__</div>''Description:'' Get a coffee for the business woman at the bar.
+''Status:'' <<print $missionbar1>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $missionbar1 to "Unstarted">><<elseif $missionbar1 is "Failed">><span class="failed"><div class="center">__''WORKAHOLIC:''__</div>''Description:'' Get a coffee for the business woman at the bar.
+''Status:'' <<print $missionbar1>>.</span><</if>>
+\\
+<<if $headphones is "Unstarted">><<elseif $headphones is "Active">><span class="actives"><div class="center">__''HEADPHONES:''__</div>''Description:'' Get that girl from the library some headphones.
+''Status:'' <<print $headphones>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $headphones is "1/2 done">><span class="actives"><div class="center">__''HEADPHONES:''__</div>''Description:'' Get that girl from the library some headphones.
+''Status:'' <<print $headphones>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $headphones is "Finished">><span class="finished"><div class="center">__''HEADPHONES:''__</div>''Description:'' Get that girl from the library some headphones.
+''Status:'' <<print $headphones>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $headphones to "Unstarted">><<elseif $headphones is "Failed">><span class="failed"><div class="center">__''HEADPHONES:''__</div>''Description:'' Get that girl from the library some headphones.
+''Status:'' <<print $headphones>>.</span><</if>>
+\\
+<<if $gymgirl1 is "Unstarted">><<elseif $gymgirl1 is "Active">><span class="actives"><div class="center">__''SNACK TIME:''__</div>''Description:'' Buy a snack and bring it to the locker room girl.
+''Status:'' <<print $gymgirl1>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $gymgirl1 is "1/2 done">><span class="actives"><div class="center">__''SNACK TIME:''__</div>''Description:'' Buy a snack and bring it to the locker room girl.
+''Status:'' <<print $gymgirl1>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $gymgirl1 is "Finished">><span class="finished"><div class="center">__''SNACK TIME:''__</div>''Description:'' Buy a snack and bring it to the locker room girl.
+''Status:'' <<print $gymgirl1>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $gymgirl1 to "Unstarted">><<elseif $gymgirl1 is "Failed">><span class="failed"><div class="center">__''SNACK TIME:''__</div>''Description:'' Buy a snack and bring it to the locker room girl.
+''Status:'' <<print $gymgirl1>>.</span><</if>>
+\\
+<<if $cupmission is "Unstarted">><<elseif $cupmission is "Active">><span class="actives"><div class="center">__''HOLY GRAIL:''__</div>''Description:'' Bring the girl on Deck 9 a "proper" mug.
+''Status:'' <<print $cupmission>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $cupmission is "Finished">><span class="finished"><div class="center">__''HOLY GRAIL:''__</div>''Description:'' Bring the girl on Deck 9 a "proper" mug.
+''Status:'' <<print $cupmission>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $cupmission to "Unstarted">><<elseif $cupmission is "Failed">><span class="failed"><div class="center">__''HOLY GRAIL:''__</div>''Description:'' Bring the girl on Deck 9 a "proper" mug.
+''Status:'' <<print $cupmission>>.</span><</if>>
+\\
+<<if $sushi is "Unstarted">><<elseif $sushi is "Active">><span class="actives"><div class="center">__''HIRE ME''__</div>''Description:'' Go to the restaurant before service (20) to apply for a job.
+''Status:'' <<print $sushi>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $sushi is "1/2 done">><span class="actives"><div class="center">__''HIRE ME''__</div>''Description:'' Go to the restaurant before service (20) to apply for a job.
+''Status:'' <<print $sushi>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $sushi is "Finished">><span class="finished"><div class="center">__''HIRE ME''__</div>''Description:'' Go to the restaurant before service (20) to apply for a job.
+''Status:'' <<print $sushi>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $sushi to "Unstarted">><<elseif $sushi is "Failed">><span class="failed"><div class="center">__''HIRE ME''__</div>''Description:'' Go to the restaurant before service (20) to apply for a job.
+''Status:'' <<print $sushi>>.</span><</if>>
+\\
+<<if $suzie is "Unstarted">><<elseif $suzie is "Active">><span class="actives"><div class="center">__''STAY AFLOAT:''__</div>''Description:'' Help Suzie find a swimming teacher.
+''Status:'' <<print $suzie>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $suzie is "1/2 done">><span class="actives"><div class="center">__''STAY AFLOAT:''__</div>''Description:'' Help Suzie find a swimming teacher.
+''Status:'' <<print $suzie>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $suzie is "Finished">><span class="finished"><div class="center">__''STAY AFLOAT:''__</div>''Description:'' Help Suzie find a swimming teacher.
+''Status:'' <<print $suzie>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $suzie to "Unstarted">><<elseif $suzie is "Failed">><span class="failed"><div class="center">__''STAY AFLOAT:''__</div>''Description:'' Help Suzie find a swimming teacher.
+''Status:'' <<print $suzie>>.</span><</if>>
+\\
+<<if $sculpdick is "Unstarted">><<elseif $sculpdick is "Active">><span class="actives"><div class="center">__''ROCK HARD:''__</div>''Description:'' Ask Anastasia about that underwater sculpture in the pool.
+''Status:'' <<print $sculpdick>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $sculpdick is "1/2 done">><span class="actives"><div class="center">__''ROCK HARD:''__</div>''Description:'' Ask Anastasia about that underwater sculpture in the pool.
+''Status:'' <<print $sculpdick>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $sculpdick is "Finished">><span class="finished"><div class="center">__''ROCK HARD:''__</div>''Description:'' Ask Anastasia about that underwater sculpture in the pool.
+''Status:'' <<print $sculpdick>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $sculpdick to "Unstarted">><<elseif $sculpdick is "Failed">><span class="failed"><div class="center">__''ROCK HARD:''__</div>''Description:'' Ask Anastasia about that underwater sculpture in the pool.
+''Status:'' <<print $sculpdick>>.</span><</if>>
+\\
+<<if $magic is "Unstarted">><<elseif $magic is "Active">><span class="actives"><div class="center">__''EWA'S ASSISTANT:''__</div>''Description:'' Be Ewa's assistant on her magicbox trick in her show on Saturday.
+''Status:'' <<print $magic>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $magic is "1/2 done">><span class="actives"><div class="center">__''EWA'S ASSISTANT:''__</div>''Description:'' Be Ewa's assistant on her magicbox trick in her show on Saturday.
+''Status:'' <<print $magic>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $magic is "Finished">><span class="finished"><div class="center">__''EWA'S ASSISTANT:''__</div>''Description:'' Be Ewa's assistant on her magicbox trick in her show on Saturday.
+''Status:'' <<print $magic>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $magic to "Unstarted">><<elseif $magic is "Failed">><span class="failed"><div class="center">__''EWA'S ASSISTANT:''__</div>''Description:'' Be Ewa's assistant on her magicbox trick in her show on Saturday.
+''Status:'' <<print $magic>>.</span><</if>>
+\\
+<<if $golfer is "Unstarted">><<elseif $golfer is "Active">><span class="actives"><div class="center">__''HAT TRICK:''__</div>''Description:'' Find a hat for Molly.
+''Status:'' <<print $golfer>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $golfer is "1/3 done">><span class="actives"><div class="center">__''HAT TRICK:''__</div>''Description:'' Buy a lollipop for the suntanning brazilian girl.
+''Status:'' <<print $golfer>>.
+<div class="meter"><span style="width: 33%"><span>1/3</span></span></div></span><<elseif $golfer is "2/3 done">><span class="actives"><div class="center">__''HAT TRICK:''__</div>''Description:'' Take the hat to Molly.
+''Status:'' <<print $golfer>>.
+<div class="meter"><span style="width: 66%"><span>2/3</span></span></div></span><<elseif $golfer is "Finished">><span class="finished"><div class="center">__''HAT TRICK:''__</div>''Description:'' Find a hat for Molly.
+''Status:'' <<print $golfer>>.
+<div class="meter"><span style="width: 100%"><span>3/3</span></span></div></span><<set $golfer to "Unstarted">><<elseif $golfer is "Failed">><span class="failed"><div class="center">__''HAT TRICK:''__</div>''Description:'' Find a hat for Molly.
+''Status:'' <<print $golfer>>.</span><</if>>
+\\
+<<if $ethel is "Unstarted">><<elseif $ethel is "Active">><span class="actives"><div class="center">__''ETHEL:''__</div>''Description:'' Help Ethel forget her boyfriend.
+''Status:'' <<print $ethel>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $ethel is "1/2 done">><span class="actives"><div class="center">__''ETHEL:''__</div>''Description:'' Help Ethel forget her boyfriend.
+''Status:'' <<print $ethel>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $ethel is "Finished">><span class="finished"><div class="center">__''ETHEL:''__</div>''Description:'' Help Ethel forget her boyfriend.
+''Status:'' <<print $ethel>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $ethel to "Unstarted">><<elseif $ethel is "Failed">><span class="failed"><div class="center">__''ETHEL:''__</div>''Description:'' Help Ethel forget her boyfriend.
+''Status:'' <<print $ethel>>.</span><</if>>
+\\
+<<if $costumeparty is "Unstarted">><<elseif $costumeparty is "Active">><span class="actives"><div class="center">__''COSTUME CONTEST:''__</div>''Description:'' Go to the costume contest on Saturday evening.
+''Status:'' <<print $costumeparty>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $costumeparty is "1/2 done">><span class="actives"><div class="center">__''COSTUME CONTEST:''__</div>''Description:'' Go to the costume contest on Saturday evening.
+''Status:'' <<print $costumeparty>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $costumeparty is "Finished">><span class="finished"><div class="center">__''COSTUME CONTEST:''__</div>''Description:'' Go to the costume contest on Saturday evening.
+''Status:'' <<print $costumeparty>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $costumeparty to "Unstarted">><<elseif $costumeparty is "Failed">><span class="failed"><div class="center">__''COSTUME CONTEST:''__</div>''Description:'' Go to the costume contest on Saturday evening.
+''Status:'' <<print $costumeparty>>.</span><</if>>
+\\
+<<if $cum3 is "Unstarted">><<elseif $cum3 is "Active">><span class="active"><div class="center">__''SISSYGASM:''__</div>''Description:'' Have a hands free orgasm.
+''Status:'' <<print $cum3>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $cum3 is "1/2 done">><span class="active"><div class="center">__''SISSYGASM:''__</div>''Description:'' Have a hands free orgasm.
+''Status:'' <<print $cum3>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $cum3 is "Finished">><span class="finished"><div class="center">__''SISSYGASM:''__</div>''Description:'' Have a hands free orgasm.
+''Status:'' <<print $cum3>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $cum3 to "Unstarted">><<elseif $cum3 is "Failed">><span class="failed"><div class="center">__''SISSYGASM:''__</div>''Description:'' Have a hands free orgasm.
+''Status:'' <<print $cum3>>.</span><</if>>
+\\
+<<if $lubequest is "Unstarted">><<elseif $lubequest is "Active">><span class="actives"><div class="center">__''LUBE IT UP:''__</div>''Description:'' Buy some silicone based lube at the sex shop and give it to Ethel (Tara's room).
+''Status:'' <<print $lubequest>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $lubequest is "1/2 done">><span class="actives"><div class="center">__''LUBE IT UP:''__</div>''Description:'' Buy some silicone based lube at the sex shop and give it to Ethel (Tara's room).
+''Status:'' <<print $lubequest>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $lubequest is "Finished">><span class="finished"><div class="center">__''LUBE IT UP:''__</div>''Description:'' Buy some silicone based lube at the sex shop and give it to Ethel (Tara's room).
+''Status:'' <<print $lubequest>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $lubequest to "Unstarted">><<elseif $lubequest is "Failed">><span class="failed"><div class="center">__''LUBE IT UP:''__</div>''Description:'' Buy some silicone based lube at the sex shop and give it to Ethel (Tara's room).
+''Status:'' <<print $lubequest>>.</span><</if>>
+\\
+<<if $kittyband is "Unstarted">><<elseif $kittyband is "Active">><span class="actives"><div class="center">__''KITTY KITTY:''__</div>''Description:'' Find a kitty headband and give it back to Chloe.
+''Status:'' <<print $kittyband>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $kittyband is "1/2 done">><span class="actives"><div class="center">__''KITTY KITTY:''__</div>''Description:'' Find a kitty headband and give it back to Chloe.
+''Status:'' <<print $kittyband>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $kittyband is "Finished">><span class="finished"><div class="center">__''KITTY KITTY:''__</div>''Description:'' Find a kitty headband and give it back to Chloe.
+''Status:'' <<print $kittyband>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $kittyband to "Unstarted">><<elseif $kittyband is "Failed">><span class="failed"><div class="center">__''KITTY KITTY:''__</div>''Description:'' Find a kitty headband and give it back to Chloe.
+''Status:'' <<print $kittyband>>.</span><</if>>
+\\
+<<if $poker is "Unstarted">><<elseif $poker is "Active">><span class="actives"><div class="center">__''POKER FACE:''__</div>''Description:'' Make the woman at the poker table go away.
+''Status:'' <<print $poker>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $poker is "1/2 done">><span class="actives"><div class="center">__''POKER FACE:''__</div>''Description:'' Make the woman at the poker table go away.
+''Status:'' <<print $poker>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $poker is "Finished">><span class="finished"><div class="center">__''POKER FACE:''__</div>''Description:'' Make the woman at the poker table go away.
+''Status:'' <<print $poker>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $poker to "Unstarted">><<elseif $poker is "Failed">><span class="failed"><div class="center">__''POKER FACE:''__</div>''Description:'' Make the woman at the poker table go away.
+''Status:'' <<print $poker>>.</span><</if>>
+\\
+<<if $makeupquest1 is "Unstarted">><<elseif $makeupquest1 is "Active">><span class="active"><div class="center">__''AMATEUR MAKEUP:''__</div>''Description:'' Find help to do your own makeup and do it for next week's styling class.
+''Status:'' <<print $makeupquest1>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $makeupquest1 is "1/2 done">><span class="active"><div class="center">__''AMATEUR MAKEUP:''__</div>''Description:'' Find help to do your own makeup and do it for next week's styling class
+''Status:'' <<print $makeupquest1>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $makeupquest1 is "Finished">><span class="finished"><div class="center">__''AMATEUR MAKEUP:''__</div>''Description:'' Find help to do your own makeup and do it for next week's styling class
+''Status:'' <<print $makeupquest1>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $makeupquest1 to "Unstarted">><<elseif $makeupquest1 is "Failed">><span class="failed"><div class="center">__''AMATEUR MAKEUP:''__</div>''Description:'' Find help to do your own makeup and do it for next week's styling class
+''Status:'' <<print $makeupquest1>>.</span><</if>>
+\\
+<<if $ejaculationquest is "Unstarted">><<elseif $ejaculationquest is "Active">><span class="actives"><div class="center">__''PENNY'S QUICK SHOT:''__</div>''Description:'' Help Penny with her premature ejaculation issue.
+''Status:'' <<print $ejaculationquest>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $ejaculationquest is "1/2 done">><span class="actives"><div class="center">__''PENNY'S QUICK SHOT:''__</div>''Description:'' Help Penny with her premature ejaculation issue.
+''Status:'' <<print $ejaculationquest>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $ejaculationquest is "Finished">><span class="finished"><div class="center">__''PENNY'S QUICK SHOT:''__</div>''Description:'' Help Penny with her premature ejaculation issue.
+''Status:'' <<print $ejaculationquest>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $ejaculationquest to "Unstarted">><<elseif $ejaculationquest is "Failed">><span class="failed"><div class="center">__''PENNY'S QUICK SHOT:''__</div>''Description:'' Help Penny with her premature ejaculation issue.
+''Status:'' <<print $ejaculationquest>>.</span><</if>>
+\\
+<<if $m2 is "Unstarted">><<elseif $m2 is "Active">><span class="active"><div class="center">__''LEAKING INFORMATION:''__</div>''Description:'' Wait for "M" to come to your room Saturday night (after sleeping).
+''Status:'' <<print $m2>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $m2 is "1/2 done">><span class="active"><div class="center">__''LEAKING INFORMATION:''__</div>''Description:'' Wait for "M" to come to your room Saturday night (after sleeping).
+''Status:'' <<print $m2>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $m2 is "Finished">><span class="finished"><div class="center">__''LEAKING INFORMATION:''__</div>''Description:'' Wait for "M" to come to your room Saturday night (after sleeping).
+''Status:'' <<print $m2>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $m2 to "Unstarted">><<elseif $m2 is "Failed">><span class="failed"><div class="center">__''LEAKING INFORMATION:''__</div>''Description:'' Wait for "M" to come to your room Saturday night (after sleeping).
+''Status:'' <<print $m2>>.</span><</if>>
+\\
+<<if $casaquest is "Unstarted">><<elseif $casaquest is "Active">><span class="active"><div class="center">__''CASABLANCA SECRETS:''__</div>''Description:'' Figure out the secret password.
+''Status:'' <<print $casaquest>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $casaquest is "1/4 done">><span class="active"><div class="center">__''CASABLANCA SECRETS:''__</div>''Description:'' Get some "wee-wee powder" for Abdallah.
+''Status:'' <<print $casaquest>>.
+<div class="meter"><span style="width: 25%"><span>25%</span></span></div></span><<elseif $casaquest is "2/4 done">><span class="active"><div class="center">__''CASABLANCA SECRETS:''__</div>''Description:'' Find a key hole for the key and try it out.
+''Status:'' <<print $casaquest>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $casaquest is "3/4 done">><span class="active"><div class="center">__''CASABLANCA SECRETS:''__</div>''Description:'' Go back to the market with Tara and get through that door.
+''Status:'' <<print $casaquest>>.
+<div class="meter"><span style="width: 75%"><span>75%</span></span></div></span><<elseif $casaquest is "Finished">><span class="finished"><div class="center">__''CASABLANCA SECRETS:''__</div>''Description:'' Go back to the market and find Tara.
+''Status:'' <<print $casaquest>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $casaquest to "Unstarted">><<elseif $casaquest is "Failed">><span class="failed"><div class="center">__''CASABLANCA SECRETS:''__</div>''Description:'' Go back to the market with Tara and get through that door.
+''Status:'' <<print $casaquest>>.</span><</if>>
+\\
+<<if $proteinquest is "Unstarted">><<elseif $proteinquest is "Active">><span class="actives"><div class="center">__''PROTEIN SHAKE:''__</div>''Description:'' Find some protein shakes for the guy at the gym.
+''Status:'' <<print $proteinquest>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $proteinquest is "1/2 done">><span class="actives"><div class="center">__''PROTEIN SHAKE:''__</div>''Description:'' Find some protein shakes for the guy at the gym.
+''Status:'' <<print $proteinquest>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $proteinquest is "Finished">><span class="finished"><div class="center">__''PROTEIN SHAKE:''__</div>''Description:'' Find some protein shakes for the guy at the gym.
+''Status:'' <<print $proteinquest>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $proteinquest to "Unstarted">><<elseif $proteinquest is "Failed">><span class="failed"><div class="center">__''PROTEIN SHAKE:''__</div>''Description:'' Find some protein shakes for the guy at the gym.
+''Status:'' <<print $proteinquest>>.</span><</if>>
+\\
+<<if $spahunkquest is "Unstarted">><<elseif $spahunkquest is "Active">><span class="actives"><div class="center">__''SHARK IN THE WATER:''__</div>''Description:'' Make the man at the spa pool go away.
+''Status:'' <<print $spahunkquest>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $spahunkquest is "1/2 done">><span class="actives"><div class="center">__''SHARK IN THE WATER:''__</div>''Description:'' Make the man at the spa pool go away. Buy him a shower gel/shampoo.
+''Status:'' <<print $spahunkquest>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $spahunkquest is "Finished">><span class="finished"><div class="center">__''SHARK IN THE WATER:''__</div>''Description:'' Make the man at the spa pool go away. Buy him a shower gel/shampoo.
+''Status:'' <<print $spahunkquest>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $spahunkquest to "Unstarted">><<elseif $spahunkquest is "Failed">><span class="failed"><div class="center">__''SHARK IN THE WATER:''__</div>''Description:'' Make the man at the spa pool go away.
+''Status:'' <<print $spahunkquest>>.</span><</if>>
+\\
+<<if $zackquest is "Unstarted">><<elseif $zackquest is "Active">><span class="actives"><div class="center">__''STRIP & DONATE:''__</div>''Description:'' Explore what going on in the stage.
+''Status:'' <<print $zackquest>>.
+<div class="meter"><span style="width: 4%"><span>0%</span></span></div></span><<elseif $zackquest is "1/2 done">><span class="actives"><div class="center">__''STRIP & DONATE:''__</div>''Description:'' Explore what going on in the stage.
+''Status:'' <<print $zackquest>>.
+<div class="meter"><span style="width: 50%"><span>50%</span></span></div></span><<elseif $zackquest is "Finished">><span class="finished"><div class="center">__''STRIP & DONATE:''__</div>''Description:'' Explore what going on in the stage.
+''Status:'' <<print $zackquest>>.
+<div class="meter"><span style="width: 100%"><span>100%</span></span></div></span><<set $zackquest to "Unstarted">><<elseif $zackquest is "Failed">><span class="failed"><div class="center">__''STRIP & DONATE:''__</div>''Description:'' Explore what going on in the stage.
+''Status:'' <<print $zackquest>>.</span><</if>>
+[[Return|$return]]
+
+

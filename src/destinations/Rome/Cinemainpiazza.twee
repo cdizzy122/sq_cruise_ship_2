@@ -1,0 +1,88 @@
+:: Cinema in piazza [textback] {"position":"3281,413","size":"100,100"}
+<<if ndef $cinema>><<removeclass "html">><<addclass "html" "rome">><<audio "rome" volume 0.4 play loop>><div class="center"><span class="fade-ins"><img src="dockings/rome/cinemaday.jpg" width="60%"></span></div>
+
+<<speech "You" "''$name'':">>
+(They play movies in the main square, but I guess it's not ready yet... They are putting everything together for tonight.)<</speech>>
+[[Roam around|Cinema in piazza][$cinema to 0]]
+[[Return|Street1]]
+
+
+\\<<elseif $cinema is 0>><<removeclass "html">><<addclass "html" "rome">><<audio "rome" volume 0.4 play loop>><div class="center"><span class="fade-ins"><img src="dockings/rome/cinemaday.jpg" width="60%"></span></div>
+There are a few men walking around and bringing chairs and finishing putting together the whole structure for the screen.
+
+<<speech "You" "''$name'':">>
+(Huh, seems like they are putting it now. There's a movie programmed for tonight. I don't understand the title, but it probably is one of those summer romantic comedies...)<</speech>>
+As you walk, you notice how two of the men who were putting together the screen start arguing.
+
+<<speech "nobody" "''Muscular man'':">>
+eh! Che stai facendo!?<</speech>>
+<<speech "nobody" "''Apprentice'':">>
+lavorando proprio come te, pagliaccio!<</speech>>
+<<speech "nobody" "''Muscular man'':">>
+Non parlarmi così, eh!<</speech>>
+Both men get closer, clearly about to get into a fight, when suddenly, who seems like the master of the area, interrupts them.
+
+<<speech "nobody" "''Master'':">>
+Stop it! We're just going to put this together. Keep your hands to yourselves, pretty ladies. Get to work!<</speech>>
+Both men obey reluctantly. You see the master coming to you.
+
+<<speech "nobody" "''Master'':">>
+Scusa, che ci fai qui?<</speech>>
+<<speech "You" "''$name'':">>
+Oh, yeah, sorry, I don't speak italian...<</speech>>
+<<speech "nobody" "''Master'':">>
+Oh, nice. What are you doing here, enjoying the view?<</speech>>
+<div class="center"><img src="dockings/rome/master.jpg" width="40%"></div>
+Your face turns red for no reason, or is there...?
+
+<<speech "You" "''$name'':">>
+Um, no, I was just wondering when was the cinema going to be ready<</speech>>
+<<speech "nobody" "''Master'':">>
+It's supposed to be ready for tonight, but these guys... they can't even focus. They need a "release", if you know what I mean... I've told them to go for something "cold", right there next to the bar. But they don't get it... hahahaha<</speech>>
+You frown a bit, not understanding what he meant.
+
+<<speech "nobody" "''Master'':">>
+Oh, so you don't get it either? Haha... that's one of the best places around here. You should go there. I should go there, actually...<</speech>>
+<<speech "You" "''$name'':">>
+(Whatever...)<</speech>>
+[[Return|Street1]]
+
+
+
+\\<<elseif $cinema is 1>><<removeclass "html">><<addclass "html" "rome">><<audio "rome" volume 0.4 play loop>><div class="center"><img src="dockings/rome/master.jpg" width="30%"></div>
+<<speech "nobody" "''Master'':">>
+Hey, there, I was just going to that Gelateria... damn, this heat is tough and I'm not talking about the weather... hehehe<</speech>>
+<<speech "You" "''$name'':">>
+Oh, excuse me, before you go, would you mind if I borrowed that screwdriver?<</speech>>
+<<speech "nobody" "''Master'':">>
+Damn, I've heard weird petitions from little boys like you, but the screwdriver? Sure son, you can have the whole belt! It's my break!<</speech>>
+The big sweaty man gets his belt off and gives it to you as he walks away to the Gelateria.
+
+<<speech "You" "''$name'':">>
+(Everyone goes to that Gelateria... let's find out why.)<</speech>>
+ <div class="center">''*You received screwdriver*''</div>
+[[Return|Street1][$screwdriver to true, $backalley to 1]]
+ 
+\\<<elseif $cinema is 2>><<removeclass "html">><<addclass "html" "spades">><<audio "myroom" stop>><<audio "rome" stop>><<audio "romebar" stop>><<audio "mystery" play loop>><<audio "people" play loop>>As you get to the port, you notice that every place is now closed, and the only light you are able to see is coming from the cinema, so you decide to take a look.
+
+<div class="center"><img src="dockings/rome/cinema.jpg" width="60%"></div>
+
+Most of the seats are taken by children and families. You notice that most of them are also tourists. You see one of the chairs empty, and you decide to have a seat for a while.
+
+<<speech "You" "''$name'':">>
+(... ...)<</speech>>
+Although you are seeing the movie, your mind is in a completely different place. No matter where you go, you always seem to be trying to find your place in the world... Women can't have you, men won't have you, nobody loves you...
+
+<<speech "You" "''$name'':">>
+(Or is that so...?)<</speech>>
+Before falling into the negative thought, you have a happy thought: maybe you are trying to be liked too much. Maybe people don't care that much about how you behave... And also, it's not true that nobody will have you. If you'd be more open-minded, Tara would surely be more than happy to take you. And probably, Captain T, Anastasia, even Rae. Maybe even $gfname, if you embraced her way of living her sexuality...
+
+<<speech "You" "''$name'':">>
+(Maybe I'm not that bad... Maybe I can be better, just accepting who I am... I won't have to find my place, I'm already where I want to be...)<</speech>>
+A nervous smile appears on your face. It's nervous, because you know that if this is your place, you still have a lot to change about yourself. Maybe you should just think less and enjoy more...
+
+You think of this again and again during the movie. Once it's over, another one starts, but you feel like you are ready to continue your trip. You take a deep breath and get into the ship. "Home". For now.
+
+[[Get in ship|Reception][$receptionship to 2, $tinder2 to "Finished", $gym to 6, $anatomy to 7, $arrival to false, $kitchen to 8, $styleclass to 6, $dance to 5, $jada to 2, $review to 4, $logstart to true, $officedoc to 6]]<</if>><<if ndef $mute>><<audio "rome" unmute>><<audio "mystery" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

@@ -1,0 +1,204 @@
+:: Read for a while [textback] {"position":"2323,280","size":"100,100"}
+<<removeclass "html">><<addclass "html" "library">><<audio ":back" mute>><<audio "mozart" volume 0.5 loop play>><<if ndef $rroom>>As you go to pick a book from the public section you notice that most of the books that used to be there have been redistributed to other parts. Then you turn your head and see a standing sign that says: ''New collection''
+
+<<speech "You" "''$name:''">>
+(Hm...)<</speech>>
+You leave the book in its hole and walk to the adjacent room where the new collection is.
+
+[[Go to room|Read for a while][$rroom to 0]]<<elseif $rroom is 0>><div class="center"><img src="places2/library2.jpg" width="60%">
+
+''//(Internet connection needed)//''
+
+[[Personality tests🎭|Read for a while][$rroom to 1]]
+[[Sexuality tests😘🍆|Read for a while][$rroom to 2]]
+[[Top Magazines📚|Read for a while][$rroom to 6]]
+<<linkreplace "Top Articles🔝♠️">>//Not implemented yet//<</linkreplace>></div>
+<<click "Return" "Library">><</click>><<elseif $rroom is 1>><div class="row3"><div class="column3">
+<div class="center"><span class="onomatopeya"><div style="font-size:22px">What Kind of Sissy Are You? (qzzr)</div></span><<linkreplace "⬇︎Do test⬇︎">><iframe src="https://www.qzzr.com/widget/quiz/fi9xdWl6emVzLzU0NjEzP3N0YXRlW3BfdV09aHR0cHMlM0ElMkYlMkZ3d3cuc2lzc2lmeS5jb20lMkZzaXNzeS10cmFpbmluZy1hc3NpZ25tZW50cyUyRg" width="335px" height="900px"></iframe><</linkreplace>></div></div><div class="column3">
+<div class="center"><span class="onomatopeya"><div style="font-size:22px">Am I Really a Sissy? (Novagirl)</div></span><<linkreplace "⬇︎Do test⬇︎">><iframe src="https://novagirl.net/sissy-test" width="335px" height="900px"></iframe><</linkreplace>></div></div><div class="column3">
+<div class="center"><span class="onomatopeya"><div style="font-size:22px">Man/Woman/Sissy (gotoquiz)</div></span><<linkreplace "⬇︎Do test⬇︎">><iframe src="https://www.qzzr.com/widget/quiz/fi9xdWl6emVzLzYwNzA3P3N0YXRlW3BfdV09aHR0cHMlM0ElMkYlMkZ3d3cuc2lzc2lmeS5jb20lMkZzaXNzeS1xdWl6JTJGd2hhdHMteW91ci1wYW50eS1wZXJzb25hbGl0eSUyRiZzdGF0ZVtyXT1odHRwcyUzQSUyRiUyRnd3dy5nb29nbGUuY29tJTJG" width="335px" height="900px"></iframe><</linkreplace>></div></div></div>
+[[Return|Read for a while][$rroom to 0]]
+
+
+\\<<elseif $rroom is 2>><div class="center"><img src="places2/library2.jpg" width="60%">
+
+[[White Sissy Boy Test|Read for a while][$rroom to 3]]
+[[Ultimate Cuckold Test|Read for a while][$rroom to 4]]
+<<linkreplace "3rd test">>//Not implemented yet//<</linkreplace>></div>
+[[Return|Read for a while][$rroom to 0]]
+
+
+
+\\<<elseif $rroom is 3>><div class="center">''White Sissy Boy Test'' (Uploaded by Geraldine101 on Imagefap)</div>
+<<nobr>><html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+<div class="w3-content w3-display-container">
+<button class="w3-button w3-red w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-red w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+  <span class="centerito">
+  <img class="mySlides" src="magazines/test1/2.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/test1/3.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/test1/4.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/test1/5.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/test1/6.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/test1/7.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/test1/8.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/test1/9.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/test1/10.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/test1/11.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/test1/12.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/test1/13.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/test1/14.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/test1/15.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/test1/16.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/test1/17.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/test1/18.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/test1/19.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/test1/20.jpg" style="width:50%"><img class="mySlides" src="magazines/test1/21.jpg" style="width:50%">
+</span></div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script></body><</nobr>>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Return|Read for a while][$rroom to 2]]<<elseif $rroom is 4>><div class="center"><img src="magazines/test2/test2.jpg" width="50%"></div>
+[[Return|Read for a while][$rroom to 2]]
+
+\\<<elseif $rroom is 5>>
+
+\\<<elseif $rroom is 6>><div class="center">''Top Magazines:''</div>
+<<nobr>><html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+<div class="w3-content w3-display-container">
+<button class="w3-button w3-red w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-red w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+  <span class="centerito"><img class="mySlides" src="magazines/cuckold/c1.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c2.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c3.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c4.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c5.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c6.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c7.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c8.png" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c9.png" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c10.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c11.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c12.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c13.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c14.png" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c15.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c16.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c17.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c18.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c19.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c20.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c21.png" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c22.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c23.png" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c24.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c25.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c26.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c27.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c28.png" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c29.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c30.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c31.jpg" style="width:50%">
+  <img class="mySlides" src="magazines/cuckold/c32.jpg" style="width:50%"></span>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script></body><</nobr>>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Return|Read for a while][$rroom to 0]]
+
+
+
+\\<<elseif $rroom is 7>><div class="row3"><div class="column3">
+<div class="center"><span class="onomatopeya"><div style="font-size:22px">Am I Really a Sissy? (Novagirl)</div></span><<linkreplace "⬇︎Do test⬇︎">><iframe src="https://novagirl.net/sissy-test" width="335px" height="900px"></iframe><</linkreplace>></div></div><div class="column3">
+<div class="center"><span class="onomatopeya"><div style="font-size:22px">Am I Really a Sissy? (Novagirl)</div></span><<linkreplace "⬇︎Do test⬇︎">><iframe src="https://novagirl.net/sissy-test" width="335px" height="900px"></iframe><</linkreplace>></div></div><div class="column3">
+<div class="center"><span class="onomatopeya"><div style="font-size:22px">Am I Really a Sissy? (Novagirl)</div></span><<linkreplace "⬇︎Do test⬇︎">><iframe src="https://novagirl.net/sissy-test" width="335px" height="900px"></iframe><</linkreplace>></div></div></div>
+
+
+<</if>><<audio "menus" stop>>
+
+

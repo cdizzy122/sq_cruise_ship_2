@@ -1,0 +1,29 @@
+:: Untitled Passage 59 {"position":"1074,1747","size":"100,100"}
+[[Bedroom][$smsm1 to true, $setcuckpath to 0]]
+[[Bedroom][$smsm2 to true, $setcuckpath to 0]]
+[[Bedroom][$smsm3 to true, $setcuckpath to 0]]
+[[Bedroom][$smsm4 to true, $setcuckpath to 0]]
+[[Bedroom][$smsm5 to true, $setcuckpath to 0]]
+[[Bedroom][$smsm6 to true, $setcuckpath to 0]]
+[[Bedroom][$smsm7 to true, $setcuckpath to 0]]
+[[Bedroom][$smsm8 to true, $setcuckpath to 0]]
+[[Bedroom][$smsm9 to true, $setcuckpath to 0]]
+[[Bedroom][$smsm10 to true, $setcuckpath to 0]]
+[[Bedroom][$smsm11 to true, $setcuckpath to 0]]
+
+
+[[Bedroom][$smsm1 to true, $setcuckpath to 1]]
+[[Bedroom][$smsm2 to true, $setcuckpath to 1]]
+[[Bedroom][$smsm3 to true, $setcuckpath to 1]]
+[[Bedroom][$smsm4 to true, $setcuckpath to 1]]
+[[Bedroom][$smsm5 to true, $setcuckpath to 1]]
+[[Bedroom][$smsm6 to true, $setcuckpath to 1]]
+[[Bedroom][$smsm7 to true, $setcuckpath to 1]]
+[[Bedroom][$smsm8 to true, $setcuckpath to 1]]
+[[Bedroom][$smsm9 to true, $setcuckpath to 1]]
+[[Bedroom][$smsm10 to true, $setcuckpath to 1]]
+[[Bedroom][$smsm11 to true, $setcuckpath to 1]]
+
+<<set $receivemessages to true>>
+
+

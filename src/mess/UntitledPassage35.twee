@@ -1,0 +1,5 @@
+:: Untitled Passage 35 {"position":"501,920","size":"100,100"}
+[[Itinerary]]<<set $dayn to 4>>
+[[Inventory][$pinklolli to 3, $chococandies to 4, $smallkey to true, $map to true, $tickets to true, $itinerary to true, $roomkey to true]]
+
+

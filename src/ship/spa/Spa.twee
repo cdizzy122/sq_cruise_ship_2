@@ -1,0 +1,16 @@
+:: Spa [textback] {"position":"2000,525","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spa">><<audio ":back" mute>><<audio "spa" loop play>><<if $startclasses is true>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] isnot "Sun" and $gameDate.getHours() gte 8 and $gameDate.getHours() lt 11>><span class="fade-in-out"><span class="ad">GYM CLASS 9-11
+(DECK 7)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] isnot "Sun" and $gameDate.getHours() gte 11 and $gameDate.getHours() lt 13>><span class="fade-in-out"><span class="ad">CAPTAIN T CLASS 11-13
+(DECK 3)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] isnot "Sun" and $gameDate.getHours() gte 13 and $gameDate.getHours() lt 15>><span class="fade-in-out"><span class="ad">COOKING CLASS 13-15
+(DECK 3)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Mon" and $gameDate.getHours() gte 17 and $gameDate.getHours() lt 20>><span class="fade-in-out"><span class="ad">ANATOMY CLASS 17-20
+(LIBRARY)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Tue" and $gameDate.getHours() gte 17 and $gameDate.getHours() lt 20>><span class="fade-in-out"><span class="ad">STYLING CLASS 17-20
+(DECK 2)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Wed" and $gameDate.getHours() gte 17 and $gameDate.getHours() lt 20>><span class="fade-in-out"><span class="ad">PSYCHOLOGIST 17-20
+(DECK 8)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Thu" and $gameDate.getHours() gte 17 and $gameDate.getHours() lt 20>><span class="fade-in-out"><span class="ad">SAILING CLASS 17-20
+(DECK 9)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Fri" and $gameDate.getHours() gte 17 and $gameDate.getHours() lt 20>><span class="fade-in-out"><span class="ad">HEALTH REVIEW 17-20
+(DECK 8)</span></span><</if>><<else>><</if>><div class="center"><img src="places2/spa.jpg" width="90%">
+<<if $spavariable is true>>''[[👈🏻 Spa pool|Spa pool1]]''(24h)<<else>>''[[👈🏻 Spa pool|Spa pool]]''(24h)<</if>> | <<if $massage is true>><<if $gameDate.getHours() gte 11 and $gameDate.getHours() lt 22>>''[[Massage]] 👉🏻''<<else>>Closed (11-22)<</if>><<else>><<linkreplace "''Massage''">>I don't feel like it.<</linkreplace>><</if>>
+
+<<if $beautysalon gte 0>>''[[Beauty Salon 💄💅|Beauty Salon]]''<<else>><</if>></div>
+<<click "Return" "Deck 7">><<audio "spa" stop>><</click>><<if $gameDate.getHours() is 0 or $gameDate.getHours() lt 8>><<goto [[Dreams]]>><<else>><</if>><<audio "menus" stop>><<audio "style" stop>>
+
+

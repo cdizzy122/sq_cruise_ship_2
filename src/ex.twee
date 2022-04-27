@@ -1,0 +1,70 @@
+:: ex [phone textback] {"position":"686,107","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><<if $ex is 0>><div class="center"><img src="gf/myboys.png" width="60%"></div>
+<<speech "You" "''$name'':">>
+(What the hell is this??)<</speech>>
+Your tummy aches just by the thought of what you are going to find inside those folders.
+
+<div class="center">[[Carlos 👊🏽|ex][$ex to 1]] | [[David 📏❤️|ex][$ex to 2]] | [[Jeròme 🗼💏|ex][$ex to 3]]
+[[Close folder|argue]]</div>
+
+
+
+
+
+\\<<elseif $ex is 1>><<speech "You" "''$name:''">>
+(Who the hell is this "Carlos"? She never told me about him...)<</speech>>
+<span class="fade-ins"><div class="center"><img src="gf/carloscollage.jpg" width="50%"></div></span>
+
+You can't help but stare at the massive dong of this latino boy. You know he must be young, but that dick belongs to a horse...
+
+<<speech "You" "''$name:''">>
+Who took those pictures of him in the shower?? Could it be... $gfname...?<</speech>>
+[[Return to folder|ex][$ex to 0]]
+<span class="Phone"><span class="fade-ins-out">[[I've seen enough! (Close folder)|argue]]</span></span>
+
+
+
+
+\\<<elseif $ex is 2>><<speech "You" "''$name:''">>
+(David... who the fuck...??)<</speech>>
+<span class="fade-ins"><div class="center"><img src="gf/davidcollage.jpg" width="50%"></div></span>
+
+Even if $gfname's face is not on any picture, you think you are recognizing that ass...
+
+<<speech "You" "''$name:''">>
+(For real? Is that her?? Oh, and David...)<</speech>>
+You remember her talking to you a long time ago about her ex David.
+
+<<speech "You" "''$name:''">>
+(That must be THAT David... I can't believe this! Why is she keeping these pictures!?)<</speech>>
+You can feel a knot growing in your stomach, especially now that you're seeing the great difference between you both.
+
+[[Return to folder|ex][$ex to 0]]
+<span class="Phone"><span class="fade-ins-out">[[I've seen enough! (Close folder)|argue]]</span></span>
+
+
+
+
+
+\\<<elseif $ex is 3>><<speech "You" "''$name:''">>
+(No idea who this "Jeròme" guy is...)<</speech>>
+<span class="fade-ins"><div class="center"><img src="gf/jeromecollage.jpg" width="50%"></div></span>
+
+As you go on, you feel like you're not going to be able to watch any more of this.
+
+<<speech "You" "''$name:''">>
+(I still can't understand why the FUCK she's storing these pictures!)<</speech>>
+Your insecurity is only growing bigger and bigger as you see more... but you keep scrolling down...
+
+<<linkreplace "... ...">><div class="center"><img src="gf/jeromevid0.gif" width="50%"></div>
+You can't help but stare at your girlfriend, getting angrier with every little moan you hear.
+
+<<speech "You" "''$name:''">>
+(Fuck, there's another one...)<</speech>>
+<div class="center"><img src="gf/jeromevid1.gif" width="50%"></div>
+<<speech "You" "''$name:''">>
+(I can't believe this! I-I can't...)<</speech>>
+[[Return to folder|ex][$ex to 0]]
+<span class="Phone"><span class="fade-ins-out">[[I've seen enough! (Close folder)|argue]]</span></span><</linkreplace>><</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>><<audio "mystery" stop>><<audio "dreams" volume 0.2 play>>
+
+

@@ -1,0 +1,40 @@
+:: Lost items [textback] {"position":"4233,1498","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<if ndef $mutefx>><<audio "robot1" volume 1.5 play loop>><<else>><</if>><<if ndef $lostit>><img src="dockings/lostitems.jpg" width="80%">
+
+Here's what seems to be a puppet receptionist. He's still, waiting for someone to interact with him.
+
+<<speech "You" "$name">>
+Ehem...<</speech>>
+The automaton is not reacting in any sort of way.
+
+<<speech "You" "$name">>
+EHEM!<</speech>>
+No response... You decide to touch play one of the bells on the table.
+
+<span class="onomatopeya">DING</span>
+
+<<speech "nobody" "''Receptionist:''">>
+Bzzzt bzzzzt Yes, sir! Welcome, sir! Are you looking to deposit or retrieving?<</speech>>
+<<speech "You" "$name">>
+R- retrieving.<</speech>>
+<<speech "nobody" "''Receptionist:''">>
+Bzzzzzt Please, name the object out loud in 3, 2, 1...<</speech>>
+You don't know what to say, so you ask the first thing that comes to your mind.
+
+<<speech "You" "$name">>
+Money!<</speech>>
+<<speech "nobody" "''Receptionist:''">>
+Bzzzzt bzzzzt *turns its head back, grabs something and puts it on the counter* Thanks for your stay, come again!<</speech>>
+You are mesmerized by the bizarreness of the situation. Taking a look at the table you can see the object.
+
+<<speech "You" "$name">>
+A... key...? What for?<</speech>>
+ ''*Small key was added to Inventory*''<<set $smallkey to true>>
+ 
+<<click "Return" "Automaton museum">><<set $lostit to 0>><<audio "robot1" stop>><</click>><<addmins 10>><<elseif $lostit is 0>><img src="dockings/lostitems.jpg" width="80%">
+
+<<speech "You" "$name">>
+I'm not talking to that creepy dude again...<</speech>>
+<<click "Return" "Automaton museum">><<audio "robot1" stop>><</click>><</if>><<audio "menus" stop>><<if ndef $mute>><<audio "mystery" unmute>><<else>><</if>>
+
+

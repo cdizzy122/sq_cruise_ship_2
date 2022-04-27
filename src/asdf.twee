@@ -1,0 +1,9 @@
+:: asdf {"position":"1364,2296","size":"100,100"}
+<<if $hunger isnot 0 and $hunger isnot 20 and $hunger isnot 40 and $hunger isnot 60 and $hunger isnot 80 and $hunger isnot 100>><<set $hunger to 0>><<else>><</if>>
+
+[[lsahdcsj]]
+
+
+<<print $hunger>>
+
+

@@ -1,0 +1,193 @@
+:: Stay in bed [textback] {"position":"109,470","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><<audio "morning" mute>><<if $reception is 0>><<audio "mystery" loop play>><<if $sniff is true>> You hear her steps in the Hall. She seems to be going to her room.
+
+<<speech "gfd" "''$gfname:''">>
+What the...<</speech>>
+After a few seconds of silence you start to hear her coming straight to your room.
+
+<span class="onomatopeya">KNOCK KNOCK KNOCK</span>
+
+<div class="center"><img src="gf/angrygf.jpg" width="40%"></div>
+<<speech "gfd" "''$gfname:''">>
+Hey... um... Did you go into my room and touch my things?<</speech>>
+<<speech "You" "''$name:''">>
+What...? N-no... I just...<</speech>>
+<<speech "gfd" "''$gfname:''">>
+I know exactly where these panties were when I left...<</speech>>
+<<speech "You" "''$name:''">>
+It's not like that, honey... They were on the floor so I just put them in the drawer.<</speech>>
+<<speech "gfd" "''$gfname:''">>
+You don't need to go wandering around in my room.<</speech>>
+<<speech "You" "''$name:''">>
+No honey... I just wanted to make everything tidy for when you arrived. You seem to be tired from all that work...<</speech>>
+She seems to relax a bit.
+
+<<speech "gfd" "''$gfname:''">>
+ *sigh* I'm sorry... but you shouldn't have come into my room.<</speech>>
+<<speech "You" "''$name:''">>
+...Well, you are right about that. I'm sorry too.<</speech>><<addmins 15>>
+
+\\<<else>><div class="center"><img src="gf/disappointedgf.jpg" width="50%"></div>
+<<speech "gfd" "''$gfname:''">>
+Hey sleeping beauty... Have you been sleeping until now?<</speech>>
+<<speech "You" "''$name:''">>
+Oh...hi, honey... I was waiting for you.<</speech>>
+She smiles at you.<</if>>
+
+<<speech "gfd" "''$gfname:''">>
+You're cute. Hey... thanks for the food earlier today. How about a movie...?<</speech>>
+<<speech "You" "''$name:''">>
+Sure! (I'll save the Cruise surprise for later!)<</speech>>
+[[Living room|Stay in bed][$reception to 2]]<<addmins 15>>
+
+
+
+
+
+\\<<elseif $reception is 1>><<audio "mystery" loop play>>You decide that it's better to at least go and say something to her and try to fix things.
+
+<div class="center"><img src="gf/neutralgf.jpg" width="60%"></div>
+She receives you with an incredibly inexpressive look. 
+
+<<speech "You" "''$name:''">>
+Hi honey, how was work?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Fine.<</speech>>
+ ...*awkard silence*...
+
+<<speech "You" "''$name:''">>
+Well... you're less cheerful than before...<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Agh... yeah, I'm sorry. It's been a tough day. Hey, would you like to watch a movie?<</speech>>
+
+<<speech "You" "''$name:''">>
+Sure! (I'll save the Cruise surprise for later!)<</speech>>
+[[Living room|Stay in bed][$reception to 2]]<<addmins 15>>
+
+
+
+
+\\<<elseif $reception is 2>><<audio "mystery" stop>><span class="fade-ins">You both get on the couch. $gfname puts some Netflix series and cuddles back with you.
+
+<div class="center"><img src="gf/ejac0.jpg" width="50%"></div>
+<<speech "gfd" "''$gfname:''">>
+Ah... it's been a while since we've done this...<</speech>>
+<<speech "You" "''$name:''">>
+Yeah, I know...<</speech>>
+All you can think about is about the contradictory feelings you're having. On one hand you don't like what you found on her laptop, but $fname's surprise tickets could be a great move to improve your relationship... You decide to just relax, after all those were just some pictures from her past.
+
+<<speech "gfd" "''$gfname:''">>
+You like this show?<</speech>>
+She caresses you tummy, sending a wave of pleasure through your spine. Your penis seems to be receiving the message, since it's slowly getting to the semi-hard state.
+
+<<speech "gfd" "''$gfname:''">>
+Oh... I see... *smiles devilishly*<</speech>>
+She keeps touching your tummy, gradually going down your pubis with each rub.
+
+<div class="center"><img src="gf/remyface.jpg" width="50%"></div>
+<<speech "You" "''$name:''">>
+Mhh...<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Have you been feeling lonely these days?<</speech>>
+<<speech "You" "''$name:''">>
+Yeah...<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Ah-hah... I can tell...<</speech>>
+<<linkreplace "... ...">><div class="center"><img src="gf/couch1.png" width="50%"></div>
+She slowly takes your almost hard penis out of your pants.
+
+<<speech "gfd" "''$gfname:''">>
+Oooo... hehe... *takes out her tongue*<</speech>>
+<<speech "You" "''$name:''">>
+Oh God...<</speech>>
+$gfname teases you, acting like she's licking your dick, but she doesn't make contact.
+
+<<speech "gfd" "''$gfname:''">>
+You want it?<</speech>>
+<<speech "You" "''$name:''">>
+Yess...<</speech>>
+You put your hand on her head, but she quickly takes it off.
+
+<<speech "gfd" "''$gfname:''">>
+Nope. I'll take care of it.<</speech>>
+<div class="center"><img src="gf/ejac.gif" width="50%"></div>
+<<speech "You" "''$name:''">>
+Aaaahhh... oh, $gfname...<</speech>>
+After just a couple of licks and sucks, you feel like you're going to explode. The view is just too hot. You try your best to control yourself, grabbing onto the blanket and trying to think in something else, but...
+
+<<linkreplace "Aaahh!">><div class="center"><img src="gf/ejac1.gif" width="50%"></div>
+<<speech "You" "''$name:''">>
+Aaahh!<</speech>>
+$gfname smiles awkwardly, surprised by the sudden cumshot.
+
+<<speech "gfd" "''$gfname:''">>
+Wow, uhm... okay...<</speech>>
+<<speech "You" "''$name:''">>
+Ah, ah, ah...<</speech>>
+Once the rush is over, the aftermath of the orgasm starts, leaving a trace of guilt and embarrasment for cumming so soon.
+
+<<speech "You" "''$name:''">>
+S-sorry honey...<</speech>>
+<<speech "gfd" "''$gfname:''">>
+It's alright.<</speech>>
+She takes a tissue and wipes her mouth off as your shriveling penis retreats to the underwear. After a few minutes, you both are ready to actually watch the episode, but you decide it's the proper time to bring the Cruise up.
+
+[[Bring the Cruise up|Stay in bed][$reception to 3]]<</linkreplace>><</linkreplace>></span>
+
+
+
+
+
+\\<<elseif $reception is 3>>You sit on the edge of the couch and start talking to her.
+
+<<speech "You" "''$name:''">>
+So, I was going today to bring you lunch and $fname called me.<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Oh, hey! What's he up to?<</speech>>
+<<speech "You" "''$name:''">>
+Well, he wanted to give me a present. So, one thing led to another and... he bought us a Cruise around the world! It's supposed to get out from London and finish in the US. It's all included, so seems like an amazing plan. What do you say?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Wow, really?? That's amazing! How nice of him... So when is it?<</speech>>
+<<speech "You" "''$name:''">>
+It sails tomorrow, so we better get packing!<</speech>>
+Her smile vanishes.
+
+<<speech "gfd" "''$gfname:''">>
+Wait, what? Tomorrow? You know I have a job to keep, right?<</speech>>
+<<speech "You" "''$name:''">>
+Well, yeah, but I bet they'll let you go if you just call and-<</speech>>
+<<speech "gfd" "''$gfname:''">>
+No, you don't understand. I've already compromised. I have a deadline. It's not that easy. And I can't do my job on my laptop while on a Cruise.<</speech>>
+<<speech "You" "''$name:''">>
+Oh... (Fuck, why didn't I think of that earlier...?)<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Can't it be refunded or moved?<</speech>>
+<<speech "You" "''$name:''">>
+I'll need to ask $fname for that. Wait a second.<</speech>>
+You stand up and go to your room to call him.
+
+<<linkreplace "Go to your room">><<audio "calling" play>><div class="center"><img src="places1/bedroomhome.jpg" width="90%"></div>
+<<speech "mike" "''$fname:''">>
+Hey, what's up? Excited about the trip tomorrow?<</speech>>
+<<speech "You" "''$name:''">>
+Oh, uhm... not yet. See, $gfname has a very strict job schedule and she's going to have to work for the summer, so we need to see if the cruise could be moved or maybe even refunded. I'm so sorry about this, $fname...<</speech>>
+<<speech "mike" "''$fname:''">>
+Oh, we should've thought about that before, but I guess it would have been more exciting as a surprise trip. Anyway, let me call them real quick. I'll call you back.<</speech>>
+ *hangs up*
+ 
+<<speech "You" "''$name:''">>
+(Okay...)<</speech>>
+As you stop talking to $fname, you receive a notification on your phone:
+
+<<linkreplace "DING">><<if ndef $mutefx>><<audio "ding" play>><<else>><</if>><span class="onomatopeya">DING</span>
+
+<div class="center"><span class="fade-ins-out"><span class="pink"><font size="+3">''*FOLDER UNLOCKED*''</font></span></span></div>
+You stare at it, not sure that you'll like the contents of the folder. But you know you really have got to see it...
+
+[[Open it|ex][$ex to 0]]<</linkreplace>><</linkreplace>>
+
+
+
+<</if>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() gte 8 and $gameDate.getMinutes() gte 30>><<goto "Emergency">><<else>><</if>><<else>><</if>><<audio "menus" stop>>
+
+

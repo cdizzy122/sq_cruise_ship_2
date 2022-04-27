@@ -1,0 +1,7 @@
+:: Yeah, I'm alright *cough, cough* [textback] {"position":"2146,1594","size":"100,100"}
+<<removeclass "html">><<addclass "html" "lounge">><<speech "nobody" "''Bartender:''">>
+That's a man!! hahaha (or sum` like it...)<</speech>>
+[[Return|Have a drink]]<<set $nomarg to true>>
+<<audio "menus" stop>><<if ndef $mute>><<audio "party" unmute>><<else>><</if>>
+
+

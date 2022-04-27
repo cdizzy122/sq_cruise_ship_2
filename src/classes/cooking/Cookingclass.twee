@@ -1,0 +1,378 @@
+:: Cookingclass [textback] {"position":"1512,969","size":"100,100"}
+<<removeclass "html">><<addclass "html" "kitchen">><<audio ":back" mute>><<audio "kitchen" volume 0.3 play loop>><<if $kitchen is 1>><<set $shopitems to 1>>You enter the kitchen. Although you've never been in a professional kitchen, you feel like this is what it looks like. Nevertheless, it has a homey feel to it, with wood cabinets and a buttery smell. Across the room, you see a metallic door wich probably is the cold room. To a side you see a smaller wooden door which is ajar. Suddenly, a woman comes out of it:
+
+<img src="classes/cook/holli1.jpg" width="50%">
+
+<<speech "holli" "''Holli:''">>
+Bonjour, je m'appelle Holli. Je vais être votre professeur de cuisine. Appelez-moi toujours CHEF! La cuisine n'est pas un jeu!<</speech>>
+You are not understanding a thing...
+
+<<speech "You" "''$name:''">>
+Excuse me, miss. I don't speak french, would you mind speaking english?<</speech>>
+<<speech "holli" "''Holli:''">>
+Oh Mon Dieu! I hate you americans type. You think you know everything, eh? I bet you don't know how to do ommelette!<</speech>>
+She rolls her eyes, catching breath to translate her previous speech.
+
+<<speech "holli" "''Holli:''">>
+I said: Hello, my name is Holli. I'm going to be your cooking teacher. Always, and I mean ALWAYS call me CHEF! If you say yes, say: OUI CHEF! If you say no, say: NON CHEF! Is it clear?<</speech>>
+<<speech "You" "''$name:''">>
+Yes...I guess.<</speech>>
+<<speech "holli" "''Holli:''">>
+No! You don't understand petit garçon! You say OUI CHEF! merde...Anyway, you'll end up getting it. Although cuisine brings us happiness, it is not a game. I've been 20 years working as a chef and I swear for my beautiful France that I will make a cook out of you.
+
+''First lesson: Stay clean.''
+
+Anytime you are in the kitchen, you have to maintain your work space clean, as well as your own self. This week you'll learn how to clean dishes properly. That way you'll appreciatte cleanliness as well as me.
+
+You'll wear this apron each day:<</speech>>
+<<linkreplace "... ...">><img src="classes/cook/apron1.jpg" width="50%">
+
+<<speech "holli" "''Holli:''">>
+This is NOT a choice. You need a proper apron to remain clean. If you work well and please the chef, that is MOI, you'll be rewarded with a great and nutricious meal for your lunch time, as well as some points. And perhaps, if you are lucky, you'll gain "ma confiance", which means my trust. Understood? Parfait. Service is about to start. Go!<</speech>>
+[[Work badly|Start working][$cooklesson to 1, $sf to 0, $kitchen to 2, $badlunch to random(1, 2)]]
+[[Work well|Start working][$cooklesson to 1, $sf to 1, $kitchen to 2, $goodlunch to random(1, 2)]]<</linkreplace>>
+<<elseif $kitchen is 2>>Holli is already working.
+
+<img src="classes/cook/holli2.gif" width="60%">
+
+<<speech "holli" "''Holli:''">>
+Oh, salut mon garçon. Here, put on the apron. *She puts the apron over your head* There, much better.<</speech>> 
+She tightly grabs the long cock on your apron and leads you to your workplace. You can't help but feel a tingle on your crotch. You take a look at the sexy way her hand wraps the fake cock...
+
+<<speech "holli" "''Holli:''">>
+Allez, allez! Start your work!<</speech>>
+You stop daydreaming and start working:
+
+[[Work badly|Start working][$cooklesson to 1, $sf to 0, $badlunch to random(1, 2)]]
+[[Work well|Start working][$cooklesson to 1, $sf to 1, $goodlunch to random(1, 2)]]
+<<elseif $kitchen is 3>><img src="classes/cook/holli1.jpg" width="40%">
+
+<<speech "holli" "''Holli:''">>
+Okay! Time to change things up a little!
+
+''Second Lesson: Chopping.''
+
+This week you are going to learn how to chop things. You might think that chopping is a simple thing. But NO! There exists multiple ways of cutting food. You will start with some vegetables, like onions, peppers and carrots.
+
+Don't dissapoint me, mon garçon! This week there are more women on board and we've got lots of work to do.
+
+And, of course, you are changing apron. Maybe it is just me but, you seem a little more... cute than the last time I saw you. That apron with the long dick doesn't suit you after all. I guess it never really did!
+Let's see if you can stick with this one:<</speech>>
+<<linkreplace "... ...">><img src="classes/cook/apron2.jpg" width="50%">
+
+<<speech "You" "''$name:''">>
+(Everyone keeps calling me girl... I'm a boy!)<</speech>>
+<<speech "holli" "''Holli:''">>
+Some little birdy told me that you needed a little motivation. That message in the apron should help.
+
+Ok, ok! Enough talking! Time to work!<</speech>>
+[[Work badly|Start working][$cooklesson to 2, $sf to 0, $badlunch to random(3, 5), $kitchen to 4]]
+[[Work well|Start working][$cooklesson to 2, $sf to 1, $goodlunch to random(3, 5), $kitchen to 4]]<</linkreplace>><<elseif $kitchen is 4>>Holli is already working.
+
+<img src="classes/cook/holli2.gif" width="60%">
+
+<<speech "holli" "''Holli:''">>
+Oh, salut mon garçon. Here, put on the apron. *She puts the apron over your head* There, much better. Put away that long face! *pats butt* Your face is too cute to ruin it like that. SMILE *grabs your cheeks*<</speech>>
+[[Work badly|Start working][$cooklesson to 2, $sf to 0, $badlunch to random(3, 5)]]
+[[Work well|Start working][$cooklesson to 2, $sf to 1, $goodlunch to random(3, 5)]]<<elseif $kitchen is 5>><img src="classes/cook/holli1.jpg" width="40%">
+
+<<speech "holli" "''Holli:''">>
+Okay! Time to change things up a little!
+
+''Third Lesson: Ingredient identification.''
+
+Congratulations! I think you are ready to start messing up with the food. Aren't you excited to actually cook?<</speech>>
+<<speech "You" "''$name:''">>
+Um...aha...(It can't be worse than cleaning or chopping...)<</speech>>
+<<speech "holli" "''Holli:''">>
+What is that aha?! You say YES CHEF! We need to keep a distance between chef and apprentice, understood? I thought I was going to have some help when you came here, but now I have to train you, so you could at least be thankful!<</speech>>
+<<speech "You" "''$name:''">>
+Yes, I'm sorry...<</speech>>
+<<speech "holli" "''Holli:''">>
+That's more like it... anyway, you'll get the hang of it soon enough, but I'll explain before starting today's session. This week you're going to be test tasting a few ingredients. You will try to indentify the ingredient. The purpose of this is to develop your taste and smell senses, as well as to link those smells and tastes to an emotion or a sensation. That way your learning process will go more fluent in the future *smiles*<</speech>>
+She gives you a big smile and searches for something in a drawer.
+
+<<linkreplace "... ...">><img src="classes/cook/apron3.jpg" width="35%">
+
+<<speech "holli" "''Holli:''">>
+Here you go! Just in case something falls from the spoons, you wouldn't want food dripping onto your clothes, would you? *starts putting the apron on you*<</speech>>
+<<speech "You" "''$name:''">>
+Hey! My <span class="pink">clit</span> is not that small... *gasp* I mean penis!<</speech>>
+<<speech "holli" "''Holli:''">>
+Hahaha You go, gurl! I bet your clitty is huge... *wink* Ok! Get your arms down, here comes the blindfold!<</speech>>
+[[Start|tastetest][$tastetest to 0, $kitchen to 6]]<</linkreplace>><<elseif $kitchen is 6>>Holli is already working.
+
+<img src="classes/cook/holli2.gif" width="60%">
+
+<<speech "holli" "''Holli:''">>
+Oh, salut mon garçon. Here, put on the apron. *She puts the apron over your head* There, much better. A cutie like you should be proud of a clitty like that *shows you the pinky and winks*<</speech>>
+<<nobr>><<if $dayn gte 18 and $dayn lt 22>><span class="Phone">[[Start taste testing 2->tastetest][$tastetest to 5, $kitchen to 7]]</span><<else>><</if>><</nobr>>
+[[Work badly (Cleaning or chopping)|Start working][$cooklesson to random (1,2), $sf to 0, $badlunch to random(1, 5)]]
+[[Work well (Cleaning or chopping)|Start working][$cooklesson to random (1,2), $sf to 1, $goodlunch to random(1, 5)]]<<elseif $kitchen is 7>>Holli is already working.
+
+<img src="classes/cook/holli2.gif" width="60%">
+
+<<speech "holli" "''Holli:''">>
+Oh, salut mon garçon. Here, put on the apron. *She puts the apron over your head* There, much better. A cutie like you should be proud of a clitty like that *shows you the pinky and winks*<</speech>>
+[[Work badly (Cleaning or chopping)|Start working][$cooklesson to random (1,2), $sf to 0, $badlunch to random(1, 5)]]
+[[Work well (Cleaning or chopping)|Start working][$cooklesson to random (1,2), $sf to 1, $goodlunch to random(1, 5)]]
+
+
+
+\\<<elseif $kitchen is 8>>As you arrive to the kitchen, you grab the apron and put it on. 
+
+<img src="classes/cook/apron3.jpg" width="35%">
+
+You can't see Holli anywhere around, but you decide that it's better this one, so she doesn't laugh at your apron and maybe you can start working first. She might even give you a reward!
+
+<<speech "Giada" "''???:''">>
+What you gonna cook with that little sausage? Hehehe...<</speech>>
+<div class="center"><img src="classes/cook/giada1.jpg" width="50%"></div>
+<<speech "You" "''$name:''">>
+W-who are you? You are not Holli...<</speech>>
+<<speech "Giada" "''???:''">>
+Duh! Certainly not! I'm not so snob.<</speech>>
+<<speech "holli" "''Holli:''">>
+Who are you calling snob?<</speech>>
+Holli suddenly comes in the kitchen and faces the other woman.
+
+<<speech "Giada" "''???:''">>
+Oh, well, you, of course! Hahaha<</speech>>
+<<speech "holli" "''Holli:''">>
+You dare to laugh at my face? This is my kitchen! Out!<</speech>>
+<<speech "Giada" "''???:''">>
+I'm afraid I cannot do that, girl. The Captain recruited me for the rest of the journey. She must have her reasons... *smiles*<</speech>>
+Holli is visibly mad at her and definitely confused by what she just said.
+
+<<speech "holli" "''Holli:''">>
+We don't need you here, Giada. I already have an apprentice.<</speech>>
+<<speech "Giada" "''Giada:''">>
+Oh, you mean "her"? I love her apron, for sure... but no, I'm here to be the chef. I don't need any classes from you.<</speech>>
+<<speech "holli" "''Holli:''">>
+You think that just because you are on TV, you can just show up here and replace me?<</speech>>
+<<speech "Giada" "''Giada:''">>
+I thought I was here to replace you, after all, I'm the better cook... but turns out I'm here to help you manage the kitchen for when all the men come in. After all, you'll have to attent double the customers.<</speech>>
+Giada has a very stuck-up attitude to her, always holding a bright sarcastic smile on her face.
+
+<<speech "holli" "''Holli:''">>
+I'll have to talk to the Captain. This is intolerable! But for now you'll be my Sous Chef, that means Second Chef-<</speech>>
+<<speech "Giada" "''Giada:''">>
+I know what that means, Holli... I also went to culinary school, in case you forgot.<</speech>>
+<<speech "holli" "''Holli:''">>
+Yeah, I remember, and you were the worst of the class.<</speech>>
+<<speech "Giada" "''Giada:''">>
+You fucking french whore, I-<</speech>>
+<<speech "holli" "''Holli:''">>
+You say what you want, but you are an italian plastic bitch.<</speech>>
+You see how both of them are getting angrier by the second. It's very weird to see Holli behave in such an odd way, and you decide that's better to step in.
+
+<<speech "You" "''$name:''">>
+Excuse me, but if we're going to be here and are obligated to work together, you should try to-<</speech>>
+<<speech "Giada" "''Giada:''">>
+Oh, look, the small dicked chef has some balls...<</speech>>
+<<speech "holli" "''Holli:''">>
+$name, you shouldn't step in. I've known Giada since culinary school, and I have my reasons.<</speech>>
+<<speech "Giada" "''Giada:''">>
+Yeah, well, I think your tiny chef here is right. Work is work.<</speech>>
+Holli silently grabs an apron and throws it to Giada.
+
+<div class="center"><img src="classes/cook/apron4.jpg" width="50%"></div>
+<<speech "holli" "''Holli:''">>
+Take this one and just do as I say.<</speech>>
+<<speech "Giada" "''Giada:''">>
+I'm not putting on these embarrasing aprons, I always work without them, you know, for the camera!<</speech>>
+<<speech "You" "''$name:''">>
+(To be fair, she's a bit annoying...)<</speech>>
+<<speech "holli" "''Holli:''">>
+No apron, no work. $name, you start working on the usual. There something UNEXPECTED *looks at Giada* that I need to attend. Giada, come with me, we're going to talk with the captain.<</speech>>
+<<speech "Giada" "''Giada:''">>
+Just because of the apron? Hahaha Sure, as you say, "chef".<</speech>>
+Holli and Giada walk out the kitchen.
+
+<<speech "You" "''$name:''">>
+(Jeez... I hope Captain can fix that...)<</speech>>
+You see some onion and tomatoes ready to be chopped and some food for you to eat after.
+
+<<speech "You" "''$name:''">>
+I was hoping I didn't have to chop anymore...<</speech>>
+[[Work badly (Cleaning or chopping)|Start working][$cooklesson to random (1,2), $sf to 0, $badlunch to random(1, 5), $kitchen to 9]]
+[[Work well (Cleaning or chopping)|Start working][$cooklesson to random (1,2), $sf to 1, $goodlunch to random(1, 5), $kitchen to 9]]
+
+
+
+
+\\<<elseif $kitchen is 9>>You get into the kitchen and you see Holli and Giada already cooking. As Holli sees you get in, she grabs the apron and throws it to you.
+
+<<speech "holli" "''Holli:''">>
+There, put it on.<</speech>>
+<<speech "You" "''$name:''">>
+O-ok... (she used to be more friendly...)<</speech>>
+You do as you're told as she leaves what she's doing to explain your new duties. Meanwhile, Giada hasn't even looked at you yet, which you find weird.
+
+<<speech "holli" "''Holli:''">>
+Alright, so now it's time to start doing the real thing. You will be learning how to cook. Of course, this is not as easy as you might think. We go through lots of training to master the way each ingredient behaves when going through different processes. But your goal is just to be able to cook certain dishes. So please, get to your place.<</speech>>
+Holli points to the fires next to Giada.
+
+<<speech "Giada" "''Giada:''">>
+Aahh... *bzzzt*<</speech>>
+<<speech "You" "''$name:''">>
+(What was that...?)<</speech>>
+<<speech "holli" "''Holli:''">>
+Now, look forward.<</speech>>
+You do as you're told as you feel Holli putting something around your hips, which at this point doesn't feel that shocking. But then you feel how she straps it firmly and hangs some kind of nub on your underwear, touching your buttplug.
+
+At that moment, you see Giada finishing her dish and handing it to Holli.
+
+<<speech "Giada" "''Giada:''">>
+I'm finished! Hm... ahah... *bzzzzt*<</speech>>
+<<speech "holli" "''Holli:''">>
+Good. Hm, these onions are still raugh. Repeat again.<</speech>>
+<<speech "Giada" "''Giada:''">>
+No, they are not! Ah!... ok, ok...<</speech>>
+Giada starts the dish all over again from the start. You are amazed by how submissive she is compared to the other day. You wonder what kind of things has Captain T done to her...
+
+<<speech "holli" "''Holli:''">>
+Perfect, good girl. *hard spank*<</speech>>
+<<speech "Giada" "''Giada:''">>
+Ow...<</speech>>
+<<speech "holli" "''Holli:''">>
+Anyway, $name, let me explain, you need to make some simple pasta: caccio e peppe. One of the most simple pasta recipes out there. You just need to boil the pasta and then use the pasta water to cook the sauce. If you do it right you'll get to eat it as a reward, but if you don't I'll have to use this special training device that I've borrowed from Captain T. *presses a button*<</speech>>
+<span class="onomatopeya">BZZZZT</span>
+
+<<speech "You" "''$name:''">>
+Aahh!<</speech>>
+The thong strapped to your hips vibrates, sending a painful, but pleasurable wave through your buttplug into your insides, making your clit start to get hard...
+
+<<speech "holli" "''Holli:''">>
+Exactly... *smiles* You'll get the hang of it...<</speech>>
+[[Cook badly|Start working][$cooklesson to 3, $sf to 0, $badlunch to random(1, 5), $kitchen to 10, $dinner to 4]]
+[[Cook well|Start working][$cooklesson to 3, $sf to 1, $goodlunch to random(1, 5), $kitchen to 10, $dinner to 4]]
+
+
+\\<<elseif $kitchen is 10>>You arrive to the kitchen and you Holli is not around, but Giada seems to be preparing some kind of drink.
+
+<div class="center"><img src="classes/cook/giada4.jpg" width="50%"></div>
+<<speech "You" "''$name:''">>
+Oh, hi...<</speech>>
+<<speech "Giada" "''Giada:''">>
+Hi...<</speech>>
+Giada suddenly hides the drink she was making and comes closer to you.
+
+<<speech "Giada" "''Giada:''">>
+Listen, I don't know if you like to be treated like that or not, but I'm not letting them treat me like a pet.<</speech>>
+<<speech "You" "''$name:''">>
+I... wouldn't try to fight them...<</speech>>
+<<speech "Giada" "''Giada:''">>
+Oh, I will fight, for sure... And why are you so compliant? Is that a fetish of yours or what?<</speech>>
+<<speech "You" "''$name:''">>
+I-I...<</speech>>
+<<speech "Giada" "''Giada:''">>
+Oh, so it is, huh? I'm not surprised...<</speech>>
+<span class="onomatopeya">SLAM</span>
+
+<<speech "holli" "''Holli:''">>
+Okay, everyone start working, c'mon! Put your aprons on and on your places, now. What the hell is this drink, Giada? *sniff, sniff* Doesn't smell good. *throws it in the trash*<</speech>>
+Giada looks at her lost drink with sadness as Holli puts on both of your vibrating thongs.
+
+<<speech "You" "''$name:''">>
+(What was on that drink?...)<</speech>>
+[[Cook badly|Start working][$cooklesson to 3, $sf to 0, $badlunch to random(1, 5), $kitchen to 11]]
+[[Cook well|Start working][$cooklesson to 3, $sf to 1, $goodlunch to random(1, 5), $kitchen to 11]]
+
+
+
+\\<<elseif $kitchen is 11>>You arrive to the kitchen and you Holli is not around, but Giada seems to be preparing some kind of drink.
+
+<div class="center"><img src="classes/cook/giada4.jpg" width="50%"></div>
+<<speech "You" "''$name:''">>
+Oh, hi... what is on that drink?<</speech>>
+<<speech "Giada" "''Giada:''">>
+Oh, nothing... just some fucked up cocktail for the french bitch, but I'm still needing some extra ingredient... That Captain... ''she put something on mine, but I can't figure out what that is...''<</speech>>
+<span class="onomatopeya">SLAM</span>
+
+<<speech "holli" "''Holli:''">>
+Okay, everyone start working, c'mon! Put your aprons on and on your places, now. What the hell is this drink, Giada? *sniff, sniff* Doesn't smell good. *throws it in the trash*<</speech>>
+Giada looks at her lost drink with sadness as Holli puts on both of your vibrating thongs.
+
+<<speech "You" "''$name:''">>
+(What was on that drink?...)<</speech>>
+[[Cook badly|Start working][$cooklesson to 3, $sf to 0, $badlunch to random(1, 5), $kitchen to 11]]
+[[Cook well|Start working][$cooklesson to 3, $sf to 1, $goodlunch to random(1, 5), $kitchen to 11]]
+
+
+
+
+\\<<elseif $kitchen is 12>>You arrive to the kitchen and you Holli is not around, but Giada seems to be preparing some kind of drink.
+
+<div class="center"><img src="classes/cook/giada4.jpg" width="50%"></div>
+<<speech "You" "''$name:''">>
+Oh, hi... what is on that drink?<</speech>>
+<<speech "Giada" "''Giada:''">>
+Oh, nothing... just some fucked up cocktail for the french bitch, but I'm still needing some extra ingredient... That Captain... ''she put something on mine, but I can't figure out what that is...''<</speech>>
+<span class="onomatopeya">SLAM</span>
+
+<<speech "holli" "''Holli:''">>
+What the hell is this drink, Giada? *sniff, sniff* Doesn't smell good. *throws it in the trash* Anyway, now I want 100% of your attention, alright? I think both of you are quite prepared to start preparing food for other people.<</speech>>
+You look at Giada, astonished. Your confidence in the kitchen is not the best, even though you've had quite some classes, but serving other people is way out of your league.
+
+<<speech "Giada" "''Giada:''">>
+Finally something I know how to do...<</speech>>
+<<speech "holli" "''Holli:''">>
+Giada, shut up.<</speech>>
+Although Giada looks angry, she doesn't respond.
+
+<<speech "holli" "''Holli:''">>
+Alright, let me explain: You both will help me servicing the people at the tables of the bar, ok? I've been able to delegate on the Bartender for most of it for now, but men really do eat quite a lot, so you'll do just fine.<</speech>>
+You both look at her a bit confused.
+
+<<speech "holli" "''Holli:''">>
+You'll get the hang of it! But, before we start, put on your aprons.<</speech>>
+Holli reaches for some new aprons, selecting one for each. Giada receives a fairly normal one, but your is still the same as last week:
+
+<div class="center"><img src="classes/cook/apron5.jpg" width="40%"></div>
+<<speech "You" "''$name:''">>
+ *blush* (Oh, god...)<</speech>>
+You comply and put it on.
+
+<<speech "holli" "''Holli:''">>
+Alright, each one of you, get on your station and prepare for cooking. You'll have your own space, fully equiped. I expect the best from both of you. I'll be judging the results and deciding who gets to present their dish and who gets the punishment.<</speech>>
+<div class="center"><img src="classes/cook/station.jpg" width="55%"></div>
+<<speech "You" "''$name:''">>
+(Seems like a fair space...)<</speech>>
+As you place yourself in front of your station, you try to remember all the lessons Holli has imparted: Cleaning, chopping, tasting, preparing food, serving... You really have covered all the basics! You should be able to do this...
+
+[[Start service][$kitchen to 13, $chefstart to 0]]
+
+
+
+
+
+
+\\<<elseif $kitchen is 13>>You arrive to the kitchen and you Holli is not around, but Giada seems to be preparing some kind of drink.
+
+<div class="center"><img src="classes/cook/giada4.jpg" width="50%"></div>
+<<speech "You" "''$name:''">>
+Oh, hi... what is on that drink?<</speech>>
+<<speech "Giada" "''Giada:''">>
+Oh, nothing... just some fucked up cocktail for the french bitch, but I'm still needing some extra ingredient... That Captain... ''she put something on mine, but I can't figure out what that is...''<</speech>>
+<<linkreplace "Spike it">>//Not implemented yet//<</linkreplace>>
+
+...
+
+...
+
+<span class="onomatopeya">SLAM</span>
+
+<<speech "holli" "''Holli:''">>
+What the hell is this drink, Giada? *sniff, sniff* Doesn't smell good. *throws it in the trash* Come on girls! Get to your stations! Ready for your command?<</speech>>
+You put your bimbo apron and get to your station.
+
+<div class="center"><img src="classes/cook/station.jpg" width="40%"></div>
+[[Start service][$kitchen to 13]]
+
+
+
+
+\\<<elseif $kitchen is 14>><</if>><<if ndef $mute>><<audio "kitchen" unmute>><<else>><</if>>
+
+

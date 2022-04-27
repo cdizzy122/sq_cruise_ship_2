@@ -1,0 +1,12 @@
+:: Emergency {"position":"108,148","size":"100,100"}
+<<audio "dorky" loop play>>Time has flashed by!
+
+<<speech "You" "$name">>
+Oh no! I can't lose the ship!<</speech>>
+You quickly pack your things and run out the door...
+
+<img src="stuff/lateship.gif" width="50%">
+
+<<click "Go to port" "London">><<audio "dorky" stop>><</click>><<audio "morning" stop>><<audio "stadium" stop>><<audio "menus" stop>><<audio "shower" stop>>
+
+

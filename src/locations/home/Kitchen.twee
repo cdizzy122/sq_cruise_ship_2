@@ -1,0 +1,16 @@
+:: Kitchen [textback] {"position":"600,580","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><div class="center"><img src="places1/kitchen.jpg" width="70%"></div>
+<<if $eat is true>>You've eaten enough food for a while.
+
+<div class="center">
+
+[[Hall]]</div><<else>><div class="center">[[Eat muffin]]
+[[Eat leftovers]]
+[[Eat biscuits and milk]]
+[[Eat some cereal]]
+
+<<if $gflunch is true>><span class="Phone">[[GF's lunch]]</span><<else>><</if>>
+
+[[Hall]]</div><</if>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() gte 8 and $gameDate.getMinutes() gte 30>><<goto "Emergency">><<else>><</if>><<else>><</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

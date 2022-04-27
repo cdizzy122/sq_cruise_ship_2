@@ -1,0 +1,17 @@
+:: Blowjob [textback] {"position":"2255,1389","size":"100,100"}
+<<removeclass "html">><<addclass "html" "lounge">><<if $noblow is true>><<speech "You" "''$name:''">>
+No way! (That was embarrasing enough. Not doing that again...)<</speech>>
+[[Return|Have a drink]]<<else>><img src="food/blowdrink.jpg" width="70%">
+
+That doesn't look too full of liquid. This might not've been a smart choice for a free cocktail. But anyway, it's free. So you go for it.
+
+<<speech "nobody" "''Bartender:''">>
+Hey, hey, hey! What are you doing? You have to drink it without hands, that's why it's called a blowjob, buddy.<</speech>>
+<<speech "You" "''$name:''">>
+What? No, I...<</speech>>
+<<speech "nobody" "''Bartender:''">>
+You gonna take it or what?<</speech>>
+[[Drink blowjob]]
+[[No way. Ask for something else|Have a drink]]<</if>><<audio "menus" stop>><<if ndef $mute>><<audio "party" unmute>><<else>><</if>>
+
+

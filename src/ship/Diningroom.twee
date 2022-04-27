@@ -1,0 +1,483 @@
+:: Dining room [textback] {"position":"1765,1044","size":"100,100"}
+<<removeclass "html">><<addclass "html" "dining">><<audio ":back" mute>><<audio "kitchen" volume 0.3 play loop>><<if $dayn is 6 or $dayn is 13 or $dayn is 20 or $dayn is 27 or $dayn is 34>><div class="center"><img src="places2/diningroom.jpg" width="63%"></div>
+As you enter the dining room, a whole collection of different smells fill your nostrils. It all smells amazing! Then you go down the stairs and sit on one of the tables.
+
+You enjoy the food as if it was your only meal in a lifetime, but you can't help but notice the way the other girls look at you. Some are laughing and some are looking at you with a dissapproving face. Just after you finish your dinner, you see Tara making you signs to follow her.
+
+<<speech "tara" "''Tara:''">>
+ *wink, wink*<</speech>>
+<<click "Follow her" Reviews>><<audio "kitchen" stop>><<set $hunger to $hunger +20>><<addmins 30>><<if $dayn is 6>><<set $review to 1>><<elseif $dayn is 13>><<set $review to 2>><</if>><</click>><<else>><<if ndef $dinner>><div class="center"><img src="places2/diningroom.jpg" width="63%"></div>
+As you enter the dining room, a whole collection of different smells fill your nostrils. It all smells amazing! Then you go down the stairs and sit on one of the tables.
+
+The are already a few girls in the room. They seem to be grabbing food from a buffet bar in the middle. You go right to the buffet and feast on the food.
+
+<<speech "You" "''$name:''">>
+(Mmm... this is amazing! I can eat what I want... Finally, a good thing about this ship!)<</speech>>
+<div class="center"><img src="food/buffet.jpg" width="80%"></div>
+You enjoy the food as if it was your only meal in a lifetime, but you can't help but notice the way the other girls look at you. Some are laughing and some are looking at you with a dissapproving face.
+
+<<click "Finish" "Deck 4">><<audio "kitchen" stop>><<set $dinnertime to false>><<set $alreadyate to true>><<set $hunger to $hunger +20>><<addmins 30>><</click>><<elseif $dinner is 0>><div class="center"><img src="places2/diningroom.jpg" width="63%"></div>
+It's dinner time! As you go down the stairscase an elegant hall appears in front of you. The food in the buffet looks so inviting that the femenine crowd doesn't even bother you. You grab a plate and go straight to the buffet line. Just as you are arriving, Holli stops you:
+
+<<speech "holli" "''Holli:''">>
+Hey, hey, hey! Stop right there! You can't have this stuff. I am responsible for your diet and so it's going to be. Here is your dinner:<</speech>>
+<img src="classes/cook/dinner1.jpg" width="40%">
+
+<<speech "You" "''$name:''">>
+But I'm hungry...<</speech>>
+<<speech "holli" "''Holli:''">>
+No buts! Enjoy your dinner.<</speech>>
+You walk to a nearby table and eat your sad dinner.<<set $alreadyate to true>>
+
+<<click "Finish" "Deck 4">><<audio "kitchen" stop>><<set $dinnertime to false>><<set $alreadyate to true>><<set $hunger to $hunger +20>><<addmins 30>><</click>>
+<<elseif $dinner is 1>><div class="center"><img src="places2/diningroom.jpg" width="63%"></div>
+It's dinner time! As you go down the stairscase an elegant hall appears in front of you. The food in the buffet looks so inviting that the femenine crowd doesn't even bother you. Then, you see your name on a table, with your dinner already sorted out.
+
+You see a note from Holli: //''Eat this and ONLY this. I'll know if you eat anything else.''//
+
+<img src="classes/cook/dinner1.jpg" width="50%">
+
+You walk to your table and eat your sad dinner.<<set $alreadyate to true>>
+
+<<click "Finish" "Deck 4">><<audio "kitchen" stop>><<set $dinnertime to false>><<set $alreadyate to true>><<set $hunger to $hunger +20>><<addmins 30>><</click>>
+
+
+\\<<elseif $dinner is 2>><div class="center"><img src="places2/diningroom.jpg" width="63%"></div>
+It's dinner time! As you go down the stairscase an elegant hall appears in front of you. The food in the buffet looks so inviting that the femenine crowd doesn't even bother you. Then, you see your name on a table, with your dinner already sorted out.
+
+<img src="classes/cook/dinner2.jpg" width="40%">
+
+<<speech "You" "''$name:''">>
+(Wtf... Pink pasta? That is weird...)<</speech>>
+<<speech "holli" "''Holli:''">>
+Well hi! Do you like my new creation?<</speech>>
+<<speech "You" "''$name:''">>
+Well, it's better than half a sandwich... but why is it pink?<</speech>>
+<<speech "holli" "''Holli:''">>
+Oh, well, that's because of the beets, mostly.<</speech>>
+<<speech "You" "''$name:''">>
+Mostly...?<</speech>>
+<<speech "holli" "''Holli:''">>
+C'mon! A chef has to have some secrets... but I promise you will LOVE IT. Here you have some pink parmesan to pour over it. Do it now that it's hot!<</speech>>
+You've never hear of pink parmesan cheese, but you guess that she could have tinted it as well, so you decide not to worry that much about it.
+
+You grab the fork and take a bite of the pasta by itself. The cheese melted within the noodles is very soft and stretchy and really makes the dish look a lot more appealing.
+
+<<linkreplace "... ...">><<if ndef $mutefx>><<audio "eat" play>><<else>><</if>><span class="onomatopeya">*MUNCH, MUNCH*</span>
+
+<<speech "You" "''$name:''">>
+(This doesn't taste as I expected... it's good, but there's definitely some ingredient that's making it a bit bitter...)<</speech>>
+Holli is looking at you eat and holding the cheese near you, clearly pushing you to try it. The pasta is good, so you decide to give the full experience a try.
+
+As you fill the spoon with the powdered cheese, you are suprised by its consistency. 
+
+<<speech "You" "''$name:''">>
+(It's literally like dust, it's so thinly powdered...)<</speech>>
+You take another bite. The cheese is almost flavorless. It is a bit savory, but the aged cheesiness is not there at all...
+
+The third bite comes faster than you thought. And then the fourth. Your body is eating it faster and faster, even though you are not especially fond of the flavour. But there is something that drags you in.
+
+Not even 5 minutes after, the plate is empty.
+
+<<speech "holli" "''Holli:''">>
+Wow! You really liked it, huh? Nice, I'll make sure to put extra cheese these days then...<</speech>>
+<<click "Finish" "Deck 4">><<audio "kitchen" stop>><<set $dinnertime to false>><<set $alreadyate to true>><<set $hunger to $hunger +20>><<addmins 30>><<set $dinner to 3>><</click>><</linkreplace>>
+
+
+
+\\<<elseif $dinner is 3>><div class="center"><img src="places2/diningroom.jpg" width="63%"></div>
+<<if ndef $mutefx>><<audio "eat" play>><<else>><</if>>It's dinner time! As you go down the stairscase an elegant hall appears in front of you. The food in the buffet looks so inviting that the femenine crowd doesn't even bother you. Then, you see your name on a table, with your dinner already sorted out.
+
+<img src="classes/cook/dinner2.jpg" width="40%">
+
+<<speech "You" "''$name:''">>
+(That funky pasta again... is she going to feed me the same all week?)<</speech>>
+You can see there's already some of that cheese in the pasta, but Holli has left a little plate of that powdered pink parm on the side.
+
+<<speech "You" "''$name:''">>
+I don't think I want extra of that weird cheese...<</speech>>
+<<click "Finish" "Deck 4">><<audio "kitchen" stop>><<set $dinnertime to false>><<set $alreadyate to true>><<set $hunger to $hunger +20>><<addmins 30>><</click>>
+
+\\<<elseif $dinner is 4>><<audio "kitchen" volume 0.3 play loop>>It's dinner time! As you go down the stairscase an elegant hall appears in front of you. The food in the buffet looks so inviting that the femenine crowd doesn't even bother you. Then, you see your name on a table, with your dinner already sorted out. But this time, you can also see another name on a table next to yours. You get closer to it and see what's on it: "''GIADA''".
+
+<<speech "You" "''$name:''">>
+What? They are controlling Giada's food too?<</speech>>
+You sit down on your table and just wait for Holli to bring your food. And, just like a clock, she comes out from the kitchen bringing the food.
+
+<<speech "holli" "''Holli:''">>
+Here you go!<</speech>>
+<div class="center"><img src="classes/cook/dinner3.jpg" width="40%"></div>
+<<speech "You" "''$name:''">>
+W-what is this?<</speech>>
+<<speech "holli" "''Holli:''">>
+Oh, you know, just a hot-dog, with some sides, but it's very good for you, at least this one. Give it a try before I go, go ahead!<</speech>>
+You take a bite out of it and inmediately see a stream of runny white and pink cheese inside it.
+
+<<speech "You" "''$name:''">>
+(This doesn't look very healthy... Hm!)<</speech>>
+Your face doesn't lie, it is very tasty, but the way that cheese tastes is very familiar and you feel like it's probably the same that the one from the spaghetti.
+
+<<speech "holli" "''Holli:''">>
+Hahaha I can tell by your face you love it! Nice!<</speech>>
+You take another bite from it.
+
+<<speech "You" "''$name:''">>
+Yeah, it's tasty... Hm... Is the cheese the same one than the other time?<</speech>>
+<<speech "holli" "''Holli:''">>
+Oooh, the classes are paying of! Good, very good! That's my special cheese, yes. *smiles*<</speech>>
+You are about to take another bite, when you look again at the table next to you with Giada's name on it.
+
+<<speech "You" "''$name:''">>
+Hey, um... Before you go, Holli, is Giada supposed to come here too?<</speech>>
+<<speech "holli" "''Holli:''">>
+Yeah, she should be here any minute now.<</speech>>
+<<speech "You" "''$name:''">>
+And... (I don't know if I should ask her about it...)<</speech>>
+<<speech "holli" "''Holli:''">>
+Yes?<</speech>>
+<<speech "You" "''$name:''">>
+I was wondering... why is Giada a "student" too?<</speech>>
+<<speech "holli" "''Holli:''">>
+Why? Hehehe Are you jealous? Don't worry, you're always my petit gars. I'm just following Captain's orders.<</speech>>
+<<speech "You" "''$name:''">>
+(Captain T brought another "student" aboard...?)<</speech>>
+<<speech "holli" "''Holli:''">>
+But she's different, obviously. I'm the only one taking care of her. You saw it, she was too rude...<</speech>>
+<<speech "You" "''$name:''">>
+Aha... (Oh, so she's not having all those classes, but how can Holli "take care" of a person just like that...)<</speech>>
+Suddenly, you see Giada come into the Dining Room.
+
+<<linkreplace "... ...">><div class="center"><img src="classes/cook/giada2.jpg" width="30%"></div>
+<<speech "Giada" "''Giada:''">>
+Oh, there's my place hehehe...<</speech>>
+<<speech "holli" "''Holli:''">>
+Yeah, honey, you can eat all you want...<</speech>>
+<<speech "Giada" "''Giada:''">>
+Thank you Holli!<</speech>>
+Giada starts eating without even questioning her.
+
+<<speech "You" "''$name:''">>
+(She's behaving like a completely different person! What did Holli do to her this evening...?)<</speech>>
+Holli finally gets going.
+
+<<speech "You" "''$name:''">>
+Hey, Giada, are you ok?<</speech>>
+<<speech "Giada" "''Giada:''">>
+Huh? Yeah, better than ever... just very hungry!<</speech>>
+You quit talking to her, something has happened this evening to make her so compliant. She wasn't like that last time you saw her...
+
+<<click "Finish" "Deck 4">><<audio "kitchen" stop>><<set $dinnertime to false>><<set $alreadyate to true>><<set $hunger to $hunger +20>><<addmins 30>><<set $dinner to 5>><</click>><</linkreplace>>
+
+
+
+
+
+\\<<elseif $dinner is 5>><div class="center"><img src="places2/diningroom.jpg" width="63%"></div>
+<<audio "kitchen" volume 0.3 play loop>>You get down the stairs and see Giada's dish on the table, Holli arrives with yours moments later.
+
+<<speech "holli" "''Holli:''">>
+Hey, petit gars! Bon appétit!<</speech>>
+<div class="center"><img src="classes/cook/dinner3.jpg" width="50%"></div>
+<<speech "You" "''$name:''">>
+Oh, thanks! *smiles* (This is a tasty dish...)<</speech>>
+<<speech "holli" "''Holli:''">>
+Hm, Giada's not here yet? I got to go.<</speech>>
+Holli suddenly hurries to the kitchen, busy with the service.
+
+Just when you are finishing your dish, Giada comes into the Dining Room.
+
+<div class="center"><img src="classes/cook/giada2.jpg" width="30%"></div>
+<<speech "Giada" "''Giada:''">>
+Oh, hey! Hmm... tasty, isn't it?<</speech>>
+<<speech "You" "''$name:''">>
+(She's getting perkier by the day...)<</speech>>
+<<click "Finish" "Deck 4">><<audio "kitchen" stop>><<set $dinnertime to false>><<set $alreadyate to true>><<set $hunger to $hunger +20>><<set $dinner to 6>><<addmins 30>><</click>>
+
+
+\\<<elseif $dinner is 6>><div class="center"><img src="places2/diningroom.jpg" width="63%"></div>
+<<audio "kitchen" volume 0.3 play loop>>You get down the stairs and see Giada's dish on the table, Holli arrives with yours moments later.
+
+<<speech "holli" "''Holli:''">>
+Hey, petit gars! Bon appétit!<</speech>>
+<div class="center"><img src="classes/cook/dinner3.jpg" width="50%"></div>
+<<speech "You" "''$name:''">>
+Oh, thanks! *smiles* (This is a tasty dish...)<</speech>>
+<<speech "holli" "''Holli:''">>
+Hm, Giada's not here yet? Hm... seems like you are the best one of the two, huh? *smiles* But I already knew that! Here, have a treat!<</speech>>
+Holli brings out a banana and covers it in some sort of pink cream. You look at it suspiciously.
+
+<div class="center"><img src="classes/cook/banana1.jpg" width="35%"></div>
+<<speech "holli" "''Holli:''">>
+You recognize this? From the taste-testings? Here, just for you!<</speech>>
+Holli handles it to you. You take it and stare at it while Holli runs back to the kitchen.
+
+<<speech "You" "''$name:''">>
+(It's dripping... I don't want it to fall...)<</speech>>
+You finally take it into your mouth and suck the cream out of it.
+
+<div class="center"><img src="classes/cook/giada2.jpg" width="30%"></div>
+<<speech "Giada" "''Giada:''">>
+Oh, having fun?! Hahaha<</speech>>
+You let the banana go quickly.
+
+<<speech "You" "''$name:''">>
+No, I just... She gave it to me as dessert and-<</speech>>
+<<speech "Giada" "''Giada:''">>
+Hm... this dish is soooo tasty!<</speech>>
+Giada seems to have her mind in other stuff. You bite the banana and start eating it before anyone else makes fun of you.
+
+<<speech "You" "''$name:''">>
+(Fuck, that pink stuff is good...)<</speech>>
+<div class="center"><img src="classes/cook/eatbanana.jpg" width="30%"></div>
+<<click "Finish" "Deck 4">><<audio "kitchen" stop>><<set $dinnertime to false>><<set $alreadyate to true>><<set $hunger to $hunger +20>><<addmins 30>><</click>>
+
+
+
+
+\\<<elseif $dinner is 7>><<audio "kitchen" volume 0.3 play loop>>As you get down the stairs you notice how many people there actually are.
+
+<div class="center"><img src="food/buffet1.jpg" width="70%"></div>
+<<speech "You" "''$name'':">>
+(Damn, we're double the people now...)<</speech>>
+You can't see Giada or Penny anywhere to be seen, but you decide to go straight to your usual table. As soon as you're heading there, you notice that it is occupied by some men. You look around and check for an empty table, but you can't seem to find one. After wandering around for a few seconds, you hear a voice.
+
+<<speech "holli" "''Holli:''">>
+Hey, over here!<</speech>>
+<div class="center"><img src="classes/cook/holli3.jpg" width="30%"></div>
+You see Holli waving her hand over the other side of the buffet. She seems very busy. You hurry and get close to where she is. Giada and Penny are sitting on random tables with other people.
+
+<<speech "holli" "''Holli:''">>
+Hi, please take a seat wherever you please. I've set up a category in the buffet from where you gurls can take your food. It's all healthy and good for your "personal growth". Just try not to be too greedy, alright?<</speech>>
+<<speech "You" "''$name'':">>
+Why are they sitting with other people?<</speech>>
+<<speech "holli" "''Holli:''">>
+Oh, well captain it would be nice for you gurls to socialize a bit. She plans on relying on you for future assignements, and you'll need some social aptitudes. Now go and have a nice dinner.<</speech>>
+Holli runs to the kitchen, leaving you searching around for a decent seat to establish your dining spot.
+
+<<speech "Anastasia" "''Anastasia'':">>
+Hey, $name! You can come and sit with us!<</speech>>
+<<speech "You" "''$name'':">>
+Oh, thanks...<</speech>>
+You walk to her table and sit down.
+
+<div class="center"><img src="stuff/staffonly.jpg" width="50%"></div>
+Anastasia sees you staring at the sign.
+
+<<speech "Anastasia" "''Anastasia'':">>
+Don't worry, I'll vouch for you. You can eat with us.<</speech>>
+Stoya and Ms.Foster appear with a full plate of food and sit around.
+
+<<speech "stoya" "''Stoya'':">>
+Oh, wow, we've got quite the company tonight.<</speech>>
+<<speech "foster" "''Foster'':">>
+Do you already know you have a special section in the buffet for you? You should go and grab something to eat.<</speech>>
+<<speech "Anastasia" "''Anastasia'':">>
+Hahaha Let $name alone for a while, he'll get going when he feels like. This is a buffet after all.<</speech>>
+[[Go get some food|Dining room][$dinner to 8, $dinnerdecide to 0]]
+
+
+
+\\<<elseif $dinner is 8>><<if $dinnerdecide is 0>><div class="center"><span class="noborder"><img src="stuff/dinnersign.png" width="50%"></span></div>
+<<speech "You" "''$name'':">>
+(*gasp* WTF! That's totally unnecessary!) Well, at least the food looks nice enough...<</speech>>
+<div class="center">[[Creampie cake|Dining room][$dinnerdecide to 1]]
+[[Banana ice|Dining room][$dinnerdecide to 2]]
+[[Cock cupcakes|Dining room][$dinnerdecide to 3]]</div>
+
+
+\\<<elseif $dinnerdecide is 1>><div class="center"><img src="food/creampiecake.jpg" width="50%"></div>
+You take the dish and bring it back to the table.
+
+<<speech "foster" "''Foster'':">>
+Hum... good option, I see our little lesson was worth my time. Make sure to eat it all up!<</speech>>
+You start eating it from the sides into the creamy melted white chocolate under the pussy lips.
+
+<<speech "Anastasia" "''Anastasia'':">>
+Oops... you've got some on you.<</speech>>
+<<speech "You" "''$name'':">>
+Oh... *slurp, slurp* sorry...<</speech>>
+You take the napkin and wipe your face.
+
+<<speech "foster" "''Foster'':">>
+I hope Holli knows what she's doing giving you all those carbs...<</speech>>
+<<click "Finish" "Deck 4">><<audio "kitchen" stop>><<set $dinnertime to false>><<set $alreadyate to true>><<set $hunger to $hunger +20>><<addmins 30>><<set $dinner to 9, $dinnerdecide1 to 0>><</click>>
+
+
+\\<<elseif $dinnerdecide is 2>><div class="center"><img src="food/bananaice.jpg" width="50%"></div>
+You take the dish and bring it back to the table.
+
+<<speech "foster" "''Foster'':">>
+So you're sticking with the classic? Let me know how that vanilla on top tastes, heh...<</speech>>
+<<speech "stoya" "''Stoya'':">>
+It's not very creative I must say. A banana simulating a penis, well duh!<</speech>>
+<<speech "You" "''$name'':">>
+Not my idea...<</speech>>
+You don't know how you are going to approach it. You don't want to get it in your mouth as it is, so you decide to lay it down and cut it with fork and knife. Just as you're about to do so, Anastasia takes the banana.
+
+<<speech "Anastasia" "''Anastasia'':">>
+Oh, sorry... I just thought it actually looked pretty good. Do you mind if I give it a taste?<</speech>>
+You're not very fond of other people touching your food, but she's being so nice that you might as well comply. You nod and she licks the tip.
+
+<<speech "Anastasia" "''Anastasia'':">>
+Oh wow! So good! I didn't expect it to be so light! Here, have a taste!<</speech>>
+<div class="center"><img src="food/bananafeed.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+No, it's better if... Oh!<</speech>>
+You see that the cream on top is going to fall, and so you open your mouth and lick it all up.
+
+<<speech "foster" "''Foster'':">>
+Haha Just like it should be, an automatic reflex. Good...<</speech>>
+You blush out of embarrasment, but finish the rest of it.
+
+<<click "Finish" "Deck 4">><<audio "kitchen" stop>><<set $dinnertime to false>><<set $alreadyate to true>><<set $hunger to $hunger +20>><<addmins 30>><<set $dinner to 9, $dinnerdecide1 to 0>><</click>>
+
+ 
+\\<<elseif $dinnerdecide is 3>><div class="center"><img src="food/cockcupcakes.jpg" width="50%"></div>
+You take the dish and bring it back to the table.
+
+<<speech "stoya" "''Stoya'':">>
+Ooooh! The perfect kind of cupcake for a cute gurl like you.<</speech>>
+<<speech "foster" "''Foster'':">>
+I couldn't have said it better. Very good, $name! Also, did you know dark chocolate is better for you than white? Interesting, isn't it? Although, it would be better for your diet if you didn't have any... Not to question Holli, but...<</speech>>
+<<speech "Anastasia" "''Anastasia'':">>
+Oh, c'mon, he probably did so well in the kitchen that Holli decided to give him a treat! Those look yummy, don't you think, $name?<</speech>>
+You stare at the cupcakes and how the filling is coming out of the tips of the penises. Your mouth waters.
+
+<<speech "You" "''$name'':">>
+<span class="pink">It looks amazing...</span> Oh, because it's been a while since I've had dark chocolate.<</speech>>
+Stoya quickly raises her hand.
+
+<<speech "stoya" "''Stoya'':">>
+Me too, sister... *sigh*<</speech>>
+<<speech "Anastasia" "''Anastasia'':">>
+Well, that's all on you then. Look around, we are on stock!<</speech>>
+<<speech "stoya" "''Stoya'':">>
+Yeah, but unlike you, some of us do work.<</speech>>
+<<speech "Anastasia" "''Anastasia'':">>
+Hey, I work! I'm preparing Saturday's show!<</speech>>
+<<speech "foster" "''Foster'':">>
+Blah, blah, blah... Less talking and more eating.<</speech>>
+<<click "Finish" "Deck 4">><<audio "kitchen" stop>><<set $dinnertime to false>><<set $alreadyate to true>><<set $hunger to $hunger +20>><<addmins 30>><<set $dinner to 9, $dinnerdecide1 to 0>><</click>><</if>>
+
+
+
+
+
+\\<<elseif $dinner is 9>><<if $dinnerdecide1 is 0>>As you get down the stairs you notice how many people there actually are.
+
+<div class="center"><img src="food/buffet1.jpg" width="70%"></div>
+<<speech "You" "''$name'':">>
+(Damn, we're double the people now...)<</speech>>
+You see the staff table on the other side, but before you go, you stop by your section of the buffet to grab some food.
+
+<div class="center"><span class="noborder"><img src="stuff/dinnersign.png" width="50%"></span></div>
+<<speech "You" "''$name'':">>
+(*gasp* WTF! That's totally unnecessary!) Well, at least the food looks nice enough...<</speech>>
+<div class="center">[[Creampie cake|Dining room][$dinnerdecide1 to 1]]
+[[Banana ice|Dining room][$dinnerdecide1 to 2]]
+[[Cock cupcakes|Dining room][$dinnerdecide1 to 3]]</div>
+
+
+\\<<elseif $dinnerdecide1 is 1>><div class="center"><img src="food/creampiecake.jpg" width="40%"></div>
+You take the dish and bring it back to the table.
+
+<div class="center"><img src="food/dinnerstaff.jpg" width="85%"></div>
+Some of the staff is here today: Anastasia, Stoya, Foster, Jada. //(will vary everyday in 0.5.7)//
+
+<<speech "foster" "''Foster'':">>
+Hum... good option, I see our little lesson was worth my time. Make sure to eat it all up!<</speech>>
+You start eating it from the sides into the creamy melted white chocolate under the pussy lips.
+
+<<speech "Anastasia" "''Anastasia'':">>
+Oops... you've got some on you.<</speech>>
+<<speech "You" "''$name'':">>
+Oh... *slurp, slurp* sorry...<</speech>>
+You take the napkin and wipe your face.
+
+<<speech "foster" "''Foster'':">>
+I hope Holli knows what she's doing giving you all those carbs...<</speech>>
+<div class="center"><<linkreplace "Spike Anastasia's food">>//Not implemented yet (will be for 0.5.7)//<</linkreplace>>
+<<linkreplace "Spike Stoya's food">>//Not implemented yet (will be for 0.5.7)//<</linkreplace>>
+<<linkreplace "Spike Foster's food">>//Not implemented yet (will be for 0.5.7)//<</linkreplace>>
+<<linkreplace "Spike Zasha's food">>//Not implemented yet (will be for 0.5.7)//<</linkreplace>>
+
+<<click "Finish" "Deck 4">><<audio "kitchen" stop>><<set $dinnertime to false>><<set $alreadyate to true>><<set $hunger to $hunger +20>><<addmins 30>><<set $dinner to 9, $dinnerdecide1 to 0>><</click>></div>
+
+
+
+\\<<elseif $dinnerdecide1 is 2>><div class="center"><img src="food/bananaice.jpg" width="40%"></div>
+You take the dish and bring it back to the table.
+
+<div class="center"><img src="food/dinnerstaff.jpg" width="85%"></div>
+Some of the staff is here today: Anastasia, Stoya, Foster, Jada. //(will vary everyday in 0.5.7)//
+
+<<speech "foster" "''Foster'':">>
+So you're sticking with the classic? Let me know how that vanilla on top tastes, heh...<</speech>>
+<<speech "stoya" "''Stoya'':">>
+It's not very creative I must say. A banana simulating a penis, well duh!<</speech>>
+<<speech "You" "''$name'':">>
+Not my idea...<</speech>>
+You don't know how you are going to approach it. You don't want to get it in your mouth as it is, so you decide to lay it down and cut it with fork and knife. Just as you're about to do so, Anastasia takes the banana.
+
+<<speech "Anastasia" "''Anastasia'':">>
+Oh, sorry... I just thought it actually looked pretty good. Do you mind if I give it a taste?<</speech>>
+You're not very fond of other people touching your food, but she's being so nice that you might as well comply. You nod and she licks the tip.
+
+<<speech "Anastasia" "''Anastasia'':">>
+Oh wow! So good! I didn't expect it to be so light! Here, have a taste!<</speech>>
+<div class="center"><img src="food/bananafeed.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+No, it's better if... Oh!<</speech>>
+You see that the cream on top is going to fall, and so you open your mouth and lick it all up.
+
+<<speech "foster" "''Foster'':">>
+Haha Just like it should be, an automatic reflex. Good...<</speech>>
+You blush out of embarrasment, but finish the rest of it.
+
+<div class="center"><<linkreplace "Spike Anastasia's food">>//Not implemented yet (will be for 0.5.7)//<</linkreplace>>
+<<linkreplace "Spike Stoya's food">>//Not implemented yet (will be for 0.5.7)//<</linkreplace>>
+<<linkreplace "Spike Foster's food">>//Not implemented yet (will be for 0.5.7)//<</linkreplace>>
+<<linkreplace "Spike Zasha's food">>//Not implemented yet (will be for 0.5.7)//<</linkreplace>>
+
+<<click "Finish" "Deck 4">><<audio "kitchen" stop>><<set $dinnertime to false>><<set $alreadyate to true>><<set $hunger to $hunger +20>><<addmins 30>><<set $dinner to 9, $dinnerdecide1 to 0>><</click>></div>
+
+
+
+\\<<elseif $dinnerdecide1 is 3>><div class="center"><img src="food/cockcupcakes.jpg" width="37%"></div>
+You take the dish and bring it back to the table.
+
+<div class="center"><img src="food/dinnerstaff.jpg" width="85%"></div>
+Some of the staff is here today: Anastasia, Stoya, Foster, Jada. //(will vary everyday in 0.5.7)//
+
+<<speech "stoya" "''Stoya'':">>
+Ooooh! The perfect kind of cupcake for a cute gurl like you.<</speech>>
+<<speech "foster" "''Foster'':">>
+I couldn't have said it better. Very good, $name! Also, did you know dark chocolate is better for you than white? Interesting, isn't it? Although, it would be better for your diet if you didn't have any... Not to question Holli, but...<</speech>>
+<<speech "Anastasia" "''Anastasia'':">>
+Oh, c'mon, he probably did so well in the kitchen that Holli decided to give him a treat! Those look yummy, don't you think, $name?<</speech>>
+You stare at the cupcakes and how the filling is coming out of the tips of the penises. Your mouth waters.
+
+<<speech "You" "''$name'':">>
+<span class="pink">It looks amazing...</span> Oh, because it's been a while since I've had dark chocolate.<</speech>>
+Stoya quickly raises her hand.
+
+<<speech "stoya" "''Stoya'':">>
+Me too, sister... *sigh*<</speech>>
+<<speech "Anastasia" "''Anastasia'':">>
+Well, that's all on you then. Look around, we are on stock!<</speech>>
+<<speech "stoya" "''Stoya'':">>
+Yeah, but unlike you, some of us do work.<</speech>>
+<<speech "Anastasia" "''Anastasia'':">>
+Hey, I work! I'm preparing Saturday's show!<</speech>>
+<<speech "foster" "''Foster'':">>
+Bla, bla, bla... Less talking and more eating.<</speech>>
+<div class="center"><<linkreplace "Spike Anastasia's food">>//Not implemented yet (will be for 0.5.7)//<</linkreplace>>
+<<linkreplace "Spike Stoya's food">>//Not implemented yet (will be for 0.5.7)//<</linkreplace>>
+<<linkreplace "Spike Foster's food">>//Not implemented yet (will be for 0.5.7)//<</linkreplace>>
+<<linkreplace "Spike Zasha's food">>//Not implemented yet (will be for 0.5.7)//<</linkreplace>>
+
+<<click "Finish" "Deck 4">><<audio "kitchen" stop>><<set $dinnertime to false>><<set $alreadyate to true>><<set $hunger to $hunger +20>><<addmins 30>><<set $dinner to 9, $dinnerdecide1 to 0>><</click>></div><</if>>
+
+<</if>><</if>><<nobr>><<if $gameDate.getHours() is 0 or $gameDate.getHours() lt 8>><<goto [[Dreams]]>><<else>><</if>><</nobr>><<set $dinnertime to false>><<audio "menus" stop>><<if ndef $mute>><<audio "kitchen" unmute>><<else>><</if>><<audio "mystery" stop>><<audio "heels" stop>>
+
+

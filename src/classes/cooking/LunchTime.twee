@@ -1,0 +1,75 @@
+:: Lunch Time [textback] {"position":"1298,970","size":"100,100"}
+<<removeclass "html">><<addclass "html" "kitchen">><<if ndef $mutefx>><<audio "eat" play>><<else>><</if>><<if $lunch is 0>><<if $badlunch is 1>><<speech "holli" "''Holli:''">>
+You did a crappy job today. This is not the way I want you to learn, but if you prefer me to be rough, I can be.<</speech>>
+<div class="center">''<span class="notplus">+20 POINTS</span>''</div>
+Because of your poorly done job today, you've only earned a cheese fajita for lunch:<<set $points to $points +20>>
+
+<img src="food/fajitabad.png" width="50%"><<set $hunger to $hunger -20>>
+
+<<click "Return" "Bar">><<audio "kitchen" stop>><</click>><<elseif $badlunch is 2>><<speech "holli" "''Holli:''">>
+You did a crappy job today. This is not the way I want you to learn, but if you prefer me to be rough, I can be.<</speech>>
+<div class="center">''<span class="notplus">+20 POINTS</span>''</div>
+Because of your poorly done job today, you've only earned a pestomato sandwich for lunch:<<set $points to $points +20>>
+
+<img src="food/badsandwich.jpg" width="60%"><<set $hunger to $hunger -20>>
+
+<<click "Return" "Bar">><<audio "kitchen" stop>><</click>><<elseif $badlunch is 3>><<speech "holli" "''Holli:''">>
+You did a crappy job today. This is not the way I want you to learn, but if you prefer me to be rough, I can be.<</speech>>
+<div class="center">''<span class="notplus">+20 POINTS</span>''</div>
+Because of your poorly done job today, you've only earned a plate of steamed broccoli for lunch:<<set $points to $points +20>>
+
+<img src="food/broccoli.jpg" width="60%"><<set $hunger to $hunger -20>>
+
+<<click "Return" "Bar">><<audio "kitchen" stop>><</click>><<elseif $badlunch is 4>><<speech "holli" "''Holli:''">>
+You did a crappy job today. This is not the way I want you to learn, but if you prefer me to be rough, I can be.<</speech>>
+<div class="center">''<span class="notplus">+20 POINTS</span>''</div>
+Because of your poorly done job today, you've only earned a toast of vegemite for lunch:<<set $points to $points +20>>
+
+<img src="food/vegemite.png" width="60%"><<set $hunger to $hunger -20>>
+
+<<click "Return" "Bar">><<audio "kitchen" stop>><</click>><<elseif $badlunch is 5>><<speech "holli" "''Holli:''">>
+You did a crappy job today. This is not the way I want you to learn, but if you prefer me to be rough, I can be.<</speech>>
+<div class="center">''<span class="notplus">+20 POINTS</span>''</div>
+Because of your poorly done job today, you've only earned a boiled potato for lunch:<<set $points to $points +20>>
+
+<img src="food/potato.jpg" width="60%"><<set $hunger to $hunger -20>>
+
+<<click "Return" "Bar">><<audio "kitchen" stop>><</click>><</if>>
+<<elseif $lunch is 1>><<if $goodlunch is 1>><<speech "holli" "''Holli:''">>
+You did a good enough job today. I'm glad that you are choosing to be compliant towards me. This is the way to go, good job my apprentice.<</speech>>
+<div class="center">''<span class="notplus">+100 POINTS</span>''</div>
+Because of your well done job today, you've earned two yummy chicken fajitas for lunch:<<set $points to $points +100>>
+
+<img src="food/fajitagood.jpg" width="50%"><<set $hunger to $hunger +20>>
+
+<<click "Return" "Bar">><<audio "kitchen" stop>><</click>><<elseif $goodlunch is 2>><<speech "holli" "''Holli:''">>
+You did a good enough job today. I'm glad that you are choosing to be compliant towards me. This is the way to go, good job my apprentice.<</speech>>
+<div class="center">''<span class="notplus">+100 POINTS</span>''</div>
+Because of your well done job today, you've earned a plate of spaguetti bolognaise for lunch:<<set $points to $points +100>>
+
+<img src="food/spaguetti.jpg" width="65%"><<set $hunger to $hunger +20>>
+
+<<click "Return" "Bar">><<audio "kitchen" stop>><</click>><<elseif $goodlunch is 3>><<speech "holli" "''Holli:''">>
+You did a good enough job today. I'm glad that you are choosing to be compliant towards me. This is the way to go, good job my apprentice.<</speech>> 
+<div class="center">''<span class="notplus">+100 POINTS</span>''</div>
+Because of your well done job today, you've earned an egg, tuna and asparragus salad for lunch:<<set $points to $points +100>>
+
+<img src="food/tunagood.png" width="60%"><<set $hunger to $hunger +20>>
+
+<<click "Return" "Bar">><<audio "kitchen" stop>><</click>><<elseif $goodlunch is 4>><<speech "holli" "''Holli:''">>
+You did a good enough job today. I'm glad that you are choosing to be compliant towards me. This is the way to go, good job my apprentice.<</speech>>
+<div class="center">''<span class="notplus">+100 POINTS</span>''</div>
+Because of your well done job today, you've earned a quinoa salad for lunch:<<set $points to $points +100>>
+
+<img src="food/quinoa.jpg" width="60%"><<set $hunger to $hunger +20>>
+
+<<click "Return" "Bar">><<audio "kitchen" stop>><</click>><<elseif $goodlunch is 5>><<speech "holli" "''Holli:''">>
+You did a good enough job today. I'm glad that you are choosing to be compliant towards me. This is the way to go, good job my apprentice.<</speech>>
+<div class="center">''<span class="notplus">+100 POINTS</span>''</div>
+Because of your well done job today, you've earned a plate of salmon, peas and potatoes for lunch:<<set $points to $points +100>>
+
+<img src="food/salmon.jpg" width="35%"><<set $hunger to $hunger +20>>
+
+<<click "Return" "Bar">><<audio "kitchen" stop>><</click>><</if>><</if>><<audio "menus" stop>>
+
+

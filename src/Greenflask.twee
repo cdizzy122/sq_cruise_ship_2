@@ -1,0 +1,9 @@
+:: Green flask [noreturn] {"position":"504,1040","size":"100,100"}
+<img src="stuff/greenflask.jpg" width="50%">
+
+A green flask.
+
+<<if $abledrink is true>><span class="Phone">[[Drink->Inventory][$drinkflask to "green", $gflask to false]]</span><<else>><<linkreplace "Drink">>You don't know what that green stuff is!<</linkreplace>><</if>>
+[[Return|Inventory]]
+
+

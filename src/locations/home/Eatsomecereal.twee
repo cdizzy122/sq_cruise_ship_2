@@ -1,0 +1,8 @@
+:: Eat some cereal [textback] {"position":"177,687","size":"100,100"}
+<<if ndef $mutefx>><<audio "eat" play>><<else>><</if>><img src="food/cereal.gif" width="70%">
+
+A classic. You feel energized.
+
+[[Kitchen]]<<set $eat to true>><<addmins 5>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() gte 8 and $gameDate.getMinutes() gte 30>><<goto "Emergency">><<else>><</if>><<else>><</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

@@ -1,0 +1,10 @@
+:: Golf [textback] {"position":"1748,111","size":"100,100"}
+<div class="center"><img src="places2/golf1.jpg" width="70%"></div>
+The mini-golf course is quite big for a ship, but it's definitely not as much as an average one. The course goes around a metallic structure. There are some clubs and balls in a big box on the side.
+
+<div class="row3"><div class="column3"><--[["Special" course->PlayGolf][$golf to 2]]</div><div class="column3">[[Play 8 hole course|PlayGolfResult][$golf to 0]]
+(15 min., stress -20)</div><div class="column3">[[Play 16 hole course|PlayGolfResult][$golf to 1]]
+(30 min. stress -40)</div></div>
+[[Return|Deck 9]]<<nobr>><<if $gameDate.getHours() is 0 or $gameDate.getHours() lt 8>><<goto [[Dreams]]>><<else>><</if>><</nobr>><<audio "deck9" stop>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

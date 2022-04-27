@@ -1,0 +1,6 @@
+:: rjackpot {"position":"3091,909","size":"100,100"}
++30
+
+[[Return|Roulette]]<<set $rvip to $rvip + 1>>
+
+

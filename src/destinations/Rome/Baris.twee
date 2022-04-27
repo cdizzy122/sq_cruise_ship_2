@@ -1,0 +1,183 @@
+:: Baris [textback] {"position":"3172,621","size":"100,100"}
+<<removeclass "html">><<addclass "html" "rome">><<audio "rome" mute>><<audio "romebar" volume 0.45 play loop>><<if ndef $baris>><span class="fade-ins"><div class="center"><img src="dockings/rome/bar.jpg" width="60%"></div>
+As you get in the bar, you are unamused by its appearance. It's like a typical old tabern. You can see a family of tourists eating on a table, but all the other clients are old men standing up.
+
+[[Talk to the bartender|Baris][$baris to 0]]
+[[Sit down and ask for a drink|Baris][$baris to 1]]
+[[Get out|Bari][$baris to 2]]</span>
+
+\\<<elseif $baris is 0>>You walk to the counter and an old fat man comes closer.
+
+<div class="center"><img src="dockings/rome/bartender.jpg" width="60%"></div>
+
+<<speech "nobody" "''Old Bartender'':">>
+Buongiorno, what you want?<</speech>>
+<<speech "You" "''$name'':">>
+(Damn, he's a bit rude for a bartender...) Umm... yeah, I wanted to ask for directions-<</speech>>
+<<speech "nobody" "''Old Bartender'':">>
+Paolaaa!! I don't understand this-a!<</speech>>
+An old lady comes out from the back of the bar. The first you notice are her surprisingly big breasts. You would expect them to be saggy due to her age, but they stand right where they are supposed to be. Although that might be caused by the "wonderbra" effect...
+
+<div class="center"><img src="dockings/rome/paola.jpg" width="40%"></div>
+<<speech "nobody" "''Paola'':">>
+Vai! Vai! Excuse my husband, his head is like a rock!<</speech>>
+<<speech "You" "''$name'':">>
+(I believe that's a joke lost in translation...) Haha... don't worry about it. I just wanted to ask for directions. Do you happen to know how can I get to-<</speech>>
+<<speech "nobody" "''Paola'':">>
+Oh-a no! You ask for directions, you have to have a drink or food. This no free.<</speech>>
+<<speech "You" "''$name'':">>
+(Really? Making me buy stuff just to ask a question? How can this place be in such a tourist place??) Um... well, but it's just a ques-<</speech>>
+<<speech "nobody" "''Paola'':">>
+No money, no talk. This is no free.<</speech>>
+<<speech "You" "''$name'':">>
+(Alright, then...)<</speech>>
+[[Sit down and ask for a drink|Baris][$baris to 1]]
+[[Get out|Bari][$baris to 2]]
+
+
+\\<<elseif $baris is 1>>You walk across the old guys sat on the tables, and take the only free one in the corner. A big-titted old woman approaches you.
+
+<div class="center"><img src="dockings/rome/paola.jpg" width="40%"></div>
+<<speech "nobody" "''Paola'':">>
+What are you going to have?<</speech>>
+<<speech "You" "''$name'':">>
+Um, yeah, well, I only want to ask for directions, but-<</speech>>
+The woman takes her pen out to take notes.
+
+<<speech "nobody" "''Paola'':">>
+Listen, no consumption, no talk. You have something, then we talk.<</speech>>
+<<if $fifty is true>><<speech "You" "''$name'':">>
+(Well I can't spend any money on this, but...) How about a coca-cola?<</speech>>
+<<speech "nobody" "''Paola'':">>
+Two beers! Coming.<</speech>>
+<<speech "You" "''$name'':">>
+(Yeah, sure, whatever you want, old fuck...)<</speech>>
+Once the woman comes back to the table with two medium sized beer bottles, you decide it's a good time to ask.
+
+<<speech "You" "''$name'':">>
+So, how about now? Can you please tell me how can I get to Rome?<</speech>>
+<<speech "nobody" "''Paola'':">>
+Yes, sure. *sits down next to you* You go to the road, ask for a taxi, the taxi takes you. Simple, no secret. Why you even have to ask?<</speech>>
+<<speech "You" "''$name'':">>
+I-I don't know, I just wanted to make sure... (and I was hoping for a solution where I wouldn't have to spend money too...)<</speech>>
+<<speech "nobody" "''Paola'':">>
+ *looks at you* You have a-money, don't you?<</speech>>
+<<speech "You" "''$name'':">>
+Well, yeah, but...<</speech>>
+<<speech "nobody" "''Paola'':">>
+Nice, taxis are expensive here.<</speech>>
+<<speech "You" "''$name'':">>
+How much, more or less?<</speech>>
+<<speech "nobody" "''Paola'':">>
+To Rome? Heh, it's Sunday too, so probably around 30 Euros, just to go. If you want to come back later, the same...<</speech>>
+<<speech "You" "''$name'':">>
+What?? (I can't even afford the taxi... and I can't really afford these drink either... fuck...) Excuse me, lady, but don't be mad please, but I can't even pay the beers if I want to have a possibily to come back to the port later...<</speech>>
+<<speech "nobody" "''Paola'':">>
+What? *she quickly looks at her husband at the counter* You better hope my husband doesn't know, he can get very mad. Come with me to the back.<</speech>>
+Paola basically pushes you to the back while her husband is busy talking to a local.
+
+<<linkreplace "... ...">><div class="center"><img src="dockings/rome/back.jpg" width="50%"></div>
+<<speech "nobody" "''Paola'':">>
+How much money you have? Let me see.<</speech>>
+<<speech "You" "''$name'':">>
+ *you take it out* Oh, well, only 50-<</speech>>
+Paola suddenly takes your money and puts it on a table.
+
+<<speech "nobody" "''Paola'':">>
+You can pay beer with this, so you just lie to me!<</speech>>
+<<speech "You" "''$name'':">>
+No, I meant I could pay the beer, but I need that money to even try to Rome.<</speech>>
+<<speech "nobody" "''Paola'':">>
+But no use, you can't go back. You need more money. You have to pay beer, and then go for more money.<</speech>>
+<<speech "You" "''$name'':">>
+Well, yeah... but, first of all, I didn't ask for those beers, and I'm also on a rush!<</speech>>
+Paola takes 10 Euros from you and gives you the rest back.
+
+<<speech "nobody" "''Paola'':">>
+Here, you pay for time. If you want more money you can go to the Gelateria or work for me.<</speech>>
+<<speech "You" "''$name'':">>
+I prefered if I didn't have to go back to the Gelateria...<</speech>>
+<<speech "nobody" "''Paola'':">>
+Oh, so you have already been there working?! Hahaha<</speech>>
+Your face turns red, you can't believe you gave that out.
+
+<<speech "You" "''$name'':">>
+(Anyway, her job proposal could be useful...) I- I don't know if I could work here, I don't know italian.<</speech>>
+<<speech "nobody" "''Paola'':">>
+Well, I guess I could teach you a few things... *looks at your crotch*<</speech>>
+<<speech "You" "''$name'':">>
+(Oh, fuck, another creep, and this one's too old...) Um, no, I didn't mean that. I thought you meant working in the bar...<</speech>>
+<<speech "nobody" "''Paola'':">>
+You need money, I need a pretty bambino who wants me to be his mama.<</speech>>
+Paola gets closer to you by the second. You can see her unbuttoning her blouse, exposing her monstruous breasts.
+
+<div class="center"><img src="dockings/rome/boobs.jpg" width="30%"></div>
+She takes your head and feeds you one of her nipples.
+
+<<speech "nobody" "''Paola'':">>
+There you go, baby... suck mama's breasts.<</speech>>
+You are surprised by how strong she is. Especially when she's one of the small group of women that are as tall as you. You do as she says, because, compared to what you are used to do on the ship, this is just foreplay. Her continuous baby talk is making your dick tingle, and, after trying to resist, you can't help but softly hump her thigh.
+
+As soon as she feels it, her expression changes completely.
+
+<<speech "nobody" "''Paola'':">>
+You are a bad little baby! You want to fuck mama's leg? You are going to, then!<</speech>>
+Paola drags a stool along the floor and sits on it. Not letting your arm go, she pulls you along her side and makes you lay face down on her legs. With your shriveled dick between her legs, she starts spanking you.
+
+<span class="onomatopeya">SLAP SLAP</span>
+
+<<speech "You" "''$name'':">>
+Ow! Ow!<</speech>>
+<<speech "nobody" "''Paola'':">>
+Who's been a bad boy? Say it!<</speech>>
+<<speech "You" "''$name'':">>
+Ow! Me...<</speech>>
+<<speech "nobody" "''Paola'':">>
+Me what? Who am I?<</speech>>
+<<speech "You" "''$name'':">>
+Mommy? Ow! Mama?<</speech>>
+<<speech "nobody" "''Paola'':">>
+Yeah! I'm your mama. Say sorry mama, say it.<</speech>>
+<span class="onomatopeya">SLAP SLAP</span>
+
+<<speech "You" "''$name'':">>
+Ow! Sorry mama, sorry mama...<</speech>>
+After 10 more spankings, Paola makes you stand up again and lets go off your arm. While you rub your ass cheeks, you can see her sat on the counter and telling you to come closer to her.
+
+<<speech "nobody" "''Paola'':">>
+Now, no humping. You only suck your mama's nipples...<</speech>>
+<<speech "You" "''$name'':">>
+ *sob, sob* Ok...mama.<</speech>>
+You get close to her and start sucking on her nipples, licking them with the ocasional chew. After what seems like more than 10 minutes, Paola gets called by her husband from the bar.
+
+<<speech "nobody" "''Paola'':">>
+Huh? Ah, this man doesn't know to shut up... Here, I don't care, you take another 10 Euros. Now go and be a good boy.<</speech>>
+You wait for her to get out to the bar and then get out through the back door.
+
+[[Back Alley|backalley][$road to 1, $fiftyeuros to 0, $baris to 3]]<</linkreplace>>
+
+\\<<else>><<speech "You" "''$name'':">>
+(Well I don't have any money to spend right now...)<</speech>>
+You stand up and get out. You should come back when you have some money.
+
+[[Talk to the bartender|Baris][$baris to 0]]
+[[Get out|Bari][$baris to 2]]<</if>>
+
+
+\\<<elseif $baris is 2>><div class="center"><img src="dockings/rome/bar.jpg" width="50%"></div>
+As you get in the bar, you are unamused by its appearance. It's like a typical old tabern. You can see a family of tourists eating on a table, but all the other clients are old men.
+
+[[Talk to the bartender|Baris][$baris to 0]]
+[[Sit down and ask for a drink|Baris][$baris to 1]]
+[[Get out|Bari][$baris to 2]]
+
+
+\\<<elseif $baris is 3>><div class="center"><img src="dockings/rome/bar.jpg" width="50%"></div>
+You get inside the bar again, just to see Paola looking at you while massaging her big nipples. Her husband is definitely not happy about it.
+
+<<speech "You" "''$name'':">>
+(I'm over it, I already got what I needed.)<</speech>>
+[[Get out|Bari]]
+<</if>><<if ndef $mute>><<audio "romebar" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

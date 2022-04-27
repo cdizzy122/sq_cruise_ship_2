@@ -1,0 +1,67 @@
+:: Central Market [textback] {"position":"3583,164","size":"100,100"}
+<<removeclass "html">><<addclass "html" "casablanca1">><<audio "touriststalk" volume 0.3 loop play>><<audio "casablanca" stop>><<if $zoco is 0>><div class="center"><img src="dockings/casablanca/market1.jpg" width="60%"></div>
+The streets slowly start to get more narrow and you start to struggle following Tara.
+
+<<speech "You" "''$name'':">>
+Hey, wait for me!<</speech>>
+<<speech "tara" "''Tara'':">>
+C'mon baby!<</speech>>
+You finally manage to get to her and just get ahold of her hand like a little kid, so you don't get lost. After just a few seconds you arrive in the beginning of the central market..
+
+<div class="center"><img src="dockings/casablanca/market2.jpg" width="60%"></div>
+You can tell the long street is filled to the brim with several market stalls, each one selling different stuff. As if the place wasn't loud enough, each stall has an employee shouting out.
+
+<<speech "nobody" "''Stranger'':">>
+جيد وجميل ورخيص! تعال واشتري!<</speech>>
+You scarejump, as a short middle aged man shouts at you at the max of his capacity.
+
+<div class="center"><img src="dockings/casablanca/market3.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+ *gasp* I-I'm sorry, I don't understand...<</speech>>
+It's even difficult to know if he is actually mad or just wanting attention for his stall.
+
+<<speech "nobody" "''Stranger'':">>
+يمكنك الدفع بشيء آخر غير المال<</speech>>
+You try to make gestures so he understands that you aren't interested. Suddenly, he steps down from his stall and slaps your ass.
+
+<span class="onomatopeya">SLAP</span>
+
+<<speech "nobody" "''Stranger'':">>
+Hahaha!<</speech>>
+Suddenly Tara notices something is wrong.
+
+<<speech "tara" "''Tara'':">>
+Hey, you fucking old fart! Get back to your stupid shop you piece of shit!<</speech>>
+<<speech "nobody" "''Stranger'':">>
+... ... *walks back to his stall*<</speech>>
+<<speech "tara" "''Tara'':">>
+Welcome to Morocco I guess... That guys exhudes small dick energy, girl!<</speech>>
+You can't help but be surprised by her reaction.
+
+<<speech "You" "''$name'':">>
+Sorry, I should've stepped up more-<</speech>>
+<<speech "tara" "''Tara'':">>
+Oh, no sweetie... not at all. In fact, part of your training is letting those walls down as much as we can. You're doing fantastic. It's just that you're my little gurl and I'm not letting that happen if I'm here with you.<</speech>>
+<<speech "You" "''$name'':">>
+(Oh my god, I think I love this woman... *sigh*)<</speech>>
+<<speech "tara" "''Tara'':">>
+Plus, you're probably not missing much... Oh, here we are!<</speech>>
+[[???|Pub]]<<addhours 1>><<addmins 30>>
+
+
+\\<<elseif $zoco is 1>><div class="center"><img src="dockings/casablanca/market2.jpg" width="50%"></div>
+You stare at the huge amount of people in the market. You don't even know where to start!
+
+<div class="center"><div class="row3"><div class="column3"><<if ndef $weird>>[[Weird Store]]<<elseif $weird is 0>><<linkreplace "Sex Items Store">>I don't need any of that right now...<</linkreplace>><<elseif $weird is 1>>[[Sex Items Store|Weird Store]]<<elseif $weird is 2>><<linkreplace "Sex Items Store">>I don't need any of that right now...<</linkreplace>><</if>></div><div class="column3">[[Main Street|Casablancacenter]]</div><div class="column3">[[Mysterious door|Pub]]</div>
+
+
+\\<<elseif $zoco is 2>><div class="center"><img src="dockings/casablanca/market2.jpg" width="50%"></div>
+You're about to go to the door, but you see Tara's already there.
+
+<div class="center"><span class="Phone"><span class="fade-ins-out">[[Go to the door|Pub]]</span></span></div>
+
+
+
+\\<<elseif $zoco is 3>><</if>><<if ndef $mute>><<audio ":music" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

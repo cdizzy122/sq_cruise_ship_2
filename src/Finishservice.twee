@@ -1,0 +1,469 @@
+:: Finish service [textback] {"position":"1400,1096","size":"100,100"}
+<<if $cheffinish is 0>><<if $serviceright1 is true>><div class="center"><img src="classes/cook/cooking1b.jpg" width="50%"></div>
+<<speech "holli" "''Holli:''">>
+Oh, wow, not bad... Would do nicely with the eggs benedict! Let me compare with Giada's assignment...<</speech>>
+Giada brings her version of the same hollandaise sauce, which seems fairly similar to yours. After tasting both for a while, Holli finally speaks.
+
+<<speech "holli" "''Holli:''">>
+Well, since $name finished first, she'll be the winner for today! Congratulations!<</speech>>
+<<speech "Giada" "''Giada:''">>
+What? No way-<</speech>>
+Just as she's about to complain Holli grabs her and takes her to the side to receive the usual vibrator plug punishment.
+
+<<speech "holli" "''Holli:''">>
+Ok then, $name... *pushes vibrator inside Giada* I'll let you take your dish out to the table. It's... TABLE 5.<</speech>>
+As Holli gets busy on Giada, you take the dish and get to the tables...
+
+<<linkreplace "... ...">><div class="center"><img src="classes/cook/bardish.jpg" width="60%"></div>
+<<speech "You" "''$name'':">>
+(Oh fuck... why are the so many people...)<</speech>>
+You are freaking the hell out, so you decide to walk as quickly as possible to your assigned table. As soon as you arrive, you leave the plate.
+
+<div class="center"><img src="classes/cook/dish1.jpg" width="50%"></div>
+<<speech "nobody" "''Sexy brunette'':">>
+Hey, why such a hurry, pretty bimbo girl...? *giggles*<</speech>>
+You remember the embarrasing apron Holli has made you wear.
+
+<<speech "You" "''$name'':">>
+Oh, um...<</speech>>
+<<speech "style" "''Cherry:''">>
+Hey, don't be like that with her... she's just working as hard as she can...<</speech>>
+You hadn't noticed before, but Cherry is sitting in the same table as the other girl. She must be a friend of hers.
+
+<<speech "nobody" "''Sexy brunette'':">>
+Oh, I know... it was just a joke, don't you worry about it... thanks for those CREAMY EGGS... hmmm...<</speech>>
+Cherry caresses your back as you get going, back to the kitchen to eat something and finish your class.
+
+[[Lunch Time][$lunch to 1, $goodlunch to random(1,5)]]<</linkreplace>>
+
+
+\\<<else>><<speech "holli" "''Holli:''">>
+Oh, god... really, $name? You already fucked up? Well, I guess Giada gets to deliver her dish, which is properly prepared.<</speech>>
+<<speech "Giada" "''Giada:''">>
+Hehe... *whispers* looser...<</speech>>
+Giada takes her dish and leaves the kitchen to deliver it to the table. Meanwhile you can see Holli grabbing a vibrator plug for you.
+
+<<speech "holli" "''Holli:''">>
+Come here, petit sissy...<</speech>>
+Holli pushes you against the counter, exposing your ass. <<if $buttplug is true>>Then she takes out your buttplug and prepare to get in hers.
+
+<span class="onomatopeya">POP</span><<else>><</if>>
+
+With a gentle swipe, she manages to get it in your tender asshole.
+
+<span class="onomatopeya">POP... BZZZZZZZZT</span>
+
+<<speech "You" "''$name'':">>
+Owwww! <span class="pink">Aahhh...</span><</speech>>
+The intense vibration gives you enough pleasure to forget momentarily about your recent failure.
+
+<<speech "holli" "''Holli:''">>
+There, good! All set! Now get cleaning your mess.<</speech>>
+Moaning around, you start washing and scraping the stuff you and Giada used for the dishes.
+
+<div class="center"><img src="classes/cook/washdishes.gif" width="50%"></div>
+<<speech "holli" "''Holli:''">>
+Good, all clean and pristine!<</speech>>
+<span class="onomatopeya">POP</span>
+
+<<speech "You" "''$name'':">>
+Owww... (Fuck, thank god that's over...)<</speech>>
+<<speech "holli" "''Holli:''">>
+You'll only receive 20 points, of course. Here's your lunch:<</speech>>
+[[Lunch Time][$lunch to 0, $badlunch to random(1,5)]]<</if>>
+
+
+
+
+
+
+
+
+
+\\<<elseif $cheffinish is 1>><<if $serviceright2 is true>><div class="center"><img src="classes/cook/cooking2b.jpg" width="50%"></div><<speech "holli" "''Holli:''">>
+Oh, wow, not bad... let me see that bechamel! Let me compare with Giada's assignment...<</speech>>
+Giada brings her version of the same bechamel sauce, which seems fairly similar to yours. After tasting both for a while, Holli finally speaks.
+
+<<speech "holli" "''Holli:''">>
+Well, $name's seems to be a bit smoother, Giada's has some lumps, due to the milk being too cold. Congratulations!<</speech>>
+<<speech "Giada" "''Giada:''">>
+What? No way-<</speech>>
+Just as she's about to complain Holli grabs her and takes her to the side to receive the usual vibrator plug punishment.
+
+<<speech "holli" "''Holli:''">>
+Ok then, $name... *pushes vibrator inside Giada* I'll let you take your dish out to the table. It's... TABLE 9.<</speech>>
+As Holli gets busy on Giada, you take the dish and get to the tables...
+
+<<linkreplace "... ...">><div class="center"><img src="classes/cook/bardish.jpg" width="60%"></div>
+<<speech "You" "''$name'':">>
+(Oh fuck... why are the so many people...)<</speech>>
+You are freaking the hell out, so you decide to walk as quickly as possible to your assigned table. As soon as you arrive, you leave the plate.
+
+<div class="center"><img src="classes/cook/dish2.jpg" width="50%"></div>
+<<speech "nobody" "''Black woman'':">>
+Hahaha exactly what I said! And then I- oh, hi there! Thank you...<</speech>>
+<<speech "nobody" "''Other woman 1'':">>
+I love those fake tits by the way... Hahaha<</speech>>
+<<speech "nobody" "''Black woman'':">>
+OMG! Heather... Hahaha<</speech>>
+You remember the embarrasing apron Holli has made you wear and blush.
+
+<<speech "nobody" "''Black woman'':">>
+This looks really good, did you do it?<</speech>>
+<<speech "You" "''$name'':">>
+Oh, um... just the sauce.<</speech>>
+<<speech "nobody" "''Black woman'':">>
+Well, thank you... *smiles*<</speech>>
+Suddenly, the other woman grabs one of the fake boobs of your apron and squeezes it.
+
+<<speech "nobody" "''Other woman 1'':">>
+HONK, HOOONK!<</speech>>
+You quickly wrap it up and leave as you hear them laughing out loud.
+
+[[Lunch Time][$lunch to 1, $goodlunch to random(1,5)]]<</linkreplace>>
+
+
+\\<<else>><<speech "holli" "''Holli:''">>
+Oh, god... really, $name? You already fucked up? Well, I guess Giada gets to deliver her dish, which is properly prepared.<</speech>>
+<<speech "Giada" "''Giada:''">>
+Hehe... *whispers* looser...<</speech>>
+Giada takes her dish and leaves the kitchen to deliver it to the table. Meanwhile you can see Holli grabbing a vibrator plug for you.
+
+<<speech "holli" "''Holli:''">>
+Come here, petit sissy...<</speech>>
+Holli pushes you against the counter, exposing your ass. <<if $buttplug is true>>Then she takes out your buttplug and prepare to get in hers.
+
+<span class="onomatopeya">POP</span><<else>><</if>>
+
+With a gentle swipe, she manages to get it in your tender asshole.
+
+<span class="onomatopeya">POP... BZZZZZZZZT</span>
+
+<<speech "You" "''$name'':">>
+Owwww! <span class="pink">Aahhh...</span><</speech>>
+The intense vibration gives you enough pleasure to forget momentarily about your recent failure.
+
+<<speech "holli" "''Holli:''">>
+There, good! All set! Now get cleaning your mess.<</speech>>
+Moaning around, you start washing and scraping the stuff you and Giada used for the dishes.
+
+<div class="center"><img src="classes/cook/washdishes.gif" width="50%"></div>
+<<speech "holli" "''Holli:''">>
+Good, all clean and pristine!<</speech>>
+<span class="onomatopeya">POP</span>
+
+<<speech "You" "''$name'':">>
+Owww... (Fuck, thank god that's over...)<</speech>>
+<<speech "holli" "''Holli:''">>
+You'll only receive 20 points, of course. Here's your lunch:<</speech>>
+[[Lunch Time][$lunch to 0, $badlunch to random(1,5)]]<</if>>
+
+
+
+
+
+
+
+\\<<elseif $cheffinish is 2>><<if $serviceright3 is true>><div class="center"><img src="classes/cook/cooking3b.jpg" width="50%"></div>
+<<speech "holli" "''Holli:''">>
+Oh, wow, not bad... Would do nicely with the fries! Let me compare with Giada's assignment...<</speech>>
+Giada brings her version of the sour cream, which seems fairly similar to yours. After tasting both for a while, Holli finally speaks.
+
+<<speech "holli" "''Holli:''">>
+This one was very easy... Well, since $name finished first, she'll be the winner for today! Congratulations!<</speech>>
+<<speech "Giada" "''Giada:''">>
+What? No way-<</speech>>
+Just as she's about to complain Holli grabs her and takes her to the side to receive the usual vibrator plug punishment.
+
+<<speech "holli" "''Holli:''">>
+Ok then, $name... *pushes vibrator inside Giada* I'll let you take your dish out to the table. It's... TABLE 8.<</speech>>
+As Holli gets busy on Giada, you take the dish and get to the tables...
+
+<<linkreplace "... ...">><div class="center"><img src="classes/cook/bardish.jpg" width="60%"></div>
+<<speech "You" "''$name'':">>
+(Oh fuck... why are the so many people...)<</speech>>
+You are freaking the hell out, so you decide to walk as quickly as possible to your assigned table. As soon as you arrive, you leave the plate.
+
+Fortunately, the women at the table don't say a thing to you this time.
+
+[[Lunch Time][$lunch to 1, $goodlunch to random(1,5)]]<</linkreplace>>
+
+
+\\<<else>><<speech "holli" "''Holli:''">>
+Oh, god... really, $name? You already fucked up? Well, I guess Giada gets to deliver her dish, which is properly prepared.<</speech>>
+<<speech "Giada" "''Giada:''">>
+Hehe... *whispers* looser...<</speech>>
+Giada takes her dish and leaves the kitchen to deliver it to the table. Meanwhile you can see Holli grabbing a vibrator plug for you.
+
+<<speech "holli" "''Holli:''">>
+Come here, petit sissy...<</speech>>
+Holli pushes you against the counter, exposing your ass. <<if $buttplug is true>>Then she takes out your buttplug and prepare to get in hers.
+
+<span class="onomatopeya">POP</span><<else>><</if>>
+
+With a gentle swipe, she manages to get it in your tender asshole.
+
+<span class="onomatopeya">POP... BZZZZZZZZT</span>
+
+<<speech "You" "''$name'':">>
+Owwww! <span class="pink">Aahhh...</span><</speech>>
+The intense vibration gives you enough pleasure to forget momentarily about your recent failure.
+
+<<speech "holli" "''Holli:''">>
+There, good! All set! Now get cleaning your mess.<</speech>>
+Moaning around, you start washing and scraping the stuff you and Giada used for the dishes.
+
+<div class="center"><img src="classes/cook/washdishes.gif" width="50%"></div>
+<<speech "holli" "''Holli:''">>
+Good, all clean and pristine!<</speech>>
+<span class="onomatopeya">POP</span>
+
+<<speech "You" "''$name'':">>
+Owww... (Fuck, thank god that's over...)<</speech>>
+<<speech "holli" "''Holli:''">>
+You'll only receive 20 points, of course. Here's your lunch:<</speech>>
+[[Lunch Time][$lunch to 0, $badlunch to random(1,5)]]<</if>>
+
+
+
+
+
+
+
+\\<<elseif $cheffinish is 3>><<if $serviceright4 is true>><div class="center"><img src="classes/cook/cooking4b.jpg" width="50%"></div>
+<<speech "holli" "''Holli:''">>
+Perfect! Let me compare with Giada's assignment...<</speech>>
+Giada brings her version of the same sandwich.
+
+<<speech "holli" "''Holli:''">>
+No, no, no, Giada... It does not have blue cheese, for Christ's sake... $name, your look fine. Congratulations!<</speech>>
+<<speech "Giada" "''Giada:''">>
+What? No way-<</speech>>
+Just as she's about to complain Holli grabs her and takes her to the side to receive the usual vibrator plug punishment.
+
+<<speech "holli" "''Holli:''">>
+Ok then, $name... *pushes vibrator inside Giada* I'll let you take your dish out to the table. It's... TABLE 6.<</speech>>
+As Holli gets busy on Giada, you take the dish and get to the tables...
+
+<<linkreplace "... ...">><div class="center"><img src="classes/cook/bardish.jpg" width="60%"></div>
+<<speech "You" "''$name'':">>
+(Oh fuck... why are the so many people...)<</speech>>
+You are freaking the hell out, so you decide to walk as quickly as possible to your assigned table. As soon as you arrive, you leave the plate.
+
+<div class="center"><img src="classes/cook/dish3.jpg" width="50%"></div>
+<<speech "nobody" "''Gentleman'':">>
+Oh, really? Well I'm ''"A"'' rank, so...<</speech>>
+<<speech "nobody" "''Flirty blonde girl'':">>
+ *giggle* Yes, I can see that, but... *whispers*<</speech>>
+She suddenly stops speaking as you put the dish on the table.
+
+<<speech "nobody" "''Flirty blonde girl'':">>
+Excuse me, what the hell is that apron?<</speech>>
+<<speech "You" "''$name'':">>
+Um... It's mandatory...<</speech>>
+As you are about to get back to the kitchen, the man grabs one of your fake boobs.
+
+<<speech "nobody" "''Gentleman'':">>
+Heh, that's funny. *smiles*<</speech>>
+<<speech "nobody" "''Flirty blonde girl'':">>
+ *looks at you, jealous* Hey, you bitch, get back to the kitchen where you belong. This one's mine!<</speech>>
+A bit scared, you get on your way back. You can't help but notice the man looking at your ass swing from side to side.
+
+[[Lunch Time][$lunch to 1, $goodlunch to random(1,5)]]<</linkreplace>>
+
+
+\\<<else>><<speech "holli" "''Holli:''">>
+Oh, god... really, $name? You already fucked up? Well, I guess Giada gets to deliver her dish, which is properly prepared.<</speech>>
+<<speech "Giada" "''Giada:''">>
+Hehe... *whispers* looser...<</speech>>
+Giada takes her dish and leaves the kitchen to deliver it to the table. Meanwhile you can see Holli grabbing a vibrator plug for you.
+
+<<speech "holli" "''Holli:''">>
+Come here, petit sissy...<</speech>>
+Holli pushes you against the counter, exposing your ass. <<if $buttplug is true>>Then she takes out your buttplug and prepare to get in hers.
+
+<span class="onomatopeya">POP</span><<else>><</if>>
+
+With a gentle swipe, she manages to get it in your tender asshole.
+
+<span class="onomatopeya">POP... BZZZZZZZZT</span>
+
+<<speech "You" "''$name'':">>
+Owwww! <span class="pink">Aahhh...</span><</speech>>
+The intense vibration gives you enough pleasure to forget momentarily about your recent failure.
+
+<<speech "holli" "''Holli:''">>
+There, good! All set! Now get cleaning your mess.<</speech>>
+Moaning around, you start washing and scraping the stuff you and Giada used for the dishes.
+
+<div class="center"><img src="classes/cook/washdishes.gif" width="50%"></div>
+<<speech "holli" "''Holli:''">>
+Good, all clean and pristine!<</speech>>
+<span class="onomatopeya">POP</span>
+
+<<speech "You" "''$name'':">>
+Owww... (Fuck, thank god that's over...)<</speech>>
+<<speech "holli" "''Holli:''">>
+You'll only receive 20 points, of course. Here's your lunch:<</speech>>
+[[Lunch Time][$lunch to 0, $badlunch to random(1,5)]]<</if>>
+
+
+
+
+
+
+
+
+
+\\<<elseif $cheffinish is 4>><<if $serviceright5 is true>><div class="center"><img src="classes/cook/cooking5b.jpg" width="50%"></div>
+<<speech "holli" "''Holli:''">>
+Not bad, not bad... Definitely a Caesar salad, nothing spectacular though... Let me compare with Giada's assignment...<</speech>>
+Giada brings her version of the same dish, which seems fairly similar to yours. After tasting both for a while, Holli finally speaks.
+
+<<speech "holli" "''Holli:''">>
+Well, since $name finished first, she'll be the winner for today! Congratulations!<</speech>>
+<<speech "Giada" "''Giada:''">>
+What? No way-<</speech>>
+Just as she's about to complain Holli grabs her and takes her to the side to receive the usual vibrator plug punishment.
+
+<<speech "holli" "''Holli:''">>
+Ok then, $name... *pushes vibrator inside Giada* I'll let you take your dish out to the table. It's... TABLE 2.<</speech>>
+As Holli gets busy on Giada, you take the dish and get to the tables...
+
+<<linkreplace "... ...">><div class="center"><img src="classes/cook/bardish.jpg" width="60%"></div>
+<<speech "You" "''$name'':">>
+(Oh fuck... why are the so many people...)<</speech>>
+You are freaking the hell out, so you decide to walk as quickly as possible to your assigned table. As soon as you arrive, you leave the plate.
+
+<div class="center"><img src="classes/cook/dish4.jpg" width="50%"></div>
+<<speech "nobody" "''Group of women:''">>
+ *singing* Hey, hey, hey! Happy birthday, bitch! Hahahaha<</speech>>
+<<speech "nobody" "''Brunette:''">>
+Hahaha you are the worst, girls... oh, hey, thanks!<</speech>>
+<<speech "You" "''$name:''">>
+(Oh, that's to me...?) Oh, um... you're welcome!<</speech>>
+You're about to go back to the kitchen as the other women start cheering you up.
+
+<<speech "nobody" "''Group of women:''">>
+Strip! Strip! Strip!<</speech>>
+<<speech "You" "''$name:''">>
+W-what? N-no, I can't, I have to go to-<</speech>>
+The women stop you mid-sentence and stand up while dancing around you and grabbing your apron. You stand there, embarrased, as everyone in the bar looks at you. One of the girls suddenly gets ahold of your underwear and flashes your ass:
+
+<div class="center"><img src="classes/cook/flashass.gif" width="50%"></div>
+<<speech "nobody" "''Group of women:''">>
+Hahahaha!<</speech>>
+Embarrased, you put your clothes back in place and get back to the kitchen.
+
+[[Lunch Time][$lunch to 1, $goodlunch to random(1,5)]]<</linkreplace>>
+
+
+\\<<else>><<speech "holli" "''Holli:''">>
+Oh, god... really, $name? You already fucked up? Well, I guess Giada gets to deliver her dish, which is properly prepared.<</speech>>
+<<speech "Giada" "''Giada:''">>
+Hehe... *whispers* looser...<</speech>>
+Giada takes her dish and leaves the kitchen to deliver it to the table. Meanwhile you can see Holli grabbing a vibrator plug for you.
+
+<<speech "holli" "''Holli:''">>
+Come here, petit sissy...<</speech>>
+Holli pushes you against the counter, exposing your ass. <<if $buttplug is true>>Then she takes out your buttplug and prepare to get in hers.
+
+<span class="onomatopeya">POP</span><<else>><</if>>
+
+With a gentle swipe, she manages to get it in your tender asshole.
+
+<span class="onomatopeya">POP... BZZZZZZZZT</span>
+
+<<speech "You" "''$name'':">>
+Owwww! <span class="pink">Aahhh...</span><</speech>>
+The intense vibration gives you enough pleasure to forget momentarily about your recent failure.
+
+<<speech "holli" "''Holli:''">>
+There, good! All set! Now get cleaning your mess.<</speech>>
+Moaning around, you start washing and scraping the stuff you and Giada used for the dishes.
+
+<div class="center"><img src="classes/cook/washdishes.gif" width="50%"></div>
+<<speech "holli" "''Holli:''">>
+Good, all clean and pristine!<</speech>>
+<span class="onomatopeya">POP</span>
+
+<<speech "You" "''$name'':">>
+Owww... (Fuck, thank god that's over...)<</speech>>
+<<speech "holli" "''Holli:''">>
+You'll only receive 20 points, of course. Here's your lunch:<</speech>>
+[[Lunch Time][$lunch to 0, $badlunch to random(1,5)]]<</if>>
+
+
+
+
+
+
+
+\\<<elseif $cheffinish is 5>><<if $serviceright6 is true>><div class="center"><img src="classes/cook/cooking6b.jpg" width="50%"></div>
+<<speech "holli" "''Holli:''">>
+That's a nice looking cheesecake if I ever saw one! Let me compare with Giada's assignment...<</speech>>
+Giada brings her version of the same cake, which seems fairly similar to yours. After tasting both for a while, Holli finally speaks.
+
+<<speech "holli" "''Holli:''">>
+No, Giada! If you want to put matcha powder on it, you're free to do it in your own restaurant. Here we follow the classics! Congratulations, $name.<</speech>>
+<<speech "Giada" "''Giada:''">>
+What? No way-<</speech>>
+Just as she's about to complain Holli grabs her and takes her to the side to receive the usual vibrator plug punishment.
+
+<<speech "holli" "''Holli:''">>
+Ok then, $name... *pushes vibrator inside Giada* I'll let you take your dish out to the table. It's... TABLE 5.<</speech>>
+As Holli gets busy on Giada, you take the dish and get to the tables...
+
+<<linkreplace "... ...">><div class="center"><img src="classes/cook/bardish.jpg" width="60%"></div>
+<<speech "You" "''$name'':">>
+(Oh fuck... why are the so many people...)<</speech>>
+You are freaking the hell out, so you decide to walk as quickly as possible to your assigned table. As soon as you arrive, you leave the plate.
+
+<div class="center"><img src="classes/cook/dish5.jpg" width="50%"></div>
+<<speech "nobody" "''Blonde teen:''">>
+God, why are your lips so big...? Is everything as big, huh? *grabs his crotch and gasps*<</speech>>
+<<speech "nobody" "''Black daddy:''">>
+ *grunt* That pussy better be able to handle me.<</speech>>
+<<speech "nobody" "''Blonde teen:''">>
+I'm not sure... but I'll let you do what you have to...<</speech>>
+The couple don't even notice you just left some food on their table, and you kind of prefer it this way.
+
+[[Lunch Time][$lunch to 1, $goodlunch to random(1,5)]]<</linkreplace>>
+
+
+\\<<else>><<speech "holli" "''Holli:''">>
+Oh, god... really, $name? You already fucked up? Well, I guess Giada gets to deliver her dish, which is properly prepared.<</speech>>
+<<speech "Giada" "''Giada:''">>
+Hehe... *whispers* looser...<</speech>>
+Giada takes her dish and leaves the kitchen to deliver it to the table. Meanwhile you can see Holli grabbing a vibrator plug for you.
+
+<<speech "holli" "''Holli:''">>
+Come here, petit sissy...<</speech>>
+Holli pushes you against the counter, exposing your ass. <<if $buttplug is true>>Then she takes out your buttplug and prepare to get in hers.
+
+<span class="onomatopeya">POP</span><<else>><</if>>
+
+With a gentle swipe, she manages to get it in your tender asshole.
+
+<span class="onomatopeya">POP... BZZZZZZZZT</span>
+
+<<speech "You" "''$name'':">>
+Owwww! <span class="pink">Aahhh...</span><</speech>>
+The intense vibration gives you enough pleasure to forget momentarily about your recent failure.
+
+<<speech "holli" "''Holli:''">>
+There, good! All set! Now get cleaning your mess.<</speech>>
+Moaning around, you start washing and scraping the stuff you and Giada used for the dishes.
+
+<div class="center"><img src="classes/cook/washdishes.gif" width="50%"></div>
+<<speech "holli" "''Holli:''">>
+Good, all clean and pristine!<</speech>>
+<span class="onomatopeya">POP</span>
+
+<<speech "You" "''$name'':">>
+Owww... (Fuck, thank god that's over...)<</speech>>
+<<speech "holli" "''Holli:''">>
+You'll only receive 20 points, of course. Here's your lunch:<</speech>>
+[[Lunch Time][$lunch to 0, $badlunch to random(1,5)]]<</if>><</if>><<run $gameDate.setHours (15)>><<run $gameDate.setMinutes (0)>>
+
+

@@ -1,0 +1,21 @@
+:: Casablancaport [textback] {"position":"3376,161","size":"100,100"}
+<<removeclass "html">><<addclass "html" "casablanca1">><<audio "casablanca" volume 0.3 loop play>><div class="center"><img src="dockings/casablanca/casaport.jpg" width="80%"></div>
+<<speech "tara" "''Tara'':">>
+Ahh, finally! Land!<</speech>>
+<<speech "You" "''$name'':">>
+Yeah... *smile* This is such a beautiful city too...<</speech>>
+<<speech "tara" "''Tara'':">>
+You're just saying that because I'm coming with you this time, aren't you? *pats your head*<</speech>>
+You can't help but blush and smile. It's actually true, you can't deny it! After all these last times going on your own, you now finally have first class company. This almost feels like a real vacation, doesn't it?
+
+<<speech "tara" "''Tara'':">>
+Aww, look at you blushing... you're the cutest, honey...<</speech>>
+Tara leans in and kisses your cheek. Then she takes you by the hand and start walking out of the ship.
+
+<<speech "tara" "''Tara'':">>
+C'mon, we've got stuff to do. *smirk*<</speech>>
+With a stupid smile on your face, you follow her.
+
+[[Into Casablanca|Casablancacenter]]<<if ndef $mute>><<audio ":music" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

@@ -1,0 +1,8 @@
+:: embarrased [textback] {"position":"1943,2243","size":"100,100"}
+<<audio "myroom" fadeout>><img src="places2/bedroomship.jpg" width="70%">
+
+You arrive to your room with a puddle of tears on your face. This can not get worse. You miss $gfname. And now you've been humiliated like never in your life.
+
+<span class="Phone">[[You've got a new message!->SMS1 GF]]</span><<set $phone to 1>><<audio "menus" stop>><<if ndef $mutefx>><<audio "ding" play>><<else>><</if>>
+
+

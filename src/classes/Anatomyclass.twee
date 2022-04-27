@@ -1,0 +1,914 @@
+:: Anatomyclass [textback] {"position":"2097,300","size":"100,100"}
+<<removeclass "html">><<addclass "html" "class">><<audio ":back" mute>><<audio "mozart" volume 0.5 loop play>><<if ndef $anatomy>><img src="classes/anatomy/foster1.jpg" width="40%">
+
+<<speech "foster" "''Foster:''">>
+Hello there. Come in and have a seat.<</speech>>
+<<speech "foster" "''Foster:''">>
+I'm professor Foster, I will be expanding your mind with knowledge. Specifically, you'll learn anatomy. That means understanding the differences between human specimens and how all types of bodies work.
+First up, we'll be learning about the different genders.
+
+Biologicaly speaking, there are only 2 genders: male and female. But in reality, this is not always true. Let me show you:
+This is a woman:
+
+<img src="classes/anatomy/woman.jpg" width="50%">
+
+She has breasts, which can vary in size, as well as a vagina. Women also have a higher concentration of estrogen, which is the main hormone of the female body, the one that help a woman become a woman when they are teenagers. It makes their bodies develop in the ways I mentioned. Women also tend to have very little to no body hair, smooth skin and higher voices.
+There are some studies that say that women have a more developed intelligence than most men, though we usually lose concentration when we are in front of a huge real man, like this one:
+
+<img src="classes/anatomy/alpha.jpg" width="50%">
+
+Alpha men intimidate us women, as they are bigger and stronger than us. This features are considered attractive by all heterosexual women. These men are tall, naturally strong with big muscles and everything big, if you know what I mean. Alphas have to be assertive and confident. They tend to be more succesful in their proffesional life, and that makes them even more attractive.
+
+So, where are you? Who do you identify yourself with the most?<</speech>>
+<<speech "You" "''$name:''">>
+I- I guess the man. I am fairly successful in my job...<</speech>>
+<<speech "foster" "''Foster:''">>
+Which is why your girlfriend is with you, probably. Think about it. What other manly features would you say she sees in you to be attracted to?<</speech>>
+<<speech "You" "''$name:''">>
+She likes my personality. We are in love. I listen to her problems and help her in any way I can. I am a good boyfriend.<</speech>>
+<<speech "foster" "''Foster:''">>
+Boooring...She likes you because you are easy to handle. She likes you because she was probably fed up of men treating her like a whore. She needs something stable. Someone that will not treat her like a bitch: A Beta Male.
+
+<img src="classes/anatomy/beta.jpg" width="50%">
+
+This is a Beta Male. As you can see, he is much smaller than the Alpha, with a permanent compliant smile. This "cuteness" is a tool he usually uses to attract women, but sexuality wise, he has no chance against Alphas.
+
+So, I ask you again: which do you think is closer to you?<</speech>>
+[[Alpha male|Anatomyclass][$anatomy to 1, $sub to $sub -1]]
+[[Beta male|Anatomyclass][$anatomy to 2, $sub to $sub +1]]<<elseif $anatomy is 1>><<speech "foster" "''Foster:''">>
+HA! Yeah, right. *She walks to the board* Okay then. Lets state the facts then, as I see you are not acepting the observable truth. Let's write point by point the features an Alpha must have:<</speech>>
+She writes on the board:
+
+''1. //Muscular big body.//'' 
+
+<<speech "foster" "''Foster:''">>
+Do you think you have that?<</speech>>
+<<speech "You" "''$name:''">>
+Well, not muscular, but I'm not too weak for my height...<</speech>>
+<<speech "foster" "''Foster:''">>
+The facts are: your muscles haven't even started to develop, you are on the very short side spectrum of men.<</speech>>
+<<speech "You" "''$name:''">>
+(She is so rough... straight to the facts.)<</speech>>
+''2. //Assertive and confident.//''
+
+<<speech "foster" "''Foster:''">>
+I've seen you doubt basically every time you speak. You are afraid of your teacher and this makes you feel submissive and inferior, so this is out of the question, right off the bat.<</speech>>
+''3. //Succesful at work.//''
+
+<<speech "foster" "''Foster:''">>
+Yes, you may have money. Though it is by working in an office that you have obtained it. Working for others. A sub. And this is the way you feel more comfortable: being under the command of another person, isn't that right?<</speech>>
+<<speech "You" "''$name:''">>
+It's my job to do what I'm asked to do-<</speech>>
+<<speech "foster" "''Foster:''">>
+Exactly. No choices, no responsibility. Perfect for you. *smiles*
+But, you know...there's something that would change this. Something that would make you a Protoalpha, if you will.<</speech>>
+<<speech "You" "''$name:''">>
+What is that?<</speech>>
+<<speech "foster" "''Foster:''">>
+A PENIS. A BIG PENIS. If you had a manly meat stick you could prove me wrong. You would be more confident and get what you want. You wouldn't need to be strong or muscular. And no woman would care. There are lots of skinny guys with huge cocks. They can satisfy a woman and they know it. They are Alphas. Do you have this BIG COCK?? Show me.<</speech>>
+<<speech "You" "''$name:''">>
+I...I don't have to prove anything to you.<</speech>>
+<<speech "foster" "''Foster:''">>
+C'mon, let me see. It will be fun!<</speech>>
+She gets you up and starts unbuckling your belt, dropping your pants, and then does so with your underwear.
+
+<<speech "foster" "''Foster:''">>
+Well, this is a miracle. It's a miracle that Natural Selection hasn't erased you from Earth yet. This is a sign that you, my darling, are a Beta Male.<</speech>>
+She walks away, leaving you with your weenie exposed to the cold, and so she goes to the board again and erases the 3 points.
+
+<<speech "foster" "''Foster:''">>
+Now that we've determined that you are a Beta Male, let's see what your options are when it comes to mating, having intercourse. We now that women won't be attracted to you, not in this way. Let's get a look at your future:<</speech>>
+<<linkappend "The Sissy">>
+
+<img src="classes/anatomy/sissy1.jpg" width="50%">
+
+<<speech "foster" "''Foster:''">>
+This is a pretty cute sissy specimen. As you can observe, the sissy has a girl's face and skin: it's smooth and cute, soft and kissable. The hair is loooong and girly. She even has two little bumps that look like cute proto-titties, which will continue to get bigger as she continues her hormone treatment. 
+
+The only "boyish" feature is her clitty. That is what we call the apendage that remains from her "beta male" era. It serves a mere aesthetical purpose, and reminds her every day how much of a sissy she is.
+
+This way the girls will treat the pre-beta as an equal, even like a lesbian lover, and the Alpha males will be attracted to her girly features, some even to her clitty, due to the extra domination-role rush.<</speech>>
+She rubs your cheek and lifts your head.
+
+<<speech "foster" "''Foster:''">>
+Nature can be rough sometimes, but it is wise. You are like this, and there's nothing wrong with it. I'm here to help you embrace it. Next class we'll be studying the female body, as I've been told that it might come in handy for you right now.
+
+Class is over. I'm glad you liked it so much!<</speech>>
+She looks right at your fully erect dick.
+
+<<speech "foster" "''Foster:''">>
+Get your pants back on, sweetie. You've got a lot of homework to do...<</speech>>
+Embarrased and aroused, you put your pants back in place and <<click "get out." "Deck 8">><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><</click>><</linkappend>>
+<<elseif $anatomy is 2>><<speech "foster" "''Foster:''">>
+Hmm, nice observation skills. Indeed, you might fall into the beta category. Let's write on the board the attributes that would make you a beta:<</speech>>
+
+''1. //Smaller than the Alpha Male.//'' 
+
+<<speech "foster" "''Foster:''">>
+Well, you are not even 6 feet tall and not muscular. So I'd say you fulfill this first point.'<</speech>>
+
+''2. //Cute face and compliant/humble attitude.//'' 
+
+<<speech "foster" "''Foster:''">>
+I mean, you could get cuter, but i'd say you are pretty cute already. Your skin is smoother than the thick Alpha's, as well as your personality, which is weak and dubitative.
+
+But, you know...there's something that would change this. Something that would make you a Protoalpha, if you will.<</speech>>
+<<speech "You" "''$name:''">>
+What is that?<</speech>>
+<<speech "foster" "''Foster:''">>
+A PENIS. A BIG PENIS. If you had a manly meat stick you could prove me wrong. You would be more confident and get what you want. You wouldn't need to be strong or muscular. And no woman would care. There are lots of skinny guys with huge cocks. They can satisfy a woman and they know it. They are Alphas. Do you have this BIG COCK?? Show me.<</speech>>
+<<speech "You" "''$name:''">>
+I...I don't have to prove anything to you.<</speech>>
+<<speech "foster" "''Foster:''">>
+C'mon, let me see. It will be fun!<</speech>>
+She gets you up and starts unbuckling your belt, dropping your pants, and then does so with your underwear.
+
+<<speech "foster" "''Foster:''">>
+Well, this is a miracle. It's a miracle that the natural selection hasn't erased you from Earth yet. This is a sign that you, my darling, are a Beta Male.<</speech>>
+She walks away, leaving you with your weenie exposed to the cold, and so she goes to the board again and erases the 3 points.
+
+<<speech "foster" "''Foster:''">>
+Now that we've determined that you are a Beta Male, let's see what your options are when it comes to mating, having intercourse. We now that women won't be attracted to you, not in this way. Let's get a look at your future:<</speech>>
+<<linkappend "The Sissy">>
+
+<img src="classes/anatomy/sissy1.jpg" width="50%">
+
+<<speech "foster" "''Foster:''">>
+This is a pretty cute sissy specimen. As you can observe, the sissy has a girl's face and skin: it's smooth and cute, soft and kissable. The hair is loooong and girly. She even has two little bumps that look like cute proto-titties, which will continue to get bigger as she continues her hormone treatment.
+
+The only "boy" feature is her clitty. That is what we call the apendage that remains from her "beta male" era. It serves a mere stetical purpose, and reminds her every day how much of a sissy she is.
+
+This way the girls will treat the pre-beta as an equal, even like a lesbian lover, and the Alpha males will be attracted to her girly features, some even to her clitty, due to the extra domination-role rush<</speech>>
+She rubs your cheek and lift your head.
+
+<<speech "foster" "''Foster:''">>
+Nature can be rough sometimes, but it is wise. You are like this, and there's nothing wrong with it. I'm here to help you embrace it. Next class we'll be studying the female body, as I've been told that it might come in handy for you right now.
+
+Class is over. I'm glad you liked it so much<</speech>>
+She looks right at your fully erect dick. 
+
+<<speech "foster" "''Foster:''">>
+Get your pants back on, sweetie. You've got a lot of homework to do...<</speech>>
+Embarrased and aroused, you put your pants back in place and <<click "get out." "Deck 8">><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><</click>><</linkappend>><<elseif $anatomy is 3>><<speech "foster" "''Foster:''">>
+Hello there. Come in and have a seat.<</speech>>
+<img src="classes/anatomy/foster1.jpg" width="40%">
+
+<<speech "foster" "''Foster:''">>
+Today we are going to study the female body, specially the erogenous parts, which will come in handy for the morning sessions with Captain T, and so with your sexual life in general.
+
+An article showed this graphic as a result of a stadistic study of women erogenous zones:<</speech>>
+<div class="center"><img src="classes/anatomy/erogenous.jpg" width="40%"></div>
+<<speech "foster" "''Foster:''">>
+As you can see, the hottest spots are LIPS, BREASTS and VULVA. Although there are a lot more erogenous zones, and all of them are important, we'll be focusing on these 3 parts.<</speech>>
+<<speech "You" "''$name:''">>
+(This is like going all the way back to highschool, hehe...)<</speech>>
+<<speech "foster" "''Foster:''">>
+Am I sensing a distraction, $name?<</speech>>
+<<speech "You" "''$name:''">>
+N-no...<</speech>>
+<<speech "foster" "''Foster:''">>
+ *she gives you a stern look* This is very serious, $name. For your own benefit, pay attention.
+
+So, as I was saying:
+
+The ''lips'' of a woman are very sensitive which means that a good french kiss from an Alpha Male can make her wet and ready to be penetrated. This usually happens mostly during the preparation for sex, the preliminary phase. After that, the next step for Alpha Men is going for are BREASTS and NIPPLES. These are major hot spots in the female anatomy, very sensitive and arousing. Though these are not for you, because, as you can surely remember, we stated last week that you were a Beta Male. Therefore, the VULVA is the part you need to study the most, so you can please women with your tongue.
+
+Alpha Men don't really need this kind of information, because they usually make a woman orgasm due to their massive functional schlongs.
+
+ *she turns on a TV behind her*
+ 
+Um, yeah...They just put it in, and then out, and so and so...and then...<</speech>>
+<<linkappend "WE CUM!">>
+
+<div class="center"><span class="noborder"><img src="classes/anatomy/squirt1.gif" width="90%"></span></div>
+<<speech "foster" "''Foster:''">>
+And that, my little Beta, is a squirt.<</speech>>
+<<speech "You" "''$name:''">>
+(Oh my god, is she peeing?)<</speech>>
+<<speech "foster" "''Foster:''">>
+I don't expect you to know what that is... *sigh* That is the greatest orgasm a woman can have. Usually needs some Alpha Male to fuck you hard and deep.
+
+Because, you know, a woman's vagina can stretch a lot when aroused. And it's at that state that 6 inches barely do the job. And not only lenght is important, also girth. It is actually more important. As you can see in this video the bigger penis can stimulate the clitoris and G-Spot during the whole penetration due to its girth, and it can also easily reach the cervix:<</speech>>
+<div class="center"><img src="classes/anatomy/smallvsbig.gif" width="60%"></div>
+<<speech "foster" "''Foster:''">>
+But, lucky for you, a Beta's tongue has evolved to be really talented and quick learning. Don't worry, I'll teach you how to do it.<</speech>>
+<<linkappend "... ...">>
+
+<div class="center"><img src="classes/anatomy/vaginamodel.jpg" width="60%"></div>
+
+<<speech "foster" "''Foster:''">>
+This is a average pussy model from the outside. In order to give pleasure to a woman you must concentrate on the clitoris, which the most sensitive part of it. Although you shouldn't go munching it without a proper warm-up, so play for a while with the labia and the clitoris' hood.
+
+And, of course, there's your secret weapon:
+
+The G-Spot. 
+
+It's just a few inches in, and with some good work, you can get a woman to cum using only your fingers and tongue.
+
+Try to get into the vagina and find that pink spot with your fingers and push it as you lick the clitoris, and I assure you, if you do it correctly, she'll cum. Like this:<</speech>>
+<div class="center"><img src="classes/anatomy/squirt2.gif" width="60%"></div>
+<<speech "foster" "''Foster:''">>
+But don't worry, some orgasms are not as watery. A woman can still like sex if you don't make her cum like that. Just don't pretend to compete with Alphas. You just can't. That being said, good luck. 
+
+Now you know the information, and so it's time to try and make Captain T cum. That may soften her heart. Or maybe not... Hahahaha
+
+Next week we'll be learning about YOUR anatomy, and so we'll get deeper into your pleasure. Have a nice week.<</speech>>
+<<speech "You" "''$name:''">>
+Thanks... (this class was actually helpfull!)<</speech>>
+<<click "Bye!" "Deck 8">><<set $badge to $badge +1>><<set $anatomy1 to "Active">><<set $capt to 3>><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><</click>><</linkappend>><</linkappend>><<elseif $anatomy is 4>><<speech "foster" "''Foster:''">>
+Hello there. Come in and have a sit.<</speech>>
+<img src="classes/anatomy/foster1.jpg" width="40%">
+
+<<speech "foster" "''Foster:''">>
+Today we are going to concentrate on your own body. I see you are doing quite well with your... education... You've got a nice soft body, so feminine and cute. As I already showed you in the previous class, Alpha Male bodies are very different from the Beta's and the Sisses'. Here's a visual comparison of a Male and a Sissy:
+
+<img src="classes/anatomy/comparison1.jpg" width="70%">
+
+This lucky sissy already has a beautiful B cup tits, and so natural. She also has a very hot female body, and a little clit. The attribute that really makes a difference is the COCK, or CLITTY in your case. Here is a comparison of them:
+
+<img src="classes/anatomy/comparison.jpg" width="40%">
+
+As it says in the picture, having a smaller penis makes your prostate closer to your ass, or Boi-Pussy in your case. The prostate is the most direct way for a sissy to receive pleasure and achieve orgasms, even more powerful ones. The prostate works as a G-Spot for men. That is your way to go.<</speech>>
+<<speech "You" "''$name:''">>
+Wait, what do you mean?<</speech>>
+<<speech "foster" "''Foster:''">>
+What I mean, my pretty gurl, is that your sexual organ is not your beta-dick. These are your new sexual organs:
+
+<img src="classes/anatomy/organs.jpg" width="40%">
+
+Your Mouth and your Sissy-pussy. Although some girls can come while sucking a dick or even kissing, it is extremely rare, and we should consider the mouth merely as a giving sexual organ. It can give pleasure to others. But, if you want to cum, you'll have to explore your prostate. This is usually done with a dildo or vibrator, but a prostate massage will also make the trick:
+
+<img src="classes/anatomy/prostate.gif" width="40%">
+
+I hope this ilustrates it well enough. You can ask for this kind of massage in the spa if you want. Just say my name and they'll let you in.<</speech>>
+<<speech "You" "''$name:''">>
+(Did she say "...Dildo or vibrator..."?) But I haven't... never...<</speech>>
+<<speech "foster" "''Foster:''">>
+I understand you, I really do. The anus doesn't seem like a good hole to insert things in, but mother nature decided to put your special spot there. There must be a reason... Yes, it's your ass, but it's also a sissy-pussy.<</speech>>
+[[I'd prefer to do it the normal way|Anatomyclass][$anatomy to 5]]
+[[I am not sure about this|Anatomyclass][$anatomy to 6]]<<elseif $anatomy is 5>><<speech "You" "''$name:''">>
+I...I think I prefer the normal way, I don't want to have something in my-<</speech>>
+<<speech "foster" "''Foster:''">>
+I can understand what you say, but listen very carefully: You don't have a dick to stroke. Therefore you need to change your masturbation rituals, and the whole way you apporach sex. It's only logical.<</speech>>
+<<speech "You" "''$name:''">>
+Yes... But it's not like I don't feel anything on my penis-<</speech>>
+<<speech "foster" "''Foster:''">>
+Clitty.<</speech>>
+<<speech "You" "''$name:''">>
+Umm... y-yes. So I can masturbate with it and cum. So I only need to get this thing out *you rub your cage*<</speech>>
+<<speech "foster" "''Foster:''">>
+How many times do you have erection problems? 8 out of 10? And how much cum can you produce? Less than a teaspoon? Look, $name: Mother nature has its ways. You need to succumb to it. Embrace your strong features. You have a larger than average prostate, and a little clitty. Use it to your benefit. Be a full sissy... C'mon, show me your clit.<</speech>>
+<<if $int gte 100>><div class="center"><span class="fade-in-out"><span class="pink">IF ''IQ'' MORE THAN 100</span></span></div>
+You step back.
+
+<<speech "You" "''$name:''">>
+Well, yeah, but that doesn't mean I can't still enjoy it. And erection problem can be treated too. After all, it's my sexuality, isn't it?<</speech>>
+<<speech "foster" "''Foster:''">>
+ *smiles* We've got a smart-ass here, huh? Sure, you could do whatever you want with that tiny thing! But you can't deny that you're on the low end of the "man" spectrum, so women are not going to get near you. Your only sexual future will be a gooner, a masturbator for life. We are trying to give you another future, a better one. People need to develop their talents! You need to learn how to play your cards, and that way you'll end up being happier.<</speech>>
+<<speech "You" "''$name:''">>
+Well yeah... I guess it makes sense. But also, I'm the owner of my sexuality and... penis-<</speech>>
+<<speech "foster" "''Foster:''">>
+Clitty. *smiles*<</speech>>
+<<speech "You" "''$name:''">>
+It's not a clitty!<</speech>>
+<span class="onomatopeya">SLAP</span>
+
+Suddenly, Ms. Foster slaps your face.
+
+<<speech "You" "''$name:''">>
+Ow! *rubs face*<</speech>>
+<<speech "foster" "''Foster:''">>
+I'm the teacher and you are the student. What you have is closer to a clitoris than a penis, both in lenght and use. That's why I call it that. And even if your pride prevents you from calling it that, you just have to wait. It's only natural! If you don't use it... it will SHRINK.<</speech>>
+<<speech "You" "''$name:''">>
+ *scared face* What?<</speech>>
+<<speech "foster" "''Foster:''">>
+You heard me. *smiles* Now, trust me and start exploring your "insides". You will thank me later.<</speech>>
+<<click "Finish class" "Deck 8">><<set $sexdoor to 0>><<set $smsm5 to true>><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><<set $specialmassage to true>><<set $cum to "Active">><<set $anatomy to 7>><<set $badge to $badge +1>><</click>>
+
+
+
+
+
+
+\\<<else>><div class="center"><span class="fade-in-out"><span class="pink">IF ''IQ'' LESS THAN 100</span></span></div>Less embarrased than you would expect to be, you flash your shriveled little dickie and she tickles your shaved sensitive balls.
+
+<<speech "foster" "''Foster:''">>
+This is too cute to pass. Embrace your cuteness, your feminine side. Plus, this cage won't let you stroke anyway, hahaha<</speech>>
+She walks back to the board.
+
+<<speech "foster" "''Foster:''">>
+And on this note, this class is over. Explore your body and find the hidden pleasure that is hidden in your sissy boi-pussy. Or you will NEVER cum again.<</speech>>
+<<click "Finish class" "Deck 8">><<set $sexdoor to 0>><<set $smsm5 to true>><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><<set $specialmassage to true>><<set $cum to "Active">><<set $anatomy to 7>><<set $badge to $badge +1>><</click>><</if>>
+<<elseif $anatomy is 6>><<speech "You" "''$name:''">>
+I...I'm not sure about this...it seems uncomfortable...<</speech>>
+<<speech "foster" "''Foster:''">>
+Oh, no it's not. Anal is very enjoyable for most girls too, but being a biological boy, you will actually feel the pleasure and cum from it. Just like gay couples.<</speech>>
+You look at her about to protest.
+
+<<speech "foster" "''Foster:''">>
+NO, IT IS NOT GAY FOR YOU TO STIMULATE YOUR PROSTATE *sighs and breathes in* It's not gay because you are not an Alpha Male. And furthermore, exploring one's own body doesn't define your sexual identity for God's Sake!<</speech>>
+<<speech "You" "''$name:''">>
+O-Ok...But what's wrong with masturbating with my dick?<</speech>>
+<<speech "foster" "''Foster:''">>
+Clitty.<</speech>>
+<<speech "You" "''$name:''">>
+Umm... y-yes. So I can masturbate with it and cum, why not use it?<</speech>>
+<<speech "foster" "''Foster:''">>
+How many times do you have erection problems? 8 out of 10? And how much cum can you produce? Less than a teaspoon? Look, $name: Mother nature has its ways. You need to succumb to it. Embrace your strong features. You have a larger than average prostate, and a little clitty. Use it to your benefit. Be a full sissy. Show me your clit.<</speech>>
+You flash your shriveled little dickie and she tickles your shaved sensitive balls.
+
+<<speech "foster" "''Foster:''">>
+Aw... This is too cute to pass. Embrace your cuteness, your feminine side. Plus, this cage won't let you stroke anyway, hahaha<</speech>>
+She walks back to the board.
+
+<<speech "foster" "''Foster:''">>
+And on this note the class is over. Explore your body and find the hidden pleasure that's in your sissy boi-pussy. Or you will NEVER cum again.<</speech>>
+<<click "Finish class" "Deck 8">><<set $sexdoor to 0>><<set $smsm5 to true>><<set $cum to "Active">><<set $badge to $badge +1>><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><<set $specialmassage to true>><<set $anatomy to 7>><</click>>
+
+
+
+
+
+\\<<elseif $anatomy is 7>><<speech "foster" "''Foster:''">>
+Oh, please come in and take a seat!<</speech>>
+You close the door behind you and sit on the only chair in the room.
+
+<<speech "foster" "''Foster:''">>
+So? did you follow my last advice? I heard you've been a bad boy... *smiles and licks her lips*<</speech>>
+Your face turns red as a flashback of your masturbation attempts cross your mind again. For a few seconds the room remains silent, as you are not able to make your thoughts coherent enough to explain out loud.
+
+<<speech "You" "''$name:''">>
+Um... yeah... I-I...<</speech>>
+<<speech "foster" "''Foster:''">>
+Yeah... you? You did what?...<</speech>>
+<<speech "You" "''$name:''">>
+(She's really waiting for me to say I wanted to mess around with my <span class="pink">pussy...</span> I mean... ass.) Um... yeah, I followed some of your advices, but... I don't know if it's for me...<</speech>>
+<<speech "foster" "''Foster:''">>
+ *rolls her eyes* Come on, $name! We have already been through this! As a Beta male, your future is only the Sissy, so you should be exploring your sexuality. You know, through your cute little "pussy". Just leave your clit alone and focus!<</speech>>
+<<speech "You" "''$name:''">>
+<span class="pink">I did!</span> But I was too...<</speech>>
+<<speech "foster" "''Foster:''">>
+Too... what?<</speech>>
+<<speech "You" "''$name:''">>
+Too tight...<</speech>>
+...
+
+...
+
+<<speech "foster" "''Foster:''">>
+Hahahahaha... Sorry, I don't mean to laugh, but you've got to recognize it's kinda funny.<</speech>>
+<<speech "You" "''$name:''">>
+I fail to see the comedy, sorry.<</speech>>
+<<speech "foster" "''Foster:''">>
+Hey, watch that tone, you're still in my class. You say you are too tight for a dildo? Let me see that pretty hole. Stand up and bend over the table.<</speech>>
+You do as you're told. As you bend over and your chest touches the table, your uncertainty grows. On one side, you feel a bit scared and dominated, but by now you have already accepted that feeling as part of yourself. On the other side, there's a newer feeling that had been growing inside for a while now: you WANT to be handled. You are aching inside for Ms. Foster to expose your sissy ass and open you up right...
+
+<<if $fit gte 13>><<speech "foster" "''Foster:''">>
+Hm... you've been working on that sissy figure, I can see that.<</speech>><<else>><<speech "foster" "''Foster:''">>
+Hm... that figure could use a bit more training. Are you being a lazy fag? I wouldn't mess around with Rae's patience if I were you. Aaanyway, let's see what you got here...<</speech>><</if>>
+
+Ms. Foster goes straight for your underwear and she pulls them down halfway. With your ass uncovered, she takes her time to examine it closely. Her hand grabs your right butt-cheek and pushes it to the side.
+
+<<speech "foster" "''Foster:''">>
+Wow, I can definitely tell you're a virgin, cutie. It's so smooth I even doubt you've ever taken a shit... Jesus... Look at me! A woman of science mentioning the Lord, and all because of your pretty pink sissy-pussy... hm...<</speech>>
+For an incredible amount of time she holds the position, just looking at your tight anus.
+
+<<speech "You" "''$name:''">>
+(What's this? A museum??)<</speech>>
+Even before you can break the silence, the sound of a latex glove stretching breaks it for you.
+
+<<speech "foster" "''Foster:''">>
+There, I know it looks cute and clean, but you can't expect a sissy noobie to know about her new hygiene rituals... Now, where were we? Oh, right...<</speech>>
+Suddenly a latex covered finger starts pushing against your anus.
+
+<<speech "foster" "''Foster:''">>
+$name, you're pushing against it. You have to breathe and relax, so my finger can penetrate you...<</speech>>
+She presses a bit harder and you can't help but exhale heavily, making a slight moan come out.
+
+<<speech "foster" "''Foster:''">>
+That's the response I would expect from you, but how is this pussy so tight? You can't even take a pinky properly?<</speech>>
+<<speech "You" "''$name:''">>
+(Is that the pinky? Good it feels like a thumb...) I think I need some lube and...<</speech>>
+<<speech "foster" "''Foster:''">>
+Yeah, I know, $name. This is not about your pleasure yet. I'm just testing your tightness, and let me tell you. You are going to have to work hard... This might be the tightest anus I've ever even heard of... May I have the tip of my pinky back?<</speech>>
+You thought you had finally taken the finger, but just the tip was in. And now you were unwillingly clenching your ass around her finger. With a quick pull, Ms. Foster takes her finger back and throws the glove away to the trash.
+
+<<speech "foster" "''Foster:''">>
+Ok, now. You can sit back down... (I thought Stoya was doing her job...)<</speech>>
+You put your underwear back on and sit down on your chair. You almost feel like going to school and not passing the test...
+
+<<speech "You" "''$name:''">>
+So, is everything ok?<</speech>>
+<<speech "foster" "''Foster:''">>
+Well, yeah, sure. Some might even say perfect, but trust me. You are going to need some help with that, or else... your sissy-pussy will end badly... I think I need a second opinion. Follow me, $name.<</speech>>
+<<speech "You" "''$name:''">>
+(So what's this now? A school trip?)<</speech>>
+Ms. Foster takes you to the nearby Sex-Shop, then makes you go first.
+
+<div class="center"><img src="classes/anatomy/sexshop.jpg" width="50%"></div>
+
+As you get in the large shop, you see two women talking near the counter.
+
+<<speech "tara" "''Tara:''">>
+Well, I'm not sure about size, you know? So I would probably take one which I can change the dildo... Just make it so I can thrust properly-<</speech>>
+<<speech "lucy" "''Lucy'':">>
+Oh, hey, speaking of the devil! Oh, and you too Ms. Foster. So, is there something you guys wanted?<</speech>>
+<<speech "foster" "''Foster:''">>
+Yeah, we are in the middle of a lesson. I think we are going to need to do Plan B.<</speech>>
+<<speech "lucy" "''Lucy'':">>
+Oh, Plan B? Getting interesting, huh? *wink at you*<</speech>>
+<<speech "You" "''$name:''">>
+(Plan? What plan?)<</speech>>
+<<speech "tara" "''Tara:''">>
+Oh, I see... you're gonna need some help with that, honey... *smiles*<</speech>>
+<<speech "lucy" "''Lucy'':">>
+I presume you want to come inside so we can start testing, right? I know testing is your thing, huh Foster? Hehe<</speech>>
+<<speech "foster" "''Foster:''">>
+What can I say... I like my job sometimes.<</speech>>
+<<speech "You" "''$name:''">>
+Excuse me, I don't mean to interrupt, but what's going on? What plan?<</speech>>
+<<speech "lucy" "''Lucy'':">>
+Oh, nothing. Pay no attention to our chattery, $name. What matters is that we want to help you. Follow me, Ms. Foster, bring your student.<</speech>>
+<<speech "You" "''$name:''">>
+Wait, I need to know what's happening!<</speech>>
+Lucy has already starting walking to the right side of the store, and so Ms. Foster grabs your arm and pulls.
+
+<<speech "foster" "''Foster:''">>
+Come on. There'll be some explaining once we are on it.<</speech>>
+<<speech "You" "''$name:''">>
+No, but-<</speech>>
+Tara puts her hand over Foster's and looks at her. Ms. Foster understands and takes her hands off you.
+
+<<speech "tara" "''Tara:''">>
+C'mon baby, just grab my hand and follow me. I promise you will be ok, we're just going to take some measurements, so we can start helping you properly. *gives you a kiss on the cheek*<</speech>>
+Her soft lips and sweet scent makes you forget about your doubts and grab her hand. By the time you two start walking to the right side of the store, Ms. Foster had almost arrived there.
+
+<div class="center"><img src="classes/anatomy/golden.jpg" width="50%"></div>
+You pass through a very sexy golden sculpture, and you arrive to an opened black door and get inside a dark room, where only a table in the middle of the room is illuminated.
+
+<<speech "lucy" "''Lucy'':">>
+Alright! Just lay down on the table, face up please!<</speech>>
+Tara guides you to do so. When you are layed down, Lucy raises the table a bit. The lights and the position makes you feel like if you were at the dentist. Then, with a quick move, Lucy takes your pants off, grabs your legs and gently pushes them onto your chest, exposing your bottom and cage.
+
+<<speech "tara" "''Tara:''">>
+That's my brave boy... have you girls ever seen something cuter? I bet not...<</speech>>
+<<speech "lucy" "''Lucy'':">>
+I've got to admit, that's one cute little white ass. *slap*<</speech>>
+Lucy takes your legs and ties them to the sides with a few straps. You look at Tara with a worried look on your face.
+
+<<speech "tara" "''Tara:''">>
+ *smiles* Honey... don't look at me like that! I've already told you that you've got nothing to worry about! These girls are just overly scientific...<</speech>>
+<<speech "foster" "''Foster:''">>
+Remember, Tara. We're not doing this for pleasure... only.<</speech>>
+Lucy brings out a series of sex toys, very well organized. Buttplugs of all sizes, as well as dildos.
+
+<<speech "lucy" "''Lucy'':">>
+Alright then, I see you are particularly attached with "her", so why don't you do it, Tara? Choose your "weapon"...<</speech>>
+<<speech "tara" "''Tara:''">>
+Oh... which one should I choose? Maybe just a 7 inch dildo for now?<</speech>>
+Tara takes the 7 inch white dildo and gets in front of you. You can see by her face that she's very excited to try this out, and in some way you are too... You feel like you would do whatever she wanted, but you just wish it was a bit more intimate...
+
+<<speech "foster" "''Foster:''">>
+I should mention that "she"'s no good without lube. Not even a pinky.<</speech>>
+<<speech "tara" "''Tara:''">>
+Oh, right...<</speech>>
+Tara takes a bottle of lube that was on a table on the side and splashes a few ropes over the dildo.
+
+<<speech "tara" "''Tara:''">>
+Here comes my little friend...<</speech>>
+Tara starts pressing against your ass, but after a few tries, she can't even put the tip in.
+
+<<speech "lucy" "''Lucy'':">>
+Hm, not even with lube... We should definitely go straight to the buttplugs then. And I would suggest some intense training, Ms. Foster...<</speech>>
+<<speech "tara" "''Tara:''">>
+Maybe this little guy?<</speech>>
+<div class="center"><img src="classes/anatomy/buttplug.jpg" width="50%"></div>
+
+Tara takes the smallest buttplug and soaks it in lube. After pushing for a little while and trying to relax your pussy, a loud pop fills the room.
+
+<span class="onomatopeya">POP</span>
+
+<<speech "foster" "''Foster:''">>
+Yeah, that's the start...<</speech>>
+<<speech "lucy" "''Lucy'':">>
+I thought the small buttplug wouldn't ever get used, but seems like I was wrong... Hahaha Keep that in, let me un-strap you and stand up, we need to talk about your training.<</speech>>
+You do as you're told and stand up in the middle of the room.
+
+<<speech "You" "''$name:''">>
+(Ahh... it's pressing against my insides...)<</speech>>
+Lucy and Foster sit down on some comfy chairs you hadn't seen before. Tara stays up, next to you, grabbing your back, with the ocasional butt-cheek rub. The buttplug continues to press against your insides, and your exposed caged penis seems to have a clear reaction to it. It starts leaking a drop of pre-cum.
+
+<<speech "foster" "''Foster:''">>
+Ok, then. So, about your training: you are deifinitely going to need a thorough ANAL TRAINING. Although you've already been trained in cunnilingus, that doesn't mean you can neglect "other" oral sex techniques. So you will also have an ORAL TRAINING.<</speech>>
+Nothing can surprise you at this point, so you just hear and accept whatever she says. Meanwhile, Tara lowers her hand and tries to take the buttplug, making it move and teasing you even further.
+
+<<speech "foster" "''Foster:''">>
+I know your schedule is already quite filled with important classes, so these ones will be taught within my class-time, as well as incorporated in others. I would suggest that Captain T continued to be in charge of your oral progress, and you seem to like Tara for the anal, so she will be visiting us for half of the class and "lending a hand".
+
+Understood?<</speech>>
+The big drop of pre-cum starts dangling too much and eventually falls to the floor, making it very visible.
+
+<<speech "lucy" "''Lucy'':">>
+Hahaha such a naughty girl, already enjoying it... you are in for a treat *she points the other toys*<</speech>>
+<<speech "foster" "''Foster:''">>
+That's fantastic, but, please, focus: Mondays on my class, Tara will visit. Everyday on Captain T's class, she will help you practice your oral skills. I hope she can find enough time for that...<</speech>>
+<<speech "You" "''$name:''">>
+Y-yeah, understood... *squirm*<</speech>>
+After teasing you for a while, Tara finally leaves the buttplug alone.
+
+<<speech "foster" "''Foster:''">>
+Nice, then. Class is over.<</speech>>
+<<speech "lucy" "''Lucy'':">>
+You can come anytime you want if you think you need an "upgrade". *wink, wink*<</speech>>
+Tara and Lucy stay at the store, talking about whatever they were talking about before you interrupted them. Ms. Foster leads you out and back to the Library. Without saying a word more, she gets in her classroom and closes the door.
+
+<<speech "You" "''$name:''">>
+(I guess that's it... God, this thing feels... weird? <span class="pink">not awful... mm...</span>)<</speech>>
+<<click "Finish class" "Deck 8">><<set $anatomy to 8, $capt to 8, $anal to 1, $oral to 1, $cum2 to "Finished", $cum3 to "Active", $badge to $badge +2, $buttplug to true>><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><</click>>
+
+
+
+
+
+\\<<elseif $anatomy is 8>><div class="center"><img src="classes/anatomy/foster4.jpg" width="30%"></div>
+<<speech "foster" "''Foster'':">>
+Oh, umm, hi there. Please, come in.<</speech>>
+You recognize the smell in the room quite well.
+
+<<speech "You" "''$name'':">>
+Hi, thanks... (was she masturbating?)<</speech>>
+<<speech "foster" "''Foster'':">>
+ *ahem* Excuse my lack of apparel, it's hot in here isn't it?<</speech>>
+<<speech "You" "''$name'':">>
+I-I'm fine...<</speech>>
+She rubs her neck and cleavage while blushing and looking around.
+
+<<speech "foster" "''Foster'':">>
+Anyway... moving on. We'll have to make sure that your pretty pussy is stretching properly, but we'll meet Lucy and your loved Tara later. For now, we have enough time for a very important lesson.<</speech>>
+Ms. Foster walk to the other side of the room. You can tell by her bouncing boobs that she's probably not wearing a bra.
+
+<<speech "You" "''$name'':">>
+(What's up with her...?)<</speech>>
+Then she walks onto the board and starts writing on it:
+
+<div class="center">//''USEFUL, NUTRITIOUS & TASTY''//</div>
+<<speech "foster" "''Foster'':">>
+Extra points if you can guess what are we going to talk about today.<</speech>>
+<<if $int gte 100>><div class="center"><span class="pink"><span class="fade-in-out">⬇︎ IF ''INT'' MORE THAN 100 IQ ⬇︎</span></span></div>
+<<speech "You" "''$name'':">>
+(Well, that's easy points...) We're talking about ''CUM'', of course.<</speech>>
+<<speech "foster" "''Foster'':">>
+Exactly, very good. I see you are already familiar with it, or at least curious about it. I appreaciate curiosity in my students. Take 50 points!<</speech>>
+<div class="center"><span class="notplus">''+50 POINTS''</span></div><<set $points to $points +50>>
+
+You can't help to smile, happy for getting it right.
+
+<<speech "You" "''$name'':">>
+<span class="pink">*giggle*</span><</speech>>
+<<speech "foster" "''Foster'':">>
+Shh, no laughing in my class. I know you're excited for this class, gurl, but we're still learning.<</speech>>
+For some reason you don't fully understand, your little penis engorges a bit and strains against the cage. Her sternness, along with her exposed cleavage is making you horny.
+
+\\<<else>><div class="center"><span class="pink"><span class="fade-in-out">⬇︎ IF ''INT'' LESS THAN 100 IQ ⬇︎</span></span></div>
+<<speech "You" "''$name'':">>
+Useful? Nutritious? ... What?<</speech>>
+<<speech "foster" "''Foster'':">>
+Heh, dear god little boy... it's not that hard. I think someone should visit the library a bit more... No points for you.<</speech>>
+<<speech "You" "''$name'':">>
+ *sigh*<</speech>>
+<<speech "foster" "''Foster'':">>
+Anyway, these words might not be ringing a bell, but I bet if you saw it, smelled it or tasted it, you would find it veeeery familiar, woudn't you? *smiles* Now, of course, we'll be talking about ''CUM''<</speech>>
+As she mentions that word, you can't help but feel interested.<</if>>
+
+<<speech "foster" "''Foster'':">>
+Now, as you might know, the scientific name is ''SEMEN''. Let me illustrate.<</speech>>
+She brings the TV to the board, right in front of you.
+
+<<speech "foster" "''Foster'':">>
+''SEMEN, SPERM, CUM, SEED, JIZZ...'' You can find it as many names, everyone has its favourite. Mine? Well, if we're talking about it, then ''SEMEN'', of course. With a man, probably ''NUT''. I bet you have your favourite, right?<</speech>>
+<<speech "You" "''$name'':">>
+Um... I don't really know. I guess ''CUM''?<</speech>>
+<<speech "foster" "''Foster'':">>
+Ugh, so generic... But, no matter how you want to call it, you must know what it's composed of.<</speech>>
+She presses a button and an image appears on the screen.
+
+<<linkreplace "CLICK">><div class="center"><img src="classes/anatomy/semen1.jpg" width="50%"></div>
+<<speech "foster" "''Foster'':">>
+As you can see on this graphic, most of the liquid that composes cum is NOT semen! Fascinating, isn't it? There's usually only a concentration of 5-10% of sperm inside of a load. The rest is seminal plasma, prostate fluids and some mucus.<</speech>>
+<<speech "You" "''$name'':">>
+(Oh, wow...)<</speech>>
+<<speech "foster" "''Foster'':">>
+And so, you must be wondering: <span class="pink">"why is all that stuff in there? Why can't I have just the sperm?"</span> And, well, we'll talk about sperm concetration variation further in the lesson. But it's important that you understand that all those fluids are what protect the sperm and keep it alive for impregnation. Do you know where you can find all those extra liquids, besides cum?<</speech>>
+<<speech "You" "''$name'':">>
+Um...<</speech>>
+<<speech "foster" "''Foster'':">>
+Pre-cum! It's only obvious! And as you know pre-cum is also meant to lubricate the penetration, so it's an all-in-one! Now let's talk about ''UTILITY''<</speech>>
+<span class="onomatopeya">CLICK</span>
+
+<div class="center"><img src="classes/anatomy/semen7.gif" width="50%"></div>
+<<speech "foster" "''Foster'':">>
+Yes, reproduction. That's the original reason for sex. This is no mystery, even for you. But, this is linked with the first class we had. It's not a coincidence that us girls like what we like. We look for healthy specimens for breeding, that's how we choose our lovers. Of course, lovers and partners are not the same. We look for different characteristics in a man, depending on which our goal is. But if your goal is getting pleasure and being bred, we'll always look for the ALPHA MAN.<</speech>>
+<<speech "You" "''$name'':">>
+ *Nod*<</speech>>
+<<speech "foster" "''Foster'':">>
+Heh, nice seeing you complying that easily... As I said, ALPHA MEN have more superior properties than just a huge cock to pleasure us. Let me illustrate:<</speech>>
+<<linkreplace "CLICK">><div class="center"><img src="classes/anatomy/semen3.jpg" width="60%"></div>
+You open your mouth, surprised by the enormous slab of black meat in front of you.
+
+<<speech "You" "''$name'':">>
+... ...<</speech>>
+<<speech "foster" "''Foster'':">>
+Shh, focus... *raises your chin* Now, as you can see, the differences are not only the obvious ones. The amount of cum produced per load is very different. Here they have counted the whole load, including the spurts and last dribbles. On average, an alpha ''black'' man ejaculates 2,9fl.oz. or 85 ml, while the beta ''white'' cuck makes 0,16fl.oz. or almost 5 ml.
+
+We're talking of an alpha ''black'' man producing 18 TIMES MORE SEMEN. And you can tell most of it is getting in "there", because... c'mon, you know this one... *wink*<</speech>>
+<<speech "You" "''$name'':">>
+B- because it's so big...?<</speech>>
+<<speech "foster" "''Foster'':">>
+E X A C T L Y. But even though if the cock wasn't as massive, the ejaculation distance is so much more. It's 11 feet instead of 3 inches... yeah, do the math... Even if the beta boy was hard and balls deep, his load might not even reach the womb!<</speech>>
+You really are loving this class, and so is your caged little friend. You can feel your pre-cum leaking out of it and wetting your underwear.
+
+<<speech "You" "''$name'':">>
+ *blush* Hmm...<</speech>>
+<<speech "foster" "''Foster'':">>
+I know, honey... That black cock, huh? Irresistible... Just imagine a mouthfull of cum from that monster, leaking down your neck...<</speech>>
+Foster caresses her neck and goes down her cleavage while licking her lip and looking straight at you. Suddenly, she start talking again.
+
+<<speech "foster" "''Foster'':">>
+And of course, that sperm percentage goes up depending on the size of the balls, which is directly related to testosterone. What would be a 5-10% on an average white guy can be a 30-40% on a black stallion. That would explain the difference in consistency too. You usually end up with a little liquidy translucent squirt on your hand, and they have thick pure white loads all over the bed.<</speech>>
+<<speech "You" "''$name'':">>
+Oh...<</speech>>
+Lots of memories from the school camps come to your head. You remember that time when the guys got on a circle and were jerking off to a poster of a hot chick. You had forgotten it, but you remember being impressed by how far all the boys could send their load flying. You just spurted on your hand, like if it was just leaking out.
+
+<<speech "foster" "''Foster'':">>
+And that's why we choose alpha men for pleasure and getting bred. Now that that's cleared up, let's get into ''NUTRITION''<</speech>>
+<<linkreplace "CLICK">><div class="center"><img src="classes/anatomy/semen2.jpg" width="50%"></div>
+<<speech "foster" "''Foster'':">>
+Yeah, I know. It's cute how scientists try to tell us that a teaspoon is the normal amount of cum per load, but let's take this data as for betas. Then, we can escalate for alphas.<</speech>>
+<<speech "You" "''$name'':">>
+Aha... (yeah, I mean... a teaspoon? That feels small. Although... I don't think I would be able to cum much more)<</speech>>
+<<speech "foster" "''Foster'':">>
+Let's talk calories and macro-nutrients. There are from 5 to 25 calories on every 5ml of ejaculate. Since the nutritious stuff is on the sperm and this is based on betas, let's assume it's going to be the lesser amount. Around 10 calories per load. That is barely anything, right?<</speech>>
+<<speech "You" "''$name'':">>
+Yes... I-I know an adult person should be having around 2000 a day?<</speech>>
+<<speech "foster" "''Foster'':">>
+Very good! Although it depends. For you, it'll be around 1500 a day. But, as you can tell, 10 calories per load in almost nothing to ingest. This is sooo much different if we escalate the numbers for Alpha cum:
+
+Their loads are 85ml on average. That'll be 170 calories per load! Now, two of those and that's a meal! Isn't that amazing??<</speech>>
+<<speech "You" "''$name'':">>
+F-for real? (Wow, that IS crazy...)<</speech>>
+<<speech "foster" "''Foster'':">>
+Yes, but wait! That's 170 calories if we assume the same sperm percentage as for betas. To do this properly, we would have to raise it from 10 calories per 5ml to 25 calories per 5ml. Let's try that:
+
+That would be 85ml of load, 25 calories per 5ml... Just above 400 calories per each perfect alpha load. That would mean that 4 alpha load would get you covered on calories for the day!<</speech>>
+You stare at her, amazed by her ability to do quick math on her head.
+
+<<speech "You" "''$name'':">>
+That is amazing... and the facts too. (Wow, this class is actually getting more interesting)<</speech>>
+<<speech "foster" "''Foster'':">>
+ *smirks* The class always seems more interesting the more passionate you are about the subject.<</speech>>
+<<speech "You" "''$name'':">>
+... ... *blush*<</speech>>
+<<speech "foster" "''Foster'':">>
+But having your caloric intake covered is not all there is to a proper nutrition. There are also macro-nutrients. I won't get into it too much. I bet Holli will love to get deeper into it. But, I will talk about protein. This is the most important one, since you might lose all muscle and strength if you don't have a minimal amount of it daily.
+
+If you were to take those 4 alpha loads every day, you would never have to worry about it. Cum is high in protein, specifically sperm. It is usually compared to egg whites, which is the most pure animal protein you can consume. Have I convinced you yet?<</speech>>
+<<speech "You" "''$name'':">>
+Ye- (oops) Um... not really.<</speech>>
+<<speech "foster" "''Foster'':">>
+Hahaha yeah, right...<</speech>>
+<span class="onomatopeya">CLICK</span>
+
+<div class="center"><img src="classes/anatomy/semen4.jpg" width="45%"></div>
+<<speech "foster" "''Foster'':">>
+What about now? Hahaha<</speech>>
+<<speech "You" "''$name'':">>
+Wha- is that a commercial? Since when has cum had a place in nutrition?<</speech>>
+<<speech "foster" "''Foster'':">>
+Heh, well there's more that you know to that. This is from an old commercial. Of course, catholic pricks took it out soon enough for it to even start to work. But it doesn't matter. Nature always finds a way. In fact, there's also lots of other uses for male cum, most of them developed in universities and tested.<</speech>>
+<div class="center"><img src="classes/anatomy/semen5.jpg" width="50%"></div>
+<<speech "foster" "''Foster'':">>
+Aside from cuisine, semen is really good for your hair, face and it's proved to make you less depressed upon consumption! Getting hungry? Hahaha<</speech>>
+You suddenly start thinking about all the women you know and how smooth their skin and hair are...
+
+<<speech "foster" "''Foster'':">>
+Now, before ending the class, let's get to what I feel is the most important part for a healthy growing sissy like you, especially now that you'll likely be... "experimenting": ''TASTE''<</speech>>
+<<linkreplace "CLICK">><div class="center"><img src="classes/anatomy/leak.jpg" width="30%"></div>
+<<speech "You" "''$name'':">>
+ *gasp*<</speech>>
+<<speech "foster" "''Foster'':">>
+Shh... settle down... be a good gurl. Now, how would you say that tastes?<</speech>>
+<<speech "You" "''$name'':">>
+Um... I guess I don't know. Maybe, just like pre-cum?<</speech>>
+<<speech "foster" "''Foster'':">>
+ *sigh* Yeah, that's what I thought. That's wrong, $name. Yes, men ejaculate has a distinct taste, but it's not generic for all. In fact, I would argue that each man has a different taste. There are lots of factors that can impact its taste, some of them are genetic, just as any other trait. But there are also thing men can do to alter its taste. Let's illustrate:<</speech>>
+<div class="center"><img src="classes/anatomy/semen6.jpg" width="58%"></div>
+<<speech "foster" "''Foster'':">>
+You can modify the taste of the cum of your man by giving him several food options. Coffee and dairy make for a bitter cum, fruit is usually sweeter and meat generally adds a subtle change to the thickness of the pre-cum. You can know lots of things by tasting a man's nut... A proper sissy should be able to tell different men apart just by the taste of their semen. But we'll get there, hehe...<</speech>>
+<<speech "You" "''$name'':">>
+We'll get there...?<</speech>>
+<<speech "foster" "''Foster'':">>
+Yeah, little boy. I'll get you there. *pats your head*<</speech>>
+You look forward to the picture again, thinking about your luck or lack thereof...
+
+<<speech "foster" "''Foster'':">>
+Understood? Got everything? *smiles* Now, we'll have a chance to talk about the way a sissy should approach the duty when having a man ejaculating on her. But for now, I'll leave that to the Captain... *wink*<</speech>>
+She pushes the TV away from the board and walks to you.
+
+<<speech "foster" "''Foster'':">>
+C'mon, stand up. We've got to go down to Lucy.<</speech>>
+You comply and stand up. Suddenly, Foster grabs your bulge, feeling your caged glans.
+
+<<speech "foster" "''Foster'':">>
+Yeah, that's what I though... wet as fuck. *smirks*<</speech>>
+She let's you go and starts walking to the sex shop. You step up and follow her.
+
+<<click "Follow her" "Anatomyclass">><<set $anatomy to 9>><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><</click>><</linkreplace>><</linkreplace>><</linkreplace>><</linkreplace>>
+
+
+
+\\<<elseif $anatomy is 9>><<removeclass "html">><<addclass "html" "sexshop">><<if ndef $colordildo>>Ms. Foster takes you down to the sex shop. As soon as you arrive, Lucy welcomes you.
+
+<div class="center"><img src="passengers/lucy.png" width="50%"></div>
+<<speech "lucy" "''Lucy'':">>
+Oh, hi sweetie! Let's get straight to business.<</speech>>
+Lucy puts a sign on the counter and takes you to the side door. As she opens the door, you can see that the Captain and Tara are already there.
+
+<<speech "tara" "''Tara'':">>
+Heyyy, come here!<</speech>>
+Tara walks to you and pats your back, so Foster can sit down next to Captain T.
+
+<<speech "tara" "''Tara'':">>
+What have you told her? She looks between scared and horny! Hahaha<</speech>>
+<<speech "foster" "''Foster'':">>
+... ... We don't have time for this. Come on, Tara, don't make Captain wait.<</speech>>
+Captain T stays quiet, looking at you with a smirk on her face. Without further adue, Tara takes you and bends you down the nearby table, having access to your ass. She takes your underwear down and starts poking it.
+
+<div class="center"><img src="classes/anal/pokeit.gif" width="55%"></div>
+<<speech "tara" "''Tara'':">>
+It is definitely more tender... but we'll still need to get it ready. Are you girls seeing this? It's like the best ass-pussy I've seen in my life!<</speech>>
+<<speech "foster" "''Foster'':">>
+She has improved, yes... She probably messed with it. Maybe the buttplug is doing its job.<</speech>>
+<<speech "cap" "''Captain T'':">>
+Get on with it.<</speech>>
+Tara rolls her eyes and focuses on your anus. <<if $buttplug is true>>Then she takes the buttplug out of it.
+
+<span class="onomatopeya">POP</span>
+
+<<speech "You" "''$name'':">>
+ *gasp* (I didn't even feel it anymore...)<</speech>>
+You breathe in, definitely noticing the difference and feeling relieved for a minute.<<else>><<set $points to $points -50>>
+
+<<speech "tara" "''Tara'':">>
+Huh... no buttplug? That's not good...<</speech>>
+<<speech "foster" "''Foster'':">>
+Ehem! 50 points will be taken from you for that.<</speech>>
+<<set $points to $points -50>><</if>>
+
+<<speech "tara" "''Tara'':">>
+Yeah, just relax...<</speech>>
+Suddenly, Tara walk away and bring out a colored dildo from the side table.
+
+<span class="noborder"><div class="center"><img src="classes/anal/colordildo.png" width="30%"></div></span>
+Then, she sticks it quickly right into the floor with a loud POP.
+
+<span class="onomatopeya">POP</span>
+
+<<speech "cap" "''Captain T'':">>
+You know what to do...<</speech>>
+Tara takes a step back so you can stand up and look at it. You look Captain T in the eyes, and it does not take long before you understand.
+
+<<speech "You" "''$name'':">>
+(She probably wants me to <span class="pink">blow it...</span> That's all I do in her class...)<</speech>>
+You kneel and approach the dildo with your open mouth.
+
+<<speech "cap" "''Captain T'':">>
+No, no... the other end, sissy boy.<</speech>>
+You blush as you understand that they really want you to take the dildo in the middle of the room.
+
+<<speech "You" "''$name'':">>
+B-but... it's too big...<</speech>>
+<<speech "foster" "''Foster'':">>
+Come on, don't be like that. You know you are going to take it one way or another.<</speech>>
+Tara comes from the back and squirts a blob of lube into her hand. Then she rubs it all along your hole.
+
+<<speech "You" "''$name'':">>
+Ooohh, it's cold...<</speech>>
+The women giggle at how adorable you are. A few seconds pass, but you know you are not getting out of this without doing it.
+
+<<if $sub gte 30>>[[Squat on it|Anatomyclass][$colordildo to 0]]<<else>><<linkreplace "Squat on it">>Not enough SUB...<</linkreplace>><</if>>
+[[Stay undecided|Anatomyclass][$colordildo to 1]]
+
+
+\\<<elseif $colordildo is 0>>Lube leaking down your thighs, you start lowering your ass into the dildo. You suddenly feel the tip pushing against your asshole, so you let your weight do the hard work and let it get in little by little.
+
+<<speech "tara" "''Tara'':">>
+There you go... *rubs your ass cheek from behind*<</speech>>
+<<speech "You" "''$name'':">>
+Aahhh...<</speech>>
+The colored dildo was a bit thicker than you expected, but once the tip pops inside, you get a better grip of the situation and can get lower on it.
+
+<<speech "lucy" "''Lucy'':">>
+Look at how she's struggling to take that... heh...<</speech>>
+You feel the dildo get far inside, but after taking a few inches you feel some weird pressure and you stop there. Suddenly, you feel Tara leaning onto you and lightly pushing your shoulders down.
+
+<<speech "tara" "''Tara'':">>
+Ooops! *giggle*<</speech>>
+<<speech "You" "''$name'':">>
+Ow, ow, ow!<</speech>>
+She finally stops and you're not going down anymore.
+
+<<speech "lucy" "''Lucy'':">>
+Well, not too bad I guess. You almost reached green... Just under 6 inches!<</speech>>
+<<speech "cap" "''Captain T'':">>
+Well, almost a white guy's average dick, not bad. I must say, you're doing better at anal than oral. Great work, Tara.<</speech>>
+<<speech "tara" "''Tara'':">>
+ *smiles* Well I haven't done much...<</speech>>
+<<speech "lucy" "''Lucy'':">>
+Anyway, since you've advanced somewhat, we'll be changing buttplugs. I'll know if you take it out.<</speech>>
+She walks closer to you, bringing a bigger one and your last to compare.
+
+<div class="center"><img src="classes/anal/compare1.jpg" width="50%"></div>
+Once she shows it, she pulls you up, getting the dildo out of you and puts the buttplug in with a single move, taking advantage of the momentary gape.
+
+<span class="onomatopeya">POP</span>
+
+<<speech "You" "''$name'':">>
+Aaah... ouch...<</speech>>
+<<speech "lucy" "''Lucy'':">>
+Just a little pop and you're all plugged up! We're finished.<</speech>>
+You stand up and you really notice the change. At first it is hard even walking, but you get used to it quicker than expected. Captain T and Foster get out with Lucy, while Tara leads you out the Sex Shop.
+
+<<click "Get out" "Deck 8">><<set $anatomy to 10>><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><</click>>
+
+
+
+\\<<elseif $colordildo is 1>>Since you're not doing anything about it, Lucy stands up and pushes you into the dildo while re-directing it to your ass.
+
+<<speech "lucy" "''Lucy'':">>
+There, right there.<</speech>>
+No matter how much she pushes you, your asshole is tightly sealed from feeling pressured and embarrased of doing this before 4 grown women. Of course, it's turning you on, but it's also very stressing at the same time.
+
+<<speech "You" "''$name'':">>
+I just... can't right now...<</speech>>
+<<speech "foster" "''Foster'':">>
+Pull yourself together, $name. We need to measure and compare.<</speech>>
+Despite the huge amount of lube that Tara put all over your anus, it is not getting in.
+
+<<speech "lucy" "''Lucy'':">>
+Damn, boy... that pussy is tight! You're going to make a man very happy one day!<</speech>>
+<<speech "cap" "''Captain T'':">>
+Well, I guess that's a fail for the anal training. Something to say, Tara, Lucy?<</speech>>
+<<speech "tara" "''Tara'':">>
+No, it's not a fail. I can tell she's just nervous.<</speech>>
+<<speech "foster" "''Foster'':">>
+But that's also something she's got to work out as well.<</speech>>
+<<speech "tara" "''Tara'':">>
+Yeah, that's an extra work she's gotta do.<</speech>>
+<<speech "lucy" "''Lucy'':">>
+Women, don't worry about it, really. There are ways...<</speech>>
+<div class="center"><img src="classes/anal/finger1.gif" width="50%"></div>
+Lucy sticks two fingers inside you ass and opens it as far as she can while lowering your hips.
+
+<<speech "You" "''$name'':">>
+Owwwwie!<</speech>>
+<span class="onomatopeya">POP</span>
+
+<<speech "lucy" "''Lucy'':">>
+There, now push...<</speech>>
+She pushes you down hard until you reach a reasonable color. Since you're undecided and tense, you don't go as far down as expected.
+
+<<speech "cap" "''Captain T'':">>
+Not even half... well that's disappointing... *writes on her paper* You're doing better at oral after all... interesting.<</speech>>
+<<speech "foster" "''Foster'':">>
+I'm guessing Tara's right actually. If that was a real cock from a real man, $name wouldn't have a choice anyway.<</speech>>
+<<speech "cap" "''Captain T'':">>
+Yeah, you're right. But we're trying to make her be the best she can be. And THOSE are not the results we're looking for. I expect more from you, $name.<</speech>>
+<<speech "lucy" "''Lucy'':">>
+Well, we'll have to fix that.<</speech>>
+She walks closer to you, bringing a bigger one and your last to compare.
+
+<div class="center"><img src="classes/anal/compare1.jpg" width="50%"></div>
+Once she shows it, she pulls you up, getting the dildo out of you and puts the buttplug in with a single move, taking advantage of the momentary gape.
+
+<span class="onomatopeya">POP</span>
+
+<<speech "You" "''$name'':">>
+Aaah... ouch...<</speech>>
+<<speech "lucy" "''Lucy'':">>
+Just a little pop and you're all plugged up! We're finished.<</speech>>
+You stand up and you really notice the change. At first it is hard even walking, but you get used to it quicker than expected. Captain T and Foster get out with Lucy, while Tara leads you out the Sex Shop.
+
+<<click "Get out" "Deck 8">><<set $anatomy to 10>><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><</click>><</if>>
+
+
+
+
+
+
+\\<<elseif $anatomy is 10>>
+
+\\<<elseif $anatomy is 11>>
+
+<img src="https://c1.staticflickr.com/9/8544/8797895209_30fba6ef4c_z.jpg" width="60%"><</if>><<audio "menus" stop>>
+
+

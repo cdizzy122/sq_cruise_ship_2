@@ -1,0 +1,11 @@
+:: Call her [textback] {"position":"288,529","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><<if ndef $mutefx>><<audio "calling" play>><<else>><</if>><img src="places1/calling.gif" width="70%">
+
+<<speech "You" "''$name:''">>
+She isn't answering, maybe she is bussy. She is at work after all...<</speech>>
+The voice mail jumps in. Do you leave a message?
+
+[[Yes, she needs to know this can't happen again]]
+[[I'll talk to her later|Watch TV]]<<addmins 5>><<if ndef $mute>><<audio "morning" mute>><<else>><</if>><<audio "menus" stop>>
+
+

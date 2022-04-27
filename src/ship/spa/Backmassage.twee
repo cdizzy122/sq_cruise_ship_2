@@ -1,0 +1,10 @@
+:: Backmassage [textback] {"position":"2412,528","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spa">><div class="center"><img src="massages/back.jpg" width="60%">
+
+The masseuse gives you a relaxing back massage. You feel more relaxed.
+
+<span class="notplus">''STRESS -20''</span>
+
+[[Return|Massage]]<<set $stress to $stress -20>></div><<addmins 30>><<audio "menus" stop>>
+
+

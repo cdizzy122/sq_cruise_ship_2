@@ -1,0 +1,104 @@
+:: Outside pool [textback] {"position":"1897,528","size":"100,100"}
+<<removeclass "html">><<addclass "html" "pool">><<nobr>><div id="background-wrap"><div class="bubble x1"></div><div class="bubble x2"></div><div class="bubble x3"></div><div class="bubble x4"></div><div class="bubble x5"></div><div class="bubble x6"></div><div class="bubble x7"></div><div class="bubble x8"></div><div class="bubble x9"></div><div class="bubble x10"></div></div><</nobr>><<if ndef $outpool>><<if $poolpics is 0>><div class="center"><img src="passengers/outpool1.jpg" width="60%"></div><<elseif $poolpics is 1>><div class="center"><img src="passengers/outpool2.jpg" width="60%"></div><<elseif $poolpics is 2>><div class="center"><img src="passengers/outpool4.png" width="50%"></div><</if>>
+
+Here's a beautiful large swimming pool. You are very impressed by its size, as well as its cleanliness. Around the sides you can see some women talking to each other. You are certainly not comfortable here, and although the sun is nice you would prefer to swim in a more intimate area.
+
+Just as you start walking along the side of the pool, you notice a woman sitting on the border with a sad face.
+
+<video autoplay loop>
+<source src="quest4/poolshy.mp4" type="video/mp4" width="10%">
+Your browser does not support the video tag.
+</video>
+<<speech "nobody" "''Brunette girl'':">>
+Hey, c'mon Suzie! We're already in the water, what's wrong?<</speech>>
+<<speech "nobody" "''Sad girl'':">>
+I-I'm sorry, I just can't...<</speech>>
+<<speech "nobody" "''Brunette girl'':">>
+Yes, you can! Just get in the water and stay where you are comfortable... here, let me-<</speech>>
+<<speech "nobody" "''Sad girl'':">>
+No! I can't do it, I need someone who really knows what she's doing to teach me. I really can't...<</speech>>
+<<speech "nobody" "''Brunette girl'':">>
+Well, ok. But you should have told me that you coudn't swim before I bought your ticket for a FUCKING CRUISE in the middle of the OCEAN!<</speech>>
+The young brunette girl goes away swimming to the deeper side of the pool, leaving her friend alone.
+
+<<speech "You" "''$name'':">>
+Hey, um... are you alright?<</speech>>
+<<speech "nobody" "''Sad girl'':">>
+Oh, you heard us, right? *sigh* Yeah... I just wish there was somebody in this ship that could give me swimming lessons.<</speech>>
+<<speech "You" "''$name'':">>
+I think you take it easy at first and stay on the shallow part you could probably figure it out for yourself, and it's easier with a friend.<</speech>>
+<<speech "nobody" "''Sad girl'':">>
+Hey, look. If you've come here to repeat what I just told my friend, you're not helping. I need someone who I can trust to teach me! It's not that difficult to understand...<</speech>>
+<<speech "You" "''$name'':">>
+(There must be someone in this ship that knows how to teach her how to swim...) I will try to find someone, ok?<</speech>>
+<<speech "nobody" "''Sad girl'':">>
+Oh, nice... thanks, sorry I was so rude with you...<</speech>>
+<<speech "You" "''$name'':">>
+Yeah... don't worry about it, I'm kind of getting used to that... *smiles*<</speech>>
+<<speech "nobody" "''Sad girl'':">>
+ *smiles back* Shouldn't the ship have a lifeguard here or something? *sigh*<</speech>>
+''New Side-Quest: Find a teacher for Suzie.''
+
+[[Return|Outside pool][$suzie to "Active", $badge to $badge +1, $outpool to 0]]
+
+
+
+\\<<elseif $outpool is 0>><<if $poolpics is 0>><div class="center"><img src="passengers/outpool1.jpg" width="60%"></div><<elseif $poolpics is 1>><div class="center"><img src="passengers/outpool2.jpg" width="60%"></div><<elseif $poolpics is 2>><div class="center"><img src="passengers/outpool4.png" width="50%"></div><<elseif $poolpics is 3>><div class="center"><img src="passengers/outpool6.jpg" width="50%"></div><<elseif $poolpics is 4>><div class="center"><img src="passengers/outpool7.jpg" width="50%"></div><</if>>
+
+<<if $poolpics is 3>>Here's a beautiful large swimming pool. Although you're very impressed by its size, you can't help but also feel impressed by the amount of people inside it.
+
+<<speech "You" "''$name'':">>
+(All the white girls with their black guys... at least there seems to be some space left for me.)<</speech>>
+You are certainly not comfortable here, and although the sun is nice you would prefer to swim in a more intimate area.
+
+\\<<elseif $poolpics is 4>>Here's a beautiful large swimming pool. Although you're very impressed by its size, you can't help but stare at the couple at the stairs.
+
+<<speech "nobody" "''Milf'':">>
+ *gag, gag*<</speech>>
+<<speech "nobody" "''Black bull'':">>
+There you go... yeah...<</speech>>
+<<speech "You" "''$name'':">>
+(Oh my god... WTF)<</speech>>
+<<speech "nobody" "''Milf'':">>
+Hey! *slurp* Mind your own business... *gag, gag*<</speech>>
+You are certainly not comfortable here, and although the sun is nice you would prefer to swim in a more intimate area.
+
+\\<<else>>Here's a beautiful large swimming pool. You are very impressed by its size, as well as its cleanliness. Around the sides you can see some women talking to each other. You are certainly not comfortable here, and although the sun is nice you would prefer to swim in a more intimate area.<</if>>
+
+<<if $suzie is "Active">>You can see Suzie sitting on the border of the pool --> [[Approach her|Outside pool][$outpool to 1]]<<else>><</if>>
+
+<div class="center"><<nobr>><<if $fetish is 2>>[[Get into the pool|Changing room]]<<else>><<if $inpool gte 2>><<linkreplace "Get into the pool">>//Exhibitionism fetish required//<</linkreplace>><<else>>[[Get into the pool|Changing room]]<</if>><</if>><</nobr>>
+
+[[Deck 7]]</div>
+
+
+
+
+\\<<elseif $outpool gte 1>><video autoplay loop>
+<source src="quest4/poolshy.mp4" type="video/mp4" width="10%">
+Your browser does not support the video tag.
+</video>
+
+<<if $inpool gte 2 and $ssuit gt 0>><<speech "You" "''$name'':">>
+Hey Suzie, good news! I know who can teach you how to swim properly.<</speech>>
+<<speech "nobody" "''Suzie'':">>
+Oh, really? That's wonderful, who is it?<</speech>>
+<<speech "You" "''$name'':">>
+She's the lifeguard of the spa pool, although she can't neglect her duties, so you have to go there if you want her to teach you.<</speech>>
+<<speech "nobody" "''Suzie'':">>
+Oh, no problem then. *she stands up* I'll go there, but do you think you could come and introduce me?<</speech>>
+<<speech "You" "''$name'':">>
+(I might as well...) Um... yeah, sure.<</speech>>
+Suzie follows you through the deck to the spa. In just a couple of minutes both of you arrive to the spa pool.
+
+[[Spa pool][$outpool to 0, $inpool to 4]]
+
+\\<<else>><<speech "You" "''$name'':">>
+Hey, how are you doing?<</speech>>
+<<speech "nobody" "''Suzie'':">>
+...Same... *brushes her toes on the water's surface*<</speech>>
+<<speech "You" "''$name'':">>
+(I need to find someone that can teach her to swim)<</speech>>
+[[Return|Outside pool][$outpool to 0]]<</if>><</if>>
+
+

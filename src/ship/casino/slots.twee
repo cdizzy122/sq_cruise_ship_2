@@ -1,0 +1,39 @@
+:: slots [textback] {"position":"2244,1056","size":"100,100"}
+<<removeclass "html">><<addclass "html" "velvet">><div class="center"><img src="quest10/slots1.jpg" width="50%"></div>
+<<speech "nobody" "''Brunette teen'':">>
+Me? Why me? I don't want to complain to the captain just because "a woman is playing poker better than me"! It's ridiculous!<</speech>>
+<<speech "nobody" "''Serious asian woman'':">>
+Well, yeah, but that woman is not a normal passenger.<</speech>>
+<<speech "nobody" "''Brunette teen'':">>
+Well you go then!<</speech>>
+<<speech "You" "''$name'':">>
+Um... sorry to interrupt. Is everything alright?<</speech>>
+<<speech "nobody" "''Brunette teen'':">>
+Doesn't concern you! Go back to your mommy, sissy!<</speech>>
+The asian woman suddenly smiles and shuts the teen's mouth.
+
+<<speech "nobody" "''Serious asian woman'':">>
+Oh, hey. Hi, there, little guy. We're just, you know, having some problems... we wanted to have fun, but there's a woman at that poker table that won't go away. You seem to be... "close" to the captain.<</speech>>
+You unconsciously gasp and put your hand over your mouth like a posh girl.
+
+<<speech "You" "''$name'':">>
+Oh, you want me to tell her about this? I-I don't really think she's going to take anything I say seriously...<</speech>>
+<<speech "nobody" "''Brunette teen'':">>
+Oh, boo-hoo- *ouch*<</speech>>
+The asian woman hits the brunette with the elbow to make her shut up.
+
+<<speech "nobody" "''Serious asian woman'':">>
+Please, just try. Do it for me? *smiles*<</speech>>
+All these women think they can take advantage of you just because you try to be nice with them. And you would probably fall for it again, if it didn't imply you going to captain's office. You would like to help, but there must be another way...
+
+<<speech "You" "''$name'':">>
+Captain is probably so busy, she will not do a thing... I will try to help as much as I can, but I can't promise anything.<</speech>>
+<<speech "nobody" "''Serious asian woman'':">>
+Oh, well... you are too nice... *smiles* and kinda cute too! *pinches your cheek*<</speech>>
+You instinctively smile when she touches you. The teenager just looks at you both with an unimpressed look.
+
+<<speech "nobody" "''Brunette teen'':">>
+ *rolls eyes back*<</speech>>
+[[Casino][$slots to true, $poker to "Active", $badge to $badge +1]]
+
+

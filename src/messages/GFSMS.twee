@@ -1,0 +1,27 @@
+:: GFSMS [noreturn phone] {"position":"16,795","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<if $gfsms is 0>>[[GF 1|One]]----><<elseif $gfsms is 1>>[[GF 1|One][$smsgf to 0]]---->
+[[GF 2|2][$smsgf to 1]]----><<elseif $gfsms is 2>>[[GF 1|One][$smsgf to 0]]---->
+[[GF 2|2][$smsgf to 1]]---->
+[[GF 3|5][$smsgf to 2]]----><<elseif $gfsms is 3>>[[GF 1|One][$smsgf to 0]]---->
+[[GF 2|2][$smsgf to 1]]---->
+[[GF 3|5][$smsgf to 2]]---->
+[[GF 4|6][$smsgf to 3]]----><<elseif $gfsms is 4>>[[GF 1|One][$smsgf to 0]]---->
+[[GF 2|2][$smsgf to 1]]---->
+[[GF 3|5][$smsgf to 2]]---->
+[[GF 4|6][$smsgf to 3]]---->
+[[GF 5|7][$smsgf to 4]]----><<elseif $gfsms is 5>>[[GF 1|One][$smsgf to 0]]---->
+[[GF 2|2][$smsgf to 1]]---->
+[[GF 3|5][$smsgf to 2]]---->
+[[GF 4|6][$smsgf to 3]]---->
+[[GF 5|7][$smsgf to 4]]---->
+[[GF 6|71][$smsgf to 5]]----><<elseif $gfsms is 6>>[[GF 1|One][$smsgf to 0]]---->
+[[GF 2|2][$smsgf to 1]]---->
+[[GF 3|5][$smsgf to 2]]---->
+[[GF 4|6][$smsgf to 3]]---->
+[[GF 5|7][$smsgf to 4]]---->
+[[GF 6|71][$smsgf to 5]]---->
+[[GF 7|11][$smsgf to 6]]----><</if>>
+
+[[Return|Phone]]
+
+

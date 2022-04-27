@@ -1,0 +1,62 @@
+:: Bushes [textback] {"position":"4190,868","size":"100,100"}
+<<removeclass "html">><<addclass "html" "forest">><<if $bushes is 1>>You start to walk towards the moving bushes, but you start to feel scared about who this guy might be or if he'll be crazy or something. You decide to set aside these thoughts and start to walk quicker, then the walk gradually transforms into a jog.
+
+Your way of running is not as manly as you'd like, and the cage you are wearing on your small dick makes a constant clicking noise as the lock moves up and down and hits it again and again. When you are about to approach the bushes you scream, trying to intimidate the pervert. A girly high-pitched noise comes out of your mouth.
+Finally, with adrenaline rushing through your body, you arrive to the <<linkappend "bushes.">><<audio "fall" play>>
+
+As you get there your foot gets stuck in a root and fall right to the ground face up. Though the fall was sudden and it hurt, you inmediately open your eyes, just to have a detailed view of his balls and leaking hard cock. 
+
+<<speech "You" "''$name'':">>
+Well, that was humiliating...<</speech>>
+Surprised and angry, the pervert insults you, and his jerking slows a bit.
+
+<<speech "nobody" "''Pervert'':">>
+You came for a piece, huh?
+<img src="dockings/nudist/danny2.jpg" width="70%">
+Sniff on it, sissy! Hahahaha<</speech>>
+The pervert starts rubbing his dick along your surprised face. His sweaty balls touch your chin with every thrust and his wet glans leaves a line of pre-cum on your forehead and hair.
+
+<<speech "You" "''$name'':">>
+(Ugh! It's touching my face! <span class="pink">It's so hard...)</span><</speech>>
+<<speech "nobody" "''Pervert'':">>
+Hehehe Got enough bitch? Now leave me alone. You are not my type. *goes back to wanking*<</speech>>
+You quickly stand up, and try your best not to feel scared.
+
+<<speech "You" "''$name'':">>
+H-hey... stop peeping on that woman!<</speech>>
+<<speech "nobody" "''Pervert'':">>
+What did you say, little punk? The pervert lets his cock go and gets near you aggresively, touching your belly with his horse cock.<</speech>>
+<<speech "You" "''$name'':">>
+I-I just said...that that woman is not comfortable with you peeping-<</speech>>
+<<speech "nobody" "''Pervert'':">>
+I would tell you to suck my dick, fuckin'sissy. But I'm not into girly boys. I only get off to hot women. So fuck off!!<</speech>>
+<<speech "You" "''$name'':">>
+But she doesn't want to...<</speech>>
+<<speech "nobody" "''Pervert'':">>
+Fuck off already!!! You're making me lose my hardon... I'll tell you what! If you find me some other hotties to jerk off to, I'll go. But meanwhile, I'm going to keep up beating it.<</speech>>
+[[Go deeper into the forest|Forest][$bushes to 2]]
+[[Return|Right][$bushes to 2]]<</linkappend>><<elseif $bushes is 2>><img src="dockings/nudist/danny3.gif" width="70%">
+
+<<speech "nobody" "''Pervert'':">>
+ *fap, fap* Look at those tits...such a bitch...Huh?! Did you find some hotties?<</speech>>
+<<speech "You" "''$name'':">>
+No, not yet...<</speech>>
+<<speech "nobody" "''Pervert'':">>
+Then leave me alone, sissy... shit, she's getting her bikini off...*fap, fap*<</speech>>
+[[Go deeper into the forest|Forest]]
+[[Return|Right]]<<elseif $bushes is 3>><img src="dockings/nudist/danny3.gif" width="70%">
+
+<<speech "nobody" "''Pervert'':">>
+ *fap, fap* Look at those tits...such a bitch...Huh?! Did you find some hotties?<</speech>>
+<<speech "You" "''$name'':">>
+Yeah! There are two lesbians making out in the forest!<</speech>>
+<<speech "nobody" "''Pervert'':">>
+Oh, fuck! Fuck this bitch, I'm going for those! *runs into the forest*  <</speech>><<set $lesbians to 0>> 
+[[Go deeper into the forest|Forest][$bushes to 4]]
+[[Return|Right][$bushes to 4]]<<elseif $bushes is 4>><img src="dockings/nudist/bushes.jpg" width="50%">
+Finally the pervert is gone into forest.
+
+[[Go deeper into the forest|Forest]]
+[[Return|Right]]<</if>><<if ndef $mute>><<audio "spanish" unmute>><<else>><</if>><<if ndef $mutefx>><<audio "sea" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

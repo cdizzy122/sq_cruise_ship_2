@@ -1,0 +1,16 @@
+:: Suntanning [textback] {"position":"1892,0","size":"100,100"}
+<div class="center"><img src="places2/suntanning.jpg" width="80%"></div>
+<<if $suntan < 4>><<if $gameDate.getHours() gte 8 and $gameDate.getHours() lte 17>>
+(2 Hours Max.)
+
+<<nobr>><<if $tanning is true>><div class="center"><--<<link "Tan 30 mins" sunbathe30mins >><</link>>--<<link "Tan 1 hour" sunbathe1hour >><</link>>--<<link "Tan 2 hours" sunbathe2hours >><</link>>--></div><<else>><div class="center"><--<<linkreplace "Tan 30 mins">>Why would I do that?<</linkreplace>>--<<linkreplace "Tan 1 hour">>Why would I do that?<</linkreplace>>--<<linkreplace "Tan 2 hours">>Why would I do that?<</linkreplace>>--></div><</if>><</nobr>>
+
+There's a woman suntanning in one of the hammocks-->[[Talk to her|Suntanningg]]
+
+\\<<else>>
+There's not enough sun right now. (Open --> 8:00-18:00)<</if>>
+<<else>>Enough suntanning for today.<</if>>
+
+[[Return|Deck 9]]<<nobr>><<if $gameDate.getHours() is 0 or $gameDate.getHours() lt 8>><<goto [[Dreams]]>><<else>><</if>><</nobr>><<audio "deck9" stop>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

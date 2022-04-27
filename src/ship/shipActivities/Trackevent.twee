@@ -1,0 +1,92 @@
+:: Trackevent [noborder textback] {"position":"1658,294","size":"100,100"}
+<<if $trackevent lt 3>><div class="center"><img src="places2/fittrack.jpg" width="70%"></div>
+<<if $fit lt 10>>There's nobody else here.
+
+You start jogging at a slow speed. After 10 minutes you have to make a real effort to keep up.
+
+<<speech "You" "''$name'':">>
+ *cough, cough* (Damn... this is not as easy as it looks...)<</speech>>
+You try your best to keep on running for the next 20 minutes, but you can feel your body going slower with every step...
+
+<div class="center"><span class="notplus">FIT +1</span></div><<elseif $fit gte 10>>There's nobody else here.
+
+You start jogging, and after 15 minutes you become aware of how relaxed your body is and how much faster you are running. You don't remember feeling so good about your physical abilities ever...
+
+<<speech "You" "''$name'':">>
+ *smiles* (This feels good... I look like a gazelle!)<</speech>>
+<div class="center"><span class="notplus">''FIT +1''</span></div><</if>>
+
+[[Return|Fitnesstrack]]<<else>><<if $fit lt 10>>You start jogging at a slow but steady rhythm, when suddenly a young woman passes you by at at least double your speed. She turns around, revealing a smug look on her face and adjusting her ''headphones'':
+
+<div class="center"><img src="passengers/runner6.png" width="50%"></div>
+After taking the piss on you, she proceeds to continue her session.
+
+<div class="center"><img src="passengers/runner.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(So rude... if she thinks she's going to tease me like that I'm not going to bite the hook. I don't need to prove anything...)<</speech>>
+<div class="center"><span class="notplus">''FIT +1''</span></div>
+[[Return|Fitnesstrack]]
+
+
+\\<<elseif $fit gte 10>><<if $headphones is "Active">>You stand on the side of the running track, waiting for that annoying runner girl to come. After 10 minutes you start to doubt she's ever going to come.
+
+<<speech "You" "''$name'':">>
+(Maybe she's not here today...)<</speech>>
+Just when you start to think that all that waiting was for nothing, you start to see the girl coming into the fitnesstrack and warming up. 
+
+<img src="passengers/runner1.jpg" width="50%">
+
+Your body gets all pumped up with adrenaline as you know this is the time to demonstrate how much of a "man" you really are. You start to warm up as well, jumping in place.
+
+She's coming your way in 3, 2, 1...
+
+<<linkreplace "NOW!">><div class="center"><span class="pulse"><img src="passengers/runner2.jpg" width="50%"></span></div>
+Once she gets past you, you start running as fast as you can, until you reach her.
+
+<<speech "nobody" "''Runner'':">>
+You're finally growing some balls, huh? Let's go then!<</speech>>
+Her jogging evolves into a run, until she catches up with you. Then you try to even speed it up more, until you are sprinting 100%.
+
+<<speech "You" "''$name'':">>
+(I won't be able to hold this any longer! Heck, this is absurd! We haven't even defined the FINISH LINE!)<</speech>>
+<<speech "nobody" "''Runner'':">>
+ *huff, huff* You haven't won *huff* yet!<</speech>>
+ You can see how she is also having trouble keeping up with you. But despite that, she gives it all and sprints, barely reaching you. Now you now how to win: your sprint just has to last longer.
+ 
+<<speech "You" "''$name'':">>
+Ok... *huff, huff* this is a resistance race. Just hold on to it, $name, just keep it going no matter what!<</speech>>
+After what seems like an eternity, with the corner of your eye, you can see her having trouble keeping up with the pace. In just a matter of seconds, her breath becomes a lot more agitated and starts going slower and slower. Until you cannot see her anymore.
+
+<<speech "You" "''$name'':">>
+I won!!<</speech>>
+You run for a little more just to make sure, then you stop and go back to her. You try to talk to her, but the both of you are panting and can't even catch your breath. She speaks first.
+
+<<speech "nobody" "''Runner'':">>
+Ok... *pant, pant* You got me... you got me good... I guess you're still a boy under that androgynous body of yours, so you're just lucky.<</speech>>
+<<speech "You" "''$name'':">>
+I won you fair and square! *pant, pant*<</speech>>
+<<speech "nobody" "''Runner'':">>
+Yeah, yeah... what do you want me to do? Write it on my face?<</speech>>
+<<speech "You" "''$name'':">>
+I would actually like to ask you for something. Could I have those headphones you wear everytime you come running?<</speech>>
+<<speech "nobody" "''Runner'':">>
+You mean these? *she gets them out* Sure, they gave me this ones for free in a plane or train... I don't remember... You can have them anyway. I was just using those so my good ones wouldn't get dirty.<</speech>>
+You take the headphones.
+
+ ''*Cheap headphones were added to Inventory*''<<set $headphonesm to true>>
+
+[[Return|Fitnesstrack][$headphones to "1/2 done", $badge to $badge +1]]<</linkreplace>>
+
+
+\\<<else>>You start jogging, and after 15 minutes you become aware of how relaxed your body is and how much faster you are running. You don't remember feeling so good about your physical abilities ever... While you are thinking that, a runner comes by your side a little bit faster than you are. She looks back at you and adjusts her ''headphones'':
+
+<div class="center"><span class="pulse"><img src="passengers/runner6.png" width="50%"></span></div>
+<<speech "nobody" "''Runner'':">>
+Do you think you can catch me? Ha! In your dreams! You lack conviction and motivation, fag! See ya!! *she runs away*<</speech>>
+
+<<speech "You" "''$name'':">>
+(Ugh, this is not a competition... Damn... she's STILL faster than I am... Maybe she's right... I think I could catch her, but I do need some extra motivation if I want to win...)<</speech>>
+<div class="center"><span class="notplus">FIT +1</span></div>
+[[Return|Fitnesstrack]]<</if>><</if>><</if>><<audio "menus" stop>>
+
+

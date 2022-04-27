@@ -1,0 +1,113 @@
+:: SMS41 [phone] {"position":"939,2884","size":"100,100"}
+<<if ndef $altersms8>><<speech "lanad" "''$gffname:''">>
+You had fun this morning?<</speech>>
+<<speech "You" "''$name'':">>
+... That was crazy, and not in a good way.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+I think your friend was impressed, he wants to come over some time. And you know what that means! 🤪🤪<</speech>>
+You shake your head, not approving that at all. You're still afraid of her talking with $fname about your "selfies".
+
+<<speech "You" "''$name'':">>
+Just... I think it's a bit weird...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Weird what? C'mon, we're just having fun! What are you? Worried about me telling your friend about your tiny pee-pee and humiliation fetish?<</speech>>
+Shivers run through your spine.
+
+<<speech "You" "''$name'':">>
+(Sheesh... she's so cold about it...) You wouldn't do that, would you?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+I guess that depends on how well you treat me... my OnlyFans has been on fire since I posted that footage with your friend!<</speech>>
+<<speech "You" "''$name'':">>
+ *gasp* You even posted it?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Hey, a girl's gotta monetize! 🤑🤑🤑<</speech>>
+You stare at the conversation, trying to process your growing feeling of jealousy.
+
+<<speech "You" "''$name'':">>
+Do you really make that much money with that?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Are you for real?! I mean, I just started a month ago and this thing is already giving me more money than I've ever gained on any other job. Like, just tell me how much would you pay for a picture of my tits right now?<</speech>>
+You are shocked by her sudden question.
+
+<<speech "You" "''$name'':">>
+Um... I-I don't think I would pay-<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh, come on... it's just a game... how much do you think my tits are worth?<</speech>>
+[[5 dollars?|SMS41][$altersms8 to 0]]
+[[Maybe... 30 dollars?|SMS41][$altersms8 to 1]]
+
+
+
+
+\\<<elseif $altersms8 is 0>><<speech "You" "''$name'':">>
+5 dollars?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+ *gasp* What the fuck! You are hurting by bitchy heart! Hahaha Who do you think you are? Mandingo or what?<</speech>>
+<<speech "You" "''$name'':">>
+I don't know! I just guessed-<</speech>>
+<<speech "lanad" "''$gffname:''">>
+I can tell you've never even seen these services, which is kind of rare I should say. You shrimp dicks usually like to jerk it a lot.<</speech>>
+<<speech "You" "''$name'':">>
+(I don't even remember what it was like to jerk off "normally"...)<</speech>>
+<<speech "lanad" "''$gffname:''">>
+And I'm not even going where the REAL money is...<</speech>>
+<<speech "You" "''$name'':">>
+What do you mean "real money"?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+I mean actually asking guys for money, you twit! You really don't know anything about sex, do you?<</speech>>
+<<speech "You" "''$name'':">>
+... ... Um-<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Don't even answer, I know it already, baby dick.<</speech>>
+As soon as she says "baby dick", your caged clit strains against its cage.
+
+<<speech "You" "''$name'':">>
+(<span class="pink">Mmm...</span> why am I so fucking aroused...? This is embarrasing... <span class="pink">and it's making it hotter...</span>)<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Like, for real, haven't you heard of that world?<</speech>>
+<<speech "You" "''$name'':">>
+(<span class="pink">Hmmm...</span>) I'm not sure what you're talking about...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Then I guess there's a lot I can show you... 😈😈😈<</speech>>
+[[Return|Bedroom][$lanasms to 5, $smsm5 to false]]
+
+
+
+
+\\<<elseif $altersms8 is 1>><<speech "You" "''$name'':">>
+Maybe... 30 dollars?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Not bad, but I can still get more for that. I usually get 50$.<</speech>>
+<<speech "You" "''$name'':">>
+50 dollars for your tits?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Are you trying to say they're not worth it?<</speech>>
+<<speech "You" "''$name'':">>
+N-no... it's just-<</speech>>
+<<speech "lanad" "''$gffname:''">>
+I can tell you don't have much experience with these things... People pay 50$ monthly for all my lewd pics.<</speech>>
+<<speech "You" "''$name'':">>
+Oh, okay...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+And I'm not even going where the REAL money is...<</speech>>
+<<speech "You" "''$name'':">>
+What do you mean "real money"?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+I mean actually asking guys for money, you twit! You really don't know anything about sex, do you?<</speech>>
+<<speech "You" "''$name'':">>
+... ... Um-<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Don't even answer, I know it already, baby dick.<</speech>>
+As soon as she says "baby dick", your caged clit strains against its cage.
+
+<<speech "You" "''$name'':">>
+(<span class="pink">Mmm...</span> why am I so fucking aroused...? This is embarrasing... <span class="pink">and it's making it hotter...</span>)<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Like, for real, haven't you heard of that world?<</speech>>
+<<speech "You" "''$name'':">>
+(<span class="pink">Hmmm...</span>) I'm not sure what you're talking about...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Then I guess there's a lot I can show you... 😈😈😈<</speech>>
+[[Return|Bedroom][$lanasms to 5, $smsm5 to false]]<</if>>
+
+

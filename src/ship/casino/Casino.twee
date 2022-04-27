@@ -1,0 +1,32 @@
+:: Casino [textback] {"position":"2018,963","size":"100,100"}
+<<removeclass "html">><<addclass "html" "velvet">><<if $gameDate.getHours() gte 10 and $gameDate.getHours() lte 23>><<if $dayn lt 23>><div class="center"><<audio "ship" mute>><<audio "casino" volume 0.3 loop play>><img src="places2/casino.jpg" width="80%">
+
+<div class="row3"><div class="column3">← ''[[Poker]]''</div><div class="column3">''[[Roulette]]''</div><div class="column3">''[[Slot machine]]'' →</div></div>
+[[VIP zone]]
+
+\\<<else>><<if ndef $maggiequest>><div class="center"><<audio "casino" volume 0.3 loop play>><img src="places2/casino.jpg" width="60%"></div>
+As you get in the casino, you can see a strange woman playing alone at the Poker table. A small group of women are by the slots, in an agitated conversation.
+
+<<if ndef $slots>><<speech "nobody" "''Serious asian woman'':">>
+Somebody has to do something about that, and you guys know it! We should complain to the manager, there has to be somebody that can make her go away!<</speech>>
+<<speech "nobody" "''Brunette teen'':">>
+Well, yeah, but she's a passenger just like us and she deserves to play in the casino-<</speech>>
+<<speech "nobody" "''Serious asian woman'':">>
+No, she doesn't! She's the poker world champion or whatever. That's not fair!<</speech>>
+<<speech "You" "''$name'':">>
+(What's all that about?...)<</speech>><<else>><</if>>
+<div class="center"><div class="row3"><div class="column3">← ''[[Poker|pokerquest]]''</div><div class="column3"><<linkreplace "''Roulette''">>''[[Roulette]]''<</linkreplace>></div><div class="column3">''[[Slots machine (women talking)|slots]]'' →</div></div>
+<div class="center">''[[VIP zone|vip]]''</div></div>
+
+\\<<else>><div class="center"><<audio "ship" mute>><<audio "casino" volume 0.3 loop play>><img src="places2/casino.jpg" width="80%">
+
+<div class="row3"><div class="column3">← ''[[Poker]]''</div><div class="column3">''[[Roulette]]''</div><div class="column3">''[[Slot machine]]'' →</div></div>
+[[VIP zone]]<</if>><</if>>
+
+\\<<else>>
+<img src="places2/closed.jpg" width="60%">
+//Open from 10:00-00:00//<</if>>
+
+<<click "Return" "Deck 4">><<audio "casino" stop>><</click>><<nobr>><<if $gameDate.getHours() is 0 or $gameDate.getHours() lt 8>><<goto [[Dreams]]>><<else>><</if>><</nobr>><<audio "menus" stop>><<if ndef $mute>><<audio "casino" unmute>><<else>><</if>>
+
+

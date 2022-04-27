@@ -1,0 +1,35 @@
+:: Roulette VIP [textback] {"position":"3452,909","size":"100,100"}
+<<if ndef $viproulette>><div class="center"><img src="places2/viproulette.jpg" width="60%"></div>
+As you get in the room, you can see two men sitting around the roulette table. They are very well dressed and seem to be busy with their phones, probably doing business, so they don't even bother taking a look at you.
+
+<<speech "You" "''$name'':">>
+(There's no woman here, except the croupier, so I better look for "M" somewhere else...)<</speech>>
+[[Go ahead and play!|Roulette VIP][$viproulette to 1]]
+[[Return|VIPin]]
+
+
+
+\\<<elseif $viproulette is 0>><div class="center"><img src="places2/viproulette.jpg" width="60%"></div>
+As you get in the room, you can see two men sitting around the roulette table. They are very well dressed and seem to be busy with their phones, probably doing business, so they don't even bother taking a look at you.
+
+<<speech "You" "''$name'':">>
+(There's no woman here, except the croupier, so I better look for "M" somewhere else...)<</speech>>
+[[Go ahead and play!|Roulette VIP][$viproulette to 1]]
+[[Return|VIPin]]
+
+
+
+
+\\<<elseif $viproulette is 1>>You approach the table and try to take a spot in the middle of both men.
+
+<<speech "You" "''$name'':">>
+Excuse me, how many points is the entry?<</speech>>
+<<speech "nobody" "''Croupier'':">>
+Points? Heh... that's only for the casino, here we only use real money or other deals.<</speech>>
+<<speech "You" "''$name'':">>
+Oh...<</speech>>
+You step back, feeling like a little kid in a candy store without money.
+
+[[Return|Roulette VIP][$viproulette to 0]]<</if>>
+
+

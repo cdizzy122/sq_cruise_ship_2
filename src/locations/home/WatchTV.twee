@@ -1,0 +1,8 @@
+:: Watch TV [noborder textback] {"position":"344,422","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><<audio "stadium" stop>><div class="center"><img src="places1/tv.png" width="70%"></div>
+<<if $watchtvporn is true>><div class="center">[[Watch sports (10 min)]]</div>
+[[Living room]]
+<<else>><div class="center">[[Watch sports (10 min)]] | [[Watch porn]]</div> 
+[[Living room]]<</if>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() gte 8 and $gameDate.getMinutes() gte 30>><<goto "Emergency">><<else>><</if>><<else>><</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

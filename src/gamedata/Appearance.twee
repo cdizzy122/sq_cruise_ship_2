@@ -1,0 +1,112 @@
+:: Appearance [noreturn textback] {"position":"21,918","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<if ndef $mutefx>><<audio "button" play>><<else>><</if>><div class="leftcolumn"><<if $ownface is 0>>Face:
+<img src="appearance/face0.jpg" width="50%">
+<<elseif $ownface is 1>>Face:
+<img src="appearance/face1.png" width="50%">
+<<elseif $ownface is 2>>Face:
+<img src="appearance/face2.jpg" width="60%">
+<<elseif $ownface is 3>>Face:
+<img src="appearance/face3.jpg" width="50%">
+<<elseif $ownface is 4>>Face:
+<img src="appearance/face5.png" width="50%">
+<<elseif $ownface is 5>>Face:
+<img src="appearance/face4.jpg" width="60%">
+<</if>>
+<<if $boobs is 0>>Chest:
+<img src="appearance/chest0.jpg" width="80%">
+<<elseif $boobs is 1>>Chest:
+<img src="appearance/chest1.jpg" width="50%">
+<<elseif $boobs is 2>>Chest:
+<img src="appearance/chest2.jpg" width="70%">
+<<elseif $boobs is 3>>Chest:
+<img src="appearance/chest3.jpg" width="90%">
+<<elseif $boobs is 4>>Chest:
+<img src="appearance/puffynipples.jpg" width="60%">
+<<elseif $boobs is 5>>Chest:
+<img src="appearance/chest41.jpg" width="50%">
+<<elseif $boobs is 6>>Chest:
+<img src="appearance/chest42.jpg" width="50%">
+<</if>>
+<<if $fit gte 0 and $fit lt 5>>Tummy:
+<img src="appearance/tummy0.png" width="60%">
+<<elseif $fit gte 5 and $fit lt 10>>Tummy:
+<img src="appearance/tummy1.jpg" width="70%">
+<<elseif $fit gte 10 and $fit lt 15>>Tummy:
+<img src="appearance/tummy2.jpg" width="60%">
+<<elseif $fit gte 15 and $fit lt 20>>Tummy:
+<img src="appearance/tummy3.jpg" width="55%">
+<<elseif $fit gte 20>>Tummy:
+<img src="appearance/tummy4.jpg" width="57%">
+<</if>></div><div class="rightcolumn"><<if $pen is 0>>Penis:
+<img src="appearance/pen0.jpg" width="150%">
+<<elseif $pen is 1>>Penis:
+<img src="appearance/pen1.jpg" width="110%">
+<<elseif $pen is 2>>Penis:
+<img src="appearance/pen2.jpg" width="150%">
+<<elseif $pen is 3>>Penis:
+<img src="appearance/pen3.jpg" width="90%">
+<<elseif $pen is 4>>Penis:
+<img src="appearance/pen4.jpg" width="80%">
+<<elseif $pen is 5>>Penis:
+<img src="appearance/pen5.gif" width="60%">
+<</if>>
+<<if $ass is 0>>Ass:
+<img src="appearance/ass0.jpg" width="90%">
+<<elseif $ass is 1>>Ass:
+<img src="appearance/ass1.gif" width="180%">
+<<elseif $ass is 2>>Ass:
+<img src="appearance/ass2.gif" width="160%">
+<<elseif $ass is 3>>Ass:
+<img src="appearance/ass31.jpg" width="90%">
+<<elseif $ass is 4>>Ass:
+<img src="appearance/ass32.jpg" width="70%">
+<<elseif $ass is 5>>Ass:
+<img src="appearance/ass4.jpg" width="70%">
+<<elseif $ass is 6>>Ass:
+<img src="appearance/ass5.jpg" width="70%">
+
+<</if>>
+<<if $shaving is 1>><<if $fit gte 0 and $fit lt 5>>Legs:
+<img src="appearance/legss0.jpg" width="120%">
+<<elseif $fit gte 5 and $fit lt 10>>Legs:
+<img src="appearance/legss1.jpg" width="60%">
+<<elseif $fit gte 10 and $fit lt 15>>Legs:
+<img src="appearance/legss2.jpg" width="80%">
+<<elseif $fit gte 15 and $fit lt 20>>Legs:
+<img src="appearance/legss3.jpg" width="80%">
+<<elseif $fit gte 20 and $fit lt 25>>Legs:
+<img src="appearance/legss4.jpg" width="120%">
+<<elseif $fit gte 25 and $fit lt 30>>Legs:
+<img src="appearance/legss5.jpg" width="70%">
+<<elseif $fit gte 30 and $fit lt 35>>Legs:
+<img src="appearance/legss6.png" width="40%">
+<<elseif $fit gte 35>>Legs:
+<img src="appearance/legss6.png" width="40%">
+<</if>><<else>><<if $fit gte 0 and $fit lt 5>>Legs:
+<img src="appearance/legs0.jpg" width="110%">
+<<elseif $fit gte 5 and $fit lt 10>>Legs:
+<img src="appearance/legs1.jpg" width="115%">
+<<elseif $fit gte 10 and $fit lt 15>>Legs:
+<img src="appearance/legs2.jpg" width="65%">
+<<elseif $fit gte 15 and $fit lt 20>>Legs:
+<img src="appearance/legs3.png" width="90%">
+<<elseif $fit gte 20>>Legs:
+<img src="appearance/legs4.jpg" width="85%">
+<</if>><</if>></div>
+<<if $treatment gte 0>>The beauty treatment has made your <span class="pink">hair and skin silky smooth</span>.<<else>><</if>>
+<<if $stoyalips is true>>Stoya's treatment gave you <span class="pink">bigger juicy lips</span>.<<else>><</if>>
+
+''Your face'' <<if $ownface is 0>><span class="pink">is that of a boy</span>, with <span class="pink">male face features.</span> You've never really had a beard, just a few facial hairs. Your skin is not smooth, but not too rough either.<<elseif $ownface is 1>>is smooth with no facial hairs on it. <span class="pink">Your features are more subtle than before.</span><<elseif $ownface is 2>>has gotten <span class="pink">smoother and a bit rounder.</span> Your eyes sparkle in a cute way, and a perpetual obliging smile stays put.<<elseif $ownface is 3>><<if $wearmakeup is 1>>is that of a cute crossdresser with <span class="pink">basic makeup</span>. Your look is <span class="pink">attractive and provocative</span> at the same time.<<else>>is that of a cute crossdresser. Your look is <span class="pink">attractive and provocative</span> at the same time.<</if>><<elseif $ownface is 4>><<if $wearmakeup is 1>>is that of a horny crossdresser with some <span class="pink">simple makeup</span>. You have a constant <span class="pink">provocative smile</span> on your face.<<else>>is that of a horny crossdresser. You have a constant <span class="pink">provocative smile</span> on your face.<</if>><<elseif $ownface is 5>><<if $wearmakeup is 1>>is that of a cute little teenage girl with some <span class="pink">simple makeup</span>. You have a <span class="pink">very innocent look</span>.<<else>>is that of a cute little teenage girl. You have a <span class="pink">very innocent look</span>.<</if>><</if>> ''Your chest'' is <<if $boobs is 0>><span class="pink">flat and has no muscle definition.</span><<elseif $boobs is 1>>feels less fatty overall, but <span class="pink">your pecs are growing in a weird way.</span><<elseif $boobs is 2>>is still growing, but you're not sure if it's because of the training. Your <span class="pink">small tits</span> feel <span class="pink">soft and squishy.</span><<elseif $boobs is 3>>3<<elseif $boobs is 4>>feel too squishy to be that of a man's. Your nipples have become <span class="pink">very puffy and sensitive.</span><<elseif $boobs is 5>>clearly not that of a boy's anymore. Your boobs are <span class="pink">a shy A/B cup.</span><<elseif $boobs is 6>>clearly not that of a boy's anymore. Your boobs are <span class="pink">a solid B cup.</span><</if>> <<if $pen is 0>>Your <span class="pink">5 inch dick</span> is lazy, but still functional.<<elseif $pen is 1>>Your <span class="pink">4.5 inch penis</span> is lazy, but you still get morning woods rarely...<<elseif $pen is 2>>Your <span class="pink">small 4 inch penis</span> has been out of sight for a lot of time due to the cage, but you have the feeling that the erections may be quite difficult to achieve now...<<elseif $pen is 3>>Your <span class="pink">tiny 3 inch clit</span> very rarely gets completely erect. Your have quite some <span class="pink">blue balls</span> too.<<elseif $pen is 4>>Your little <span class="pink">4 inch penis</span> is decorated with a cute pink bow! Even your glans has been painted!<<elseif $pen is 5>>Your tiny <span class="pink">3 inch clit</span> is shriveled and in a constant semi-flaccid state.<</if>> <<if $ass is 0>>You have a <span class="pink">normal ass</span>, in terms of that of a boys'.<<elseif $ass is 1>>''Your ass'' feels <span class="pink">tighter</span>, but the way it jiggles reminds you of a girls'.<<elseif $ass is 2>>''Your ass'' has become <span class="pink">a lot tighter</span> due to the exercise, but the way it sticks out gives you a bit of a <span class="pink">feminine figure.</span><<elseif $ass is 3>>''Your ass'' has become <span class="pink">bigger and tighter</span>, due to the exercise you've done at the gym. Your whole figure has become a lot more girly...<<elseif $ass is 4>>''Your ass'' has become <span class="pink">a lot bigger</span>, but you haven't done enough exercise for it to be perky and tight, so it just <span class="pink">feels like jelly</span>.<<elseif $ass is 5>>''Your ass'' has become <span class="pink">pretty thick!</span> Perfect for twerking!<<elseif $ass is 6>>''Your ass'' has become <span class="pink">huge!</span> You can notice some stares wherever you go.<</if>><<nobr>><<if $wardrobe is true>><<else>><<if $casual is true>>You're wearing some casual clothes. Not too colorful...<<elseif $suit is true>>You're wearing a full suit. It's what you usually wear to work.<</if>><</if>><</nobr>>
+
+''Fetishes:'' <<if $fetish1 is true>><span class="imgpop fetish1"><a class="specialeffects">Pussy eating</a></span>, <<else>><</if>><<if $fetish2 is 1>><span class="imgpop fetish21"><a class="specialeffects">Phallic forms</a></span>, <<elseif $fetish2 is 2>><span class="pink"><span class="imgpop fetish22"><a class="specialeffects">Big Cocks</a></span></span>, <</if>><<if $fetish3 is true>><span class="imgpop fetish3"><a class="specialeffects">Exhibitionism</a></span>, <<else>><</if>><<if $fetish4 is true>><span class="imgpop fetish4"><a class="specialeffects">Pain cravings</a></span>, <<else>><</if>><<if $fetish5 is true>><span class="imgpop fetish5"><a class="specialeffects">Taste for Cum (Lvl 1)</a></span>, <<else>><</if>><<if $fetish6 is true>><span class="imgpop fetish6"><a class="specialeffects">Creampie Lover</a></span>, <<else>><</if>><<if $fetish7 is true>><span class="imgpop fetish7"><a class="specialeffects">Cucky Fluffer</a></span>, <<else>><</if>><<if $fetish8 is true>><span class="imgpop fetish8"><a class="specialeffects">SPH</a></span>, <<else>><</if>>
+
+''Sexual orientation:'' <<if ndef $fetish2>>Hetero.<<elseif $fetish2 is 1>>Heteroflexible.<<elseif $fetish2 is 2>>Bisexual.<<elseif $fetish3 is true>>You do everything (preferably big cocks)<</if>>
+
+<<nobr>><<if ndef $oral>><<elseif $oral is 1>>''Oral: 1'' - <span class="imgpop oral1"><a class="specialeffects">Your little mouth can barely handle a small dildo...</a></span><<elseif $oral is 2>>''Oral: 2'' - <span class="imgpop oral2"><a class="specialeffects">Your small mouth is more flexible and can take some of a small dildo...</a></span><<elseif $oral is 3>>''Oral: 3'' - <span class="imgpop oral3"><a class="specialeffects">A teenage boy would have some fun with your mouth, unless he has a big one...</a></span><<elseif $oral is 4>>''Oral: 4'' - <span class="imgpop oral4"><a class="specialeffects">You are starting to get the hang of how to handle regular/big dicks...</a></span><<elseif $oral is 5>>''Oral: 5'' - <span class="imgpop oral5"><a class="specialeffects">Big dicks fit nicely in your mouth, although the bigger ones might not be able to enjoy your sissy mouth as much...</a></span><</if>><</nobr>>
+<<nobr>><<if ndef $anal>><<elseif $anal is 1>>''Anal: 1'' - <span class="imgpop anal1"><a class="specialeffects">Your ass can barely take a finger!</a></span><<elseif $anal is 2>>''Anal: 2'' - <span class="imgpop anal2"><a class="specialeffects">Two fingers feel tight! But you can kind of find the pleasure in it...</a></span><<elseif $anal is 3>>''Anal: 3'' - <span class="imgpop anal3"><a class="specialeffects">Two fingers slide in and out nicely, but everything feels huge inside you...</a></span><<elseif $anal is 4>>''Anal: 4'' - <span class="imgpop anal4"><a class="specialeffects">You ass closes quickly, but once you open it up, you can take the smallest dildo...</a></span><<elseif $anal is 5>>''Anal: 5'' - <span class="imgpop anal5"><a class="specialeffects">The smallest dildo feels good! Anything else might be too much...</a></span><</if>><</nobr>>
+
+[[Return|$return]]<<audio ":back" mute>><<audio "menus" volume 0.15 loop play>><<audio "party" mute>><<audio "stage1" mute>><<audio "tinder" mute>><<audio "casino" mute>><<audio "kitchen" mute>><<audio "dorky" mute>><<audio "tinder" stop>><<if ndef $mute>><<audio "menus" unmute>><<else>><</if>>
+
+<<print $shaving>>
+
+

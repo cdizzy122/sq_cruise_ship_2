@@ -1,0 +1,24 @@
+:: Her room [textback] {"position":"2039,1805","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<audio "myroom" volume 0.2 loop play>><img src="places2/deck3.jpg" width="70%">
+
+She leads you through the DECK 3 hallway. It's notably bigger than your room's deck. Her room is quite near the elevator so you arrive in a few steps.
+
+ *Opens door with card key*
+ 
+<img src="tara/taracard.jpg" width="60%">
+
+<<speech "tara" "''Tara:''">>
+Welcome to your room for the night, honey. Make yourself comfortable. I'll be with you in a minute.<</speech>>
+You stand there, white as paper, not knowing what to do or how to deal with the situation.
+
+<<speech "tara" "''Tara:''">>
+You know why I brought you here, right honey?<</speech>>
+<<speech "You" "''$name:''">>
+I...I guess...<</speech>>
+<<speech "tara" "''Tara:''">>
+We are going to fuck. Have sex? *she laughs* Jesus, you look like a raindeer before a car crash. Reeelaaaaaax. I can't wait to be the first one to see that HUGE present you brought. *winks* I'll cum right back, my horse-boy... *Goes to the bathroom*<</speech>>
+<<speech "You" "''$name:''">>
+(Is she talking about my dick? HUGE? Well, I guess 5 inches is not small, but I don't think...well...she is very tall and I'm not sure about this. Also, I shouldn't be doing this. This is so wrong. $gfname is waiting for me at home, this is just going to make things worse for me... I should get out of here.)<</speech>>
+[[Look around]]<<audio "menus" stop>><<if ndef $mute>><<audio "myroom" unmute>><<else>><</if>>
+
+

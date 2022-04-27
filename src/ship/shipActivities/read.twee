@@ -1,0 +1,400 @@
+:: read [noborder textback] {"position":"2318,176","size":"100,100"}
+<<removeclass "html">><<addclass "html" "library">><<if ndef $read>>You spend an hour reading one of the books you picked up from the shelves.
+
+<div class="center"><<if $book is 1>><img src="stuff/book1.png" width="20%"><<elseif $book is 2>><img src="stuff/book2.png" width="20%"><<elseif $book is 3>><img src="stuff/book3.png" width="20%"><<elseif $book is 4>><img src="stuff/book4.png" width="20%"><<elseif $book is 5>><img src="stuff/book5.png" width="20%"><</if>></div>
+<div class="center"><span class="notplus">''INT +1''</span></div>
+As you stand up to put the book back in its place, you can't help but notice a group of women at the same table. Although they try to keep their voices low, their laughter is obvious and audible through the whole library. But this time they are not laughing at you, instead they are pointing to a girl sitting at a table across the room.
+
+<div class="center"><img src="quest3/librarygirl.gif" width="42%"></div>
+<<speech "You" "''$name'':">>
+(Why are they laughing at her? Is it because she's... nerdy?)<</speech>>
+You decide to mind your own business and finish putting the book on its place. Just when you're about to leave the room, a loud sound disrupts your thoughts:
+
+<<linkreplace "... ...">><span class="onomatopeya">*PORN MOANS*</span>
+
+Your head turns inmediately. The girl is blushing with embarrasment as she grabs her computer, desperately trying to turn the volume down. She finally manages to do it and as soon as the room is silent again, the group of women start laughing at her.
+
+Suddenly, another woman you had barely noticed was there, stands up and goes to the girl.
+
+<<speech "nobody" "''Book lover'':">>
+Hey! Where do you think you are? This is a library. If you want to watch porn you should go someone else.<</speech>>
+<<speech "nobody" "''Nerd girl'':">>
+I was reading, but I just couldn't help it... I'm sorry...<</speech>>
+<<speech "nobody" "''Book lover'':">>
+I'm not interested in you excuses! Ugh... at least put on some headphones. *she walks back to her seat*<</speech>>
+Maybe it's due to the women laughing at her and the reprimand, but you can't help empathizing with her. Once the moment passes you decide to get closer and talk to her.
+
+<<speech "You" "''$name'':">>
+Hey, um... are you alright?<</speech>>
+<<speech "nobody" "''Nerd girl'':">>
+Yeah... I feel so embarrased...but I'm fine.<</speech>>
+<<speech "You" "''$name'':">>
+So what are you reading? *you point to her book*<</speech>>
+<<speech "nobody" "''Nerd girl'':">>
+Oh, um... it's about auto-control... It's very embarrasing to tell, but I have a very high libido... I'm horny at all times. It wouldn't be a problem if I could just mute the volume, nobody would notice.<</speech>>
+<<speech "You" "''$name'':">>
+Well, that's not a problem, I can do that for you-<</speech>>
+<<speech "nobody" "''Nerd girl'':">>
+I know how to do it, the problem is that it doesn't work! The volume is supposed to be muted, but it's not, as you just saw... Maybe if I had some headphones...<</speech>>
+ ''*New Side Quest: Bring the nerdy girl a pair of headphones*''
+
+[[Return|Library][$headphones to "Active", $badge to $badge +1, $int to $int +1, $read to 1, $library to 1]]<</linkreplace>>
+
+\\<<elseif $read is 1>><<if $headphones is "1/2 done">><<if ndef $girldec>>You spend an hour reading one of the books you picked up from the shelves.
+
+<div class="center"><<if $book is 1>><img src="stuff/book1.png" width="20%"><<elseif $book is 2>><img src="stuff/book2.png" width="20%"><<elseif $book is 3>><img src="stuff/book3.png" width="20%"><<elseif $book is 4>><img src="stuff/book4.png" width="20%"><<elseif $book is 5>><img src="stuff/book5.png" width="20%"><</if>></div>
+<div class="center"><span class="notplus">''INT +1''</span></div>
+<<linkreplace "Give headphones">>You approach the nerdy girl and take a seat next to her.
+
+<<speech "You" "''$name'':">>
+Hey, how are you doing?<</speech>>
+<<speech "nobody" "''Nerd girl'':">>
+I've given up on the computer, I just can't seem to fix it...<</speech>>
+Now that you are sitten next to her you can see where her hand is...
+
+<span class="fade-ins"><img src="quest3/girlpussy.jpg" width="50%"></span>
+
+<<speech "nobody" "''Nerd girl'':">>
+Hm...<</speech>>
+<<speech "You" "''$name'':">>
+Um... I- I have a present for you. (Is she masturbating right in front of me?)<</speech>>
+You bring out the ''headphones''.
+
+<<speech "nobody" "''Nerd girl'':">>
+Oh! Wow, thanks!<</speech>>
+Clumsily, she stops masturbating and, with the same hand, grabs the headphones, leaving a trail of her fluids on your hand. You don't know how to react and you just lower your hand.
+
+The girl opens the laptop and connects the headphones. Then she opens a folder with a ton of videos inside. She double-clicks on one of them and the video starts playing.
+
+<<speech "nobody" "''Nerd girl'':">>
+Do you want to take a look? *she offers you a headphone*<</speech>>
+<<linkreplace "Watch">><div class="center"><video controls width="70%"><source src="quest3/bbc.mp4" type="video/mp4">Sorry, your browser doesn't support embedded videos.</video></div>
+You don't know what you were expecting, but the video takes you by surprise. When the video is ten seconds in, your head leans forward.
+
+<<speech "nobody" "''Nerd girl'':">>
+You like this kind? *rub, rub*<</speech>>
+She keeps rubbing her crotch and bitting her lip. She slowly rests her head on your shoulder and takes a curious look at your pants.
+
+<<speech "You" "''$name'':">>
+Um... I...<</speech>>
+The awkwardness of the situation makes you blush. You wish you would have stood up before she put on the porn. But there's also something in that porn that makes you feel attracted to it, even more than normal porn. The sound of the video, the mantras, the imagery... In some way you don't fully understand, it's like it was made for you...
+
+<<speech "nobody" "''Nerd girl'':">>
+Mmm... I knew you'd like this one, heh... *she gets closer to your ear* I'll do you if you do me...<</speech>>
+The girl takes your hand and softly puts it on her thigh. Then she gives you a kiss on the neck, making you close your eyes and open your mouth for a second. When your eyes open again, you see a smile appear on her face.
+
+[[Let yourself go|read][$girldec to 0]]
+[[Stand up|read][$girldec to 1]]<</linkreplace>><</linkreplace>>
+
+\\<<elseif $girldec is 0>>You decide to stay there and recieve your reward. The voice on the video, added to her breath and her hand on your thigh is making you hornier by the second. Her hand is constantly but slowly moving towards your crotch, which makes your body shiver in anticipation.
+
+<<speech "nobody" "''Nerd girl'':">>
+Look at that COCK!<</speech>>
+<<speech "You" "''$name'':">>
+Yeah... (Omg, those dicks have to be fake...)<</speech>>
+<<speech "nobody" "''Nerd girl'':">>
+You like those BBCs, huh?<</speech>>
+<<speech "You" "''$name'':">>
+... ...<</speech>>
+You're almost too interested in the video, all those amazing cocks and women and the song. The way the voices repeat again and again ''Big Black Cock''... As you are lost in it, her hand reaches your penis.
+
+<<if $cage is true>><<speech "nobody" "''Nerd girl'':">>
+Oh, such a nice little boy... already with a cage *tap, tap* Good sissy... just look at those black dicks... those couldn't fit in a cage... *smiles*<</speech>>
+She reaches down to your balls, making you gasp. Then she rubs the tip, running her finger between the wires of the cage. Unconsciously, your mouth opens.
+
+<<speech "You" "''$name'':">>
+Ah...<</speech>>
+<<speech "nobody" "''Nerd girl'':">>
+Yeah... open that mouth...<</speech>>
+You keep your mouth a ajar as she rubs your penis through the cage. Suddenly, she stops rubbing your dick and leans in to give you a kiss on the cheek.
+
+<<speech "nobody" "''Nerd girl'':">>
+ *smooch* Good... open up...<</speech>>
+The video gets more and more intense as it goes, and you lean in to the laptop even further. Swiftly, she puts her hand near your face. She extends a finger and puts it in your mouth.
+
+<span class="onomatopeya">*GLUG*</span>
+
+<<speech "You" "''$name'':">>
+(WTF!) What the hell was that for??<</speech>>
+She had just made you swallow your own pre-cum.
+
+<<speech "nobody" "''Nerd girl'':">>
+I thought you were interested in those cocks, so I just gave you what you were asking for.<</speech>>
+With a disgusted look on your face, you stand up and get out of the reading room. Once you are out of the sight of the women in the library, you take your time to analize the taste.
+
+<<speech "You" "''$name'':">>
+ *slurp* (Why would she do that? Agh... <span class="pink">it's not that bad though...</span>)<</speech>>
+<div class="center"><span class="notplus">''FEM +1''</span></div><<set $fem to $fem +1>>
+
+
+
+
+\\<<else>><<speech "nobody" "''Nerd girl'':">>
+Aw... such a cute little white dick... not touching that though... look at those BBCs, you don't compare so well, do you? *smiles*<</speech>>
+Her hand moves back to her pussy, clearly masturbating.
+
+<<speech "nobody" "''Nerd girl'':">>
+ *fap, fap* Mmmm... Look at all those juicy cocks... follow the song: Big Black Cock... Big Black Cock...<</speech>>
+Even though the video has really caught your attention you are not doing that. With the corner of your eye, you take a look at her covered pussy, but you're only able to see her hand and her wet underwear. You quickly turn your head to the screen again, not wanting to miss a scene. Just as you do that, you feel two of her fingers getting in your half-closed mouth.
+
+<span class="onomatopeya">*GULP*</span>
+
+<<speech "You" "''$name'':">>
+Hey, what are you doing?!<</speech>>
+You stand up as you clean your mouth.
+
+<<speech "nobody" "''Nerd girl'':">>
+What's wrong? I thought you liked pussy, don't you?<</speech>>
+<<speech "You" "''$name'':">>
+Only when I ask for it! *slurp*<</speech>>
+<<speech "nobody" "''Nerd girl'':">>
+C'mon, don't be such a drama queen... I know by the way you were watching it that you prefer the dicks on the video, but I expected a "man" like you would be... open<</speech>>
+Weirded out by her, you get out of the room as quick as you can.
+
+<<speech "You" "''$name'':">>
+(How did I not see that coming... *slurp* <span class="pink">She doesn't taste so bad though...mmm...</span>)<</speech>>
+<div class="center"><span class="notplus">''SUB +1''</span></div>
+<</if>><<set $sub to $sub +1>>
+
+[[Finish|Library][$headphones to "Finished", $points to $points +100, $library to 1, $read to 2, $headphonesm to false]]
+
+
+
+
+\\<<elseif $girldec is 1>><<if ndef $librarian>>Suddenly, you realize the awkwardness of the situation: You're there, in the middle of the library watching porn and about to recieve a handjob from a strange girl.
+
+You abruptly stand up, dragging the chair and making a loud sound.
+
+<span class="onomatopeya">*SCRAPE*</span>
+
+As you are about to get out from the room, a woman grabs your arm.
+
+<<speech "nobody" "''Book lover'':">>
+Hey, who do you think you are, making all those noises?! This is a library, and people come here because they want to read!<</speech>>
+<<speech "You" "''$name'':">>
+I'm sorry, but that girl was-<</speech>>
+<<speech "nobody" "''Book lover'':">>
+Do I look like I care?! You're coming with me.<</speech>>
+She takes you out from the room into one of the corridors, passing by the groups of women laughing at you. Once you are alone she releases you.
+
+<<speech "nobody" "''Book lover'':">>
+God... thank you so much for finally giving her some headphones! You can't even imagine for how long I've had to put up with her fucking porn videos...<</speech>>
+She suddenly hugs you between her massive boobs, pushing your head between them.
+
+<div class="center"><img src="quest3/cleavage.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+Mmhm! No problem...<</speech>>
+<<speech "nobody" "''Book lover'':">>
+No, really... can I do anything for you? *smiles*<</speech>>
+[[Ask for a blowjob|read][$librarian to 0]]
+[[Ask for a good book|read][$librarian to 1]]
+
+\\<<elseif $librarian is 0>>You can't say no to her cute smile and impressive attributes...
+
+<<speech "You" "''$name'':">>
+Maybe we can come up with something... oral? *smile back*<</speech>>
+<<speech "nobody" "''Book lover'':">>
+That's the way to think, mhmm...<</speech>>
+She starts getting on her knees and opening your zipper. Then your fears strike back, making you think about the night you spent with Tara. But you've thought of this too late, she's already grabbing your underwear and pulling it down.
+
+<<if $cage is true>><div class="center"><img src="quest3/cagecum.gif" width="50%"></div><<speech "nobody" "''Book lover'':">>
+Oh my! I had read about this artifact, but I never really seen one... does that cage hurt you pee-pee?<</speech>>
+<<speech "You" "''$name'':">>
+N-no, not really... it only gets a bit uncomfortable when I'm aroused.<</speech>>
+<<speech "nobody" "''Book lover'':">>
+Yeah? Well, if I remember correctly, it should hurt a bit when you are aroused AND be uncomfortable the rest of the time, so whoever has done this to you has actually been nice.<</speech>>
+<<speech "You" "''$name'':">>
+... ...ok, I'm going to put my pants back on then. (This is so embarrasing, I feel like I'm being analyzed...)<</speech>>
+You put them back on and turn over to the side, ready to go.
+
+<<speech "nobody" "''Book lover'':">>
+Hey, wait. I've also read that sissies like you can develop other parts of their bodies in order to satisfy their sexual appetite, like their asses, or as they say: "boy pussies".<</speech>>
+She grips one of your ass cheeks, looking at it with hunger.
+
+<<speech "You" "''$name'':">>
+W-well... not this one!<</speech>>
+You loose her grip and get out of there as quickly as possible.
+
+<<speech "You" "''$name'':">>
+(Such a bad fucking comeback... I basically just admitted to being a sissy! <span class="pink">Am I...?</span>)<</speech>>
+<div class="center"><span class="notplus">''POINTS +100''</span></div>
+[[Finish|Library][$headphones to "Finished", $points to $points +100, $read to 2, $library to 1, $headphonesm to false]]
+
+
+
+\\<<else>><div class="center"><img src="appearance/pen2.jpg" width="50%"></div>
+<<speech "nobody" "''Book lover'':">>
+Cutie-cutie...<</speech>>
+<div class="center"><img src="quest3/smallsuck1.gif" width="50%"></div>
+With a very loud SLURP sound she sucks your semi-hard small penis into her wet mouth, in a way that reminds you of a noodle. Then she proceeds to recreate on the licking motion, making you feel things you haven't felt in months.
+
+<<speech "You" "''$name'':">>
+Ah... Oh my god...<</speech>>
+<<speech "nobody" "''Book lover'':">>
+Yeah? You like how I lick you weenie? It's so BIG...<</speech>>
+<div class="center"><img src="quest3/smallsuck2.gif" width="50%"></div>
+All of the sudden you understand what's going on. Her irony is just too obvious not to notice. The way she sucks your dick is like sucking on a finger... you feel how your libido is slowly lowering, until your dick doesn't even feel hard. It's just there, limp like a worm.
+
+<<speech "nobody" "''Book lover'':">>
+ *stops sucking* Aww... such a shame you couldn't get it hard enough to cum... *laughs* Get that shrimp away from my face then. *she stands up on her feet as you hide your shriveled dick in your pants* Thank you anyway.<</speech>>
+She leans over and still with some of your pre-cum on her mouth, she gives you a brief kiss on the mouth.
+
+<<speech "nobody" "''Book lover'':">>
+Bye-bye... *smiles*<</speech>>
+Embarrased, but still horny, you get your shit together and get out of the library. As you are passing through the reading room, you can hear the Book lover girl talking to some other women and giggling.
+
+<div class="center"><span class="notplus">''POINTS +100''</span></div>
+[[Finish|Library][$headphones to "Finished", $points to $points +100, $read to 2, , $headphonesm to false, $library to 1]]<</if>>
+
+\\<<elseif $librarian is 1>><<speech "You" "''$name'':">>
+I would like to find a good book, actually... I've come here a few times already and don't seem to satiate my hunger for knowledge.<</speech>>
+<<speech "nobody" "''Book lover'':">>
+W-what...?<</speech>>
+<<speech "You" "''$name'':">>
+What? Is something wrong?<</speech>>
+<<speech "nobody" "''Book lover'':">>
+No, I just... wasn't expecting that at all. You know, most men would go for sex, but you certainly are "different"... Here, I think this one could be of use to you:<</speech>>
+<div class="center"><img src="stuff/book6.jpg" width="22%"></div>
+<<speech "You" "''$name'':">>
+Hm, ok thanks. (This one seems convenient!)<</speech>>
+Just as you are about to go away, the woman grabs you by the shoulder.
+
+<<speech "nobody" "''Book lover'':">>
+Hey, I know you must be having a bad time here. I've never found a book lover on this ship before, and I think your passion for reading is very interesting, and... hot *blushes*<</speech>>
+Her sudden cuteness and vulnerability takes you by surprise. She's the first woman you've seen here that behaves this way to you.
+
+<<speech "You" "''$name'':">>
+Well... I'm honored. *smile*<</speech>>
+She smiles back at you and leans in to kiss you in the cheek.
+
+<span class="onomatopeya">*SMOOCH*</span>
+
+<<speech "You" "''$name'':">>
+Um... could you get your hand out of my crotch?<</speech>>
+<<speech "nobody" "''Book lover'':">>
+What...? Oh, yeah! Sorry, I'm not used to guys like you... I hope you like that book then. *throws kiss and goes back to the table*<</speech>>
+<<speech "You" "''$name'':">>
+(Wow, such an ego boost! *smile*)<</speech>>
+You thoroughly read the book she gave you.
+
+<div class="center"><span class="notplus">''POINTS +100 INT +2''</span></div>
+[[Finish|Library][$headphones to "Finished", $points to $points +100, $headphonesm to false, $int to $int +2, $read to 2, $library to 1]]<</if>>
+
+
+\\<<else>>You spend an hour reading one of the books you picked up from the shelves.
+
+<div class="center"><<if $book is 1>><img src="stuff/book1.png" width="20%"><<elseif $book is 2>><img src="stuff/book2.png" width="20%"><<elseif $book is 3>><img src="stuff/book3.png" width="20%"><<elseif $book is 4>><img src="stuff/book4.png" width="20%"><<elseif $book is 5>><img src="stuff/book5.png" width="20%"><</if>></div>
+<div class="center"><span class="notplus">''INT +1''</span></div>
+The nerdy girl seems to be sat in the same place, you can even see her suspiciously moving her hand under the table. Occasionally, some moans get out of her computer, followed by the look and laughter of the other women in the room.
+
+<<speech "You" "''$name'':">>
+(Geez... this girl needs is disrupting the silence every 30 seconds... she really needs some headphones...)<</speech>>
+[[Finish|Library][$int to $int +1, $library to 1]]<</if>>
+
+\\<<else>>You spend an hour reading one of the books you picked up from the shelves.
+
+<div class="center"><<if $book is 1>><img src="stuff/book1.png" width="20%"><<elseif $book is 2>><img src="stuff/book2.png" width="20%"><<elseif $book is 3>><img src="stuff/book3.png" width="20%"><<elseif $book is 4>><img src="stuff/book4.png" width="20%"><<elseif $book is 5>><img src="stuff/book5.png" width="20%"><</if>></div>
+<div class="center"><span class="notplus">''INT +1''</span></div>
+The nerdy girl seems to be sat in the same place, you can even see her suspiciously moving her hand under the table. Occasionally, some moans get out of her computer, followed by the look and laughter of the other women in the room.
+
+<<speech "You" "''$name'':">>
+(Geez... this girl needs is disrupting the silence every 30 seconds... she really needs some headphones...)<</speech>>
+[[Finish|Library][$int to $int +1, $library to 1]]<</if>>
+
+
+
+\\<<elseif $read is 2>>You spend an hour reading one of the books you picked up from the shelves.
+
+<div class="center"><<if $book is 1>><img src="stuff/book1.png" width="20%"><<elseif $book is 2>><img src="stuff/book2.png" width="20%"><<elseif $book is 3>><img src="stuff/book3.png" width="20%"><<elseif $book is 4>><img src="stuff/book4.png" width="20%"><<elseif $book is 5>><img src="stuff/book5.png" width="20%"><</if>></div>
+<div class="center"><span class="notplus">''INT +1''</span></div>
+<<if $dayn gte 30 and $libraryrandom lt 2>>The ''nerdy girl'' is missing from her usual place. You wonder where she might have gone... Suddenly, you start hearing some sounds coming from around the shelves.
+
+<<if $libenc is 1>><span class="fade-ins">You decide to crouch and peek.
+
+<div class="center"><img src="encounters/librarysuck.gif" width="25%"></div>
+<<speech "You" "''$name'':">>
+(Oh, shit... Wait, do I know that girl? She seems familiar...)<</speech>>
+<<speech "nobody" "Jacked white dude">>
+There you go, fucking slut. You thought you were through white guys, huh? You can't even take this white cock and you want to take 12 inches? You greedy fuck. Take it.<</speech>>
+<<speech "nobody" "''Nerd girl'':">>
+ *gag, gag, gag* I lovgg youggg cockggg *gag, gag*<</speech>>
+<<speech "You" "''$name'':">>
+Well, this area seems to be occupied...<</speech>>
+You turn back the other way, but suddenly stumble with another woman.
+
+<<speech "nobody" "''Book lover'':">>
+ *whispering* What the hell are you doing here? ... ... *she watches the nerdy girl giving head* Oh, I see... so you're one of those voyeurs, huh?<</speech>>
+Without giving you time to answer anything, she suddenly raises her voice a bit, so the couple can hear her.
+
+<<speech "nobody" "''Book lover'':">>
+Ahem! I think this is threesome without you knowing...<</speech>>
+<span class="onomatopeya">STOMP</span>
+
+She pushes you forward until you're fully visible for them.
+
+<<speech "You" "''$name'':">>
+Hey, no, that's not-<</speech>>
+You look back to find the girl that pushed you, but she seems to have already vanished.
+
+<<speech "nobody" "Jacked white dude">>
+Oh, so a threesome you say? Heh, sure, come here...<</speech>>
+<<speech "You" "''$name'':">>
+No, it's been another girl who said that. Not me!<</speech>>
+<<speech "nobody" "''Nerd girl'':">>
+ *slurp, slurp* Hey, keep your voice down! *slurp, slurp*<</speech>>
+<<speech "You" "''$name'':">>
+(Yeah, well, look who's talking...)<</speech>>
+<<if $sub gte 40>>[[Get closer (+40 SUB)|read][$libenc to 2, $tresenc to 0]]<<else>><<linkreplace "Get closer (+40 SUB)">>Not enough SUB...<</linkreplace>><</if>>
+[[Go away|read][$libenc to 2, $tresenc to 1]]</span>
+
+
+
+\\<<elseif $libenc is 2>><<if $tresenc is 0>><<if ndef $mutefx>><<audio "lick" volume 0.4 play>><<else>><</if>><<removeclass "html">><<addclass "html" "home">>You decide there's nothing wrong with wanting to have a better look, so you take a few steps forward until you're about a meter away.
+
+<<speech "nobody" "''Nerd girl'':">>
+ *gag, gag* I'm sorry bitch- *gag, gag* This dick is already busy enough-<</speech>>
+<<speech "nobody" "Jacked white dude">>
+That's not how you welcome another slut, you little shit. *hump, hump* Come on, just get ahold of these nuts.<</speech>>
+You focus on his dangling balls. The way they're slapping her chin is almost too hot to believe. The sound, the smell and the sight is making your clitty come back from the dead.
+
+<div class="center"><img src="encounters/libraryballs.gif" width="70%"></div>
+<<speech "You" "''$name'':">>
+ *gasp* <span class="pink">Wow...</span><</speech>>
+You lean over slowly, trying to avoid being hit by the hunk's massive thighs. His constant pounding is not helping at all...
+
+<<speech "You" "''$name'':">>
+Ahm... Aaaahm...<</speech>>
+No matter how hard you try, you can't reach his balls with just your mouth, so you take your hands and grab them tight.
+
+<<speech "You" "''$name'':">>
+(Yes, I've got them!)Hm... *slurp*<</speech>>
+Without thinking about it any further, you start fondling and licking his balls. The salty taste seems to be powerful enough to crush any "manly" thoughts. You've accepted your embarrasment and focused on completing the task, just like a good sissy should.
+
+Suddenly, you feel his balls twitching as his pounding gets harder.
+
+<<speech "nobody" "Jacked white dude">>
+Ah, ah, ah, AH! Fuck, these bitches! Aaargh!!<</speech>>
+<div class="center"><img src="encounters/librarycum.gif" width="50%"></div>
+His potent load covers the girl's face, as you keep massaging his ball sack to squeeze every single drop for her.
+
+<<speech "nobody" "''Nerd girl'':">>
+UUhhmmm... *lick, lick* Wow, I think I like white guys again... Mmmm...<</speech>>
+She keeps feasting on his cum, while he takes out his phone to take a few pictures. You take this as your signal to get the fuck out of there.
+
+<<speech "You" "''$name'':">>
+(This is starting to get surreal...)<</speech>>
+
+
+\\<<elseif $tresenc is 1>><<speech "You" "''$name'':">>
+No, I'm sorry. I-I have to go...<</speech>>
+<<speech "nobody" "Jacked white dude">>
+Such a shame... seems like there's more dick to you, you fucking nerdy whore!<</speech>>
+<<speech "nobody" "''Nerd girl'':">>
+ *gag, gag* Aaahhmmm... so tasty...<</speech>><</if>><</if>>
+
+
+\\<<else>>The ''nerdy girl'' is still watching her porn, but at least she's not bothering anybody...<</if>>
+
+[[Finish|Library][$int to $int +1, $library to 1]]<</if>><<audio "ship" mute>><<audio "menus" stop>>
+
+

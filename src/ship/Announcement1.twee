@@ -1,0 +1,22 @@
+:: Announcement1 [textback] {"position":"1328,1216","size":"100,100"}
+Suddenly, an announcement pops on the screen. There's a mature, but beautiful woman with a serious look on her face. When the music of the intro stops she starts talking:
+
+<img src="cap/capcom.jpg" width="40%">
+
+<<speech "cap" "''Captain T:''">>
+//Dear passengers, this is Captain T. I'm in charge of this wonderful ship. I inform you that we are about to set sail. Let me welcome you to the SQ Cruise Ship, where you will find your heaven.//<</speech>>
+<<speech "You" "''$name:''">>
+(Well, THAT is a cheesy line, but ok...)<</speech>>
+<<speech "cap" "''Captain T:''">>
+//I shall remind all of you that we will be having a welcoming dinner party inauguration tonight, at the stage room located on Deck 4. I strongly recommend each one of you to come and join in, it's going to be an awesome night!//<</speech>>
+<<speech "You" "''$name:''">>
+It is not usual for a Captain to talk like that...<</speech>>
+<<speech "cap" "''Captain T:''">>
+//On behalf of the entire crew I wish you a good trip. You girls have fun!//<</speech>>
+The transmission cuts with the company's musical line.
+  
+<<speech "You" "''$name:''">>
+(She refers to all the passengers as "girls?". I guess they are a majority, so it's not that inaccurate to refer to us as "girls")<</speech>>
+ <<nobr>>After that announcement you feel tired and fall <<click 'asleep.' Bedroom>><<set $party to "Active">><<set $badge to $badge +1>><<run $gameDate.setHours (19)>><<run $gameDate.setMinutes (30)>><</click>><<set $gotoparty to true>><<set $announcement to false>><<set $needshower to true>><<set $wardrobe to 0>><<set $pvip to 0>><<set $rvip to 0>><<set $svip to 0>><<set $dos to 0>><<set $party1 to true>><</nobr>><<audio ":back" mute>><<audio "menus" stop>><<if ndef $mutefx>><<audio "intercom" volume 0.6 play>><<else>><</if>>
+
+

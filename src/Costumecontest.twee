@@ -1,0 +1,376 @@
+:: Costume contest [textback] {"position":"2353,1163","size":"100,100"}
+<<removeclass "html">><<addclass "html" "stage">><<if ndef $backcostume>><<speech "style" "''Cherry:''">>
+Oh, here you are! Quick, come with me, we need to get ready for the costest!!<</speech>>
+<<speech "You" "''$name:''">>
+No, wait, I-<</speech>>
+Without waiting for your answer, Cherry takes your arm and pushes you around until you get to her room. Then she closes the door. You can tell she is very excited by the upcoming contest, but also very nervous.
+
+<<speech "style" "''Cherry:''">>
+OMG, we have no time at all, and I have to get ready!! I also need to get YOU ready!! It's too much, I just can't...<</speech>>
+<<speech "You" "''$name:''">>
+It's okay, you have enough time... you did it in 10 minutes last Tuesday, remember?<</speech>>
+<<speech "style" "''Cherry:''">>
+Yeah, yeah... you're right! Okay then, I should get going. YOU! Put on your costume! It's right there on the bed!<</speech>>
+As she nervously shouts at you, she quickly grabs a few things from her wardrobe and gets in the bathroom.
+
+<span class="onomatopeya">SLAM</span>
+
+<<speech "You" "''$name:''">>
+(Damn... no need to shout...)<</speech>>
+You wander around for a bit, not really wanting to dress up. You know that if you go to the stage dressed like this, all the women of the ship will be there and will definitely make fun of you. But if you are going to ultimately dress up, you need to do it right now.
+
+<<if $costume is 1>><div class="center"><img src="classes/style/maid.jpg" width="50%"></div><<elseif $costume is 2>><div class="center"><img src="classes/style/devil.jpg" width="50%"></div><<elseif $costume is 2>><div class="center"><img src="classes/style/bunny.jpg" width="50%"></div><</if>>
+<<speech "You" "''$name:''">>
+(Fuck... let's go for it...)<</speech>>
+You feel a knot forming in your guts, already feeling the humiliation you're going to live in a while. You don't understand why, but as you start putting on the costume, you can feel your blood rushing and your cheeks blushing. Just as you finish dressing up, Cherry comes out of the bathroom with hers on.
+
+<<speech "style" "''Cherry:''">>
+Thank god you are ready! We need to get going! Follow me!<</speech>>
+You do as you're told and follow her through the decks until you reach the stage. You can already see a small group of women waiting outside the stage, talking and laughing. Thankfully, they don't recognize you.
+
+[[Get into backstage|Costume contest][$backcostume to 1]]
+
+
+\\<<elseif $backcostume is 1>><div class="center"><img src="classes/style/lola.jpg" width="50%"></div>
+<<speech "lola" "''???:''">>
+Hey, Cherry! I see you brought your pet! What are you dressed as? Mediocrity?<</speech>>
+<<speech "style" "''Cherry:''">>
+Did you hear something, $name? I thought I heard a bitch barking...<</speech>>
+<<speech "lola" "''???:''">>
+You're going down, Cherry.<</speech>>
+<<speech "style" "''Cherry:''">>
+You are crazy if you think you have any possibility with that shitty costume, Lola... Ok, $name, sit on that makeup chair, I'll help you with it.<</speech>>
+<<speech "lola" "''Lola:''">>
+And I don't even want to talk about that sissy's costume. You chose it, didn't you, Cherry? Hahaha I can see your tasteless touch on it.<</speech>>
+You can see Cherry getting angry and facing her.
+
+<<speech "style" "''Cherry:''">>
+Why don't you shut up already...<</speech>>
+<<speech "lola" "''Lola:''">>
+Hahaha What? You're gonna cry?<</speech>>
+<<speech "style" "''Cherry:''">>
+No, I-I-<</speech>>
+Cherry tries to hold her anger tears and walk by you. She starts putting some light makeup on you.
+
+<<speech "You" "''$name:''">>
+Is everything fine? Who was that?<</speech>>
+<<speech "style" "''Cherry:''">>
+Huh? No-one... She had my job last year. She's just mad because I got hired instead for this year's cruise.<</speech>>
+<<speech "You" "''$name:''">>
+(She really seems to be affected by her... I hope that bitch loses!)<</speech>>
+You are surprised by your thoughts and by how protective you are towards her.
+
+<<speech "You" "''$name:''">>
+Don't let her push you around, Cherry. You are wonderful at your job. You are just nicer than her.<</speech>>
+Cherry looks at your face on the mirror and smiles.
+
+<<speech "style" "''Cherry:''">>
+Aw... thanks you, sweety... If I could decide a winner, I would propose you. You are definitely the cuter of us all!<</speech>>
+Cherry let's you stand up from the chair and she sits on it, finishing the last details of her makeup. After just a couple of minutes, another woman comes in.
+
+<div class="center"><img src="classes/style/organizer.jpg" width="30%"></div>
+<<speech "nobody" "''Organizer:''">>
+Alright girls! We are going to close the doors, everything is set. Get ready to rumble!!<</speech>>
+The 20 girls that are in the backstage starts wooing and screaming out of excitement and make a line to get out to the stage when they get the sign.
+
+<<speech "style" "''Cherry:''">>
+Come on, $name! We are going out now! You go first!<</speech>>
+All the women think that Cherry's idea is funny and so they push you until you are the first one on line. You can hear the multitude talking and laughing. You feel your heart pounding faster than it has anytime on this trip.
+
+<<speech "nobody" "''Organizer:''">>
+Okay, girls, so- Oh, the "gurl" is going out first? They will love it! So, at my signal, you walk to the left end of the stage, alright? This way, the public can take a good look at your costumes. Then I'll present you one by one. Once I say your name and start explaining your choice for the costume, you have to walk forward to the end of the stage, so they can have a closer look. Then you make your poses and show off. IT'S THAT SIMPLE. UNDERSTOOD?<</speech>>
+<span class="onomatopeya">WOOOOOOOOO</span>
+
+Now that you know that this show has an organizer, you strangely feel a bit more calm. But you still don't know what "poses" you will offer to the public...
+
+<<speech "You" "''$name:''">>
+(Is that even necessary??)<</speech>>
+<<speech "style" "''Cherry:''">>
+Hey, $name. *smiles* Just be yourself! They will LOVE you.<</speech>>
+You blush and smile.
+
+<<speech "You" "''$name:''">>
+<span class="pink">Thanks...</span><</speech>>
+<<linkreplace "The show starts">>The organizer grabs a mic and starts presenting the show.
+
+<<speech "nobody" "''Organizer:''">>
+Welcome ladies to the COSTUME CONTEST! The girls are ready, but let me refresh the rules: You have been given a paddle with two different colours on them, red and blue. The contestants will compete 1 vs 1 each round, until we reach the semi-final, and finally the grand finale. You will decide the winner, so please, vote only once per round.
+
+But first of all, let's introduce our girls. Let's give them a big applause!<</speech>>
+<span class="onomatopeya">CLAP CLAP CLAP</span>
+
+<<speech "style" "''Cherry:''">>
+C'mon $name, that's the signal!<</speech>>
+<<speech "You" "''$name:''">>
+Oh, right!<</speech>>
+You gather all the convinction you have left on you, and start walking forward to the stage. Once you cross the curtains, the difference in volumen of the clapping and the cheers of the public is enormous, and so is the intensity of the light, which makes you close your eyes and try to block it with your hand.
+
+Thankfully, that doesn't stop you from walking to where you are supposed to. After what seems like just a moment, you arrive to your spot and take a look to the right to see if the girls are correctly aligned. You smile as Cherry waves her hand from the middle of it.
+
+<<speech "nobody" "''Organizer:''">>
+What do you think girls? High standards this year, huh? It's going to be a close one, I'm sure of that! Now, let me introduce our first contestant from the right side: ASHLEY, as ZELDA from the LEGEND OF ZELDA. If you're a videogame fan, I'm sure you are familiar with this one, although it might not be the smartest choice considering the audience, or will it? YOU DECIDE! Ooh, she's a bit nasty, isn't she? I don't remember Zelda being that much of a whore...<</speech>>
+<div class="center"><img src="classes/style/zelda.jpg" width="40%"></div>
+You look at the girl dancing at the front of the stage, performing a small act for the audience. She's apparently really gaining some points with it...
+
+Then the organizer introduces the next one, and so on. One of them have costumes like "Queen of Spades", which isn't very original considering the ship you're in. Another one was a "Condom" costume, which you thought would be very boring, but the performance was certainly funny. You notice that most of them are very sexual and funny, mostly dependant on the performance, so you start worrying about your costume. Maybe you should try to sell it as well as you can.
+
+Then, it's that rude woman's turn. She hadn't changed when you came into the backstage yet, but now you can see what her costume is about.
+
+<<speech "nobody" "''Organizer:''">>
+Woah! Here comes the "Bull"??<</speech>>
+<div class="center"><img src="classes/style/bull.jpg" width="50%"></div>
+You can see the woman dressed as a literal bull, but once she starts the performance, she takes her crotch part off and reveals a huge black plastic dong. She roughly grabs another contestant and pushes her to the floor, just to start humping her ass.
+
+To your surprise, the women in the stage are liking this show, even if another contestant is being basically raped.
+
+<<speech "You" "''$name:''">>
+(Jeez... This fucking woman has got to go down!)<</speech>>
+Then it's Cherry's turn.
+
+<<if $costume is 1>><div class="center"><img src="classes/style/pixie2.jpg" width="50%"></div>
+\\<<elseif $costume is 2>><div class="center"><img src="classes/style/savage.jpg" width="50%"></div>
+\\<<elseif $costume is 3>><div class="center"><img src="classes/style/kitty.jpg" width="50%"></div><</if>>
+
+<<speech "nobody" "''Organizer:''">>
+Oh, wow! Look at that <<if $costume is 1>>little fairy girl. She's so cute...<<elseif $costume is 2>>cute savage girl... and you've got to appreciate the nipple nudity!<<elseif $costume is 3>>little kitty... Oh, fuck! Is that tail attached to her... oohh... naughty girl!!<</if>><</speech>>
+Cherry is playing with her boobs and ass and really following your advice of bringing the costume alive. The people seem to be really enjoying how she is actually taking it seriously and not like a highschool play or a joke, as most of the girl are...
+
+The rest of the girls are introduced as well, and you know that soon your turn will come to be introduce.
+
+<<speech "You" "''$name:''">>
+(Come on, $name! You need to do your best here, this is going to be embarrasing either way, so why not try to do it well at least?? Let's go for it!!)<</speech>>
+<<speech "nobody" "''Organizer:''">>
+Okay girls! Now for our last contestant of the line! You might recognize this "gurl" from the first day or seeing her walk around the ship during these weeks. "That" is a boy... or that's what "she" thought! Hahahaha Welcome, $name!<</speech>>
+As you hear your name, you walk straight to the public. You can feel all the eyes focusing on your body. Once you arrive at the front of the stage, you know it's time to do something. You can hear the women go wild, probably ironically, just because you are a boy dressed as a girl.
+
+<span class="onomatopeya">HAHAHAHAHA</span>
+
+You know that if you really want to demonstrate your value, you have to at least move or do something. <<if $costume is 1>>You decide that the best you can do to embrace your costume is move the dusters around like if you were cleaning a house. 
+
+<div class="center"><img src="classes/style/maid2.jpg" width="50%"></div>
+The crowd keeps on laughing at you, as well as the other contestants. You know that you are making a fool of yourself, but there's something in you that wants to win. And also, you feel a rush knowing that all these women are looking at you.
+
+<<speech "You" "''$name:''">>
+ *blush* Hmmm...<</speech>>
+<<speech "nobody" "''Brunette teen:''">>
+Turn around, sweetie! Show us what you got!<</speech>>
+<<speech "You" "''$name:''">>
+<span class="pink">(Oooh, they want to see me do more stuff? *blush*)</span><</speech>>
+While you are thinking about this and getting all excited and horny, you accidentally throw your duster to the floor.
+
+<<speech "You" "''$name:''">>
+<span class="pink">Ooops!</span><</speech>>
+You turn around and bend over to grab it, not even noticing your bare ass showing to the crowd.
+
+<span class="onomatopeya">HAHAHAHAHA</span>
+
+<<speech "nobody" "''Brunette teen:''">>
+You go, girl!<</speech>>
+<<speech "nobody" "''Blonde milf:''">>
+Work for that raise, sissy!<</speech>>
+
+
+
+\\<<elseif $costume is 2>>You decide that the best you can do to embrace your costume is look around like an angry devil and be a bit naughty and sexy.
+
+<div class="center"><img src="classes/style/devil2.jpg" width="50%"></div>
+The crowd keeps on laughing at you, as well as the other contestants. You know that you are making a fool of yourself, but there's something in you that wants to win. And also, you feel a rush knowing that all these women are looking at you.
+
+<<speech "You" "''$name:''">>
+ *blush* Hmmm...<</speech>>
+<<speech "nobody" "''Brunette teen:''">>
+Turn around, sweetie! Show us what you got!<</speech>>
+<<speech "You" "''$name:''">>
+<span class="pink">(Oooh, they want to see me do more stuff? *blush*)</span><</speech>>
+In the heat of the moment you get to the ground and start crawling sexily with a bitch face.
+
+<<speech "You" "''$name:''">>
+<span class="pink">(I hope they like this...)</span><</speech>>
+You turn around and crawl to the other side, revealing your bare sissy ass under that devil costume.
+
+<span class="onomatopeya">HAHAHAHAHA</span>
+
+<<speech "nobody" "''Brunette teen:''">>
+Have I been a bad girl?!<</speech>>
+<<speech "nobody" "''Blonde milf:''">>
+If that's the devil, I will go straight to hell!!<</speech>>
+You blush and smile to yourself, but these compliments also make you feel too embarrased and you quickly stand up.
+
+
+\\<<elseif $costume is 3>>You decide that the best you can do to embrace your costume is jump around like the innocent bunny you are. 
+
+<div class="center"><img src="classes/style/bunny2.jpg" width="30%"></div>
+The crowd keeps on laughing at you, as well as the other contestants. You know that you are making a fool of yourself, but there's something in you that wants to win. And also, you feel a rush knowing that all these women are looking at you.
+
+<<speech "You" "''$name:''">>
+ *blush* Hmmm...<</speech>>
+<<speech "nobody" "''Brunette teen:''">>
+Hey little bunny! Where's your carrot?<</speech>>
+<<speech "You" "''$name:''">>
+<span class="pink">(Oooh, they want to see me do more stuff? *blush*)</span><</speech>>
+You try to answer the woman in the crowd's advice and find a carrot, but you didn't think of that before, and you don't have anything like it.
+
+<<speech "nobody" "''Blonde milf:''">>
+C'mon pretty bunny! Show us your tiny carrot!<</speech>>
+<span class="onomatopeya">*CHEERS AND LAUGHS*</span>
+
+<<speech "You" "''$name:''">>
+<span class="pink">(Oh, that's what they want... I don't think I can do that...)</span><</speech>>
+You stay still in the middle of the stage as all the crowd refuses to go on with the show until you show them your "carrot".
+
+<<speech "nobody" "''Organizer:''">>
+Alright! Seems like the crowd is asking for something from our contestant. Come on, $name! You gotta give the people what they want!<</speech>>
+You get caught in the heat of the moment and grab the skirt of your dress.
+
+<<speech "You" "''$name:''">>
+(I can't believe I'm doing this...)<</speech>>
+<div class="center"><img src="classes/style/cage1.jpg" width="30%"></div>
+<span class="onomatopeya">HAHAHAHAHA</span>
+
+<<speech "nobody" "''Brunette teen:''">>
+Where is it?!<</speech>>
+<<speech "nobody" "''Blonde milf:''">>
+A bunny like you deserves a bigger carrot!!<</speech>><</if>>
+
+<<speech "nobody" "''Organizer:''">>
+Oh, wow! A bit too real for a costume party! Hahahaha I bet these girls loved that! We'll see how that goes for our nasty "gurl"...<</speech>>
+You stand back up, embarrased by the development of your performance, and get back to your place in the line. You can see how some of the contestants are giving you a bad look, probably thinking that wasn't fair.
+
+<<speech "nobody" "''Organizer:''">>
+Now, you girls have your favourites?? I hope so, because it's time to vote! Isn't it exciting? Remember girls, 12 rounds, 1 vs 1. You can only vote for one each round. Then we'll have the semi-final, which will be 3 vs 3, and then the final round 1 vs 1 with the previous round's winners. We wish you all luck!<</speech>>
+<<speech "You" "''$name:''">>
+(What's this? A football league?? I don't think this is how this is supposed to be...)<</speech>>
+<<speech "nobody" "''Organizer:''">>
+First of: $name vs Ashley! Red for $name, blue for Ashley!<</speech>>
+Seems like they are pairing the last on the left with the last on the right. Just as the organizer mentions both of you, you can see the women on the crowd cheering both names and holding up their paddles.
+
+<<speech "nobody" "''Organizer:''">>
+That one is clear! $name wins the first round!<</speech>>
+<<speech "You" "''$name:''">>
+I... won?<</speech>>
+<span class="onomatopeya">*CHEERS AND APPLAUSE*</span>
+
+You can see Cherry telling you to bow for the audience. You quickly comply, partially proud of yourself. The voting goes on, sometimes having to repeat it, due to the ambiguous result.
+
+<<speech "You" "''$name:''">>
+(Doesn't seem like a very effective way of doing this, but who am I to complain... I'm doing good so far!)<</speech>>
+After discarding the worst contestants, they go to the back and sit down. Once the 6 semi-finalists, including yourself, are left alone, you can see how emptier the stage looks now, which only makes you feel more nervous.
+
+<<linkreplace "Semi-finals">><<speech "nobody" "''Organizer:''">>
+Okay, girls! This is getting heated!! Now, let's divide this 6 amazing contestants in two groups of three. Beth, Kate and $name are group 1. Cherry, Lola and Hannah, group 2. So let's vote our group 1 favourites in pairs. Please, Beth and Kate, take a step forward!<</speech>>
+They do so, and start interacting a bit. The one that's dressed as a halloween sexy skeleton starts trying taunt the other girl, that's dressed as a dog, with her arm. The crowd seems to find this funny, although not impressive by any means... Finally, they select the dog. Probably because it's a sexier costume.
+
+<<speech "You" "''$name:''">>
+(Damn, the skeleton costume was a lot more elaborate... This crowd is definitely not judging the costume, just how humiliating it is for the contestant!!)<</speech>>
+<<speech "nobody" "''Organizer:''">>
+Alright then! Seems like the doggy is the winner! Now, $name, take a step so these girls can take a good look...<</speech>>
+You do so, receiving a big cheer, as well as some laughter. Seems like the girl in the sexy dog costume is willing to fight for the contest a bit, since she pushes you until you fall down. As you try to stand up, you can feel her humping your ass.
+
+<span class="onomatopeya">HAHAHAHAHAHAHA</span>
+
+<<speech "nobody" "''Organizer:''">>
+Wow! The dog is taking what it wants!<</speech>>
+You know that if you don't turn this around, you're going to lose, so you try to free yourself from her grip, but it is a bit too tight... So instead of doing that, you decide to turn around and make her fall over.
+
+<<speech "nobody" "''Dog girl:''">>
+Ow! Fuck, you bitch!<</speech>>
+Suddenly, the girl stand up on two paws and starts insulting you. Seems like the crowd is not liking her temper and how she's breaking her character.
+
+<<speech "nobody" "''Organizer:''">>
+And the first finalist is... $name!!!<</speech>>
+<span class="onomatopeya">*CHEERS AND APPLAUSE*</span>
+
+<<speech "nobody" "''A girl from the crowd'':">>
+Way to go, gurl! Shake that ass!<</speech>>
+Your face turns red, both by the excitement of being a finalist and the embarrasment from the crowd's reaction.
+
+<<speech "You" "''$name:''">>
+ *shake ass*<</speech>>
+<span class="onomatopeya">HAHAHAHAHAHAHA</span>
+
+<<speech "nobody" "''Organizer:''">>
+Hahaha The crowd goes wild! They really love you, honey! And now, we'll do the same with these girls! Coming first, Hannah and Cherry!<</speech>>
+Both of them walk towards the front of the stage and after a not very active performance, the crowd chooses to save Cherry, which makes you clap and smile like a pretty little teenage girl.
+
+<<speech "nobody" "''Organizer:''">>
+And now, we'll find out who'll be the next finalist! Cherry or Lola?!<</speech>>
+Lola runs toward Cherry and hunts her down, doing exactly the same she did with the last contestant, basically fake raping her. Sadly, the winner seems obvious...
+
+<<speech "nobody" "''Organizer:''">>
+Ooops... seems like the bull can fuck every girl up, to nobody's surprise, right girls?!<</speech>>
+<span class="onomatopeya">*CHEERS AND APPLAUSE*</span>
+
+<<speech "nobody" "''Organizer:''">>
+I'm sorry, Cherry, but I'm afraid Lola is our finalist! And now, without further ado, the grand finale! Let's see how these two pretty ladies compare!<</speech>>
+You both walk to the front slowly. You can see a devilish smile on her face.
+
+<<speech "lola" "''Lola:''">>
+Listen, baby gurl... Do you know what bulls do, right! We like to lunge little gurls like you... *whips her plastic cock at you*<</speech>>
+<div class="center"><img src="classes/style/bulldildo.jpg" width="30%"></div>
+You can't help but feel scared by the size of her plastic black cock and you take a few steps back.
+
+<<speech "lola" "''Lola:''">>
+Where are you going, sweetie?<</speech>>
+The only thing you can think about is how scared you are, but at the same time you don't want to lose, so you decide to stay in character for as long as you can.
+
+<<if $costume is 1>>You start moving your dusters around as you did and crouching to wipe the floor. Lola takes advantage of this position to throw you to the floor.
+
+\\<<elseif $costume is 2>>You point your trident at Lola, as try to keep a straight face. The crowd like that, but now Lola is only more mad and willing to do anything to win. She finally throws you to the floor.
+
+\\<<elseif $costume is 3>>Altough it seem counter-productive, you just start jumping around like the innocent bunny you are, trying to keep the interest of the crowd. But obviously, Lola soon takes advantage of your position and throws you to the floor.<</if>>
+
+You know that if she keep doing this, she's probably going to win. The only thing you can imagine you can do to win is either gaining the dominant position, which seems odd, or just behave sexier so you can call the attention upon yourself...
+
+<<speech "You" "''$name:''">>
+Uh... Hmmm...<</speech>>
+<<speech "lola" "''Lola:''">>
+Yeah... ahahaha You hear that? She's totally submitting to my bull dick!<</speech>>
+<<speech "You" "''$name:''">>
+(Maybe I should embrace... my... costume...) Ahhh! *puts arms around her shoulders*<</speech>>
+<<speech "lola" "''Lola:''">>
+You're enjoying that too much, you sissy!<</speech>>
+Suddenly, you reach her ass, touching the straps of her strapon. You slowly start unbuckling them, but you are afraid that you might not have enough time. Lola keeps fake fucking you, harder and harder each time.
+
+<span class="onomatopeya">HUMP HUMP HUMP</span>
+
+You can hear how some girls are already lifting their paddles, probably voting for Lola, but you can't let that happen, she's such a bitch! You gather all your strength and flexibility and get a good grip on both straps and pull from the at the same time, completely loosing the strapon.
+
+<<speech "lola" "''Lola:''">>
+Now I'm going to make you preggy, sissy! I bet you'd love to get knocked up, huh?<</speech>>
+Lola raises her hip higher, preparing her last hump, but you take advantage of it to grab the long black dildo and push it down as hard as you can, making it go to her anckles. You quickly roll over to the side and stand up, having enough time to buckle the strapon right on her anckles.
+
+<<speech "style" "''Cherry:''">>
+Yeah! Woooo! That's my sissy-gurl!<</speech>>
+You can see the crowd cheering and some of them are changing their side of the paddle. You can see Lola mad as hell sliding the strapon off her feet.
+
+<<speech "lola" "''Lola:''">>
+You're a sleazy slut, faggot! *throws it at you*<</speech>>
+Although it hits your hips and hurts you a bit, you are cold-blooded enough to take it and use it to your advantage. You take ahold of it and take it away, starting to hit her with it. To your surprise, she is feeling more humiliated by the second and backing out.
+
+<<speech "You" "''$name:''">>
+(Heh... She's not as used to the humiliation as I am! ... Is that even a good thing...?)<</speech>>
+<<speech "nobody" "''Organizer:''">>
+OMG! I think the winner is now clear. Congratulations, $name! You are the costume contest winner!<</speech>>
+You smile and blush at the same time. You feel exposed, but happy. The contradictory feeling that are rushing through you are making you feel really confused. You just stand there with a vain smile on your face as all the laughter and applause overwhelm you. Sound starts fading out and all that is left is a sincere enjoyment. You are enjoying the cheering as well as the exposure...
+
+<<speech "style" "''Cherry:''">>
+OMG, honey! You won! I told you you were the cutest one!<</speech>>
+Everything turns blurry as Cherry and the organizer leads you to the backstage, along with the rest of the contestants. Once you are there, you go in the bathroom with Cherry to change again.
+
+<<linkreplace "Backstage bathroom">><<speech "style" "''Cherry:''">>
+Let's let the people go to the lounge before us, that way they'll be waiting for us... you're going to be famous tonight!<</speech>>
+You see Cherry changing herself in front of you, but you realize you have no clothes to change into.
+
+<div class="center"><img src="classes/style/naked1.jpg" width="50%"></div>
+<<speech "You" "''$name:''">>
+But I can't take this off, I don't have any other clothes...<</speech>>
+<<speech "style" "''Cherry:''">>
+Oh, well, even better, don't you think? That way everyone will recognize you!<</speech>>
+You don't like the idea, but now that you've been rubbing a dildo on a stage in front of everyone, there's no dignity left to ruin...
+
+After a few minutes, Cherry is ready and she leads you through the empty backstage, stage and seats, right to the lounge room.
+
+[[Go to the lounge room]]<</linkreplace>><</linkreplace>><</linkreplace>>
+\\<<elseif $backcostume is 2>><</if>><<set $costumeparty to "Finished">>
+
+

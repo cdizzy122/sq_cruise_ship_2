@@ -1,0 +1,138 @@
+:: SMS4 [phone] {"position":"1037,2782","size":"100,100"}
+<<if ndef $altersms4>>Your heart pounds harder as you open $gffname's SMS. You're not sure if you're nervous because you hate her, or she makes you too horny to handle.
+
+<span class="fade-in"><div class="center"><img src="lana/lanamirror1.jpg" width="35%"></div></span>
+
+<<speech "lanad" "''$gffname:''">>
+Hey, would you smash?<</speech>>
+At first you're shocked by her question, but at this point you feel like she couldn't really surprise you even if she tried.
+
+<<speech "You" "''$name:''">>
+(Um...)<</speech>>
+[[Sure!|SMS4][$altersms4 to 0]]
+[[Nah|SMS4][$altersms4 to 1]]
+
+
+
+\\<<elseif $altersms4 is 0>><<speech "You" "''$name:''">>
+Um... yeah! I mean, I t-think y-you are-<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Aaalright, thanks!<</speech>>
+<<speech "You" "''$name:''">>
+... ...<</speech>>
+You see her get offline.
+
+<<speech "You" "''$name:''">>
+(What the hell...?) Can I at least ask why are you showing me this?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+What do you mean why? To know if you'd like it, that's all.<</speech>>
+<<speech "You" "''$name:''">>
+Um... okay, but what's the purpose?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh, I'm not sure you deserve that. Well, since you've been a good boy I guess I'll tell you right away...<</speech>>
+You buckle up, expecting the worst.
+
+<<speech "lanad" "''$gffname:''">>
+Remember how I told you about really "milking the cow", actually asking guys for money? Well, here I am! Let's just say that I'm empathetic with all you Betas... Hahaha<</speech>>
+<<speech "You" "''$name:''">>
+Wait, you already charged before, didn't you?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+ *sigh* You still don't get it, do you? God, I didn't notice you were so dumb... Here, I'll demonstrate: You now owe me 10$.<</speech>>
+<<speech "You" "''$name:''">>
+What? No, I don't.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+I'm afraid you do, shrimpy. After all you've had the privilege to see me nude.<</speech>>
+<<speech "You" "''$name:''">>
+B-but you sent it to me. I didn't ask for it.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh, but just remember... I do have a picture of you naked... and a lot of weird stories I could tell... How would you feel if your friends and family knew about your tiny friend?<</speech>>
+Your blood thickens as you read this. It doesn't take a long time for you to know that this is probably the worst thing that has happened, even worse than this "Ship"...
+
+<<speech "You" "''$name:''">>
+W-Wait, no... I just... No, you can't do that!<</speech>>
+<<speech "lanad" "''$gffname:''">>
+I actually can! And I'm doing it, but there's an easy alternative...<</speech>>
+Your mind is rushing through a lot of negative thoughts: frustration, humiliation, fear... but no matter how much you try, you can't come up with a solution.
+
+<<speech "You" "''$name:''">>
+(Will I even be able to tell someone about this? Who? I'm all alone...) Okay, okay... just this time... 10$, right? If I remember correctly, I left some change at the entrance.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Hm... it will do (for now...) Do you get it now? I just ask for money, and you Betas GIVE...<</speech>>
+<<speech "You" "''$name:''">>
+(Is this even legal?) Um... yeah.<</speech>>
+You let your phone go. This conversation has made you so scared that you can actually feel your heartbeat in your ears.
+
+<<speech "lanad" "''$gffname:''">>
+😘😘😘 Thanks, sweetie! In my experience, you white boys usually love this. And I do too. It's a win-win, isn't it?<</speech>>
+<<speech "You" "''$name:''">>
+Um... I-I really don't feel comfortable with this, $gffname...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Just relax baby-boy... I might even let you jerk that little worm for me if you behave well enough... You should be happy that I'm attending you first. I've got a full in-box of sissies right now... Gotta go, see you in a while!<</speech>>
+<<speech "You" "''$name:''">>
+(I don't like how that sounds...)<</speech>>
+[[Return|Bedroom][$lanasms to 6, $smsm6 to false]]
+
+
+
+\\<<elseif $altersms4 is 1>><<speech "You" "''$name:''">>
+Nah... not especially, no...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh, I see... what do you think would make it better? Maybe some of this?<</speech>>
+<div class="center"><img src="lana/lanamirror2.jpg" width="45%"></div>
+You feel a little tingle in your nether regions, giving you the answer.
+
+<<speech "You" "''$name:''">>
+Yeah, t-that's better...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+How much do you like it?<</speech>>
+<<speech "You" "''$name:''">>
+I think it's... good...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Hah! You're trying too hard, I know your tiny pee-pee is probably hard as fuck. This'll do.<</speech>>
+<<speech "You" "''$name:''">>
+"Will do" for what?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh, right. Let me tell you my perfect plan.<</speech>>
+You buckle up, expecting the worst.
+
+<<speech "lanad" "''$gffname:''">>
+Remember how I told you about really "milking the cow", actually asking guy for money? Well, here I am! Let's just say that I'm empathetic with all you Betas... Hahaha<</speech>>
+<<speech "You" "''$name:''">>
+Wait, you already charged before, didn't you?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+ *sigh* You still don't get it, do you? God, I didn't notice you were so dumb... Here, I'll demonstrate: You now owe me 10$.<</speech>>
+<<speech "You" "''$name:''">>
+What? No, I don't.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+I'm afraid you do, shrimpy. After all you've had the privilege to see me nude.<</speech>>
+<<speech "You" "''$name:''">>
+B-but you sent it to me. I didn't ask for it.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh, but just remember... I do have a picture of you naked... and a lot of weird stories I could tell... How would you feel if your friends and family knew about your tiny friend?<</speech>>
+Your blood thickens as you read this. It doesn't take a long time for you to know that this is probably the worst thing that has happened, even worse than this "Ship"...
+
+<<speech "You" "''$name:''">>
+W-Wait, no... I just... No, you can't do that!<</speech>>
+<<speech "lanad" "''$gffname:''">>
+I actually can! And I'm doing it, but there's an easy alternative...<</speech>>
+Your mind is rushing through a lot of negative thoughts: frustration, humiliation, fear... but no matter how much you try, you can't come up with a solution.
+
+<<speech "You" "''$name:''">>
+(Will I even be able to tell someone about this? Who? I'm all alone...) Okay, okay... just this time... 10$, right? If I remember correctly, I left some change at the entrance.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Hm... it will do (for now...) Do you get it now? I just ask for money, and you Betas GIVE...<</speech>>
+<<speech "You" "''$name:''">>
+(Is this even legal?) Um... yeah.<</speech>>
+You let your phone go. This conversation has made you so scared that you can actually feel your heartbeat in your ears.
+
+<<speech "lanad" "''$gffname:''">>
+😘😘😘 Thanks, sweetie! In my experience, you white boys usually love this. And I do too. It's a win-win, isn't it?<</speech>>
+<<speech "You" "''$name:''">>
+Um... I-I really don't feel comfortable with this, $gffname...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Just relax baby-boy... I might even let you jerk that little worm for me if you behave well enough... You should be happy that I'm attending you first. I've got a full in-box of sissies right now... Gotta go, see you in a while!<</speech>>
+<<speech "You" "''$name:''">>
+(I don't like how that sounds...)<</speech>>
+[[Return|Bedroom][$lanasms to 6, $smsm6 to false]]<</if>>
+
+

@@ -1,0 +1,134 @@
+:: Untitled Passage 2 {"position":"1266,1318","size":"100,100"}
+[[Bedroom]]
+[[a]]
+[[SMS1 GF]]
+[[Goodmorning]]
+[[Dreams]]
+[[Stylingclass][$stylingclass to 4]]
+[[Deck 2]]
+
+
+
+<<set $shaving to 0>>
+
+<<set $dildo3 to true, $dildo8 to true>><<set $cage to true>><<set $youcum to 1>><<set $goggles to 5>><<set $masturbate to 2>><<set $toy to 1>><<set $prerobot to 0>><<set $kitchen to 3>><<set $calendario to true>><<set $wardrobe to false>><<set $announcement2 to false>><<initInv>><<set $stage to 0>><<set $fem to 0>><<set $fit to 0>><<set $int to 0>><<set $sub to 0>><<set $points to 0>><<set $lust to 70>><<set $stress to 0>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $calendario to true>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $badge to -1>><<set $mistressroom to true>><<set $startclasses to true>><<set $deck3trip to true>><<set $techphone to true>><<set $gym to 0>><<set $alreadytrained to false>><<set $library to 0>><<set $gotoparty to false>><<set $lab to 0>><<set $shopitems to 1>><<set $hunger to  100>><<set $techphone to true>><<set $capt to 1>><<set $newsms to -1>><<set $dos to 1>><<set $gfsms to 0>><<set $fashionbuy to 0>><<set $ownface to 0>><<set $boobs to 0>><<set $ass to 0>><<set $pen to 0>><<set $massage to false>><<set $alreadyran to false>><<set $womensbuy to 0>>
+<<set $points to 400>><<widget showday>>Day <<print $dayn>><</widget>><<set $alreadycame to false>><<set $dinnertime to true>><<set $arrival to false>><<set $gotoreview to false>><<set $review to 1>><<set $alreadyate to false>><<set $dayn to 28>><<set $lust to 100>>
+<<set
+$Cottonpanties to {
+	id   : "cotton.panties",
+	name : "Cotton panties",
+	count : 1
+}>>
+<<set
+$Candies to {
+	id   : "choco.candies",
+	name : "Chocolate Candies",
+	count : 1
+}>><<set
+$Chocodick to {
+	id   : "choco.dick",
+	name : "Chocolate Dick",
+	count : 1
+}>><<set
+$Lolli to {
+	id   : "lo.lli",
+	name : "Pink Lollipop",
+	count : 1
+}>><<set
+$Mug to {
+	id   : "penis.mug",
+	name : "Penis Mug",
+	count : 1
+}>><<set
+$Yogurt to {
+	id   : "special.yogurt",
+	name : "Special Yogurt",
+	count : 1
+}>>
+<<set
+$roomkey to {
+	id   : "room.key",
+	name : "Roomkey",
+	count : 1
+}>><<set
+$Itinerary to {
+	id   : "iti.nerary",
+	name : "Itinerary",
+	count : 1
+}>><<set
+$Schedule to {
+	id   : "sche.dule",
+	name : "Schedule",
+	count : 1
+}>><<set
+$Map to {
+	id   : "map.map",
+	name : "Map",
+	count : 1
+}>>
+/*
+	Date & Time Widget Setup
+*/
+<<set
+	/* This must be set to whatever the initial game date/time should be. */
+	$gameDate to new Date("2018-07-27T08:00");
+>>
+<<set
+	window.GameDays to [
+		"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"
+	];
+	window.GameMonths to [
+		"Jan", "Feb", "Mar", "Apr", "May", "Jun",
+		"Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+	];
+>>
+/*
+	Date & Time Advancement Widget Definitions
+*/
+/* Adds the specified number of minutes. */
+<<widget "addmins">>\
+<<run $gameDate.setMinutes($gameDate.getMinutes() + $args[0])>>\
+<</widget>>
+
+/* Adds the specified number of hours. */
+<<widget "addhours">>\
+<<run $gameDate.setHours($gameDate.getHours() + $args[0])>>\
+<</widget>>
+
+/* Adds the specified number of days. */
+<<widget "adddays">>\
+<<run $gameDate.setHours($gameDate.getHours() + $args[0] * 24)>>\
+<</widget>>
+
+
+/*Date & Time Printing Widget Definitions*/
+/* Prints the current date ("{weekday} {month} {day}, {year}"). */
+<<widget "date">>\
+<<print String.format("{0} {1} {2}, {3}",
+	GameDays[$gameDate.getDay()],
+	GameMonths[$gameDate.getMonth()],
+	$gameDate.getDate(),
+	$gameDate.getFullYear()
+)>>\
+<</widget>>
+/* Prints the current time (12H). */
+<<widget "time12h">>\
+<<if $gameDate.getHours() eq 0>>\
+12\
+<<elseif $gameDate.getHours() gt 12>>\
+<<print $gameDate.getHours() - 12>>\
+<<else>>\
+<<print $gameDate.getHours()>>\
+<</if>>:\
+<<if $gameDate.getMinutes() lt 10>>0<</if>><<print $gameDate.getMinutes()>> \
+<<if $gameDate.getHours() gte 12>>PM<<else>>AM<</if>>\
+<</widget>>
+/* Prints the current time (24H). */
+<<widget "time24h">>\
+<<if $gameDate.getHours() lt 10>>0<</if>><<print $gameDate.getHours()>>:\
+<<if $gameDate.getMinutes() lt 10>>0<</if>><<print $gameDate.getMinutes()>>\
+<</widget>>
+/* Prints the current date and time (12H). */
+<<widget "datetime">><<date>> <<time12h>><</widget>>
+
+

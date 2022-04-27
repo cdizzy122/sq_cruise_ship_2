@@ -1,0 +1,20 @@
+:: announcement3 [textback] 
+*Intercom turns on*
+
+<img src="cap/capcom.jpg" width="40%">
+
+<<speech "cap" "''Captain T:''">>
+//Good morning girls! I'm so glad to finally announce it that the men are getting into the ship! *smiles* Yes, you heard it. This morning, men from all over north africa will get into the ship. With them we'll be at around 60% passengers capacity. 
+
+But don't worry, we'll be making some more stops around the coast to get some more from the center and south of the continent. When we reach the last port on this coast our journey will suffer a little hiatus, just so we can gather enough cargo for 2 weeks. And why is that? Well, we'll be crossing the Atlantic ocean! But we'll cover that once it comes. 
+
+For now you all need to come up to the ''STAGE'' as soon as possible, where I'll explain some of the rules for this part of the trip, just so we can all coexist.
+
+Thank you for your cooperation.//<</speech>>
+ *Intercom turns off*
+ 
+Your tummy is feeling a bit sick. You really don't know what to expect from this...
+
+[[Return|Bedroom][$stage to 2]]<<audio ":back" mute>><<if ndef $mutefx>><<audio "intercom" volume 0.6 play>><<else>><</if>><<audio "menus" stop>>
+
+

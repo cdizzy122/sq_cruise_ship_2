@@ -1,0 +1,267 @@
+:: Punishments [textback] {"position":"1782,2055","size":"100,100"}
+<<removeclass "html">><<addclass "html" "punish">><<audio ":back" mute>><<if $punish is 1>><<audio "punish" volume 0.5 loop play>>You hurry and take off the band just when the elevator's doors close. It's dark, and you can't see a thing. You think that Tara must have taken you to Deck 1. You stand for a moment trying to adjust your senses to the room.
+
+Then you start hearing machine sounds, although there are some of them that you can't identify.
+
+Your eyes are adjusting, and so you start to see the dim lights that the machines are producing. You can also see a yellow light at the end of the room.
+
+You start walking towards it, stepping on some cables and metalic tools. When you are near enough, you clearly hear a zipper.
+
+<span class="onomatopeya">ZZZZZIP</span>
+
+<<speech "nobody" "''???:''">>
+Hmm...so I have work to do, huh? <span class="onomatopeya">ZZZZZIP</span> I told you not to bother me, didn't I?<</speech>>
+<span class="fade-ins"><img src="classes/rae/whip.jpg" width="50%"></span>
+
+You find Rae here, with a menacing look on her face.
+
+<<speech "rae" "''Rae:''">>
+You've been a really bad, bad little boy. We can do this the easy way or the hard way. Choose wisely, little bitch. Come closer.<</speech>>
+<<click "Go closer" Punishments>><<set $punish to 2>><</click>>
+<<linkreplace "Stay">><<scrolldown>>
+<span class="fade-ins"><<speech "rae" "''Rae:''">>
+Oh, don't make me go there... I'm being nice here.<</speech>></span>
+<span class="shudder"><<click "Stay..." Punishments>><<set $punish to 3>><</click>></span><</linkreplace>>
+
+
+\\<<elseif $punish is 2>><<speech "rae" "''Rae:''">>
+Good boy. As compliant as you are, I bet you'll find my company so very entertaining.
+
+That's it, come here...<</speech>>
+After a few steps you are a few feet away from her chair and her powerful pumped muscles. With a single movement she extends her arm and grabs you by the ass. Without a hint of hesitation she pulls your belly over her strong legs.
+
+<<speech "rae" "''Rae:''">>
+Now listen: You've been a bad boy and you deserve a punishment. But since you've been such a good sub to me, I'm going to give it to you little by little.<</speech>>
+Her hand roughly rubs your sensitive ass.
+
+<<speech "rae" "''Rae:''">>
+Hmm...such a nice ass for a sissy. You just need to learn your place.<</speech>>
+<img src="classes/rae/ass1.gif" width="50%">
+
+<<linkreplace "... ...">><<if ndef $mutefx>><<audio "spank" volume 0.6 loop play>><<else>><</if>><span class="onomatopeya">*SLAP*</span>
+ 
+<<speech "You" "''$name:''">>
+Ouch!! (That hurt. Is this going little by little??)<</speech>>
+<<speech "rae" "''Rae:''">>
+Hahaha I love that sound! You'll learn to love it as well. Count them for me! How many times did I whip you? Tell me!<</speech>>
+<<speech "You" "''$name:''">>
+O- One time... *sob*<</speech>>
+<span class="onomatopeya">*SLAP*</span>
+
+<<speech "rae" "''Rae:''">>
+Louder!!<</speech>>
+<<speech "You" "''$name:''">>
+One time!<</speech>>
+A tears escapes your eye. This is not pleasant, she is hitting you too hard.
+
+<span class="onomatopeya">*SLAP, SLAP*</span>
+
+<<speech "rae" "''Rae:''">>
+Keep the count up!<</speech>>
+<<speech "You" "''$name:''">>
+Two!...*sniff*<</speech>>
+<<speech "rae" "''Rae:''">>
+Hahahaa GOOD! That's my little bitch! Keep up!<</speech>>
+ 
+<span class="onomatopeya">*SLAP, SLAP, SLAP*</span>
+
+<<speech "You" "''$name:''">>
+Three! *sob, sob*<</speech>>
+...
+
+...
+
+...
+ 
+<<linkappend "15 minutes later...">><<if ndef $mutefx>><<audio "ow" volume 0.7 play>><<else>><</if>><<audio "spank" stop>>
+
+<img src="classes/rae/ass2.gif" width="50%">
+ 
+<<speech "You" "''$name:''">>
+Fifty!! *cries*<</speech>>
+<<speech "rae" "''Rae:''">>
+Mmm...nice. That's it, your punishment is over. For now... But please, come and see me soon. Please, make my day, little bitch, HAHAHAHAHA.<</speech>>
+Although your mind is almost gone, you can still feel how your body is being moved while the images still flash in your head. All you can feel is your clothes being removed...
+
+''Your clothes has been changed...''<<set $sub to $sub +1>>
+
+<div class="center">''<span class="notplus">SUB +1 </span>''</div>
+As soon as you arrive to the room, you throw yourself into the bed and fall <<click "asleep." Dreams>><<audio "punish" stop>><<set $dreams to 2>><<adddays 1>><<if $choice is 1>><<set $buyshoe5 to true, $buyshoe1 to false, $shoe to 5>><<elseif $choice is 2>><<set $buyleg3 to true, $leg to 3>><<elseif $choice is 3>><<if $dayn gte 17>><<set $upper to 6, $buyupper6 to true, $buyupper1 to false>><<else>><<set $upper to 5, $buyupper5 to true, $buyupper1 to false>><</if>><<elseif $choice is 4>><<if $dayn gte 17>><<set $under to 6, $buyunder6 to true, $buyunder1 to false, $buyunder2 to false>><<else>><<set $under to 5, $buyunder5 to true, $buyunder1 to false, $buyunder2 to false>><</if>><</if>><</click>><</linkappend>><</linkreplace>>
+
+
+
+\\<<elseif $punish is 3>><<speech "rae" "''Rae:''">>
+Now you've done it, little bitch!<</speech>>
+She stands up and starts going your way. You feel like a rabbit in front of a lion. It's too late to pretend and be good, you need to decide what you're going to do:
+
+[[Run and hide|Punishments][$punish to 4]]
+[[Beg for mercy|Punishments][$punish to 5]]
+
+
+
+\\<<elseif $punish is 4>><<audio "chase" volume 0.7 loop play>><<audio "punish" stop>>Although you are tired, your body is pumping adrenalin and you are willing to use it the best way you can. 
+
+You go back the way you came, to the elevator. You press the button but it won't do anything, you need the key card to go up to! You can hear Rae coming after you.
+
+<<speech "rae" "''Rae:''">>
+Fucking sissy! I'm going to get your ass, punk! HAHAHAHA<</speech>>
+<<speech "You" "''$name:''">>
+(Oh, shit... running away only made her more mad... and she even likes it... I better find somewhere to hide.)<</speech>>
+There's a ''green'' light to the right [[Go right|Punishments][$punish to 6]]
+There's a ''red'' light to the left [[Go left|Punishments][$punish to 7]]
+
+
+
+\\<<elseif $punish is 5>>Just as she stands up you hold your hands on the air.
+
+<<speech "You" "''$name:''">>
+No, please. I am sorry! I'll do whatever you want!<</speech>>
+<<speech "rae" "''Rae:''">>
+HAHAHA You don't understand... This. Is. What. I. Want.
+
+Come here.<</speech>>
+She grabs you by the face and carries you to the chair. Then, she lowers your pants so your ass is exposed.
+
+<<speech "rae" "''Rae:''">>
+Hmm... such a pretty sissy ass, I bet you'll get the boy's attention.
+<</speech>>
+<img src="classes/rae/ass1.gif" width="50%">
+
+<<linkreplace "... ...">><<if ndef $mutefx>><<audio "spank" volume 0.6 loop play>><<else>><</if>><span class="onomatopeya">*SLAP*</span>
+ 
+<<speech "You" "''$name:''">>
+Ouch!!<</speech>>
+<<speech "rae" "''Rae:''">>
+Hahaha I love that sound! You'll learn to love it as well. Count them for me! How many times did I whip you? Tell me!<</speech>>
+<<speech "You" "''$name:''">>
+O- One time... *sob*<</speech>>
+<span class="onomatopeya">SLAP</span>
+
+<<speech "rae" "''Rae:''">>
+Louder!!<</speech>>
+<<speech "You" "''$name:''">>
+One time!<</speech>>
+A tears escapes your eye. This is not pleasant, she is hitting you too hard.
+
+<span class="onomatopeya">SLAP SLAP</span>
+
+<<speech "rae" "''Rae:''">>
+Keep the count up!<</speech>>
+<<speech "You" "''$name:''">>
+Two!...*sniff*<</speech>>
+<<speech "rae" "''Rae:''">>
+Hahahaa GOOD! That's my little bitch! Keep up!<</speech>>
+ 
+<span class="onomatopeya">SLAP SLAP SLAP</span>
+
+<<speech "You" "''$name:''">>
+Three! *sob, sob*<</speech>>
+...
+
+...
+
+...
+ 
+<<linkappend "15 minutes later...">><<if ndef $mutefx>><<audio "ow" volume 0.7 play>><<else>><</if>><<audio "spank" stop>>
+
+<img src="classes/rae/ass2.gif" width="50%">
+ 
+<<speech "You" "''$name:''">>
+Fifty!! *cries*<</speech>>
+<<speech "rae" "''Rae:''">>
+Mmm...nice. That's it, your punishment is over. For now... But please, come and see me soon. Please, make my day, little bitch, HAHAHAHAHA.<</speech>>
+Although your mind is almost gone, you can still feel how your body is being moved while the images still flash in your head. All you can feel is your clothes being removed...
+
+''Your clothes has been changed...''<<set $sub to $sub +1>><<set $points to $points -100>>
+
+<div class="center">''<span class="notplus">SUB +1 </span><span class="notless">POINTS -100</span>''</div>
+As soon as you arrive to the room, you throw yourself into the bed and fall <<click "asleep." Dreams>><<audio "punish" stop>><<set $dreams to 2>><<adddays 1>><<if $choice is 1>><<set $buyshoe5 to true, $buyshoe1 to false, $shoe to 5>><<elseif $choice is 2>><<set $buyleg3 to true, $leg to 3>><<elseif $choice is 3>><<if $dayn gte 17>><<set $upper to 6, $buyupper6 to true, $buyupper1 to false>><<else>><<set $upper to 5, $buyupper5 to true, $buyupper1 to false>><</if>><<elseif $choice is 4>><<if $dayn gte 17>><<set $under to 6, $buyunder6 to true, $buyunder1 to false, $buyunder2 to false>><<else>><<set $under to 5, $buyunder5 to true, $buyunder1 to false, $buyunder2 to false>><</if>><</if>><</click>><</linkappend>><</linkreplace>>
+
+
+
+\\<<elseif $punish is 6>>You run to your right, evading hot pipes and tubes. After a few seconds you seem to arrive to another lab.
+
+<img src="places2/greenlab.png" width="70%">
+
+<<speech "You" "''$name:''">>
+(Another lab?! This is unbelievable!)<</speech>>
+You can see some flasks lying on the table, as well as some empty cabinets.
+
+<<speech "rae" "''Rae:''">>
+You can't hide, bitch! I know where you are!<</speech>>
+<<speech "You" "''$name:''">>
+(Oh, fuck! She sounds really close, I need to hide!)<</speech>>
+<<linkreplace "Hide in a cabinet">>You hurry and get your ass into the cabinet. Just you manage to do it, Rae appears through the corner.
+
+<<speech "rae" "''Rae:''">>
+Ohh... you've hidden, huh? HAHAHAHA So you think you can fool me? There's no way you could have hidden, except for these cabinets.<</speech>>
+As she mentions the cabinets, shivers run through your spine.
+
+<<speech "You" "''$name:''">>
+(She's going to get me! She's definitely going to get me!)<</speech>>
+Suddenly, you see a flask in the cabinet with a fainted green color. You can feel Rae's footsteps going right to your cabinet, so you make the desperate decision of drinking whatever is in the flask.
+
+<span class="onomatopeya">*GLUG*</span>
+
+<<speech "rae" "''Rae:''">>
+Here you are, you little fucking bith!! HAHAHAHA You are going to leave with no ass on your rear! I'm going to rip... ass... learn......<</speech>>
+You feel your senses fade out as Rae lifts you up and carries you to her torturing room. Thank god, that flask is making you loose consciousness. You don't know what was in that thing, but you can only feel gratitude.
+
+...
+
+...
+
+Some images appear on your brain...
+
+<div class="center"><img src="porn/hypno2.gif" width="70%">
+
+''<span class="notless">STRESS +70 </span><span class="notless">INT -2</span>''</div><<set $stress to $stress +70>><<set $int to $int -2>>
+
+''Your appearance has been modified...''
+
+<<click "Fade out" Dreams>><<audio "chase" stop>><<set $dreams to 2>><<adddays 1>><<if $ownface is 0 or $ownface is 1>><<set $boobs to 4>><<elseif $ownface is 2 and $pen lt 2>><<set $ownface to 5>><<elseif $ownface gte 2 and $pen gte 2>><<set $pen to 4>><</if>><</click>><</linkreplace>>
+
+
+
+\\<<elseif $punish is 7>><<audio "chase" volume 0.7 loop play>>You run to your left, evading some multicolored cables and red stains on the floor. After a few seconds you seem to arrive to another lab.
+
+<img src="places2/redlab.png" width="80%">
+
+<<speech "You" "''$name:''">>
+(Another lab?! This is unbelievable!)<</speech>>
+You can see lots of screens, as well as what seems like an empty recording booth.
+
+<<speech "rae" "''Rae:''">>
+You can't hide, bitch! I know where you are!<</speech>>
+<<speech "You" "''$name:''">>
+(Oh, fuck! She sounds really close, I need to hide!)<</speech>>
+<<linkreplace "Hide in the booth">>You hurry and get your ass into the both. Just before Rae appears through the corner you manage to close the door.
+
+<<speech "rae" "''Rae:''">>
+Ohh... you've hidden, huh? HAHAHAHA So you think you can fool me? There's no way you could have hidden, except for that booth.<</speech>>
+As she mentions the booth, shivers run through your spine. You look around the booth trying to find another exit or something to defend yourself. You just see a big screen with a red button on the side.
+
+<<speech "You" "''$name:''">>
+(She's going to get me! She's definitely going to get me! I need to do something...)<</speech>>
+You can feel Rae's footsteps going right to the booth, so you make the desperate decision of pressing the red button.
+
+<<linkreplace "*CLICK*">><<if ndef $mutefx>><<audio "button" play>><<else>><</if>><span class="onomatopeya">*CLICK*</span>
+
+As you press it, the button opens and fires a red gas to your face. It smells like strawberries and plastic. Inmediately, it makes you feel dizzy. Then, the TV turns on:
+
+<div class="center"><span class="noborder"><img src="porn/hypno1.gif" width="100%"></span></div>
+You can't even feel your body, but you are still aware of your surroundings, but you can feel your that your mind is at the brink of falling unconscious.
+
+Suddenly, you hear Rae opening the door and grabing you.
+
+<<speech "rae" "''Rae:''">>
+Here you are, you little fucking bith!! HAHAHAHA You are going to leave with no ass on your rear! I'm going to rip... ass... learn......<</speech>>
+You feel your senses fade out as Rae lifts you up and carries you to her torturing room. Those images stay on your brain like a parasite, but you can't help but feel gratitude for falling unconscious.
+
+<div class="center">''<span class="notplus">FEM +2 </span><span class="notless">STRESS +70</span>''</div><<set $fem to $fem +2>><<set $stress to $stress +70>>
+
+''Your appearance has been modified...''
+
+<<click "Fade out" Dreams>><<audio "chase" stop>><<set $dreams to 2>><<adddays 1>><<if $ownface is 0 or $ownface is 1>><<set $boobs to 4>><<elseif $ownface is 2 and $pen lt 2>><<set $ownface to 5>><<elseif $ownface gte 2 and $pen gte 2>><<set $pen to 4>><</if>><</click>><</linkreplace>><</linkreplace>><</if>><<audio "menus" stop>><<set $choice to random (1,4)>>
+
+

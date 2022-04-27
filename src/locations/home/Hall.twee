@@ -1,0 +1,28 @@
+:: Hall [textback] {"position":"559,5","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><div class="center"><img src="places1/hall.jpg" width="40%">
+<<if $phonefriend is false>>
+<<link [[Your room|Stand up]]>><<if ndef $mutefx>><<audio "door" play>><<else>><</if>><</link>>
+<<click "Living room" "Living room">><<if ndef $mutefx>><<audio "door" play>><<else>><</if>><</click>>
+<<click "Bathroom" "Bathroom">><<if ndef $mutefx>><<audio "door" play>><<else>><</if>><</click>>
+<<click "Kitchen" "Kitchen">><<if ndef $mutefx>><<audio "door" play>><<else>><</if>><</click>>
+[[GF's room]] 
+
+[[Foyer|Foyer event]]
+<<elseif $newroom is true>>
+<<link [[Your room|myroom]]>><<if ndef $mutefx>><<audio "door" play>><<else>><</if>><</link>>
+<<click "Living room" "Living room">><<if ndef $mutefx>><<audio "door" play>><<else>><</if>><</click>>
+<<click "Bathroom" "Bathroom">><<if ndef $mutefx>><<audio "door" play>><<else>><</if>><</click>>
+<<click "Kitchen" "Kitchen">><<if ndef $mutefx>><<audio "door" play>><<else>><</if>><</click>>
+[[GF's room]] 
+
+[[Foyer]]
+<<else>>
+<<link [[Your room|Stand up]]>><<if ndef $mutefx>><<audio "door" play>><<else>><</if>><</link>>
+<<click "Living room" "Living room">><<if ndef $mutefx>><<audio "door" play>><<else>><</if>><</click>>
+<<click "Bathroom" "Bathroom">><<if ndef $mutefx>><<audio "door" play>><<else>><</if>><</click>>
+<<click "Kitchen" "Kitchen">><<if ndef $mutefx>><<audio "door" play>><<else>><</if>><</click>>
+[[GF's room]] 
+
+[[Foyer]]<</if>><<addmins 1>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() gte 8 and $gameDate.getMinutes() gte 30>><<goto "Emergency">><<else>><</if>><<else>><</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>></div>
+
+

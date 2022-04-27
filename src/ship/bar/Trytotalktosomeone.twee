@@ -1,0 +1,22 @@
+:: Try to talk to someone [textback] {"position":"2043,1386","size":"100,100"}
+<<removeclass "html">><<addclass "html" "lounge">>You try to collect all the braveness you have, and approach the smallest group of women you see. 
+
+<<speech "You" "''$name:''">>
+At least they aren't dancing...<</speech>>
+With your horrible dancing habilities that would be an interesting sight to see.
+
+<img src="passengers/clubgirls.jpg" width="65%">
+
+<<speech "You" "''$name:''">>
+Hi! My name is $name, how are you?<</speech>>
+After a brief silence, one of them breaks it:
+
+<<speech "nobody" "''Woman:''">>
+Pfffhahaha is that all you've got, really? C'mon, I think you can do better than that. Try again.<</speech>>
+<<speech "You" "''$name:''">>
+... ... ...<</speech>>
+[[Invite them to a drink]]
+[[Try a classic pick up line]]
+[[Run|Lounge]]<<audio "menus" stop>><<if ndef $mute>><<audio "party" unmute>><<else>><</if>>
+
+

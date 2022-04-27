@@ -1,0 +1,14 @@
+:: Tables [textback] {"position":"1645,874","size":"100,100"}
+<<removeclass "html">><<addclass "html" "bar">><<if ndef $tables>><div class="center"><img src="places2/coffeewomen.jpg" width="50%"></div>
+There are some women here having a coffee and reading a magazine or on their cellphones. With the exception of a pair of noisy women, the ambience seems to be very relaxed and everyone is minding their own bussiness.
+
+<div class="center">[[Sit down|Tabless]]----[[Return|Deck 4]]</div>
+<<elseif $tables is 0>><div class="center"><img src="places2/coffeewomen.jpg" width="50%"></div>
+There are some women here having a coffee and reading a magazine or on their cellphones. With the exception of a pair of noisy women, the ambience seems to be very relaxed and everyone is minding their own bussiness.
+
+<div class="center">[[Sit down|Tabless]]----[[Return|Deck 4]]</div><<elseif $tables is 1>><div class="center"><img src="places2/coffeewomen.jpg" width="50%"></div>
+There are some women here having a coffee and reading a magazine or on their cellphones. With the exception of a pair of noisy women, the ambience seems to be very relaxed and everyone is minding their own bussiness.
+
+<div class="center">[[Sit down|Tabless][$tables to 1]]----[[Return|Deck 4]]</div><</if>>
+
+

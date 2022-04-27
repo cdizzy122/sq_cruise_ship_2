@@ -1,0 +1,10 @@
+:: VIPin [textback] {"position":"3339,1013","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><<if ndef $vipin>><div class="center"><img src="places2/viphall.jpg" width="44%"></div>
+Some dim lights let you see a very simple corridor, covered with a expensive looking rug. The smell is nice and cozy and makes you almost forget that you're even on a ship. There are 3 door on the sides:
+
+<div class="center"><div class="row3"><div class="column3">[[Roulette VIP]]</div><div class="column3">[[Slots machine VIP]]</div><div class="column3">[[Poker VIP table]]</div></div>
+
+[[Return|VIP zone]]</div>
+\\<<elseif $vipin is 0>><</if>>
+
+

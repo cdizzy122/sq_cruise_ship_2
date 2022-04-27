@@ -1,0 +1,24 @@
+:: Go to next room [textback] {"position":"1074,448","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><<audio "dreams" stop>><<audio "girltalk1" volume 0.4 loop play>><img src="places1/pay.jpg" width="70%">
+
+As you both open the door, you see a woman finalizing the payment for her trip. When this woman sees you both, she chuckles and does some inside joke with the cashier. $fname doesn't seem to be noticing this.
+
+<<speech "mike" "''$fname:''">>
+Hi, we want to pay for the trip.<</speech>>
+<<speech "nobody" "''Cashier:''">>
+Sure, Sir. Give me the paper, please. *takes paper* ... ... Are you sure this is right?<</speech>>
+<<speech "mike" "''$fname:''">>
+God! Why is it so difficult to buy a cruise trip? Yes, it is right!<</speech>>
+<<speech "nobody" "''Cashier:''">>
+...ok...(so rude...) That'll be 2500 dollars for the whole pack.<</speech>>
+<<speech "mike" "''$fname:''">>
+Wow, that is expensive!<</speech>>
+<<speech "nobody" "''Cashier:''">>
+Actually, it is very cheap considering that it is 60 days and all. This fantastic prize is possible due to-<</speech>>
+<<speech "mike" "''$fname:''">>
+Ok! I don't care! I was gonna pay for it anyway! Hahaha What's money worth if you can't make your friends happy? Here, serve yourself. *gives card*<</speech>>
+<<speech "nobody" "''Cashier:''">>
+All set then! Remember, the departure is tomorrow at 9:00 at the Greenwich Port. Have a good trip!<</speech>>
+<<click "Get out" "Get out">><<if ndef $mutefx>><<audio "door" play>><<else>><</if>><</click>><<audio "menus" stop>>
+
+

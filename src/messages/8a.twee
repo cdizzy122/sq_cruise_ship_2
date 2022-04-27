@@ -1,0 +1,79 @@
+:: 8a [phone] {"position":"1318,2996","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<if ndef $8a>>
+
+<<speech "You" "''$name'':">>
+<img src="gf/selfie.png" width="40%">
+
+(Oh, no! I can't erase it...)<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh, who are these cute girls? 😉😉 Are you paying them a round of drinks?<</speech>>
+<<speech "You" "''$name'':">>
+Oh, um... yes, we're just having fun...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+By the way, if you wanted me to feel jealous you should have taken a picture with them and the money, sissy... 🙄 You don't even know how to make your Goddess happy...<</speech>>
+<<speech "You" "''$name'':">>
+No, I'm sorry, I didn't mean to send this, a... friend took it...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+What? A friend took a picture of other girls with your phone? Doesn't make sense, you're not even in the picture. Poor sissy, is just not making any sense... 🤣<</speech>>
+<<speech "You" "''$name'':">>
+(Thank God she's not recognizing me! <span class="pink">That's kind of a compliment, actually...</span>)<</speech>>
+
+<<speech "lanad" "''$gffname:''">>
+But who's the one in the middle? She does look like you a bit...<</speech>>
+<<speech "You" "''$name'':">>
+L-Like who...?<</speech>>
+You tremble in the middle of the dance floor while everyone else is having fun.
+
+<<speech "lanad" "''$gffname:''">>
+Um... $name... Who is "she"?<</speech>>
+...
+
+...
+
+...
+
+You don't even know what to answer, this is just too much to handle right now.
+
+<<speech "You" "''$name'':">>
+She's...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+... She's? I'll tell you what, she's definitely a cutie... make sure not to show her your dick or you'll scare her away! Hahahaha<</speech>>
+<<speech "You" "''$name'':">>
+(Thank God she didn't get it...)<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Get off your phone and have some fun. Pay for their drinks and make your Goddess proud!<</speech>>
+<<speech "You" "''$name'':">>
+Y-Yes, okay...<</speech>>
+...
+
+You're about to close the app as you receive another message.
+
+<<speech "lanad" "''$gffname:''">>
+Oh, by the way, I think you actually are IN the picture, aren't you?<</speech>>
+<<speech "You" "''$name'':">>
+I don't know what you're talking about... (Oh my god, what am I going to do...)<</speech>>
+<<speech "lanad" "''$gffname'':">>
+I think you might be right in the center, baby... 👗👗 right there...<</speech>>
+<<speech "You" "''$name'':">>
+What do you mean with those dresses...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh, don't make me talk, beta boy... I know your secret!! 💄 That must have been quite a hard look to pull off!<</speech>>
+<<speech "You" "''$name'':">>
+... ... (Should I admit it?)<</speech>>
+<<speech "lanad" "''$gffname:''">>
+C'mon, just say it: I love dressing as a sissy! And a very kinky one too!<</speech>>
+<<speech "You" "''$name'':">>
+It- it wasn't... my thing...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Ooooh, well I bet that "Tara" girl helped you A LOT!<</speech>>
+<<speech "You" "''$name'':">>
+Just don't tell anyone, please...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Don't worry, baby. As long as you embrace her sexuality to the brim, I won't say a thing. But you've caught my attention... I might ask for just little favours, and I'm expecting you to comply this time! Understood?<</speech>>
+<<speech "You" "''$name'':">>
+ *sigh* Yeah, ok...<</speech>>
+At this point, blackmail and domination just feel like the norm, but that doesn't stop it from feeling horrible inside. You feel like, once again, your privacity has been violated... Suddenly, Tara twerks on you...
+
+[[Twerking...|Go to the lounge room][$lounge2 to 1]]<</if>><<audio ":back" mute>><<if ndef $mute>><<audio "menus" unmute>><<else>><</if>>
+
+

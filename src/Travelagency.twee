@@ -1,0 +1,22 @@
+:: Travel agency [textback] {"position":"866,448","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><<audio "park" stop>><<audio "office" loop play>><img src="places1/travelagency1.jpg" width="80%">
+
+You've been waiting for a while now. This is not going as planned...
+
+<<speech "mike" "''$fname:''">>
+Hey! "happily married couple", can you two choose a fuckin'trip already?! *Grunts angrily* Fuck! We've been waiting for too long. The chick is hot but it's getting late AF.<</speech>>
+<<speech "You" "''$name:''">>
+We can only wait, man... You know we can buy the ticket online, right?<</speech>>
+<<speech "mike" "''$fname:''">>
+Dude. I wanna do this with you. It's part of the "giving a gift" experience.<</speech>>
+<<speech "You" "''$name:''">>
+Then leave it for another day...<</speech>>
+<<speech "mike" "''$fname:''">>
+I already told you, I start working tomorrow and I'm not gonna have any free time.<</speech>>
+<<speech "You" "''$name:''">>
+...or we can go to another agency.<</speech>>
+<<speech "mike" "''$fname:''">>
+ *jumps up the seat* Well, we don't have all day. C'mon!<</speech>>
+ [[Go to another agency]]<<addmins 20>><<audio "menus" stop>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>>
+
+

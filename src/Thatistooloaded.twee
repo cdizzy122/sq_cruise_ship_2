@@ -1,0 +1,12 @@
+:: That is too loaded! [textback] {"position":"2251,1598","size":"100,100"}
+<<removeclass "html">><<addclass "html" "lounge">><<speech "nobody" "''Bartender:''">>
+Hey, what is your problem, boi? You can't even take a white marguerita? WTF, man!<</speech>>
+<<speech "You" "''$name:''">>
+You loaded that one too much and you know it!<</speech>>
+<<speech "nobody" "''Bartender:''">>
+Whatever, dummy... *walks away*<</speech>>
+[[Have something else|Have a drink]]
+[[Back to lounge|Lounge]]<<set $nomarg to true>>
+<<audio "menus" stop>><<if ndef $mute>><<audio "party" unmute>><<else>><</if>>
+
+

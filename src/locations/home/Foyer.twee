@@ -1,0 +1,11 @@
+:: Foyer [textback] {"position":"742,419","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><div class="center"><img src="places1/foyer.jpg" width="50%"></div>
+<<if $nogetout is true>>
+<<speech "You" "''$name:''">>
+I'm feeling tired. I'd better stay and wait for $gfname to come from work.<</speech>>
+[[Hall]]
+<<else>>
+<div class="center">[[Hall]]
+<<if $gflunch is false>><<click "Go out" "Go out">><<if ndef $mutefx>><<audio "door" volume 0.8 play>><<else>><</if>><</click>><<else>><<linkreplace "Go out">>You need to grab $gfname's lunch first...<</linkreplace>><</if>></div><</if>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() gte 8 and $gameDate.getMinutes() gte 30>><<goto "Emergency">><<else>><</if>><<else>><</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>><<audio "touriststalk" stop>>
+
+

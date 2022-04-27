@@ -1,0 +1,89 @@
+:: Untitled Passage 29 {"position":"3000,140","size":"100,100"}
+[[Random encounters][$renc to 4, $cage to false, $sub to 10, $under to 2, $lust to 30]]
+
+[[Random encounters][$renc to 4, $cage to false, $sub to 10, $under to 1, $lust to 50]]
+
+[[Random encounters][$renc to 4, $cage to false, $sub to 3, $under to 1, $lust to 50]]
+
+[[Random encounters][$renc to 4, $cage to true, $sub to 10, $under to 2, $lust to 30]]
+
+[[Random encounters][$renc to 5, $cage to true, $sub to 3, $under to 2, $lust to 30]]
+
+[[Random encounters][$renc to 6, $cage to true, $sub to 3, $under to 2, $lust to 30]]
+
+[[Sushi Restaurant][$sushi to "Active", $srestaurant to 0, $cage to true]]
+[[Sushi Restaurant][$sushi to "Active", $srestaurant to 0, $cage to false]]
+[[Sushi Restaurant][$sushi to "Active", $srestaurant to 0, $cage to false, $fetish1 to true]]
+[[Sushi Restaurant][$sushi to "Active", $srestaurant to 0, $cage to false, $fetish1 to false]]
+
+[[Sushi Restaurant]]
+
+
+
+
+
+/*
+	Date & Time Widget Setup
+*/
+<<set
+	/* This must be set to whatever the initial game date/time should be. */
+	$gameDate to new Date("2018-06-28T12:00");
+>>
+<<set
+	window.GameDays to [
+		"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"
+	];
+	window.GameMonths to [
+		"Jan", "Feb", "Mar", "Apr", "May", "Jun",
+		"Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+	];
+>>
+/*
+	Date & Time Advancement Widget Definitions
+*/
+/* Adds the specified number of minutes. */
+<<widget "addmins">>\
+<<run $gameDate.setMinutes($gameDate.getMinutes() + $args[0])>>\
+<</widget>>
+
+/* Adds the specified number of hours. */
+<<widget "addhours">>\
+<<run $gameDate.setHours($gameDate.getHours() + $args[0])>>\
+<</widget>>
+
+/* Adds the specified number of days. */
+<<widget "adddays">>\
+<<run $gameDate.setHours($gameDate.getHours() + $args[0] * 24)>>\
+<</widget>>
+
+
+/*Date & Time Printing Widget Definitions*/
+/* Prints the current date ("{weekday} {month} {day}, {year}"). */
+<<widget "date">>\
+<<print String.format("{0} {1} {2}, {3}",
+	GameDays[$gameDate.getDay()],
+	GameMonths[$gameDate.getMonth()],
+	$gameDate.getDate(),
+	$gameDate.getFullYear()
+)>>\
+<</widget>>
+/* Prints the current time (12H). */
+<<widget "time12h">>\
+<<if $gameDate.getHours() eq 0>>\
+12\
+<<elseif $gameDate.getHours() gt 12>>\
+<<print $gameDate.getHours() - 12>>\
+<<else>>\
+<<print $gameDate.getHours()>>\
+<</if>>:\
+<<if $gameDate.getMinutes() lt 10>>0<</if>><<print $gameDate.getMinutes()>> \
+<<if $gameDate.getHours() gte 12>>PM<<else>>AM<</if>>\
+<</widget>>
+/* Prints the current time (24H). */
+<<widget "time24h">>\
+<<if $gameDate.getHours() lt 10>>0<</if>><<print $gameDate.getHours()>>:<<if $gameDate.getMinutes() lt 10>>0<</if>><<print $gameDate.getMinutes()>>
+<</widget>>
+/* Prints the current date and time (12H). */
+<<widget "datetime">><<date>> <<time12h>><</widget>>
+
+

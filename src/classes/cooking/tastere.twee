@@ -1,0 +1,26 @@
+:: tastere [textback] {"position":"1511,764","size":"100,100"}
+<<removeclass "html">><<addclass "html" "bar">><<if ndef $mutefx>><<audio "eat" play>><<else>><</if>><<if $right1 gte 3>><<speech "holli" "''Holli:''">>
+Alright! Not bad! You did very well, $name. You might even make a good cook. But don't get too excited, this was an easy one. Next time it won't be that easy.<</speech>>
+Now that you can see again, you try to figure out what was the last ingredient, but you can't see anything uncommon.
+
+<<speech "You" "''$name'':">>
+(Hm... *lick, lick* there is definitely something odd with that last one. <span class="pink">tastes nice though...</span>)<</speech>>
+<div class="center">''<span class="notplus">+100 POINTS</span>''</div>
+Because of your well done job today, you've earned a quinoa salad for lunch:<<set $points to $points +100>><<run $gameDate.setHours (15) and $gameDate.setMinutes (0)>>
+
+<img src="food/quinoa.jpg" width="60%"><<set $hunger to $hunger +20>>
+
+<<click "Return" "Bar">><<set $right1 to 0, $wrong1 to 0>><<audio "kitchen" stop>><</click>><<else>><<speech "holli" "''Holli:''">>
+Really? You couldn't even identify these ones, $name? This was an easy one! Next time it won't be that easy, so you better buckle up if you want to have some points from me.<</speech>>
+Now that you can see again, you try to figure out what was the last ingredient, but you can't see anything uncommon.
+
+<<speech "You" "''$name'':">>
+(Hm... *lick, lick* there is definitely something odd with that last one. <span class="pink">tastes nice though...</span>)<</speech>>
+<div class="center">''<span class="notplus">+20 POINTS</span>''</div>
+Because of your poorly done job today, you've only earned a cheese fajita for lunch:<<set $points to $points +20>><<run $gameDate.setHours (15) and $gameDate.setMinutes (0)>>
+
+<img src="food/fajitabad.png" width="50%"><<set $hunger to $hunger -20>>
+
+<<click "Return" "Bar">><<set $right1 to 0, $wrong1 to 0>><<audio "kitchen" stop>><</click>><</if>><<script>>UIBar.unstow()<</script>><<if ndef $mute>><<audio "kitchen" unmute>><<else>><</if>><<audio "menus" stop>><<audio "mystery" stop>>
+
+

@@ -1,0 +1,21 @@
+:: Look further [textback] {"position":"2276,1905","size":"100,100"}
+<img src="tara/xlcondoms.jpg" width="50%">
+
+You're out of time. She's getting out of the bathroom...
+
+<<set $seconds to 3>>\
+HURRY! --> <span id="countdown">$seconds</span>\
+<<silently>>
+	<<repeat 1s>>
+		<<set $seconds to $seconds - 1>>
+		<<if $seconds gt 0>>
+			<<replace "#countdown">>$seconds<</replace>>
+		<<else>>
+			<<replace "#countdown">>She's coming<</replace>>
+			/* do something useful here */
+			<<stop>>
+		<</if>>
+	<</repeat>>
+<</silently>><<timed 3s>><<goto "The bathroom door opens">><</timed>><<audio "menus" stop>><<if ndef $mute>><<audio "myroom" unmute>><<else>><</if>>
+
+

@@ -1,0 +1,251 @@
+:: protestt [textback noborder] {"position":"1683,1439","size":"100,100"}
+<<removeclass "html">><<addclass "html" "decks">><<if ndef $mutefx>><<audio "heels" loop play>><<else>><</if>><<if ndef $protestt>>You stand up from the chair.
+
+<<speech "You" "''$name:''">>
+Look, i'm having a very bad day. I don't care about your ship or any of your shit...<</speech>>
+<<speech "cap" "''Captain T:''">>
+If I were you, I'd be reaaaaaally careful what you say next. I don't like that vocabulary, little man, and I'm going to let it pass this time, but the next time I won't be so kind.<</speech>>
+... ... ...
+
+<<speech "cap" "''Captain T:''">>
+Remember, I've got you by the balls. You don't want me to tell on you, do you? <<if $setcuckpath is 1>>I will even report you to the police for abuse. It'll be easy to believe, since you're the only man in the ship.<<else>><</if>><</speech>>
+<<speech "You" "''$name:''">>
+No... I'm sorry.<</speech>>
+<<speech "cap" "''Captain T:''">>
+As I thought. Now, get out.<</speech>><<set $sub to $sub +1>>
+<div class="center">''<span class="notplus">SUB +1</span>''</div>
+
+<<click "Get out" "Deck 3">><<set $tara1 to "Active">><<set $cap1 to "Finished">><<set $badge to $badge +1>><<addhours 5>><<set $protestt to 1>><</click>><<elseif $protestt is 1>><<if ndef $mutefx>><<audio "lick" play>><<else>><</if>><<set $sub to $sub -1>><div class="center">''<span class="pulse"><span class="notplus">SUB -1  </span></span>''</div>
+<<speech "cap" "''Captain T:''">>
+Oh, so you are feeling brave today, huh?<</speech>>
+She gets up and walks to you until you are only a few inches apart. Her tall shoes are making a big height difference between you two, making her breasts to be right in front of your chin. The determination and her awesome perfume is making you hornier by the moment.
+
+<<speech "cap" "''Captain T:''">>
+Listen very closely: you don't have the right to choose. This are the conditions, if you don't do it I will be mad. And you don't want to see what I can do when I'm mad. *She brings out your old phone from her pocket*<</speech>>
+<<speech "You" "''$name:''">>
+N-no. This is too much... this is not fair.<</speech>>
+<<speech "cap" "''Captain T:''">>
+What's not fair is you calling yourself a man! *She tightly grabs your ass and pushes you around*<</speech>>
+<span class="onomatopeya">SLAP SLAP SLAP</span>
+
+<<speech "cap" "''Captain T:''">>
+BAD BOY!<</speech>>
+<span class="onomatopeya">SLAP SLAP SLAP</span>
+
+<<speech "You" "''$name:''">>
+Oww! Oww! Oww...<</speech>>
+<<speech "cap" "''Captain T:''">>
+I'm not asking you again. *grabs your arm and puts you under her table*
+Now, you better do a good job. *grabs your head*
+Yeah... sniff those panties, baby boy...<</speech>>
+<img src="cap/pussypanties.jpg" width="40%">
+
+You spend the whole time trying to breathe. Your ass is also feeling red and it hurts with every little movement. But despite all of this, your dick feels hard and keeps leaking pre-cum the whole time.
+
+<<speech "You" "''$name:''">>
+(Is this...making me...hard?)<</speech>>
+<<click "Get out" "Deck 3">><<audio "lick" stop>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><<set $capt to 2>><</click>><<elseif $capt is 2 or $capt is 3>><<if ndef $mutefx>><<audio "lick" play>><<else>><</if>><<set $sub to $sub -1>><div class="center">''<span class="pulse"><span class="notplus">SUB -1  </span></span>''</div>
+<<speech "cap" "''Captain T:''">>
+I thought we were past this shit!<</speech>>
+She gets up and walks to you until you are only a few inches apart. Her tall shoes are making a big height difference between you two, making her breasts to be right in front of your chin. The determination and her awesome perfume is making you hornier by the moment.
+
+<<speech "cap" "''Captain T:''">>
+Listen very closely: you don't have the right to choose. This are the conditions, if you don't do it I will be mad. And you don't want to see what I can do when I'm mad. *She brings out your old phone from her pocket*<</speech>>
+<<speech "You" "''$name:''">>
+N-no. This is too much... this is not fair.<</speech>>
+<<speech "cap" "''Captain T:''">>
+What's not fair is you calling yourself a man! *She tightly grabs your ass and pushes you around*<</speech>>
+<span class="onomatopeya">*SLAP SLAP SLAP*</span>
+
+<<speech "cap" "''Captain T:''">>
+BAD BOY!<</speech>>
+<span class="onomatopeya">*SLAP SLAP SLAP*</span>
+
+<<speech "You" "''$name:''">>
+Oww! Oww! Oww...<</speech>>
+<<speech "cap" "''Captain T:''">>
+I'm not asking you again. *grabs your arm and puts you under her table*
+Now, you better do a good job. *grabs your head*
+Yeah... sniff those panties, baby boy...<</speech>>
+<img src="cap/pussypanties.jpg" width="40%">
+
+You spend the whole time trying to breathe. Your ass is also feeling red and it hurts with every little movement. But despite all of this, your dick feels hard and keeps leaking pre-cum the whole time.
+
+<<speech "You" "''$name:''">>
+(Is this...making me...hard?)<</speech>>
+<<click "Get out" "Deck 3">><<audio "lick" stop>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><</click>><<elseif $capt is 4>><<if ndef $mutefx>><<audio "lick" play>><<else>><</if>><<set $sub to $sub -1>><div class="center">''<span class="pulse"><span class="notplus">SUB -1  </span></span>''</div>
+<<speech "You" "''$name:''">>
+What?! Like a dog?!<</speech>>
+<<speech "cap" "''Captain T:''">>
+Well, yes. You heard me. Go on. *wiggle, wiggle*<</speech>>
+<<speech "You" "''$name:''">>
+I... can't do this anymore. At least make it be decent! Not like if I was a fucking dog!<</speech>>
+Suddenly, Captain's T face changes. You know this face. She goes to the border of the bed and stands up.
+
+<<speech "cap" "''Captain T:''">>
+$name... I thought you had understood how things work here. I say, you do.<</speech>>
+<<speech "You" "''$name:''">>
+And I have been very compliant! But this is too much. What am I? Your pet?<</speech>>
+Captain T stands up and walks towards her desk.
+
+<<speech "cap" "''Captain T:''">>
+You know what, $name? I think maybe you are right.<</speech>>
+You are shocked. This must be the first time she let's you speak like that.
+
+<<speech "You" "''$name:''">>
+Well, thank you...<</speech>>
+You see her opening a drawer and bringing out two cups.
+
+<<speech "cap" "''Captain T:''">>
+Sometimes we need to relax and just talk, don't we? Stress is not good for us...<</speech>>
+<<speech "You" "''$name:''">>
+(This is the nicest she's been ever!)<</speech>>
+Captain T slowly fills the two cups with a tea she had in a termo on her table.
+
+<<speech "cap" "''Captain T:''">>
+Here. Let's have some tea and relax...<</speech>>
+<<speech "You" "''$name:''">>
+Thank you... (this is odd)<</speech>>
+The thought of not accepting the drink crosses your mind, but you inmediately discard it. You don't want to refuse what seems to be a peace offering.
+
+And so you drink it.
+
+<span class="onomatopeya">*GLUG*</span>
+
+<<speech "You" "''$name:''">>
+(Hm, tastes good, a little grainy, but ok) Thanks... Captain.<</speech>>
+You never thought you'd ever thank her for anything, but here you are.
+
+<<speech "cap" "''Captain T:''">>
+heh... Don't worry about it. *she stands up again and leaves her untouched cup on the desk*
+
+The best thing about being the Captain is that you are in charge of everything. I like that. That's been my life for as long as I can remember.
+
+And I don't like when people think that they can dissobey.<</speech>>
+Your head is feeling a little fuzzy and altough you are sleeping enough, your eyes are closing by themselves...
+
+<<speech "You" "''$name:''">>
+Uh...<</speech>>
+<<speech "cap" "''Captain T:''">>
+And, $name... Mommy knows it all. I'm your mommy.
+
+If mommy says go, you go.<</speech>>
+You're losing control of your extremities little by little...
+
+<<speech "cap" "''Captain T:''">>
+Heh... so let's get this straight now once and for all...
+
+When I say "SUCK" what do you do?<</speech>>
+You open your mouth trying to yell, but nothing comes out...
+
+<<speech "You" "''$name:''">>
+U- uhh...<</speech>>
+<<speech "cap" "''Captain T:''">>
+Exactly... Open your mouth, my boy...<</speech>>
+<div class="center"><span class="noborder"><img src="cap/capfacesit.jpg" width="100%"></span></div>
+Your mind fades away. All you can perceive is the taste of Captain's pussy juices and the way she is humping your face hard.
+
+ ''*New Fetish: Pussy eating*''
+
+<<click "Wake up" "Bedroom">><<audio "lick" stop>><<set $fetish1 to true>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><<set $capt to 5>><</click>><<elseif $capt is 6 or $capt is 7>><<if $protestt is 5>>You wander around finding what kind of stuff Captain T has prepared for you. There are some dirty sheets, dusty floors and some other stuff. A quick cleanup could do the trick.
+
+You take a look at Captain T to make sure she is not looking your way.
+
+<<speech "You" "''$name:''">>
+(No way I'm really going to be her maid. I'm just going to pretend for a while and then go. That's it.)<</speech>>
+<img src="cap/lazycleaning.gif" width="50%">
+
+In about 15 minutes you have "finished" with all the cleaning you are really going to do for her.
+
+<<click "Ask for reward" "protestt">>><<set $protestt to 6>><</click>>
+
+<<click "Finish" "Deck 3">><<audio "lick" stop>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><</click>><<elseif $protestt is 6>>Even though you've done a sloppy job, you approach Captain T:
+
+<<speech "You" "''$name:''">>
+Um, Captain...<</speech>>
+<<speech "cap" "''Captain T:''">>
+ *stops typing and looks at you* yeah?<</speech>>
+<<speech "You" "''$name:''">>
+I've finished with the chores... you said you would "let me have some fun"<</speech>>
+<<speech "cap" "''Captain T:''">>
+Oh, yeah sure, after I check your work. I'll be there in a minute.<</speech>>
+Her words hit you like a wall.
+
+<<speech "You" "''$name:''">>
+(Oh, shit. She knows. She's not going to like this...)<</speech>>
+After less than a minute, she stands up and goes to check the bathroom, as well as her bed.
+
+<<speech "cap" "''Captain T:''">>
+$name... C'mon, do you really think you can fool me? This bathroom is not clean, you just swipped the floor. And the bed sheets aren't changed, you just folded the old ones.
+
+This is not good news for you, my little boi... You wanted you reward, didn't you? Come here.<</speech>>
+With a surprisingly strong grip, Captain T grabs you by the shoulder and points to the middle of the office.
+
+<<speech "cap" "''Captain T:''">>
+There. Lay down face up.<</speech>>
+She basically pushes you down, so you have no choice but to comply. Once down on the floor you see how she puts a foot on each side of your head, letting you see her underwear.
+
+<<speech "cap" "''Captain T:''">>
+I am a benevolent woman. So I'll let you apologize, or you'll get your "reward" *devilish smile*<</speech>>
+<<if $hunger is 0>><<linkreplace "Don't apologize">>Too hungry...<</linkreplace>><<else>>[[Don't apologize|protestt][$capapo to 2, $protestt to 7]]<</if>>
+[[Apologize|protestt][$capapo to 1, $protestt to 7]]<<elseif $protestt is 7>><<if $capapo is 1>><<speech "You" "''$name:''">>
+(I don't know what she's going to do, I better apologize, even though I don't mean it...) I'm sorry, I'll do better next time!<</speech>>
+<<speech "cap" "''Captain T:''">>
+... ... Well, even I am surprised at how much of a wimp you are. Just get there on that corner for the rest of the class and don't make a sound, or I swear you'll regret it.<</speech>>
+Then she goes back to her chair as if nothing had happened. You go to the corner she pointed to and just stay there.
+
+<img src="cap/corner.jpg" width="60%">
+
+<<speech "You" "''$name:''">>
+(I guess this is better than cleaning, though...)<</speech>><<elseif $capapo is 2>><<if ndef $mutefx>><<audio "lick" play>><<else>><</if>>You are feeling brave today, and so you hold the stare at Captain's eyes. She laughs at your bravery attempt as if she was hoping for it to happen.
+
+<<speech "cap" "''Captain T:''">>
+ *laughs* Oh, boy... you've made my day...<</speech>>
+After that, she takes her panties off and throws it hard at your face, hitting your left cheek.
+
+<span class="onomatopeya">*THUMP*</span>
+
+<<speech "You" "''$name:''">>
+Ow!<</speech>>
+Captain T laughs again and starts squating while she rubs her naked wet pussy. The view of Captain's pussy and ass is stimulating, and although you're starting to feel horny, you are also scared.
+
+<<speech "You" "''$name:''">>
+(I don't like where this is going...)<</speech>>
+Harder than it seemed, Captain rests her pussy all over your mouth and nose.
+
+<<speech "You" "''$name:''">>
+Hm!! (I can't breathe!) Hm! hm!!!<</speech>>
+
+<<speech "cap" "''Captain T:''">>
+ *smiles* Oh, you need some air? There, there... let me fan in some air for you...<</speech>>
+Then she starts rocking her crotch up and down your face. You can take some air when she's up on your eyes and forehead.
+
+<<speech "cap" "''Captain T:''">>
+Mmm... you would make a good seat... do you like being a seat for your mommy?<</speech>>
+<span class="onomatopeya">*HUMP, HUMP*</span>
+
+<<speech "You" "''$name:''">>
+Ah! *choke, choke* Ah!...<</speech>>
+Unconsciously, your tongue starts moving the way it has been the last week. You can't help it, and even though you know you shouldn't be encouraging her, you need to drink her pussy juice. You need to taste it.
+
+<<speech "cap" "''Captain T:''">>
+Oh! You're getting into it, huh? I knew you would... haha<</speech>>
+<span class="onomatopeya">*HUMP, HUMP*</span>
+
+After a few minutes of dirty talk and face-sitting, Captain T starting getting closer and closer to orgasm, humping your nose and tongue.
+
+<<speech "cap" "''Captain T:''">>
+Ah... ah! Ah!! YYyyyyyesss!<</speech>>
+<img src="cap/squirt2.gif" width="50%">
+
+At this point you feel like this is the norm. There's no surprise here. You just concentrate on the taste and her pleasure. You try to lick some of the rests of her ejaculate on your lips.
+
+<<speech "You" "''$name:''">>
+Mmm... *slurp, slurp*<</speech>>
+<<speech "cap" "''Captain T:''">>
+God... my little boy... *huff, huff* You have been a bad pet today... but, boy... you are good with your tongue... But no chores, no points, that's the rule.<</speech>><</if>>
+<div class="center"><span class="notplus">SUB +1</span></div>
+<div class="center"><span class="notless">''NO POINTS''</span></div>
+<<click "Finish" "Deck 3">><<audio "lick" stop>><<set $sub to $sub +1>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><</click>><</if>><<else>><</if>><<audio "menus" stop>>
+
+

@@ -1,0 +1,9 @@
+:: Chocolate Candies [noreturn] {"position":"154,1257","size":"100,100"}
+<img src="food/smallchoco.jpg" width="60%">
+
+A "real life" little white candy. ''(LUST +20, SUB +1, HUNGER +20)''
+
+<<click "Eat" "Inventory">><<set $chococandies to $chococandies -1>><<set $lust to $lust +20>><<set $sub to $sub +1>><<set $hunger to $hunger +20>><</click>>
+[[Return|Inventory]]
+
+

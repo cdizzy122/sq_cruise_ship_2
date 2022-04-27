@@ -1,0 +1,22 @@
+:: StoryData
+{
+	"ifid": "0A485981-5AD9-43E3-9661-1CA25D0E79C8",
+	"format": "SugarCube",
+	"format-version": "2.21.0",
+	"start": "Start",
+	"tag-colors": {
+		"DisableKeyLinks": "purple",
+		"noborder": "gray",
+		"phone": "blue",
+		"spades": "purple",
+		"t8n-typewriter-2": "red",
+		"t8n-typewriter-3": "red",
+		"t8n-typewriter-4": "red",
+		"t8n-typewriter-5": "red",
+		"textback": "purple",
+		"velvet": "red"
+	},
+	"zoom": 0.6
+}
+
+

@@ -1,0 +1,175 @@
+:: Widget [widget] {"position":"500,815","size":"100,100"}
+<<set $trojanxxl to 0, $trojanxl to 0, $mysize to 0, $trojancount to 0, $durexcount to 0, $mysizecount to 0>>
+<<set $pinklolli to 0>>
+<<set $chococandies to 0>>
+<<set $chocodick to 0>>
+<<set $penismug to 0>>
+<<set $specialyogurt to 0>>
+
+<<widget showday>>Day <<print $dayn>><</widget>><<initInv>>
+
+
+
+<<set
+$lvl2 to {
+	id   : "level.one",
+	name : "Level 2 Access Card",
+	count : 1
+}>>
+<<set
+$enhancer to {
+	id   : "en.hancer",
+	name : "Enhancer",
+	count : 1
+}>>
+<<set
+$lockerring to {
+	id   : "locker.ring",
+	name : "Locker ring",
+	count : 1
+}>>
+<<set
+$lockerkey to {
+	id   : "locker.key",
+	name : "Small key",
+	count : 1
+}>>
+<<set
+$falsemoney to {
+	id   : "false.money",
+	name : "False Money",
+	count : 1
+}>>
+<<set
+$bimbopic to {
+	id   : "bimbo.pic",
+	name : "Bimbo picture",
+	count : 1
+}>>
+<<set
+$staffkey to {
+	id   : "staff.key",
+	name : "Staff key",
+	count : 1
+}>>
+<<set
+$Cottonpanties to {
+	id   : "cotton.panties",
+	name : "Cotton panties",
+	count : 1
+}>>
+<<set
+$Candies to {
+	id   : "choco.candies",
+	name : "Chocolate Candies",
+	count : 1
+}>><<set
+$Chocodick to {
+	id   : "choco.dick",
+	name : "Chocolate Dick",
+	count : 1
+}>><<set
+$Lolli to {
+	id   : "lo.lli",
+	name : "Pink Lollipop",
+	count : 1
+}>><<set
+$Mug to {
+	id   : "penis.mug",
+	name : "Penis Mug",
+	count : 1
+}>><<set
+$Yogurt to {
+	id   : "special.yogurt",
+	name : "Special Yogurt",
+	count : 1
+}>>
+<<set
+$roomkey to {
+	id   : "room.key",
+	name : "Roomkey",
+	count : 1
+}>><<set
+$Itinerary to {
+	id   : "iti.nerary",
+	name : "Itinerary",
+	count : 1
+}>><<set
+$Map to {
+	id   : "map.map",
+	name : "Map",
+	count : 1
+}>>
+<<set
+$Tickets to {
+	id   : "tick.ets",
+	name : "Tickets",
+	count : 2
+}>>
+
+
+/*
+	Date & Time Widget Setup
+*/
+<<set
+	/* This must be set to whatever the initial game date/time should be. */
+	$gameDate to new Date("2018-06-28T11:30");
+>>
+<<set
+	window.GameDays to [
+		"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"
+	];
+	window.GameMonths to [
+		"Jan", "Feb", "Mar", "Apr", "May", "Jun",
+		"Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+	];
+>>
+/*
+	Date & Time Advancement Widget Definitions
+*/
+/* Adds the specified number of minutes. */
+<<widget "addmins">>\
+<<run $gameDate.setMinutes($gameDate.getMinutes() + $args[0])>>\
+<</widget>>
+
+/* Adds the specified number of hours. */
+<<widget "addhours">>\
+<<run $gameDate.setHours($gameDate.getHours() + $args[0])>>\
+<</widget>>
+
+/* Adds the specified number of days. */
+<<widget "adddays">>\
+<<run $gameDate.setHours($gameDate.getHours() + $args[0] * 24)>>\
+<</widget>>
+
+
+/*Date & Time Printing Widget Definitions*/
+/* Prints the current date ("{weekday} {month} {day}, {year}"). */
+<<widget "date">>\
+<<print String.format("{0} {1} {2}, {3}",
+	GameDays[$gameDate.getDay()],
+	GameMonths[$gameDate.getMonth()],
+	$gameDate.getDate(),
+	$gameDate.getFullYear()
+)>>\
+<</widget>>
+/* Prints the current time (12H). */
+<<widget "time12h">>\
+<<if $gameDate.getHours() eq 0>>\
+12\
+<<elseif $gameDate.getHours() gt 12>>\
+<<print $gameDate.getHours() - 12>>\
+<<else>>\
+<<print $gameDate.getHours()>>\
+<</if>>:\
+<<if $gameDate.getMinutes() lt 10>>0<</if>><<print $gameDate.getMinutes()>> \
+<<if $gameDate.getHours() gte 12>>PM<<else>>AM<</if>>\
+<</widget>>
+/* Prints the current time (24H). */
+<<widget "time24h">>\
+<<if $gameDate.getHours() lt 10>>0<</if>><<print $gameDate.getHours()>>:<<if $gameDate.getMinutes() lt 10>>0<</if>><<print $gameDate.getMinutes()>>
+<</widget>>
+/* Prints the current date and time (12H). */
+<<widget "datetime">><<date>> <<time12h>><</widget>>
+
+

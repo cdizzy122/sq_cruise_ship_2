@@ -1,0 +1,5 @@
+:: Untitled Passage 25 {"position":"2125,850","size":"100,100"}
+[[Deck 5]]<<set $dayn to 9>>
+[[Beauty Salon][$bsalon to 2, $points to 1000]]
+
+

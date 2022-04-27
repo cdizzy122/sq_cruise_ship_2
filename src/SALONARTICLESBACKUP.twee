@@ -1,0 +1,21 @@
+:: SALON ARTICLES BACKUP {"position":"2341,948","size":"100,100"}
+<div class="red"><span class="imgpop polish"><<nobr>><<if $points gte 200>><<click "SQ Nail Polish™️" Salonevents>><<set $points to $points - 200>><<set $salonevent to 9>><<set $polish to true>><</click>><<else>>SQ Nail Polish™️<</if>><</nobr>></span></div>Cost: 100 points per unit.
+
+<div class="red"><span class="imgpop extensions"><<nobr>><<if $points gte 150>><<click "Cheap Nail Extensions" Salonevents>><<set $points to $points - 150>><<set $salonevent to 10>><<set $extensions to true>><</click>><<else>>Cheap Nail Extensions<</if>><</nobr>></span></div>Cost: 150 points per unit.
+
+<div class="red"><span class="imgpop lightsun"><<nobr>><<if $points gte 100>><<click "50+ Sunscreen (for light skins)" Salonevents>><<set $points to $points - 100>><<set $salonevent to 11>><<set $lightsun to true>><</click>><<else>>50+ Sunscreen (for light skins)<</if>><</nobr>></span></div>Cost: 100 points per unit.
+
+<div class="red"><span class="imgpop darksun"><<nobr>><<if $points gte 200>><<click "Tanning Lotion (for dark skins)" Salonevents>><<set $points to $points - 200>><<set $salonevent to 12>><<set $darksun to true>><</click>><<else>>Tanning Lotion (for dark skins)<</if>><</nobr>></span></div>Cost: 200 points per unit.
+
+
+
+
+
+
+<div class="red"><span class="imgpop lipstick"><<nobr>><<if $points gte 150>><<click "SQ Lipstick™️" Salonevents>><<set $points to $points - 150>><<set $salonevent to 4>><<set $lipstick to true>><</click>><<else>>SQ Lipstick™️<</if>><</nobr>></span><span class="fade-in-out"><span class="green"><font size="-1"></font></span></span></div>Cost: 150 points per unit.
+
+<div class="red"><span class="imgpop panther"><<nobr>><<if $points gte 400>><<click "Panther Scent (attracts ♀︎)" Salonevents>><<set $points to $points - 400>><<set $salonevent to 5>><<set $panther to true>><</click>><<else>>Panther Scent (attracts ♀︎)<</if>><</nobr>></span><span class="fade-in-out"><span class="green"><font size="-1"> → Lasts forever</font></span></span></div>Cost: 400 points per unit.
+
+<div class="red"><span class="imgpop nymph"><<nobr>><<if $points gte 400>><<click "Nymph Scent (attracts ♂︎)" Salonevents>><<set $points to $points - 400>><<set $salonevent to 6>><<set $nymph to true>><</click>><<else>>Nymph Scent (attracts ♂︎)<</if>><</nobr>></span></div>Cost: 400 points per unit.
+
+

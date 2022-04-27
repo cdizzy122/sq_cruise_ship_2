@@ -1,0 +1,77 @@
+:: BFF [phone noreturn] {"position":"851,1585","size":"100,100"}
+<<removeclass "html">><<addclass "html" "tinder">><<if ndef $bff>><<speech "lelu" "''Lelu'':">>
+
+<div class="center"><span class="pulse"><img src="avatars/lelu.jpg" width="80%"></span></div>
+Hi. My name is Lelu. I'm done with bad guys, they are so unreliable and misoginistic, UGH! But you seem like just the opposite of my last boyfriend, so cute! I thought we could maybe talk for awhile and take it slow. What do you say?<</speech>>
+<<speech "You" "''$name'':">>
+Umm...Hi, I'm $name.<</speech>>
+<<speech "lelu" "''Lelu'':">>
+I know... I already saw it in your profile...<</speech>>
+<<speech "You" "''$name'':">>
+(Oh shit, I'm so dumb) Yeah, of course you did! Haha... About what you said, I'd love to get to know you. Maybe a date?<</speech>>
+<<speech "lelu" "''Lelu'':">>
+Haaa, you are soo funny. So shy! But sure, I would love to. But I warn you, I want to go slow this time. I've had bad experiences in the past.<</speech>>
+<<speech "You" "''$name'':">>
+Okay then! It's a date.<</speech>>
+<<speech "lelu" "''Lelu'':">>
+I haven't told you my address yet, hahahaha<</speech>>
+<<speech "You" "''$name'':">>
+Oh, right...<</speech>>
+<<speech "lelu" "''Lelu'':">>
+Meet me on (address)<</speech>>
+<<speech "You" "''$name'':">>
+Noted! So I'll tell you when I can go there, is that ok?<</speech>>
+<<speech "lelu" "''Lelu'':">>
+Stop being so nervous! Here you go, this'll relax you. I know how you boys are.
+
+<div class="center"><span class="pulse"><img src="stuff/lelu1.jpg" width="50%"></span></div><</speech>>
+<<speech "You" "''$name'':">>
+Oh, umm... thanks, you are really beautiful.<</speech>>
+<<speech "lelu" "''Lelu'':">>
+Hahahaha, I find your shyness cute. But we'll need to work on that when we meet. C'mon, I'm waiting for your pic!<</speech>>
+<<speech "You" "''$name'':">>
+W...what?!<</speech>>
+<<speech "lelu" "''Lelu'':">>
+I sent you a pic, you do the same! You're new to Tinder, right? Go on, hot stuff, send it to me!<</speech>>
+<<speech "You" "''$name'':">>
+But I thought you said you wanted to go slow and-<</speech>>
+<<speech "lelu" "''Lelu'':">>
+It's just a p-i-c-t-u-r-e...! Hahaha<</speech>>
+<<speech "You" "''$name'':">>
+Um...<</speech>>
+
+[[Mirror selfie|BFF][$bff to 1]]
+[[No can do|BFF][$bff to 2]]<<elseif $bff is 1>>You decide to take a picture on your phone in the bathroom's mirror. After a few tries you take one that doesn't make you look so bad, so you decide to send it.
+
+<<speech "You" "''$name'':">>
+Here you go!
+
+<div class="center"><span class="pulse"><img src="stuff/lelu2.jpg" width="50%"></span></div><</speech>>
+<<speech "lelu" "''Lelu'':">>
+Well, it's something... I was honestly expecting a dick pic, but I really see you are different. You face is not there, but your belly is kinda cute though! Let me know when you are coming here. Bye-bye!<</speech>>
+
+[[Return|Tinder][$tinder2 to "Active", $badge to $badge +1, $tinder1 to "Finished"]]<<elseif $bff is 2>><<speech "You" "''$name'':">>
+(What if she says that I'm not man enough...?) I'm sorry, but I have a different concept of what going slow is... We have barely spoken...<</speech>>
+<<speech "lelu" "''Lelu'':">>
+You know what? I have never had a reaction like that from a guy on Tinder ever... You really are one of a kind. Maybe I underestimated you and you really are a more evolved male, who can feel like me... like a woman... <</speech>>
+<<speech "You" "''$name'':">>
+(What is she talking about...? <span class="pink">A... woman? *smile*</span>) Well, it's not that I'm more evolved. It's just not my style, I'm sorry...<</speech>>
+<<speech "lelu" "''Lelu'':">>
+No, wait! This is really what I need, you know? Someone different... I'm so tired of jerks, and now that a nice guy shows I ruin it... I'm sorry...<</speech>>
+<<speech "You" "''$name'':">>
+No need to be sorry. (A woman apologizing to me? Well, this is new.) No need to apologize, just-<</speech>>
+<<speech "lelu" "''Lelu'':">>
+I know how I can make it up to you... Come pay me a visit. Don't worry, I'll be gentle and respectful 😚<</speech>>
+[[Return|Tinder][$tinder2 to "Active", $badge to $badge +1, $tinder1 to "Finished"]]<<elseif $bff is 3>><span class="pulse"><img src="https://gifs.iloopit.net/resources/75814745-4518-4025-a6c8-2c87756940c7/converted.gif" width="50%"></span>
+<span class="pulse"><img src="https://gifs.iloopit.net/resources/ff943ebd-5857-4751-b5e5-c000f0a8c0cb/converted.gif" width="50%"></span>
+<span class="pulse"><img src="https://gifs.iloopit.net/resources/3af88a39-79ba-498a-83e8-4077bb6562d7/converted.gif" width="50%"></span>
+<span class="pulse"><img src="https://gifs.iloopit.net/resources/21962adb-3535-4152-bed1-a551ab91e0d9/converted.gif" width="50%"></span>
+<span class="pulse"><img src="http://xxxpornozone.com/xxx/lelu-love.jpg" width="50%"></span>
+<span class="pulse"><img src="http://3.bp.blogspot.com/-4mFMTvv8uA0/T2sJ3AratQI/AAAAAAAABvM/BVE19iThqgA/s640/lelu-love-Sandra-London-2.jpg" width="50%"></span>
+
+<span class="pulse"><img src="" width="50%"></span>
+<span class="pulse"><img src="" width="50%"></span>
+<span class="pulse"><img src="" width="50%"></span>
+<span class="pulse"><img src="" width="50%"></span><</if>><<if ndef $mute>><<audio "tinder" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

@@ -1,0 +1,4 @@
+:: probemos {"position":"1560,2525","size":"100,100"}
+<<if $wardrobe is true>><span class="borderbox"><<if ndef $cage>><<else>><<if $cage is true>><<set $comple to 1>>Your penis is trapped in the cage.<<if $cagekey is true>><<click "Take Off Chastity Cage" Wardrobe>><<set $cage to false>><<unset $comple>><</click>><<elseif $cagekey is false>><<linkreplace "Take Off Chastity Cage" t8n>> You don't have the key...<</linkreplace>><</if>><<elseif $cage is false>>Your penis is free! <<if $havecage is true>>[[Put On Chastity Cage|Wardrobe][$cage to true, $comple to 1]]<<else>><</if>><</if>><</if>></span><</if>>
+
+

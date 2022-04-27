@@ -1,0 +1,201 @@
+:: Start service [textback] {"position":"1510,1095","size":"100,100"}
+<<if $chefstart is 0>><<if ndef $chefstart1>><div class="center"><font size="+2"><<set $seconds to 10>>\
+''TIME UNTIL SERVICE'' --> <span id="countdown">''$seconds''</span>\
+<<silently>>
+	<<repeat 1s>>
+		<<set $seconds to $seconds - 1>>
+		<<if $seconds gt 0>>
+			<<replace "#countdown">>$seconds<</replace>>
+		<<else>>
+			<<replace "#countdown">>She's coming<</replace>>
+			/* do something useful here */
+			<<stop>>
+		<</if>>
+	<</repeat>>
+<</silently>></font></div>
+
+<<speech "holli" "''Holli:''">>
+I need a hollandaise sauce for these eggs benedict, quick!<</speech>>
+<div class="center"><img src="classes/cook/cooking1a.jpg" width="50%">
+[[Use egg yolks|Start service][$chefstart1 to 0]] | [[Use avocado|Start service][$chefstart1 to 1]]</div>
+
+\\<<elseif $chefstart1 is 0>><<set $serviceright1 to true>><div class="center"><span class="green"><font size=+2>''WELL DONE!''</font></span>
+
+<img src="classes/cook/cookinggood.gif" width="50%"></div><<timed 1.5s>><<goto "Finish service">><<set $chefstart to 1, $cheffinish to 0>><</timed>>
+
+
+\\<<elseif $chefstart1 is 1>><<set $serviceright1 to false>><div class="center"><span class="green"><font size=+2>''EWWWWW!''</font></span>
+
+<img src="classes/cook/cookingbad.gif" width="50%"></div><<timed 1.5s>><<goto "Finish service">><<set $chefstart to 1, $cheffinish to 0>><</timed>><</if>>
+
+
+
+
+
+\\<<elseif $chefstart is 1>><<if ndef $chefstart2>><div class="center"><font size="+2"><<set $seconds to 10>>\
+''TIME UNTIL SERVICE'' --> <span id="countdown">''$seconds''</span>\
+<<silently>>
+	<<repeat 1s>>
+		<<set $seconds to $seconds - 1>>
+		<<if $seconds gt 0>>
+			<<replace "#countdown">>$seconds<</replace>>
+		<<else>>
+			<<replace "#countdown">>She's coming<</replace>>
+			/* do something useful here */
+			<<stop>>
+		<</if>>
+	<</repeat>>
+<</silently>></font></div>
+
+<<speech "holli" "''Holli:''">>
+I need a bechamel sauce, quick!<</speech>>
+<div class="center"><img src="classes/cook/cooking2a.jpg" width="50%">
+[[Use butter and flour|Start service][$chefstart2 to 0]] | [[Use heavy cream|Start service][$chefstart2 to 1]]</div>
+
+\\<<elseif $chefstart2 is 0>><<set $serviceright2 to true>><div class="center"><span class="green"><font size=+2>''WELL DONE!''</font></span>
+
+<img src="classes/cook/cookinggood.gif" width="50%"></div><<timed 1.5s>><<goto "Finish service">><<set $chefstart to 2, $cheffinish to 1>><</timed>>
+
+
+\\<<elseif $chefstart2 is 1>><<set $serviceright2 to false>><div class="center"><span class="green"><font size=+2>''EWWWWW!''</font></span>
+
+<img src="classes/cook/cookingbad.gif" width="50%"></div><<timed 1.5s>><<goto "Finish service">><<set $chefstart to 2, $cheffinish to 1>><</timed>><</if>>
+
+
+
+
+
+
+\\<<elseif $chefstart is 2>><<if ndef $chefstart3>><div class="center"><font size="+2"><<set $seconds to 10>>\
+''TIME UNTIL SERVICE'' --> <span id="countdown">''$seconds''</span>\
+<<silently>>
+	<<repeat 1s>>
+		<<set $seconds to $seconds - 1>>
+		<<if $seconds gt 0>>
+			<<replace "#countdown">>$seconds<</replace>>
+		<<else>>
+			<<replace "#countdown">>She's coming<</replace>>
+			/* do something useful here */
+			<<stop>>
+		<</if>>
+	<</repeat>>
+<</silently>></font></div>
+
+<<speech "holli" "''Holli:''">>
+I need some sour cream for this potato fries, quick!<</speech>>
+<div class="center"><img src="classes/cook/cooking3a.jpg" width="50%">
+[[Use milk and flour|Start service][$chefstart3 to 0]] | [[Use heavy whipping cream and lemon|Start service][$chefstart3 to 1]]</div>
+
+\\<<elseif $chefstart3 is 0>><<set $serviceright3 to false>><div class="center"><span class="green"><font size=+2>''EWWWWW!''</font></span>
+
+<img src="classes/cook/cookingbad.gif" width="50%"></div><<timed 1.5s>><<goto "Finish service">><<set $chefstart to 3, $cheffinish to 2>><</timed>>
+
+
+\\<<elseif $chefstart3 is 1>><<set $serviceright3 to true>><div class="center"><span class="green"><font size=+2>''WELL DONE!''</font></span>
+
+<img src="classes/cook/cookinggood.gif" width="50%"></div><<timed 1.5s>><<goto "Finish service">><<set $chefstart to 3, $cheffinish to 2>><</timed>><</if>>
+
+
+
+
+
+
+
+\\<<elseif $chefstart is 3>><<if ndef $chefstart4>><div class="center"><font size="+2"><<set $seconds to 10>>\
+''TIME UNTIL SERVICE'' --> <span id="countdown">''$seconds''</span>\
+<<silently>>
+	<<repeat 1s>>
+		<<set $seconds to $seconds - 1>>
+		<<if $seconds gt 0>>
+			<<replace "#countdown">>$seconds<</replace>>
+		<<else>>
+			<<replace "#countdown">>She's coming<</replace>>
+			/* do something useful here */
+			<<stop>>
+		<</if>>
+	<</repeat>>
+<</silently>></font></div>
+
+<<speech "holli" "''Holli:''">>
+I need you to finish this club sandwich, quick!<</speech>>
+<div class="center"><img src="classes/cook/cooking4a.jpg" width="50%">
+[[Tomato, lettuce & mayo|Start service][$chefstart4 to 0]] | [[Lettuce, blue cheese & red onion|Start service][$chefstart4 to 1]]</div>
+
+\\<<elseif $chefstart4 is 0>><<set $serviceright4 to true>><div class="center"><span class="green"><font size=+2>''WELL DONE!''</font></span>
+
+<img src="classes/cook/cookinggood.gif" width="50%"></div><<timed 1.5s>><<goto "Finish service">><<set $chefstart to 4, $cheffinish to 3>><</timed>>
+
+
+\\<<elseif $chefstart4 is 1>><<set $serviceright4 to false>><div class="center"><span class="green"><font size=+2>''EWWWWW!''</font></span>
+
+<img src="classes/cook/cookingbad.gif" width="50%"></div><<timed 1.5s>><<goto "Finish service">><<set $chefstart to 4, $cheffinish to 3>><</timed>><</if>>
+
+
+
+
+
+\\<<elseif $chefstart is 4>><<if ndef $chefstart5>><div class="center"><font size="+2"><<set $seconds to 10>>\
+''TIME UNTIL SERVICE'' --> <span id="countdown">''$seconds''</span>\
+<<silently>>
+	<<repeat 1s>>
+		<<set $seconds to $seconds - 1>>
+		<<if $seconds gt 0>>
+			<<replace "#countdown">>$seconds<</replace>>
+		<<else>>
+			<<replace "#countdown">>She's coming<</replace>>
+			/* do something useful here */
+			<<stop>>
+		<</if>>
+	<</repeat>>
+<</silently>></font></div>
+
+<<speech "holli" "''Holli:''">>
+I need you to finish this Caesar salad, quick!<</speech>>
+<div class="center"><img src="classes/cook/cooking5a.jpg" width="50%">
+[[Use tuna and olives|Start service][$chefstart5 to 0]] | [[Use parmesan and croutons|Start service][$chefstart5 to 1]]</div>
+
+\\<<elseif $chefstart5 is 0>><<set $serviceright5 to false>><div class="center"><span class="green"><font size=+2>''EWWWWW!''</font></span>
+
+<img src="classes/cook/cookingbad.gif" width="50%"></div><<timed 1.5s>><<goto "Finish service">><<set $chefstart to 5, $cheffinish to 4>><</timed>>
+
+
+\\<<elseif $chefstart5 is 1>><<set $serviceright5 to true>><div class="center"><span class="green"><font size=+2>''WELL DONE!''</font></span>
+
+<img src="classes/cook/cookinggood.gif" width="50%"></div><<timed 1.5s>><<goto "Finish service">><<set $chefstart to 5, $cheffinish to 4>><</timed>><</if>>
+
+
+
+
+
+
+
+\\<<elseif $chefstart is 5>><<if ndef $chefstart6>><div class="center"><font size="+2"><<set $seconds to 10>>\
+''TIME UNTIL SERVICE'' --> <span id="countdown">''$seconds''</span>\
+<<silently>>
+	<<repeat 1s>>
+		<<set $seconds to $seconds - 1>>
+		<<if $seconds gt 0>>
+			<<replace "#countdown">>$seconds<</replace>>
+		<<else>>
+			<<replace "#countdown">>She's coming<</replace>>
+			/* do something useful here */
+			<<stop>>
+		<</if>>
+	<</repeat>>
+<</silently>></font></div>
+
+<<speech "holli" "''Holli:''">>
+I need you to pour something on this cheesecake, quick!<</speech>>
+<div class="center"><img src="classes/cook/cooking6a.jpg" width="50%">
+[[Make a cherry syrup|Start service][$chefstart6 to 0]] | [[Pour matcha powder|Start service][$chefstart6 to 1]]</div>
+
+\\<<elseif $chefstart6 is 0>><<set $serviceright6 to true>><div class="center"><span class="green"><font size=+2>''WELL DONE!''</font></span>
+
+<img src="classes/cook/cookinggood.gif" width="50%"></div><<timed 1.5s>><<goto "Finish service">><<set $chefstart to 6, $cheffinish to 5>><</timed>>
+
+
+\\<<elseif $chefstart6 is 1>><<set $serviceright6 to false>><div class="center"><span class="green"><font size=+2>''EWWWWW!''</font></span>
+
+<img src="classes/cook/cookingbad.gif" width="50%"></div><<timed 1.5s>><<goto "Finish service">><<set $chefstart to 6, $cheffinish to 5>><</timed>><</if>><</if>>
+
+

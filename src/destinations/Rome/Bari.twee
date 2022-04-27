@@ -1,0 +1,9 @@
+:: Bari [textback] {"position":"3280,623","size":"100,100"}
+<<removeclass "html">><<addclass "html" "rome">><<audio "rome" volume 0.4 play loop>><span class="fade-ins"><div class="center"><img src="dockings/rome/barstreet.jpg" width="60%"></div></span>
+
+<<speech "You" "''$name'':">>
+(There's not much here... just a rusty couple of places where people chat and drink a beer... There's also a gelateria.)<</speech>>
+<div class="center"><<nobr>><--------[[Bar|Baris]]----[[Back Alley|backalley]]----[[Gelateria]]--------><</nobr>></div>
+[[Return|Street1]]<<if ndef $mute>><<audio "rome" unmute>><<else>><</if>><<audio "menus" stop>><<audio "romebar" stop>><<audio "people" stop>>
+
+

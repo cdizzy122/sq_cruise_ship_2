@@ -1,0 +1,145 @@
+:: SMS7 [phone] {"position":"1334,2767","size":"100,100"}
+<<if ndef $lanafindom>><<if ndef $mutefx>><<audio "ding" play>><<else>><</if>><<speech "lanad" "''$gffname:''">>
+Hi honey...<</speech>>
+You tremble a bit when you see her message. You know that, at this point, all she's going to want is more money, and you're not really sure about how long will you be able to keep this going.
+
+<<speech "You" "''$name:''">>
+Yes...?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Listen, mommy is thirsty and need some juice if you know what I mean, I think 200$ will be enough for my new shoes...<</speech>>
+<<speech "You" "''$name:''">>
+Um, $gffname... I can't keep this going, for real now.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh, well... if I don't get these shoes while the discount is still available, I'll lose money. I don't like losing, you know that. You don't want me to lose, right?<</speech>>
+<<speech "You" "''$name:''">>
+No...<</speech>>
+It's really embarrasing to recognize it, but you know that this is turning you on. Of course, you are not fond of losing money, but the way she talks to you is condescending in a very sexy way...
+
+<<speech "lanad" "''$gffname:''">>
+Okay then. Just give mommy the money or a certain picture will slip through my fingers to my social media...<</speech>>
+<<speech "You" "''$name:''">>
+Wait, no, you don't understand. I literally can't do this anymore... I don't... h-have any more...<</speech>>
+...
+
+...
+
+...
+
+<<speech "lanad" "''$gffname:''">>
+Well, that's such a disappointment, $name.<</speech>>
+You stare at your phone, your heart pounding harder than ever, waiting for another answer. Since now this had all been a little fun game, but having those pictures out to everyone... You're just not ready for that exposure...
+
+<<speech "You" "''$name:''">>
+Please, please, please... $gffname, don't do it. I'll do anything...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+I'm not happy, and you'll have to pay for that. But I won't expose you just yet... I'll give you the chance to redeem yourself.<</speech>>
+<<speech "You" "''$name:''">>
+(Phew...) W-what would that be?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+You're lucky that I actually like having fun with you, you know? How about you show me how you move that pretty little ass of yours...?<</speech>>
+Shivers run through your spine. You know that this is getting out of hand, and are not sure that you should accept this. But just the thought of taking another picture and sending it to her makes your caged clitty tingle.
+
+<<speech "You" "''$name:''">>
+ *bite your lips* But...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Do I really need to say more? Show me that tiny cage of your swing around from behind, c'mon.<</speech>>
+You look at the conversation, not sure what to do next.
+
+[[Take a picture from behind|SMS7][$lanafindom to 0]]
+[[This has to stop right now!|SMS7][$lanafindom to 1]]
+
+
+
+
+\\<<elseif $lanafindom is 0>>You stand up and take your clothes out of the way. You can't help but notice your clitty leaking profusely, which makes you smile despite the knot in your stomach.
+
+<<speech "You" "''$name:''">>
+(This is really making me horny...)<</speech>>
+You get on your bed on all fours and practice swinging your sissy genitals, trying to slap it onto your thighs. You are a bit disappointed when you notice you can't hear that slapping noise, since your clitty and balls are so shrinked down.
+
+<<speech "lanad" "''$gffname:''">>
+🙄🙄🙄⏱⏱<</speech>>
+As you see the text from $gffname you get impatient and grab the phone to take the picture from behind.
+
+<<linkreplace "FLASH">><span class="onomatopeya">FLASH</span><<if ndef $mutefx>><<audio "flash" volume 0.4 play>><<else>><</if>>
+
+<span class="fade-ins"><div class="center"><img src="lana/showass.jpg" width="50%"></div>
+Rushed, you hit send before looking at it. Once you do, you instantly regret it. Your horny smile fades and a worried look takes its place.
+
+<<speech "You" "''$name:''">>
+(This is awful... now she actually has a picture of my ass...)<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Wow, such a cute little hole you got there. I'll add that to my "loser" folder hahaha.<</speech>>
+<<speech "You" "''$name:''">>
+... Okay, now we're done, right?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Are you kidding? We just started! We're going to have <span class="imgpop somuchfun"><a class="specialeffects">so much fun...</a></span> 🍑🥕<</speech>>
+You don't even know how to react to this. You know that if you don't cut this from the root, the blackmail is just going to escalate and eventually get to a point of no return.
+
+While you think about this situation, you pick up some of the pre-cum leaking from your tight cage.
+
+<<speech "You" "''$name:''">>
+(I really am horny... but this doesn't feel right...)<</speech>>
+Every thought of trying to face $gffname is interrupted by your horniness.
+
+<<speech "You" "''$name:''">>
+(Seems like we're done for today...)<</speech>>
+[[Return|Bedroom][$lanasms to 9, $smsm9 to false]]</span><</linkreplace>>
+
+
+
+\\<<elseif $lanafindom is 1>><<speech "You" "''$name:''">>
+No! I've had enough. For a moment I thought you were nice... But I can't keep going on with this. No more pictures. Just leave me alone!<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Well that's a disappointment, and I'm not talking about your penis this time. It seems to me that you haven't received a good enough incentive.<</speech>>
+You don't like the sound of that, but at least she's gone offline.
+
+...
+
+...
+
+After a few minutes you receive another message.
+
+<<speech "lanad" "''$gffname:''">>
+Hey, check this. I think she looks like you...<</speech>>
+<<linkreplace "... ...">><div class="center"><img src="lana/exposeface.jpg" width="60%"></div>
+You eyes open wide and your heart pounds harder than ever as you see the picture you sent her about to be uploaded to her alternative facebook page.
+
+<<speech "You" "''$name:''">>
+(Oh, no! My parents follow her! And $gfname... she'll also share it with my friends... This is bad...)<</speech>>
+<<speech "lanad" "''$gffname:''">>
+I could do this, just a click and... that's it. So tell me, will you do as you're told? I know you even enjoy it, you can't fool me!<</speech>>
+You look at the floor, defeated. You'd rather keep sending her stuff than revealing your nature to everyone you know.
+
+<<speech "lanad" "''$gffname:''">>
+Come on, I know you like it... don't you?<</speech>>
+You don't feel like answering.
+
+<<speech "lanad" "''$gffname:''">>
+I see you're trying to rebel, but you know that you have to respond to me.<</speech>>
+<<speech "You" "''$name:''">>
+You're a bad person, $gffname.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+And you are a little horny sissy. You should be grateful that I'm even playing with you. But I understand that you might feel bad about it. Here's some of mine! I love our little game... 😈😈<</speech>>
+<div class="center"><img src="lana/lanaboobs.jpg" width="50%"></div>
+Despite the awful feeling you just had, her picture is making you feel better.
+
+<<speech "You" "''$name:''">>
+(She's so hot... Those tits... Hey, wait! I could expose her... although I don't have access to social media through this phone...)<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Now, I expect you to record a video of yourself from behind while you dangle your balls and smile to the camera at the end.<</speech>>
+<<speech "You" "''$name:''">>
+What? My face?! No, that's... too much.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh, come on! More than your ass and caged dick?? That is nothing for a sissy like you!<</speech>>
+<<speech "You" "''$name:''">>
+I can't show my face, please...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+ *sigh* Okay... No face then... yet. I'm such a generous woman, am I not?<</speech>>
+<<speech "You" "''$name:''">>
+Um...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+I'll take that as a yes.<</speech>>
+[[Return|Bedroom][$lanasms to 9, $smsm9 to false]]<</linkreplace>><</if>>
+
+

@@ -1,0 +1,75 @@
+:: Go to another agency [textback] {"position":"969,447","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><<audio "office" stop>><<audio "girltalk1" volume 0.4 play loop>><img src="places1/travelagency2.jpg" width="70%">
+
+<<speech "nobody" "''Receptionist:''">>
+Hi, can I help you?<</speech>>
+<<speech "mike" "''$fname:''">>
+Yeah, we would want some information about cruise ships.<</speech>>
+The two receptionists smile at each other and giggle a little bit.
+
+<<speech "nobody" "''Receptionist:''">>
+Well, sure. We actually specialize on cruises and have a wide variety of them. Are you guys a couple?<</speech>>
+<<speech "mike" "''$fname:''">>
+Huh?! No! We are just friends. I want to buy two tickets for him and his girl.<</speech>>
+<<speech "nobody" "''Receptionist:''">>
+Well, we usually don't have a lot of heterosexual couples amongst our clients... Just have a seat and wait for that door to open. The manager will have you in a minute.<</speech>>
+<<speech "mike" "''$fname:''">>
+OK, thanks. Just make it quick!<</speech>>
+In less than a minute the manager's door opens and you both <<linkappend 
+"go in.">><<if ndef $mutefx>><<audio "door" play>><<else>><</if>><<audio "girltalk1" stop>><<audio "out" mute>>
+
+<img src="places1/manager.jpg" width="70%">
+
+<<speech "nobody" "''Manager:''">>
+Hi, have a seat. Jenny told me you guys wanted to buy two tickets for a couples cruise. I guess you guys want the Special Gay Cruise...<</speech>>
+<<speech "mike" "''$fname:''">>
+No! I told those girls outside: We are not a couple! The tickets are for him and his girl.<</speech>>
+<<speech "nobody" "''Manager:''">>
+Oh, ok. I understand now. The thing is that we don't cover heterosexual couples. Our cruises are made for singles, except the one for gay pairs.<</speech>>
+<<speech "mike" "''$fname:''">>
+Are you fucking serious?!<</speech>>
+<<speech "nobody" "''Manager:''">>
+Sir, there's no need to be so rude. I'm just telling you how we work here and-<</speech>>
+<<speech "mike" "''$fname:''">>
+We've spent all morning looking for two cruise tickets. This is supposed to be a travel agency! Can't you give us something?<</speech>>
+<<speech "nobody" "''Manager:''">>
+Sir, we can talk this out, but if you keep being so rude I'm going to have to ask you to go.<</speech>>
+<<speech "mike" "''$fname:''">>
+You have to be kidding me!<</speech>>
+<<speech "nobody" "''Manager:''">>
+Wait for your friend at the waiting room, please. She points to the door with her finger.<</speech>>
+<<speech "mike" "''$fname:''">>
+This is unbelievable! *gets out and slams the door*<</speech>>
+<<linkreplace "... ...">><<if ndef $mutefx>><<audio "slam" play>><<else>><</if>><<audio "dreams" volume 0.6 loop play>><<speech "nobody" "''Manager:''">>
+Ok, Sir. Now we can talk like people. So, I could maybe make this happen, but I have to ask you a few questions first.<</speech>>
+<<speech "You" "''$name:''">>
+Um... ok.<</speech>>
+<<speech "nobody" "''Manager:''">>
+Good. *smiles* How is your relation with your girlfriend? Are you an open couple, or just traditional?<</speech>>
+<<speech "You" "''$name:''">>
+This is a little bit too personal, don't you think?<</speech>>
+<<speech "nobody" "''Manager:''">>
+We are very interested in the client's satisfaction with the trip. We have a 5 out of 5 rating, and that is because we try to choose the right destination for each client. So please, answer. It's for your own benefit.<</speech>>
+<<speech "You" "''$name:''">>
+Ok... well, I guess we are... traditional...<</speech>>
+<<speech "nobody" "''Manager:''">>
+I see... and are you guys happy?<</speech>>
+<<speech "You" "''$name:''">>
+Well, right now we are on a bit of a bump, but I think we'll get through it if we put enough effort.<</speech>>
+<<speech "nobody" "''Manager:''">>
+Aha... Ok, it's not very usual for us to have clients like you, but I think I know exactly where your girl and you need to go to mend your relation. Have you ever heard of the SQ Cruise Ship?<</speech>>
+<<speech "You" "''$name:''">>
+Nope...<</speech>>
+<<speech "nobody" "''Manager:''">>
+Well, perfect! You guys will go there. I think you both will learn a lot from the experience and the beauty of this trip. Trust me. *smiles* She speaks to the intercom: Jenny, get the guy in.<</speech>>
+ <<speech "mike" "''$fname:''">>
+ *gets in* Could you get anything, $name?<</speech>>
+<<speech "nobody" "''Manager:''">>
+Yes, he and his girl will go to the SQ Cruise Ship. It's a 60 day international trip, with touristic visits around Europe and the Caribbean.<</speech>>
+<<speech "mike" "''$fname:''">>
+Sounds nice! We'll take it!<</speech>>
+<<speech "nobody" "''Manager:''">>
+All set then. Go to the door at the end to finish the process and pay. Here, give this paper to the cashier.<</speech>>
+[[Go to next room]]<<addmins 10>><</linkreplace>><</linkappend>><<audio "menus" stop>>
+
+

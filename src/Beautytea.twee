@@ -1,0 +1,9 @@
+:: Beauty tea [noreturn] {"position":"836,1368","size":"100,100"}
+<img src="quest5/tea.jpg" width="50%">
+
+Kelsey's beauty tea. It's supposed to make your skin smoother. It smells weird though... ''(FEM +1)''
+
+[[Make and drink|Inventory][$tea to $tea -1, $fem to $fem +1]]
+[[Return|Inventory]]
+
+

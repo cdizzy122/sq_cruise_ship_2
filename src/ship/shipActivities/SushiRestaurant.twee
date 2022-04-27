@@ -1,0 +1,280 @@
+:: Sushi Restaurant [textback] {"position":"1779,636","size":"100,100"}
+<<removeclass "html">><<addclass "html" "dining">><<if ndef $srestaurant>><<if $gameDate.getHours() gte 20 and $gameDate.getHours() lt 23>><img src="passengers/japanesegirl.jpg" width="39%"><img src="places2/jrest.jpg" width="60%">
+
+<<speech "nobody" "''Chef:''">>
+Hey, Koharu! Nigiris to table 14! Now!<</speech>>
+<<speech "nobody" "''Waiter:''">>
+God... we are too busy... just wait a second.<</speech>>
+You can see her run around the restaurant, carrying plates to all the tables. It seems like she is the only waiter.
+
+<<speech "nobody" "''Koharu:''">>
+Hi, I'm back! I'm sorry, we're full as you can see... I wish the chef wasn't so greedy, she could have spent more money on another waiter cook or even another waiter!<</speech>>
+She rolls her eyes and looks back at the kitchen, in case more plates were ready to go.
+
+<<speech "You" "''$name:''">>
+Oh, damn... I can see you are very busy, sorry to bother.<</speech>>
+<<speech "nobody" "''Koharu:''">>
+Oh, it's ok... *her face lightens* in fact, maybe you could help if you wanted to... you are a... boy, right?<</speech>>
+<<speech "You" "''$name:''">>
+Um... last time I checked I was, hehe...<</speech>>
+<<speech "nobody" "''Koharu:''">>
+Well, maybe you could come some other day before the dinner service starts at 19. You could get some extra points working a few nights!<</speech>>
+<<speech "You" "''$name:''">>
+Oh... Um, I don't know about that...<</speech>>
+<<speech "nobody" "''Koharu:''">>
+Well, just think about it, ok? I'll be waiting for you to present you to the chef.<</speech>>
+<<speech "nobody" "''Chef:''">>
+KOHARU! Maki, 6, Sashimi, 10. Now, now, NOW!<</speech>>
+<<speech "nobody" "''Koharu:''">>
+Got to go! Bye!<</speech>>
+''New Side Quest: Come back before 20:00 to apply for a puntual job at the sushi restaurant.''
+
+[[Return|Deck 7][$sushi to "Active", $srestaurant to 0, $badge to $badge +1]]
+
+
+\\<<else>><img src="passengers/japanesegirl.jpg" width="39%"><img src="places2/jrest.jpg" width="60%">
+
+<<speech "nobody" "''Waiter:''">>
+Hi! I'm sorry, service starts at 20. Did you want to make a reservation?<</speech>>
+<<speech "You" "''You:''">>
+Errr... no, thanks.<</speech>>
+<<speech "nobody" "''Waiter:''">>
+Ok then.<</speech>>
+[[Return|Deck 7]]<</if>>
+
+
+
+
+\\<<elseif $srestaurant is 0>><<if ndef $koharu>><<if $gameDate.getHours() gte 20 and $gameDate.getHours() lt 23>><img src="passengers/japanesegirl.jpg" width="39%"><img src="places2/jrest.jpg" width="60%">
+
+<<speech "nobody" "''Chef:''">>
+Hey, Koharu! Nigiris to table 14! Now!<</speech>>
+<<speech "nobody" "''Koharu:''">>
+Sorry, we're to busy to do talk about the job right now! Come back when we're not on service! (any day before 20:00)<</speech>>
+[[Return|Deck 7]]<<else>><img src="passengers/japanesegirl.jpg" width="39%"><img src="places2/jrest.jpg" width="60%">
+
+<<speech "nobody" "''Koharu:''">>
+Hey, you finally came! So you decided to talk to the chef? Follow me, then.<</speech>>
+You walk across the restaurant to the kitchen.
+
+<<speech "nobody" "''Chef:''">>
+So this is the girl? Huh, she doesn't even look strong enough...<</speech>>
+<<speech "nobody" "''Koharu:''">>
+What? No, you don't understand. This is the GUY I told you about. He is a GUY.<</speech>>
+She's definitely emphathizing your gender too much and it's making you feel uncomfortable.
+
+<<speech "nobody" "''Chef:''">>
+Uh?! What do you mean? Is this a boy?<</speech>>
+<<speech "nobody" "''Koharu:''">>
+Well, you always say we can't hire a woman, because women aren't well suited for the job. So I brought you a man. In fact, the only one we have on this ship.<</speech>>
+<<speech "nobody" "''Chef:''">>
+... ... Tell me, boy: how many years have you been cooking?<</speech>>
+<<speech "nobody" "''Chef:''">>
+Y-years? Oh, well, I've cooked some stuff by myself, but nothing too fancy.<</speech>>
+<<speech "nobody" "''Koharu:''">>
+ *facepalm*<</speech>>
+The chef stays silent for a few seconds.
+
+<<speech "nobody" "''Chef:''">>
+Is this a joke, Kuharu?<</speech>>
+Kuharu just raises her shoulders.
+
+<<speech "nobody" "''Chef:''">>
+Ok, now... *sigh* I see what you're doing.<</speech>>
+<<speech "nobody" "''Koharu:''">>
+What "I'm doing"? What am I doing?<</speech>>
+<<speech "nobody" "''Chef:''">>
+I think it's very obvious. You're just trying to convince me that a woman could serve me as a helper.<</speech>>
+<<speech "nobody" "''Koharu:''">>
+Hey, I'm just saying that these are your options. It's either him or some other girl...<</speech>>
+<<speech "nobody" "''Chef:''">>
+Oh, yeah? Don't think that I don't know what you're trying. You want to be in the kitchen. You just want me to hire a waiter.<</speech>>
+<<speech "nobody" "''Koharu:''">>
+Well, if anyone goes in that kitchen, it should be me! I know how to make every single dish!<</speech>>
+The chef smiles at her.
+
+<<speech "nobody" "''Chef:''">>
+You remind me of myself...<</speech>>
+<<speech "nobody" "''Koharu:''">>
+Ambitious?<</speech>>
+<<speech "nobody" "''Chef:''">>
+Manipulative *she points at you* You know how to "talk" to little minded men. I'm kind of proud... I'll think about it, ok?<</speech>>
+<<speech "nobody" "''Koharu:''">>
+Yes! Ok! I won't let you down!<</speech>>
+<<speech "nobody" "''Chef:''">>
+I will think about it! I haven't said yes yet! Just keep doing your job for now, but I'll keep your ambitions in mind.<</speech>>
+With a wide smile, Koharu leads you out the kitchen from the hand.
+
+<<speech "nobody" "''Koharu:''">>
+OMG, $name. Thanks a lot, I really mean it. You don't know how much time I have been wanting to change the waitress stuff for the actual kitchen. It took a while, but she finally noticed how little sense she was making.<</speech>>
+<<speech "You" "''$name:''">>
+Yeah... I still can't believe she told you that you couldn't work there just because you are a woman. But all those things she said about controlling me-<</speech>>
+<<speech "nobody" "''Koharu:''">>
+Oh, no! She's not right about that, for sure. I mean, I knew I would have a chance if you were the other option. But don't take it personally! I just assumed you didn't know how to cook... I know what I can do for you in exchange! How about some extra points! I bet you could use more of those... I'll tell the Captain to give you 100 extra points, IF...<</speech>>
+<<speech "You" "''$name:''">>
+If what...?<</speech>>
+Koharu's face turns a bit less angelical as she takes your hand and leads you to the pantry.
+
+<<linkreplace "... ...">><img src="places2/pantry.jpg" width="37%">
+
+Once you both are in, Koharu leaves the door ajar. She suddenly takes your face closer to her own. You are able to smell her young floral scent and watch her cougar eyes real close in the darkness of the small room. Then she leans in to give you a kiss. You would expect her going for a tongue kiss, but she just gives you a small smooch on the mouth.
+
+<<speech "nobody" "''Koharu:''">>
+So how about you let me know what's under there?<</speech>>
+She starts groping your crotch, and so you know what's coming now.
+
+[[Just eat her pussy|Sushi Restaurant][$koharu to 0]]
+[[Let her take your clothes off|Sushi Restaurant][$koharu to 1]]<</linkreplace>><</if>>
+
+
+
+\\<<elseif $koharu is 0>>You really don't need another woman laughing at your size, so you decide to take the lead and go down on her. Since she looks kind of small, you try to lift her by the hips, but you are not strong enough, so it looks a bit pathetic.
+
+<<speech "nobody" "''Koharu:''">>
+ *laughs* What are you trying to do? Do you want to put me on this countertop?<</speech>>
+She just jumps a bit and get on there.
+
+<<speech "nobody" "''Koharu:''">>
+What do you want to do then?<</speech>>
+You lean over to her crotch so she can see what you intend on doing.
+
+<<speech "nobody" "''Koharu:''">>
+Oh, so you want some clam then, huh? I guess you're in the right place after all, it's a Sushi Restaurant... *wink, wink*<</speech>>
+<<speech "You" "''$name:''">>
+Yeah... (yeah, I got it, such a bad joke...)<</speech>>
+You don't even need to do much of a job of taking off her underwear or anything. She swiftly takes it all off, exposing her cute young pussy. The scent is completely different than Captain T's. This one doesn't really have a smell to it, and although deep inside you like the musky smell that T's pussy has, this one looks much cleaner and nicer.
+
+Almost unconsciously, your tongue leads you to her lips, getting a taste from the outter part. Then you slide it in, moving in different directions and working your way into her.
+
+<<speech "nobody" "''Koharu:''">>
+Hm...<</speech>>
+Her soft moan tell you that you are probably doing a good job.
+
+<<if $fetish1 is true>>After a few minutes you can feel her muscles tense up. Then you know it's the moment to put your fingers to use. You take two of your fingers into her tight pussy and start rubbing her G-Spot while you keep sucking on her clit.
+
+<<speech "You" "''$name:''">>
+ *slurp, slurp*<</speech>>
+<<speech "nobody" "''Koharu:''">>
+Ah... ah! AH!<</speech>>
+<div class="center"><img src="quest2/squirt.gif" width="50%"></div>
+
+<<speech "nobody" "''Chef:''">>
+Kuharu?! Is that you?<</speech>>
+<<speech "nobody" "''Koharu:''">>
+ *gasp* You'd better go now! I'll see you around *wink*<</speech>>
+She basically pushes you out the restaurant. You're left out the 7th deck with a wet face and horny.
+
+
+\\<<else>>Although you keep on sucking her clit for a few minutes, all you get are some more moans and hair pulls, but as much as you try, she won't cum.
+
+Then you suddenly hear the chef call Koharu.
+
+<<speech "nobody" "''Chef:''">>
+Kuharu?! Is that you?<</speech>>
+<<speech "nobody" "''Koharu:''">>
+ *gasp* You'd better go now! I'll see you around *wink*<</speech>>
+She basically pushes you out the restaurant. You're left out the 7th deck by yourself and horny.
+
+<<speech "You" "''$name:''">>
+(I could have at least made her cum... <span class="pink">I should practice more...</span>)<</speech>><</if>>
+
+<div class="center"><span class="notplus">''POINTS +100''</span></div>
+[[Return|Deck 7][$sushi to "Finished", $srestaurant to 1, $points to $points +100]]
+
+\\<<elseif $koharu is 1>>You let her touch you and slowly make her way into your pants.<<if $cage is true>>Just as she reaches your cage, she gives you a confused look and takes away her hand.
+
+<<speech "nobody" "''Koharu:''">>
+Oh, I uh... get it.<</speech>>
+<<speech "You" "''$name:''">>
+Y-you get what?<</speech>>
+<<speech "nobody" "''Koharu:''">>
+You're into some kinky stuff... it's ok, I am just not very familiar with all this stuff. What exactly do you have there?<</speech>>
+<<speech "You" "''$name:''">>
+Oh, um... it's a chastity cage. It's to preventing me to cum.<</speech>>
+<<speech "nobody" "''Koharu:''">>
+I don't understand. Why would you do that?<</speech>>
+You really don't want to give an answer to that. You would either have to admit your premature ejaculation or a kink...
+
+<<speech "You" "''$name:''">>
+I-I don't know...<</speech>>
+<<speech "nobody" "''Koharu:''">>
+I'm actually curious, would you show it to me?<</speech>>
+<<if $sub gte 6>><<speech "You" "''$name:''">>
+Um... ok.<</speech>>
+You take your pants and lower them so your cage pops out.
+
+<div class="center"><img src="quest3/cagecum.gif" width="50%"></div>
+<<speech "nobody" "''Koharu:''">>
+ *gasp* Oh... wow... and it all fits there?<</speech>>
+<<speech "You" "''$name:''">>
+The penis, yes.<</speech>>
+<<speech "nobody" "''Koharu:''">>
+Oh, yeah, the balls are free down there, I couldn't see them... And does it hurt?<</speech>>
+<<speech "You" "''$name:''">>
+It's a bit annoying sometimes... but it's ok.<</speech>>
+<<speech "nobody" "''Koharu:''">>
+Wow...<</speech>>
+She touches the metal cage, evading the flesh.
+
+<<speech "nobody" "''Koharu:''">>
+Um... I guess you should go before the Chef finds us here.<</speech>>
+In an awkward silence Koharu leads you out the restaurant.
+
+
+\\<<else>>//Your submission is too low//
+
+<<speech "You" "''$name:''">>
+I'd prefer not to...<</speech>>
+<<speech "nobody" "''Koharu:''">>
+Oh, well...<</speech>>
+In an awkward silence Koharu leads you out the restaurant.<</if>>
+
+\\<<else>>She slides her hand in your underwear and fishes out your limp dick. With an disappointed look on her face she pinches your penis, holding it between two fingers.
+
+<div class="center"><img src="quest2/fishdick.png" width="25%"></div>
+<<speech "nobody" "''Koharu:''">>
+W-what?<</speech>>
+You can't tell if her look is an angry one or just confused, but her pinching is not very comfotable. You lay your hand on hers, trying to make her free your dick.
+
+<<speech "You" "''$name:''">>
+Owie...<</speech>>
+<<speech "nobody" "''Koharu:''">>
+Now I get what the Captain said... how can this *wiggles it* be considered a dick?<</speech>>
+<<speech "You" "''$name:''">>
+Just... let it-<</speech>>
+<<speech "nobody" "''Koharu:''">>
+To think I was thinking of giving you a blowjob... to THIS.<</speech>>
+She finally drops your dick, letting it fall onto your pants, making a light sound against the fabric.
+
+<<speech "nobody" "''Koharu:''">>
+You should have warned me, at least... or just don't let me get to it... show me some other features... *rolls her eyes*<</speech>>
+<<speech "You" "''$name:''">>
+I'm-<</speech>>
+<<speech "nobody" "''Koharu:''">>
+It's ok. I'm not mad or anything. I'm thankful that you came here today, but... just get out now.<</speech>>
+In an awkward silence Koharu leads you out the restaurant.<</if>>
+
+<div class="center"><span class="notplus">''POINTS +100''</span></div>
+[[Return|Deck 7][$sushi to "Finished", $srestaurant to 1, $points to $points +100]]<</if>>
+
+
+
+\\<<elseif $srestaurant is 1>><img src="places2/jrest.jpg" width="60%"><img src="passengers/japanesegirl.jpg" width="50%">
+
+<<speech "nobody" "''Koharu:''">>
+Oh hi, pretty face! You want some clam? *smiles*<</speech>>
+You blush and get a bit nervous.
+
+<<speech "You" "''$name:''">>
+N-no! I just...<</speech>>
+<<speech "nobody" "''Koharu:''">>
+Oh, you were thinking of pussy? Hahaha, such a perv! *laughs* are you going to reserve a table or not?<</speech>>
+<<speech "You" "''$name:''">>
+No, not really...<</speech>>
+<<speech "nobody" "''Koharu:''">>
+Then leave, you're driving away the customers.<</speech>>
+<<speech "You" "''$name:''">>
+Why is she so rude now...?<</speech>>
+[[Return|Deck 7]]<</if>><<audio "menus" stop>>
+
+

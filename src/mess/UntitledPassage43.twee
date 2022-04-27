@@ -1,0 +1,12 @@
+:: Untitled Passage 43 {"position":"1268,2132","size":"100,100"}
+[[Bedroom][$smsm2 to true]]
+[[Bedroom][$smsm3 to true]]
+[[Bedroom][$smsm4 to true]]
+[[Bedroom][$smsm5 to true]]
+[[Bedroom][$smsm6 to true]]
+[[Bedroom][$smsm7 to true]]
+
+<<print $setcuckpath>>
+<<print $receivemessages>>
+
+

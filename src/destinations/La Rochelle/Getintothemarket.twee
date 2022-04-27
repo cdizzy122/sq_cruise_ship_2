@@ -1,0 +1,19 @@
+:: Get into the market [textback] {"position":"3993,1608","size":"100,100"}
+<<removeclass "html">><<addclass "html" "french">><<if ndef $mutefx>><<audio "office" loop play>><<else>><</if>><img src="dockings/crowmarket.jpg" width="90%">
+
+<<if ndef $market>>The market is certainly small, which means that you won't have to look for too long for that farmer. You start walking forward.
+
+After a few minutes, thing get a bit tighter as more people come, from the front and back. This is slowing you down
+
+<<speech "You" "''$name:''">>
+(This is slowing me down too much. I have to get out of here.)<</speech>>
+You try to get out of the crowd in a polite way, but the human traffic is just too much for you and you have to decide.
+
+You can either:
+
+[[Force your way out to the side]]
+[[Cope with the pushing]]<<elseif $market is 0>>The market is certainly small, but it's filled with people walking on both directions.
+
+[[Go to Bastien's]]<</if>><<addmins 1>><<if ndef $mute>><<audio "french" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

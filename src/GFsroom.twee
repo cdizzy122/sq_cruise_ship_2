@@ -1,0 +1,13 @@
+:: GF´s room [textback] {"position":"686,5","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><img src="places1/gfroom.jpg" width="50%">
+
+<<if $Callfriend2 is true>>
+<<if $discussion is "light">><<speech "You" "''$name:''">>
+(Better not disturb her sleep, she´s already angry enough. Maybe I´ll call her later.)<</speech>><<elseif $discussion is "hard">><<speech "You" "''$name:''">>
+(That argument we had was very hardcore... I would call her later, but I'm not sure she deserves it...)<</speech>><</if>>
+[[Hall]]<<else>><<speech "You" "''$name:''">>
+(She is so hooked to all the series on Netflix. Well, she´s not here right now. And this is my house, for fuck's sake!!)<</speech>>
+[[Open Door|open gfdoor]]
+[[Hall]]<</if>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() gte 8 and $gameDate.getMinutes() gte 30>><<goto "Emergency">><<else>><</if>><<else>><</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

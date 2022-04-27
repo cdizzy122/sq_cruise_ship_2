@@ -1,0 +1,30 @@
+:: Foyer event [textback] {"position":"741,317","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><<if ndef $mutefx>><<audio "calling" play>><<else>><</if>>$fname is calling!<<set $phonefriend to true>>
+
+<img src="places1/calling.gif" width="50%">
+
+ *pick up*
+
+<<speech "mike" "''$fname:''">>
+Heeeyyyy man, what are you up to?!<</speech>>
+<<speech "You" "''$name:''">>
+Uumm nothing, just woke up.<</speech>>
+<<speech "mike" "''$fname:''">>
+Dude, that's a fucked up schedule if I've ever seen one, hahaha
+Hey listen, maybe I'm a little too late, but if I remember correctly, it's going to be your guys' anniversary, and I've got a little present for you. <</speech>>
+<<speech "You" "''$name:''">>
+Oh, you really shouldn't have...<</speech>>
+<<speech "mike" "''$fname:''">>
+Shut up! We've known each other for how much? 6 years?! I've never given you a big present, not even on your birthdays! hahahaha
+Just let me do this. Why don't you meet me at the park and then I'll take it from there?<</speech>>
+<<speech "You" "''$name:''">>
+Well...ok.<</speech>>
+<<speech "mike" "''$fname:''">>
+I'm already here, but I can wait if you need some time.<</speech>>
+<<speech "You" "''$name:''">>
+Fine, I'll go as soon as I can!<</speech>>
+<<speech "mike" "''$fname:''">>
+Nice, see you there!<</speech>>
+<<click "*hang up*" "Foyer">><<if ndef $mute>><<audio "morning" unmute>><<else>><</if>><<set $walkpark to "Active", $badge to $badge +1>><</click>><<audio "menus" stop>><<audio ":back" mute>>
+
+

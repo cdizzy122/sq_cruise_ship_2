@@ -1,0 +1,14 @@
+:: announcement2 [textback]
+*Screen turns on*
+
+<img src="cap/capcom.jpg" width="40%">
+
+<<speech "cap" "''Captain T:''">>
+//Hi $name. It's me, Captain T. I hope I didn't wake you up. I want to see you in my office this morning, as soon as possible. You can have breakfast at my place. My office is on DECK 3. I'll be waiting there for you. Thank you for you cooperation.//<</speech>>
+ *Screen turns off*
+ 
+<<speech "You" "''$name:''">>
+(DECK 3??!! That's where Tara's room is! I hope she doesn't find me, I couldn't stand that now. It definitely seemed important, so I better go quick.)<</speech>>
+[[Wake up|Bedroom]]<<set $cap1 to "Active">><<set $badge to $badge +1>><<set $shopitems to 1>><<audio ":back" mute>><<audio "menus" stop>><<if ndef $mutefx>><<audio "intercom" volume 0.6 play>><<else>><</if>>
+
+

@@ -1,0 +1,5 @@
+:: mixtry [textback] {"position":"1190,859","size":"100,100"}
+<<nobr>><span class="deck"><div class="center">''DECK 7'' <span class="noborder"><img src="stuff/ladiesonly.png" width="16%"></span></div></span><</nobr>><div class="center"><<nobr>><<if $gameDate.getHours() gte 8 and $gameDate.getHours() lte 18>>
+<img src="places2/deck7day.jpg" width="95%"><<else>><img src="places2/deck7night.jpg" width="70%"><</if>><</nobr>></div>
+
+

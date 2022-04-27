@@ -1,0 +1,81 @@
+:: 8 [phone] {"position":"30,2399","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<if ndef $nueve>><div class="center"><img src="gf/juliogomez.jpg" width="25%">
+
+<span class="hugeletter">''CUCKY'S NIGHTMARE''</span></div>
+
+<<speech "You" "''$name'':">>
+<img src="gf/selfie.png" width="40%">
+
+(Oh, no! I can't erase it...)<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh, who are these cute girls? 😉😉 You didn't think this cuck thing could go two ways, did you $gfname?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Wait, I think I know the one in the center...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+By the way, if you wanted us to feel jealous you should have taken a picture with them, cuck... 🙄<</speech>>
+<<speech "You" "''$name'':">>
+No, I'm sorry, I didn't mean to send this, a... friend took it...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+What? A friend took a picture of other girls with your phone? Doesn't make sense, you're not even in the picture. Poor sissy, is just not making any sense... 🤣<</speech>>
+<<speech "gfd" "''$gfname:''">>
+But who's the one in the middle? God, $name, this might sound weird, but... she does look like you a bit...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh, shit, it's true...<</speech>>
+...
+
+...
+
+<<speech "gfd" "''$gfname:''">>
+Hi, honey? Who is she?<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Damn, the cuck is leaving you on blue tick... 🤯 unbelievable!<</speech>>
+<<speech "You" "''$name'':">>
+She's...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+... She's? I'll tell you what, she's definitely a cutie...<</speech>>
+<<speech "You" "''$name'':">>
+(Oh, shit, Lana is messaging me on private...)<</speech>>
+[[Lana chat|8][$nueve to 1]]
+
+
+\\<<elseif $nueve is 1>><<speech "lanad" "''$gffname:''">>
+Heyyy, $name... Something to tell?<</speech>>
+<<speech "You" "''$name'':">>
+W-what do you mean? (Oh, no...)<</speech>>
+<<speech "lanad" "''$gffname:''">>
+I think $gfname is right, "she" looks familiar, doesn't she?<</speech>>
+<<speech "You" "''$name'':">>
+I-I don't know.<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh, by the way, I think you actually are IN the picture, aren't you?<</speech>>
+<<speech "You" "''$name'':">>
+I don't know what you're talking about... (Oh my god, what am I going to do...)<</speech>>
+<<speech "lanad" "''$gffname'':">>
+I think you might be right in the center, baby... 👗👗 right there...<</speech>>
+<<speech "You" "''$name'':">>
+What do you mean with those dresses...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh, don't make me talk, beta boy... I know your secret!! 💄 That must have been quite a hard look to pull off!<</speech>>
+<<speech "You" "''$name'':">>
+... ... (Should I admit it?)<</speech>>
+<<speech "lanad" "''$gffname:''">>
+C'mon, just say it: I love dressing as a sissy! And a very kinky one too!<</speech>>
+<<speech "You" "''$name'':">>
+It- it wasn't... my thing...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Oh, I bet someone else helped, I don't think you are so talented, but it is you, isn't it? I swear, if you don't tell me, I'll tell $gfname!<</speech>>
+<<speech "You" "''$name'':">>
+Ok, ok... Yeah, it's me, but it was for a thing on the ship and-<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Ooooh, well I bet you loved those clothes... And "a thing on the ship?", that must be a very strange ship! I should take a look and see what kind of ship that is...<</speech>>
+<<speech "You" "''$name'':">>
+Just don't tell $gfname, please...<</speech>>
+<<speech "lanad" "''$gffname:''">>
+Don't worry, baby. As long as you embrace her sexuality to the brim, I won't say a thing. But you've caught my attention... I might ask for just little favours, and I expect you to comply this time! Understood?<</speech>>
+<<speech "You" "''$name'':">>
+ *sigh* Yeah, ok...<</speech>>
+At this point, blackmail and domination just feel like the norm, but that doesn't stop it from feeling horrible inside. You feel like, once again, your privacity has been violated... Suddenly, Tara twerks on you...
+
+[[Twerking...|Go to the lounge room][$lounge2 to 1]]<</if>><<audio ":back" mute>><<if ndef $mute>><<audio "menus" unmute>><<else>><</if>>
+
+

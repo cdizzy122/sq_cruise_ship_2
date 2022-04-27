@@ -1,0 +1,98 @@
+:: LanaSMS [phone noreturn] {"position":"16,691","size":"100,100"}
+<<if $setcuckpath is 1>><<if $lanasms is 0>><<click "$gffname 1" "SMS1">><</click>>---->
+
+\\<<elseif $lanasms is 1>><<click "$gffname 1" "SMS1">><</click>>---->
+<<click "$gffname 2" "SMS23">><</click>>---->
+
+\\<<elseif $lanasms is 2>><<click "$gffname 1" "SMS1">><</click>>---->
+<<click "$gffname 2" "SMS23">><</click>>---->
+<<click "$gffname 3" "SMS2">><</click>>---->
+
+\\<<elseif $lanasms is 3>><<click "$gffname 1" "SMS1">><</click>>---->
+<<click "$gffname 2" "SMS23">><</click>>---->
+<<click "$gffname 3" "SMS2">><</click>>---->
+<<click "$gffname 4" "SMS3">><</click>>---->
+
+\\<<elseif $lanasms is 4>><<click "$gffname 1" "SMS1">><</click>>---->
+<<click "$gffname 2" "SMS23">><</click>>---->
+<<click "$gffname 3" "SMS2">><</click>>---->
+<<click "$gffname 4" "SMS3">><</click>>---->
+<<click "$gffname 5" "SMS11">><</click>>---->
+
+\\<<elseif $lanasms is 5>><<click "$gffname 1" "SMS1">><</click>>---->
+<<click "$gffname 2" "SMS23">><</click>>---->
+<<click "$gffname 3" "SMS2">><</click>>---->
+<<click "$gffname 4" "SMS3">><</click>>---->
+<<click "$gffname 5" "SMS11">><</click>>---->
+<<click "$gffname 6" "SMS41">><</click>>---->
+
+\\<<elseif $lanasms is 6>><<click "$gffname 1" "SMS1">><</click>>---->
+<<click "$gffname 2" "SMS23">><</click>>---->
+<<click "$gffname 3" "SMS2">><</click>>---->
+<<click "$gffname 4" "SMS3">><</click>>---->
+<<click "$gffname 5" "SMS11">><</click>>---->
+<<click "$gffname 6" "SMS41">><</click>>---->
+<<click "$gffname 7" "SMS4">><</click>>---->
+
+\\<<elseif $lanasms is 7>><<click "$gffname 1" "SMS1">><</click>>---->
+<<click "$gffname 2" "SMS23">><</click>>---->
+<<click "$gffname 3" "SMS2">><</click>>---->
+<<click "$gffname 4" "SMS3">><</click>>---->
+<<click "$gffname 5" "SMS11">><</click>>---->
+<<click "$gffname 6" "SMS41">><</click>>---->
+<<click "$gffname 7" "SMS4">><</click>>---->
+<<click "$gffname 8" "SMS12">><</click>>---->
+
+\\<<elseif $lanasms is 8>><<click "$gffname 1" "SMS1">><</click>>---->
+<<click "$gffname 2" "SMS23">><</click>>---->
+<<click "$gffname 3" "SMS2">><</click>>---->
+<<click "$gffname 4" "SMS3">><</click>>---->
+<<click "$gffname 5" "SMS11">><</click>>---->
+<<click "$gffname 6" "SMS41">><</click>>---->
+<<click "$gffname 7" "SMS4">><</click>>---->
+<<click "$gffname 8" "SMS12">><</click>>---->
+<<click "$gffname 9" "SMS5">><</click>>---->
+
+\\<<elseif $lanasms is 9>><<click "$gffname 1" "SMS1">><</click>>---->
+<<click "$gffname 2" "SMS23">><</click>>---->
+<<click "$gffname 3" "SMS2">><</click>>---->
+<<click "$gffname 4" "SMS3">><</click>>---->
+<<click "$gffname 5" "SMS11">><</click>>---->
+<<click "$gffname 6" "SMS41">><</click>>---->
+<<click "$gffname 7" "SMS4">><</click>>---->
+<<click "$gffname 8" "SMS12">><</click>>---->
+<<click "$gffname 9" "SMS5">><</click>>---->
+<<click "$gffname 10" "SMS7">><</click>>---->
+
+\\<<elseif $lanasms is 10>><<click "$gffname 1" "SMS1">><</click>>---->
+<<click "$gffname 2" "SMS23">><</click>>---->
+<<click "$gffname 3" "SMS2">><</click>>---->
+<<click "$gffname 4" "SMS3">><</click>>---->
+<<click "$gffname 5" "SMS11">><</click>>---->
+<<click "$gffname 6" "SMS41">><</click>>---->
+<<click "$gffname 7" "SMS4">><</click>>---->
+<<click "$gffname 8" "SMS12">><</click>>---->
+<<click "$gffname 9" "SMS5">><</click>>---->
+<<click "$gffname 10" "SMS7">><</click>>---->
+<<click "$gffname 11" "SMS6">><</click>>----><</if>>
+
+[[Return|Phone]]
+
+
+\\<<else>><<if $lanasms is 0>><<click "$gffname 1" 4>><</click>>---->
+
+\\<<elseif $lanasms is 1>><<click "$gffname 1" 4>><</click>>---->
+<<click "$gffname 2" "7.5">><</click>>---->
+
+\\<<elseif $lanasms is 2>><<click "$gffname 1" 4>><</click>>---->
+<<click "$gffname 2" "7.5">><</click>>---->
+<<click "$gffname 3" "9">><</click>>---->
+
+\\<<elseif $lanasms is 3>><<click "$gffname 1" 4>><</click>>---->
+<<click "$gffname 2" "7.5">><</click>>---->
+<<click "$gffname 3" "9">><</click>>---->
+<<click "$gffname 4" "10">><</click>>----><</if>>
+
+[[Return|Phone]]<</if>>
+
+

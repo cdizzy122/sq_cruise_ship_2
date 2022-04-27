@@ -1,0 +1,415 @@
+:: Spa pool1 [textback] {"position":"2844,536","size":"100,100"}
+<<if ndef $spahunk>><<removeclass "html">><<addclass "html" "spa">><div class="center"><img src="places2/spapool.jpg" width="90%"></div>
+You step into the room expecting people to be there, but the pool looks as empty as the first week.
+
+<<speech "You" "''$name'':">>
+(What the hell... I'm guessing my job is done here then...?)<</speech>>
+You stare at the pool and smile. You have this area all for yourself for the first time. You might as well enjoy it, right?
+
+You put on your appropriate clothing and get into the pool.
+
+<<speech "You" "''$name'':">>
+Oooo, ahh... *squeal* it's a bit cold!<</speech>>
+You feel your clitty shrink as you submerge your body. You float around freely for a while.
+
+<<linkreplace "Swim around">><<if ndef $mutefx>><<audio "splash" volume 0.2 play>><<else>><</if>><<removeclass "html">><<addclass "html" "pool">><div class="center"><img src="quest14/swim1.gif" width="50%"></div>
+<div class="center"><span class="notplus">STRESS -20%</span></div>
+<<speech "You" "''$name'':">>
+Aahhh... God, I needed this... Oh, well, time to get going.<</speech>>
+<<linkreplace "Get out">><<if ndef $mutefx>><<audio "slam" play>><<else>><</if>><span class="rumbleshort"><span class="onomatopeya">WHAM</span></span><<set $stress to $stress -20>>
+
+<<speech "nobody" "Latino Hunk">>
+I know bro! Hahahaha That lifeguard sure had a nice ass, such a shame she got scared... you coming?<</speech>>
+<<speech "nobody" "???">>
+Nah, man... I'm going to check the outside pool instead. I don't smell much pussy here.<</speech>>
+<<speech "nobody" "Latino Hunk">>
+Suit yourself, I'm gonna go for a swim and see if I can find any lost cutie in here.<</speech>>
+With a loud bang, the guy comes out from the men's changing room. You quickly get your body in the water and move to the opposite corner of the pool, trying to find a secure spot where you can watch him.
+
+<<speech "nobody" "Latino Hunk">>
+Ffffuck, I need some pussy to pound!<</speech>>
+<div class="center"><img src="quest14/latino1.gif" width="50%"></div>
+<<speech "You" "''$name'':">>
+ *gasp* Oh my god... <span class="pink">(His dick is sooo big, even when flaccid... hmmm...)</span><</speech>>
+Your clitty leaks pre-cum and you unconsciously lick your lips as you stare at him whipping his meat as he gets into the water. He continues to splash around, getting closer to where you're at.
+
+<<speech "You" "''$name'':">>
+(Oh, no, no, no... please, look away...)<</speech>>
+<<speech "nobody" "Latino Hunk">>
+Ahhh... all this dick and no pussy around...<</speech>>
+Even though he's only 3 meters away from you he doesn't seem to be seeing you, and so he rests on the border face up, making his fat schlong float.
+
+<div class="center"><span class="shudder"><img src="quest14/cock1.jpg" width="190%"></span></div>
+<<speech "You" "''$name'':">>
+<span class="pink">(*gasp* Oh my god... this asshole is teasing me...)</span><</speech>>
+You bite your lower lip, trying to hold yourself from taking a step forward to get a closer look. Unable to stand it anymore, you rub your ass poking your ass-pussy a bit.
+
+Suddenly, a subtle moan escapes.
+
+<<speech "You" "''$name'':">>
+<span class="pink">Hmm... (OH NO!)</span><</speech>>
+The hunk takes a look at you and smirks.
+
+<<speech "nobody" "Latino Hunk">>
+Oh, hey. Didn't see you there. Were you watching the whole time? Heh, you naughty girl...<</speech>>
+<<speech "You" "''$name'':">>
+(Fuck, defend yourself $name, before it's too late!)<</speech>>
+<<if $int gte 120>>[[Convince him to let you out|Spa pool1][$spahunk to 0]] (INT >120)<<else>><<linkreplace "Convince him to let you out (INT >120)">>Not enough INT...<</linkreplace>><</if>>
+[[Try your best to look cute|Spa pool1][$spahunk to 2]]<</linkreplace>><</linkreplace>>
+
+
+
+\\<<elseif $spahunk is 0>><<removeclass "html">><<addclass "html" "spa">>You look around, trying to find a way to get out the pool, but the stairs are a few meters apart. The guy is looking at you like a lion looks at its prey, and although his marvellous meat slab is fascinating to you, you still feel a bit too scared to take your chances.
+
+<<speech "You" "''$name'':">>
+(C'mon, $name! Think!) Wait!<</speech>>
+<<speech "nobody" "Latino Hunk">>
+What now...?<</speech>>
+<<speech "You" "''$name'':">>
+I-I'm here on the lifeguard's behalf-<</speech>>
+<<speech "nobody" "Latino Hunk">>
+Shut up, I've already talked enough with that bitch. I've got the dick, I make the rules.<</speech>>
+<<speech "You" "''$name'':">>
+Actually, I-I'm on Captain's behalf as well. She told me that you must follow the rules. That means respecting the women's schedule and... not... abusing... girls...<</speech>>
+As you're finishing that sentence, the hunky latino starts to get closer to you, while you try to walk backwards.
+
+<<speech "nobody" "Latino Hunk">>
+We're just playing... this is not "abuse"... c'mon, let me get a grip of that ass and I'll let you go. I'll let you touch my dick...<</speech>>
+<<speech "You" "''$name'':">>
+<span class="pink">(Hmm... I'd love to touch it...</span> No! I know he'll try to get more than that. And what if he finds out about my little secret? I might get beaten up...) If I go to the Captain and report you, you'll be kicked out the ship.<</speech>>
+The hunk stops walking. You can tell you've kind of ruined the mood for him.
+
+<<speech "nobody" "Latino Hunk">>
+Ugh... whatever... Why are you bitches so frigid? I thought this was a "slut boat" or something! God, is this the Vaticane? Did I mess up and end up in the FUCKING VATICANE?!<</speech>>
+You keep walking back as he kicks the water on the sides, until you finally find the stairs and get up. As you're walking towards the exit, the guy swiftly gets on the way and stops you.
+
+<div class="center"><img src="quest14/latino3.gif" width="30%"></div>
+<<speech "nobody" "Latino Hunk">>
+Hey, hey... wait, I'm sorry. Just... don't tell Captain, ok?<</speech>>
+<<speech "You" "''$name'':">>
+Ummm... ok.<</speech>>
+You try to get going, but he gently stops you grabbing your hips.
+
+<<speech "nobody" "Latino Hunk">>
+Hey, I already said I was sorry... I know you're going straight to the Captain. But I thought we could maybe come to an agreement? Plus, I know that lifeguard already tried to do that.<</speech>>
+<<speech "You" "''$name'':">>
+(Fuck! How does he know that?) What kind of agreement?<</speech>>
+<<speech "nobody" "Latino Hunk">>
+I mean, you must be on this ship for a reason, right? It's not called "Size Queen Cruise" by coincidence. *he points at his semi-hard horse cock*<</speech>>
+You uncosciously stare for too long, having all kinds of thoughts.
+
+<<speech "You" "''$name'':">>
+<span class="pink">(How would that even feel...? I bet it gets soo hard... and I bet it reaches his knee as well...)</span> Umm...<</speech>>
+<<speech "nobody" "Latino Hunk">>
+C'mon, I can be a good guy too.<</speech>>
+You stare at his tattoos and scars.
+
+<<speech "You" "''$name'':">>
+(This guy has not been good in quite a while.) Yeah, and then you would get exactly what you wanted, right? No, this is not about fucking, it's about respecting and following the rules.<</speech>>
+<<speech "nobody" "Latino Hunk">>
+Hey. *he grabs your hips tighter* I'm trying to be nice, don't you see? If you don't want the "D", how about you do me a favour and we're good?<</speech>>
+<<speech "You" "''$name'':">>
+... Well, you have to promise not to do that anymore, and then I might try to get what you want.<</speech>>
+The hunk comes closes and grabs your shoulders as his cock pokes your belly.
+
+<<speech "nobody" "Latino Hunk">>
+I won't even come back to this pool. It's always empty anyway...<</speech>>
+<<speech "You" "''$name'':">>
+Okay, so what do you want then?<</speech>>
+<<speech "nobody" "Latino Hunk">>
+Apart from some tight pussy? Well, maybe some gel, shampoo or something, so I can shower properly.<</speech>>
+You look at him, suspicious of his sudden change of attitude.
+
+<<speech "nobody" "Latino Hunk">>
+What?! I've been here for a while now! A good shower will do. I'll be waiting in the showers.<</speech>>
+The guy walks away, swinging his manhood between his legs.
+
+<font size="+1"><div class="center"> *''New Side-Quest: Buy a shampoo for the Latino Hunk at the spa''*</div></font>
+[[Go buy the shampoo|Beauty Salon1][$spahunkquest to "1/2 done", $badge to $badge +1]]
+
+
+
+
+
+
+\\<<elseif $spahunk is 1>><<removeclass "html">><<addclass "html" "spa">><div class="center"><img src="places2/spapool.jpg" width="90%"></div>
+You get into the empty room, trying to find out where exactly that weird guy is.
+
+<<speech "You" "''$name'':">>
+Hello? Um... (Fuck, I don't even know his name... Well, he told me he would be in the shower...)<</speech>>
+You didn't really want to go find him in the showers, since, from what all the girls at the Beauty Salon said, he's planning on making you do something for him.
+
+<<speech "You" "''$name'':">>
+(At least he seemed a bit nicer when I left...)<</speech>>
+You walk into the male changing rooms, careful not to step into anybody else, but lucky for you, the spa does not seem to be very busy. As soon as you get inside, you can hear a few showers working.
+
+<<speech "You" "''$name'':">>
+(Either he's spilling or there's more than one guy...)<</speech>>
+You're trembling with fear, but you want to get rid of this compromise as soon as possible, so you are determined to give this gel to the guy. You gather all your courage and take a step further.
+
+<<linkreplace "... ...">><<audio "spa" stop>><<audio "shower" volume 0.1 loop play>><<removeclass "html">><<addclass "html" "home">><span class="fade-ins"><div class="center"><img src="quest14/showersteam.jpg" width="100%"></div></span>
+
+At first, you don't see anything. But as soon as some of the steam dissipates, you see his shape.
+
+<<speech "You" "''$name'':">>
+<span class="pink">(OMG, there he is... and he seems to be alone as well...)</span><</speech>>
+You feel a bit disppointed that he's all alone, since you were expecting to see a few schlongs. But this also makes your delivery easier, so it's not that bad. You slowly step in.
+
+<<speech "You" "''$name'':">>
+Ahem...<</speech>>
+<<speech "nobody" "Latino Hunk">>
+Oh, hey, I thought you chickened out! Come closer, I can't even see you with all this steam.<</speech>>
+<<speech "You" "''$name'':">>
+O-Okay...<</speech>>
+<span class="onomatopeya">SPLASH SPLASH</span>
+
+You take a few more steps, but you notice the whole room is flooded and your shoes are getting wet.
+
+<<speech "You" "''$name'':">>
+(Oh, no. I should take these off).<</speech>>
+You do so and leave them aside. Now that there's a bit less steam you can get a better visual of the floor, which is definitely filled with water. You know you should at least take your clothes off so they don't get wet. He's already seen you in bikini, right?
+
+You take everything except your underwear off and leave on the side with your shoes and get inside the shared showers area.
+
+<<speech "You" "''$name'':">>
+Alright... *smile nervously* I just wanted to give you this shower gel. I got it neutral, so you don't have to deal with girly scents. It should do well enough with the chlorine in the pool.<</speech>>
+<div class="center"><img src="quest14/penis.gif" width="50%"></div>
+<<speech "nobody" "Latino Hunk">>
+Is that right? Hmm... *rubs his semi-hard dick* Let me see it.<</speech>>
+He doesn't extend his arm a lot, forcing you to get very close. As soon as he takes the bottle, he squirts some on his big hand and rubs it all over your forearm, simulating a handjob.
+
+<<speech "You" "''$name'':">>
+Hey! Now I have to wipe it off...<</speech>>
+<<speech "nobody" "Latino Hunk">>
+Wipe it off? Hahaha... you're in the fucking showers. Just use it, come here.<</speech>>
+He pulls from your arm, making you stand face to face (more like face to abdomen).
+
+<<speech "You" "''$name'':">>
+Ah! Oh... the water is warm... my underwear!<</speech>>
+<<speech "nobody" "Latino Hunk">>
+Don't even worry about it. Come on, it's just underwear, it'll dry. But let's talk about cleaning: I've cleaned your arm, it's only fair if you do so.<</speech>>
+He splurges quite some of the gel on your hand. You stare at him steamy glistening body, waiting to be cleaned up. You are trying HARD not to look at his enormous penis, but the height difference between you both is making that a nearly impossible mission.
+
+You finally decide to divide the gel between both of your hands and rub it over his forearm.
+
+<div class="center"><img src="quest14/forearm.jpg" width="55%"></div>
+<<speech "nobody" "Latino Hunk">>
+There you go, little girl... get a good grip on that...<</speech>>
+Even though you are using both hands on his arm, when you get closer to the elbow you can't even get a good grip.
+
+<<speech "You" "''$name'':">>
+I-it's too thick... *bite lips*<</speech>>
+<<speech "nobody" "Latino Hunk">>
+That's what they say, baby girl... You like that?<</speech>>
+He gently pulls you closer to him, grabbing one of your ass cheeks. You are so focused on how hard and firm his muscles feel that you don't even notice.
+
+<<speech "You" "''$name'':">>
+<span class="pink">Uh-huh... *smirk* You are... huge...</span><</speech>>
+<<speech "nobody" "Latino Hunk">>
+Let's play a little game. Which arm do you think is bigger?<</speech>>
+You quickly look at them both trying to find a difference, but he makes you close your eyes.
+
+<<speech "nobody" "Latino Hunk">>
+No peeking, just touch baby. Here's the one you know... yeah... and now, this is the other one...<</speech>>
+He gets your hands off his arm and gives you the other one for you to rubs onto.
+
+<<linkreplace "Rub it...">><<if ndef $mutefx>><<audio "hm" play>><<else>><</if>><<timed 0.5s>><span class="fade-ins"><span class="shudder"><span class="onomatopeya">RUB RUB</span></span>
+
+<<speech "nobody" "Latino Hunk">>
+Yeah, there you go...<</speech>></span>
+
+<<next 2s>><span class="fade-ins"><span class="shudder"><span class="onomatopeya">RUB RUB RUB</span></span>
+
+<<speech "nobody" "Latino Hunk">>
+Hmm... Tell me what you're feeling with those tiny white hands... get a good grip...<</speech>>
+<<speech "You" "''$name'':">>
+Oooh... this one is... very hard... wow! You must be going to the gym a lot...<</speech>>
+<<speech "nobody" "Latino Hunk">>
+Tell me more... get all the way in, baby...<</speech>>
+<span class="shudder"><span class="onomatopeya">RUB RUB RUB</span></span>
+
+<<speech "You" "''$name'':">>
+<span class="pink">Oooh... I can feel every single vein! My god... you're sooo strong... and-</span> oops! I think I got to your armpit, I could feel some hairs there... <</speech>>
+<span class="shudder"><span class="onomatopeya">RUB RUB RUB RUB</span></span>
+
+<<speech "nobody" "Latino Hunk">>
+Uhmmmph... fuck, this buttery hands... Ahhh...<</speech>>
+<<speech "You" "''$name'':">>
+This arm has... <span class="pink">the same thickness all along... and the tip-</span> Wait. The tip?! Wait, this is a-<</speech>>
+You open your eyes as quickly as you can.
+
+<<linkreplace "Open eyes">><<set $neutralgel to false>><div class="center"><img src="quest14/stroke.gif" width="65%"></div>
+<<speech "nobody" "Latino Hunk">>
+Aaaahhhffffuck!<</speech>>
+Before you can even react, he shoots his load all over your tummy and chest.
+
+<div class="center"><span class="noborder"><img src="cumshot.gif" width="50%"></span></div>
+<<speech "You" "''$name'':">>
+ *gasp* What the hell!?<</speech>>
+<<speech "nobody" "Latino Hunk">>
+Damn, those hands can do some magic, girl...<</speech>>
+Even though you are clearly mad about it, you keep jerking his dick until the last drop falls out.
+
+<<speech "nobody" "Latino Hunk">>
+That's a good slut. To the last drop... heh...<</speech>>
+He takes his now flaccid dick and slaps you. With a swift move, he washes any rests away, gets his clothes and gets out, leaving you all alone at the men's room with a chest full of cum.
+
+<<speech "You" "''$name'':">>
+(Why is it always me...? Why do people think they can take advantage of me?)<</speech>>
+Curiously enough, you smile. You don't really understand why, but there's a deep feeling of acomplishment growing inside you. You take a moment to get away from the water and touch the goo on your chest. You take a bit of it with your fingers and give it a sniff.
+
+<span class="onomatopeya">SNIFF SNIFF</span>
+
+<<speech "You" "''$name'':">>
+(This smells sooo familiar... I guess it's not that bad if I just <span class="pink">give it a taste...?</span>)<</speech>>
+You put the fingers in your mouth.
+
+<div class="center"><img src="quest14/fingercum.gif" width="55%"></div>
+<<speech "You" "''$name'':">>
+<span class="pink">Hmm... tasty...</span><</speech>>
+With the same smile stuck on your face, you finish rinsing everything off, drying your clothes and putting them back on. Once you're ready, you decide to go back and drop the good news to the lifeguard.
+
+[[Beauty Salon1][$bsalonn to 2]]<</linkreplace>></span><</timed>><</linkreplace>><</linkreplace>>
+
+
+
+
+
+\\<<elseif $spahunk is 2>><<removeclass "html">><<addclass "html" "pool">>You decide that your best weapon to get out of this situation is your girly appearance. You know you're not rocking a woman's body (yet), but your cute face and slim figure could get you places.
+
+<<speech "You" "''$name'':">>
+(Alright, $name. Let's put the lessons on practice...)<</speech>>
+The first thing you do is let your head get out of the water, showing your cute features.
+
+<div class="center"><span class="fade-in"><img src="quest14/facewater.jpg" width="45%"></span></div>
+<<speech "nobody" "Latino Hunk">>
+Damn, aren't you a little princess... is everything as smooth? Let me see, come here...<</speech>>
+You carefully take a step closer, but decide to make yourself look as delicate as possible.
+
+<<speech "You" "''$name'':">>
+You are so... big. Please don't hurt me...<</speech>>
+As soon as this comes out of your mouth, you feel very dirty. This might even be what he really wants from you: a submissive bitch. But given the situation, it's probably your best bet.
+
+<<speech "nobody" "Latino Hunk">>
+A cute thing like you? Heh, I couldn't... Well, maybe I could, depend on which hole, if you know what I mean. Hehehehe...<</speech>>
+<<speech "You" "''$name'':">>
+ *fake smile* (I definitely wouldn't survive THAT)<</speech>>
+Keeping his relaxed pose, he hugs you with one arm and presses you closer to him, giving a first person look at his floating cock.
+
+<<speech "nobody" "Latino Hunk">>
+I saw you peeping. Don't you tell me you don't like this dick...<</speech>>
+<<speech "You" "''$name'':">>
+I-I'm just scared...<</speech>>
+<<speech "nobody" "Latino Hunk">>
+Oh, come on... you knew what you were coming for...<</speech>>
+<<speech "You" "''$name'':">>
+I just wanted to have a swim, really. I thought there was a schedule...<</speech>>
+<<speech "nobody" "Latino Hunk">>
+Oh, well, I'll let you alone to swim... once I get to "enjoy your company" *smirks*<</speech>>
+Despite his attempts at kissing you, you are trying your best to look the other way, but eventually he gets his prize and kisses you.
+
+<div class="center"><img src="quest14/kiss.jpg" width="30%"></div>
+<<speech "You" "''$name'':">>
+(Ugh! I hate this!)<</speech>>
+His mouth is so big that it's engulfing yours. Compared to what you're used to kissing women, this is such a sudden change. Once he lets your face go, he starts caressing your back, making you get even closer to his torso.
+
+<<speech "nobody" "Latino Hunk">>
+Oh, you cute little thing... you can't take your eyes off my junk.<</speech>>
+<div class="center"><img src="quest14/latino2.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(Fuck, he's right!)<</speech>>
+<<speech "nobody" "Latino Hunk">>
+Why don't you go ahead and give "him" a kiss?<</speech>>
+You see his hand getting closer to the back of your head, probably preparing to force your head down. Before he can do that, you decide it's better that you make the first move.
+
+<div class="center"><img src="quest14/touch.gif" width="70%"></div>
+You touch it a bit, grabbing the shaft and feeling its weight. You can tell that these little touches are already making it engorge slowly. Suddenly, his balls come up to the surface and start floating. You can't help a snicker.
+
+<<speech "You" "''$name'':">>
+Teehee...<</speech>>
+<<speech "nobody" "Latino Hunk">>
+You've never seen a couple of big floating balls? Get ahold of them, baby...<</speech>>
+You try to grab them, but your hand is a bit too small for both, so you settle for the closest one.
+
+<<speech "You" "''$name'':">>
+(Damn, this bull ball is already bigger than both of mine...)<</speech>>
+Meanwhile, you can feel his monster cock filling with blood in your hands, and so you start rubbing it, since you figure it's the right thing to do.
+
+<<speech "You" "''$name'':">>
+<span class="pink">(Oh, fuck... I'm feeling dizzy... This smell, this feeling... it's soooo hard... hmmm... *bites lip*)</span><</speech>>
+<<speech "nobody" "Latino Hunk">>
+You look hungry, babe. Why don't you go ahead a take a bite. *wink*<</speech>>
+You take a deep stare at each vein of his shaft, every little drop of pre-cum coming out of his ample glans... you are definitely attracted to his penis, now you're sure about it.
+
+You open your mouth a bit and you start to lean in.
+
+<<speech "You" "''$name'':">>
+(Remember Captain's classes...)<</speech>>
+[[Compliment and lick|Spa pool1][$spahunk to 3, $spablow to 0]]
+[[Suck it|Spa pool1][$spahunk to 3, $spablow to 1]]
+[[Try to deepthroat it|Spa pool1][$spahunk to 3, $spablow to 2]]
+
+
+
+
+\\<<elseif $spahunk is 3>><<removeclass "html">><<addclass "html" "pool">><<if $spablow is 1 or $spablow is 2>>You dive in straight into his hard cock in a very ridiculous way, not even managing to take his glans in your mouth.
+
+<<speech "nobody" "Latino Hunk">>
+Hahahahaha! That look of desperation! Princeless! Are you high or what? Just lick it all up baby, let's start there...<</speech>>
+
+
+\\<<elseif $spablow is 0>><<speech "You" "''$name'':">>
+Oh my god... your cock is so heavy... I can't even hold it properly just using my hands... Maybe I should try with my mouth...<</speech>>
+<<speech "nobody" "Latino Hunk">>
+Yeah, you get down there babe...<</speech>><</if>>
+
+<div class="center"><span class="fade-ins"><img src="quest14/blowjob.jpg" width="60%"></span></div>
+You lick his shaft all the way to the tip and to his balls. His manly smell and taste are making you more aroused by the second.
+
+<<speech "nobody" "Latino Hunk">>
+There, there... Suck on it, you bitch...<</speech>>
+<<speech "You" "''$name'':">>
+(Now I should start getting this thing on my mouth, but... how?)<</speech>>
+Although your skill is still not very good, you are not going to let this "practice class" go to waste. You start giving him a handjob again, while you sensually lick his glans, swirling your tongue around it and under the frenullum.
+
+<<speech "nobody" "Latino Hunk">>
+Aaah! That little tongue... god...<</speech>>
+<<speech "You" "''$name'':">>
+<span class="pink">(Yes! He's liking it!</span> Oh, um, I mean...)<</speech>>
+You can't even find a justification for this. You're liking sucking his dick and you're happy that he is enjoying it. You just close your eyes and give yourself to the (blow)job.
+
+<<speech "You" "''$name'':">>
+Hmm... *slurp, slurp* Mm, mm, Hmmmmm... *lick, lick*<</speech>>
+<<speech "nobody" "Latino Hunk">>
+Now, this is more like it... This is what I thought this ship really was. Ahhh... Blowjob in the pool, yeah...<</speech>>
+<<speech "You" "''$name'':">>
+Hmmm... *kiss, kiss, kiss*<</speech>>
+<div class="center"><img src="quest14/precum.gif" width="50%"></div>
+You kiss the tip of his dick repeatedly, drenching your lips in his hot pre-cum and using it as lube for the rest of his lenght.
+
+<<speech "nobody" "Latino Hunk">>
+Oh, fuck... Here it comes, here it comes... Ah, ah, ah, AH, Fffuckkk!<</speech>>
+<div class="center"><span class="noborder"><img src="cumshot.gif" width="50%"></span></div>
+He suddenly pushes your head onto his dick and under the water, cumming all over the place.
+
+<<speech "You" "''$name'':">>
+ *gasp* You almost drowned me!<</speech>>
+<<speech "nobody" "Latino Hunk">>
+Heh, that would be a good way to go, wouldn't it? Drowned in cum. Hahahaha...<</speech>>
+With his powerful legs, he gets out of the pool without any help from the stairs. You watch him go away to the showers, as the remnants of his load leak out from his swinging horse cock.
+
+<<speech "You" "''$name'':">>
+ *sigh* (I actually... enjoyed this...? What got into me? Something's wrong... <span class="pink">but it felt so right... *slurp*</span>)<</speech>>
+<<speech "nobody" "''Lifeguard:''">>
+Oh, hey, you did it! I must say I am impressed, how did you- oh, nevermind... *giggles*<</speech>>
+You take a look at your reflection on the pool, and all you see is semen. You blush as hard as you've ever blushed in your life.
+
+<<speech "You" "''$name'':">>
+N-no, it's not-<</speech>>
+<<speech "nobody" "''Lifeguard:''">>
+Oh, hey, not judging. You did... that, and now you get 200 points. Easy points, right? *wink*<</speech>>
+Ashamed of yourself, you get out of the pool and head out.<<set $points to $points +200>>
+
+[[Return to Spa|Spa][$spavariable to false, $spahunkquest to "Finished", $badge to $badge +1]]<</if>><<audio "menus" stop>><<audio "dorky" stop>><<if ndef $mute>><<audio "spa" unmute>><<audio "shower" unmute>><<else>><</if>>
+
+

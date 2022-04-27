@@ -1,0 +1,248 @@
+:: Deck 2 [textback] {"position":"1900,1297","size":"100,100"}
+<<removeclass "html">><<addclass "html" "decks">><<if $startclasses is true>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] isnot "Sun" and $gameDate.getHours() gte 8 and $gameDate.getHours() lt 11>><span class="fade-in-out"><span class="ad">GYM CLASS 9-11
+(DECK 7)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] isnot "Sun" and $gameDate.getHours() gte 11 and $gameDate.getHours() lt 13>><span class="fade-in-out"><span class="ad">CAPTAIN T CLASS 11-13
+(DECK 3)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] isnot "Sun" and $gameDate.getHours() gte 13 and $gameDate.getHours() lt 15>><span class="fade-in-out"><span class="ad">COOKING CLASS 13-15
+(DECK 4/BAR)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Mon" and $gameDate.getHours() gte 17 and $gameDate.getHours() lt 20>><span class="fade-in-out"><span class="ad">ANATOMY CLASS 17-20
+(DECK 8/LIBRARY)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Tue" and $gameDate.getHours() gte 17 and $gameDate.getHours() lt 20>><span class="fade-in-out"><span class="ad">STYLING CLASS 17-20
+(DECK 2)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Wed" and $gameDate.getHours() gte 17 and $gameDate.getHours() lt 20>><span class="fade-in-out"><span class="ad">PSYCHOLOGIST 17-20
+(DECK 8)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Thu" and $gameDate.getHours() gte 17 and $gameDate.getHours() lt 20>><span class="fade-in-out"><span class="ad">SAILING CLASS 17-20
+(DECK 9)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Fri" and $gameDate.getHours() gte 17 and $gameDate.getHours() lt 20>><span class="fade-in-out"><span class="ad">HEALTH REVIEW 17-20
+(DECK 8)</span></span><</if>><<else>><</if>><<if $arrival is false>><span class="deck"><div class="center">''DECK 2''</div></span><div class="center"><img src="places2/deck2.jpg" width="40%">
+
+<<nobr>><<click "Stairs up☝🏻" "Deck 3">><<if $dayn gte 9>><<set $encrandom to random(0,20)>><<if $encrandom lt 2>><<set $renc to random(0,2)>><<goto "Random encounters">><<else>><</if>><<else>><</if>><</click>><</nobr>> | <<nobr>><<click "Elevator↕️" "Elevator↕️">><<if $dayn gte 3>><<set $encrandomel to random(0,10)>><<if $encrandomel is 0>><<goto "Elevatorenc">><<else>><</if>><<else>><</if>><</click>><</nobr>>
+
+<<nobr>><<if $startclasses is true>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Tue" and $gameDate.getHours() gte 17 and $gameDate.getHours() lt 20>><span class="fade-ins-out"><span class="Phone">''[[Styling Class👗->Stylingclass]]''</span></span><<else>><<linkreplace "''Styling Class👗''">>It's not class time.<</linkreplace>><</if>><<else>><</if>><</nobr>>
+''[[Go to room|Bedroom]]''<<if $dayn gte 30>> | ''[[Penny's room]]''<<else>><</if>></div>
+<<nobr>><<if $gameDate.getHours() is 0 or $gameDate.getHours() lt 8>><<goto [[Dreams][$dreams to random (1,2)]]>><<else>><</if>><</nobr>><<addmins 1>><<elseif $arrival is true>><<if $arriveplace is 1>><<speech "tara" "''Tara:''">>
+Good morning! Finally, we are in ground! Aren't you happy?<</speech>>
+<<speech "You" "''You:''">>
+Um... yes. Can I go out? (Am I really asking this?)<</speech>>
+<<speech "tara" "''Tara:''">>
+Sure you can! In fact, I'm here on ''Holli's'' behalf. She wants you to do some errands outside.<</speech>>
+<<speech "You" "''You:''">>
+What exactly is that about? (Oh shit, this is not good...)<</speech>>
+<<speech "tara" "''Tara:''">>
+Well, this is a ship after all. We need supplies: food, water, medicine, etc... but all of this is taken care by the company obviously, as all the quantities are overwhelming. Although there is something that Holli told me to bring:
+
+<div class="center">''The Enhancer''</div>
+Hahaha, don't worry about the name. I know it's very imposing, but it's just a... cooking ingredient.<</speech>>
+<<speech "You" "''You:''">>
+(Now I'm their shop boy?!) *sigh* Ok, so where is it? (Just whatever to get out of here)<</speech>>
+<<speech "tara" "''Tara:''">>
+Holli told me to go to the farmer's market, in the center of La Rochelle and there find a farmer called ''Bastien''.<</speech>>
+<<speech "You" "''You:''">>
+Ok. So I go to the farmer's market and find Bastien. Then ask for ''The Enhancer''. Got it.<</speech>>
+Just as you try to walk to the reception Tara grabs you by the arm.
+
+<<speech "tara" "''Tara:''">>
+Don't even think about doing any funny things. We can track you very precisely, so don't even try. I'm telling you, for your own good, don't do it.<</speech>>
+<<speech "You" "''You:''">>
+(How are they tracking me?? Maybe the card key, or the phone. I could throw them away, doesn't make sense. It has to be something else...)
+<</speech>>
+With a swift move she unzips your skinny jeans and looks at your underwear.
+
+<<speech "tara" "''Tara:''">>
+<<if $under is 2>>Oooh, pink panties for a princess. You are almost too cute *she rubs your panties*<<elseif $under is 1>>Just some briefs? I have to admit I was expecting something... else...<</if>><</speech>>
+Catching you by surprise, she lowers your underwear. Your face inmediately turns red. You are in the middle of the hall and anybody could see you.
+
+<<speech "tara" "''Tara:''">>
+<<if $cage is true>>Oh my god! You are so obedient. Good *tap* Boy *tap* Aaah, now this is much better. See? Now you don't have to worry about getting a stiffy while walking around!<<elseif $cage is false>>There's something here that's missing, $name. And you know what it is... I guess you're still confident in your manliness, huh?<</if>><</speech>>
+As soon as she puts her hands off your underwear you put them in place again, worried that somebody could see you.
+
+<<speech "tara" "''Tara:''">>
+Hahaha don't worry. You don't have anything we haven't seen.<</speech>>
+<<speech "You" "''You:''">>
+(At this point I would pay to get out)
+<</speech>>
+Tara leans over and gives you a sweet kiss on the cheek.
+
+<<speech "tara" "''Tara:''">>
+Good luck, $name *smiles*<</speech>>
+As she smiles your heart warms up.
+
+<<speech "You" "''You:''">>
+(That has to be the first sincere smile in a while. Maybe she's not that bad after all...)<</speech>>
+<<click "La Rochelle" "La Rochelle">><<set $drug1 to "Active", $badge to $badge +1>><<audio "ship" mute>><</click>>
+
+\\
+<<elseif $arriveplace is 2>><<speech "tara" "''Tara:''">>
+Good morning! Finally, we are on solid ground again! Aren't you happy?<</speech>>
+<<speech "You" "''You:''">>
+Um... yes. Can I go o-<</speech>>
+<<speech "tara" "''Tara:''">>
+Sure you can! In fact, I'm here on Captain T's behalf. She wants you to do some errands.<</speech>>
+<<speech "You" "''You:''">>
+What exactly is that about? (Oh shit, this is not good...)<</speech>>
+<<speech "tara" "''Tara:''">>
+Well, she wants you to promote our agency with these flyers. *she hands you the flyers* We're now docked near a beach, so you should go there and try to be friendly with the people around here.<</speech>>
+<<speech "You" "''You:''">>
+ *You look at the flyers* ...Wait. There are only 3 flyers...<</speech>>
+<<speech "tara" "''Tara:''">>
+Yeah, but just read it. Every flyer is worth a favour, that way the agency can develop some customer loyalty. Smart, isn't it?<</speech>>
+<<speech "You" "''You:''">>
+A favour?<</speech>>
+You take a look at the flyer. It says: "Come to SQ Trips, your wildest fantasies at the palm of your hand! This flyer is worth a favour. Ask me for anything. Anything."
+
+<<speech "You" "''You:''">>
+I- I...don't know about this...<</speech>>
+<<speech "tara" "''Tara:''">>
+Oooh... that's cute. I'm not asking for it, baby. You're doing it.<</speech>>
+Suddenly, Tara starts getting your clothes off.
+
+<<speech "You" "''You:''">>
+Wait! Why are you undressing me?!<</speech>>
+<<speech "tara" "''Tara:''">>
+Well, honey. It's a NUDIST BEACH after all... See? That's it. All pretty and shaved... Go on! Get out! Now! *she leads you to the door and pushes you out*<</speech>>
+<<click "Nudist beach" "Nudist beach">><<set $flyer to "Active", $badge to $badge +1, $arrival to false>><<audio "ship" mute>><</click>>
+
+
+\\<<elseif $arriveplace is 3>><<if ndef $tinder2>><<speech "cap" "''Captain T'':">>
+Well hello my little boy... <<if ndef $tinder1>>I've heard you didn't go to Anastasia's class and didn't get the present I gave her for you. I'll break it down for you now:<<elseif $tinder1 is "Active">>I've seen that even though you went to Anastasia's class and received my present, you didn't manage to arrange a date with anyone, so I'll break it down for you:<</if>>
+
+Since you've been all alone here, I thought you might miss some company. *smiles* So I told Anastasia to install a modified version of Tinder in your new phone. You had the chance to choose your date for today, but since you were not that interested, I took the liberty of doing that for you *wink*<</speech>>
+<<speech "You" "''$name'':">>
+What...? A date!? But-<</speech>>
+<<speech "cap" "''Captain T'':">>
+I know! Isn't it exciting? Hahaha... Aw c'mon... don't look at me like that! I'll help you prepare for your date, don't even worry about it. I understand a girl has to be pretty at all times.<</speech>>
+<<speech "You" "''$name'':">>
+But... <span class="pink">who am I going to see?</span><</speech>>
+<<speech "cap" "''Captain T'':">>
+Well, if you're that interested I'll let you take a look at the conversation:<</speech>>
+[[Look at her phone|netflix2]]
+
+
+\\<<else>><<speech "cap" "''Captain T:''">>
+Well hello my little boy... Are you excited to visit Rome and... for your date?<</speech>>
+<<speech "You" "''$name'':">>
+(Fuck... I had almost forgotten about that...)<</speech>>
+<<speech "cap" "''Captain T:''">>
+You should be getting ready for that, shouldn't you?<</speech>>
+<<speech "You" "''$name'':">>
+I was thinking that... maybe I shouldn't go this time...<</speech>>
+<<speech "cap" "''Captain T:''">>
+Oh, honey, you really think you have a chance? That's so cute... but don't try me, I have lots of work to do and very little patience...<</speech>>
+<<speech "You" "''$name'':">>
+... ...<</speech>>
+Just as Captain T starts dominating you as usual, you see Tara come down from the 3rd deck.
+
+<<speech "tara" "''Tara:''">>
+Oh, hey! Glad I found you here, guys!<</speech>>
+<<speech "cap" "''Captain T:''">>
+Don't call me "guy". I'm your Captain. What is the reason for this interruption?<</speech>>
+<<speech "tara" "''Tara:''">>
+Oh, sorry Captain... I just thought it would be nice, before sending him to Rome, to-<</speech>>
+Tara starts whispering something to Captain T's ear. You can't hear a thing.
+
+<<speech "cap" "''Captain T:''">>
+Hm, not a bad idea. She might be helpful. Alright then, no time to lose. Come here, boy.<</speech>>
+Captain grabs your arm and pulls from it so you follow her steps. Tara turns her neck and gives you a bright smile, which makes you smile as well, even if you're a little worried about her mysterious idea.
+
+Captain makes you stop in front of Cherry's room.
+
+<<speech "cap" "''Captain T:''">>
+There, knock.<</speech>>
+<<speech "You" "''$name'':">>
+(Oh... so we're going here.) *knock, knock*<</speech>>
+Cherry opens the door and greet you.
+
+<<speech "style" "''Cherry:''">>
+Oh, hey! What's up, cutie-cute?<</speech>>
+You stay in silence, as you don't have a clue of the reason why you're there. Captain T runs out of patience and pushes you inside of the room.
+
+<<speech "cap" "''Captain T:''">>
+There, "she"'s got a date today, so make her look fancy. I've got stuff to do, so I'll leave it to you, Tara. Make sure $name arrives at the port. We'll be sailing tomorrow morning, so be back before that. And you better go to that date, I have ways to know... *points at you and then gets going*<</speech>>
+Tara comes into Cherry's room and closes the door.
+
+<<speech "tara" "''Tara:''">>
+Hm, don't worry about her. She would have already kicked you off the ship if she didn't like you, I can tell you that. But she can be a bit rough sometimes, it's part of her "charm"<</speech>>
+Cherry and Tara laugh at her joke. A subtle smile appears on your face, making you feel more relaxed.
+
+<<speech "You" "''$name'':">>
+D-do I really have to go?<</speech>>
+Both of them look at each other and "AWWWW" you. Then they smile and get close and hug you, one from each side.
+
+<<speech "style" "''Cherry:''">>
+Omg, so cuuuuteee...<</speech>>
+<<speech "tara" "''Tara:''">>
+I know... you're the cutest thing, honey... but I'm afraid Captain is right again. This is part of your training. You've got to trust us, ok?<</speech>>
+<<speech "You" "''$name'':">>
+ *blushes* O-ok... *smiles*<</speech>>
+Cherry let's you go.
+
+<<speech "style" "''Cherry:''">>
+Aaaaanyway, who is the date with? Guy, girl? CD? Maybe a gay daddy?<</speech>>
+<<speech "You" "''$name'':">>
+Um... no, not a d-daddy. (WTF?) <<if $tprofile is 1>>She's married, black and her name's Aryana. <<elseif $tprofile is 2>>She's single, white and her name's Lelu. She told me she wants to find a "good guy" for once... <<elseif $tprofile is 3>>He's single and addicted to Netflix. He just wants a... "girl" to watch series with...<</if>><</speech>>
+<<speech "style" "''Cherry:''">>
+Ooooh... <<if $tprofile is 1>>a black girl?? Boy, you need to step up your game for that to work... here come with me!<<elseif $tprofile is 2>>a white chick trying to find love? You might actually get lucky then... but we can do a few adjustments so you feel more like a... man? *chuckle* Come with me!<<elseif $tprofile is 3>>A man??!! Watching netflix just like that?? Hahahaha Girl, you are getting more than that, let me tell you. We need to fix you up completely, then! Come with me!<</if>><</speech>>
+[[Follow her|Fix you up]]<</if>>
+
+
+
+\\<<elseif $arriveplace is 4>><<speech "tara" "''Tara:''">>
+Hi there, honey!<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Hi... *smiles*<</speechpatreon>>
+<<speech "You" "''$name'':">>
+So, where are we going today?<</speech>>
+<<speech "tara" "''Tara:''">>
+Well, I'm just here to lead you both outside, since more men are coming in here and I don't want to leave you little puppies alone.<</speech>>
+Tara takes your hands and walk you out the reception.
+
+<div class="center"><img src="dockings/dakar/dakarline.jpg" width="50%"></div>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Oh my god, so many people...<</speechpatreon>>
+Tara then takes you as quickly as possible out to the port.
+
+<div class="center"><img src="dockings/dakar/dakarport.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+But... what do we have to do here...?<</speech>>
+Penny looks at you, confused. Tara gives you both a copy of the same list.
+
+<div class="center">''Errand list'' was added to Inventory</div>
+<<speech "tara" "''Tara:''">>
+Not here! Hahaha, we'll welcome the guys while you both get out there and explore. $name, I'll let you take care of Penny, okay? You've had a few trips out of the ship, but this is her first, so be careful.<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Errands? B-but... why do you trust us to get all this done...?<</speechpatreon>>
+<<speech "tara" "''Tara:''">>
+ *smirk* Don't worry, the staff will be getting the important stuff. These are just errands for you gurls to have some fun. It's Stoya's recommendation that you get out and walk around. *whispers* Good luck!<</speech>>
+<<speech "You" "''$name'':">>
+Tara... Tara!<</speech>>
+She quickly walks away, probably preparing to receive all these guys.
+
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+... ... so, where do we go...?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+We should get out of the port first, and then... figure it out.<</speech>>
+Feeling like a leader, you let Penny follow you into the city.
+
+[[Into Dakar|End]]
+
+
+<</if>><</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>><<audio "elevator" stop>><<audio "style" stop>>
+<<nobr>><<if $dayn is 28>><<if $gameDate.getHours() gte 16>><<goto "Costume contest">><<else>><</if>><<else>><</if>><</nobr>>
+
+
+<<nobr>><<if ndef $dayn or $dayn lt 1>><<else>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] isnot "Sun">>
+
+<<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">>
+<<nobr>><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 10>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 12>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 14>><<goto "Caught">><<set $caught to 1>><</if>><</nobr>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Mon">>
+<<nobr>><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 10>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 12>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 14>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 18>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 19>><<goto "Caught">><<set $caught to 1>><</if>><</nobr>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Tue">>
+<<nobr>><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 10>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 12>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 14>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 18>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 19>><<goto "Caught">><<set $caught to 1>><</if>><</nobr>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Wed">>
+<<nobr>><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 10>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 12>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 14>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 18>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 19>><<goto "Caught">><<set $caught to 1>><</if>><</nobr>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Thu">>
+<<nobr>><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 10>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 12>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 14>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 18>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 19>><<goto "Caught">><<set $caught to 1>><</if>><</nobr>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Fri">>
+<<nobr>><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 10>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 12>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 14>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 20>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 18>><<goto "Caught">><<set $caught to 1>><<elseif $gameDate.getHours() is 19>><<goto "Caught">><<set $caught to 1>><</if>><</nobr>><</if>><<else>><</if>><</if>><</nobr>>
+
+<<nobr>><<if $setcuckpath is 0>><<set $smsm1a to false, $smsm2a to false, $smsm5a to false>><<else>><</if>><</nobr>>
+
+

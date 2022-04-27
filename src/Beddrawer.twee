@@ -1,0 +1,23 @@
+:: Bed drawer [textback] {"position":"2280,1796","size":"100,100"}
+<<if ndef $mutefx>><<audio "wardrobe1" play>><<else>><</if>><<if ndef $tararoom>><img src="tara/taradildos.jpg" width="80%">
+
+<<set $seconds to 7>>\
+HURRY! --> <span id="countdown">$seconds</span>\
+<<silently>>
+	<<repeat 1s>>
+		<<set $seconds to $seconds - 1>>
+		<<if $seconds gt 0>>
+			<<replace "#countdown">>$seconds<</replace>>
+		<<else>>
+			<<replace "#countdown">>She's coming<</replace>>
+			/* do something useful here */
+			<<stop>>
+		<</if>>
+	<</repeat>>
+<</silently>><<timed 7s>><<goto "The bathroom door opens">><</timed>>
+
+<<speech "You" "''$name:''">>
+(What. The. Fuck. These are too big... And why would she even need 4?! Where have I gotten myself into...??)<</speech>>
+[[Look further]]<<elseif $tararoom is 0>><</if>><<audio "menus" stop>><<if ndef $mute>><<audio "myroom" unmute>><<else>><</if>>
+
+

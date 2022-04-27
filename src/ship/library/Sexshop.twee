@@ -1,0 +1,145 @@
+:: Sex shop [textback] {"position":"2425,179","size":"100,100"}
+<<removeclass "html">><<addclass "html" "sexshop">><<if $sexs is 0>><span class="fade-ins"><div class="center"><img src="places2/sexshop.jpg" width="80%"></div>
+<<speech "You" "''$name'':">>
+(OMG... What the fuck is this place... There's so much kinky stuff here...)<</speech>></span>
+<<linkreplace "Keep walking">>
+<span class="pulse"><div class="center"><img src="passengers/lucy.png" width="70%"></div></span>
+<<speech "lucy" "''Lucy'':">>
+Hi there, cutie! Don't be afraid, you haven't done anything wrong. My name is Lucy. You must be $name. You've caused a bit of a conmmotion on the ship. I don't usually get a lot of males around the shop, but I guess you are an exception. Were you looking for something?<</speech>>
+<<speech "You" "''$name'':">>
+Um...<</speech>>
+[[Take this fucking cage off, please|Sex shop][$sexs to 1]]
+[[I need an alternative way to masturbate|Sex shop][$sexs to 3]]<</linkreplace>><<elseif $sexs is 1>><<speech "You" "''$name'':">>
+I've got a... cage that prevents me from masturbating, and I was wondering if you could take if off, please<</speech>>
+<<speech "lucy" "''Lucy'':">>
+ *smiles* Well, I'm sorry, but if you don't have the key to your cage, that means that someone doesn't want you to cum that way. So I can't comply.<</speech>>
+<<speech "You" "''$name'':">>
+No, it's not like that... (Maybe I can trick her) I just lost the key and now I'm stuck like this.<</speech>>
+<<speech "lucy" "''Lucy'':">>
+Hahaha Honey... Tara is my friend. I know what you're up to. No can do. Anything else I can help you with?<</speech>>
+[[I need an alternative way to masturbate|Sex shop][$sexs to 2]]
+[[Not really, I should go...|Women's Secret]]<<elseif $sexs is 2>><<speech "You" "''$name'':">>
+It's a long story... but I need to find an alternative way of...<</speech>>
+<<speech "lucy" "''Lucy'':">>
+Cumming? Hahaha yeah, I figured. So are you looking for some anal or another?<</speech>>
+<<speech "You" "''$name'':">>
+Um... I don't know... <<if $fem gte 9>><span class="pink">Anal would be better...</span><<else>><</if>><</speech>>
+<<speech "lucy" "''Lucy'':">>
+I see you're not sure about it, so how about I show you some of our options?<</speech>>
+[[Follow me|Sex shop][$sexs to 3]]<<elseif $sexs is 3>>You follow her through the long store. You are shocked by the quantity of tools of all sizes and the incredible lingerie at the shelves on the sides. You only recognize a few of the toys, but most of them you wouldn't even know how to use.
+
+She leads you to a door. There a small sticker on it that says: ''Storage Room''
+
+<<speech "lucy" "''Lucy'':">>
+Ok. Here we are. You might have seen some other interesting things back there, but those are not for you. You need some... special equipment *grins*<</speech>>
+<<speech "You" "''$name'':">>
+(This woman is creeping me out...)<</speech>>
+You both get into the <<linkappend "storage room:">>
+
+<div class="center"><img src="places2/sexshop1.jpg" width="60%"></div>
+<<speech "You" "''$name'':">>
+(What the hell... this is <span class="pink">exciting!</span>... I mean, sickly)<</speech>>
+<<speech "lucy" "''Lucy'':">>
+Here is where we store all our stock. We have lots of repeated equipment because dildos and vibrators are the most wanted on the ship, but here we also store the unusual tools. I will bring out the ones I have for you, just a sec.<</speech>>
+<<linkreplace "... ...">><div class="center"><div class="row3"><div class="column3"><img src="clothes/dildo3.jpg" width="70%"></div><div class="column3"><img src="clothes/dildo5.jpg" width="70%"></div><div class="column3"><img src="clothes/dildo4.jpg" width="70%"></div></div></div>
+<<speech "lucy" "''Lucy'':">>
+As I told you before: you can chose to have a penetrative toy or not. Of course, I recommend penetration due to obvious reasons, but I understand that some boys like some may still have a few prejudices, so feel free to choose whichever you prefer.<</speech>>
+<<speech "You" "''$name'':">>
+O-ok... (Jeez... This is making me <span class="pink">blush...</span> so embarrasing)<</speech>>
+[[Pink vibrator|Sex shop][$sexs to 4, $toy to 1, $youcum to 1, $dildo3 to true, $cum to "Finished", $sexdoor to 1]]
+[[5'5' white dildo|Sex shop][$sexs to 5, $toy to 2, $youcum to 1, $dildo5 to true, $cum to "Finished", $sexdoor to 1]]
+[[Clitoral vibrator (no penetration)|Sex shop][$sexs to 6, $toy to 3, $youcum to 1, $dildo4 to true, $cum to "Finished", $sexdoor to 1]]<</linkreplace>><</linkappend>><<elseif $sexs is 4>><<speech "You" "''$name'':">>
+I- I'll take the vibrator...<</speech>>
+<<speech "lucy" "''Lucy'':">>
+The penetrative pink one?<</speech>>
+<<speech "You" "''$name'':">>
+Yes, please.<</speech>>
+<<speech "lucy" "''Lucy'':">>
+Good choice. If I may suggest something, take this bottle of lube so the penetration is easier. I should also say that if what you want is to go deep, you may want one of our realistic XXL size dildos, for a moderate prize.<</speech>>
+Your face turn bright red.
+
+<<speech "You" "''$name'':">>
+ *gulp* Um... ok, thanks. *You take the bottle of lube* (<span class="pink">XXL... realistic...</span>)<</speech>>
+You take your pink vibrator and let Lucy take you out of the sex shop.
+
+[[Library][$sexs to 7, $masturbate to 2]]<<elseif $sexs is 5>><<speech "You" "''$name'':">>
+I- I'll take the dildo...<</speech>>
+<<speech "lucy" "''Lucy'':">>
+The small white one?<</speech>>
+<<speech "You" "''$name'':">>
+Yes, please.<</speech>>
+<<speech "lucy" "''Lucy'':">>
+That's not what I would've chosen, but I guess it can do the trick on a begginer like you. If I may suggest something, take this bottle of lube so the penetration is easier. I should also say that if what you want is to go deep, you may want one of our realistic XXL size dildos, for a moderate prize.<</speech>>
+Your face turn bright red.
+
+<<speech "You" "''$name'':">>
+ *gulp* Um... ok, thanks. *You take the bottle of lube* (<span class="pink">XXL... realistic...</span>)<</speech>>
+You take your white dildo and let Lucy take you out of the sex shop.
+
+[[Library][$sexs to 7, $masturbate to 2]]<<elseif $sexs is 6>><<speech "You" "''$name'':">>
+I- I'll take the vibrator...<</speech>>
+<<speech "lucy" "''Lucy'':">>
+The penetrative pink one?<</speech>>
+<<speech "You" "''$name'':">>
+No, the clitoral one.<</speech>>
+<<speech "lucy" "''Lucy'':">>
+I still don't recommend this one, specially for you, but you are the customer... this toy is just going to pacify your hunger, but ah well...I should also say that if what you want is to go deep, you may want one of our dildos in the future. I have some very realistic XXL size dildos, for a moderate prize.<</speech>>
+Your face turn bright red.
+
+<<speech "You" "''$name'':">>
+ *gulp* Um... ok, thanks... I'll just take the vibrator...(<span class="pink">XXL... realistic...</span>)<</speech>>
+You take your clitoral vibrator and let Lucy take you out of the sex shop.
+
+[[Library][$sexs to 7, $masturbate to 2]]<<elseif $sexs is 7>><div class="center"><img src="passengers/lucy.png" width="60%"></div>
+<<speech "lucy" "''Lucy'':">>
+Hi, $name. Having a fun time? *smile* Did you want something?<</speech>>
+<div class="center"><div class="row3">
+<div class="column3">[[Dildos|Sex shop][$sexs to 8]]</div><div class="column3">[[Condoms and Lube|Sex shop][$sexs to 9]]</div><div class="column3"><<linkreplace "Other">>//Not implemented//<</linkreplace>></div></div></div>
+
+[[Library]]
+
+\\<<elseif $sexs is 8>><div class="center"><img src="passengers/lucy.png" width="60%"></div>
+<<speech "lucy" "''Lucy'':">>
+Hi, $name. Having a fun time? *smile* Did you want something?<</speech>>
+<div class="leftcolumn"><div class="red"><<nobr>><span class="imgpop dildo7"><<if $points gte 100>><<if $dildo7 isnot true>><<if $dildosize gte 7>><<click "7' white dildo (realistic)">><<set $points to $points -100>><<set $dildo7 to true>><<goto "Sex shop">><</click>><<else>><<linkreplace "7' white dildo (realistic)">>Too big... yet<</linkreplace>><</if>><<else>><<linkreplace "7' white dildo (realistic)">>You already have one<</linkreplace>><</if>><<else>>7' white dildo (realistic)<</if>></span><</nobr>></div>Cost: 100 points per unit.
+
+<div class="red"><<nobr>><span class="imgpop dildo8"><<if $points gte 150>><<if $dildo8 isnot true>><<if $dildosize gte 8>><<linkreplace "8' brown dildo (realistic)">><<set $points to $points -150>><<set $dildo8 to true>><<goto "Sex shop">><</linkreplace>><<else>><<linkreplace "8' brown dildo (realistic)">>Too big... yet<</linkreplace>><</if>><<else>><<linkreplace "8' brown dildo (realistic)">>You already have one<</linkreplace>><</if>><<else>>8' brown dildo (realistic)<</if>></span><</nobr>></div>Cost: 150 points per unit.
+
+<div class="red"><<nobr>><span class="imgpop dildo9"><<if $points gte 200>><<if $dildo9 isnot true>><<if $dildosize gte 9>><<linkreplace "9' black dildo (realistic)">><<set $points to $points -200>><<set $dildo9 to true>><<goto "Sex shop">><</linkreplace>><<else>><<linkreplace "9' black dildo (realistic)">>Too big... yet<</linkreplace>><</if>><<else>><<linkreplace "9' black dildo (realistic)">>You already have one<</linkreplace>><</if>><<else>>9' black dildo (realistic)<</if>></span><</nobr>></div>Cost: 200 points per unit.</div><div class="red"><<nobr>><span class="imgpop dildo10"><<if $points gte 250>><<if $dildo10 isnot true>><<if $dildosize gte 10>><<linkreplace "10' black dildo (realistic)">><<set $points to $points -250>><<set $dildo10 to true>><<goto "Sex shop">><</linkreplace>><<else>><<linkreplace "10' black dildo (realistic)">>Too big... yet<</linkreplace>><</if>><<else>><<linkreplace "10' black dildo (realistic)">>You already have one<</linkreplace>><</if>><<else>>10' black dildo (realistic)<</if>></span><</nobr>></div>Cost: 250 points per unit.
+
+<div class="red"><<nobr>><span class="imgpop dildo11"><<if $points gte 300>><<if $dildo11 isnot true>><<if $dildosize gte 11>><<linkreplace "11' black dildo (realistic)">><<set $points to $points -300>><<set $dildo11 to true>><<goto "Sex shop">><</linkreplace>><<else>><<linkreplace "11' black dildo (realistic)">>Too big... yet<</linkreplace>><</if>><<else>><<linkreplace "11' black dildo (realistic)">>You already have one<</linkreplace>><</if>><<else>>11' black dildo (realistic)<</if>></span><</nobr>></div>Cost: 300 points per unit.
+
+<div class="red"><<nobr>><span class="imgpop dildo12"><<if $points gte 350>><<if $dildo12 isnot true>><<if $dildosize gte 12>><<linkreplace "12' black dildo (realistic)">><<set $points to $points -350>><<set $dildo12 to true>><<goto "Sex shop">><</linkreplace>><<else>><<linkreplace "12' black dildo (realistic)">>Too big... yet<</linkreplace>><</if>><<else>><<linkreplace "12' black dildo (realistic)">>You already have one<</linkreplace>><</if>><<else>>12' black dildo (realistic)<</if>></span><</nobr>></div>Cost: 350 points per unit.
+
+
+[[Return|Sex shop][$sexs to 7]]<<elseif $sexs is 9>><div class="center"><img src="passengers/lucy.png" width="60%"></div>
+<<speech "lucy" "''Lucy'':">>
+Hi, $name. Having a fun time? *smile* Did you want something?<</speech>>
+<div class="leftcolumn"><div class="red"><<nobr>><<if $points gte 100>><span class="imgpop trojan"><<click "XL Trojan Condoms">><<set $points to $points -100>><<set $trojanxl to $trojanxl +1>><<set $trojancount to $trojancount +12>><<goto "Sex shop">><</click>></span><<else>><span class="imgpop trojan">XL Trojan Condoms</span><</if>><</nobr>></div>Cost: 100 points per unit.
+
+<div class="red"><<nobr>><<if $points gte 120>><span class="imgpop durex"><<click "XXL Durex Condoms">><<set $points to $points -120>><<set $trojanxxl to $trojanxxl +1>><<set $durexcount to $durexcount +12>><<goto "Sex shop">><</click>></span><<else>><span class="imgpop durex">XXL Durex Condoms</span><</if>><</nobr>></div>Cost: 120 points per unit.
+
+<div class="red"><<nobr>><<if $points gte 200>><span class="imgpop mysize"><<click "MEGA BIG BOY Condoms">><<set $points to $points -200>><<set $mysize to $mysize +1>><<set $mysizecount to $mysizecount +12>><<goto "Sex shop">><</click>></span><<else>><span class="imgpop mysize">MEGA BIG BOY Condoms</span><</if>><</nobr>></div>Cost: 200 points per unit.</div><div class="rightcolumn"><div class="red"><<nobr>><<if $points gte 100>><span class="imgpop hotlube"><<click "Hot Sensation Lubricant">><<set $points to $points -100>><<set $hotlube to true>><<goto "Sex shop">><</click>></span><<else>><span class="imgpop hotlube">Hot Sensation Lubricant</span><</if>><</nobr>></div>Cost: 100 points per unit.
+
+<div class="red"><<nobr>><<if $points gte 100>><span class="imgpop oilylube"><<click "Silicone Lubricant">><<set $points to $points -100>><<set $oilylube to true>><<goto "Sex shop">><</click>></span><<else>><span class="imgpop oilylube">Silicone Lubricant</span><</if>><</nobr>></div>Cost: 100 points per unit.
+
+<div class="red"><<nobr>><<if $points gte 100>><span class="imgpop cockring"><<click "Adjustable Cockring">><<set $points to $points -100>><<set $cockring to true>><<goto "Sex shop">><</click>></span><<else>><span class="imgpop cockring">Adjustable Cockring</span><</if>><</nobr>></div>Cost: 100 points per unit.
+
+
+[[Return|Sex shop][$sexs to 7]]<<elseif $sexs is 10>><div class="center"><img src="passengers/lucy.png" width="60%"></div>
+<<speech "lucy" "''Lucy'':">>
+Hi, $name. Having a fun time? *smile* Did you want something?<</speech>>
+<div class="leftcolumn"><div class="red"><<nobr>><<if $points gte 300>><span class="imgpop femcondom"><<click "Femenine Condom">><<set $points to $points -300>><<set $femcondom to $femcondom +1>><<goto "Sex shop">><</click>></span><<else>><span class="imgpop femcondom">Femenine Condom</span><</if>><</nobr>></div>Cost: 300 points per unit.
+
+<div class="red"><<nobr>><<if $points gte 120>><span class="imgpop upper2"><<linkreplace "Viagra">>Not enough Fem.<</linkreplace>></span><<else>><span class="imgpop upper2">Viagra</span><</if>><</nobr>></div>Cost: 120 points per unit.
+
+<div class="red"><<nobr>><<if $points gte 200>><span class="imgpop upper3"><<linkreplace "">>Not enough Fem.<</linkreplace>></span><<else>><span class="imgpop upper3">9' brown dildo(realistic)</span><</if>><</nobr>></div>Cost: 200 points per unit.</div><div class="rightcolumn"><div class="red"><<nobr>><<if $points gte 250>><span class="imgpop upper4"><<linkreplace "10' brown (realistic)">>Not enough Fem.<</linkreplace>></span><<else>><span class="imgpop upper4">10' black (realistic)</span><</if>><</nobr>></div>Cost: 250 points per unit.
+
+<div class="red"><<nobr>><<if $points gte 300>><span class="imgpop redflats"><<linkreplace "11' black dildo(realistic)">>Not enough Fem.<</linkreplace>></span><<else>><span class="imgpop redflats">11' black (realistic)</span><</if>><</nobr>></div>Cost: 300 points per unit.
+
+<div class="red"><<nobr>><<if $points gte 300>><span class="imgpop pinkheels"><<linkreplace "12' black dildo(realistic)">>Not enough Fem.<</linkreplace>></span><<else>><span class="imgpop pinkheels">10' black (realistic)</span><</if>><</nobr>></div>Cost: 300 points per unit.</div>
+
+
+[[Return|Sex shop][$sexs to 7]]<</if>><<audio "menus" stop>><<audio "sexshop" volume 0.6 loop play>><<audio ":back" mute>>
+
+

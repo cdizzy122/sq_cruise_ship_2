@@ -1,0 +1,11 @@
+:: Get dressed [noborder wardrobehome textback] {"position":"392,128","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><span class="noshit"><span class="borderboxhome">You go check the closet. All you got is a <span class="imgpop suit"><a class="specialeffects">suit</a></span> and some <span class="imgpop casual"><a class="specialeffects">casual clothes</a></span>. It's surpising how everything seems grey and lacking some color.
+
+[[Put on suit|Get dressed][$suit to true, $casual to false]]
+[[Put on casual clothes|Get dressed][$casual to true, $suit to false]]</span>
+<span class="borderboxhome"><div class="gridbox"><span class="spacebox">Clothes:
+
+<<if $suit is true>><img src="clothes/suit.jpg"><<elseif $casual is true>><img src="clothes/casual.jpg"><</if>></span></div></span></span><<addmins 1>>
+<<if $casual is true or $suit is true>>[[Return|Stand up]]<<else>><</if>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() gte 8 and $gameDate.getMinutes() gte 30>><<goto "Emergency">><<else>><</if>><<else>><</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

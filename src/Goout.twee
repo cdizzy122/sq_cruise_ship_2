@@ -1,0 +1,16 @@
+:: Go out [textback] {"position":"743,523","size":"100,100"}
+<<removeclass "html">><<addclass "html" "street">><div class="center"><img src="places1/goout.jpg" width="70%"></div>
+<<if $gotopark is true>>
+<div class="center">[[Look around|Neighbourhood]] | [[Go to city]]</div>
+<<elseif $gotocruise is true>>
+As you walk outside, you notice that $gffname is looking at you through the window with a sarcastic look on her face. Then she mimics a 'Bye-bye' with her lips and shakes her hand.
+
+<span class="fade-ins"><img src="lana/bye.gif" width="37%"><img src="lana/serious.jpg" width="35%"></span>
+
+<<speech "You" "''$name:''">>
+Whatever... (such a bitch...)<</speech>>
+<<click 'Go to London Port' London>><<addhours 1>><</click>>
+<<else>>
+<div class="center">[[Look around|Neighbourhood]]</div><</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "morning" fadeoverto 2 0>><<audio "out" volume 0 fadeto 0.8 loop>><<audio "menus" stop>>
+
+

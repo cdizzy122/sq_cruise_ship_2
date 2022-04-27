@@ -1,0 +1,7 @@
+:: ss1 [noreturn] {"position":"721,913","size":"100,100"}
+<span class="centereds"><span class="onomatopeya">AUDIO MUTED</span>
+
+click anywhere</span>
+<span class="next">[[Return|$return]]</span><<audio ":music" mute>><<set $mute to true>>
+
+

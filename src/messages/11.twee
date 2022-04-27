@@ -1,0 +1,148 @@
+:: 11 [phone] {"position":"19,2722","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<if ndef $elevenvariable>><div class="center"><img src="gf/juliogomez.jpg" width="25%">
+
+<span class="hugeletter">''CUCKY'S NIGHTMARE''</span></div>
+<<speech "gfd" "''$gfname:''">>
+So tell me guys, which one you like better?<</speech>>
+<div class="center"><div class="row">
+<div class="columna">''This one:''
+
+<div class="center"><img src="gf/blacklong.jpg" width="60%"></div></div><div class="columna">''or this one:''
+
+<div class="center"><img src="gf/blackthick.jpg" width="60%"></div></div></div></div>
+<<speech "gfd" "''$gfname:''">>
+The thing is my pussy is not that wide, but maybe I can take some pounding from a long one...<</speech>>
+<<speech "lanad" "''$gffname'':">>
+Really? Girl, I would go for the thickest one for sure. Especially if you need some proper re-sizing... Plus, the long guy seems a bit too young.<</speech>>
+[[Why the hell am I on this group still?!|11][$elevenvariable to 0]]
+[[Comment on the dicks|11][$elevenvariable to 1]]
+
+
+
+\\<<elseif $elevenvariable is 0>><<speech "You" "''$name'':">>
+Why the fuck am I on this conversation! I don't need to know this stuff, ok? Talk on private, jeez...<</speech>>
+You are about to toss the phone to the side when you receive a private from Lana.
+
+<<speech "lanad" "''$gffname'':">>
+Wow, dude! Hahaha you really can't even stand it, huh?<</speech>>
+<<speech "You" "''$name'':">>
+Listen, you know my secret, and I'm okay with some of that stuff, but all this "cuckolding"... I just can't... she's been my girlfriend, and now she's behaving like some cheap slut!<</speech>>
+<<speech "lanad" "''$gffname'':">>
+Well, isn't that good? At least now you know what she really is and what she needs. I should tell you that she's actually been talking about you very nicely. She loves you as a cuckold boyfriend!<</speech>>
+<<speech "You" "''$name'':">>
+Well, whatever! I just don't feel good seeing her like this...<</speech>>
+<<speech "lanad" "''$gffname'':">>
+So you want to be a sissy, but you're not up for potentially clean up her cummed-on pussy? That doesn't match!<</speech>>
+<<speech "You" "''$name'':">>
+... It's not even about that... I just don't like being demeaned by her. She's been mean...<</speech>>
+<<speech "lanad" "''$gffname'':">>
+So you're over the cuckold thing?<</speech>>
+<<speech "You" "''$name'':">>
+Yeah.<</speech>>
+<<speech "lanad" "''$gffname'':">>
+I'm a generous person, you know... and I understand you. BUT, she's been suffering as well for so long that I can't help but sympathize. But sure, that doesn't have to be related with the cuckold relationship... but, that's what I actually liked about this...<</speech>>
+...
+
+...
+
+You really don't feel bad for any of them, but you don't want the relationship with $gffname to end, especially since the last conversation...
+
+<<speech "You" "''$name'':">>
+Look... just let me get out the group chat. We can still share stuff with each other, but I don't want to talk to $gfname for a while.<</speech>>
+<<speech "lanad" "''$gffname'':">>
+Right.<</speech>>
+You wait a few seconds and suddenly receive a notification:
+
+<div class="center">''You have been deleted from "CUCKY'S NIGHTMARE"''</div>
+You can't help but feel a relief... maybe you'll be able to get over her now. $gffname talks to you again.
+
+<<speech "lanad" "''$gffname'':">>
+I've told $gfname about it and she's a bit mad, but has promissed not to bother you if it's not completely necessary.<</speech>>
+<<speech "You" "''$name'':">>
+Oh, wow... thanks a lot, $gffname, I can't say how thankful I am...<</speech>>
+<<speech "lanad" "''$gffname'':">>
+I bet! How about you show me some other way? ''$$$$''<</speech>>
+You stare at your phone, not knowing how to respond. She's literally treating this "favour" as a paid service. You know it's either this or her exposing you on social media, reaching family, friends, co-workers, etc...
+
+<<speech "You" "''$name'':">>
+But... *sigh*<</speech>>
+<<speech "lanad" "''$gffname'':">>
+Come on, $name. You know I can get you on the chat again... *smirks*<</speech>>
+<<speech "You" "''$name'':">>
+... Alright... (But... how?)<</speech>>
+You know you can't access your accounts from this phone, and you are certainly not going to ask Captain to give it back at this point. Then you remember that you left some money on your drawer back at home.
+
+<<speech "You" "''$name'':">>
+(This could be really dangerous, but I don't know what else to do...) T-there's some money in the drawer in my room...<</speech>>
+<<speech "lanad" "''$gffname'':">>
+Oh, well, that's a start. I'll need around... 50$ for this one.<</speech>>
+<div class="center"><img src="lana/findom1.gif" width="50%"></div>
+Your tummy is tingling, but at least you hope this is over now.
+
+<<speech "You" "''$name'':">>
+Ok, take that then. But this is the last time we do this, okay?<</speech>>
+<<speech "lanad" "''$gffname'':">>
+I don't see why we'd need to do it again, do you? I bet you'll behave...<</speech>>
+[[Return|Bedroom][$smsm11 to false, $gfsms to 6]]
+
+
+
+
+\\<<elseif $elevenvariable is 1>><<speech "You" "''$name'':">>
+I think $gffname might be right...<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Hmm... I guess you're right. After all, I really need my pussy to expand a lot more. These last times I've really struggled to take it all! God, I wish you were here, $name... you would have loved it... and I could really use your tongue when my pussy gets all sore...<</speech>>
+<<speech "You" "''$name'':">>
+(Aw...) Um... thanks honey, I wish I could see you as well. Hopefully soon...<</speech>>
+<<speech "lanad" "''$gffname'':">>
+Fuck, I'm going to puke rainbows!<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Hahaha C'mon, $gffname! You know I have a weak spot for my cucky BF... 💓💓<</speech>>
+<<speech "lanad" "''$gffname'':">>
+I know you also have a weak spot for cocks, you bitch! Hahaha<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Yes, I do! And I bet $name loves that part of me as well. Who knows, maybe some day we'll have a threesome and... he'll get a present...<</speech>>
+<<speech "lanad" "''$gffname'':">>
+<span class="noborder"><img src="lana/emoji1.png" width="10%"></span><</speech>>
+<<speech "You" "''$name'':">>
+😳😳<</speech>>
+<<speech "gfd" "''$gfname:''">>
+🤯😂 Where did you get those stickers??!! Pass 'em up!<</speech>>
+<<speech "lanad" "''$gffname'':">>
+I know you'd love them! I already sent it to you yesterday, you bitch! Don't you even look at your phone anymore?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Oh god... these are so cool, there are so many!!<</speech>>
+About a minute passes and you know that she's probably taking a look at them.
+
+<<speech "gfd" "''$gfname:''">>
+<span class="noborder"><img src="lana/emoji2.png" width="8%"></span><</speech>>
+<<speech "lanad" "''$gffname'':">>
+That'll be you! How about this one: 
+<span class="noborder"><img src="lana/emoji3.png" width="10%"></span><</speech>>
+<<speech "gfd" "''$gfname:''">>
+Mmmmmmmm, so biggg! 🤪🤤 But I would love some chocolate on it!
+<span class="noborder"><img src="lana/emoji4.png" width="10%"></span><</speech>>
+<<speech "You" "''$name'':">>
+(OMG...)<</speech>>
+You are heating up inside, getting hornier with every new sticker. It's not only that the stickers are hot, but also, your sweet girlfriend using them casually is just so hot. You can imagine her sending them to one of those dicks from tinder while flirting...
+
+<<speech "You" "''$name'':">>
+(Hm...) Wow...<</speech>>
+<<speech "lanad" "''$gffname'':">>
+Kinda bittersweet, huh? Hahaha Are you excited to see your girl impaled and moaning on it?<</speech>>
+<<speech "You" "''$name'':">>
+Um... *blush* yes.<</speech>>
+<<speech "lanad" "''$gffname'':">>
+Daaamn, he said it, not me!<</speech>>
+<<speech "gfd" "''$gfname:''">>
+As you say, my love... 😘🦐 I'll lick his balls on your behalf.
+<span class="noborder"><img src="lana/emoji5.png" width=12%></span><</speech>>
+<<speech "lanad" "''$gffname'':">>
+🤣🤣🤣<</speech>>
+<<speech "gfd" "''$gfname:''">>
+🤣🤣🤣<</speech>>
+You finish the conversation with a raging hard-on and wishing to get the next message as soon as possible.
+
+[[Return|Bedroom][$smsm11 to false, $gfsms to 6]]<</if>><<audio ":back" mute>>
+
+

@@ -1,0 +1,44 @@
+:: Screenwall [textback noreturn] {"position":"1428,2421","size":"100,100"}
+<<if $dayn is 30>><div class="center"><img src="screenwall/1.jpg" width="80%"></div>
+<<speech "You" "''$name''">>
+(What? Tara is only 4th? Oh, and... I guess that "Sissy puppy" must be me... no points, that's kinda sad...)<</speech>>
+<div class="center">//Chance to improve your rating will come with side-quests (0.5.5)//</div>
+[[Return|$return]]
+
+\\<<elseif $dayn is 31>><div class="center"><img src="screenwall/1.jpg" width="80%"></div>
+<<speech "You" "''$name''">>
+(What? Tara is only 4th? Oh, and... I guess that "Sissy puppy" must be me... no points, that's kinda sad...)<</speech>>
+<div class="center">//Chance to improve your rating will come with side-quests (0.5.5)//</div>
+[[Return|$return]]
+
+\\<<elseif $dayn is 32>><div class="center"><img src="screenwall/2.jpg" width="80%"></div>
+<<speech "You" "''$name''">>
+(Well, at least Tara is now in the top 3. I'm glad for her! Oh, and Lola, from the beauty salon?! She's 2nd! I mean... I bet those boobs are dreamy...)<</speech>>
+<div class="center">//Chance to improve your rating will come with side-quests (0.5.5)//</div>
+[[Return|$return]]
+
+\\<<elseif $dayn is 33>><div class="center"><img src="screenwall/2.jpg" width="80%"></div>
+<<speech "You" "''$name''">>
+(Well, at least Tara is now in the top 3. I'm glad for her! Oh, and Lola, from the beauty salon?! She's 2nd! I mean... I bet those boobs are dreamy...)<</speech>>
+<div class="center">//Chance to improve your rating will come with side-quests (0.5.5)//</div>
+[[Return|$return]]
+
+\\<<elseif $dayn is 34>><div class="center"><img src="screenwall/3.jpg" width="80%"></div>
+<<speech "You" "''$name''">>
+(Tara is 2nd! I wonder who that "Marie" is... Oh, oh, oh! And Anastasia is now 4th! Yeah, I bet her twerking is really good...)<</speech>>
+<div class="center">//Chance to improve your rating will come with side-quests (0.5.5)//</div>
+[[Return|$return]]
+
+\\<<elseif $dayn is 35>><div class="center"><img src="screenwall/3.jpg" width="80%"></div>
+<<speech "You" "''$name''">>
+(Tara is 2nd! I wonder who that "Marie" is... Oh, oh, oh! And Anastasia is now 4th! Yeah, I bet her twerking is really good...)<</speech>>
+<div class="center">//Chance to improve your rating will come with side-quests (0.5.5)//</div>
+[[Return|$return]]
+
+\\<<elseif $dayn is 36>><div class="center"><img src="screenwall/3.jpg" width="80%"></div>
+<<speech "You" "''$name''">>
+(Tara is 2nd! I wonder who that "Marie" is... Oh, oh, oh! And Anastasia is now 4th! Yeah, I bet her twerking is really good...)<</speech>>
+<div class="center">//Chance to improve your rating will come with side-quests (0.5.5)//</div>
+[[Return|$return]]<</if>>
+
+

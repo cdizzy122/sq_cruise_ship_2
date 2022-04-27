@@ -1,0 +1,9 @@
+:: Coffee [noreturn] {"position":"626,1365","size":"100,100"}
+<img src="quest6/coffee.jpg" width="40%">
+
+A normal coffee with some milk. ''(HUNGER +20, STRESS -20)''
+
+<<click "Eat" "Inventory">><<set $coffee to $coffee -1>><<set $hunger to $hunger +20>><<set $stress to $stress -20>><</click>>
+[[Return|Inventory]]
+
+

@@ -1,0 +1,78 @@
+:: lilbeach [textback] {"position":"3996,1101","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spanish">><<if ndef $lifeguard>><img src="dockings/nudist/lilbeach.jpg" width="40%">
+
+You discover a beautiful beach! It seems empty at first, but then you see there are footsteps, and they seem rrecent also. You decide to get down to that beach and look if there's someone in there behind the rock wall.
+
+You follow the footprints and find an attractive <<linkappend "naked man.">>
+
+<img src="dockings/nudist/lifeguard.png" width="40%">
+
+<<speech "nobody" "''Naked man'':">>
+Hi there, boy. Are you lost?<</speech>>
+<<speech "You" "''$name'':">>
+Um...hi. No, I just found this small beach next to the big one and...<</speech>>
+<<speech "nobody" "''Naked man'':">>
+Just like us! hehe a small one next to a big one *Points to your caged penis, and his big flaccid cock, respectively* I know you like it boy, but stop looking at it if you are not planning to play with it, ok?<</speech>>
+<<speech "You" "''$name'':">>
+No, I-I...wasn't-<</speech>>
+<<speech "nobody" "''Naked man'':">>
+No need to explain, sissy. You are not the first one like you to come to my beach. Some even try to pretend to drown so I go and take them to my cabin.<</speech>>
+<<speech "You" "''$name'':">>
+Oh, you are the lifeguard! Your apprentice is desperately looking for you. She doesn't know how things work and is freaking out. Please go and help her.<</speech>>
+<<speech "nobody" "''Life guard'':">>
+I see... I'll tell you what: you go to the supermarket and get me some sunscreen and then I'll go and help her with her "stress issues".<</speech>>
+<<speech "You" "''$name'':">>
+Okay! I'll be right back.<</speech>>
+[[Return|Life guard cabin][$lifeguard to 0, $supermarket to 1]]<</linkappend>><<elseif $lifeguard is 0>><img src="dockings/nudist/lifeguard.png" width="40%">
+
+<<speech "nobody" "''Life guard'':">>
+Do you have my sunscreen?<</speech>>
+<<speech "You" "''$name'':">>
+Nop, not yet...<</speech>>
+<<speech "nobody" "''Life guard'':">>
+Stop looking at my cock and go for it then.<</speech>>
+[[Return|Life guard cabin]]<<elseif $lifeguard is 1>><<set $sunscreen to false>><img src="dockings/nudist/lifeguard.png" width="40%">
+
+<<speech "nobody" "''Life guard'':">>
+Do you have my sunscreen?<</speech>>
+<<speech "You" "''$name'':">>
+Yes! Here it is. *You give cream to the lifeguard*<</speech>>
+<<speech "nobody" "''Life guard'':">>
+Well, I usually use a 20 or 30 protection, but I guess this one will do... *He gently applies the cream all over his body* You know, the thing about being naked all day is that my dick can also get burnt. I'd tell you to help me, but you're not my type. Tell the girl in the cabin to come here, I need to talk to her.<</speech>>
+<<speech "You" "''$name'':">>
+O-okay...(He's rubbing his <span class="pink">beautiful</span> dick with the cream without any shame! What a douchebag... Did I say beautiful?? I-I meant... disgusting...)<</speech>>
+[[Return|Life guard cabin][$lgcabin to 2]]<<elseif $lifeguard is 2>><img src="dockings/nudist/lilbeach.jpg" width="40%">
+
+<<speech "nobody" "''Apprentice'':">>
+I can't believe you left me there all by myself on my first day!<</speech>>
+<<speech "nobody" "''Life guard'':">>
+Shhh, you need to relax. A lifeguard needs to be in full control of the situation and be chill. And after all, this is a job where you are going to spend alone most of the time. Here, sit next to me. And take that suit off, for christ sake, it's a nudist beach.<</speech>>
+<<speech "nobody" "''Apprentice'':">>
+I was just worried... Something bad could have happened, you know? *looks down to his member* We should go b-<</speech>>
+<<speech "nobody" "''Life guard'':">>
+I'm sorry, this is the effect a beautiful woman like you has on my "little friend". Just relax and do what feels natural.<</speech>>
+<<speech "nobody" "''Apprentice'':">>
+I- uhm...it is big...but the people might need our-<</speech>>
+<<speech "nobody" "''Life guard'':">>
+Forget about the people, just you and me baby.<</speech>>
+<<speech "nobody" "''Apprentice'':">>
+Oh...mmm...<</speech>>
+<img src="dockings/nudist/blowjob.gif" width="50%">
+
+<<speech "nobody" "''Life guard'':">>
+Ahhhh and you were hiding those skills all along? Damn girl... Get on all fours. I'm gonna teach you how to relax. There, can you feel the tip?<</speech>>
+<img src="dockings/nudist/beachsex2.jpg" width="50%">
+
+<<speech "nobody" "''Apprentice'':">>
+Ahaa...mm...<</speech>>
+<<speech "nobody" "''Life guard'':">>
+Now, ask for it.<</speech>>
+<<speech "nobody" "''Apprentice'':">>
+Put...put it in...fuck meee<</speech>>
+<img src="dockings/nudist/beachsex1.gif" width="50%">
+
+<<speech "You" "''$name'':">>
+(Well, I guess that's mission acomplished!)<</speech>>
+<<click "Return" "Life guard cabin">><</click>><</if>><<audio "menus" stop>><<if ndef $mute>><<audio "spanish" unmute>><<else>><</if>><<if ndef $mutefx>><<audio "sea" unmute>><<else>><</if>>
+
+

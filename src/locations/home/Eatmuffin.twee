@@ -1,0 +1,8 @@
+:: Eat muffin [textback] {"position":"496,685","size":"100,100"}
+<<if ndef $mutefx>><<audio "eat" play>><<else>><</if>><img src="food/muffin.jpg" width="70%">
+
+Now this is the real deal. You are full of energy and positivity.
+
+[[Kitchen]]<<set $eat to true>><<addmins 5>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() gte 8 and $gameDate.getMinutes() gte 30>><<goto "Emergency">><<else>><</if>><<else>><</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

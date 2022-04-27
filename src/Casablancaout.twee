@@ -1,0 +1,104 @@
+:: Casablancaout [textback] {"position":"3693,165","size":"100,100"}
+<<removeclass "html">><<addclass "html" "casablanca1">><<audio "casablanca" volume 0.3 loop play>>After what seems like an eternity, Zasha comes out with a large suitcase.
+
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+ *sigh* Is Penny still not done? Come on, we've got no time to lose...<</speechpatreon>>
+You hear Penny rushing through her stuff and before 5 minutes pass, she goes out with her suitcase.
+
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Finally... alright, let's go!<</speechpatreon>>
+The four of you walk through the market and to the center of the city.
+
+<div class="center"><img src="dockings/casablanca/casafuck.gif" width="50%"></div>
+<<speech "You" "''$name'':">>
+Damn, where did all these people came from?<</speech>>
+<<speech "tara" "''Tara'':">>
+Oh, wow. Looks like everyone is having fun out of the ship. Come on ladies, follow me inside. We'll be able to take out time before sailing.<</speech>>
+<<linkreplace "Into the ship">><<audio "casablanca" stop>><div class="center"><img src="places2/reception.jpg" width="50%"></div>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Wow! It's so classy!<</speechpatreon>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Heh... we haven't been living "the life", if you know what I mean...<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+Well, here you'll be part of the staff. Especially you, Zasha. You'll have to talk with the Captain, so you're clear on your duties. And you... *she points at Penny* I think you're going to love it here! You see, $name wasn't as pretty when she got on the ship.<</speech>>
+Tara gives you a turn, so Penny can take a good look at you.
+
+<<speech "tara" "''Tara'':">>
+He was a bit rebelious at first, but we are very nice here and managed to convince him... *wink*<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+... Really?<</speechpatreon>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+I've had lots of issues with others, but not Penny. She's been a very good puppy from the start. So, where is my luxury suite?<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+Heh, I don't know about I would call it "luxury", but it's a lot compared to your little shithole in Casablanca. I'll lead you to your rooms then.<</speech>>
+You all follow Tara as she walks through the second deck. She finally stops.
+
+<div class="center"><img src="places2/pennydoor.jpg" width="50%"></div>
+<<speech "tara" "''Tara'':">>
+Here's Penny's room. You can get in, honey. Take your things and try to relax a bit. Your training will resume tomorrow.<</speech>>
+Penny takes her stuff and does so. Once she closes the door, the three of you continue walking until you reach the third deck. Tara stops again.
+
+<<speech "tara" "''Tara'':">>
+And...<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+This'll be mine, yes.<</speechpatreon>>
+She takes her stuff and grabs the keycard from Tara's hand.
+
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+So, I should be aware of what exactly will be my duties here.<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+Um, yeah for sure. Captain will speak to you soon enough. I believe she mentioned helping at the gym.<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Gym? Jesus, I hope you didn't bring me for that. Anyway, that'll be all for today, right?<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+Right.<</speech>>
+Zasha offers one last cold smile and closes the door. You both stare at each other, a bit surprised by her passive-aggresivenes.
+
+<<speech "tara" "''Tara'':">>
+Ahem... anyway, I'll let you go now, $name. I still have some stuff to do around here.<</speech>>
+You nod and smile before getting back to your room.
+
+<div class="center"><img src="places2/bedroomship.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(Finally, I'm back!)<</speech>>
+It doesn't take long for you to throw yourself on your soft bed and take a well deserved nap.
+
+...
+
+...
+
+...
+
+<<linkreplace "THUMP">><span class="onomatopeya">THUMP</span><<if ndef $mutefx>><<audio "laughbath" play>><<else>><</if>>
+
+You can hear women laughing and talking outside, in the corridor.
+
+<<speech "You" "''$name'':">>
+(Would they shut up...)<</speech>>
+You can usually hear women coming a bit tipsy to their rooms, but tonight really seems to be quite special. You put your ear next to the wall:
+
+<<speech "nobody" "''Low manly voice'':">>
+ *kiss, kiss* Damn girl, you gonna rip these pants off.<</speech>>
+<<speech "nobody" "''High-pitched girl voice'':">>
+ *groan* I'm very thirsty...<</speech>>
+<<speech "nobody" "''Low manly voice'':">>
+I got you covered, girl. Want some milk? Gotta work for it though.<</speech>>
+<<speech "nobody" "''High-pitched girl voice'':">>
+OMG! Your cock is too big!<</speech>>
+<<speech "nobody" "''Low manly voice'':">>
+Now's too late for regrets, little girl...<</speech>>
+<<speech "nobody" "''High-pitched girl voice'':">>
+ *squeal* Break me, daddy...<</speech>>
+...
+
+...
+
+...
+
+<<speech "You" "''$name'':">>
+(How am I supposed to sleep like this...?)<</speech>>
+You wait for them to finish, but although she keeps climaxing, the moaning doesn't seems to stop. You're too tired and finally drift off.
+
+<<click 'Sleep' Dreams>><<set $anatomy to 8, $styleclass to 8, $jada to 3, $dance to 6, $officedoc to 9, $review to 5, $gym to 8, $capt to 16, $kitchen to 12, $dinner to 7, $logstart to true, $stage to 0, $announcement3 to false, $sample to 0, $lab to 2>><<adddays 1>><<if $gameDate.getHours() gte 0 and $gameDate.getHours() lt 8>><<run $gameDate.setHours (8)>><<run $gameDate.setMinutes (0)>><<else>><<run $gameDate.setHours (8)>><<run $gameDate.setMinutes (0)>><</if>><</click>><</linkreplace>><</linkreplace>><<if ndef $mute>><<audio ":music" unmute>><<else>><</if>><<audio "menus" stop>><<audio "touriststalk" stop>><<audio "dreams" stop>>
+
+

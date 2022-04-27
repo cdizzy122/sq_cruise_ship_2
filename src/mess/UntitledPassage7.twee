@@ -1,0 +1,20 @@
+:: Untitled Passage 7 {"position":"1784,1558","size":"100,100"}
+[[Captainoffice]]
+[[obeyt]]<<initInv>><<set
+$Itinerary to {
+	id   : "iti.nerary",
+	name : "Itinerary",
+	count : 1
+}>><<set
+$Schedule to {
+	id   : "sche.dule",
+	name : "Schedule",
+	count : 1
+}>><<set
+$Map to {
+	id   : "map.map",
+	name : "Map",
+	count : 1
+}>><<set $obeyt to 1>><<set $capt to 6>><<set $cage to true, $under1 to true>>
+
+

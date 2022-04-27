@@ -1,0 +1,9 @@
+:: Peek through the window [textback] {"position":"4396,868","size":"100,100"}
+<<removeclass "html">><<addclass "html" "forest">><<if $window is 1>><img src="dockings/nudist/3blow.jpg" width="50%">
+<<elseif $window is 2>><img src="dockings/nudist/3some.jpg" width="50%"><<elseif $window is 3>><img src="dockings/nudist/cumshot.gif" width="50%"><</if>>
+
+<<speech "You" "''$name'':">>
+I better let them alone. They seem to be helping each other very well. Nakes me feel like such a good person... I better get out of here, my cage is getting too tight mmm... *rubs balls*<</speech>>
+[[Return|Forest]]<<if ndef $mute>><<audio "spanish" unmute>><<else>><</if>><<if ndef $mutefx>><<audio "sea" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

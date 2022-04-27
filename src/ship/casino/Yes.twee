@@ -1,0 +1,4 @@
+:: Yes
+<<set $winloose to either("Aha", "Loose", "Aha", "Loose", "Aha", "Loose", "Loose", "Aha", "Loose")>><<goto $winloose>>
+
+

@@ -1,0 +1,9 @@
+:: Exotic species [textback] {"position":"3692,1539","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><div class="center"><img src="dockings/purpleq.jpg" width="60%"></div>
+A bright purple one cathches your eye. The informative note says:
+
+<div class="center">//''Pseudanthias Pascalus:'' The "Purple Queen" as it is known by, is an exotic species from Australia. Its bones are used to make aphrodisiac tonics for men and women. It is believed by the locals that the toxins in its scales provide fertility for women. Although these toxins can also cause testosterone deficiency in males, so it's considered dangerous.//</div>
+<<if $purp is true>><<linkreplace "Tap the glass">>That was boring...<</linkreplace>><<else>>[[Tap the glass]]<</if>>
+[[Return|Into the Aquarium]]<<audio "menus" stop>><<if ndef $mute>><<audio "mystery" unmute>><<else>><</if>>
+
+

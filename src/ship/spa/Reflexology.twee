@@ -1,0 +1,10 @@
+:: Reflexology [textback] {"position":"2516,527","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spa">><div class="center"><img src="massages/foot.jpg" width="60%">
+
+The masseuse gives you a powerful relaxing foot massage. You feel very rejuvenized.
+
+<span class="notplus">''STRESS -40''</span>
+
+[[Return|Massage]]<<set $stress to $stress -40>></div><<addmins 30>><<audio "menus" stop>>
+
+

@@ -1,0 +1,9 @@
+:: Stores [textback] {"position":"953,733","size":"100,100"}
+<div class="center"><img src="places1/startstores.jpg" width="60%"></div>
+A long street full of stores of all kinds. Here's where you bought everything in your house when you first moved in.
+
+<<speech "You" "''$name'':">>
+(Nothing to buy right now...)<</speech>>
+[[Return|Go to city]]<<audio "menus" stop>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "touriststalk" play>>
+
+

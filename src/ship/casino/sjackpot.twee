@@ -1,0 +1,6 @@
+:: sjackpot [textback] {"position":"2938,1144","size":"100,100"}
+<<removeclass "html">><<addclass "html" "velvet">>''+40 POINTS''
+
+[[Return|Slot machine]]<<set $svip to $svip + 1, $points to $points +40>>
+
+

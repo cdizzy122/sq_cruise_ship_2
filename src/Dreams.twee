@@ -1,0 +1,149 @@
+:: Dreams [spiral noborder textback] {"position":"1163,1080","size":"100,100"}
+<<removeclass "html">><<audio ":back" mute>><<audio "dreams" volume 0.7 play loop>><<if $lust is 100>><<if $cage is true>>You are very tired...
+
+You go to bed and fall asleep...
+
+<div class="center"><span class="fade-in-out"><img src="dreams/hornycage.gif" width="50%"></span>
+
+<<timed 1.3s>>This cage is getting tight...
+
+<<next 1.3s>><span class="fade-ins">The metallic touch on your skin doesn't let you relax...</span>
+
+<<next 1.3s>><span class="fade-ins">You manage to sleep with an unsettling feeling in your guts...</span>
+
+<<next 1.3s>><<if $dayn gte 32>><<click "Wake up" "Robothypno">><<set $dreams to 0>><</click>><<else>><<click "Wake up" "Goodmorning">><<set $dreams to 0>><</click>><</if>><</timed>></div><<else>>You are very tired...
+
+You go to bed and fall asleep...
+
+<div class="center"><span class="fade-ins"><img src="dreams/horny.gif" width="70%"></span>
+
+<<timed 1.3s>><span class="fade-ins">You are too horny to sleep...</span>
+
+<<next 1.3s>><span class="fade-ins">But you try to relax...</span>
+
+<<next 1.3s>><span class="fade-ins">All these women are crazy, but they turn you on so much, don't they...?</span>
+
+<<next 1.3s>><<if $dayn gte 32>><<click "Wake up" "Robothypno">><<set $dreams to 0>><</click>><<else>><<click "Wake up" "Goodmorning">><<set $dreams to 0>><</click>><</if>><</timed>></div><</if>><<else>><<if $stress is 100>>You are very tired...
+
+You go to bed and fall asleep...
+
+<div class="center"><span class="fade-ins"><img src="dreams/stress.gif" width="70%"></span>
+<<timed 1.3s>><span class="fade-ins">You are too stressed to sleep...</span>
+
+<<next 1.3s>><span class="fade-ins">You hear noises all around you...</span>
+
+<<next 1.3s>><span class="fade-ins">But you try to relax...</span>
+
+<<next 1.3s>><span class="fade-ins">These women treat you like a piece of trash...</span>
+
+<<next 1.3s>><<if $dayn gte 32>><<click "Wake up" "Robothypno">><<set $dreams to 0>><</click>><<else>><<click "Wake up" "Goodmorning">><<set $dreams to 0>><</click>><</if>><</timed>></div><<else>><<if $dreams is 0>>
+
+
+<<if $dayn gte 32>><<goto "Robothypno">><<else>><<goto "Goodmorning">><</if>>
+
+
+
+<<elseif $dreams is 1>>You are very tired...
+
+You go to bed and fall asleep...
+
+<<if $dayn gte 32>><<click "Skip dream" Robothypno>><<set $dreams to 0>><</click>><<else>><<click "Skip dream" Goodmorning>><<set $dreams to 0>><</click>><</if>>
+
+<div class="center"><span class="fade-ins"><img src="dreams/pinkspiral.gif" width="70%"></span>
+
+<<timed 1.3s>><span class="fade-ins">Your head is spinning...</span><<next 1.3s>>
+
+<span class="fade-ins">Your mind is changing...</span><<next 1.3s>>
+
+<<if $dayn gte 32>><<click "Wake up" Robothypno>><<set $dreams to 0>><</click>><<else>><<click "Wake up" Goodmorning>><<set $dreams to 0>><</click>><</if>><</timed>></div><<elseif $dreams is 2>>You are very tired...
+
+You go to bed and fall asleep...
+
+<<if $dayn gte 32>><<click "Skip dream" "Robothypno">><<set $dreams to 0>><</click>><<else>><<click "Skip dream" "Goodmorning">><<set $dreams to 0>><</click>><</if>>
+
+<div class="center"><span class="fade-ins"><img src="dreams/bimbo1.gif" width="50%"></span>
+
+<<timed 1.3s>><span class="fade-ins">All these women don't respect you...</span><<next 1.3s>>
+
+<span class="fade-ins">They do what they want with you...</span><<next 1.3s>>
+
+<span class="fade-ins">Maybe you are not so smart...</span><<next 1.3s>>
+
+<span class="fade-ins">Your head empties as pictures of hot women's bodies flash on your brain...</span><<next 1.3s>>
+
+<<if $dayn gte 32>><<click "Skip dream" "Robothypno">><<set $dreams to 0>><</click>><<else>><<click "Wake up" "Goodmorning">><<set $dreams to 0>><</click>><</if>><</timed>></div><<elseif $dreams is 3>>You are very tired...
+
+You go to bed and fall asleep...
+
+<<if $dayn gte 32>><<click "Skip dream" "Robothypno">><<audio "gm" play>><<set $dreams to 0>><</click>><<else>><<click "Skip dream" "Goodmorning">><<audio "gm" play>><<set $dreams to 0>><</click>><</if>>
+
+<div class="center"><span class="fade-in-out"><img src="dreams/sph1.gif" width="80%"></span>
+
+<<timed 1s>><span class="fade-ins">They don't treat you like a man...</span><<next 1.3s>>
+
+<span class="fade-ins">You don't have what it takes to be called like that...</span><<next 1.3s>>
+
+<span class="fade-ins">They are talking about it with each other...</span><<next 1.3s>>
+
+<span class="fade-ins">Acceptance is the next step to the embarrasment PIN DICK...</span><<next 1.3s>>
+
+<<if $dayn gte 32>><<click "Skip dream" "Robothypno">><<audio "gm" play>><<set $dreams to 0>><</click>><<else>><<click "Wake up" "Goodmorning">><<set $dreams to 0>><</click>><</if>><</timed>></div><<elseif $dreams is 4>>You are very tired...
+
+You go to bed and fall asleep...
+
+<<if $dayn gte 32>><<click "Skip dream" "Robothypno">><<audio "gm" play>><<set $dreams to 0>><</click>><<else>><<click "Skip dream" "Goodmorning">><<set $dreams to 0>><</click>><</if>>
+
+<div class="center"><span class="fade-ins"><img src="dreams/remy1.gif" width="65%"></span>
+
+<<timed 1.3s>><span class="fade-ins">Are you man enough for $gfname?</span><<next 1.3s>>
+
+<span class="fade-ins">Don't you think she deserves more?</span><<next 1.3s>>
+
+<span class="fade-ins">That David with his huge schlong... he's an asshole but he gets the girl...</span><<next 1.3s>>
+
+<span class="fade-ins">Can you really blame her...?</span><<next 1.3s>>
+
+<<if $dayn gte 32>><<click "Skip dream" "Robothypno">><<audio "gm" play>><<set $dreams to 0>><</click>><<else>><<click "Wake up" "Goodmorning">><<set $dreams to 0>><</click>><</if>><</timed>></div><<elseif $dreams is 5>>You are very tired...
+
+You go to bed and fall asleep...
+
+<<if $dayn gte 32>><<click "Skip dream" "Robothypno">><<audio "gm" play>><<set $dreams to 0>><</click>><<else>><<click "Skip dream" "Goodmorning">><<set $dreams to 0>><</click>><</if>>
+
+<div class="center"><span class="fade-in-out"><img src="dreams/double.gif" width="80%"></span>
+
+<<timed 1.3s>><span class="fade-ins">They sure are enjoying that big cock...</span><<next 1.3s>>
+
+<span class="fade-ins">They are looking at you...</span><<next 1.3s>>
+
+<span class="fade-ins">They want you to suck it too...</span><<next 1.3s>>
+
+<span class="fade-ins">If they like it, maybe it's not that bad...</span><<next 1.3s>>
+
+<<if $dayn gte 32>><<click "Skip dream" "Robothypno">><<audio "gm" play>><<set $dreams to 0>><</click>><<else>><<click "Wake up" "Goodmorning">><<set $dreams to 0>><</click>><</if>><</timed>></div><<elseif $dreams is 6>>You are very tired...
+
+You go to bed and fall asleep...
+
+<<if $dayn gte 32>><<click "Skip dream" "Robothypno">><<audio "gm" play>><<set $dreams to 0>><</click>><<else>><<click "Skip dream" "Goodmorning">><<set $dreams to 0>><</click>><</if>>
+
+<div class="center"><span class="fade-in-out"><img src="dreams/blackcum.gif" width="72%"></span>
+
+<<timed 1.3s>><span class="fade-ins">That taste...</span><<next 1.3s>>
+
+<span class="fade-ins">It wasn't as bad as I thought...</span><<next 1.3s>>
+
+<span class="fade-ins">And his cock...</span><<next 1.3s>>
+
+<span class="fade-ins">So big and so black...</span><<next 1.3s>>
+
+<<if $dayn gte 32>><<click "Skip dream" "Robothypno">><<audio "gm" play>><<set $dreams to 0>><</click>><<else>><<click "Wake up" "Goodmorning">><<set $dreams to 0>><</click>><</if>><</timed>></div><</if>><</if>><</if>>
+
+<<if $receivemessages is true>>
+
+<<if $setcuckpath is 1>><<if $dayn is 1>><<set $smsm1a to true>><<else>><</if>><<if $dayn is 4>><<set $smsm2a to true>><<else>><</if>><<if $dayn is 15>><<set $smsm5a to true>><<else>><</if>><<else>><<set $smsm1a to false, $smsm2a to false, $smsm5a to false>><</if>>
+
+<<if $dayn is 11>><<set $smsm3 to true>><<else>><</if>><<if $dayn is 20>><<set $smsm7 to true>><<else>><</if>><<else>><</if>>
+
+<<if $dayn is 28>><<set $announcement3 to true>><<else>><</if>>
+<<if $dayn gte 32>><<set $robothypno to random(1,6)>><<else>><</if>>
+
+

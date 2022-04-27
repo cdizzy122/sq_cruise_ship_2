@@ -1,0 +1,213 @@
+:: backalley [textback] {"position":"3281,732","size":"100,100"}
+<<removeclass "html">><<addclass "html" "rome">><<if ndef $backalley>><<audio "romebar" volume 0.45 play loop>><<audio "rome" mute>><div class="center"><img src="dockings/rome/backalley.jpg" width="60%"></div>
+<<speech "You" "''$name'':">>
+(Wow, it's surprisingly dirty for just one street, and next to the sea also...)<</speech>>
+You hear some weird noises, but can't figure out where exactly are they coming from. 
+
+<<speech "You" "''$name'':">>
+(Must be the people in the bar...)<</speech>>
+[[Return|Bari]]
+
+\\<<elseif $backalley is 0>><<audio "romebar" volume 0.45 play loop>><<audio "rome" mute>><div class="center"><img src="dockings/rome/backalley.jpg" width="60%"></div>
+<<speech "You" "''$name'':">>
+(Maybe I should look around the Gelateria...)<</speech>>
+You start walking across the back alley, and as you get closer to the Gelateria, you hear the weird sounds getting louder.
+
+<<speech "You" "''$name'':">>
+(Oh, it's definitely coming from here!)<</speech>>
+You get near to the closed back door. Above it, you can see a vent. An idea comes to mind. You grab one of the boxes in the alley and step on it so your eyes reach the vent.
+
+<div class="center"><img src="dockings/rome/vent1.png" width="60%"></div>
+<<speech "nobody" "''Stranger'':">>
+Ahh...<</speech>>
+<span class="onomatopeya">GAG GAG GAG</span>
+
+<<speech "You" "''$name'':">>
+I can see the lights moving, but... I don't know what's happening...<</speech>>
+Of course, you have an idea of what the situation could be, but you don't want to judge before seeing it.
+
+<<speech "You" "''$name'':">>
+(The vent metal wings are closed too tight... If only I could unscrew it a bit, I should be able to look through.)<</speech>>
+[[Return|Bari][$cinema to 1]]
+
+
+
+\\<<elseif $backalley is 1>><<audio "romebar" volume 0.45 play loop>><<audio "rome" mute>><div class="center"><img src="dockings/rome/backalley.jpg" width="60%"></div>
+You start walking across the back alley, and as you get closer to the Gelateria, you hear the weird sounds getting louder.
+
+<<speech "You" "''$name'':">>
+(Oh, it's definitely coming from here!)<</speech>>
+You get near to the closed back door. Above it, you can see a vent. An idea comes to mind. You grab one of the boxes in the alley and step on it so your eyes reach the vent.
+
+<div class="center"><img src="dockings/rome/vent1.png" width="60%"></div>
+<<speech "nobody" "''Stranger'':">>
+Ahh...<</speech>>
+<span class="onomatopeya">GAG GAG GAG</span>
+
+<<speech "You" "''$name'':">>
+I can see the lights moving, but... I don't know what's happening...<</speech>>
+You take out the screwdriver from the builder's belt, and start unscrewing the screws on the sides of the vent. After a few seconds, you see how the metal wings are completely loose and you are able to lift them up and see through.
+
+<<linkreplace "Peek through the vent">><span class="fade-ins"><div class="center"><img src="dockings/rome/vent2.gif" width="60%"></div>
+<span class="onomatopeya">GAG GAG GAG</span>
+
+<<speech "You" "''$name'':">>
+(OMG, is this a fucking undercover brothel??)<</speech>>
+You get nervous and throw the screwdriver to the ground, making a loud metallic noise, which makes the girl stop sucking and look directly to the door. You loose your balance and fall off from the box.
+
+<<speech "You" "''$name'':">>
+OW!<</speech>>
+<span class="onomatopeya">CREEK</span>
+
+Suddenly, the back door opens and the woman you saw through the vent comes out, with a smile and a frown on her face.
+
+<<speechpatreon "Jessica" "">><span class="imgpop Jessica">''Jessica'':</span>
+Hey, what the fuck! You're not a kid! Why are you spying on me?<</speechpatreon>>
+You can tell she's definitely not from here, but it's very obvious what she was doing there.
+
+<<speech "You" "''$name'':">>
+No, I'm sorry. I didn't mean to...<</speech>>
+Suddenly, the boss from the cinema place appears half-naked behind the girl.
+
+<<speech "nobody" "''Master''">>
+Hey, I know you! So that's what you wanted the screwdriver for, huh? Hahaha sneaky!<</speech>>
+<<speechpatreon "Jessica" "">><span class="imgpop Jessica">''Jessica'':</span>
+Don't talk to him like that! He's a fucking pervert! Get away, shush!<</speechpatreon>>
+<<speech "nobody" "''Master''">>
+Hey, girl, don't talk to him like that...<</speech>>
+<<speechpatreon "Jessica" "">><span class="imgpop Jessica">''Jessica'':</span>
+What? You want me to be nice, just because he's a sissy pervert. Look at "her", she probably has a dildo collection. Get out!<</speechpatreon>>
+<<speech "You" "''$name'':">>
+I-I'm sorry...<</speech>>
+<<speech "nobody" "''Master''">>
+You heard that? "She" is sorry.<</speech>>
+The man walks towards you and helps you get up. You can tell he is checking your ass out as you stand up.
+
+<<speech "nobody" "''Master''">>
+I'll tell you what, Jess. How many times have I visited you? 10 times in the last month? I'm a usual, right? How about a favour for a "friend"?<</speech>>
+Jessica doesn't seem very pleased...
+
+<<speechpatreon "Jessica" "">><span class="imgpop Jessica">''Jessica'':</span>
+Yeah, so what? What do you want? My time is money, so be quick.<</speechpatreon>>
+<<speech "nobody" "''Master''">>
+Let's keep her, Jess. Just for fun, huh?<</speech>>
+<<speechpatreon "Jessica" "">><span class="imgpop Jessica">''Jessica'':</span>
+... two guys, double the money. Final deal.<</speechpatreon>>
+<<speech "nobody" "''Master''">>
+I'll pay for "her"... *looks at you and smiles*<</speech>>
+You don't know how to react. On one side, you wanted to see what was going on inside the Gelateria, and now you have the opportunity, but this man is giving you the chills. The guy pats your ass, making you give a step forward.
+
+<<speech "nobody" "''Master''">>
+C'mon, everyone inside. No time to loose.<</speech>>
+He leaves you behind and walks in. Jessica stays there looking at you with a cold look on her face. Then she walk to you.
+
+<<speechpatreon "Jessica" "">><span class="imgpop Jessica">''Jessica'':</span>
+You do what I say, understood? This is my best client and you better not screw this up for me. And perhaps, only perhaps... I will make it up for you later. *wink*<</speechpatreon>>
+You know by her attitude and the way she talks that she know "what" you are. She knos you are a sissy. And she can feel your curiousity and lust grow.
+
+<<speech "You" "''$name'':">>
+Ok... I-<</speech>>
+<<speechpatreon "Jessica" "">><span class="imgpop Jessica">''Jessica'':</span>
+No need to talk, baby girl. Just be ready in case you need to fill your mouth... *smiles*<</speechpatreon>>
+Jessica takes ahold of your ass and pushes you inside the back door. Then she closes it.
+
+<<linkreplace "Step in">><<removeclass "html">><<addclass "html" "home">><<audio "romebar" stop>><<if ndef $mutefx>><<audio "slam" play>><<else>><</if>>The man is already sat on the same chair he was before. He points to a cushion on the floor next to him.
+
+<<speech "nobody" "''Master''">>
+Come here and have a better look.<</speech>>
+You walk to him and kneel on the cushion.
+
+<<speech "You" "''$name'':">>
+(Thank god... at least they have a cushion...)<</speech>>
+Without further explanation, Jessica proceeds to suck his cock just as she was doing, but after a minute, you can tell the man is not completely satisfied.
+
+<<speech "nobody" "''Master''">>
+Let's stand up better...<</speech>>
+He stands up, blocking your view of the blowjob, which bums you out a bit. You re-position yourself again, so your head is at the same height as Jessica's. You notice how her eyes sparkle as she opens her mouth to talk.
+
+<<speechpatreon "Jessica" "">><span class="imgpop Jessica">''Jessica'':</span>
+I have an idea, guys... I think this pretty "gurl" need to learn a bit, don't you think?<</speechpatreon>>
+<<speech "nobody" "''Master''">>
+What? Hum...<</speech>>
+<<speechpatreon "Jessica" "">><span class="imgpop Jessica">''Jessica'':</span>
+You know, maybe you could learn a bit, sissy boy. You want me to teach you a lesson?<</speechpatreon>>
+You can tell she is an expert in what she does, since the moment she mentions that, the builder's cock twitches and hardens even more.
+
+<<speechpatreon "Jessica" "">><span class="imgpop Jessica">''Jessica'':</span>
+Oooh, he likes it. I like it. Then we're doing it! Come closer sissy, and have a good look.<</speechpatreon>>
+<<speech "You" "''$name'':">>
+(She doesn't care if I like it or not... she knows what she's doing...)<</speech>>
+Her attitude remind you a lot of Tara, Captain T, and the way they usually "teach".
+
+You stand there, watching Jessica explain, step by step, how she sucks a dick.
+
+<<speechpatreon "Jessica" "">><span class="imgpop Jessica">''Jessica'':</span>
+See? Now, first, you've got to worship it... Like this...<</speechpatreon>>
+<div class="center"><img src="dockings/rome/worship.gif" width="50%"></div>
+<<speechpatreon "Jessica" "">><span class="imgpop Jessica">''Jessica'':</span>
+Then, you have to lick it well and suck it, up and down. *gag, gag* Don't be afraid to choke a bit, sissy. Don't give me that look!<</speechpatreon>>
+<<speech "nobody" "''Master''">>
+Hhahaha... mm...<</speech>>
+<<speechpatreon "Jessica" "">><span class="imgpop Jessica">''Jessica'':</span>
+Hahaha, c'mon don't give me that cute look!<</speechpatreon>>
+Jessica suddenly grabs the builder's big cock and whips it on your face. 
+
+<div class="center"><img src="dockings/rome/slap.gif" width="50%"></div>
+Luckily, you are far away enough, so only the tip hits you, but that's enough to make it hurt.
+
+<<speech "You" "''$name'':">>
+Owie!<</speech>>
+<<speechpatreon "Jessica" "">><span class="imgpop Jessica">''Jessica'':</span>
+"owie"? Hahaha Such a wussy...<</speechpatreon>>
+The builder is clearly excited by Jessica's humiliation, and so she starts sucking harder and harder. Without even thinking about it, you grab your clitty and rub your balls, trying to pleasure yourself without calling the attention upon yourself.
+
+<<speechpatreon "Jessica" "">><span class="imgpop Jessica">''Jessica'':</span>
+Oh, look at her! She's trying to rub one out... I think she likes your dick... She may be a bit jealous!<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Huh?<</speech>>
+<<speech "nobody" "''Master''">>
+Oh, fuck! That sissy face! You want some too?<</speech>>
+<<speechpatreon "Jessica" "">><span class="imgpop Jessica">''Jessica'':</span>
+Yeah! Give it to her!<</speechpatreon>>
+You see the builder turn around, stroking his dick hard. You know something is going to happen, so you start to stand up, trying to get away from the shot, but Jessica hugs you from behind and puts her head next to yours.
+
+<<speechpatreon "Jessica" "">><span class="imgpop Jessica">''Jessica'':</span>
+Open your mouth, sissy, just like this *Aaaaa*<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Nono, I don't-<</speech>>
+<<speech "nobody" "''Master''">>
+Fuck! Yeah!!! Take this nut!<</speech>>
+<div class="center"><img src="cumshot.gif" width="50%"></div>
+You close your mouth and eyes. But no matter how much you try, you feel some drops of cum fall on your right cheek and nose.
+
+<span class="onomatopeya">KNOCK KNOCK</span>
+
+<<speech "nobody" "''Woman'':">>
+Time up! Next client on the line!<</speech>>
+<<speechpatreon "Jessica" "">><span class="imgpop Jessica">''Jessica'':</span>
+Alright, big man. Just on time, get out! Now, now!<</speechpatreon>>
+The builder, still a bit groggy from the orgasm, gets his pants on and walks out the door. You see how Jessica walks out and talks to the woman.
+
+<<speechpatreon "Jessica" "">><span class="imgpop Jessica">''Jessica'':</span>
+Ok, now I'm on a time out... *opens the door and smokes a cigarette*<</speechpatreon>>
+You get up and clean yourself with the same towel Jessica used. Then you stand up and walk out the back door.
+
+<<speechpatreon "Jessica" "">><span class="imgpop Jessica">''Jessica'':</span>
+Hey, wait. You did well there... you are probably the sexiest sissy I've ever seen. Although you could be a lot better with some hard work. Your mistress has done a nice job.<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Um... thanks?<</speech>>
+<<speechpatreon "Jessica" "">><span class="imgpop Jessica">''Jessica'':</span>
+Oh, and before you get going, here you go, your money. It's only fair, you almost did half the job there... He was into you, not me. You'd be surprised how many men are like that. Anyway... Welcome to Rome! Hahahaha<</speechpatreon>>
+You smile at Jessica's joke and say goodbye as she gets to work again and closes the door.
+
+ <div class="center">''*50 Euros earned*''</div>
+[[Back to port|Bari][$backalley to 2, $fifty to true]]<</linkreplace>></span><</linkreplace>>
+
+
+
+\\<<elseif $backalley is 2>><div class="center"><img src="dockings/rome/backalley.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(Same alley than before, the back door is closed though. Such a shame, I kind of liked that Jessica...)<</speech>>
+[[Back to port|Bari]]<</if>><<if ndef $mute>><<audio "romebar" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

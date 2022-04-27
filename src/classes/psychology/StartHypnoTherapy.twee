@@ -1,0 +1,105 @@
+:: Start Hypno Therapy [textback spiral] {"position":"1551,291","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<audio "fireplace" stop>><<audio "dreams" volume 0.2 loop play>><span class="clean"><<if ndef $psychohypno>><div class="center"><video autoplay loop><source src="classes/psycho/1.mp4" type="video/mp4" width="15%">Your browser does not support the video tag.</video></div>
+<<speech "psycho" "''Jada'':">>
+So, which one of the girls do you think has had more fun in bed?<</speech>>
+
+<div class="center"><div class="row3"><div class="column3"><a data-passage="Hypnowrong"><span class="glow-on-hover">''The left one''</span></a><area shape="rect" coords="25,25,75,75" data-passage="Hypnowrong"></div><div class="column3">‏‏‎ ‎</div><div class="column3"><a data-passage="Hypnoright"><span class="glow-on-hover">''The right one''</span></a><area shape="rect" coords="25,25,75,75" data-passage="Hypnoright"></div></div></div>
+
+<<set $psychohypno to 0>>
+
+
+
+
+\\<<elseif $psychohypno is 0>><div class="center"><img src="classes/psycho/2.jpg" width="100%"></div>
+<<speech "psycho" "''Jada'':">>
+If your mistress told you to come serve her on this situation, what would usually be the right thing to do for a sissy?<</speech>>
+
+<div class="center"><div class="row3"><div class="column3"><a data-passage="Hypnoright"><span class="glow-on-hover">''Lick creampie by default''</span></a><area shape="rect" coords="25,25,75,75" data-passage="Hypnoright"></div><div class="column3">‏‏‎ ‎</div><div class="column3"><a data-passage="Hypnowrong"><span class="glow-on-hover">''The bull always comes first''</span></a><area shape="rect" coords="25,25,75,75" data-passage="Hypnowrong"></div></div></div>
+
+<<set $psychohypno to 1>>
+
+
+
+\\<<elseif $psychohypno is 1>><div class="center"><video autoplay loop><source src="classes/psycho/3.mp4" type="video/mp4" width="15%">Your browser does not support the video tag.</video></div>
+<<speech "psycho" "''Jada'':">>
+Alright, similar question but different context: Which one of these cuckolds is being better than the other?<</speech>>
+
+<div class="center"><div class="row3"><div class="column3"><a data-passage="Hypnoright"><span class="glow-on-hover">''The left one''</span></a><area shape="rect" coords="25,25,75,75" data-passage="Hypnoright"></div><div class="column3">‏‏‎ ‎</div><div class="column3"><a data-passage="Hypnowrong"><span class="glow-on-hover">''The right one''</span></a><area shape="rect" coords="25,25,75,75" data-passage="Hypnowrong"></div></div></div>
+
+<<set $psychohypno to 2>>
+
+
+
+\\<<elseif $psychohypno is 2>><div class="center"><img src="classes/psycho/4.jpg" width="100%"></div>
+<<speech "psycho" "''Jada'':">>
+Which one of these POVs would be your preferred one? Huh? *caresses your thighs*<</speech>>
+
+<div class="center"><div class="row3"><div class="column3"><a data-passage="Hypnoright"><span class="glow-on-hover">''The left one''</span></a><area shape="rect" coords="25,25,75,75" data-passage="Hypnoright"></div><div class="column3">‏‏‎ ‎</div><div class="column3"><a data-passage="Hypnowrong"><span class="glow-on-hover">''The right one''</span></a><area shape="rect" coords="25,25,75,75" data-passage="Hypnowrong"></div></div></div>
+
+<<set $psychohypno to 3>>
+
+
+
+\\<<elseif $psychohypno is 3>><div class="center"><video autoplay loop><source src="classes/psycho/5.mp4" type="video/mp4" width="15%">Your browser does not support the video tag.</video></div>
+<<speech "psycho" "''Jada'':">>
+All these BBCs might be making you horny, huh? Are you thinking about touching yourself? Can you tell me then, which one of these sissies is being a good sissy?<</speech>>
+
+<div class="center"><div class="row3"><div class="column3"><a data-passage="Hypnowrong"><span class="glow-on-hover">''The left one''</span></a><area shape="rect" coords="25,25,75,75" data-passage="Hypnowrong"></div><div class="column3">‏‏‎ ‎</div><div class="column3"><a data-passage="Hypnoright"><span class="glow-on-hover">''The right one''</span></a><area shape="rect" coords="25,25,75,75" data-passage="Hypnoright"></div></div></div>
+
+<<set $psychohypno to 4>>
+
+
+
+\\<<elseif $psychohypno is 4>><div class="center"><video autoplay loop><source src="classes/psycho/6.mp4" type="video/mp4" width="15%">Your browser does not support the video tag.</video></div>
+<<speech "psycho" "''Jada'':">>
+Do you have a good memory? Alphas and Betas produce a very different amount of ejaculate. Can you remember how many times more volume of cum do alphas produce?<</speech>>
+
+<div class="center"><div class="row3"><div class="column3"><a data-passage="Hypnowrong"><span class="glow-on-hover">''5 times more''</span></a><area shape="rect" coords="25,25,75,75" data-passage="Hypnowrong"></div><div class="column3">‏‏‎ ‎</div><div class="column3"><a data-passage="Hypnoright"><span class="glow-on-hover">''18 times more''</span></a><area shape="rect" coords="25,25,75,75" data-passage="Hypnoright"></div></div></div>
+
+<<set $psychohypno to 5>>
+
+
+
+\\<<elseif $psychohypno is 5>><div class="center"><img src="classes/psycho/7.jpg" width="100%"></div>
+<<speech "psycho" "''Jada'':">>
+Therefore, in which one of these examples is the use of a condom unacceptable?<</speech>>
+
+<div class="center"><div class="row3"><div class="column3"><a data-passage="Hypnoright"><span class="glow-on-hover">''The left one''</span></a><area shape="rect" coords="25,25,75,75" data-passage="Hypnoright"></div><div class="column3">‏‏‎ ‎</div><div class="column3"><a data-passage="Hypnowrong"><span class="glow-on-hover">''The right one''</span></a><area shape="rect" coords="25,25,75,75" data-passage="Hypnowrong"></div></div></div>
+
+<<set $psychohypno to 6>>
+
+
+
+\\<<elseif $psychohypno is 6>><div class="center"><img src="classes/psycho/8.jpg" width="100%"></div>
+<<speech "psycho" "''Jada'':">>
+Now back to another context: if that woman was your mistress, what would be the right thing to do in this situation?<</speech>>
+
+<div class="center"><div class="row3"><div class="column3"><a data-passage="Hypnowrong"><span class="glow-on-hover">''Fluff the cocks''</span></a><area shape="rect" coords="25,25,75,75" data-passage="Hypnowrong"></div><div class="column3">‏‏‎ ‎</div><div class="column3"><a data-passage="Hypnoright"><span class="glow-on-hover">''Lube up mistress' pussy''</span></a><area shape="rect" coords="25,25,75,75" data-passage="Hypnoright"></div></div></div>
+
+<<set $psychohypno to 7>>
+
+
+
+\\<<elseif $psychohypno is 7>><div class="center"><video autoplay loop><source src="classes/psycho/9.mp4" type="video/mp4" width="15%">Your browser does not support the video tag.</video></div>
+<<speech "psycho" "''Jada'':">>
+Here are two sissies that, just like you, can't control themselves. Can you tell which one of them is being a bad, BAD sissy?<</speech>>
+
+<div class="center"><div class="row3"><div class="column3"><a data-passage="Hypnoright"><span class="glow-on-hover">''The left one''</span></a><area shape="rect" coords="25,25,75,75" data-passage="Hypnoright"></div><div class="column3">‏‏‎ ‎</div><div class="column3"><a data-passage="Hypnowrong"><span class="glow-on-hover">''The right one''</span></a><area shape="rect" coords="25,25,75,75" data-passage="Hypnowrong"></div></div></div>
+
+<<set $psychohypno to 8>>
+
+
+
+\\<<elseif $psychohypno is 8>><div class="center"><img src="classes/psycho/10.jpg" width="100%"></div>
+<<speech "psycho" "''Jada'':">>
+Last one... to which one of these pictures do you feel more attracted to? Look at them closely.<</speech>>
+
+<div class="center"><div class="row3"><div class="column3"><a data-passage="Hypnowrong"><span class="glow-on-hover">''The left one''</span></a><area shape="rect" coords="25,25,75,75" data-passage="Hypnowrong"></div><div class="column3">‏‏‎ ‎</div><div class="column3"><a data-passage="Hypnoright"><span class="glow-on-hover">''The right one''</span></a><area shape="rect" coords="25,25,75,75" data-passage="Hypnoright"></div></div></div>
+
+<<set $psychohypno to 9>>
+
+
+
+\\<<elseif $psychohypno is 9>>THIS SHOUDN'T BE SHOWING<</if>>
+
+

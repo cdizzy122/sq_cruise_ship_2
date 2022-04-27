@@ -1,0 +1,712 @@
+:: Show [textback] {"position":"2141,1161","size":"100,100"}
+<<removeclass "html">><<addclass "html" "stage">><<if $dayn is 7>><<if ndef $show>>As you enter the stage the first thing you notice is how much the space has been re-conditioned for the new activity. There is a giant screen set on the stage, and an ad is already being projected in a similar way to a cinema. Although the screen seem a bit small for the capacity of the room, the light and atmosphere is so comfy that it makes you forget about it.
+
+<<speech "You" "''$name'':">>
+(They really have it all figured out... must be the classiest cinema I've ever been to...)<</speech>>
+It seems like the movie is just about to start, so you decide to look for a seat.
+
+[[Sit at the back|Show][$show to 0]]
+
+\\<<elseif $show is 0>><<speech "You" "''$name'':">>
+(I should probably sit at the back, so nobody bothers me...)<</speech>>
+You walk in the middle of the dark across the theatre until you reach the back rows. You hear the last ad ending and decide to take a seat on one of the places in the corner.
+
+<<speech "You" "''$name'':">>
+(Here's ideal!)<</speech>>
+<div class="center">//TURN YOUR MOBILE DEVICES OFF AND ENJOY THE MOVIE. THANK YOU.//</div>
+
+<span class="onomatopeya">*CLICK*</span>
+
+<<linkreplace "The movie starts...">><<scrolldown>><span class="fade-ins"><div class="center"><video autoplay loop>
+<source src="stage/cinema1.mp4" type="video/mp4" width="50%">
+Your browser does not support the video tag.
+</video></div></span>
+<<timed 3s>><span class="fade-ins"><<speech "You" "''$name'':">>
+(What?! The movie is called...''cuck''? Is this what I think it is...?)<</speech>></span><</timed>>
+
+<<timed 4s>><<linkreplace "You hear a sound to your right...">><<speech "nobody" "''???'':">>
+ *takes picture* Does the situation look familiar, cucky? *send voicenote*<</speech>>
+<<speech "You" "''$name'':">>
+(Is that woman really using her phone? How rude...)<</speech>>
+<<speech "nobody" "''???'':">>
+Mmm... yeah, look how wet this makes me... *takes picture* This movie reminds me of our wedding night... *giggle*<</speech>>
+<<speech "tara" "''Tara:''">>
+Hey! Shhh... we're trying to watch a movie!<</speech>>
+<<speech "nobody" "''???'':">>
+Oh! Sorry... *locks her phone*<</speech>>
+Tara had just come in through one of the side doors that lead to the lounge. You can barely see her figure in the middle of the darkness, but she recognizes you instantly and goes to sit next to you.
+
+<<speech "tara" "''Tara:''">>
+ *whispers to your ear* Hey, babe... are you enjoying the movie?<</speech>>
+<<speech "You" "''$name'':">>
+Um... I don't think it's my kind of movie... I don't get why would he want his wife to do that to him...<</speech>>
+<<speech "tara" "''Tara:''">>
+Are you sure you are not liking it? *puts her hand on your thigh*<</speech>>
+You dick start getting inevitably hard as her soft hand rubs your thigh and gets slowly closer to your crotch.<<if $cage is true>> Suddenly, you feel her touch your cage, sending shivers through your spine.
+
+<<speech "tara" "''Tara:''">>
+ *smiles* Good boy... enjoy the movie...<</speech>>
+Your penis is soon straining against the cage and leaking pre-cum, meanwhile Tara puts her arm around you and whispers something from time to time. Her perfume and comments are constantly distracting you from the movie, but you can't help but love it.
+
+After the short movie finishes, the cinema lights turn on again.
+
+<<speech "tara" "''Tara:''">>
+It was nice watching such a movie with you, you're just like a little teddybear! I love it! I'm going to get closer to the screen for the next one, you coming?<</speech>>
+<<speech "You" "''$name'':">>
+(I still don't want to get where all the girls are...)No, I-I think I'm fine...<</speech>>
+<<speech "tara" "''Tara:''">>
+Oh, well, you suit yourself! *throws kiss and walks to another row*<</speech>>
+You notice a countdown has appeared on the screen:
+
+''//NEXT MOVIE IN 3:00 MINUTES. LEVEL 2.//''
+
+
+
+
+\\<<else>>Suddenly, you feel her hand grabbing your balls through the skinny pants.
+
+<<speech "tara" "''Tara:''">>
+Oh, you bad boy... still free? Well, then, I guess I shouldn't be touching you too much, in case you... you know *squirting sound* Hahaha<</speech>>
+Tara gets up and walk away to another seat closer to the screen.
+
+<<speech "You" "''$name'':">>
+(Huh... I was hoping she would stay...)<</speech>>
+The annoying woman from before starts taking pictures and sending voice notes to her husband again.
+
+After the short movie finishes, the cinema lights turn on again and a countdown appears on the screen:
+
+''//NEXT MOVIE IN 3:00 MINUTES. LEVEL 2.//''<</if>>
+
+<<speech "You" "''$name'':">>
+(Oh, there's another one? Yeah, that's true! It said "marathon"... I'll stay for the next one. Although I wonder what that "level 2" means...)<</speech>>
+After the 3 minutes pass, everyone shuts up and the lights turns off. The movie starts, but you can tell this one's different.
+
+<div class="center"><img src="stage/cinema2.gif" width="60%"></div>
+<<speech "You" "''$name'':">>
+(What the fuck?! This is literally porn!)<</speech>>
+<<speech "nobody" "''???'':">>
+OMG hubby, would you look at that? Does it remind you of someone? ...no, not you! Hahaha<</speech>>
+You hear some women like the hotwife in your same row shout "woo", "you go, girl" and things like that. The whole situation starts getting weird when the sound of the theatre gets louder than the movie. It's not like you weren't enjoying yourself, but sharing the space with all these crazy women is making you feel ashamed of being horny.
+
+After one of them shout: "Fuck them white boys, look at that little fucking dick", lots of the other women respond with "Yeah", "once you go black..." and similar expressions. This is what makes you realize that you are not supposed to be there and it would be better if you could get out of there before the lights turn on and the movie goes to the next level... That's why you gather courage and get up. You start walking through the rows to the exit door, but just when you are by the middle, you hear one of them shout:
+
+<<speech "nobody" "''???'':">>
+You weren't liking the movie, sissy?! Hahaha<</speech>>
+Soon, all the women that hear her start saying some other things to you and laughing. Embarrased, you walk as fast as you can until you finally reach the door and get out.
+
+<span class="onomatopeya">SLAM</span>
+
+<<speech "You" "''$name'':">>
+Fuck! What a nightmare!<</speech>>
+[[Deck 4]]<<addhours 1>><</linkreplace>><</timed>><</linkreplace>><</if>>
+
+
+
+
+
+
+
+
+\\<<elseif $dayn gte 9 and $dayn lt 16>><<if $outsized is 0>><<speech "You" "''$name'':">>
+I think I'll help you then... But what do I have to say? Do I just go out like this? Do we even have enough time?<</speech>>
+<<speech "cap" "''Captain T:''">>
+Hahaha so eager to please... good boy. *pats your head* Ashley will tell you all about it. Come on, get to it.<</speech>>
+Captain walks away and lets Ashley lead you to the backstage to prepare yourself.
+
+<<speech "Ashley" "''Ashley:''">>
+I'm so glad that you agreed to it! Although I wish we had more time to prepare. You'll just have to do a few cameos, no lines, so don't worry about that! But since all you have to do is stand there at times, we'll have to get you all dressed up and characterized.<</speech>>
+<<speech "You" "''$name'':">>
+ *phew* (Thank god I have no lines to say...)<</speech>>
+You both finally get to the crowded backstage:
+
+<<linkreplace "... ...">><div class="center"><img src="stage/backstage.jpg" width="55%"></div>
+<<speech "Ashley" "''Ashley:''">>
+Welcome to our world! It's not always this busy, but everyone is excited for the play!<</speech>>
+Suddenly, a petite girl approaches you both:
+
+<div class="center"><img src="stage/cuteblonde.png" width="35%"></div>
+<<speech "nobody" "''Blonde actress'':">>
+Hey Ashley, just one more thing: in the final act should I get under the bed before the action starts or at the end of the previous act and just stay there?<</speech>>
+<<speech "Ashley" "''Ashley:''">>
+Oh, well actually, we've found someone who'll be doing the "stunts". He or in this case "she", is $name. And must I say, the resemblance is amazing!<</speech>>
+<<speech "nobody" "''Blonde actress'':">>
+Wait, so are you telling me this guy is going to do my role?<</speech>>
+<<speech "Ashley" "''Ashley:''">>
+No, not at all. You are the actress, of course. He'll just go out instead of you when you have no text to say. That'll be just the middle and the final scenes.<</speech>>
+<<speech "nobody" "''Blonde actress'':">>
+Hum... well, I guess it's ok. As long as anybody notices... I'll go and inform the rest about our new "partner".<</speech>>
+The actress walks away with a devilish smile on her face. Ashley pats your shoulder trying to make you relax and leads you forward to a separate small room.
+
+<div class="center"><img src="stage/mirror.jpg" width="60%"></div>
+Suddenly, a posh black woman comes out from behind the door.
+
+<div class="center"><img src="stage/maya.jpg" width="40%"></div>
+<<speechpatreon "Maya" "">><span class="imgpop Maya">''Maya'':</span>
+Are you the next one for makeup?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Um...<</speech>>
+<<speech "Ashley" "''Ashley:''">>
+Yep, she is! *smiles* Come on, sweetie, get on the chair. Alright then, I'll leave you to Maya. Once you're done I'll explain a bit your part, it'll be real easy. Maya, you know what to do!<</speech>>
+She walks away and leaves you alone with the black lady. She sits you down and starts grabbing some makeup stuff.
+
+<<speechpatreon "Maya" "">><span class="imgpop Maya">''Maya'':</span>
+Don't worry honey, I will only apply a bit of the basics here and there. You're basically perfect for the role! Put your head back, please... there. How are you feeling about being in this kind of show?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+Um... I really don't even know exactly what I'm doing here...<</speech>>
+<<speechpatreon "Maya" "">><span class="imgpop Maya">''Maya'':</span>
+That must be hard... although I have a feeling that you will enjoy it the most, so don't be nervous. You just have to be there!<</speechpatreon>>
+Maya starts brushing some foundation over your cheeks.
+
+<<speech "You" "''$name'':">>
+I mean, it's just that I don't really see the need for it. And then of course... it's going to be lots of people...<</speech>>
+<<speechpatreon "Maya" "">><span class="imgpop Maya">''Maya'':</span>
+ *crouches in front of you and keeps brushing* That's perfect then. You'll be able to show everyone how good you are at this. And since you don't really need to say anything, I suggest you just enjoy the experience. Now please, stay still for a sec...<</speechpatreon>>
+She then uses the brush to put on some blush and lipstick as well.
+
+<<speechpatreon "Maya" "">><span class="imgpop Maya">''Maya'':</span>
+Oh, wow... You look stunning!<</speechpatreon>>
+<<linkreplace "... ...">><div class="center"><img src="stage/sissy.jpg" width="40%"></div>
+<<speech "You" "''$name'':">>
+ *gasp* I look like a... girl!<</speech>>
+<<speechpatreon "Maya" "">><span class="imgpop Maya">''Maya'':</span>
+ *giggles* I have to say, honey, you've got beautiful skin for a guy... have you ever tried some on?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+What?! Oh, no. I-I-<</speech>>
+<<speechpatreon "Maya" "">><span class="imgpop Maya">''Maya'':</span>
+Wow, wow, it's okay, I believe you... Hahaha Although you woudn't tell me if you actually had, would you? *smiles* Come on, follow me to the changing room.<</speechpatreon>>
+You stand up and follow her behind a folding screen. Then she starts rummaging on a bunch of clothes.
+
+<<speechpatreon "Maya" "">><span class="imgpop Maya">''Maya'':</span>
+Well, get those clothes off, we need to try this on instead.<</speechpatreon>>
+<<speech "You" "''$name'':">>
+My clothes?<</speech>>
+<<speechpatreon "Maya" "">><span class="imgpop Maya">''Maya'':</span>
+Are you shy? No need to be like that with me, honey... come on.<</speechpatreon>>
+Maya gently takes your pants off, as well as your underwear.
+
+<div class="center"><img src="stage/cage1.jpg" width="55%"></div>
+<<speechpatreon "Maya" "">><span class="imgpop Maya">''Maya'':</span>
+Oops, now this could be a problem... let me see...<</speechpatreon>>
+Maya runs out, leaving you all naked and alone. After a couple minutes she comes back with the key to the cage.
+
+<<speechpatreon "Maya" "">><span class="imgpop Maya">''Maya'':</span>
+Got it!<</speechpatreon>>
+She takes your cage and unlocks your penis.
+
+<div class="center"><img src="stage/cageoff.gif" width="45%"></div>
+<<speechpatreon "Maya" "">><span class="imgpop Maya">''Maya'':</span>
+ *smiles* It's almost as if you were born to be in this play. Perfect... Now just put this on and we'll be ready to rumble.<</speechpatreon>>
+<div class="center"><img src="stage/panties1.png" width="50%"></div>
+Seeing the kind of show you are getting into, you can't help but feel more nervous. Your face gets all white and you can't gather enough strength to say no now that you've already agreed.
+
+Suddenly, you hear some voices presenting the show with mics, and all the actresses running to the curtain, ready to get on stage.
+
+<<speech "You" "''$name'':">>
+(OMG, it's already starting!) *tremble*<</speech>>
+<<speechpatreon "Maya" "">><span class="imgpop Maya">''Maya'':</span>
+Heeeey... aw, you are making me feel bad... come here.<</speechpatreon>>
+Maya leans over and give you a sweet hug.
+
+<<speechpatreon "Maya" "">><span class="imgpop Maya">''Maya'':</span>
+Remember, once on stage nobody expects you to be yourself. You are someone else, so don't be afraid of doing something you wouldn't do otherwise. You are just acting! Plus, look how cute you look from the back:<</speechpatreon>>
+<div class="center"><img src="stage/sissy2.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(Hm... I do look... nice, for the character...)<</speech>>
+Just a few seconds later, Ashley comes jogging looking for you.
+
+<<speech "Ashley" "''Ashley'':">>
+Alright now, time to explain a bit. As I said, you will not need to know too much. You'll just be in two scenes: the first one you'll be with "the wife", so she'll take the lead. You just have to act natural! Then I'll get you ready for the final scene, where you'll be under the bed, so most of your body will be hidden anyway! Sounds fun?<</speech>>
+<<speech "You" "''$name'':">>
+Y-yeah... but this clothes-<</speech>>
+<<speech "Ashley" "''Ashley'':">>
+What about them? You look just perfect! Better than I imagined! Oops, that's our cue! Come with me!<</speech>>
+All the stage light are off, and Ashley leads you right into a corner of the stage.
+
+<<speech "Ashley" "''Ashley'':">>
+Alright, you just stay here.<</speech>>
+<<speech "You" "''$name'':">>
+O-ok... (why in the world did I agree to this??)<</speech>>
+Suddenly, the lights on the other corner of the stage turns on.
+
+<<linkreplace "Show starts!">><span class="fade-ins"><span class="fade-ins"><span class="blue">//Roxy was just 25 years old, fresh out of college and her life couldn't be better. Or so she thought... She had recently married her college boyfriend, Tommy. Although he was the first and only guy she'd ever been with (if you know what I mean...), she was sure he was the one for her. She was so in love... but suddenly, one day she was coming back home from work early and what she would have found there would change everything she thought she knew...//</span>
+
+<<speech "Ashley" "''Ashley'':">>
+ *whistles a songs while she grabs some prop keys* Oh, wow, I can't wait to tell my husband about today! I feel so happy I might even let him "make me a woman"... *sarcastic look*<</speech>>
+Her face and the way she speaks make the public chuckle, anticipating the possible outcome for the situation.
+
+<span class="blue">//Roxy grabbed her key and started opening the door.//</span>
+
+<span class="onomatopeya">CLICK</span>
+
+<span class="blue">//With the first step, she noticed a faint floral aroma filling the house.//</span>
+
+<<speech "Ashley" "''Ashley'':">>
+Hi honey, I'm home... honey?<</speech>>
+<span class="blue">//She kept asking multiple times while she was taking her coat off, but her husband wouldn't respond... so she got curious and started looking for him. She looked in the living room, the bathroom and his room, but no matter where she looked, she couldn't find him. Suddenly, Roxy heard some noises coming from her own room, so she opened the door://</span>
+
+<span class="onomatopeya">CREAK... FLASH</span>
+
+Suddenly the light on your side of the stage turn on, revealing yourself to the public. A recorded gasp sound gets triggered and reverbs across the stage.</span>
+
+<div class="center"><img src="stage/spotlight.jpg" width="50%"></div>
+<<speech "Ashley" "''Ashley'':">>
+ *gasp* What? W-what is this about? So this is why I kept missing clothes, huh?<</speech>>
+<<speech "You" "''$name'':">>
+... ...<</speech>>
+<<speech "Ashley" "''Ashley'':">>
+No, don't even start! I-I need to think... no, this explains a lot actually... my friends kept telling me that you were not normal: your build, your character, your... size... *points at your crotch*<</speech>>
+<<speech "You" "''$name'':">>
+ *blush* (God, kill me...)<</speech>>
+<<speech "Ashley" "''Ashley'':">>
+Oh, yeah! Don't look at me like that! You know exactly what I mean!<</speech>>
+Ashley walks to you and shakes your panties, exposing your shriveled shrimp dick.
+
+<div class="center"><img src="stage/panties2.jpg" width="50%"></div>
+<span class="onomatopeya">HAHAHAHA</span>
+
+<<speech "Ashley" "''Ashley'':">>
+I-I can't think right now... this is just too much. Do you mean I married a-a-a... sissy?<</speech>>
+<<speech "You" "''$name'':">>
+... ... (please, let this scene finish now!)<</speech>>
+<<speech "Ashley" "''Ashley'':">>
+Huh? So you think I coudn't do better than you?!<</speech>>
+<<speech "You" "''$name'':">>
+(I didn't say a thing!)<</speech>>
+<<speech "Ashley" "''Ashley'':">>
+Well, now you've done it. You will regret this, I can assure you that!<</speech>>
+Ashley angrily slams the prop door and the lights turn off, letting the narrator continue the story. Once nobody can see you, you put your panties on again and get inside the backstage.
+
+<<speech "Ashley" "''Ashley'':">>
+Very good! You did great!<</speech>>
+<<speech "You" "''$name'':">>
+You showed my... my...<</speech>>
+<<speech "Ashley" "''Ashley'':">>
+Your peepee? Haha... that's fine, it's not like it's the first one we see. Anyway, you'll need to prepare for the final scene. Follow me.<</speech>>
+Ashley waits for some women to prepare the props for the next scene and then just tells you to crouch and get under a bed in the middle of the stage. Then she just goes away to prepare for the rest of the play.
+
+<div class="center"><img src="stage/bed1.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(I can't see a thing...)<</speech>>
+The play goes on, but since only the corners are being lit, you can't really see anything, but you can still hear some of it.
+
+<span class="blue">//Roxy was determined to investigate. She knew some friend from college she turned down because she already had a boyfriend, but now she was up for giving them a chance.//</span>
+
+<<speech "Ashley" "''Ashley'':">>
+Um... hi Jamal, do you remember me? I'm Roxy, that girl from-<</speech>>
+<<speech "nobody" "''Jamal'':">>
+Of course I do, girl... how could someone forget an ass like that?<</speech>>
+<<speech "You" "''$name'':">>
+(That sounds kind of ridiculous, it's a girl doing a black man's character).<</speech>>
+<<speech "Ashley" "''Ashley'':">>
+Oh, well, thank you... *blushes*<</speech>>
+<span class="blue">//Roxy was blushing, but not just because of his huge muscles and bulge, but also his confidence... That was something new to her...//</span>
+
+<<speech "You" "''$name'':">>
+(God, this is almost turning into a romantic movie or something...)<</speech>>
+You tune out for quite some time of the play, where most of it is just talking and talking.
+
+<<speech "You" "''$name'':">>
+(God, I'm getting tired being under this fucking bed...)<</speech>>
+You turn around trying to feel better, now facing up. Then, the final scene starts. The lights turn red-ish and focus on the middle of the stage, right where you are. Then Ashley starts talking:
+
+<<speech "Ashley" "''Ashley'':">>
+Well, well, well... seems like hubby's not home... Maybe you can show me that big thing you were taling about...?<</speech>>
+<<speech "nobody" "''Jamal'':">>
+That's exactly what I was thinking about...<</speech>>
+You hear a zipper and a clunk, followed by a recorded gasp.
+
+<span class="onomatopeya">HAHAHA YOU GO, GIRL!</span>
+
+You squirm around, trying to see something, but can't. Suddenly, they both drop on the bed and some romantic music starts playing. Thankfully, no matter how hard the pretend to make out, they are not smashing you.
+
+<<speech "You" "''$name'':">>
+(Are they making out for real...?)<</speech>>
+You manage to sweep forward and take a peek:
+
+<div class="center"><img src="stage/fuck1.gif" width="50%"></div>
+<<speech "Ashley" "''Ashley'':">>
+Yeah, fuck my tiny ass with that huge donkey cock! You're so much better than my husband... AH!<</speech>>
+<<speech "nobody" "''Jamal'':">>
+Yeah, girl, take that! Fffffuck, I'm gonna cum, SSSHIT!<</speech>>
+<div class="center"><img src="cumshot.gif" width="50%"></div>
+<span class="onomatopeya">PLOP</span>
+
+Suddenly, some drops of the false ejaculate falls over your face. You open your mouth, surprised by the unexpected amount of liquid, although that might not have been the smartest move, since some of it gets in your mouth.
+
+<div class="center"><img src="stage/cum1.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(Oh, fuck, I should get my head back under the bed...)<</speech>>
+<<speech "Ashley" "''Ashley'':">>
+Oh, hey hubby! *smiles and laughs* Did you like the show? Come out here so Jamal can see you...<</speech>>
+You crawl out of the bed with your head down.
+
+<<speech "nobody" "''Ashley'':">>
+Seems like Jamal has outsized you, honey. I don't think I can ever have you again... Can you see how stretched out I am?? Hahaha come closer so you can have another taste, babe...<</speech>>
+<div class="center"><img src="stage/cum2.gif" width="53%"></div>
+<<speech "You" "''$name'':">>
+... ...<</speech>>
+<<speech "Ashley" "''Ashley'':">>
+Oh, come on, don't be a chicken! I'll let you have all the clothes you want if you come here and just have a taste. I'll even give you some girl advice, does that sound good?<</speech>>
+You slowly nod.
+
+<<speech "You" "''$name'':">>
+(Why am I nodding...?)<</speech>>
+You walk closer to Ashley and are just about to eat the creampie when the light turn off and some music starts playing.
+
+All of the actors from the play walk out, the light turn on again and they all feast on the applause from the public. You just stand in place for the whole thing until Ashley tells you to get to the backstage again.
+
+<<speech "Ashley" "''Ashley'':">>
+OMG, you did amazing, so convincing! I'll tell you what, I'll give you ''100'' extra points for this. You saved the play!<</speech>>
+<div class="center"><span class="notplus">''POINTS +100''</span></div><<set $points to $points +100>>
+<<speech "You" "''$name'':">>
+I-I didn't do anything...<</speech>>
+<<speech "Ashley" "''Ashley'':">>
+Oh, believe me. That small dick of yours was much more credible than our prop one... Anyway, here's your cage.<</speech>>
+Ashley goes away to change and Maya comes to help you do so.
+
+<<speechpatreon "Maya" "">><span class="imgpop Maya">''Maya'':</span>
+Ok, let's put this back on... *she locks your flaccid dick again* By the way, very nice job out there. See? You had some fun, didn't you?<</speechpatreon>>
+<<speech "You" "''$name'':">>
+I mean... yeah, but flashing my penis to everyone was so embarrasing...<</speech>>
+Maya finishes putting the cage on and lets you go. You get right out, trying to evade everyone. Thankfully, nobody bothers you.
+
+<<click "Finish" "Deck 4">><<run $gameDate.setHours (22)>><<run $gameDate.setMinutes (0)>><</click>></span><</linkreplace>><</linkreplace>><</linkreplace>>
+
+\\<<elseif $outsized is 1>><<if ndef $drankblobby>><<speech "You" "''$name'':">>
+I-I'm sorry, but I'm just here to enjoy the show.<</speech>>
+You start walking to the stage, but Captain T grabs your arm.
+
+<<speech "cap" "''Captain T:''">>
+Now where do you think you are going? This is not what I expect from you, $name. You should be thankful for all we're doing for you. Come with me.<</speech>>
+She takes your arm and walks you through the stage into the lounge room. Once you are there, she pushes you onto the wall.
+
+<<speech "cap" "''Captain T:''">>
+A future sissy like you cannot afford being so selfish, especially in front of me. I'm in charge of you and I won't let you treat other women like that.<</speech>>
+<<speech "You" "''$name'':">>
+You asked and I just gave my answer!<</speech>>
+<<speech "cap" "''Captain T:''">>
+Exactly. And it wasn't the answer I expected. I'm disappointed and you will be punished for it. So you wanted to watch the show, right? Yeah? Well, too bad.<</speech>>
+Captain walks out the lounge room and closes it from the outside.
+
+<span class="onomatopeya">CLICK</span>
+
+<<speech "You" "''$name'':">>
+(Oh, no... I'm trapped in here...)<</speech>>
+[[Look around|Lounge][$lounge to 0]]
+
+\\<<elseif $drankblobby is true>><div class="center"><img src="stage/amphi.png" width="60%"></div>
+You walk up the stairs to the amphitheater. Thankfully, there's nobody there and you can choose any seat you want. You sit right in the middle, but although it seems like you've arrive in time to see the final act of the play, you can't stop thinking about how rich that last drink was...
+
+Suddenly, you see a woman dressed as a hung black man seducing Ashley from the entrance.
+
+<<speech "You" "''$name'':">>
+(Where the fuck is this going...? I should have seen the whole thing!)<</speech>>
+Some sensual music starts playing and they both start getting naked and making out. For a moment, you think you've seen someone under the bed, but you are very far away, so you're not sure.
+
+<<speech "Ashley" "''Ashley'':">>
+Oh, yeah! You're sooo much bigger than my husband! FUCK MEEE!<</speech>>
+<<speech "You" "''$name'':">>
+(What? Is she... married?)<</speech>>
+<<speech "Ashley" "''Ashley'':">>
+Yeah! Put a black baby on my belly! CUM! CUM!<</speech>>
+<div class="center"><img src="cumshot.gif" width="50%"></div>
+In what seems like a small amount of time, they both get to the climax and the music suddenly stops.
+
+<<speech "Ashley" "''Ashley'':">>
+Oh, hey cucky, you were under the bed this whole time? You should have asked if you wanted to watch... Oh, and look Jamal! You got some seed on his face too!<</speech>>
+<div class="center"><img src="stage/cum1.jpg" width="50%"></div>
+<span class="onomatopeya">HAHAHAHA</span>
+
+<<speech "You" "''$name'':">>
+(OMG That really looks like... that white stuff... mmm...)<</speech>>
+<div class="center"><img src="stage/lips.gif" width="42%"></div>
+You lick you lips thinking about the special ingredient of the Sticky Blobby. Although you are concerned by how twisted the scene is, you can't help but think if that fake cum liquid really tastes like it. Would real cum taste that good...?
+
+You stand there thinking in circles about that taste while the play finishes and people start to get out.
+
+<<speech "You" "''$name'':">>
+(I'd better wait for everyone to get out before doing so... *you touch your small balls* why are the remnants of a taste giving me a hard-on...? mmm...<</speech>>
+<div class="center">''New Fetish: Taste for Cum (Lvl 1)''</div>
+<<click "Wait and get out" "Deck 4">><<run $gameDate.setHours (22)>><<run $gameDate.setMinutes (0)>><</click>><</if>><</if>>
+
+
+\\<<elseif $dayn gte 16 and $dayn lt 23>><<if $magic is "1/2 done">>As you get into the dressing room, Ewa comes out of a dresser all dressed up.
+
+<div class="center"><img src="quest9/ewa3.jpg" width="30%"></div>
+<<speech "ewa" "''Ewa, the great'':">>
+Oh, hey! Perfect timing! There are your clothes, just put them on and be ready for the final act. The show will start shortly, as soon as they close the doors.<</speech>>
+She seems a bit nervous, so you decide not to ask any questions and just put your assitant uniform on.
+
+<div class="center"><span class="onomatopeya">LADIES AND GENTLEMEN, WELCOME TO A MAGIC SHOW YOU WON'T FORGET. ALL THE WAY FROM LAS VEGAS: "EWA, THE GREAT"</span></div>
+
+Ewa gets out and salutes the crowd. The show starts, and you can hear it is apparently going well. You would expect to hear a lot more gasps and "wows", but you keep hearing laughs. After almost an hour, Ewas comes in to change while some music plays.
+
+<<speech "ewa" "''Ewa, the great'':">>
+Ok! I got them eating from my hand! The box is already out and ready, are you nervous?<</speech>>
+You hadn't thought about it, but yes... you are actually nervous: your hands are sweating and you notice the knot in your guts.
+
+<<speech "ewa" "''Ewa, the great'':">>
+Ok, 1,2,3... let's go!<</speech>>
+<<linkreplace "Start show!">><span class="onomatopeya">*CROWD CHEERS*</span>
+
+<<speech "ewa" "''Ewa, the great'':">>
+Missed me? Hahahaha And now, for my next trick, I will count with my assitant: $name!<</speech>>
+<span class="onomatopeya">*CROWD CHEERS AND LAUGHS*</span>
+
+<<speech "ewa" "''Ewa, the great'':">>
+I present you... THE MAGIC BOX. $name, please, if would be so kind... *she points to the box*<</speech>>
+<<speech "You" "''$name'':">>
+(Ok, now's the time!)<</speech>>
+With the help of Ewa you jump into the the box.
+
+<<speech "ewa" "''Ewa, the great'':">>
+Get down, gurl... hahaha<</speech>>
+<div class="center"><img src="quest9/ewa1.jpg" width="60%"></div>
+<span class="onomatopeya">*CROWD LAUGHS*</span>
+
+You do as you rehearsed and crouch so she can close the box. You continue listening to Ewa presenting the act.
+
+<<speech "ewa" "''Ewa, the great'':">>
+Have you girls ever been to a gloryhole? Huh?<</speech>>
+<span class="onomatopeya">*CROWD CHEERS*</span>
+
+<<speech "You" "''$name'':">>
+(What the fuck?)<</speech>>
+You hear her take out the swords from the container.
+
+<<speech "ewa" "''Ewa, the great'':">>
+Honey, prepare yourself, 'cause Johnny is home!!<</speech>>
+<<linkreplace "Crams a sword in a hole">><<speech "You" "''$name'':">>
+ *gasp* What is this?!<</speech>>
+<<speech "ewa" "''Ewa, the great'':">>
+Are you having fun, sweetie? You better be done with Johnny, because "Simon says" he's ready to rumble!!<</speech>>
+<span class="onomatopeya">*CROWD CHEERS AND LAUGHS*</span>
+
+<div class="center"><img src="quest9/twodildos.jpg" width="60%"></div>
+
+<<speech "You" "''$name'':">>
+No! Stop!!<</speech>>
+<<speech "ewa" "''Ewa, the great'':">>
+What do you say? Stop? But Simon and Johnny are waiting... are you going to blue-ball them? Oh, that's not right, is it?!<</speech>>
+<span class="onomatopeya">*NOOOO*</span>
+
+<<speech "ewa" "''Ewa, the great'':">>
+C'mon, just a little shaky-shaky and they'll let you go! Shake those dicks! Shake those dicks!<</speech>>
+<span class="onomatopeya">*SHAKE THOSE DICKS, SHAKE THOSE DICKS*</span>
+
+<<speech "You" "''$name'':">>
+Ok, ok...<</speech>>
+You have trouble grabbing the plastic dicks, because they are so thick, but you manage to give them a small shake, so they can see the start of the dildos move.
+
+<<speech "ewa" "''Ewa, the great'':">>
+Yeah!! Hahaha, good job, sissy! Johnny and Simon seem to be happy enough, but, uh-oh, somebody else is coming... leave some space for Chuck!<</speech>>
+<<speech "You" "''$name'':">>
+But you said you would st-<</speech>>
+<<speech "ewa" "''Ewa, the great'':">>
+But I'm not done! Because he brought a friend!<</speech>>
+<<speech "You" "''$name'':">>
+Ouch! These are too long! You have to stop!<</speech>>
+<<speech "ewa" "''Ewa, the great'':">>
+Ooooh... she seems to be having fun! First time with 4 dicks on your face? Hm... I know that feeling...<</speech>>
+<span class="onomatopeya">*CROWD LAUGHS*</span>
+
+<<speech "ewa" "''Ewa, the great'':">>
+And now, for the master of the masters... beware... the PURPLE CHODE!<</speech>>
+<span class="onomatopeya">*OOOOOOO*</span>
+
+<<speech "ewa" "''Ewa, the great'':">>
+And he wants to play too! Count with me, ladies: 1, 2 and...<</speech>>
+<span class="onomatopeya">*THREEEE*</span>
+
+<div class="center"><img src="quest9/alldildos.jpg" width="60%"></div>
+
+<<speech "You" "''$name'':">>
+Ow! Fuck! (I will talk to her after the show's over, but now I've got to get out through the trapdoor!)<</speech>>
+You try to open the trapdoor, but the purple chode is blocking it. Even if you try with all your strenght, you can't open it.
+
+<<speech "ewa" "''Ewa, the great'':">>
+Now, ladies! I think $name doesn't understand how a gloryhole works, since I don't see much movement from here... I think the guys want a bit of fun, sweetie, so... SSSSSSHAKE 'EM DICKS!<</speech>>
+<<speech "You" "''$name'':">>
+(What? Is she changing the trick now?!)<</speech>>
+<span class="onomatopeya">*SHAKE THOSE DICKS, SHAKE THOSE DICKS*</span>
+
+<<speech "You" "''$name'':">>
+(Should I not move?? I mean... I might as well try... <span class="pink">plus, it's not like they are snakes... they look tasty...</span>)<</speech>>
+You know you are not going to be able to reach them all at once, so you go from one to another, grabbing them by the glans and stroking.
+
+<<speech "ewa" "''Ewa, the great'':">>
+Was that a handjob? C'mon, is that all you can do?!<</speech>>
+<span class="onomatopeya">*SHAKE THOSE DICKS, SHAKE THOSE DICKS*</span>
+
+This time you grab each one with both your hands, stroking the dick from top to bottom.
+
+<<speech "ewa" "''Ewa, the great'':">>
+Yeah, that more like it... Oh! Look! I think Johnny and Simon are starting to get excited!<</speech>>
+<span class="onomatopeya">BZZZZZT</span>
+
+You can't see any difference, but you hear the crowd laughing and saying "Oh my god".
+
+<<speech "ewa" "''Ewa, the great'':">>
+You can't stop now, $name! These boys sure seem to love your girl touch! *wink* But don't neglect Chuck and his friend! You have more than two hands, you know...<</speech>>
+<<speech "You" "''$name'':">>
+(What?! Does she mean... I should use my <span class="pink">mouth and suck them out...?</span>)<</speech>>
+The crowd cheering, the woman giving you instructions and the enormous dildos hanging from the walls are really starting to make you horny, but you are also worrying that you may lose all your remaining dignity if the box actually opens.
+
+<<speech "ewa" "''Ewa, the great'':">>
+Uh-oh, they are getting impatient!<</speech>>
+Ewa pushes Chuck and Chode and pokes your body with them.
+
+<<speech "ewa" "''Ewa, the great'':">>
+Oooh... I think I felt something tight!<</speech>>
+<span class="onomatopeya">*SHAKE THOSE DICKS, SHAKE THOSE DICKS*</span>
+
+You try to grab two of them with one hand, the other two with the other and start pumping them, but there's another one, the chode, hanging in front of you. You decide to raise the dildo with your elbows and try to get it on your shoulder, that way you would be able to stroke it with your neck.
+
+<<speech "ewa" "''Ewa, the great'':">>
+Wow, look at that! $name has managed to get all of them at the same time! I think they are all starting to get to the edge!! What do you think, ladies? Should they get a release?<</speech>>
+<span class="onomatopeya">*MAKE THEM CUM, MAKE THEM CUM*</span>
+
+<<speech "ewa" "''Ewa, the great'':">>
+Your wish is my command! *click*<</speech>>
+<span class="onomatopeya">BZZZZZT</span>
+
+Just when you were starting to get the hang of it, you feel how your chest is starting to get wet... You take a look and see a growing leak coming out from one of the giant dicks.
+
+<<speech "You" "''$name'':">>
+Oh, no!! I can't b- *glug*<</speech>>
+Suddenly, the Chode, Chuck, Johnny and Simon all splash your face, shoulders and chest.
+
+<div class="center"><img src="cumshot.gif" width="50%"></div>
+<<speech "ewa" "''Ewa, the great'':">>
+Get it all down! It's not polite to spit! Hahahaha<</speech>>
+Although you closed your mouth inmediatly, some of it coming from the chode got into your mouth. The taste, you thought, wasn't disgusting. But the situation this is happening is not making you feel comfortable, as you see how your dignity vanishes.
+
+ ''*The box opens*''
+
+<<speech "ewa" "''Ewa, the great'':">>
+And so, the sissy has been baptized!!<</speech>>
+<span class="onomatopeya">*WOOOOO, HURRAY, HURRAY, SIIIIISSYY, SIIIIIIIISSYY*</span>
+
+In the middle of the cheers and hurrays, Ewa guides you back to the dressing room and the show finishes.
+
+<<speech "ewa" "''Ewa, the great'':">>
+Here, get in my shower and take your time, you've earned it, honey. *kiss* I'll be back when you come out.<</speech>>
+[[Take a shower|Rewardewa]]<</linkreplace>><</linkreplace>>
+
+
+
+
+
+
+
+
+\\<<else>><div class="center"><img src="quest9/dressing.jpg" width="25%"></div><<addmins 15>>
+As you get into Ewa's dressing room the first thing you notice is the insane amount of dresses and props and clothes there is.
+
+<<speech "ewa" "''Ewa, the great'':">>
+Well then, here we are! Before taking you to the stage and explaining the act, we need to talk about what you're going to wear... You see, in my shows, girls always have to wear skimpy clothes, so the public is distracted. If I use men, they usually wear only thongs, just like strippers. In your case I would probably go with these:
+
+<div class="center"><img src="quest9/uniform1.jpg" width="30%"></div><</speech>>
+<<speech "You" "''$name'':">>
+ *gasp* Are you for real? I can't wear this, it's literally transparent!<</speech>>
+<<speech "ewa" "''Ewa, the great'':">>
+Oh, look, the lady seems to be picky! Fine then, choose whatever you like best.<</speech>>
+After taking a good look to everything in the room, you choose to wear a classic magician's assitant uniform.
+
+<div class="center"><img src="quest9/uniform.jpg" width="20%"></div>
+
+<<speech "ewa" "''Ewa, the great'':">>
+Oh, you're a classic girl, aren't you? Fine, I think it's kinda naughty. Put it on and follow me to the stage.<</speech>>
+<<linkreplace "Go to the stage">>This is the first time you really are on the stage, and you are surprise by how big it really is. You also look up and notice some trapdoors and ropes in the ceiling. Then you look to where the crowd is supposed to be. In addition to the seats that are on the floor, there's also a second floor. Amazed, you keep staring everywhere.
+
+<<speech "ewa" "''Ewa, the great'':">>
+Hey! Look at me! Focus, ok? Now, come closer, I'm about to reveal the trick of the magic mox act. But we'll do it as we go on, so, first, get into this black box.<</speech>>
+<<speech "You" "''$name'':">>
+(Hm... I don't trust her, but I think I'm fine...)<</speech>>
+You get into the open box and the crouch so she can close it.
+
+<div class="center"><img src="quest9/ewa2.jpg" width="60%"></div>
+<<speech "ewa" "''Ewa, the great'':">>
+Nice fit! You're perfect for the trick! Now, don't be scared, I'm going to slide in swords. Now, before you get scared, take into account that all the points of the swords are all covered in rubber, so you won't get hurt even if you get hit. Just try to stay in the very center, none of them will get you.<</speech>>
+<<speech "You" "''$name'':">>
+(Oh, shit, now I'm scared!) O-ok, got it... but-<</speech>>
+<span class="onomatopeya">SWISH!</span>
+
+<div class="center"><img src="quest9/sword1.png" width="60%"></div>
+<<speech "You" "''$name'':">>
+(Oh, fuck!)<</speech>>
+<span class="onomatopeya">SWISH! SWISH! SWISH!</span>
+
+<<speech "You" "''$name'':">>
+How many are there!!??<</speech>>
+<<speech "ewa" "''Ewa, the great'':">>
+Just a couple more!<</speech>>
+<span class="onomatopeya">SWISH! SWISH!</span>
+
+<div class="center"><img src="quest9/allswords.png" width="60%"></div>
+<<speech "You" "''$name'':">>
+Ow!<</speech>>
+<<speech "ewa" "''Ewa, the great'':">>
+Did I get you? Hehe...<</speech>>
+<<speech "You" "''$name'':">>
+Just a bit... (why do I always feel like I have to help people... no more.)<</speech>>
+<<speech "ewa" "''Ewa, the great'':">>
+Ok, so now I say: "will my beautiful assistant still be alive? Let's find out!" And just as I say that you should have already dissapeared, understood?<</speech>>
+<<speech "You" "''$name'':">>
+How?!<</speech>>
+<<speech "ewa" "''Ewa, the great'':">>
+See that gray trapdoor? I know it's not that easy with all the swords sticking in, but you need to go through it. You'll see a ladder, just climb down.<</speech>>
+<<speech "You" "''$name'':">>
+Oh... *stretch* ok...<</speech>>
+She's right, it's not easy to open the trapdoor and get out of the way with all these swords, but you are flexible enough and manage to open it and get your feet on the ladder. You climb it down as the trapdoor closes itself.
+
+<<linkreplace "climb down">><span class="fade-ins"><div class="center"><img src="quest9/downstage.jpg" width="60%"></div>
+A lot of stuff of this ship has creeped you out since you came aboard, but this dark room really is shady.
+
+<<speech "You" "''$name'':">>
+(... Where am I?)<</speech>>
+You don't know what to think about what has happened, but a weird thought comes to your mind: some strange woman you don't know has just kidnapped you. You walk across the room, but all you see are around 20 big pipes crossing the room from side to side. The rest of the room is totally empty, except for a switch box.
+
+<<speech "You" "''$name'':">>
+(This must be some kind of control room... although is not practical at all that you have to climb down each time you have to switch the stage lights on and off... maybe they are not for the stage...)<</speech>>
+You gather some courage and open the switch box.
+
+<<speech "You" "''$name'':">>
+These labels... "pool", "room showers", "lab supply"... ...<</speech>>
+<span class="onomatopeya">CREEEK</span>
+
+<<speech "ewa" "''Ewa, the great'':">>
+Hey, you ok down there? You can come up now.<</speech>>
+Her sudden interrumption makes you bump, scared. You quickly close the switch box and climb up the ladder.
+
+<<speech "You" "''$name'':">>
+Yeah, I'm fine. You almost hit me hard with one of the swords... do you think I will have enough time to get to the ladder before you open the box?<</speech>>
+<<speech "ewa" "''Ewa, the great'':">>
+Of course! There is more than enough time, keep in mind that you can open it when I'm sliding the last 2 swords in.<</speech>>
+<<speech "You" "''$name'':">>
+Yeah, but-<</speech>>
+<<speech "ewa" "''Ewa, the great'':">>
+Are you doubting me?<</speech>>
+<<speech "You" "''$name'':">>
+N-no, no, it's not that-<</speech>>
+<<speech "ewa" "''Ewa, the great'':">>
+Oh, ok. I thought you were for a second there. Glad to know you weren't.<</speech>>
+<<speech "You" "''$name'':">>
+(She gets so cold it's scary...)<</speech>>
+<<speech "ewa" "''Ewa, the great'':">>
+And, gurl! Look at you! I don't know if it's the uniform, but I'm getting excited just thinking about your reward... *wink* Come on, get out of the box and put your old clothes back on.<</speech>>
+You both go to the dressing room and you put your clothes back on.
+
+<<speech "ewa" "''Ewa, the great'':">>
+So now, remember: ''This Saturday evening I'll be expecting you to come for the final act.''<</speech>>
+Ewa leads you back to the backstage door.
+
+[[Deck 4][$magic to "1/2 done"]]</span><</linkreplace>><</linkreplace>><</if>>
+
+
+\\<<elseif $dayn gte 23 and $dayn lt 30>>THIS SHOULDN'T BE SHOWING...
+
+
+SIDE-QUEST: <</if>><<audio "menus" stop>>
+
+

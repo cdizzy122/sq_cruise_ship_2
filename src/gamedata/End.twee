@@ -1,0 +1,36 @@
+:: End [noborder noreturn textback] {"position":"915,936","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><span class="fade-ins">''Thanks for playing!'' I hope you were having fun.
+
+Please like the game if you enjoyed it, and leave a comment with anything you would want me to improve, correct or add to the story or the aesthetics. Please, have in mind that it's a work-in-progress and that this is my first time making a game ever. :)
+
+<span class="fade-ins"><div class="center"><div class="row"><div class="columna">
+<span class="spacebox">''Leave a review''</span>
+<span class="noshit"><a href="https://tfgames.site/index.php?module=viewgame&id=2120" target="_blank"><span class="noborder"><img src="stuff/tfgamessite.png" height="60" width="150"></span></a>
+<area shape="rect" coords="25,25,75,75" href="https://tfgames.site/index.php?module=viewgame&id=2120" target="_blank"></span>
+
+<span class="spacebox">''TF Gamessite Forum Thread''</span>
+<span class="noshit"><a href="https://tfgames.site/phpbb3/viewtopic.php?f=51&t=13010" target="_blank"><img src="stuff/tfgamessite.png" height="60" width="150"></a>
+<area shape="rect" coords="25,25,75,75" href="https://tfgames.site/phpbb3/viewtopic.php?f=51&t=13010" target="_blank"></span></div>
+<div class="columna"><span class="spacebox">''Discord''</span>
+<span class="noshit"><a href="https://discord.gg/vxmRNg8" target="_blank"><img src="stuff/discord.png" height="70" width="70"></a>
+<area shape="rect" coords="25,25,75,75" href="https://discord.gg/vxmRNg8" target="_blank"></span>
+
+<span class="spacebox">''Support the game''</span>
+<span class="noshit"><a href="https://subscribestar.adult/tiplick" target="_blank"><img src="stuff/subscribestar.png" height="60" width="250"></a>
+<area shape="rect" coords="25,25,75,75" href="https://subscribestar.adult/tiplick" target="_blank"></span>
+</div></div></div></span>
+
+Stay tuned for updates (This game WILL have an ending/various endings).
+
+''Upcoming v0.5.7 content:'' 
+
+- Spiking staff's food, corrupting them as well.
+- Evolution of masturbation scenes and anal training.
+- Articles and treatments of the Beauty Salon introduced in side-quests.
+- Temporary states: cummed on (dirty), permufe embrace (+fem), makeup (+fem), etc...
+- Optional docking visits in-between the week, not only on Sundays (West coast of Africa).
+- Browsing more videos, social media.
+
+<img src="stuff/Tiplick.png" width="30%"></span><<nobr>><<audio "menus" stop>><<audio "elevator" stop>><<audio "mystery" stop>><<audio "style" stop>><<audio "heels" stop>><<audio "myroom" stop>><<audio "dorky" volume 0.5 loop play>><<if ndef $mute>><<audio "dorky" unmute>><<else>><</if>><<audio "ship" mute>><</nobr>>
+
+

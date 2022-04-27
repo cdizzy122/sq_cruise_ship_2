@@ -1,0 +1,10 @@
+:: Invite them to a drink [textback] {"position":"2043,1491","size":"100,100"}
+<<removeclass "html">><<addclass "html" "lounge">><<speech "nobody" "''Woman:''">>
+Good try, boi, but just in case you haven't noticed, the drinks are free.<</speech>>
+ *All of them laugh at you*
+
+<<speech "nobody" "''Woman:''">> 
+C'mon, you've gotta have something better, skinny.<</speech>>
+[[Try a classic pick up line]]<<audio "menus" stop>><<if ndef $mute>><<audio "party" unmute>><<else>><</if>>
+
+

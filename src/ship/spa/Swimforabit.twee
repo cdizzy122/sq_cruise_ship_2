@@ -1,0 +1,233 @@
+:: Swim for a bit [textback] {"position":"2105,527","size":"100,100"}
+<<removeclass "html">><<addclass "html" "pool">><<nobr>><div id="background-wrap"><div class="bubble x1"></div><div class="bubble x2"></div><div class="bubble x3"></div><div class="bubble x4"></div><div class="bubble x5"></div><div class="bubble x6"></div><div class="bubble x7"></div><div class="bubble x8"></div><div class="bubble x9"></div><div class="bubble x10"></div></div><</nobr>><<if ndef $inpool>><<if ndef $mutefx>><<audio "splash" play>><<else>><</if>><img src="places2/spadive.jpg" width="60%">
+
+You are lucky and find yourself alone. You give the pool a few laps.<<addmins 30>><<set $stress to $stress -20>>
+
+<div class="center"><span class="pulse"><span class="notplus">STRESS -20%</span></span></div>
+[[Return|Spa pool][$inpool to 1]]<<elseif $inpool is 1>><<if ndef $mutefx>><<audio "splash" play>><<else>><</if>><img src="places2/spadive.jpg" width="60%">
+
+The pool seems empty so you decide to swim for a while. As you get into the pool you notice some bubbles appearing on the other side. You try to get closer so you can watch what's going on.
+
+Suddenly, you feel your swimming trunks being sucked down.
+
+<img src="places2/takeofftrunks.gif" width="50%">
+
+<<speech "You" "''You:''">>
+(Oh, shit! I'm naked!)<</speech>>
+<<speech "nobody" "''???:''">>
+Are you looking for this? *shakes your trunks*<</speech>>
+<img src="passengers/poolgirl.jpg" width="50%">
+
+A beautiful water goddess appears from under the water.
+
+<<speech "You" "''You:''">>
+Um... *your cheeks are as red as they can be*<</speech>>
+The woman starts getting closer to you.
+
+<<speech "nobody" "''???:''">>
+You know, it's against the rules for boys to get into the pool naked. We use to let that rule slide for most men, but for you... well...<</speech>>
+She get closer and closer. Your heart is punding fast as you take small steps back, trying to get away from this woman. You can feel your freed small cock getting hard as a rock at the sight of this powerful woman.
+
+<<speech "nobody" "''???:''">>
+What would Captain T say if she knew you broke another rule... *tsk, tsk*<</speech>>
+<<speech "You" "''You:''">>
+Please... give it back, I didn't mean to bother y-<</speech>>
+<<speech "nobody" "''???:''">>
+Hahaha! You're not getting out of this that easily. I'm keeping this *she lifts you trunks*. If you really want to swim at this pool you'll better wear something more suitable for your... assets.<</speech>>
+She suddenly grabs your hard cock with her whole hand. Her grip is as tight as a snake's.
+
+<<speech "nobody" "''???:''">>
+My god... it doesn't even fill my hand... *she pushes you back* Get out of the pool.<</speech>><<addmins 30>>
+ *You lost your trunks*
+ 
+[[Return|Spa pool][$inpool to 2, $bswim to false]]<<elseif $inpool is 2>><<addmins 30>><<set $stress to $stress -20>>You put your <<if $ssuit is 1>>women swimsuit on. It is tight around the edges, especially down your crotch<<if $cage is true>>, which only makes your cage more apparent.<<else>>, which outlines your small dick and balls more that you would like.<</if>><<elseif $ssuit is 2>>bikini. Although the lower part feels tighter than usual, it is not much different from wearing your panties. <<if $fem lt 15>>But the upper part still feel very strange to wear...<<else>>The upper part feels different than a bra would, but it is not making you uncomfortable.<</if>><</if>>
+
+Thankfully, nobody's here.
+
+<<if $fem lt 15>><<speech "You" "''You:''">>
+(Shit, that girl is not here. I could have just worn my normal swimming trunks...)<</speech>><<else>><<speech "You" "''You:''">>
+(No one, really? *sigh* No one will see <span class="pink">my beautiful bikini...</span>)<</speech>><</if>>
+Anyhow, you decide to go into the pool. You're already here anyway.
+
+<<if ndef $mutefx>><<audio "splash" play>><<else>><</if>><img src="places2/spadive.jpg" width="60%">
+
+As you get into the pool you notice some bubbles appearing on the other side:
+
+<<linkreplace "... ...">><img src="passengers/poolgirl2.jpg" width="50%">
+
+<<speech "nobody" "''???:''">>
+Hey... so you finally have a proper outfit for the pool, huh? Then I suppose I won't have to tell Captain T. Rules are for breaking them, aren't they?<</speech>>
+She smiles devilishly and starts going closer to you. As you remember the way she choked your dick the last time, you back out, but she is somehow quicker and gets to you before you can get out.
+
+<<speech "nobody" "''???:''">>
+Hm... <<if $cage is true>>Nice... justice has been done. This must be Tara's work, huh? *taps your cage* She really is something, isn't she? *smiles*<<else>>That's right! I want your dick strapped tight under that <<if $ssuit is 1>>swimming suit. No free small dicks in the pool!<<elseif $ssuit is 2>>bikini... it's also a nice touch that you're wearing the top part, I like it... although your boobs may not be filling it enough...<</if>><</if>><</speech>>
+With a swift move, she gets out of the way and gets out of the pool.
+
+<<speech "nobody" "''Lifeguard:''">>
+I'll be watching you, it's my job after all.<</speech>>
+<<speech "You" "''You:''">>
+(Oh... so SHE is the lifeguard. I was wondering if these pools had some vigilance)<</speech>>
+You can swim again now.
+
+[[Swim (30 mins)|Swim for a bit][$inpool to 3]]<</linkreplace>><<elseif $inpool is 3>><img src="places2/spadive.jpg" width="60%">
+
+You give the pool a few laps. When you are about to get out, you decide to dive and do an extra lap.
+
+<span class="fade-ins"><img src="passengers/poolgirl4.gif" width="50%"></span>
+
+<<speech "You" "''$name:''">>
+(FUCK!)<</speech>>
+Scared, you get your head out of the water as fast as you can.
+
+<<speech "nobody" "''Lifeguard:''">>
+Heh... don't be scared... I don't bite. You can keep on swimming. You have a very elegant style, although it could use some classes.<</speech>>
+<span class="fade-ins"><img src="passengers/poolgirl3.jpg" width="50%"></span>
+
+<<speech "You" "''$name:''">>
+(She is very creepy... I didn't notice she was IN the pool until now, wtf...) Um... thanks.<</speech>>
+She winks at you and gets out.
+
+<div class="center"><span class="pulse"><span class="notplus">STRESS -20%</span></span></div><<addmins 30>><<set $stress to $stress -20>>
+[[Return|Spa pool]]
+
+
+
+
+\\<<elseif $inpool is 4>><<speech "You" "''$name:''">>
+Um... hi?<</speech>>
+Your voice echoes in the ample room. Suddenly, as a mermaid, the Lifeguard rises her head from the water.
+
+<div class="center"><img src="passengers/poolgirl3.jpg" width="50%"></div>
+<<speech "You" "''$name:''">>
+(Is she always in the fucking water? What is this, Pirates of the Caribbean?)<</speech>>
+<<speech "nobody" "''Lifeguard:''">>
+Oh, hey. Are you coming in for a swim? I hope you brought a proper swimming suit, or else... *she mimics how she grabbed your penis last time*<</speech>>
+<<speech "You" "''$name:''">>
+ *gulp* I just came to introduce Suzie to you. She need some swimming classes and I was wondering if you could...<</speech>>
+<<speech "nobody" "''Lifeguard:''">>
+Girl... Suzie, right? Did you really come onto a cruise ship thinking you wouldn't swim?<</speech>>
+<<speech "nobody" "''Suzie:''">>
+ *nods*<</speech>>
+<<speech "nobody" "''Lifeguard:''">>
+I don't have a problem with teaching you how to swim, as long as it is here. You know, there should be another lifeguard for the outside pool, but the girl that was supposed to come was... indisposed... *smiles*<</speech>>
+<<speech "nobody" "''Suzie:''">>
+Well, thanks. *smiles* Just tell me when can I start and-<</speech>>
+<<speech "nobody" "''Lifeguard:''">>
+Let's start right now then! You're already in your bikini. Get in the pool and I'll be right there with you.<</speech>>
+Suzie sits on the border, just as she was doing at the other pool.
+
+<<speech "nobody" "''Lifeguard:''">>
+You have some kind of fear? It's not going to bite you.<</speech>>
+The lifeguard dives into the pool, splashing Suzie.
+
+<<speech "nobody" "''Suzie:''">>
+Ah! Hey!<</speech>>
+<<speech "nobody" "''Lifeguard:''">>
+It's just water, c'mon.<</speech>>
+She takes Suzie's hands and pushes her into the pool.
+
+<<speech "nobody" "''Suzie:''">>
+Ah!<</speech>>
+<span class="onomatopeya">*SPLASH*</span>
+
+Suzie frantically kicks under the water, trying to find the surface and breathe.
+
+<<speech "nobody" "''Suzie:''">>
+ *breathes* WTF You almost killed me!<</speech>>
+<<speech "nobody" "''Lifeguard:''">>
+Hahahaha<</speech>>
+<<speech "nobody" "''Suzie:''">>
+What's so funny?<</speech>>
+<<speech "nobody" "''Lifeguard:''">>
+Look at yourself. *points at her feet*<</speech>>
+<div class="center"><img src="quest4/feet.jpg" width="50%"></div>
+Suzie's face turns red. She is just standing on her feet and the water is only reaching her hip. You can't help but smile at the absurdity of the scene.
+
+<<speech "nobody" "''Lifeguard:''">>
+See? It wasn't that hard, was it? Now that you are aware of how harmless water really is *giggle*, we'll start with the first lesson: stay afloat. Hey, $name! Come down with us, I might need your help.<</speech>>
+<<speech "You" "''$name:''">>
+Um... sure, but men were not allowed, were they?<</speech>>
+<<speech "nobody" "''Lifeguard:''">>
+Men are, but you're not. *laughs* Just put your cute <<if $buybikini is true>>bikini<<else>>swimsuit<</if>> on and help, would you?<</speech>>
+Suzie turns her head to look at you in awe as you get around a corner and put on your bikini.
+
+<<speech "nobody" "''Lifeguard:''">>
+Come on, we can't be here all day!<</speech>>
+You come out of the corner all dressed and sexy.
+
+<<speech "nobody" "''Suzie:''">>
+ *smile* Oh my god... *giggle*<</speech>>
+Embarrased by their gaze you walk as fast as you can and lower the stairs into the pool.
+
+<<speech "nobody" "''Lifeguard:''">>
+Nice *smiles* Now, Suzie, you've got to trust us here. You're going to let us carry you around the pool. The point is that you learn to control your anxiety and don't let it overwhelm you.<</speech>>
+The lifeguard makes Suzie slowly bend her kness and progressively laying her on the water's surface.
+
+<div class="center"><img src="quest4/suzierelax.jpg" width="72%"></div>
+<<speech "nobody" "''Lifeguard:''">>
+There you go. Now, $name, grab her left side and I'll grab her right side. We are just going to carry you around the less deep part of the pool, so you can get used to the feeling. Close your eyes.<</speech>>
+<<speech "nobody" "''Suzie:''">>
+Ok...<</speech>>
+Once the lifeguard and you are facing each other and Suzie is laying down on your arms, you both start carrying her.
+
+<<speech "nobody" "''Suzie:''">>
+Ah! No...<</speech>>
+<<speech "nobody" "''Lifeguard:''">>
+Relaaax... Nothing's going to happen to you. Remember you can stand up here, so you're not in danger. Close your eyes and don't open them.<</speech>>
+Suzie finally tries to relax and lets you carry her for about a minute. Suddenly, the lifeguard starts making faces at you. She points to Suzie's breasts with her eyes, but you don't understand what she wants you to do, so you stay still with a confused grin. Without saying a thing, she just lets go of Suzie's body, letting it float on your arms.
+
+Now that she's got her hands free, the lifeguard touches Suzie's face.
+
+<<speech "nobody" "''Lifeguard:''">>
+There... see? Water is your friend, it feels good letting go, doesn't it? Hm? *rubs face*<</speech>>
+<<speech "nobody" "''Suzie:''">>
+Hm... U-huh...<</speech>>
+<<speech "You" "''$name:''">>
+(She's totally relaxed now...)<</speech>>
+You smile to yourself, feeling acomplished. Just when you think the lesson is over, you see the lifeguard's hand sliding under Suzie's body.
+
+<<speech "You" "''$name:''">>
+(Where is- *eek*)<</speech>>
+Suddenly, you feel the lifeguard's hand exposing your cage and fondling your tiny balls. Only half her face is showing from under the water, and she's looking at you with a defiant gaze. With a subtle slap the leaves your balls alone. All of the sudden, you see Suzie's bikini fall out and float away.
+
+<div class="center"><img src="quest4/tits.jpg" width="65%"></div>
+<<speech "You" "''$name:''">>
+(Oh, no! What is she doing!)<</speech>>
+The lifeguard rises from under the water and winks at you. Then she swims away and gets out of the pool. She leaves you carrying a naked Suzie around. Just as you are thinking about what to do in this situation, the lifeguard claps hard two time.
+
+<span class="onomatopeya">CLAP CLAP</span>
+
+<<speech "nobody" "''Lifeguard:''">>
+Ehem! All done! *sigh* Oh, what are you doing, $name...?<</speech>>
+Suzie opens her eyes and quickly notices the upper part of her bikini is missing.
+
+<<speech "nobody" "''Suzie:''">>
+ *gasp* What the?!<</speech>>
+She falls from your arms and stands up in the middle of the pool, looking for her lost bikini part. She can't seem to find it, so she looks at you again.
+
+<<speech "nobody" "''Suzie:''">>
+Where is my- Oh my god! Are you naked?! Were you...<</speech>>
+<<speech "nobody" "''Lifeguard:''">>
+God, $name... such a pervert... *hides Suzie's bikini under her seat*<</speech>>
+<<speech "nobody" "''Suzie:''">>
+I can't believe it. You took advantage of my weakness to get off?<</speech>>
+<<speech "You" "''$name:''">>
+No, no! It's not like that!<</speech>>
+<<speech "nobody" "''Suzie:''">>
+Are you sure? Ok, then, what is that?! *she points to your crotch*<</speech>>
+You had totally forgotten about your showing cage. The water is only reaching your hips, so your caged penis can be clearly seen. Suzie walks towards you with an angry grin. Even though she seemed like a sweetheart, she is scaring you now. You take a few steps back, completely revealing your cage.
+
+<<speech "nobody" "''Suzie:''">>
+What? What is that? *confused, she walks out the pool* God, you are not even worth it, perv!<</speech>>
+She gets out the room, covering her beautiful breast with her arms.
+
+<<speech "You" "''$name:''">>
+... You think that is funny?<</speech>>
+<<speech "nobody" "''Lifeguard:''">>
+Hey, a girl's gotta have fun... don't worry, I know you did a god deed, so you'll have your extra points. I'm sure those will come in handy *wink* And also, you can have this as a treat. Try not to jerk off too much to it, huh?<</speech>> 
+
+<div class="center"><span class="notplus">''+100 POINTS''</span></div>''*You received Suzie's bikini*''
+
+[[Finish quest|Deck 7][$suzie to "Finished", $suziesbikini to 1, $points to $points +100, $inpool to 3]]<</if>><<audio "menus" stop>>
+
+

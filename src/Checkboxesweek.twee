@@ -1,0 +1,901 @@
+:: Checkboxesweek [textback] {"position":"1397,69","size":"100,100"}
+''<u>Set names</u>:''
+
+<<ispeech "Youi" "">>
+♂︎ You: <<textbox "$name" "Alex">><</ispeech>><<ispeech "mikei" "">>
+♂︎ Friend: <<textbox "$fname" "Steve">><</ispeech>><<ispeech "gfdi" "">>
+♀︎ GF: <<textbox "$gfname" "Remy">><</ispeech>><<ispeech "lanadi" "">>
+♀︎ GF's friend: <<textbox "$gffname" "Lana">><</ispeech>>
+
+<u>At which ''week'' would you like to continue?</u>:
+
+<<radiobutton "$week" 1>> First Week
+<<radiobutton "$week" 2>> Second Week
+<<radiobutton "$week" 3>> Third Week
+
+<<linkreplace "Set Day (Select week first)">><u>Which week ''day''?</u>:
+
+<<radiobutton "$day" "Monday">> Monday
+<<radiobutton "$day" "Tuesday">> Tuesday
+<<radiobutton "$day" "Wednesday">> Wednesday
+<<radiobutton "$day" "Thursday">> Thursday
+<<radiobutton "$day" "Friday">> Friday
+<<radiobutton "$day" "Saturday">> Saturday
+<<radiobutton "$day" "Sunday">> Sunday
+
+<<linkreplace "Set Variables (Select day first)">><<if $week is 1>><<if $day is "Monday">>''<u>Set Variables</u>:''
+
+All set!<<nobr>><<set $gameDate to new Date("2018-07-01T08:00");>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 2>><<set $startclasses to true>><<set $newsms to -1>><<set $badge to -1>><<set $calendario to true>>
+
+<<set $goggles to 1>><<set $masturbate to 1>><<set $alreadycame to false>>
+
+<<set $kitchen to 1>><<set $stage to 0>><<set $gym to 0>><<set $library to 0>><<set $lab to 0>><<set $shopitems to 1>><<set $wardrobe to false>><<set $capt to 1>><<set $gotoreview to false>><<set $review to 1>><<set $arrival to false>><<set $gfsms to 0>><<set $casino to true>><<set $dreams to 0>><<set $fitnesstrack to 0>><<set $dreams to 0>>
+
+<<set $announcement2 to false>><<set $alreadytrained to false>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $gotoparty to false>><<set $massage to false>><<set $alreadyran to false>><<set $dinnertime to true>><<set $alreadyate to false>>
+
+<<set $fem to 0>><<set $fit to 0>><<set $int to 100>><<set $sub to 0>><<set $points to 0>><<set $lust to 20>><<set $stress to 0>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $hunger to 100>><<set $techphone to true>><<set $dos to 1>>
+
+<<set $ownface to 0>><<set $boobs to 0>><<set $ass to 0>><<set $pen to 0>><<set $trans to 0>><<set $officedoc to 0>><<set $suit to true>>
+
+<<set $tickets to true, $itinerary to true, $roomkey to true, $map to true>><</nobr>>
+
+<<linkreplace "Play! (Select variables first)">>''LOADING:''
+<div class="meter"><span style="width:100%;"><span class="progress"></span></span></div><<timed 2s>><<goto "Bedroom">><</timed>><</linkreplace>>
+
+
+\\<<elseif $day is "Tuesday">>''<u>Set Variables</u>:''
+
+''Points:'' <<radiobutton "$points" 0>> 0  <<radiobutton "$points" 100>> 100  <<radiobutton "$points" 200>> 200  <<radiobutton "$points" 300>> 300  <<radiobutton "$points" 400>> 400
+
+''Stats:''
+Intelligence: <<radiobutton "$int" 90>> 90 IQ  <<radiobutton "$int" 100>> 100 IQ  
+Fitness: <<radiobutton "$fit" 0>> 0  <<radiobutton "$fit" 1>> 1  <<radiobutton "$fit" 2>> 2
+Feminity: <<radiobutton "$fem" 0>> 0  <<radiobutton "$fem" 1>> 1
+Submission: <<radiobutton "$sub" 0>> 0  <<radiobutton "$sub" 1>> 1  <<radiobutton "$sub" 2>> 2<<nobr>><<set $gameDate to new Date("2018-07-02T08:00");>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 3>><<set $startclasses to true>><<set $newsms to -1>><<set $badge to -1>><<set $calendario to true>>
+
+<<set $goggles to 1>><<set $masturbate to 1>><<set $alreadycame to false>>
+
+<<set $kitchen to 1>><<set $stage to 0>><<set $gym to 0>><<set $library to 0>><<set $lab to 0>><<set $shopitems to 1>><<set $wardrobe to false>><<set $capt to 1>><<set $gotoreview to false>><<set $review to 1>><<set $arrival to false>><<set $gfsms to 0>><<set $casino to true>><<set $anatomy to 3>><<set $fitnesstrack to 0>><<set $dreams to 0>>
+
+<<set $announcement2 to false>><<set $alreadytrained to false>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $gotoparty to false>><<set $massage to false>><<set $alreadyran to false>><<set $dinnertime to true>><<set $alreadyate to false>>
+
+<<set $lust to 20>><<set $stress to 0>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $hunger to 100>><<set $techphone to true>><<set $dos to 1>>
+
+<<set $ownface to 0>><<set $boobs to 0>><<set $ass to 0>><<set $pen to 0>><<set $trans to 0>><<set $officedoc to 0>><<set $suit to true>>
+
+<<set $tickets to true, $itinerary to true, $roomkey to true, $map to true, $schedule to true>><</nobr>>
+
+<<linkreplace "Play! (Select variables first)">>''LOADING:''
+<div class="meter"><span style="width:100%;"><span class="progress"></span></span></div><<timed 2s>><<goto "Bedroom">><</timed>><</linkreplace>>
+
+\\<<elseif $day is "Wednesday">>''<u>Set Variables</u>:''
+
+''SIDE-QUESTS:''
+State of Side-Quest <span class="pink">''"SNACK TIME"''</span>:  <<radiobutton "$gymgirl1" "Unstarted">>  Unstarted  <<radiobutton "$gymgirl1" "Active">> Active  <<radiobutton "$gymgirl1" "Finished">> Finished  
+State of Side-Quest <span class="green">''"HIRE ME"''</span>:  <<radiobutton "$sushi" "Unstarted">>  Unstarted  <<radiobutton "$sushi" "Active">> Active  <<radiobutton "$sushi" "Finished">> Finished  
+State of Side-Quest <span class="red">''"HEADPHONES"''</span> :  <<radiobutton "$headphones" "Unstarted">>  Unstarted  <<radiobutton "$headphones" "Active">> Active  <<radiobutton "$headphones" "1/2 done">> 1/2 done (got headphones)  <<radiobutton "$headphones" "Finished">> Finished
+
+''Points:'' <<radiobutton "$points" 0>> 0  <<radiobutton "$points" 100>> 100  <<radiobutton "$points" 200>> 200  <<radiobutton "$points" 300>> 300  <<radiobutton "$points" 400>> 400  <<radiobutton "$points" 500>> 500  <<radiobutton "$points" 600>> 600
+
+''Stats:''
+Intelligence: <<radiobutton "$int" 90>> 90 IQ  <<radiobutton "$int" 100>> 100 IQ  
+Fitness: <<radiobutton "$fit" 0>> 0  <<radiobutton "$fit" 1>> 1  <<radiobutton "$fit" 2>> 2  <<radiobutton "$fit" 3>> 3  <<radiobutton "$fit" 4>> 4  
+Feminity: <<radiobutton "$fem" 0>> 0  <<radiobutton "$fem" 1>> 1  <<radiobutton "$fem" 2>> 2
+Submission: <<radiobutton "$sub" 0>> 0  <<radiobutton "$sub" 1>> 1  <<radiobutton "$sub" 2>> 2  <<radiobutton "$sub" 3>> 3  <<radiobutton "$sub" 4>> 4  <<nobr>><<set $gameDate to new Date("2018-07-03T08:00");>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 4>><<set $startclasses to true>><<set $newsms to -1>><<set $calendario to true>>
+
+<<set $goggles to 1>><<set $masturbate to 1>><<set $alreadycame to false>>
+
+<<set $kitchen to 2>><<set $stage to 0>><<set $gym to 1>><<set $library to 0>><<set $lab to 0>><<set $shopitems to 1>><<set $capt to 1>><<set $gotoreview to false>><<set $review to 1>><<set $arrival to false>><<set $gfsms to 0>><<set $casino to true>><<set $anatomy to 3>><<set $fitnesstrack to 0>><<set $dreams to 0>><<set $styleclass to 2>>
+
+<<set $announcement2 to false>><<set $alreadytrained to false>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $gotoparty to false>><<set $massage to false>><<set $alreadyran to false>><<set $dinnertime to true>><<set $alreadyate to false>>
+
+<<set $lust to 20>><<set $stress to 0>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $hunger to 100>><<set $techphone to true>><<set $dos to 1>>
+
+<<set $ownface to 0>><<set $boobs to 0>><<set $ass to 0>><<set $pen to 0>><<set $trans to 0>><<set $officedoc to 0>><<set $suit to true>>
+
+<<set $tickets to true, $itinerary to true, $roomkey to true, $map to true, $schedule to true>>
+
+<<set $dress1 to "Active">><<set $wardrobe to true>><<set $badge to 0>><<set $buyshoe1 to true>><<set $buyleg1 to true>><<set $buyupper1 to true>><<set $buyunder1 to true>><<set $shoe to 1>><<set $leg to 1>><<set $under to 1>><<set $upper to 1>><<set $dinner to 0>><<set $fashionbuy to 0>><<set $bflats to false, $bdress to true, $bpdress to true, $bedress to true, $bhheels to true, $bswim to false>><</nobr>>
+
+<<linkreplace "Play! (Select variables first)">>''LOADING:''
+<div class="meter"><span style="width:100%;"><span class="progress"></span></span></div><<timed 2s>><<if $gymgirl1 is "Active">><<set $gymgirl to 0>><<elseif $gymgirl1 is "Finished">><<set $gymgirl to 1>><</if>><<if $sushi is "Active">><<set $srestaurant to 0>><<elseif $sushi is "Finished">><<set $srestaurant to 1>><</if>><<if $headphones is "Active">><<set $read to 1>><<elseif $headphones is "1/2 done">><<set $read to 1, $headphonesm to true>><<elseif $headphones is "Finished">><<set $read to 2, $headphonesm to false>><</if>><<goto "Bedroom">><</timed>><</linkreplace>>
+
+\\<<elseif $day is "Thursday">>''<u>Set Variables</u>:''
+
+''SIDE-QUESTS:''
+State of Side-Quest <span class="pink">''"SNACK TIME"''</span>:  <<radiobutton "$gymgirl1" "Unstarted">>  Unstarted  <<radiobutton "$gymgirl1" "Active">> Active  <<radiobutton "$gymgirl1" "Finished">> Finished  
+State of Side-Quest <span class="green">''"HIRE ME"''</span>:  <<radiobutton "$sushi" "Unstarted">>  Unstarted  <<radiobutton "$sushi" "Active">> Active  <<radiobutton "$sushi" "Finished">> Finished  
+State of Side-Quest <span class="red">''"HEADPHONES"''</span> :  <<radiobutton "$headphones" "Unstarted">>  Unstarted  <<radiobutton "$headphones" "Active">> Active  <<radiobutton "$headphones" "Finished">> Finished
+
+''Points:'' <<radiobutton "$points" 0>> 0  <<radiobutton "$points" 100>> 100  <<radiobutton "$points" 200>> 200  <<radiobutton "$points" 300>> 300  <<radiobutton "$points" 400>> 400  <<radiobutton "$points" 500>> 500  <<radiobutton "$points" 600>> 600  <<radiobutton "$points" 700>> 700
+
+''Stats:''
+Intelligence: <<radiobutton "$int" 90>> 90 IQ  <<radiobutton "$int" 100>> 100 IQ  
+Fitness: <<radiobutton "$fit" 0>> 0  <<radiobutton "$fit" 1>> 1  <<radiobutton "$fit" 2>> 2  <<radiobutton "$fit" 3>> 3  <<radiobutton "$fit" 4>> 4  
+Feminity: <<radiobutton "$fem" 0>> 0  <<radiobutton "$fem" 1>> 1  <<radiobutton "$fem" 2>> 2
+Submission: <<radiobutton "$sub" 0>> 0  <<radiobutton "$sub" 1>> 1  <<radiobutton "$sub" 2>> 2  <<radiobutton "$sub" 3>> 3  <<radiobutton "$sub" 4>> 4  <<nobr>><<set $gameDate to new Date("2018-07-04T08:00");>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 5>><<set $startclasses to true>><<set $newsms to -1>><<set $calendario to true>>
+
+<<set $goggles to 2>><<set $masturbate to 1>><<set $alreadycame to false>>
+
+<<set $kitchen to 2>><<set $stage to 0>><<set $gym to 1>><<set $library to 0>><<set $lab to 0>><<set $shopitems to 1>><<set $capt to 2>><<set $gotoreview to false>><<set $review to 1>><<set $arrival to false>><<set $gfsms to 0>><<set $casino to true>><<set $anatomy to 3>><<set $jada to 0>><<set $fitnesstrack to 0>><<set $dreams to 0>><<set $styleclass to 2>>
+
+<<set $announcement2 to false>><<set $alreadytrained to false>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $gotoparty to false>><<set $massage to false>><<set $alreadyran to false>><<set $dinnertime to true>><<set $alreadyate to false>>
+
+<<set $lust to 20>><<set $stress to 0>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $hunger to 100>><<set $techphone to true>><<set $newsms to -1>><<set $dos to 1>>
+
+<<set $ownface to 0>><<set $boobs to 0>><<set $ass to 0>><<set $pen to 0>><<set $trans to 0>><<set $officedoc to 0>><<set $suit to true>>
+
+<<set $tickets to true, $itinerary to true, $roomkey to true, $map to true, $schedule to true>>
+
+<<set $dress1 to "Active">><<set $wardrobe to true>><<set $badge to 0>><<set $buyshoe1 to true>><<set $buyleg1 to true>><<set $buyupper1 to true>><<set $buyunder1 to true>><<set $shoe to 1>><<set $leg to 1>><<set $under to 1>><<set $upper to 1>><<set $dinner to 0>><<set $fashionbuy to 0>><<set $bflats to false, $bdress to true, $bpdress to true, $bedress to true, $bhheels to true, $bswim to false>><</nobr>>
+
+<<linkreplace "Play! (Select variables first)">>''LOADING:''
+<div class="meter"><span style="width:100%;"><span class="progress"></span></span></div><<timed 2s>><<if $gymgirl1 is "Active">><<set $gymgirl to 0>><<elseif $gymgirl1 is "Finished">><<set $gymgirl to 1>><</if>><<if $sushi is "Active">><<set $srestaurant to 0>><<elseif $sushi is "Finished">><<set $srestaurant to 1>><</if>><<if $headphones is "Active">><<set $read to 1>><<elseif $headphones is "1/2 done">><<set $read to 1, $headphonesm to true>><<elseif $headphones is "Finished">><<set $read to 2, $headphonesm to false>><</if>><<goto "Bedroom">><</timed>><</linkreplace>>
+
+\\<<elseif $day is "Friday">>''<u>Set Variables</u>:''
+
+''SIDE-QUESTS:''
+State of Side-Quest <span class="pink">''"SNACK TIME"''</span>:  <<radiobutton "$gymgirl1" "Unstarted">>  Unstarted  <<radiobutton "$gymgirl1" "Active">> Active  <<radiobutton "$gymgirl1" "Finished">> Finished  
+State of Side-Quest <span class="green">''"HIRE ME"''</span>:  <<radiobutton "$sushi" "Unstarted">>  Unstarted  <<radiobutton "$sushi" "Active">> Active  <<radiobutton "$sushi" "Finished">> Finished  
+State of Side-Quest <span class="red">''"HEADPHONES"''</span> :  <<radiobutton "$headphones" "Unstarted">>  Unstarted  <<radiobutton "$headphones" "Active">> Active  <<radiobutton "$headphones" "Finished">> Finished
+
+''Points:'' <<radiobutton "$points" 0>> 0  <<radiobutton "$points" 100>> 100  <<radiobutton "$points" 200>> 200  <<radiobutton "$points" 300>> 300  <<radiobutton "$points" 400>> 400  <<radiobutton "$points" 500>> 500  <<radiobutton "$points" 600>> 600  <<radiobutton "$points" 700>> 700
+
+''Stats:''
+Intelligence: <<radiobutton "$int" 90>> 90 IQ  <<radiobutton "$int" 100>> 100 IQ  
+Fitness: <<radiobutton "$fit" 0>> 0  <<radiobutton "$fit" 1>> 1  <<radiobutton "$fit" 2>> 2  <<radiobutton "$fit" 3>> 3  <<radiobutton "$fit" 4>> 4  
+Feminity: <<radiobutton "$fem" 0>> 0  <<radiobutton "$fem" 1>> 1  <<radiobutton "$fem" 2>> 2
+Submission: <<radiobutton "$sub" 0>> 0  <<radiobutton "$sub" 1>> 1  <<radiobutton "$sub" 2>> 2  <<radiobutton "$sub" 3>> 3  <<radiobutton "$sub" 4>> 4  <<nobr>><<set $gameDate to new Date("2018-07-05T08:00");>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 6>><<set $startclasses to true>><<set $calendario to true>>
+
+<<set $goggles to 2>><<set $masturbate to 1>><<set $alreadycame to false>>
+
+<<set $kitchen to 2>><<set $stage to 0>><<set $gym to 1>><<set $library to 0>><<set $lab to 0>><<set $shopitems to 1>><<set $capt to 2>><<set $gotoreview to false>><<set $review to 1>><<set $arrival to false>><<set $gfsms to 0>><<set $casino to true>><<set $anatomy to 3>><<set $jada to 0>><<set $dance to 0>><<set $fitnesstrack to 0>><<set $dreams to 0>><<set $styleclass to 2>>
+
+<<set $announcement2 to false>><<set $alreadytrained to false>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $gotoparty to false>><<set $massage to false>><<set $alreadyran to false>><<set $dinnertime to true>><<set $alreadyate to false>>
+
+<<set $lust to 20>><<set $stress to 0>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $hunger to 100>><<set $techphone to true>><<set $newsms to -1>><<set $dos to 1>>
+
+<<set $ownface to 0>><<set $boobs to 0>><<set $ass to 0>><<set $pen to 0>><<set $trans to 0>><<set $officedoc to 0>><<set $suit to true>>
+
+<<set $tickets to true, $itinerary to true, $roomkey to true, $map to true>>
+
+<<set $lab to "Active">><<set $dress1 to "Active">><<set $wardrobe to true>><<set $badge to 1>><<set $buyshoe1 to true>><<set $buyleg1 to true>><<set $buyupper1 to true>><<set $buyunder1 to true>><<set $shoe to 1>><<set $leg to 1>><<set $under to 1>><<set $upper to 1>><<set $dinner to 0>><<set $fashionbuy to 0>><<set $bflats to false, $bdress to true, $bpdress to true, $bedress to true, $bhheels to true, $bswim to false>><</nobr>>
+
+<<linkreplace "Play! (Select variables first)">>''LOADING:''
+<div class="meter"><span style="width:100%;"><span class="progress"></span></span></div><<timed 2s>><<if $gymgirl1 is "Active">><<set $gymgirl to 0>><<elseif $gymgirl1 is "Finished">><<set $gymgirl to 1>><</if>><<if $sushi is "Active">><<set $srestaurant to 0>><<elseif $sushi is "Finished">><<set $srestaurant to 1>><</if>><<if $headphones is "Active">><<set $read to 1>><<elseif $headphones is "1/2 done">><<set $read to 1, $headphonesm to true>><<elseif $headphones is "Finished">><<set $read to 2, $headphonesm to false>><</if>><<goto "Bedroom">><</timed>><</linkreplace>>
+
+\\<<elseif $day is "Saturday">>''<u>Set Variables</u>:''
+
+''SIDE-QUESTS:''
+State of Side-Quest <span class="pink">''"SNACK TIME"''</span>:  <<radiobutton "$gymgirl1" "Unstarted">>  Unstarted  <<radiobutton "$gymgirl1" "Active">> Active  <<radiobutton "$gymgirl1" "Finished">> Finished  
+State of Side-Quest <span class="green">''"HIRE ME"''</span>:  <<radiobutton "$sushi" "Unstarted">>  Unstarted  <<radiobutton "$sushi" "Active">> Active  <<radiobutton "$sushi" "Finished">> Finished  
+State of Side-Quest <span class="red">''"HEADPHONES"''</span> :  <<radiobutton "$headphones" "Unstarted">>  Unstarted  <<radiobutton "$headphones" "Active">> Active  <<radiobutton "$headphones" "Finished">> Finished
+
+''OTHER:''
+''Wear chastity cage?:''  <<radiobutton "$cage" true>>
+''Have the key?:''  <<radiobutton "$havekey" true>>
+
+''Points:'' <<radiobutton "$points" 0>> 0  <<radiobutton "$points" 100>> 100  <<radiobutton "$points" 200>> 200  <<radiobutton "$points" 300>> 300  <<radiobutton "$points" 400>> 400  <<radiobutton "$points" 500>> 500  <<radiobutton "$points" 600>> 600  <<radiobutton "$points" 700>> 700  <<radiobutton "$points" 800>> 800  
+
+''Stats:''
+Intelligence: <<radiobutton "$int" 90>> 90 IQ  <<radiobutton "$int" 100>> 100 IQ  
+Fitness: <<radiobutton "$fit" 0>> 0  <<radiobutton "$fit" 1>> 1  <<radiobutton "$fit" 2>> 2  <<radiobutton "$fit" 3>> 3  <<radiobutton "$fit" 4>> 4  
+Feminity: <<radiobutton "$fem" 0>> 0  <<radiobutton "$fem" 1>> 1  <<radiobutton "$fem" 2>> 2
+Submission: <<radiobutton "$sub" 0>> 0  <<radiobutton "$sub" 1>> 1  <<radiobutton "$sub" 2>> 2  <<radiobutton "$sub" 3>> 3  <<radiobutton "$sub" 4>> 4  <<nobr>><<set $gameDate to new Date("2018-07-06T08:00");>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 7>><<set $startclasses to true>><<set $calendario to true>>
+
+<<set $goggles to 3>><<set $masturbate to 1>><<set $alreadycame to false>>
+
+<<set $kitchen to 2>><<set $stage to 0>><<set $gym to 1>><<set $library to 0>><<set $lab to 1>><<set $shopitems to 1>><<set $capt to 2>><<set $gotoreview to false>><<set $review to 2>><<set $arrival to false>><<set $gfsms to 1>><<set $casino to true>><<set $anatomy to 3>><<set $jada to 0>><<set $dance to 0>><<set $fitnesstrack to 0>><<set $dreams to 0>><<set $styleclass to 2>>
+
+<<set $announcement2 to false>><<set $alreadytrained to false>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $gotoparty to false>><<set $massage to false>><<set $alreadyran to false>><<set $dinnertime to true>><<set $alreadyate to false>><<set $havekey to true>><<set $smsm2 to true>><<set $cage to false>><<set $cageroom to true>>
+
+<<set $lust to 20>><<set $stress to 0>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $hunger to 100>><<set $techphone to true>><<set $newsms to -1>><<set $dos to 1>>
+
+<<set $ownface to 1>><<set $boobs to 0>><<set $ass to 0>><<set $pen to 0>><<set $suit to true>><<set $trans to 0>><<set $officedoc to 0>>
+
+<<set $tickets to true, $itinerary to true, $roomkey to true, $map to true>>
+
+<<set $lab1 to "Active">><<set $dress1 to "Active">><<set $badge to 1>>
+
+<<set $wardrobe to true>><<set $buyshoe1 to true>><<set $buyleg1 to true>><<set $buyupper1 to true>><<set $buyunder1 to true>><<set $shoe to 1>><<set $leg to 1>><<set $under to 1>><<set $upper to 1>><<set $dinner to 0>><<set $fashionbuy to 0>><<set $bflats to false, $bdress to true, $bpdress to true, $bedress to true, $bhheels to true, $bswim to false>><</nobr>>
+
+<<linkreplace "Play! (Select variables first)">>''LOADING:''
+<div class="meter"><span style="width:100%;"><span class="progress"></span></span></div><<timed 2s>><<if $gymgirl1 is "Active">><<set $gymgirl to 0>><<elseif $gymgirl1 is "Finished">><<set $gymgirl to 1>><</if>><<if $sushi is "Active">><<set $srestaurant to 0>><<elseif $sushi is "Finished">><<set $srestaurant to 1>><</if>><<if $headphones is "Active">><<set $read to 1>><<elseif $headphones is "1/2 done">><<set $read to 1, $headphonesm to true>><<elseif $headphones is "Finished">><<set $read to 2, $headphonesm to false>><</if>><<goto "Bedroom">><</timed>><</linkreplace>>
+
+
+\\<<elseif $day is "Sunday">>''<u>Set Variables</u>:''
+
+''SIDE-QUESTS:''
+State of Side-Quest <span class="pink">''"SNACK TIME"''</span>:  <<radiobutton "$gymgirl1" "Unstarted">>  Unstarted  <<radiobutton "$gymgirl1" "Active">> Active  <<radiobutton "$gymgirl1" "Finished">> Finished  
+State of Side-Quest <span class="green">''"HIRE ME"''</span>:  <<radiobutton "$sushi" "Unstarted">>  Unstarted  <<radiobutton "$sushi" "Active">> Active  <<radiobutton "$sushi" "Finished">> Finished  
+State of Side-Quest <span class="red">''"HEADPHONES"''</span> :  <<radiobutton "$headphones" "Unstarted">>  Unstarted  <<radiobutton "$headphones" "Active">> Active  <<radiobutton "$headphones" "Finished">> Finished
+
+''OTHER:''
+''Wear chastity cage?:''  <<radiobutton "$cage" true>>
+''Have the key?:''  <<radiobutton "$havekey" true>>
+
+''Points:'' <<radiobutton "$points" 0>> 0  <<radiobutton "$points" 100>> 100  <<radiobutton "$points" 200>> 200  <<radiobutton "$points" 300>> 300  <<radiobutton "$points" 400>> 400  <<radiobutton "$points" 500>> 500  <<radiobutton "$points" 600>> 600  <<radiobutton "$points" 700>> 700
+
+''Stats:''
+Intelligence: <<radiobutton "$int" 90>> 90 IQ  <<radiobutton "$int" 100>> 100 IQ  
+Fitness: <<radiobutton "$fit" 0>> 0  <<radiobutton "$fit" 1>> 1  <<radiobutton "$fit" 2>> 2  <<radiobutton "$fit" 3>> 3  <<radiobutton "$fit" 4>> 4  
+Feminity: <<radiobutton "$fem" 0>> 0  <<radiobutton "$fem" 1>> 1  <<radiobutton "$fem" 2>> 2
+Submission: <<radiobutton "$sub" 0>> 0  <<radiobutton "$sub" 1>> 1  <<radiobutton "$sub" 2>> 2  <<radiobutton "$sub" 3>> 3  <<radiobutton "$sub" 4>> 4  <<nobr>><<set $gameDate to new Date("2018-07-07T08:00");>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 8>><<set $startclasses to true>><<set $newsms to -1>><<set $calendario to true>>
+
+<<set $cucklike to false>><<set $goggles to 5>><<set $masturbate to 1>><<set $alreadycame to false>><<set $cageroom to false>>
+
+<<set $kitchen to 2>><<set $stage to 0>><<set $gym to 1>><<set $library to 0>><<set $lab to 1>><<set $shopitems to 1>><<set $capt to 2>><<set $gotoreview to false>><<set $review to 1>><<set $arrival to true>><<set $gfsms to 0>><<set $casino to true>><<set $anatomy to 3>><<set $fitnesstrack to 0>><<set $dreams to 0>><<set $styleclass to 2>><<set $jada to 0>>
+
+<<set $announcement2 to false>><<set $alreadytrained to false>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $gotoparty to false>><<set $massage to false>><<set $alreadyran to false>><<set $dinnertime to true>><<set $alreadyate to false>>
+
+<<set $lust to 20>><<set $stress to 20>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $hunger to 100>><<set $techphone to true>><<set $dos to 2>>
+
+<<set $ownface to 1>><<set $boobs to 0>><<set $ass to 0>><<set $pen to 0>><<set $suit to true>><<set $trans to 0>><<set $officedoc to 0>>
+
+<<set $tickets to true, $itinerary to true, $roomkey to true, $map to true>>
+
+<<set $lab1 to "Active">><<set $dress1 to "Active">><<set $badge to 1>>
+
+<<set $wardrobe to true>><<set $buyshoe1 to true>><<set $buyleg1 to true>><<set $buyupper1 to true>><<set $buyunder1 to true>><<set $shoe to 1>><<set $leg to 1>><<set $under to 1>><<set $upper to 1>><<set $dinner to 0>><<set $fashionbuy to 0>><<set $bflats to false, $bdress to true, $bpdress to true, $bedress to true, $bhheels to true, $bswim to false>><</nobr>>
+
+<<linkreplace "Play! (Select variables first)">>''LOADING:''
+<div class="meter"><span style="width:100%;"><span class="progress"></span></span></div><<timed 2s>><<if $gymgirl1 is "Active">><<set $gymgirl to 0>><<elseif $gymgirl1 is "Finished">><<set $gymgirl to 1>><</if>><<if $sushi is "Active">><<set $srestaurant to 0>><<elseif $sushi is "Finished">><<set $srestaurant to 1>><</if>><<if $headphones is "Active">><<set $read to 1>><<elseif $headphones is "1/2 done">><<set $read to 1, $headphonesm to true>><<elseif $headphones is "Finished">><<set $read to 2, $headphonesm to false>><</if>><<goto "Bedroom">><</timed>><</linkreplace>><</if>>
+
+
+
+
+
+
+\\<<elseif $week is 2>><<if $day is "Monday">>''<u>Set Variables</u>:''
+
+''SIDE-QUESTS:''
+State of Side-Quest <span class="pink">''"SNACK TIME"''</span>:  <<radiobutton "$gymgirl1" "Unstarted">>  Unstarted  <<radiobutton "$gymgirl1" "Active">> Active  <<radiobutton "$gymgirl1" "Finished">> Finished  
+State of Side-Quest <span class="green">''"HIRE ME"''</span>:  <<radiobutton "$sushi" "Unstarted">>  Unstarted  <<radiobutton "$sushi" "Active">> Active  <<radiobutton "$sushi" "Finished">> Finished  
+State of Side-Quest <span class="red">''"HEADPHONES"''</span> :  <<radiobutton "$headphones" "Unstarted">>  Unstarted  <<radiobutton "$headphones" "Active">> Active  <<radiobutton "$headphones" "Finished">> Finished  
+State of Side-Quest <span class="blue">''"STAY AFLOAT"''</span>:  <<radiobutton "$suzie" "Unstarted">>  Unstarted  <<radiobutton "$suzie" "Active">> Active  <<radiobutton "$suzie" "Finished">> Finished  
+State of Side-Quest <span class="yellow">''"HOLY GRAIL"''</span>:  <<radiobutton "$cupmission" "Unstarted">>  Unstarted  <<radiobutton "$cupmission" "Active">> Active  <<radiobutton "$cupmission" "Finished">> Finished  
+State of Side-Quest <span class="brown">''"WORKAHOLIC"''</span>:  <<radiobutton "$missionbar1" "Unstarted">>  Unstarted  <<radiobutton "$missionbar1" "Active">> Active  <<radiobutton "$missionbar1" "Finished">> Finished
+
+''OTHER:''
+<<radiobutton "$cucklike" true false>> Did you submit to your GF's cheating?
+
+''Points:'' <<radiobutton "$points" 0>> 0  <<radiobutton "$points" 100>> 100  <<radiobutton "$points" 200>> 200  <<radiobutton "$points" 300>> 300  <<radiobutton "$points" 400>> 400  <<radiobutton "$points" 500>> 500  <<radiobutton "$points" 600>> 600  <<radiobutton "$points" 700>> 700
+
+''Stats:''
+Intelligence: <<radiobutton "$int" 90>> 90 IQ  <<radiobutton "$int" 100>> 100 IQ  <<radiobutton "$int" 110>> 110 IQ  
+Fitness: <<radiobutton "$fit" 0>> 0  <<radiobutton "$fit" 5>> 5  <<radiobutton "$fit" 8>> 8  <<radiobutton "$fit" 10>> 10  <<radiobutton "$fit" 15>> 15  
+Feminity: <<radiobutton "$fem" 1>> 1  <<radiobutton "$fem" 5>> 5  <<radiobutton "$fem" 10>> 10
+Submission: <<radiobutton "$sub" 2>> 2  <<radiobutton "$sub" 5>> 5  <<radiobutton "$sub" 10>> 10  <<radiobutton "$sub" 13>> 13  <<nobr>><<set $gameDate to new Date("2018-07-08T08:00");>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 9>><<set $startclasses to true>><<set $newsms to -1>><<set $calendario to true>>
+
+<<set $goggles to 5>><<set $masturbate to 1>><<set $alreadycame to false>><<set $cageroom to false>>
+
+<<set $kitchen to 3>><<set $stage to 0>><<set $gym to 2>><<set $library to 0>><<set $lab to 1>><<set $shopitems to 1>><<set $capt to 3>><<set $gotoreview to false>><<set $review to 1>><<set $arrival to false>><<set $gfsms to 0>><<set $casino to true>><<set $anatomy to 3>><<set $fitnesstrack to 0>><<set $dance to 1>><<set $dreams to 0>><<set $styleclass to 2>><<set $jada to 0>>
+
+<<set $announcement2 to false>><<set $alreadytrained to false>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $gotoparty to false>><<set $massage to false>><<set $alreadyran to false>><<set $dinnertime to true>><<set $alreadyate to false>>
+
+<<set $lust to 20>><<set $stress to 20>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $hunger to 100>><<set $techphone to true>><<set $dos to 2>>
+
+<<set $ownface to 1>><<set $boobs to 0>><<set $ass to 0>><<set $pen to 0>><<set $suit to true>><<set $trans to 0>><<set $officedoc to 0>>
+
+<<set $tickets to true, $itinerary to true, $roomkey to true, $map to true, $bimbopic to true>>
+
+<<set $drug2 to "Active">><<set $lab1 to "Active">><<set $dress1 to "Active">><<set $badge to 2>>
+
+<<set $wardrobe to true>><<set $buyshoe1 to true>><<set $buyleg1 to true>><<set $buyupper1 to true>><<set $buyunder1 to true, $buyunder2 to true>><<set $shoe to 1>><<set $leg to 1>><<set $under to 2>><<set $upper to 1>><<set $dinner to 0>><<set $fashionbuy to 0>><<set $bflats to false, $bdress to true, $bpdress to true, $bedress to true, $bhheels to true, $bswim to false>><</nobr>>
+
+<<linkreplace "Play! (Select variables first)">>''LOADING:''
+<div class="meter"><span style="width:100%;"><span class="progress"></span></span></div><<timed 2s>><<if $gymgirl1 is "Active">><<set $gymgirl to 0>><<elseif $gymgirl1 is "Finished">><<set $gymgirl to 1>><</if>><<if $sushi is "Active">><<set $srestaurant to 0>><<elseif $sushi is "Finished">><<set $srestaurant to 1>><</if>><<if $headphones is "Active">><<set $read to 1>><<elseif $headphones is "1/2 done">><<set $read to 1, $headphonesm to true>><<elseif $headphones is "Finished">><<set $read to 2, $headphonesm to false>><</if>><<if $suzie is "Active">><<set $outpool to 0>><<elseif $suzie is "Finished">><<set $inpool to 3, $suziebikini to true, $outpool to 0>><</if>><<if $cupmission is "Active">><<set $outdeck to 0>><<elseif $cupmission is "Finished">><<set $outdeck to 1, $tea to 1>><</if>><<if $missionbar1 is "Active">><<set $tables to 0, $coffeewoman to 0>><<elseif $missionbar is "Finished">><<set $tables to 1>><</if>><<goto "Bedroom">><</timed>><</linkreplace>>
+
+
+\\<<elseif $day is "Tuesday">>''<u>Set Variables</u>:''
+
+''SIDE-QUESTS:''
+State of Side-Quest <span class="pink">''"SNACK TIME"''</span>:  <<radiobutton "$gymgirl1" "Unstarted">>  Unstarted  <<radiobutton "$gymgirl1" "Active">> Active  <<radiobutton "$gymgirl1" "Finished">> Finished  
+State of Side-Quest <span class="green">''"HIRE ME"''</span>:  <<radiobutton "$sushi" "Unstarted">>  Unstarted  <<radiobutton "$sushi" "Active">> Active  <<radiobutton "$sushi" "Finished">> Finished  
+State of Side-Quest <span class="red">''"HEADPHONES"''</span> :  <<radiobutton "$headphones" "Unstarted">>  Unstarted  <<radiobutton "$headphones" "Active">> Active  <<radiobutton "$headphones" "Finished">> Finished  
+State of Side-Quest <span class="blue">''"STAY AFLOAT"''</span>:  <<radiobutton "$suzie" "Unstarted">>  Unstarted  <<radiobutton "$suzie" "Active">> Active  <<radiobutton "$suzie" "Finished">> Finished  
+State of Side-Quest <span class="yellow">''"HOLY GRAIL"''</span>:  <<radiobutton "$cupmission" "Unstarted">>  Unstarted  <<radiobutton "$cupmission" "Active">> Active  <<radiobutton "$cupmission" "Finished">> Finished  
+State of Side-Quest <span class="brown">''"WORKAHOLIC"''</span>:  <<radiobutton "$missionbar1" "Unstarted">>  Unstarted  <<radiobutton "$missionbar1" "Active">> Active  <<radiobutton "$missionbar1" "Finished">> Finished
+
+''OTHER:''
+<<radiobutton "$cucklike" true false>> Did you submit to your GF's cheating?
+
+''Points:'' <<radiobutton "$points" 0>> 0  <<radiobutton "$points" 100>> 100  <<radiobutton "$points" 200>> 200  <<radiobutton "$points" 300>> 300  <<radiobutton "$points" 400>> 400  <<radiobutton "$points" 500>> 500  <<radiobutton "$points" 600>> 600  <<radiobutton "$points" 700>> 700
+
+''Stats:''
+Intelligence: <<radiobutton "$int" 90>> 90 IQ  <<radiobutton "$int" 100>> 100 IQ  <<radiobutton "$int" 110>> 110 IQ  
+Fitness: <<radiobutton "$fit" 0>> 0  <<radiobutton "$fit" 5>> 5  <<radiobutton "$fit" 8>> 8  <<radiobutton "$fit" 10>> 10  <<radiobutton "$fit" 15>> 15  
+Feminity: <<radiobutton "$fem" 1>> 1  <<radiobutton "$fem" 5>> 5  <<radiobutton "$fem" 10>> 10
+Submission: <<radiobutton "$sub" 2>> 2  <<radiobutton "$sub" 5>> 5  <<radiobutton "$sub" 10>> 10  <<radiobutton "$sub" 13>> 13  <<nobr>><<set $gameDate to new Date("2018-07-09T08:00");>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 10>><<set $startclasses to true>><<set $newsms to -1>><<set $calendario to true>>
+
+<<set $goggles to 5>><<set $masturbate to 1>><<set $alreadycame to false>><<set $cageroom to false>>
+
+<<set $kitchen to 3>><<set $stage to 0>><<set $gym to 2>><<set $library to 0>><<set $lab to 1>><<set $shopitems to 1>><<set $capt to 3>><<set $gotoreview to false>><<set $review to 1>><<set $arrival to false>><<set $gfsms to 0>><<set $casino to true>><<set $anatomy to 3>><<set $fitnesstrack to 0>><<set $dance to 1>><<set $dreams to 0>><<set $styleclass to 2>><<set $jada to 0>>
+
+<<set $announcement2 to false>><<set $alreadytrained to false>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $gotoparty to false>><<set $massage to false>><<set $alreadyran to false>><<set $dinnertime to true>><<set $alreadyate to false>>
+
+<<set $lust to 20>><<set $stress to 20>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $hunger to 100>><<set $techphone to true>><<set $dos to 2>>
+
+<<set $ownface to 1>><<set $boobs to 0>><<set $ass to 0>><<set $pen to 0>><<set $suit to true>><<set $trans to 0>><<set $officedoc to 0>>
+
+<<set $tickets to true, $itinerary to true, $roomkey to true, $map to true, $bimbopic to true>>
+
+<<set $drug2 to "Active">><<set $lab1 to "Active">><<set $dress1 to "Active">><<set $badge to 2>>
+
+<<set $wardrobe to true>><<set $buyshoe1 to true>><<set $buyleg1 to true>><<set $buyupper1 to true>><<set $buyunder1 to true>><<set $shoe to 1>><<set $leg to 1>><<set $under to 1>><<set $upper to 1>><<set $dinner to 0>><<set $fashionbuy to 0>><<set $bflats to false, $bdress to true, $bpdress to true, $bedress to true, $bhheels to true, $bswim to false>><</nobr>>
+
+<<linkreplace "Play! (Select variables first)">>''LOADING:''
+<div class="meter"><span style="width:100%;"><span class="progress"></span></span></div><<timed 2s>><<if $gymgirl1 is "Active">><<set $gymgirl to 0>><<elseif $gymgirl1 is "Finished">><<set $gymgirl to 1>><</if>><<if $sushi is "Active">><<set $srestaurant to 0>><<elseif $sushi is "Finished">><<set $srestaurant to 1>><</if>><<if $headphones is "Active">><<set $read to 1>><<elseif $headphones is "1/2 done">><<set $read to 1, $headphonesm to true>><<elseif $headphones is "Finished">><<set $read to 2, $headphonesm to false>><</if>><<if $suzie is "Active">><<set $outpool to 0>><<elseif $suzie is "Finished">><<set $inpool to 3, $suziebikini to true, $outpool to 0>><</if>><<if $cupmission is "Active">><<set $outdeck to 0>><<elseif $cupmission is "Finished">><<set $outdeck to 1, $tea to 1>><</if>><<if $missionbar1 is "Active">><<set $tables to 0, $coffeewoman to 0>><<elseif $missionbar is "Finished">><<set $tables to 1>><</if>><<goto "Bedroom">><</timed>><</linkreplace>>
+
+
+\\<<elseif $day is "Wednesday">>''<u>Set Variables</u>:''
+
+''SIDE-QUESTS:''
+State of Side-Quest <span class="pink">''"SNACK TIME"''</span>:  <<radiobutton "$gymgirl1" "Unstarted">>  Unstarted  <<radiobutton "$gymgirl1" "Active">> Active  <<radiobutton "$gymgirl1" "Finished">> Finished  
+State of Side-Quest <span class="green">''"HIRE ME"''</span>:  <<radiobutton "$sushi" "Unstarted">>  Unstarted  <<radiobutton "$sushi" "Active">> Active  <<radiobutton "$sushi" "Finished">> Finished  
+State of Side-Quest <span class="red">''"HEADPHONES"''</span> :  <<radiobutton "$headphones" "Unstarted">>  Unstarted  <<radiobutton "$headphones" "Active">> Active  <<radiobutton "$headphones" "Finished">> Finished  
+State of Side-Quest <span class="blue">''"STAY AFLOAT"''</span>:  <<radiobutton "$suzie" "Unstarted">>  Unstarted  <<radiobutton "$suzie" "Active">> Active  <<radiobutton "$suzie" "Finished">> Finished  
+State of Side-Quest <span class="yellow">''"HOLY GRAIL"''</span>:  <<radiobutton "$cupmission" "Unstarted">>  Unstarted  <<radiobutton "$cupmission" "Active">> Active  <<radiobutton "$cupmission" "Finished">> Finished  
+State of Side-Quest <span class="brown">''"WORKAHOLIC"''</span>:  <<radiobutton "$missionbar1" "Unstarted">>  Unstarted  <<radiobutton "$missionbar1" "Active">> Active  <<radiobutton "$missionbar1" "Finished">> Finished
+
+''OTHER:''
+<<radiobutton "$cucklike" true false>> Did you submit to your GF's cheating?
+
+''Points:'' <<radiobutton "$points" 0>> 0  <<radiobutton "$points" 100>> 100  <<radiobutton "$points" 200>> 200  <<radiobutton "$points" 300>> 300  <<radiobutton "$points" 400>> 400  <<radiobutton "$points" 500>> 500  <<radiobutton "$points" 600>> 600  <<radiobutton "$points" 700>> 700
+
+''Stats:''
+Intelligence: <<radiobutton "$int" 90>> 90 IQ  <<radiobutton "$int" 100>> 100 IQ  <<radiobutton "$int" 110>> 110 IQ  
+Fitness: <<radiobutton "$fit" 0>> 0  <<radiobutton "$fit" 5>> 5  <<radiobutton "$fit" 8>> 8  <<radiobutton "$fit" 10>> 10  <<radiobutton "$fit" 15>> 15  
+Feminity: <<radiobutton "$fem" 1>> 1  <<radiobutton "$fem" 5>> 5  <<radiobutton "$fem" 13>> 13
+Submission: <<radiobutton "$sub" 2>> 2  <<radiobutton "$sub" 5>> 5  <<radiobutton "$sub" 10>> 10  <<radiobutton "$sub" 15>> 15  <<nobr>><<set $gameDate to new Date("2018-07-10T08:00");>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 11>><<set $startclasses to true>><<set $newsms to -1>><<set $calendario to true>>
+
+<<set $techphone to true>>
+
+<<set $goggles to 5>><<set $masturbate to 1>><<set $alreadycame to false>><<set $cageroom to false>>
+
+<<set $kitchen to 4>><<set $stage to 0>><<set $gym to 3>><<set $library to 0>><<set $lab to 1>><<set $shopitems to 1>><<set $capt to 3>><<set $gotoreview to false>><<set $review to 1>><<set $arrival to false>><<set $gfsms to 0>><<set $casino to true>><<set $anatomy to 3>><<set $fitnesstrack to 0>><<set $dance to 1>><<set $dreams to 0>><<set $styleclass to 3>><<set $jada to 0>>
+
+<<set $announcement2 to false>><<set $alreadytrained to false>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $gotoparty to false>><<set $massage to false>><<set $alreadyran to false>><<set $dinnertime to true>><<set $alreadyate to false>><<set $shaving to 0, $shavebath to true>>
+
+<<set $lust to 20>><<set $stress to 20>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $hunger to 100>><<set $techphone to true>><<set $dos to 2>>
+
+<<set $ownface to 1>><<set $boobs to 0>><<set $ass to 0>><<set $pen to 0>><<set $suit to true>><<set $trans to 0>><<set $officedoc to 0>>
+
+<<set $tickets to true, $itinerary to true, $roomkey to true, $map to true, $bimbopic to true>>
+
+<<set $drug2 to "Active">><<set $shave to "Active">><<set $lab1 to "Active">><<set $badge to 3>>
+
+<<set $wardrobe to true>><<set $buyshoe1 to true>><<set $buyleg1 to true>><<set $buyupper1 to true>><<set $buyunder1 to true>><<set $shoe to 1>><<set $leg to 1>><<set $under to 1>><<set $upper to 1>><<set $dinner to 0>><<set $fashionbuy to 0>><<set $bflats to false, $bdress to true, $bpdress to true, $bedress to true, $bhheels to true, $bswim to false>><</nobr>>
+
+<<linkreplace "Play! (Select variables first)">>''LOADING:''
+<div class="meter"><span style="width:100%;"><span class="progress"></span></span></div><<timed 2s>><<if $gymgirl1 is "Active">><<set $gymgirl to 0>><<elseif $gymgirl1 is "Finished">><<set $gymgirl to 1>><</if>><<if $sushi is "Active">><<set $srestaurant to 0>><<elseif $sushi is "Finished">><<set $srestaurant to 1>><</if>><<if $headphones is "Active">><<set $read to 1>><<elseif $headphones is "1/2 done">><<set $read to 1, $headphonesm to true>><<elseif $headphones is "Finished">><<set $read to 2, $headphonesm to false>><</if>><<if $suzie is "Active">><<set $outpool to 0>><<elseif $suzie is "Finished">><<set $inpool to 3, $suziebikini to true, $outpool to 0>><</if>><<if $cupmission is "Active">><<set $outdeck to 0>><<elseif $cupmission is "Finished">><<set $outdeck to 1, $tea to 1>><</if>><<if $missionbar1 is "Active">><<set $tables to 0, $coffeewoman to 0>><<elseif $missionbar is "Finished">><<set $tables to 1>><</if>><<goto "Bedroom">><</timed>><</linkreplace>>
+
+
+\\<<elseif $day is "Thursday">>''<u>Set Variables</u>:''
+
+''SIDE-QUESTS:''
+State of Side-Quest <span class="pink">''"SNACK TIME"''</span>:  <<radiobutton "$gymgirl1" "Unstarted">>  Unstarted  <<radiobutton "$gymgirl1" "Active">> Active  <<radiobutton "$gymgirl1" "Finished">> Finished  
+State of Side-Quest <span class="green">''"HIRE ME"''</span>:  <<radiobutton "$sushi" "Unstarted">>  Unstarted  <<radiobutton "$sushi" "Active">> Active  <<radiobutton "$sushi" "Finished">> Finished  
+State of Side-Quest <span class="red">''"HEADPHONES"''</span> :  <<radiobutton "$headphones" "Unstarted">>  Unstarted  <<radiobutton "$headphones" "Active">> Active  <<radiobutton "$headphones" "Finished">> Finished  
+State of Side-Quest <span class="blue">''"STAY AFLOAT"''</span>:  <<radiobutton "$suzie" "Unstarted">>  Unstarted  <<radiobutton "$suzie" "Active">> Active  <<radiobutton "$suzie" "Finished">> Finished  
+State of Side-Quest <span class="yellow">''"HOLY GRAIL"''</span>:  <<radiobutton "$cupmission" "Unstarted">>  Unstarted  <<radiobutton "$cupmission" "Active">> Active  <<radiobutton "$cupmission" "Finished">> Finished  
+State of Side-Quest <span class="brown">''"WORKAHOLIC"''</span>:  <<radiobutton "$missionbar1" "Unstarted">>  Unstarted  <<radiobutton "$missionbar1" "Active">> Active  <<radiobutton "$missionbar1" "Finished">> Finished
+
+''OTHER:''
+<<radiobutton "$cucklike" true false>> Did you submit to your GF's cheating?
+
+''Points:'' <<radiobutton "$points" 0>> 0  <<radiobutton "$points" 100>> 100  <<radiobutton "$points" 200>> 200  <<radiobutton "$points" 300>> 300  <<radiobutton "$points" 400>> 400  <<radiobutton "$points" 500>> 500  <<radiobutton "$points" 600>> 600  <<radiobutton "$points" 700>> 700
+
+''Stats:''
+Intelligence: <<radiobutton "$int" 90>> 90 IQ  <<radiobutton "$int" 100>> 100 IQ  <<radiobutton "$int" 110>> 110 IQ  
+Fitness: <<radiobutton "$fit" 0>> 0  <<radiobutton "$fit" 5>> 5  <<radiobutton "$fit" 8>> 8  <<radiobutton "$fit" 10>> 10  <<radiobutton "$fit" 15>> 15  
+Feminity: <<radiobutton "$fem" 1>> 1  <<radiobutton "$fem" 5>> 5  <<radiobutton "$fem" 13>> 13
+Submission: <<radiobutton "$sub" 2>> 2  <<radiobutton "$sub" 5>> 5  <<radiobutton "$sub" 10>> 10  <<radiobutton "$sub" 15>> 15  <<nobr>><<set $gameDate to new Date("2018-07-11T08:00");>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 12>><<set $startclasses to true>><<set $newsms to -1>><<set $calendario to true>>
+
+<<set $techphone to true>>
+
+<<set $goggles to 5>><<set $masturbate to 1>><<set $alreadycame to false>><<set $cageroom to false>>
+
+<<set $kitchen to 4>><<set $stage to 0>><<set $gym to 3>><<set $library to 0>><<set $lab to 1>><<set $shopitems to 1>><<set $capt to 3>><<set $gotoreview to false>><<set $review to 1>><<set $arrival to false>><<set $gfsms to 0>><<set $casino to true>><<set $anatomy to 3>><<set $fitnesstrack to 0>><<set $dance to 1>><<set $styleclass to 3>><<set $jada to 1>>
+
+<<set $announcement2 to false>><<set $alreadytrained to false>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $gotoparty to false>><<set $massage to false>><<set $alreadyran to false>><<set $dinnertime to true>><<set $alreadyate to false>><<set $shaving to 0, $shavebath to true>>
+
+<<set $lust to 20>><<set $stress to 20>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $hunger to 100>><<set $techphone to true>><<set $dos to 2>>
+
+<<set $ownface to 1>><<set $boobs to 0>><<set $ass to 0>><<set $pen to 0>><<set $suit to true>><<set $trans to 0>><<set $officedoc to 0>>
+
+<<set $tickets to true, $itinerary to true, $roomkey to true, $map to true, $bimbopic to true>>
+
+<<set $shave to "Active">><<set $drug2 to "Active">><<set $lab1 to "Active">><<set $badge to 2>>
+
+<<set $wardrobe to true>><<set $buyshoe1 to true>><<set $buyleg1 to true>><<set $buyupper1 to true>><<set $buyunder1 to true>><<set $shoe to 1>><<set $leg to 1>><<set $under to 1>><<set $upper to 1>><<set $dinner to 0>><<set $fashionbuy to 0>><<set $bflats to false, $bdress to true, $bpdress to true, $bedress to true, $bhheels to true, $bswim to false>><</nobr>>
+
+<<linkreplace "Play! (Select variables first)">>''LOADING:''
+<div class="meter"><span style="width:100%;"><span class="progress"></span></span></div><<timed 2s>><<if $gymgirl1 is "Active">><<set $gymgirl to 0>><<elseif $gymgirl1 is "Finished">><<set $gymgirl to 1>><</if>><<if $sushi is "Active">><<set $srestaurant to 0>><<elseif $sushi is "Finished">><<set $srestaurant to 1>><</if>><<if $headphones is "Active">><<set $read to 1>><<elseif $headphones is "1/2 done">><<set $read to 1, $headphonesm to true>><<elseif $headphones is "Finished">><<set $read to 2, $headphonesm to false>><</if>><<if $suzie is "Active">><<set $outpool to 0>><<elseif $suzie is "Finished">><<set $inpool to 3, $suziebikini to true, $outpool to 0>><</if>><<if $cupmission is "Active">><<set $outdeck to 0>><<elseif $cupmission is "Finished">><<set $outdeck to 1, $tea to 1>><</if>><<if $missionbar1 is "Active">><<set $tables to 0, $coffeewoman to 0>><<elseif $missionbar is "Finished">><<set $tables to 1>><</if>><<goto "Bedroom">><</timed>><</linkreplace>>
+
+
+\\<<elseif $day is "Friday">>''<u>Set Variables</u>:''
+
+''SIDE-QUESTS:''
+State of Side-Quest <span class="pink">''"SNACK TIME"''</span>:  <<radiobutton "$gymgirl1" "Unstarted">>  Unstarted  <<radiobutton "$gymgirl1" "Active">> Active  <<radiobutton "$gymgirl1" "Finished">> Finished  
+State of Side-Quest <span class="green">''"HIRE ME"''</span>:  <<radiobutton "$sushi" "Unstarted">>  Unstarted  <<radiobutton "$sushi" "Active">> Active  <<radiobutton "$sushi" "Finished">> Finished  
+State of Side-Quest <span class="red">''"HEADPHONES"''</span> :  <<radiobutton "$headphones" "Unstarted">>  Unstarted  <<radiobutton "$headphones" "Active">> Active  <<radiobutton "$headphones" "Finished">> Finished  
+State of Side-Quest <span class="blue">''"STAY AFLOAT"''</span>:  <<radiobutton "$suzie" "Unstarted">>  Unstarted  <<radiobutton "$suzie" "Active">> Active  <<radiobutton "$suzie" "Finished">> Finished  
+State of Side-Quest <span class="yellow">''"HOLY GRAIL"''</span>:  <<radiobutton "$cupmission" "Unstarted">>  Unstarted  <<radiobutton "$cupmission" "Active">> Active  <<radiobutton "$cupmission" "Finished">> Finished  
+State of Side-Quest <span class="brown">''"WORKAHOLIC"''</span>:  <<radiobutton "$missionbar1" "Unstarted">>  Unstarted  <<radiobutton "$missionbar1" "Active">> Active  <<radiobutton "$missionbar1" "Finished">> Finished
+
+''OTHER:''
+<<radiobutton "$cucklike" true false>> Did you submit to your GF's cheating?
+
+''Points:'' <<radiobutton "$points" 0>> 0  <<radiobutton "$points" 100>> 100  <<radiobutton "$points" 200>> 200  <<radiobutton "$points" 300>> 300  <<radiobutton "$points" 400>> 400  <<radiobutton "$points" 500>> 500  <<radiobutton "$points" 600>> 600  <<radiobutton "$points" 700>> 700
+
+''Stats:''
+Intelligence: <<radiobutton "$int" 90>> 90 IQ  <<radiobutton "$int" 100>> 100 IQ  <<radiobutton "$int" 110>> 110 IQ  
+Fitness: <<radiobutton "$fit" 0>> 0  <<radiobutton "$fit" 5>> 5  <<radiobutton "$fit" 8>> 8  <<radiobutton "$fit" 10>> 10  <<radiobutton "$fit" 15>> 15  <<radiobutton "$fit" 18>> 18  
+Feminity: <<radiobutton "$fem" 3>> 3  <<radiobutton "$fem" 8>> 8  <<radiobutton "$fem" 16>> 16
+Submission: <<radiobutton "$sub" 5>> 5  <<radiobutton "$sub" 10>> 10  <<radiobutton "$sub" 13>> 13  <<radiobutton "$sub" 17>> 17  <<nobr>><<set $gameDate to new Date("2018-07-12T08:00");>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 13>><<set $startclasses to true>><<set $newsms to -1>><<set $calendario to true>>
+
+<<set $techphone to true>>
+
+<<set $goggles to 5>><<set $masturbate to 1>><<set $alreadycame to false>><<set $cageroom to false>>
+
+<<set $kitchen to 4>><<set $stage to 0>><<set $gym to 3>><<set $library to 0>><<set $lab to 1>><<set $shopitems to 1>><<set $capt to 3>><<set $gotoreview to false>><<set $review to 1>><<set $arrival to false>><<set $gfsms to 0>><<set $casino to true>><<set $anatomy to 3>><<set $fitnesstrack to 0>><<set $dance to 3>><<set $styleclass to 3>><<set $jada to 1>>
+
+<<set $announcement2 to false>><<set $alreadytrained to false>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $gotoparty to false>><<set $massage to false>><<set $alreadyran to false>><<set $dinnertime to true>><<set $alreadyate to false>><<set $staffkey to true>><<set $shaving to 0, $shavebath to true>>
+
+<<set $lust to 20>><<set $stress to 20>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $hunger to 100>><<set $techphone to true>><<set $dos to 2>>
+
+<<set $ownface to 1>><<set $boobs to 0>><<set $ass to 0>><<set $pen to 0>><<set $suit to true>><<set $trans to 0>><<set $officedoc to 0>>
+
+<<set $tickets to true, $itinerary to true, $map to true, $bimbopic to true, $card2 to true>>
+
+<<set $shave to "Active">><<set $lab1 to "Active">><<set $badge to 1>>
+
+<<set $wardrobe to true>><<set $buyshoe1 to true>><<set $buyleg1 to true>><<set $buyupper1 to true>><<set $buyunder1 to true>><<set $shoe to 1>><<set $leg to 1>><<set $under to 1>><<set $upper to 1>><<set $dinner to 0>><<set $fashionbuy to 0>><<set $bflats to false, $bdress to true, $bpdress to true, $bedress to true, $bhheels to true, $bswim to false>><</nobr>>
+
+<<linkreplace "Play! (Select variables first)">>''LOADING:''
+<div class="meter"><span style="width:100%;"><span class="progress"></span></span></div><<timed 2s>><<if $grabflask is 1>><<set $gflask to true>><<else>><<set $rflask to true>><</if>><<if $gymgirl1 is "Active">><<set $gymgirl to 0>><<elseif $gymgirl1 is "Finished">><<set $gymgirl to 1>><</if>><<if $sushi is "Active">><<set $srestaurant to 0>><<elseif $sushi is "Finished">><<set $srestaurant to 1>><</if>><<if $headphones is "Active">><<set $read to 1>><<elseif $headphones is "1/2 done">><<set $read to 1, $headphonesm to true>><<elseif $headphones is "Finished">><<set $read to 2, $headphonesm to false>><</if>><<if $suzie is "Active">><<set $outpool to 0>><<elseif $suzie is "Finished">><<set $inpool to 3, $suziebikini to true, $outpool to 0>><</if>><<if $cupmission is "Active">><<set $outdeck to 0>><<elseif $cupmission is "Finished">><<set $outdeck to 1, $tea to 1>><</if>><<if $missionbar1 is "Active">><<set $tables to 0, $coffeewoman to 0>><<elseif $missionbar is "Finished">><<set $tables to 1>><</if>><<goto "Bedroom">><</timed>><</linkreplace>>
+
+
+\\<<elseif $day is "Saturday">>''<u>Set Variables</u>:''
+
+''SIDE-QUESTS:''
+State of Side-Quest <span class="pink">''"SNACK TIME"''</span>:  <<radiobutton "$gymgirl1" "Unstarted">>  Unstarted  <<radiobutton "$gymgirl1" "Active">> Active  <<radiobutton "$gymgirl1" "Finished">> Finished  
+State of Side-Quest <span class="green">''"HIRE ME"''</span>:  <<radiobutton "$sushi" "Unstarted">>  Unstarted  <<radiobutton "$sushi" "Active">> Active  <<radiobutton "$sushi" "Finished">> Finished  
+State of Side-Quest <span class="red">''"HEADPHONES"''</span> :  <<radiobutton "$headphones" "Unstarted">>  Unstarted  <<radiobutton "$headphones" "Active">> Active  <<radiobutton "$headphones" "Finished">> Finished  
+State of Side-Quest <span class="blue">''"STAY AFLOAT"''</span>:  <<radiobutton "$suzie" "Unstarted">>  Unstarted  <<radiobutton "$suzie" "Active">> Active  <<radiobutton "$suzie" "Finished">> Finished  
+State of Side-Quest <span class="yellow">''"HOLY GRAIL"''</span>:  <<radiobutton "$cupmission" "Unstarted">>  Unstarted  <<radiobutton "$cupmission" "Active">> Active  <<radiobutton "$cupmission" "Finished">> Finished  
+State of Side-Quest <span class="brown">''"WORKAHOLIC"''</span>:  <<radiobutton "$missionbar1" "Unstarted">>  Unstarted  <<radiobutton "$missionbar1" "Active">> Active  <<radiobutton "$missionbar1" "Finished">> Finished
+
+''OTHER:''
+<<radiobutton "$cucklike" true false>> Did you submit to your GF's cheating?
+
+''Points:'' <<radiobutton "$points" 0>> 0  <<radiobutton "$points" 100>> 100  <<radiobutton "$points" 200>> 200  <<radiobutton "$points" 300>> 300  <<radiobutton "$points" 400>> 400  <<radiobutton "$points" 500>> 500  <<radiobutton "$points" 600>> 600  <<radiobutton "$points" 700>> 700
+
+''Stats:''
+Intelligence: <<radiobutton "$int" 90>> 90 IQ  <<radiobutton "$int" 100>> 100 IQ  <<radiobutton "$int" 110>> 110 IQ  
+Fitness: <<radiobutton "$fit" 0>> 0  <<radiobutton "$fit" 5>> 5  <<radiobutton "$fit" 8>> 8  <<radiobutton "$fit" 10>> 10  <<radiobutton "$fit" 15>> 15  <<radiobutton "$fit" 18>> 18  
+Feminity: <<radiobutton "$fem" 3>> 3  <<radiobutton "$fem" 8>> 8  <<radiobutton "$fem" 16>> 16
+Submission: <<radiobutton "$sub" 5>> 5  <<radiobutton "$sub" 10>> 10  <<radiobutton "$sub" 13>> 13  <<radiobutton "$sub" 17>> 17  <<nobr>><<set $gameDate to new Date("2018-07-13T08:00");>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 14>><<set $startclasses to true>><<set $newsms to -1>><<set $calendario to true>>
+
+<<set $techphone to true>>
+
+<<set $goggles to 5>><<set $masturbate to 1>><<set $alreadycame to false>><<set $cageroom to false>>
+
+<<set $kitchen to 4>><<set $stage to 0>><<set $gym to 3>><<set $library to 0>><<set $lab to 1>><<set $shopitems to 1>><<set $capt to 3>><<set $gotoreview to false>><<set $review to 1>><<set $arrival to false>><<set $gfsms to 0>><<set $casino to true>><<set $anatomy to 3>><<set $fitnesstrack to 0>><<set $dance to 3>><<set $styleclass to 3>><<set $jada to 1>>
+
+<<set $announcement2 to false>><<set $alreadytrained to false>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $gotoparty to false>><<set $massage to false>><<set $alreadyran to false>><<set $dinnertime to true>><<set $alreadyate to false>><<set $staffkey to true>><<set $shaving to 0, $shavebath to true>>
+
+<<set $lust to 20>><<set $stress to 20>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $hunger to 100>><<set $techphone to true>><<set $dos to 2>>
+
+<<set $ownface to 1>><<set $boobs to 1>><<set $ass to 1>><<set $pen to 1>><<set $trans to 1>><<set $officedoc to 0>><<set $suit to true>>
+
+<<set $tickets to true, $itinerary to true, $map to true, $bimbopic to true, $card2 to true>>
+
+<<set $shave to "Active">><<set $lab1 to "Active">><<set $badge to 2>>
+
+<<set $wardrobe to true>><<set $buyshoe1 to true>><<set $buyleg1 to true>><<set $buyupper1 to true>><<set $buyunder1 to true>><<set $shoe to 1>><<set $leg to 1>><<set $under to 1>><<set $upper to 1>><<set $dinner to 0>><<set $fashionbuy to 0>><<set $bflats to false, $bdress to true, $bpdress to true, $bedress to true, $bhheels to true, $bswim to false>><</nobr>>
+
+<<linkreplace "Play! (Select variables first)">>''LOADING:''
+<div class="meter"><span style="width:100%;"><span class="progress"></span></span></div><<timed 2s>><<if $gymgirl1 is "Active">><<set $gymgirl to 0>><<elseif $gymgirl1 is "Finished">><<set $gymgirl to 1>><</if>><<if $sushi is "Active">><<set $srestaurant to 0>><<elseif $sushi is "Finished">><<set $srestaurant to 1>><</if>><<if $headphones is "Active">><<set $read to 1>><<elseif $headphones is "1/2 done">><<set $read to 1, $headphonesm to true>><<elseif $headphones is "Finished">><<set $read to 2, $headphonesm to false>><</if>><<if $suzie is "Active">><<set $outpool to 0>><<elseif $suzie is "Finished">><<set $inpool to 3, $suziebikini to true, $outpool to 0>><</if>><<if $cupmission is "Active">><<set $outdeck to 0>><<elseif $cupmission is "Finished">><<set $outdeck to 1, $tea to 1>><</if>><<if $missionbar1 is "Active">><<set $tables to 0, $coffeewoman to 0>><<elseif $missionbar is "Finished">><<set $tables to 1>><</if>><<goto "Bedroom">><</timed>><</linkreplace>>
+
+
+\\<<elseif $day is "Sunday">>''<u>Set Variables</u>:''
+
+''SIDE-QUESTS:''
+State of Side-Quest <span class="pink">''"SNACK TIME"''</span>:  <<radiobutton "$gymgirl1" "Unstarted">>  Unstarted  <<radiobutton "$gymgirl1" "Active">> Active  <<radiobutton "$gymgirl1" "Finished">> Finished  
+State of Side-Quest <span class="green">''"HIRE ME"''</span>:  <<radiobutton "$sushi" "Unstarted">>  Unstarted  <<radiobutton "$sushi" "Active">> Active  <<radiobutton "$sushi" "Finished">> Finished  
+State of Side-Quest <span class="red">''"HEADPHONES"''</span> :  <<radiobutton "$headphones" "Unstarted">>  Unstarted  <<radiobutton "$headphones" "Active">> Active  <<radiobutton "$headphones" "Finished">> Finished  
+State of Side-Quest <span class="blue">''"STAY AFLOAT"''</span>:  <<radiobutton "$suzie" "Unstarted">>  Unstarted  <<radiobutton "$suzie" "Active">> Active  <<radiobutton "$suzie" "Finished">> Finished  
+State of Side-Quest <span class="yellow">''"HOLY GRAIL"''</span>:  <<radiobutton "$cupmission" "Unstarted">>  Unstarted  <<radiobutton "$cupmission" "Active">> Active  <<radiobutton "$cupmission" "Finished">> Finished  
+State of Side-Quest <span class="brown">''"WORKAHOLIC"''</span>:  <<radiobutton "$missionbar1" "Unstarted">>  Unstarted  <<radiobutton "$missionbar1" "Active">> Active  <<radiobutton "$missionbar1" "Finished">> Finished
+
+''OTHER:''
+<<radiobutton "$cucklike" true false>> Did you submit to your GF's cheating?
+
+''Points:'' <<radiobutton "$points" 0>> 0  <<radiobutton "$points" 100>> 100  <<radiobutton "$points" 200>> 200  <<radiobutton "$points" 300>> 300  <<radiobutton "$points" 400>> 400  <<radiobutton "$points" 500>> 500  <<radiobutton "$points" 600>> 600  <<radiobutton "$points" 700>> 700
+
+''Stats:''
+Intelligence: <<radiobutton "$int" 90>> 90 IQ  <<radiobutton "$int" 100>> 100 IQ  <<radiobutton "$int" 110>> 110 IQ  
+Fitness: <<radiobutton "$fit" 0>> 0  <<radiobutton "$fit" 5>> 5  <<radiobutton "$fit" 8>> 8  <<radiobutton "$fit" 10>> 10  <<radiobutton "$fit" 18>> 18  <<radiobutton "$fit" 18>> 18  
+Feminity: <<radiobutton "$fem" 5>> 5  <<radiobutton "$fem" 10>> 10  <<radiobutton "$fem" 18>> 18
+Submission: <<radiobutton "$sub" 5>> 5  <<radiobutton "$sub" 10>> 10  <<radiobutton "$sub" 15>> 15  <<radiobutton "$sub" 18>> 18  <<nobr>><<set $gameDate to new Date("2018-07-14T08:00");>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 15>><<set $startclasses to true>><<set $newsms to -1>><<set $calendario to true>>
+
+<<set $techphone to true>>
+
+<<set $goggles to 5>><<set $masturbate to 1>><<set $alreadycame to false>><<set $cageroom to false>>
+
+<<set $kitchen to 4>><<set $stage to 0>><<set $gym to 3>><<set $library to 0>><<set $lab to 1>><<set $shopitems to 1>><<set $capt to 4>><<set $gotoreview to false>><<set $review to 1>><<set $arrival to false>><<set $gfsms to 0>><<set $casino to true>><<set $anatomy to 3>><<set $fitnesstrack to 0>><<set $dance to 3>><<set $styleclass to 3>><<set $jada to 1>>
+
+<<set $announcement2 to false>><<set $alreadytrained to false>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $gotoparty to false>><<set $massage to false>><<set $alreadyran to false>><<set $dinnertime to true>><<set $alreadyate to false>><<set $staffkey to true>><<set $shaving to 0, $shavebath to true>>
+
+<<set $lust to 20>><<set $stress to 20>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $hunger to 100>><<set $techphone to true>><<set $dos to 2>>
+
+<<set $ownface to 1>><<set $boobs to 1>><<set $ass to 1>><<set $pen to 1>><<set $trans to 1>><<set $officedoc to 0>><<set $suit to true>>
+
+<<set $tickets to true, $itinerary to true, $map to true, $bimbopic to true, $card2 to true>>
+
+<<set $shave to "Active">><<set $lab1 to "Active">><<set $badge to 1>>
+
+<<set $wardrobe to true>><<set $buyshoe1 to true>><<set $buyleg1 to true>><<set $buyupper1 to true>><<set $buyunder1 to true>><<set $shoe to 1>><<set $leg to 1>><<set $under to 1>><<set $upper to 1>><<set $dinner to 0>><<set $fashionbuy to 0>><<set $bflats to false, $bdress to true, $bpdress to true, $bedress to true, $bhheels to true, $bswim to false>><</nobr>>
+
+<<linkreplace "Play! (Select variables first)">>''LOADING:''
+<div class="meter"><span style="width:100%;"><span class="progress"></span></span></div><<timed 2s>><<if $gymgirl1 is "Active">><<set $gymgirl to 0>><<elseif $gymgirl1 is "Finished">><<set $gymgirl to 1>><</if>><<if $sushi is "Active">><<set $srestaurant to 0>><<elseif $sushi is "Finished">><<set $srestaurant to 1>><</if>><<if $headphones is "Active">><<set $read to 1>><<elseif $headphones is "1/2 done">><<set $read to 1, $headphonesm to true>><<elseif $headphones is "Finished">><<set $read to 2, $headphonesm to false>><</if>><<if $suzie is "Active">><<set $outpool to 0>><<elseif $suzie is "Finished">><<set $inpool to 3, $suziebikini to true, $outpool to 0>><</if>><<if $cupmission is "Active">><<set $outdeck to 0>><<elseif $cupmission is "Finished">><<set $outdeck to 1, $tea to 1>><</if>><<if $missionbar1 is "Active">><<set $tables to 0, $coffeewoman to 0>><<elseif $missionbar is "Finished">><<set $tables to 1>><</if>><<if $week gte 3>><<set $fetish1 to true, $fetish2 to 1, $fetish3 to true, $fetish to 2>><<else>><</if>><<goto "Bedroom">><</timed>><</linkreplace>><</if>>
+
+
+
+
+
+
+
+
+
+\\<<elseif $week is 3>><<if $day is "Monday">>''<u>Set Variables</u>:''
+
+''SIDE-QUESTS:''
+State of Side-Quest <span class="pink">''"SNACK TIME"''</span>:  <<radiobutton "$gymgirl1" "Unstarted">>  Unstarted  <<radiobutton "$gymgirl1" "Active">> Active  <<radiobutton "$gymgirl1" "Finished">> Finished  
+State of Side-Quest <span class="green">''"HIRE ME"''</span>:  <<radiobutton "$sushi" "Unstarted">>  Unstarted  <<radiobutton "$sushi" "Active">> Active  <<radiobutton "$sushi" "Finished">> Finished  
+State of Side-Quest <span class="red">''"HEADPHONES"''</span> :  <<radiobutton "$headphones" "Unstarted">>  Unstarted  <<radiobutton "$headphones" "Active">> Active  <<radiobutton "$headphones" "Finished">> Finished  
+State of Side-Quest <span class="blue">''"STAY AFLOAT"''</span>:  <<radiobutton "$suzie" "Unstarted">>  Unstarted  <<radiobutton "$suzie" "Active">> Active  <<radiobutton "$suzie" "Finished">> Finished  
+State of Side-Quest <span class="yellow">''"HOLY GRAIL"''</span>:  <<radiobutton "$cupmission" "Unstarted">>  Unstarted  <<radiobutton "$cupmission" "Active">> Active  <<radiobutton "$cupmission" "Finished">> Finished  
+State of Side-Quest <span class="brown">''"WORKAHOLIC"''</span>:  <<radiobutton "$missionbar1" "Unstarted">>  Unstarted  <<radiobutton "$missionbar1" "Active">> Active  <<radiobutton "$missionbar1" "Finished">> Finished
+State of Side-Quest <span class="orange">''"HAT TRICK"''</span>:  <<radiobutton "$golfer" "Unstarted">>  Unstarted  <<radiobutton "$golfer" "Active">> Active  <<radiobutton "$golfer" "Finished">> Finished
+State of Side-Quest <span class="purple">''"EWA'S ASSISTANT"''</span>:  <<radiobutton "$magic" "Unstarted">>  Unstarted  <<radiobutton "$magic" "Active">> Active  <<radiobutton "$magic" "Finished">> Finished
+
+''Points:'' <<radiobutton "$points" 0>> 0  <<radiobutton "$points" 100>> 100  <<radiobutton "$points" 200>> 200  <<radiobutton "$points" 300>> 300  <<radiobutton "$points" 400>> 400  <<radiobutton "$points" 500>> 500  <<radiobutton "$points" 600>> 600
+
+''Stats:''
+Intelligence: <<radiobutton "$int" 90>> 90 IQ  <<radiobutton "$int" 100>> 100 IQ  <<radiobutton "$int" 110>> 110 IQ  
+Fitness: <<radiobutton "$fit" 5>> 5  <<radiobutton "$fit" 13>> 13  <<radiobutton "$fit" 22>> 22  
+Feminity: <<radiobutton "$fem" 5>> 5  <<radiobutton "$fem" 13>> 13  <<radiobutton "$fem" 22>> 22
+Submission: <<radiobutton "$sub" 5>> 5  <<radiobutton "$sub" 13>> 13  <<radiobutton "$sub" 22>> 22
+
+<<nobr>><<set $gameDate to new Date("2018-07-15T08:00");>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 16>><<set $startclasses to true>><<set $newsms to -1>><<set $badge to -1>><<set $calendario to true>><<set $techphone to true>>
+
+<<set $youcum to 1>><<set $goggles to 5>><<set $masturbate to 1>><<set $prerobot to 0>><<set $alreadycame to false>><<set $cage to true>>
+
+<<set $kitchen to 5>><<set $stage to 0>><<set $gym to 4>><<set $library to 0>><<set $lab to 1>><<set $dreams to 2>><<set $shopitems to 1>><<set $wardrobe to true>><<set $capt to 6>><<set $fashionbuy to 0>><<set $womensbuy to 0>><<set $gotoreview to false>><<set $review to 3>><<set $fitnesstrack to 0>><<set $dance to 3>><<set $styleclass to 3>><<set $jada to 1>><<set $dinner to 2>>
+
+<<set $announcement2 to false>><<set $alreadytrained to false>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $techphone to true>><<set $gotoparty to false>><<set $dos to 1>><<set $gfsms to 0>><<set $massage to false>><<set $alreadyran to false>><<set $dinnertime to true>><<set $arrival to false>><<set $alreadyate to false>><<set $staffkey to true>><<set $shaving to 0, $shavebath to true>>
+
+<<set $tickets to true, $itinerary to true, $map to true, $bimbopic to true, $card2 to true>>
+
+<<set $shave to "Active">><<set $lab1 to "Active">><<set $badge to 1>>
+
+<<set $wardrobe to true>><<set $buyshoe1 to true, $buyshoe2 to true>><<set $buyleg1 to true>><<set $buyupper1 to true>><<set $buyunder1 to true, $buyunder2 to true>><<set $shoe to 1>><<set $leg to 1>><<set $under to 2>><<set $upper to 1>><<set $fashionbuy to 0>><<set $bflats to false, $bdress to true, $bpdress to true, $bedress to true, $bhheels to true, $bswim to false>>
+
+<<set $fem to 0>><<set $fit to 0>><<set $int to 0>><<set $sub to 0>><<set $points to 0>><<set $lust to 70>><<set $stress to 0>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $hunger to 100>>
+
+<<set $ownface to 1>><<set $boobs to 1>><<set $ass to 1>><<set $pen to 1>><<set $trans to 1>><<set $officedoc to 0>><</nobr>>
+
+<<linkreplace "Play! (Select variables first)">>''LOADING:''
+<div class="meter"><span style="width:100%;"><span class="progress"></span></span></div><<timed 2s>><<if $gymgirl1 is "Active">><<set $gymgirl to 0>><<elseif $gymgirl1 is "Finished">><<set $gymgirl to 1>><</if>><<if $sushi is "Active">><<set $srestaurant to 0>><<elseif $sushi is "Finished">><<set $srestaurant to 1>><</if>><<if $headphones is "Active">><<set $read to 1>><<elseif $headphones is "1/2 done">><<set $read to 1, $headphonesm to true>><<elseif $headphones is "Finished">><<set $read to 2, $headphonesm to false>><</if>><<if $suzie is "Active">><<set $outpool to 0>><<elseif $suzie is "Finished">><<set $inpool to 3, $suziebikini to true, $outpool to 0>><</if>><<if $cupmission is "Active">><<set $outdeck to 0>><<elseif $cupmission is "Finished">><<set $outdeck to 1, $tea to 1>><</if>><<if $missionbar1 is "Active">><<set $tables to 0, $coffeewoman to 0>><<elseif $missionbar1 is "Finished">><<set $tables to 1>><</if>><<if $golfer is "Active">><<set $instructor to 2, $hat to 0>><<elseif $golfer is "Finished">><<set $instructor to 3, $finishgolf to true>><</if>><<if $week gte 3>><<set $fetish1 to true, $fetish2 to 1, $fetish3 to true, $fetish to 2>><<else>><</if>><<goto "Bedroom">><</timed>><</linkreplace>>
+
+
+\\<<elseif $day is "Tuesday">>''<u>Set Variables</u>:''
+
+''SIDE-QUESTS:''
+State of Side-Quest <span class="pink">''"SNACK TIME"''</span>:  <<radiobutton "$gymgirl1" "Unstarted">>  Unstarted  <<radiobutton "$gymgirl1" "Active">> Active  <<radiobutton "$gymgirl1" "Finished">> Finished  
+State of Side-Quest <span class="green">''"HIRE ME"''</span>:  <<radiobutton "$sushi" "Unstarted">>  Unstarted  <<radiobutton "$sushi" "Active">> Active  <<radiobutton "$sushi" "Finished">> Finished  
+State of Side-Quest <span class="red">''"HEADPHONES"''</span> :  <<radiobutton "$headphones" "Unstarted">>  Unstarted  <<radiobutton "$headphones" "Active">> Active  <<radiobutton "$headphones" "Finished">> Finished  
+State of Side-Quest <span class="blue">''"STAY AFLOAT"''</span>:  <<radiobutton "$suzie" "Unstarted">>  Unstarted  <<radiobutton "$suzie" "Active">> Active  <<radiobutton "$suzie" "Finished">> Finished  
+State of Side-Quest <span class="yellow">''"HOLY GRAIL"''</span>:  <<radiobutton "$cupmission" "Unstarted">>  Unstarted  <<radiobutton "$cupmission" "Active">> Active  <<radiobutton "$cupmission" "Finished">> Finished  
+State of Side-Quest <span class="brown">''"WORKAHOLIC"''</span>:  <<radiobutton "$missionbar1" "Unstarted">>  Unstarted  <<radiobutton "$missionbar1" "Active">> Active  <<radiobutton "$missionbar1" "Finished">> Finished
+State of Side-Quest <span class="orange">''"HAT TRICK"''</span>:  <<radiobutton "$golfer" "Unstarted">>  Unstarted  <<radiobutton "$golfer" "Active">> Active  <<radiobutton "$golfer" "Finished">> Finished
+State of Side-Quest <span class="purple">''"EWA'S ASSISTANT"''</span>:  <<radiobutton "$magic" "Unstarted">>  Unstarted  <<radiobutton "$magic" "Active">> Active  <<radiobutton "$magic" "Finished">> Finished
+
+''OTHER:''
+Did you shave for Cherry's class?: <<radiobutton "$shaving" 1>> Yes  <<radiobutton "$shaving" 0>> No  
+
+Did you lick the black bull's penis at Barcelona?: <<radiobutton "$cuckybeach" 1>> Yes  <<radiobutton "$cuckybeach" 2>> No 
+
+Sex toy Lucy gave you: <<radiobutton "$dildo3" true>> Pink vibrator  <<radiobutton "$dildo5" true>> 5,5' white dildo  <<radiobutton "$dildo4" true>> Clitoral vibrator  <<radiobutton "$dildo7" true>> 7' white dildo
+Have you already tried it?: <<radiobutton "$masturbate" 3>> Yes  <<radiobutton "$masturbate" 2>> No
+
+''Points:'' <<radiobutton "$points" 0>> 0  <<radiobutton "$points" 100>> 100  <<radiobutton "$points" 200>> 200  <<radiobutton "$points" 300>> 300  <<radiobutton "$points" 400>> 400  <<radiobutton "$points" 500>> 500  <<radiobutton "$points" 600>> 600  <<radiobutton "$points" 700>> 700
+
+''Stats:''
+Intelligence: <<radiobutton "$int" 90>> 90 IQ  <<radiobutton "$int" 100>> 100 IQ  <<radiobutton "$int" 110>> 110 IQ  
+Fitness: <<radiobutton "$fit" 5>> 5  <<radiobutton "$fit" 13>> 13  <<radiobutton "$fit" 22>> 22  
+Feminity: <<radiobutton "$fem" 5>> 5  <<radiobutton "$fem" 13>> 13  <<radiobutton "$fem" 22>> 22
+Submission: <<radiobutton "$sub" 5>> 5  <<radiobutton "$sub" 13>> 13  <<radiobutton "$sub" 22>> 22
+
+<<nobr>><<set $gameDate to new Date("2018-07-16T08:00");>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 17>><<set $startclasses to true>><<set $newsms to -1>><<set $badge to -1>><<set $calendario to true>><<set $techphone to true>>
+
+<<set $youcum to 1>><<set $goggles to 5>><<set $masturbate to 2>><<set $prerobot to 0>><<set $alreadycame to false>><<set $cage to true>>
+
+<<set $kitchen to 5>><<set $stage to 0>><<set $gym to 4>><<set $library to 0>><<set $lab to 1>><<set $dreams to 2>><<set $shopitems to 1>><<set $wardrobe to true>><<set $capt to 6>><<set $fashionbuy to 0>><<set $womensbuy to 0>><<set $gotoreview to false>><<set $review to 3>><<set $fitnesstrack to 0>><<set $dance to 3>><<set $styleclass to 3>><<set $jada to 1>><<set $dinner to 2>><<set $sexdoor to 1, $sexs to 7>>
+
+<<set $tickets to true, $itinerary to true, $map to true, $bimbopic to true, $card2 to true>>
+
+<<set $shave to "Active">><<set $cum to "Active">><<set $lab1 to "Active">><<set $badge to 1>>
+
+<<set $wardrobe to true>><<set $buyshoe1 to true, $buyshoe2 to true>><<set $buyleg1 to true>><<set $buyupper1 to true>><<set $buyunder1 to true, $buyunder2 to true>><<set $shoe to 1>><<set $leg to 1>><<set $under to 2>><<set $upper to 1>><<set $fashionbuy to 0>><<set $bflats to false, $bdress to true, $bpdress to true, $bedress to true, $bhheels to true, $bswim to false>>
+
+<<set $announcement2 to false>><<set $alreadytrained to false>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $techphone to true>><<set $gotoparty to false>><<set $dos to 1>><<set $gfsms to 0>><<set $massage to true>><<set $alreadyran to false>><<set $dinnertime to true>><<set $arrival to false>><<set $alreadyate to false>><<set $staffkey to true>><<set $shavebath to true>>
+
+<<set $fem to 0>><<set $fit to 0>><<set $int to 0>><<set $sub to 0>><<set $points to 0>><<set $lust to 70>><<set $stress to 0>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $hunger to 100>>
+
+<<set $ownface to 1>><<set $boobs to 1>><<set $ass to 1>><<set $pen to 1>><<set $trans to 1>><<set $officedoc to 0>><</nobr>>
+
+<<linkreplace "Play! (Select variables first)">>''LOADING:''
+<div class="meter"><span style="width:100%;"><span class="progress"></span></span></div><<timed 2s>><<if $dildo3 is true>><<set $toy to 1>><<elseif $dildo4 is true>><<set $toy to 3>><<elseif $dildo5 is true>><<set $toy to 2>><<elseif $dildo7 is true>><<set $dildo3 to true>><<set $toy to 4>><</if>><<if $masturbate is 3>><<set $cum2 to "Active">><<else>><</if>><<if $gymgirl1 is "Active">><<set $gymgirl to 0>><<elseif $gymgirl1 is "Finished">><<set $gymgirl to 1>><</if>><<if $sushi is "Active">><<set $srestaurant to 0>><<elseif $sushi is "Finished">><<set $srestaurant to 1>><</if>><<if $headphones is "Active">><<set $read to 1>><<elseif $headphones is "1/2 done">><<set $read to 1, $headphonesm to true>><<elseif $headphones is "Finished">><<set $read to 2, $headphonesm to false>><</if>><<if $suzie is "Active">><<set $outpool to 0>><<elseif $suzie is "Finished">><<set $inpool to 3, $suziebikini to true, $outpool to 0>><</if>><<if $cupmission is "Active">><<set $outdeck to 0>><<elseif $cupmission is "Finished">><<set $outdeck to 1, $tea to 1>><</if>><<if $missionbar1 is "Active">><<set $tables to 0, $coffeewoman to 0>><<elseif $missionbar1 is "Finished">><<set $tables to 1>><</if>><<if $golfer is "Active">><<set $instructor to 2, $hat to 0>><<elseif $golfer is "Finished">><<set $instructor to 3, $finishgolf to true>><</if>><<if $week gte 3>><<set $fetish1 to true, $fetish2 to 1, $fetish3 to true, $fetish to 2>><<else>><</if>><<goto "Bedroom">><</timed>><</linkreplace>>
+
+
+\\<<elseif $day is "Wednesday">>''<u>Set Variables</u>:''
+
+''SIDE-QUESTS:''
+State of Side-Quest <span class="pink">''"SNACK TIME"''</span>:  <<radiobutton "$gymgirl1" "Unstarted">>  Unstarted  <<radiobutton "$gymgirl1" "Active">> Active  <<radiobutton "$gymgirl1" "Finished">> Finished  
+State of Side-Quest <span class="green">''"HIRE ME"''</span>:  <<radiobutton "$sushi" "Unstarted">>  Unstarted  <<radiobutton "$sushi" "Active">> Active  <<radiobutton "$sushi" "Finished">> Finished  
+State of Side-Quest <span class="red">''"HEADPHONES"''</span> :  <<radiobutton "$headphones" "Unstarted">>  Unstarted  <<radiobutton "$headphones" "Active">> Active  <<radiobutton "$headphones" "Finished">> Finished  
+State of Side-Quest <span class="blue">''"STAY AFLOAT"''</span>:  <<radiobutton "$suzie" "Unstarted">>  Unstarted  <<radiobutton "$suzie" "Active">> Active  <<radiobutton "$suzie" "Finished">> Finished  
+State of Side-Quest <span class="yellow">''"HOLY GRAIL"''</span>:  <<radiobutton "$cupmission" "Unstarted">>  Unstarted  <<radiobutton "$cupmission" "Active">> Active  <<radiobutton "$cupmission" "Finished">> Finished  
+State of Side-Quest <span class="brown">''"WORKAHOLIC"''</span>:  <<radiobutton "$missionbar1" "Unstarted">>  Unstarted  <<radiobutton "$missionbar1" "Active">> Active  <<radiobutton "$missionbar1" "Finished">> Finished
+State of Side-Quest <span class="orange">''"HAT TRICK"''</span>:  <<radiobutton "$golfer" "Unstarted">>  Unstarted  <<radiobutton "$golfer" "Active">> Active  <<radiobutton "$golfer" "Finished">> Finished
+State of Side-Quest <span class="purple">''"EWA'S ASSISTANT"''</span>:  <<radiobutton "$magic" "Unstarted">>  Unstarted  <<radiobutton "$magic" "Active">> Active  <<radiobutton "$magic" "Finished">> Finished
+
+''OTHER:''
+Did you lick the black bull's penis at Barcelona?: <<radiobutton "$cuckybeach" 1>> Yes  <<radiobutton "$cuckybeach" 2>> No 
+
+Sex toy Lucy gave you: <<radiobutton "$dildo3" true>> Pink vibrator  <<radiobutton "$dildo5" true>> 5,5' white dildo  <<radiobutton "$dildo4" true>> Clitoral vibrator  <<radiobutton "$dildo7" true>> 7' white dildo
+Have you already tried it?: <<radiobutton "$masturbate" 3>> Yes  <<radiobutton "$masturbate" 2>> No
+
+<<radiobutton "$grabflask" 1>> Did you take the green flask? (Only chose one)
+<<radiobutton "$grabflask" 2>> Did you take the red flask? (Only chose one)
+
+''Points:'' <<radiobutton "$points" 0>> 0  <<radiobutton "$points" 100>> 100  <<radiobutton "$points" 200>> 200  <<radiobutton "$points" 300>> 300  <<radiobutton "$points" 400>> 400  <<radiobutton "$points" 500>> 500  <<radiobutton "$points" 600>> 600  <<radiobutton "$points" 700>> 700  <<radiobutton "$points" 800>> 800
+
+''Stats:''
+Intelligence: <<radiobutton "$int" 90>> 90 IQ  <<radiobutton "$int" 100>> 100 IQ  <<radiobutton "$int" 110>> 110 IQ  
+Fitness: <<radiobutton "$fit" 5>> 5  <<radiobutton "$fit" 13>> 13  <<radiobutton "$fit" 22>> 22  
+Feminity: <<radiobutton "$fem" 5>> 5  <<radiobutton "$fem" 13>> 13  <<radiobutton "$fem" 22>> 22
+Submission: <<radiobutton "$sub" 5>> 5  <<radiobutton "$sub" 13>> 13  <<radiobutton "$sub" 22>> 22
+
+<<nobr>><<set $gameDate to new Date("2018-07-17T08:00");>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 18>><<set $startclasses to true>><<set $newsms to -1>><<set $badge to -1>><<set $calendario to true>><<set $techphone to true>>
+
+<<set $youcum to 1>><<set $goggles to 5>><<set $masturbate to 2>><<set $prerobot to 0>><<set $alreadycame to false>><<set $cage to true>>
+
+<<set $kitchen to 6>><<set $stage to 0>><<set $gym to 5>><<set $library to 0>><<set $lab to 1>><<set $dreams to 2>><<set $shopitems to 1>><<set $wardrobe to true>><<set $capt to 7>><<set $fashionbuy to 0>><<set $womensbuy to 0>><<set $gotoreview to false>><<set $review to 3>><<set $fitnesstrack to 0>><<set $dance to 3>><<set $styleclass to 4>><<set $jada to 1>><<set $dinner to 2>><<set $sexdoor to 1, $sexs to 7>>
+
+<<set $tickets to true, $itinerary to true, $map to true, $bimbopic to true, $card2 to true>>
+
+<<set $cum to "Active">><<set $dress2 to "Active">><<set $lab1 to "Active">><<set $dress1 to "Active">><<set $badge to 2>>
+
+<<set $wardrobe to true>><<set $buyshoe1 to true, $buyshoe2 to true>><<set $buyleg1 to true>><<set $buyupper1 to true>><<set $buyunder1 to true, $buyunder2 to true>><<set $shoe to 2>><<set $leg to 1>><<set $under to 2>><<set $upper to 1>><<set $fashionbuy to 0>><<set $bflats to false, $bdress to true, $bpdress to true, $bedress to true, $bhheels to true, $bswim to false>><<set $womensbuy to 0>><<set $bbra to true, $buyunder21 to true, $bgstring to false, $bdress to false, $bnpanties to false, $bleggings to false, $bbikini to true, $bpushup to true>>
+
+<<set $announcement2 to false>><<set $alreadytrained to false>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $techphone to true>><<set $gotoparty to false>><<set $dos to 1>><<set $gfsms to 0>><<set $massage to true>><<set $alreadyran to false>><<set $dinnertime to true>><<set $arrival to false>><<set $alreadyate to false>><<set $staffkey to true>><<set $shavebath to true, $shaving to 1>>
+
+<<set $fem to 0>><<set $fit to 0>><<set $int to 0>><<set $sub to 0>><<set $points to 0>><<set $lust to 70>><<set $stress to 0>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $hunger to 100>>
+
+<<set $ownface to 1>><<set $boobs to 1>><<set $ass to 1>><<set $pen to 1>><<set $trans to 1>><<set $officedoc to 0>><</nobr>>
+
+<<linkreplace "Play! (Select variables first)">>''LOADING:''
+<div class="meter"><span style="width:100%;"><span class="progress"></span></span></div><<timed 2s>><<if $dildo3 is true>><<set $toy to 1>><<elseif $dildo4 is true>><<set $toy to 3>><<elseif $dildo5 is true>><<set $toy to 2>><<elseif $dildo7 is true>><<set $dildo3 to true>><<set $toy to 4>><</if>><<if $masturbate is 3>><<set $cum2 to "Active">><<else>><</if>><<if $gymgirl1 is "Active">><<set $gymgirl to 0>><<elseif $gymgirl1 is "Finished">><<set $gymgirl to 1>><</if>><<if $sushi is "Active">><<set $srestaurant to 0>><<elseif $sushi is "Finished">><<set $srestaurant to 1>><</if>><<if $headphones is "Active">><<set $read to 1>><<elseif $headphones is "1/2 done">><<set $read to 1, $headphonesm to true>><<elseif $headphones is "Finished">><<set $read to 2, $headphonesm to false>><</if>><<if $suzie is "Active">><<set $outpool to 0>><<elseif $suzie is "Finished">><<set $inpool to 3, $suziebikini to true, $outpool to 0>><</if>><<if $cupmission is "Active">><<set $outdeck to 0>><<elseif $cupmission is "Finished">><<set $outdeck to 1, $tea to 1>><</if>><<if $missionbar1 is "Active">><<set $tables to 0, $coffeewoman to 0>><<elseif $missionbar1 is "Finished">><<set $tables to 1>><</if>><<if $golfer is "Active">><<set $instructor to 2, $hat to 0>><<elseif $golfer is "Finished">><<set $instructor to 3, $finishgolf to true>><</if>><<if $week gte 3>><<set $fetish1 to true, $fetish2 to 1, $fetish3 to true, $fetish to 2>><<else>><</if>><<if $grabflask is 1>><<set $gflask to true>><<else>><<set $rflask to true>><</if>><<goto "Bedroom">><</timed>><</linkreplace>>
+
+
+\\<<elseif $day is "Thursday">>''<u>Set Variables</u>:''
+
+''SIDE-QUESTS:''
+State of Side-Quest <span class="pink">''"SNACK TIME"''</span>:  <<radiobutton "$gymgirl1" "Unstarted">>  Unstarted  <<radiobutton "$gymgirl1" "Active">> Active  <<radiobutton "$gymgirl1" "Finished">> Finished  
+State of Side-Quest <span class="green">''"HIRE ME"''</span>:  <<radiobutton "$sushi" "Unstarted">>  Unstarted  <<radiobutton "$sushi" "Active">> Active  <<radiobutton "$sushi" "Finished">> Finished  
+State of Side-Quest <span class="red">''"HEADPHONES"''</span> :  <<radiobutton "$headphones" "Unstarted">>  Unstarted  <<radiobutton "$headphones" "Active">> Active  <<radiobutton "$headphones" "Finished">> Finished  
+State of Side-Quest <span class="blue">''"STAY AFLOAT"''</span>:  <<radiobutton "$suzie" "Unstarted">>  Unstarted  <<radiobutton "$suzie" "Active">> Active  <<radiobutton "$suzie" "Finished">> Finished  
+State of Side-Quest <span class="yellow">''"HOLY GRAIL"''</span>:  <<radiobutton "$cupmission" "Unstarted">>  Unstarted  <<radiobutton "$cupmission" "Active">> Active  <<radiobutton "$cupmission" "Finished">> Finished  
+State of Side-Quest <span class="brown">''"WORKAHOLIC"''</span>:  <<radiobutton "$missionbar1" "Unstarted">>  Unstarted  <<radiobutton "$missionbar1" "Active">> Active  <<radiobutton "$missionbar1" "Finished">> Finished
+State of Side-Quest <span class="orange">''"HAT TRICK"''</span>:  <<radiobutton "$golfer" "Unstarted">>  Unstarted  <<radiobutton "$golfer" "Active">> Active  <<radiobutton "$golfer" "Finished">> Finished
+State of Side-Quest <span class="purple">''"EWA'S ASSISTANT"''</span>:  <<radiobutton "$magic" "Unstarted">>  Unstarted  <<radiobutton "$magic" "Active">> Active  <<radiobutton "$magic" "Finished">> Finished
+
+''OTHER:''
+Sex toy Lucy gave you: <<radiobutton "$dildo3" true>> Pink vibrator  <<radiobutton "$dildo5" true>> 5,5' white dildo  <<radiobutton "$dildo4" true>> Clitoral vibrator  <<radiobutton "$dildo7" true>> 7' white dildo
+Have you already tried it?: <<radiobutton "$masturbate" 3>> Yes  <<radiobutton "$masturbate" 2>> No
+
+<<radiobutton "$grabflask" 1>> Did you take the green flask? (Only chose one)
+<<radiobutton "$grabflask" 2>> Did you take the red flask? (Only chose one)
+
+''Points:'' <<radiobutton "$points" 0>> 0  <<radiobutton "$points" 100>> 100  <<radiobutton "$points" 200>> 200  <<radiobutton "$points" 300>> 300  <<radiobutton "$points" 400>> 400  <<radiobutton "$points" 500>> 500  <<radiobutton "$points" 600>> 600  <<radiobutton "$points" 700>> 700  <<radiobutton "$points" 800>> 800  <<radiobutton "$points" 900>> 900
+
+''Stats:''
+Intelligence: <<radiobutton "$int" 90>> 90 IQ  <<radiobutton "$int" 100>> 100 IQ  <<radiobutton "$int" 110>> 110 IQ  
+Fitness: <<radiobutton "$fit" 5>> 5  <<radiobutton "$fit" 13>> 13  <<radiobutton "$fit" 22>> 22  
+Feminity: <<radiobutton "$fem" 5>> 5  <<radiobutton "$fem" 13>> 13  <<radiobutton "$fem" 22>> 22
+Submission: <<radiobutton "$sub" 5>> 5  <<radiobutton "$sub" 13>> 13  <<radiobutton "$sub" 22>> 22
+
+<<nobr>><<set $gameDate to new Date("2018-07-18T08:00");>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 19>><<set $startclasses to true>><<set $newsms to -1>><<set $badge to -1>><<set $calendario to true>><<set $techphone to true>>
+
+<<set $youcum to 1>><<set $goggles to 5>><<set $masturbate to 2>><<set $prerobot to 0>><<set $alreadycame to false>><<set $cage to true>>
+
+<<set $kitchen to 6>><<set $stage to 0>><<set $gym to 5>><<set $library to 0>><<set $lab to 1>><<set $dreams to 2>><<set $shopitems to 1>><<set $wardrobe to true>><<set $capt to 7>><<set $fashionbuy to 0>><<set $womensbuy to 0>><<set $gotoreview to false>><<set $review to 3>><<set $fitnesstrack to 0>><<set $dance to 3>><<set $styleclass to 4>><<set $jada to 1>><<set $dinner to 2>><<set $sexdoor to 1, $sexs to 7>>
+
+<<set $tickets to true, $itinerary to true, $map to true, $bimbopic to true, $card2 to true>>
+
+<<set $cum to "Active">><<set $dress2 to "Active">><<set $lab1 to "Active">><<set $badge to 1>>
+
+<<set $wardrobe to true>><<set $buyshoe1 to true, $buyshoe2 to true>><<set $buyleg1 to true>><<set $buyupper1 to true>><<set $buyunder1 to true, $buyunder2 to true>><<set $shoe to 2>><<set $leg to 1>><<set $under to 2>><<set $upper to 1>><<set $fashionbuy to 0>><<set $bflats to false, $bdress to true, $bpdress to true, $bedress to true, $bhheels to true, $bswim to false>><<set $womensbuy to 0>><<set $bbra to true, $buyunder21 to true, $bgstring to false, $bdress to false, $bnpanties to false, $bleggings to false, $bbikini to true, $bpushup to true>>
+
+<<set $announcement2 to false>><<set $alreadytrained to false>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $techphone to true>><<set $gotoparty to false>><<set $dos to 1>><<set $gfsms to 0>><<set $massage to true>><<set $alreadyran to false>><<set $dinnertime to true>><<set $arrival to false>><<set $alreadyate to false>><<set $staffkey to true>><<set $shavebath to true, $shaving to 1>><<set $rread to true>>
+
+<<set $fem to 0>><<set $fit to 0>><<set $int to 0>><<set $sub to 0>><<set $points to 0>><<set $lust to 70>><<set $stress to 0>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $hunger to 100>>
+
+<<set $ownface to 1>><<set $boobs to 1>><<set $ass to 1>><<set $pen to 1>><<set $trans to 1>><<set $officedoc to 0>><</nobr>>
+
+<<linkreplace "Play! (Select variables first)">>''LOADING:''
+<div class="meter"><span style="width:100%;"><span class="progress"></span></span></div><<timed 2s>><<if $dildo3 is true>><<set $toy to 1>><<elseif $dildo4 is true>><<set $toy to 3>><<elseif $dildo5 is true>><<set $toy to 2>><<elseif $dildo7 is true>><<set $dildo3 to true>><<set $toy to 4>><</if>><<if $masturbate is 3>><<set $cum2 to "Active">><<else>><</if>><<if $grabflask is 1>><<set $gflask to true>><<else>><<set $rflask to true>><</if>><<if $gymgirl1 is "Active">><<set $gymgirl to 0>><<elseif $gymgirl1 is "Finished">><<set $gymgirl to 1>><</if>><<if $sushi is "Active">><<set $srestaurant to 0>><<elseif $sushi is "Finished">><<set $srestaurant to 1>><</if>><<if $headphones is "Active">><<set $read to 1>><<elseif $headphones is "1/2 done">><<set $read to 1, $headphonesm to true>><<elseif $headphones is "Finished">><<set $read to 2, $headphonesm to false>><</if>><<if $suzie is "Active">><<set $outpool to 0>><<elseif $suzie is "Finished">><<set $inpool to 3, $suziebikini to true, $outpool to 0>><</if>><<if $cupmission is "Active">><<set $outdeck to 0>><<elseif $cupmission is "Finished">><<set $outdeck to 1, $tea to 1>><</if>><<if $missionbar1 is "Active">><<set $tables to 0, $coffeewoman to 0>><<elseif $missionbar1 is "Finished">><<set $tables to 1>><</if>><<if $golfer is "Active">><<set $instructor to 2, $hat to 0>><<elseif $golfer is "Finished">><<set $instructor to 3, $finishgolf to true>><</if>><<if $week gte 3>><<set $fetish1 to true, $fetish2 to 1, $fetish3 to true, $fetish to 2>><<else>><</if>><<goto "Bedroom">><</timed>><</linkreplace>>
+
+
+\\<<elseif $day is "Friday">>''<u>Set Variables</u>:''
+
+''MISSIONS:''
+Have you already checked the Tinder app: <<radiobutton "$tinder2" "Active">> Yes  <<radiobutton "$tinder2" "Unstarted">> No
+If checked "yes", who'll be your date?: <<radiobutton "$tprofile" 1>>  Aryana  <<radiobutton "$tprofile" 2>> Lelu  <<radiobutton "$tprofile" 3>> Netflix guy
+
+''SIDE-QUESTS:''
+State of Side-Quest <span class="pink">''"SNACK TIME"''</span>:  <<radiobutton "$gymgirl1" "Unstarted">>  Unstarted  <<radiobutton "$gymgirl1" "Active">> Active  <<radiobutton "$gymgirl1" "Finished">> Finished  
+State of Side-Quest <span class="green">''"HIRE ME"''</span>:  <<radiobutton "$sushi" "Unstarted">>  Unstarted  <<radiobutton "$sushi" "Active">> Active  <<radiobutton "$sushi" "Finished">> Finished  
+State of Side-Quest <span class="red">''"HEADPHONES"''</span> :  <<radiobutton "$headphones" "Unstarted">>  Unstarted  <<radiobutton "$headphones" "Active">> Active  <<radiobutton "$headphones" "Finished">> Finished  
+State of Side-Quest <span class="blue">''"STAY AFLOAT"''</span>:  <<radiobutton "$suzie" "Unstarted">>  Unstarted  <<radiobutton "$suzie" "Active">> Active  <<radiobutton "$suzie" "Finished">> Finished  
+State of Side-Quest <span class="yellow">''"HOLY GRAIL"''</span>:  <<radiobutton "$cupmission" "Unstarted">>  Unstarted  <<radiobutton "$cupmission" "Active">> Active  <<radiobutton "$cupmission" "Finished">> Finished  
+State of Side-Quest <span class="brown">''"WORKAHOLIC"''</span>:  <<radiobutton "$missionbar1" "Unstarted">>  Unstarted  <<radiobutton "$missionbar1" "Active">> Active  <<radiobutton "$missionbar1" "Finished">> Finished
+State of Side-Quest <span class="orange">''"HAT TRICK"''</span>:  <<radiobutton "$golfer" "Unstarted">>  Unstarted  <<radiobutton "$golfer" "Active">> Active  <<radiobutton "$golfer" "Finished">> Finished
+State of Side-Quest <span class="purple">''"EWA'S ASSISTANT"''</span>:  <<radiobutton "$magic" "Unstarted">>  Unstarted  <<radiobutton "$magic" "Active">> Active  <<radiobutton "$magic" "Finished">> Finished
+
+''OTHER:''
+Sex toy Lucy gave you: <<radiobutton "$dildo3" true>> Pink vibrator  <<radiobutton "$dildo5" true>> 5,5' white dildo  <<radiobutton "$dildo4" true>> Clitoral vibrator  <<radiobutton "$dildo7" true>> 7' white dildo
+Have you already tried it?: <<radiobutton "$masturbate" 3>> Yes  <<radiobutton "$masturbate" 2>> No
+
+<<radiobutton "$grabflask" 1>> Did you take the green flask? (Only chose one)
+<<radiobutton "$grabflask" 2>> Did you take the red flask? (Only chose one)
+
+''Points:'' <<radiobutton "$points" 0>> 0  <<radiobutton "$points" 100>> 100  <<radiobutton "$points" 200>> 200  <<radiobutton "$points" 300>> 300  <<radiobutton "$points" 400>> 400  <<radiobutton "$points" 500>> 500  <<radiobutton "$points" 600>> 600  <<radiobutton "$points" 700>> 700  <<radiobutton "$points" 800>> 800  <<radiobutton "$points" 900>> 900  <<radiobutton "$points" 1000>> 1000
+
+''Stats:''
+Intelligence: <<radiobutton "$int" 90>> 90 IQ  <<radiobutton "$int" 100>> 100 IQ  <<radiobutton "$int" 110>> 110 IQ  
+Fitness: <<radiobutton "$fit" 5>> 5  <<radiobutton "$fit" 13>> 13  <<radiobutton "$fit" 22>> 22  
+Feminity: <<radiobutton "$fem" 5>> 5  <<radiobutton "$fem" 13>> 13  <<radiobutton "$fem" 22>> 22
+Submission: <<radiobutton "$sub" 5>> 5  <<radiobutton "$sub" 13>> 13  <<radiobutton "$sub" 22>> 22
+
+<<nobr>><<set $gameDate to new Date("2018-07-19T08:00");>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 20>><<set $startclasses to true>><<set $newsms to -1>><<set $badge to -1>><<set $calendario to true>><<set $techphone to true>><<set $smsm6 to true>>
+
+<<set $youcum to 1>><<set $goggles to 5>><<set $masturbate to 2>><<set $prerobot to 0>><<set $alreadycame to false>><<set $cage to true>>
+
+<<set $kitchen to 6>><<set $stage to 0>><<set $gym to 5>><<set $library to 0>><<set $lab to 1>><<set $dreams to 2>><<set $shopitems to 1>><<set $wardrobe to true>><<set $capt to 7>><<set $fashionbuy to 0>><<set $womensbuy to 0>><<set $gotoreview to false>><<set $review to 3>><<set $fitnesstrack to 0>><<set $dance to 5>><<set $styleclass to 4>><<set $jada to 1>><<set $dinner to 2>><<set $sexdoor to 1, $sexs to 7>>
+
+<<set $tickets to true, $itinerary to true, $map to true, $bimbopic to true, $card2 to true>>
+
+<<set $cum to "Active">><<set $dress2 to "Active">><<set $tinder1 to "Active">><<set $m1 to "1/2 done">><<set $lab1 to "Active">><<set $dress1 to "Active">><<set $badge to 3>>
+
+<<set $wardrobe to true>><<set $buyshoe1 to true, $buyshoe2 to true>><<set $buyleg1 to true>><<set $buyupper1 to true>><<set $buyunder1 to true, $buyunder2 to true>><<set $shoe to 2>><<set $leg to 1>><<set $under to 2>><<set $upper to 1>><<set $fashionbuy to 0>><<set $bflats to false, $bdress to true, $bpdress to true, $bedress to true, $bhheels to true, $bswim to false>><<set $womensbuy to 0>><<set $bbra to true, $buyunder21 to true, $bgstring to false, $bdress to false, $bnpanties to false, $bleggings to false, $bbikini to true, $bpushup to true>>
+
+<<set $announcement2 to false>><<set $alreadytrained to false>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $techphone to true>><<set $gotoparty to false>><<set $dos to 1>><<set $gfsms to 0>><<set $massage to true>><<set $alreadyran to false>><<set $dinnertime to true>><<set $arrival to false>><<set $alreadyate to false>><<set $staffkey to true>><<set $shavebath to true, $shaving to 1>><<set $abledrink to true>><<set $rread to true>>
+
+<<set $fem to 0>><<set $fit to 0>><<set $int to 0>><<set $sub to 0>><<set $points to 0>><<set $lust to 70>><<set $stress to 0>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $hunger to 100>>
+
+<<set $ownface to 1>><<set $boobs to 1>><<set $ass to 1>><<set $pen to 1>><<set $trans to 1>><<set $officedoc to 0>><</nobr>>
+
+<<linkreplace "Play! (Select variables first)">>''LOADING:''
+<div class="meter"><span style="width:100%;"><span class="progress"></span></span></div><<timed 2s>><<if $dildo3 is true>><<set $toy to 1>><<elseif $dildo4 is true>><<set $toy to 3>><<elseif $dildo5 is true>><<set $toy to 2>><<elseif $dildo7 is true>><<set $dildo3 to true>><<set $toy to 4>><</if>><<if $masturbate is 3>><<set $cum2 to "Active">><<else>><</if>><<if $grabflask is 1>><<set $gflask to true>><<else>><<set $rflask to true>><</if>><<if $gymgirl1 is "Active">><<set $gymgirl to 0>><<elseif $gymgirl1 is "Finished">><<set $gymgirl to 1>><</if>><<if $sushi is "Active">><<set $srestaurant to 0>><<elseif $sushi is "Finished">><<set $srestaurant to 1>><</if>><<if $headphones is "Active">><<set $read to 1>><<elseif $headphones is "1/2 done">><<set $read to 1, $headphonesm to true>><<elseif $headphones is "Finished">><<set $read to 2, $headphonesm to false>><</if>><<if $suzie is "Active">><<set $outpool to 0>><<elseif $suzie is "Finished">><<set $inpool to 3, $suziebikini to true, $outpool to 0>><</if>><<if $cupmission is "Active">><<set $outdeck to 0>><<elseif $cupmission is "Finished">><<set $outdeck to 1, $tea to 1>><</if>><<if $missionbar1 is "Active">><<set $tables to 0, $coffeewoman to 0>><<elseif $missionbar1 is "Finished">><<set $tables to 1>><</if>><<if $golfer is "Active">><<set $instructor to 2, $hat to 0>><<elseif $golfer is "Finished">><<set $instructor to 3, $finishgolf to true>><</if>><<if $week gte 3>><<set $fetish1 to true, $fetish2 to 1, $fetish3 to true, $fetish to 2>><<else>><</if>><<goto "Bedroom">><</timed>><</linkreplace>>
+
+
+\\<<elseif $day is "Saturday">>''<u>Set Variables</u>:''
+
+''MISSIONS:''
+Have you already checked the Tinder app: <<radiobutton "$tinder2" "Active">> Yes  <<radiobutton "$tinder2" "Unstarted">> No
+If checked "yes", who'll be your date?: <<radiobutton "$tprofile" 1>>  Aryana  <<radiobutton "$tprofile" 2>> Lelu  <<radiobutton "$tprofile" 3>> Netflix guy
+
+''SIDE-QUESTS:''
+State of Side-Quest <span class="pink">''"SNACK TIME"''</span>:  <<radiobutton "$gymgirl1" "Unstarted">>  Unstarted  <<radiobutton "$gymgirl1" "Active">> Active  <<radiobutton "$gymgirl1" "Finished">> Finished  
+State of Side-Quest <span class="green">''"HIRE ME"''</span>:  <<radiobutton "$sushi" "Unstarted">>  Unstarted  <<radiobutton "$sushi" "Active">> Active  <<radiobutton "$sushi" "Finished">> Finished  
+State of Side-Quest <span class="red">''"HEADPHONES"''</span> :  <<radiobutton "$headphones" "Unstarted">>  Unstarted  <<radiobutton "$headphones" "Active">> Active  <<radiobutton "$headphones" "Finished">> Finished  
+State of Side-Quest <span class="blue">''"STAY AFLOAT"''</span>:  <<radiobutton "$suzie" "Unstarted">>  Unstarted  <<radiobutton "$suzie" "Active">> Active  <<radiobutton "$suzie" "Finished">> Finished  
+State of Side-Quest <span class="yellow">''"HOLY GRAIL"''</span>:  <<radiobutton "$cupmission" "Unstarted">>  Unstarted  <<radiobutton "$cupmission" "Active">> Active  <<radiobutton "$cupmission" "Finished">> Finished  
+State of Side-Quest <span class="brown">''"WORKAHOLIC"''</span>:  <<radiobutton "$missionbar1" "Unstarted">>  Unstarted  <<radiobutton "$missionbar1" "Active">> Active  <<radiobutton "$missionbar1" "Finished">> Finished
+State of Side-Quest <span class="orange">''"HAT TRICK"''</span>:  <<radiobutton "$golfer" "Unstarted">>  Unstarted  <<radiobutton "$golfer" "Active">> Active  <<radiobutton "$golfer" "Finished">> Finished
+State of Side-Quest <span class="purple">''"EWA'S ASSISTANT"''</span>:  <<radiobutton "$magic" "Unstarted">>  Unstarted  <<radiobutton "$magic" "Active">> Active  <<radiobutton "$magic" "Finished">> Finished
+
+''OTHER:''
+Sex toy Lucy gave you: <<radiobutton "$dildo3" true>> Pink vibrator  <<radiobutton "$dildo5" true>> 5,5' white dildo  <<radiobutton "$dildo4" true>> Clitoral vibrator  <<radiobutton "$dildo7" true>> 7' white dildo
+Have you already tried it?: <<radiobutton "$masturbate" 3>> Yes  <<radiobutton "$masturbate" 2>> No
+
+''Points:'' <<radiobutton "$points" 0>> 0  <<radiobutton "$points" 100>> 100  <<radiobutton "$points" 200>> 200  <<radiobutton "$points" 300>> 300
+
+''Stats:''
+Intelligence: <<radiobutton "$int" 90>> 90 IQ  <<radiobutton "$int" 100>> 100 IQ  <<radiobutton "$int" 110>> 110 IQ  
+Fitness: <<radiobutton "$fit" 5>> 5  <<radiobutton "$fit" 13>> 13  <<radiobutton "$fit" 22>> 22  
+Feminity: <<radiobutton "$fem" 5>> 5  <<radiobutton "$fem" 13>> 13  <<radiobutton "$fem" 22>> 22
+Submission: <<radiobutton "$sub" 5>> 5  <<radiobutton "$sub" 13>> 13  <<radiobutton "$sub" 22>> 22
+
+<<nobr>><<set $gameDate to new Date("2018-07-20T08:00");>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 21>><<set $startclasses to true>><<set $newsms to -1>><<set $badge to -1>><<set $calendario to true>><<set $techphone to true>>
+
+<<set $youcum to 1>><<set $goggles to 5>><<set $masturbate to 2>><<set $prerobot to 0>><<set $alreadycame to false>><<set $cage to true>>
+
+<<set $kitchen to 6>><<set $stage to 0>><<set $gym to 5>><<set $library to 0>><<set $lab to 1>><<set $dreams to 2>><<set $shopitems to 1>><<set $wardrobe to true>><<set $capt to 7>><<set $gotoreview to false>><<set $review to 3>><<set $fitnesstrack to 0>><<set $dance to 5>><<set $styleclass to 4>><<set $jada to 1>><<set $dinner to 2>><<set $sexdoor to 1, $sexs to 7>>
+
+<<set $tickets to true, $itinerary to true, $map to true, $bimbopic to true, $card2 to true>>
+
+<<set $cum to "Active">><<set $dress2 to "Active">><<set $tinder1 to "Active">><<set $m1 to "1/2 done">><<set $lab1 to "Active">><<set $dress1 to "Active">><<set $badge to 4>>
+
+<<set $wardrobe to true>><<set $buyshoe1 to true, $buyshoe2 to true>><<set $buyleg1 to true>><<set $buyupper1 to true>><<set $buyunder1 to true, $buyunder2 to true>><<set $shoe to 2>><<set $leg to 1>><<set $under to 2>><<set $upper to 1>><<set $fashionbuy to 0>><<set $bflats to false, $bdress to true, $bpdress to true, $bedress to true, $bhheels to true, $bswim to false>><<set $womensbuy to 0>><<set $bbra to true, $buyunder21 to true, $bgstring to false, $bdress to false, $bnpanties to false, $bleggings to false, $bbikini to true, $bpushup to true>>
+
+<<set $announcement2 to false>><<set $alreadytrained to false>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $techphone to true>><<set $gotoparty to false>><<set $dos to 1>><<set $gfsms to 0>><<set $massage to true>><<set $alreadyran to false>><<set $dinnertime to true>><<set $arrival to false>><<set $alreadyate to false>><<set $staffkey to true>><<set $shavebath to true, $shaving to 1>><<set $rread to true>>
+
+<<set $fem to 0>><<set $fit to 0>><<set $int to 0>><<set $sub to 0>><<set $points to 0>><<set $lust to 70>><<set $stress to 0>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $hunger to 100>>
+
+<<set $ownface to 2>><<set $boobs to 2>><<set $ass to 2>><<set $pen to 2>><<set $trans to 2>><<set $officedoc to 0>><</nobr>>
+
+<<linkreplace "Play! (Select variables first)">>''LOADING:''
+<div class="meter"><span style="width:100%;"><span class="progress"></span></span></div><<timed 2s>><<if $dildo3 is true>><<set $toy to 1>><<elseif $dildo4 is true>><<set $toy to 3>><<elseif $dildo5 is true>><<set $toy to 2>><<elseif $dildo7 is true>><<set $dildo3 to true>><<set $toy to 4>><</if>><<if $masturbate is 3>><<set $cum2 to "Active">><<else>><</if>><<if $gymgirl1 is "Active">><<set $gymgirl to 0>><<elseif $gymgirl1 is "Finished">><<set $gymgirl to 1>><</if>><<if $sushi is "Active">><<set $srestaurant to 0>><<elseif $sushi is "Finished">><<set $srestaurant to 1>><</if>><<if $headphones is "Active">><<set $read to 1>><<elseif $headphones is "1/2 done">><<set $read to 1, $headphonesm to true>><<elseif $headphones is "Finished">><<set $read to 2, $headphonesm to false>><</if>><<if $suzie is "Active">><<set $outpool to 0>><<elseif $suzie is "Finished">><<set $inpool to 3, $suziebikini to true, $outpool to 0>><</if>><<if $cupmission is "Active">><<set $outdeck to 0>><<elseif $cupmission is "Finished">><<set $outdeck to 1, $tea to 1>><</if>><<if $missionbar1 is "Active">><<set $tables to 0, $coffeewoman to 0>><<elseif $missionbar1 is "Finished">><<set $tables to 1>><</if>><<if $golfer is "Active">><<set $instructor to 2, $hat to 0>><<elseif $golfer is "Finished">><<set $instructor to 3, $finishgolf to true>><</if>><<if $week gte 3>><<set $fetish1 to true, $fetish2 to 1, $fetish3 to true, $fetish to 2>><<else>><</if>><<if $tinder2 is "Active">><<set $tinder1 to "Finished">><<else>><</if>><<goto "Bedroom">><</timed>><</linkreplace>>
+
+
+\\<<elseif $day is "Sunday">>''<u>Set Variables</u>:''
+
+''MISSIONS:''
+Have you already checked the Tinder app?: <<radiobutton "$tinder2" "Active">> Yes  <<radiobutton "$tinder2" "Unstarted">> No
+If checked "yes", who'll be your date?: <<radiobutton "$tprofile" 1>>  Aryana  <<radiobutton "$tprofile" 2>> Lelu  <<radiobutton "$tprofile" 3>> Netflix guy
+
+''SIDE-QUESTS:''
+State of Side-Quest <span class="pink">''"SNACK TIME"''</span>:  <<radiobutton "$gymgirl1" "Unstarted">>  Unstarted  <<radiobutton "$gymgirl1" "Active">> Active  <<radiobutton "$gymgirl1" "Finished">> Finished  
+State of Side-Quest <span class="green">''"HIRE ME"''</span>:  <<radiobutton "$sushi" "Unstarted">>  Unstarted  <<radiobutton "$sushi" "Active">> Active  <<radiobutton "$sushi" "Finished">> Finished  
+State of Side-Quest <span class="red">''"HEADPHONES"''</span> :  <<radiobutton "$headphones" "Unstarted">>  Unstarted  <<radiobutton "$headphones" "Active">> Active  <<radiobutton "$headphones" "Finished">> Finished  
+State of Side-Quest <span class="blue">''"STAY AFLOAT"''</span>:  <<radiobutton "$suzie" "Unstarted">>  Unstarted  <<radiobutton "$suzie" "Active">> Active  <<radiobutton "$suzie" "Finished">> Finished  
+State of Side-Quest <span class="yellow">''"HOLY GRAIL"''</span>:  <<radiobutton "$cupmission" "Unstarted">>  Unstarted  <<radiobutton "$cupmission" "Active">> Active  <<radiobutton "$cupmission" "Finished">> Finished  
+State of Side-Quest <span class="brown">''"WORKAHOLIC"''</span>:  <<radiobutton "$missionbar1" "Unstarted">>  Unstarted  <<radiobutton "$missionbar1" "Active">> Active  <<radiobutton "$missionbar1" "Finished">> Finished
+State of Side-Quest <span class="orange">''"HAT TRICK"''</span>:  <<radiobutton "$golfer" "Unstarted">>  Unstarted  <<radiobutton "$golfer" "Active">> Active  <<radiobutton "$golfer" "Finished">> Finished
+State of Side-Quest <span class="purple">''"EWA'S ASSISTANT"''</span>:  <<radiobutton "$magic" "Unstarted">>  Unstarted  <<radiobutton "$magic" "Active">> Active  <<radiobutton "$magic" "Finished">> Finished
+
+''OTHER:''
+Did you lick the black bull's penis at Barcelona?: <<radiobutton "$cuckybeach" 1>> Yes  <<radiobutton "$cuckybeach" 2>> No  
+
+Sex toy Lucy gave you: <<radiobutton "$dildo3" true>> Pink vibrator  <<radiobutton "$dildo5" true>> 5,5' white dildo  <<radiobutton "$dildo4" true>> Clitoral vibrator  <<radiobutton "$dildo7" true>> 7' white dildo
+Have you already tried it?: <<radiobutton "$masturbate" 3>> Yes  <<radiobutton "$masturbate" 2>> No
+
+''Points:'' <<radiobutton "$points" 0>> 0  <<radiobutton "$points" 100>> 100  <<radiobutton "$points" 200>> 200  <<radiobutton "$points" 300>> 300
+
+''Stats:''
+Intelligence: <<radiobutton "$int" 90>> 90 IQ  <<radiobutton "$int" 100>> 100 IQ  <<radiobutton "$int" 110>> 110 IQ  <<radiobutton "$int" 115>> 115 IQ  
+Fitness: <<radiobutton "$fit" 5>> 5  <<radiobutton "$fit" 13>> 13  <<radiobutton "$fit" 22>> 22  
+Feminity: <<radiobutton "$fem" 5>> 5  <<radiobutton "$fem" 13>> 13  <<radiobutton "$fem" 22>> 22
+Submission: <<radiobutton "$sub" 5>> 5  <<radiobutton "$sub" 13>> 13  <<radiobutton "$sub" 22>> 22
+
+<<nobr>><<set $gameDate to new Date("2018-07-21T08:00");>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 22>><<set $startclasses to true>><<set $newsms to -1>><<set $badge to -1>><<set $calendario to true>><<set $techphone to true>>
+
+<<set $youcum to 1>><<set $goggles to 5>><<set $masturbate to 2>><<set $prerobot to 0>><<set $alreadycame to false>><<set $cage to true>>
+
+<<set $kitchen to 6>><<set $stage to 0>><<set $gym to 5>><<set $library to 0>><<set $lab to 1>><<set $dreams to 2>><<set $shopitems to 1>><<set $wardrobe to true>><<set $capt to 7>><<set $fashionbuy to 0>><<set $womensbuy to 0>><<set $gotoreview to false>><<set $review to 3>><<set $fitnesstrack to 0>><<set $dance to 5>><<set $styleclass to 4>><<set $jada to 1>><<set $dinner to 2>><<set $sexdoor to 1, $sexs to 7>>
+
+<<set $tickets to true, $itinerary to true, $map to true, $bimbopic to true, $card2 to true>>
+
+<<set $cum to "Active">><<set $dress2 to "Active">><<set $tinder1 to "Active">><<set $m1 to "1/2 done">><<set $lab1 to "Active">><<set $badge to 1>>
+
+<<set $wardrobe to true>><<set $buyshoe1 to true, $buyshoe2 to true>><<set $buyleg1 to true>><<set $buyupper1 to true>><<set $buyunder1 to true, $buyunder2 to true>><<set $shoe to 2>><<set $leg to 1>><<set $under to 2>><<set $upper to 1>><<set $fashionbuy to 0>><<set $bflats to false, $bdress to true, $bpdress to true, $bedress to true, $bhheels to true, $bswim to false>><<set $womensbuy to 0>><<set $bbra to true, $buyunder21 to true, $bgstring to false, $bdress to false, $bnpanties to false, $bleggings to false, $bbikini to true, $bpushup to true>>
+
+<<set $announcement2 to false>><<set $alreadytrained to false>><<set $phonefriend to false>><<set $Callfriend2 to false>><<set $needshower to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $techphone to true>><<set $gotoparty to false>><<set $dos to 5>><<set $gfsms to 5>><<set $massage to true>><<set $alreadyran to false>><<set $dinnertime to true>><<set $arrival to true>><<set $alreadyate to false>><<set $staffkey to true>><<set $shavebath to true, $shaving to 1>><<set $rread to true>>
+
+<<set $lust to 70>><<set $stress to 0>><<set $showstats to true>><<set $logstart to true>><<set $noshit to true>><<set $hunger to 100>>
+
+<<set $ownface to 2>><<set $boobs to 2>><<set $ass to 2>><<set $pen to 2>><<set $trans to 2>><<set $officedoc to 0>>
+
+<<set $tickets to true, $itinerary to true, $roomkey to true, $map to true, $bimbopic to true>><</nobr>>
+
+<<linkreplace "Play! (Select variables first)">>''LOADING:''
+<div class="meter"><span style="width:100%;"><span class="progress"></span></span></div><<timed 2s>><<if $dildo3 is true>><<set $toy to 1>><<elseif $dildo4 is true>><<set $toy to 3>><<elseif $dildo5 is true>><<set $toy to 2>><<elseif $dildo7 is true>><<set $dildo3 to true>><<set $toy to 4>><</if>><<if $masturbate is 3>><<set $cum2 to "Active">><<else>><</if>><<if $gymgirl1 is "Active">><<set $gymgirl to 0>><<elseif $gymgirl1 is "Finished">><<set $gymgirl to 1>><</if>><<if $sushi is "Active">><<set $srestaurant to 0>><<elseif $sushi is "Finished">><<set $srestaurant to 1>><</if>><<if $headphones is "Active">><<set $read to 1>><<elseif $headphones is "1/2 done">><<set $read to 1, $headphonesm to true>><<elseif $headphones is "Finished">><<set $read to 2, $headphonesm to false>><</if>><<if $suzie is "Active">><<set $outpool to 0>><<elseif $suzie is "Finished">><<set $inpool to 3, $suziebikini to true, $outpool to 0>><</if>><<if $cupmission is "Active">><<set $outdeck to 0>><<elseif $cupmission is "Finished">><<set $outdeck to 1, $tea to 1>><</if>><<if $missionbar1 is "Active">><<set $tables to 0, $coffeewoman to 0>><<elseif $missionbar1 is "Finished">><<set $tables to 1>><</if>><<if $golfer is "Active">><<set $instructor to 2, $hat to 0>><<elseif $golfer is "Finished">><<set $instructor to 3, $finishgolf to true>><</if>><<if $week gte 3>><<set $fetish1 to true, $fetish2 to 1, $fetish3 to true, $fetish to 2>><<else>><</if>><<if $tinder2 is "Active">><<set $tinder1 to "Finished">><<else>><</if>><<goto "Bedroom">><</timed>><</linkreplace>><</if>><</if>><</linkreplace>><</linkreplace>><<set $dreams to 0>><<set $techphone to true>><<set $newsms to -1>><<set $coffee to 0>><<set $coffeee to 0>><<set $casino to true>>
+
+

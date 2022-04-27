@@ -1,0 +1,241 @@
+:: GF SMS 2 [phone noreturn] {"position":"32,1681","size":"100,100"}
+
+/* chat with GF via sms */
+<<if ndef $sms2>><<speech "gfd" "''$gfname:''">>
+Hiiii, how are you doing, baby? Did you think of what we talked about last time?<</speech>>
+<<speech "You" "''$name:''">>
+Yes. I gave it a few thoughts and I think that I love you, like REALLY love you. And I want you to be happy, even when I'm not there. I understand that you have your needs...<</speech>>
+<<speech "gfd" "''$gfname:''">>
+OMG $name, you've just made me so happy. I'm so relieved that you do understand. $gffname said that you wouldn't understand, but she was wrong!<</speech>>
+<<speech "You" "''$name:''">>
+So how is everything going then?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Are you trying to ask me about my sexual life?<</speech>>
+<<speech "You" "''$name:''">>
+I, I guess...?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Do you really want to know? You may not like it.<</speech>>
+<<speech "You" "''$name:''">>
+Um...I'm not sure, but I think I prefer to be updated. Maybe not too much detail...<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Well then! I'm going to tell you everything! I knew you would like it. Did I ever introduce you to my David?<</speech>>
+<<speech "You" "''$name:''">>
+Um...David who?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+My ex, stupid! Hahaha Anyway, the last weekend he texted me, as he usually does.<</speech>>
+<<speech "You" "''$name:''">>
+Usually?!<</speech>>
+<<speech "gfd" "''$gfname:''">>
+C'mon, don't make such a big deal of it. He writes me from time to time, but I never really reply. He sends me pics and all...<</speech>> 
+<<linkappend "see?">>
+
+<span class="fade-ins"><img src="gf/davidselfie1.png" width="50%">
+
+<<speech "You" "''$name:''">>
+What the fuck?! Is he sending you nudes every fucking week? Do you answer him?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Yeah, he does... he always says that he wants a piece of my ass. And you can thank me that I put the heart-censor on the pic 'cause there wasn't one... I don't want you to feel even worse, baby...<</speech>>
+<<speech "You" "''$name:''">>
+So the pic was a full nude?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Exactly. Do you want to see it then?<</speech>>
+[[I don't want any secrets between us...|2][$sms2 to 1]]
+[[No, I don't.|2][$sms2 to 2, $cucklike to false]]</span><</linkappend>><<elseif $sms2 is 1>><<nobr>><span class="fade-ins"><img src="gf/davidselfie2.png" width="50%"></span><</nobr>>
+
+<<speech "gfd" "''$gfname:''">>
+Don't be mad baby. He is such an asshole, so selfish and dumb. I wouldn't be his girlfriend ever again.<</speech>>
+<<speech "You" "''$name:''">>
+Well...ok then, I trust you. But please, honey, erase those pictures.<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Why?<</speech>>
+<<speech "You" "''$name:''">>
+Why?! Because he is trying to hit on you and you just said you are not interested.<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Yeah, but...he is trying to be nice, in his own way. Taking those selfies takes some time, it's like a present to me. I don't want to destroy his presents.<</speech>>
+<<speech "You" "''$name:''">>
+You keep all of them?!<</speech>>
+<<speech "gfd" "''$gfname:''">>
+No... well, yes, but...
+
+Oops, he just sent me a video...<</speech>>
+[[Let me see|2][$sms2 to 3, $cucklike to true]]
+[[I don't like this|2][$sms2 to 4, $cucklike to false]]<<elseif $sms2 is 2>><<speech "You" "''$name:''">>
+No. I don't. And you shouldn't be accepting this guy's nudes!<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Well, E.X.C.U.S.E.M.E. He is just showing how much he cares for me in his own way. At least he makes me feel liked.<</speech>>
+<<speech "You" "''$name:''">>
+Are you saying I don't care about you?! That is so unfair. This "David" is trying to get his dick wet and you are letting him.<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Well, if you really cared so much about me you would try and talk to me more often. Plus, we haven't had sex for a long time...<</speech>>
+<<speech "You" "''$name:''">>
+Well, yeah. We are having some problems, but we will try and work it out. This guy has nothing to do with what we do. He should not be a part of this.<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Don't talk like that about him! He's being really sweet to me. And that's my ex you're talking about, he is not just some "guy"!<</speech>>
+<<speech "You" "''$name:''">>
+He knew you had a boyfriend and he is sending you these pics. That's not a very manly thing to do, he's a prick!<</speech>>
+<<speech "gfd" "''$gfname:''">>
+I think he has you beat in manliness, you low selfsteem coward! I don't even know why I bother talking to you, you always do shit. You're jealous about everything!<</speech>>
+<<speech "You" "''$name:''">>
+What do you mean he's got me beat! You are my girlfriend, for christ's sake!<</speech>>
+<<speech "gfd" "''$gfname:''">>
+This is what I mean, asshole!
+
+<img src="gf/david2.gif" width="50%"><</speech>>
+<<speech "You" "''$name:''">>
+... ... ...<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Are you happy now?<</speech>>
+<<speech "You" "''$name:''">>
+Well, no. I'm actually disappointed...<</speech>>
+<<speech "gfd" "''$gfname:''">>
+It's not me who is sending the pictures! And you have to admit that he's kind of pleasing to watch.<</speech>>
+<<speech "You" "''$name:''">>
+What do you mean?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+C'mon, you know what I mean... he's tall and muscly... and his size... You've got to admit that his body is amazing. I guess you have reason to be jealous.<</speech>>
+<<speech "You" "''$name:''">>
+Are you saying that you prefer him to me?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Well...<</speech>>
+<<speech "You" "''$name:''">>
+This is unbelievable!<</speech>>
+...
+...
+...
+
+<<speech "You" "''$name:''">>
+$gfname?<</speech>>
+...
+...
+...
+
+<<speech "You" "''$name:''">>
+$gfname!!<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Baby, you are being unreasonable. Stop talking, I'm busy.<</speech>>
+<<speech "You" "''$name:''">>
+(I bet she's talking to that guy... Fuck!)<</speech>>
+[[Bedroom|$return][$smsm2 to false, $cucklike to true]]<<elseif $sms2 is 3>><img src="gf/davidcar.gif" width="70%">
+
+<<speech "You" "''$name:''">>
+$gfname, that guy is crazy. Just block him, ok?<</speech>>
+<<timed 1s>>...
+<<next 1s>>...
+<<next 1s>>...
+
+<<next 1s>><<speech "You" "''$name:''">>
+Um...$gfname? Are you there?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Yeah...um...wait a sec, baby.<</speech>>
+<<next 1s>>...
+<<next 1s>>...
+<<next 1s>>...
+
+<<next 1s>><<speech "You" "''$name:''">>
+$gfname?! What's going on? Are you talking with him?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+No, baby. I'm just... doing dinner and can't type.<</speech>>
+<<speech "You" "''$name:''">>
+I can see you are online, $gfname...<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Are you spying on me or what?!<</speech>>
+<<speech "You" "''$name:''">>
+No, but we were talking and then you just-<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Stop, just stop...ugh! don't be so paranoid... I'm tired, I'm going to bed.<</speech>>
+<<speech "You" "''$name:''">>
+Didn't you say you were making dinner?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Whatever! Stop talking now, I'm busy...<</speech>>
+<<speech "You" "''$name:''">>
+This is incredible...<</speech>>
+You keep looking at the "online" mark below her name for a few minutes.
+
+It isn't even flinching. 
+
+<<speech "You" "''$name:''">>
+(She just doesn't want to talk to me. I bet she is talking with him. She just said he was an asshole...)<</speech>>
+After a few more minutes you look away from the phone and massage your eyes. This is maing you feel bad... 
+
+<span class="onomatopeya">*BING*</span>
+
+She just sent you a whatsapp:
+
+<<speech "gfd" "''$gfname:''">>
+//''*This message was deleted.*''//<</speech>>
+<<speech "You" "''$name:''">>
+Did you just deleted the whatsapp? What was it?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Nothing, baby. Just wasn't for you.<</speech>>
+<<speech "You" "''$name:''">>
+But what was it?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Nothing important, just a selfie for the...girls.<</speech>>
+<<speech "You" "''$name:''">>
+Well... send it to me. I miss you so much, you know?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+You know how to win my heart. Hm...ok baby :) here it is:<</speech>>
+<img src="gf/gfass.gif" width="70%">
+
+<<speech "You" "''$name:''">>
+Honey... you don't seem tired. And do you usually send an ass-selfie to your girlfriends?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Of course! Stop being so dramatic! I thought that you would appreciate the pic and maybe say something nice to me for a change. But I was wrong... Now, stop talking. I'm busy talking to someone who really CARES about my pic.<</speech>>
+You stop talking so you don't make things any worse, but you know she is talking to that David guy.
+
+She is still "online" so you try to change the topic of conversation:
+
+<<speech "You" "''$name:''">>
+Ok, honey. Have a good night. I loved your pic, by the way.<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Shhhhh.<</speech>>
+<<speech "You" "''$name:''">>
+(Oh, man...)<</speech>>
+[[Bedroom|$return][$smsm2 to false]]<</timed>>
+<<elseif $sms2 is 4>><<speech "You" "''$name:''">>
+I don't like this...<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Oh, honey! It's all fun. I already told you, I don't love him even remotely as much as I do you.<</speech>>
+<<speech "You" "''$name:''">>
+Well, thanks for saying that...<</speech>>
+<<speech "gfd" "''$gfname:''">>
+So do you want to see the video?<</speech>>
+<<speech "You" "''$name:''">>
+I really don't need to see it.<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Well, ok. It's just for the laugh, honey. And you wanted to see the selfie one, so I thought that you were kind of into it...<</speech>>
+<<speech "You" "''$name:''">>
+Into what? Guys?!<</speech>>
+<<speech "gfd" "''$gfname:''">>
+I didn't say that, you said it. I just meant that we could have fun together laughing at how douchy he is.<</speech>>
+<<speech "You" "''$name:''">>
+Oh... yeah, sure. But don't show me the pictures. I can get jealous...<</speech>>
+...
+...
+...
+
+<<speech "You" "''$name:''">>
+$gfname?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+I'm here. I'm just replying to him.<</speech>>
+<<speech "You" "''$name:''">>
+Why do you even reply!?<</speech>>
+...
+...
+...
+
+<<speech "You" "''$name:''">>
+$gfname!<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Shhhh! Don't be like this, ok? You didn't want to be part of the fun, so don't be jealous now.<</speech>>
+<<speech "You" "''$name:''">>
+But you said that he was an asshole!<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Ok honey, stop.<</speech>>
+You can see her status is "online".
+
+<<speech "You" "''$name:''">>
+(This is embarrasing... she is obviously talking to that "David" guy...)<</speech>>
+[[Bedroom|$return][$smsm2 to false, $cucklike to false]]<</if>><<set $read2 to true>><<set $gfsms to 1>><<set $dreams to 4>><<audio ":back" mute>><<audio "menus" volume 0.15 play loop>>
+
+

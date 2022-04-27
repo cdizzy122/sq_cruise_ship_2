@@ -1,0 +1,70 @@
+:: Robothypno [spiral noreturn textback] {"position":"1532,1773","size":"100,100"}
+<<if $robothypno is 1>><div class="center">
+<span class="fade-in"><span class="shudder"><img src="porn/robothypno0.gif" width="110%"></span></span></div>
+You try waking up, but apparently the goggles got on your face while you were asleep.
+
+<<speech "You" "''$name'':">>
+(What the hell...)<</speech>>
+<<timed 3s>><div class="leftcolumn"><span class="grow"><<scrolldown>><img src="porn/robothypno1a.gif" width="90%"></span></div>
+<div class="rightcolumn"><span class="grow"><img src="porn/robothypno1b.gif" width="100%"></span></div>
+
+
+
+[[Take them off|Goodmorning]]<</timed>><<elseif $robothypno is 2>><div class="center">
+<span class="fade-in"><span class="shudder"><img src="porn/robothypno0.gif" width="110%"></span></span></div>
+You try waking up, but apparently the goggles got on your face while you were asleep.
+
+<<speech "You" "''$name'':">>
+(What the hell...)<</speech>>
+<<timed 3s>><div class="leftcolumn"><span class="grow"><<scrolldown>><img src="porn/robothypno2a.gif" width="90%"></span></div>
+<div class="rightcolumn"><span class="grow"><img src="porn/robothypno2b.gif" width="100%"></span></div>
+
+
+
+[[Take them off|Goodmorning]]<</timed>><<elseif $robothypno is 3>><div class="center">
+<span class="fade-in"><span class="shudder"><img src="porn/robothypno0.gif" width="110%"></span></span></div>
+You try waking up, but apparently the goggles got on your face while you were asleep.
+
+<<speech "You" "''$name'':">>
+(What the hell...)<</speech>>
+<<timed 3s>><div class="leftcolumn"><span class="grow"><<scrolldown>><img src="porn/robothypno3a.gif" width="90%"></span></div>
+<div class="rightcolumn"><span class="grow"><img src="porn/robothypno3b.gif" width="100%"></span></div>
+
+
+
+[[Take them off|Goodmorning]]<</timed>><<elseif $robothypno is 4>><div class="center">
+<span class="fade-in"><span class="shudder"><img src="porn/robothypno0.gif" width="110%"></span></span></div>
+You try waking up, but apparently the goggles got on your face while you were asleep.
+
+<<speech "You" "''$name'':">>
+(What the hell...)<</speech>>
+<<timed 3s>><div class="leftcolumn"><span class="grow"><<scrolldown>><img src="porn/robothypno4a.gif" width="90%"></span></div>
+<div class="rightcolumn"><span class="grow"><img src="porn/robothypno4b.gif" width="100%"></span></div>
+
+
+
+[[Take them off|Goodmorning]]<</timed>><<elseif $robothypno is 5>><div class="center">
+<span class="fade-in"><span class="shudder"><img src="porn/robothypno0.gif" width="110%"></span></span></div>
+You try waking up, but apparently the goggles got on your face while you were asleep.
+
+<<speech "You" "''$name'':">>
+(What the hell...)<</speech>>
+<<timed 3s>><div class="leftcolumn"><span class="grow"><<scrolldown>><img src="porn/robothypno5a.gif" width="90%"></span></div>
+<div class="rightcolumn"><span class="grow"><img src="porn/robothypno5b.gif" width="100%"></span></div>
+
+
+
+[[Take them off|Goodmorning]]<</timed>><<elseif $robothypno is 6>><div class="center">
+<span class="fade-in"><span class="shudder"><img src="porn/robothypno0.gif" width="110%"></span></span></div>
+You try waking up, but apparently the goggles got on your face while you were asleep.
+
+<<speech "You" "''$name'':">>
+(What the hell...)<</speech>>
+<<timed 3s>><div class="leftcolumn"><span class="grow"><<scrolldown>><img src="porn/robothypno6a.gif" width="90%"></span></div>
+<div class="rightcolumn"><span class="grow"><img src="porn/robothypno6b.gif" width="100%"></span></div>
+
+
+
+[[Take them off|Goodmorning]]<</timed>><</if>><<audio "menus" stop>>
+
+

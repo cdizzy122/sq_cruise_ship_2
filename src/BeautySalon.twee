@@ -1,0 +1,128 @@
+:: Beauty Salon [textback] {"position":"2230,848","size":"100,100"}
+<<removeclass "html">><<addclass "html" "beauty">><<audio ":back" mute>><<audio "style" volume 0.6 loop play>><<if ndef $bsalon>><div class="center"><img src="places2/beautysalon.jpg" width="55%"></div>
+<<speech "You" "''$name:''">>
+ *gasp*<</speech>>
+<<speech "style" "''Cherry:''">>
+I know, pretty impressive, huh? Come, I'll let you meet Lorei.<</speech>>
+<div class="center"><img src="places2/beautycounter.jpg" width="50%"></div>
+Cherry lead you to the reception desk, where a receptionist is typing fast, obviously stressed. Suddenly, a platinum blonde woman appears from the side.
+
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+Look a this! ... ...and that's why you should be changing the brush every 2 weeks. It's definitely not the same, Stacy. It leaves color patches on the skin.<</speechpatreon>>
+<<speech "nobody" "''Stacy'':">>
+Yes, I see, I'm sorry Lorei.<</speech>>
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+No problem, as long as it doesn't happen again. *fake smile* Oh, hi Cherry!<</speechpatreon>>
+You both get closer to her.
+
+<div class="center"><img src="passengers/lorei1.jpg" width="40%"></div>
+<<speech "style" "''Cherry:''">>
+Hi Lorei, I see you're quite busy over here.<</speech>>
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+Oh, you know... just like last year: as soon as guys get in the ship every fucking girl has to come for their makeup, waxing, blablabla... But anyway, *fake smile* I'm happy to see you! What are you up to now?<</speechpatreon>>
+<<speech "style" "''Cherry:''">>
+Well, I brought you another eager girl! Although, you know... *speaks louder* she's not really a girl yet.<</speech>>
+All the women on the salon turn around and laugh to themselves. You blush with embarrasment.
+
+<<speech "You" "''$name:''">>
+Um... yeah, that's me... haha...<</speech>>
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+Yeah...<</speechpatreon>>
+You really wanted to start well with Lorei, but it seems to you that she is a bit too sharp, just like those girl bullies in the movie "Mean Girls". She gives you a obviously fake smile that only makes you feel worse.
+
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+It won't be easy, but me and my girls are professionals, so we'll try. So tell me Cherry, what is your plan?<</speechpatreon>>
+Cherry whispers something in Lorei's ear.
+
+<<speech "style" "''Cherry:''">>
+...and that would be all for now, but "she"'ll definitely need more. Time will come.<</speech>>
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+You mean basically a "free pass"? Is someone going to pay for all that time?<</speechpatreon>>
+Lorei looks at you seriously, but Cherry takes on her.
+
+<<speech "style" "''Cherry:''">>
+Don't worry, Captain told me that the company has taken care of it all already.<</speech>>
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+Hm... well, ok then. Shall we start?<</speechpatreon>>
+<<speech "style" "''Cherry:''">>
+Sure! We're going to "cutify" you even further!<</speech>>
+Cherry takes your hand, smiling at you and occasionally pinching your cheeks. You don't know what to expect, but you're somehow curious about what exactly is going to happen here.
+
+[[Follow them into a room|Treatments]]
+
+
+
+
+\\<<elseif $bsalon is 0>><div class="center"><img src="places2/beautysalon.jpg" width="60%"></div>
+The women in the salon keep staring at you, which makes you feel somewhere in-between embarrasment and excitement.
+
+<div class="center"><div class="row3"><div class="column3">[[Hair, Nails & Body|Beauty Salon][$bsalon to 1]]</div><div class="column3">[[Talk to Lorei|Beauty Salon][$bsalon to 3]]</div><div class="column3">[[Makeup & Perfumes|Beauty Salon][$bsalon to 2]]</div></div>
+[[Return|Spa]]</div>
+
+
+\\<<elseif $bsalon is 1>><div class="center"><img src="passengers/lola2.jpg" width="50%"></div>
+<<speech "nobody" "''Lola:''">>
+Hi, little guy. Sorry, I can't give you any treatments without Lorei's confirmation, but I can give you some stuff... for a price:<</speech>>
+<div class="red"><span class="imgpop shampoo"><<nobr>><<if $points gte 150>><<click "Strawberry Shampoo (basic)" Salonevents>><<set $points to $points - 150>><<set $salonevent to 7>><<set $shampoo to true>><</click>><<else>>Strawberry Shampoo (basic)<</if>><</nobr>></span><span class="fade-in-out"><span class="green"><font size="-1"> → Lasts forever</font></span></span></div>Cost: 150 points per unit.
+
+<div class="red"><span class="imgpop conditioner"><<nobr>><<if $points gte 250>><<click "Conditioner (growth stimulator)" Salonevents>><<set $points to $points - 250>><<set $salonevent to 8>><<set $conditioner to true>><</click>><<else>>Conditioner (growth stimulator)<</if>><</nobr>></span><span class="fade-in-out"><span class="green"><font size="-1"> → Lasts forever</font></span></span></div>Cost: 250 points per unit.
+
+<span class="imgpop polish">SQ Nail Polish™️</span> <font size="-1"><div class="red">(No use for it until further updates)</div></font>Cost: 100 points per unit.
+
+<span class="imgpop extensions">Cheap Nail Extensions</span> <font size="-1"><div class="red">(No use for it until further updates)</div></font>Cost: 150 points per unit.
+
+<span class="imgpop lightsun">50+ Sunscreen</span> <font size="-1"><div class="red">(No use for it until further updates)</div></font>Cost: 100 points per unit.
+
+<span class="imgpop darksun">Tanning Lotion</span> <font size="-1"><div class="red">(No use for it until further updates)</div></font>Cost: 200 points per unit.
+
+//Buy items to improve your appearance and continue your feminization.//
+
+[[Return|Beauty Salon][$bsalon to 0]]
+
+
+
+
+
+
+
+
+\\<<elseif $bsalon is 2>><div class="center"><img src="passengers/lola2.jpg" width="50%"></div>
+<<speech "lola" "''Lola:''">>
+Hi, little guy. Sorry, I can't give you any treatments without Lorei's confirmation, but I can give you some stuff... for a price:<</speech>>
+<div class="red"><span class="imgpop sample"><<nobr>><<if $points gte 100>><<click "Makeup Test Sample Kit (only 1 use)" Salonevents>><<set $points to $points - 100>><<set $salonevent to 1>><<set $sample to $sample +1>><</click>><<else>>Makeup Test Sample Kit (only 1 use)<</if>><</nobr>></span></div>Cost: 100 points per unit.
+
+<div class="red"><span class="imgpop skincare"><<nobr>><<if $points gte 600>><<click "Skincare & Face Makeup Kit (moisturizer, primer, eye cream, foundation, concealer, blusher, highlighter)" Salonevents>><<set $points to $points - 600>><<set $salonevent to 2>><<set $skincare to true>><</click>><<else>>Skincare & Face Makeup Kit (moisturizer, primer, eye cream, foundation, concealer, blusher, highlighter)<</if>><</nobr>></span><span class="fade-in-out"><span class="green"><font size="-1"> → Lasts forever</font></span></span></div>Cost: 600 points per unit.
+
+<div class="red"><span class="imgpop eyemakeup"><<nobr>><<if $points gte 600>><<click "Eyes & Lips Makeup Kit (eyeshadow, eyeliner, mascara, lipstick, pencil, gloss)" Salonevents>><<set $points to $points - 600>><<set $salonevent to 3>><<set $eyemakeup to true>><</click>><<else>>Eyes & Lips Makeup Kit (eyeshadow, eyeliner, mascara, lipstick, pencil, gloss)<</if>><</nobr>></span><span class="fade-in-out"><span class="green"><font size="-1"> → Lasts forever</font></span></span></div>Cost: 600 points per unit.
+
+<span class="imgpop lipstick">SQ Lipstick™️</span> <font size="-1"><div class="red">(No use for it until further updates)</div></font>Cost: 150 points per unit.
+
+<span class="imgpop panther">Panther Scent (attracts ♀︎)</span> <font size="-1"><div class="red">(No use for it until further updates)</div></font>Cost: 400 points per unit.
+
+<span class="imgpop nymph">Nymph Scent (attracts ♂︎)</span> <font size="-1"><div class="red">(No use for it until further updates)</div></font>Cost: 400 points per unit.
+
+//Buy makeup items to improve your appearance and continue your feminization.//
+
+[[Return|Beauty Salon][$bsalon to 0]]
+
+
+
+
+\\<<elseif $bsalon is 3>><<if ndef $talklorei>><div class="center"><img src="passengers/lorei2.jpg" width="50%"></div>
+<<speechpatreon "lorei" "">><span class="imgpop lorei">''Lorei'':</span>
+Oh, hey! Anything I can do for you today?<</speechpatreon>>
+
+<div class="center"><<linkreplace "Professional makeup (Basic, Classy, Slutty, Total Bimbo)">>Unlocked after completing "Makeup Initiation" with Penny (0.5.5)<</linkreplace>>
+<<linkreplace "Laser depilation">>LOCKED<</linkreplace>>
+<<linkreplace "Artificial tanning">>LOCKED<</linkreplace>>
+<<linkreplace "Anal bleaching">>LOCKED<</linkreplace>>
+<<linkreplace "Tatoo & Piercing">>LOCKED<</linkreplace>>
+<<linkreplace "Surgical enhancements">>LOCKED<</linkreplace>>
+
+//(These treatments will unlock as you progress in the game)//</div>
+[[Return|Beauty Salon][$bsalon to 0]]
+
+
+\\<<elseif $talklorei is 0>><</if>><</if>><<audio "menus" stop>>
+
+

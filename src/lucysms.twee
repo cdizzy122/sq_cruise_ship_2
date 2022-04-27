@@ -1,0 +1,28 @@
+:: lucysms [phone] {"position":"415,2425","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<if ndef $mutefx>><<audio "ding" play>><<else>><</if>><<speech "lucy" "''Lucy'':">>
+Hi there, sweetie! How's that toy working out for you?<</speech>>
+<<speech "You" "''$name'':">>
+Um... fine... (God, does everyone has my number now?)<</speech>>
+<<speech "lucy" "''Lucy'':">>
+Huh, just fine? I need more info... does it feel tight, loose, smooth, maybe too pointy?<</speech>>
+<<speech "You" "''$name'':">>
+(At least I'm not having this conversation in person...) Well, I don't know how to explain... I still feel it when I think about it, but when I've had it for a few minutes, it's like if wasn't even there...<</speech>>
+<<speech "lucy" "''Lucy'':">>
+Sounds good enough, compared to the last time I saw you. I couldn't even get my pinky in that pink little hole of yours!<</speech>>
+<<speech "You" "''$name'':">>
+... ... Yeah, I-I remember...<</speech>>
+<<speech "lucy" "''Lucy'':">>
+Hm... I think I may need to give it a look. C'mon, send a pic.<</speech>>
+<<speech "You" "''$name'':">>
+What? Oh, no, really, it's fine as it is...<</speech>>
+<<speech "lucy" "''Lucy'':">>
+Hehe... I knew you were a shy girl...<</speech>>
+<span class="onomatopeya">*KNOCK KNOCK KNOCK*</span>
+
+<<speech "You" "''$name'':">>
+(What the fuck? Is that my door?)<</speech>>
+You stand up from your bed and get close to the door. You put your ear in the door and hear a quiet "buzzz". After just 5 seconds of hesitation, you open it.
+
+[[... ...|extraclass]]
+
+

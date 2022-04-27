@@ -1,0 +1,12 @@
+:: Poker [textback] {"position":"2503,908","size":"100,100"}
+<<removeclass "html">><<addclass "html" "velvet">><div class="center"><img src="places2/poker.jpg" width="80%"></div>
+<<speech "nobody" "''Poker dealer:''">>
+Hi miss, would you like to play?<</speech>>
+<div class="center">Costs ''5 points'' (Difficulty: Easy)
+
+Prize: ''10 points'' (37,5%).
+
+[[Aha|Yes]]
+[[No|Casino]]</div><<nobr>><<if $gameDate.getHours() is 0 or $gameDate.getHours() lt 8>><<goto [[Dreams][$dreams to random (1,2)]>><<else>><</if>><</nobr>><<audio "menus" stop>><<if ndef $mute>><<audio "casino" unmute>><<else>><</if>>
+
+

@@ -1,0 +1,4 @@
+:: try {"position":"787,2116","size":"100,100"}
+[[Quest Log]]<<set $cap1 to "Active">><<set $port to "Active">><<set $tara1 to "Active">><<set $tasktara1 to "1/2 done">><<set $dress1 to "Active">><<set $headphones to "Active">>
+
+

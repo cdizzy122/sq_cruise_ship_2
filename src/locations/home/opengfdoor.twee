@@ -1,0 +1,8 @@
+:: open gfdoor [textback] {"position":"787,3","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><<if ndef $mutefx>><<audio "door" play>><<else>><</if>><div class="center"><img src="places1/gfroomin.jpg" width="70%">
+
+<div class="row4"><div class="column4">[[Closet]]</div><div class="column4"><<if $laptopquest is "1/2 done">><span class="Phone">[[Laptop]]</span><<else>>[[Laptop]]<</if>></div><div class="column4">[[Underwear drawer]]</div><div class="column4">[[Junk drawer]]</div></div>
+
+[[Hall]]</div><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

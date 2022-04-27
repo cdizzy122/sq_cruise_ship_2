@@ -1,0 +1,23 @@
+:: Supermarket [textback] {"position":"4446,746","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<if ndef $supermarket>><img src="dockings/nudist/supermarket.jpg" width="100%">
+
+Here's the supermarket. You really can't think of anything you need right now.
+
+<<click "Go back to the bus" placesback>><<audio "spanish" mute>><<set $places to random(1,4)>><</click>><<elseif $supermarket is 0>><img src="dockings/nudist/supermarket.jpg" width="100%">
+
+Here's the supermarket. You really can't think of anything you need right now.
+
+<<click "Go back to the bus" placesback>><<audio "spanish" mute>><<set $places to random(1,4)>><</click>>
+
+
+\\<<elseif $supermarket is 1>><img src="dockings/nudist/supermarket.jpg" width="100%">
+
+Here's the supermarket. 
+
+<<linkreplace "Get in">><img src="dockings/nudist/supermarket1.jpg" width="50%">
+
+Pleople are looking funny at you. Well it's normal after all, you are naked with a chastity cage.
+
+<<nobr>><<click "Buy sun cream" Supermarket>><<set $sunscreen to true>><<set $lifeguard to 1, $supermarket to 0>><</click>><</nobr>><</linkreplace>><</if>><<if ndef $mute>><<audio "spanish" unmute>><<else>><</if>><<audio "menus" stop>><<audio "sea" mute>>
+
+

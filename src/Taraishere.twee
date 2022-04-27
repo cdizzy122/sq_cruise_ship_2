@@ -1,0 +1,53 @@
+:: Tara is here [textback] {"position":"2209,296","size":"100,100"}
+<<removeclass "html">><<addclass "html" "library">><<if ndef $taralibrary>>Tara is here, reading a book on a table.
+
+<<speech "tara" "''Tara:''">>
+Well, look who it is...
+<</speech>>
+<<speech "You" "''$name:''">>
+Um...hi. I'm sorry about last night-
+<</speech>>
+<<speech "tara" "''Tara:''">>
+I haven't been so disappointed in a long time. You better be sorry.
+<</speech>>
+<<speech "You" "''$name:''">>
+... ... *You lower your head, not knowing what to say*
+<</speech>>
+<<speech "tara" "''Tara:''">>
+Hahaha... it's alright, honey. I'm not that mad anymore. But you have to make it up to me. I don't think you understand how much women are repressed in their sexuality. *Closes the book* I think Captain's idea is going to help you understand. I will be monitoring your lessons and reviewing your performance every friday. We'll start with a simple assignment:
+
+''Take a selfie with a girl.''<</speech>>
+<<speech "You" "''$name:''">>
+Uhh... ok.<</speech>>
+<<speech "tara" "''Tara:''">>
+BUT! She has to choose between ''kissing you'' or ''laughing at you''.
+Send it to me by the end of the day or you will fail. And you don't want to make me mad, do you?<</speech>>
+<<speech "You" "''$name:''">>
+No...<</speech>>
+<<speech "tara" "''Tara:''">>
+Good. *smiles* Bye-bye!<</speech>>
+ ''*Quest Available at QuestLog*''
+ 
+[[Return|Library][$tasktara1 to "Active", $badge to $badge +1]]<<set $talktara to false>><<set $tara1 to "Finished">><<elseif $taralibrary is 0>>You show the picture to Tara.
+
+<<speech "tara" "''Tara:''">>
+Hahahahaha! That must have been so embarrasing! It must be hard knowing that all the girls in this boat know about your little friend, huh?<</speech>>
+You don't know what to answer. In part you are embarrased, but you also feel sorry because you couldn't satisfy Tara...
+
+<<speech "You" "''$name:''">>
+Yes...<</speech>>
+<<speech "tara" "''Tara:''">>
+Well, I hope you now understand that it's not that I hate you. It's just that I wasn't expecting you to be like...this *She puts her pinkie up* But I actually think you are kinda cute, I mean, I liked you last night at the party.<</speech>>
+<<speech "You" "''$name:''">>
+... *your cheeks are getting red* ...<</speech>>
+<<speech "tara" "''Tara:''">>
+Don't be shy, $name. I promise that if you behave well, I will be nice to you. Just like best friends... with benefits. What do you say?<</speech>>
+That's the nicest thing anyone has told you since you got on this ship.
+
+<<speech "You" "''$name:''">>
+Um... ok.<</speech>>
+<<speech "tara" "''Tara:''">>
+Nice. *smiles* I'm glad we got to fix things. You can go now. Oh! And, $name... has anyone ever told you you've got a very nice ass for a guy? *winks*<</speech>>
+[[Return|Library][$tasktara1 to "Finished", $inpool to 1, $dreams to 3]]<</if>><<set $gym to 0>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

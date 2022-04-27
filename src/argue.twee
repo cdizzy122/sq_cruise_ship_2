@@ -1,0 +1,201 @@
+:: argue [textback] {"position":"687,211","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><<if ndef $arguestart>>As you close the folder you stare into the wall for a whole minute. Your mind is racing through all your thoughts, none of which are positive.
+
+<<speech "You" "''$name'':">>
+(Why the fuck is she storing all those pictures?? I would even understand the other folders, but this one? It's all fucking nudes and shit!)<</speech>>
+It's been a day filled with emotions and you are not sure how to approach this. It's clear that you have to bring this up urgently, but then you'd have to admit that you have hacked her laptop...
+
+<span class="Phone">[[Bring this up right now!|argue][$arguestart to 0]]</span>
+[[Bring it up carefully|argue][$arguestart to 1]]
+
+
+
+
+\\<<elseif $arguestart is 0>><<set $discussion to "hard">>You storm out of the room and approach her at the living room.
+
+<<speech "gfd" "''$gfname'':">>
+So? What did he say?<</speech>>
+<<speech "You" "''$name'':">>
+He's checking. But I actually want to talk about your exes and your secret pictures. I've seen that stuff. Why the fuck are you storing those pictures? I'm your boyfriend now!<</speech>>
+You can see her expression change drastically.
+
+<div class="center"><img src="gf/remyangry.jpg" width="50%"></div>
+<<speech "gfd" "''$gfname'':">>
+Wait what?! Did you get into my laptop while I was working? Are you for real?<</speech>>
+<<speech "You" "''$name'':">>
+Well yeah, because apparently I can't trust you! I totally knew you were hiding something from me!<</speech>>
+<<speech "gfd" "''$gfname'':">>
+What?! I've always been honest with you, I just keep some photos of my trips and life, because, you know, I had a life before knowing you!<</speech>>
+<<speech "You" "''$name'':">>
+I'm not saying anything about those selfies or places you've visited, it's the nudes of your exes the ones that are disturbing. Why do you keep those?!<</speech>>
+<<speech "gfd" "''$gfname'':">>
+Because it's MY LIFE. Those guys are part of my memories and I want to keep those picture. End of the conversation. But now, can we talk about how disturbing it is for you to be roaming around my stuff and hacking my shit?!<</speech>>
+You stand back a second, thinking to yourself that she might actually be right about that.
+
+<<speech "You" "''$name'':">>
+Well... I didn't want to, this is the only time I've done that, but I felt that there was something I didn't know. You've been so distant these last weeks and-<</speech>>
+<<speech "gfd" "''$gfname'':">>
+Well yeah, I've been busy WORKING MY ASS OFF!!<</speech>>
+You are starting to feel bad about this.
+
+<<speech "gfd" "''$gfname'':">>
+I wake up early, work late and... all for what? For this? And you were thinking about going to a Cruise Ship?! You are clearly crazy and need some help, $name, but I'm not the one who's going to give it to you.<</speech>>
+<<speech "You" "''$name'':">>
+... ... Wait, no, all I wanted is to know why we were so distant and... I'm very confused about what I've seen on your laptop...<</speech>>
+<<speech "gfd" "''$gfname'':">>
+Oh for God's sake! You are always confused, $name! What are you confused about now, huh? You're confused by the fact that I've had ex-boyfriends? That I've travelled? That I've had FUN?? Do you even know what that is?<</speech>>
+<<speech "You" "''$name'':">>
+No, yes, I do understand... but...<</speech>>
+She looks at you with a mix of anger and sadness.
+
+<<speech "gfd" "''$gfname'':">>
+Listen, $name. I really think we're going to need some time apart, even if we're now living at the same house. I can't go through this while I'm so busy at work.<</speech>>
+<<speech "You" "''$name'':">>
+... ...<</speech>>
+You feel your eyes filling up with tears, but try to man-up and contain them.
+
+<<speech "You" "''$name'':">>
+But what about the porn searches? Monster dicks? You wouldn't even let me watch porn by myself... And I don't even recall you telling me about all those places you've visited or those exes... I just did this because you're not telling me enough, I want to know about you...<</speech>>
+<<speech "gfd" "''$gfname'':">>
+Stalking is not the way, and you know it. And about the cruise, even if $fname manages to move the date I don't think it's a good idea that we go together.<</speech>>
+You see her retreating to the guest room.
+
+<<linkreplace "Keep arguing" "argue">><<speech "You" "''$name'':">>
+But this is not fair, and you know it! I've just desperately tried to make this work! But it is you who is acting sketchy.<</speech>>
+$gfname walks back to you, even angrier.
+
+<<speech "gfd" "''$gfname'':">>
+Okay, do you really want to know why I keep those pictures, huh? Yeah? *pokes your shoulder* It's because I have good memories with my exes! Did you notice any significant different between them and you? I bet you did! *pokes your shoulder again*<</speech>>
+<<speech "You" "''$name'':">>
+I-I- don't know what you mean...<</speech>> 
+<<speech "gfd" "''$gfname'':">>
+Of course you do!<</speech>>
+She wraps your forearm with her hand.
+
+<div class="center"><span class="noborder"><img src="gf/wrist.png" width="50%"></span></div>
+<<speech "gfd" "''$gfname'':">>
+This! <span class="imgpop wristpop"><a class="specialeffects">This is how I used to roll!</a></span><</speech>>
+You open your eyes in shock as she lets your arm go and slams the room behind her. Red with anger and frustration, you take a look at your forearm.
+
+<<speech "You" "''$name'':">>
+(What the fuck... This bitch...) Well, if you had a problem you could've said something!<</speech>>
+You hear her locking the door as you walk away to yours.
+<</linkreplace>>
+[[Let her go...|argue][$arguestart to 2]]
+
+
+
+
+
+
+
+\\<<elseif $arguestart is 1>><<set $discussion to "light">><<if ndef $mutefx>><<audio "what" play>><<else>><</if>>You step into the living room and sit next to $gfname while you put on a weird smile.
+
+<<speech "gfd" "''$gfname'':">>
+ *smiles* Hey... what did $fname tell you about that?<</speech>>
+<<speech "You" "''$name'':">>
+Oh, uhm... he's not sure so he's going to check. He'll call back.<</speech>>
+<<speech "gfd" "''$gfname'':">>
+Okay...<</speech>>
+She puts her arm around you.
+
+<<speech "gfd" "''$gfname'':">>
+You look kind of gloomy, did I milk you too hard...? *puckers up*<</speech>>
+As she approaches your cheek, you turn to the other side slightly, evading her kiss. She puts her arm down, a bit annoyed.
+
+<<speech "gfd" "''$gfname'':">>
+What's wrong now?<</speech>>
+You both were having a good day for the first time in weeks, and you know you're about to ruin it. But you can't just ignore it...
+
+<<speech "You" "''$name'':">>
+I just... (I can't admit that I hacked her laptop) I just wanted to surprise you with the cruise and not I'm kind of mad...<</speech>>
+<<speech "gfd" "''$gfname'':">>
+Aw... that's cute, but just forget about it...<</speech>>
+She leans in again to kiss your cheek, but you evade her.
+
+<<speech "gfd" "''$gfname'':">>
+Okay, no. Something's wrong.<</speech>>
+She stands up.
+
+<<speech "You" "''$name'':">>
+No, I'm just wondering... why did you start being so distant?<</speech>>
+<<speech "gfd" "''$gfname'':">>
+I'm not distant.<</speech>>
+<<speech "You" "''$name'':">>
+Well, you're happy today, but it's been a very cold 2 weeks...<</speech>>
+<<speech "gfd" "''$gfname'':">>
+This again? *sigh* I was just busy, $name.<</speech>>
+You stare at each other. You are starting to have doubts about bringing this subject up, you could ruin it...
+
+<<linkreplace "Are you happy?">><<speech "You" "''$name'':">>
+... $gfname, are you happy?<</speech>>
+<<speech "gfd" "''$gfname'':">>
+Yeah... sure I am...<</speech>>
+That didn't sound very convincing at all.
+
+<<speech "You" "''$name'':">>
+I just feel like there's something else... about us.<</speech>>
+<<speech "gfd" "''$gfname'':">>
+ *rolls her eyes* Ooookay $name, whatever... Why do you always need the drama?<</speech>>
+<<speech "You" "''$name'':">>
+It's not drama-<</speech>>
+<<speech "gfd" "''$gfname'':">>
+Yes, you're very dramatic. You're acting as if I was cheating on you or something.<</speech>>
+<<speech "You" "''$name'':">>
+... ... *look to the floor*<</speech>>
+<<speech "gfd" "''$gfname'':">>
+OMG... You do think I am cheating on you?!<</speech>>
+<<if $gfdildo is true>><<speech "You" "''$name'':">>
+Not cheating, it's just that... I found that dildo in your drawer and I started thinking-<</speech>>
+<<speech "gfd" "''$gfname'':">>
+Wait, you what?? You are not supposed to be checking my stuff! That's fucked up.<</speech>>
+Now you're going all out.
+
+<<speech "You" "''$name'':">>
+Yeah, well, it's also fucked up that I can't watch porn on my TV whenever I want but you can!<</speech>><<else>><<speech "You" "''$name'':">>
+Not cheating but... (I can't hold it anymore) It's also fucked up that I can't watch porn on my TV whenever I want but you can!<</speech>><</if>>
+
+<<speech "gfd" "''$gfname'':">>
+I never watch porn on the TV by myself, what do you mean?<</speech>>
+<<speech "You" "''$name'':">>
+Or on your laptop, right? *sarcastically*<</speech>>
+<<speech "gfd" "''$gfname'':">>
+ *gasp* What? Wait, did you actually check my laptop?<</speech>>
+<<speech "You" "''$name'':">>
+I mean... I had to.<</speech>>
+<<speech "gfd" "''$gfname'':">>
+What do you mean you had to? No, you didn't.<</speech>>
+You are inmediately ashamed of your behaviour and decide to try and make thing better.
+
+<<speech "You" "''$name'':">>
+Okay, I'm really sorry. I shouldn't have checked your laptop. Really, I'm sorry.<</speech>>
+<<speech "gfd" "''$gfname'':">>
+... But why?<</speech>>
+<<speech "You" "''$name'':">>
+I guess I was concerned...<</speech>>
+$gfname takes a few steps towards you.
+
+<<speech "gfd" "''$gfname'':">>
+What were you concerned about?<</speech>>
+<<speech "You" "''$name'':">>
+I don't know... we were just falling apart, and-<</speech>>
+<<speech "gfd" "''$gfname'':">>
+And you thought searching in my stuff would solve it? No $name, this is not good at all. I don't even think I can trust you anymore... I think we need some time apart.<</speech>>
+She stands up and walks into the guest room.
+
+<<speech "You" "''$name'':">>
+I didn't even get a proper explanation...<</speech>>
+[[Go to your room|argue][$arguestart to 2]]<</linkreplace>>
+
+
+
+
+
+\\<<elseif $arguestart is 2>><div class="center"><img src="places1/bedroomhome.jpg" width="50%"></div>
+As you get to your room you inmediately start thinking about how bad this went.
+
+<<speech "You" "''$name'':">>
+(Fuck...)<</speech>>
+[[bzzzzzzzzt|Callfriend2]]<</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>><<audio "dreams" volume 0.2 play>>
+
+

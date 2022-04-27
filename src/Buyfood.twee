@@ -1,0 +1,73 @@
+:: Buyfood [textback] {"position":"1512,866","size":"100,100"}
+<<removeclass "html">><<addclass "html" "bar">><<if $proteinquest is "Active">><img src="passengers/bartender.jpg" width="40%">
+
+<<speech "nobody" "''Bartender:''">>
+Hi, would you like to spend your points on a treat?<</speech>>
+<<speech "You" "''$name:''">>
+Well, maybe not right now. I actually wanted to ask you about some "protein shakes"?<</speech>>
+<<speech "nobody" "''Bartender:''">>
+Oh, I see... haha... yeah, "protein shakes", the ones you shakeshakeshake and the protein squirts right all over you, huh?<</speech>>
+<<speech "You" "''$name:''">>
+What? No! I don't mean... sperm...<</speech>>
+<<speech "nobody" "''Bartender:''">>
+Oooh, talking about tasty stuff, I have new awesome drinks that I bet you would like... too bad I can only serve them at the lounge...<</speech>>
+<<speech "You" "''$name:''">>
+(This woman can't even mantain a normal conversation...) Okay... *sigh* But what about the actual Protein Shakes that I'm asking for?<</speech>>
+<<speech "nobody" "''Bartender:''">>
+Well, you're not the only one on this ship asking for "outside stuff", so let's say that I may be able to help you, but...<</speech>>
+<<speech "You" "''$name:''">>
+(There's always a "but"...) But what?<</speech>>
+<<speech "nobody" "''Bartender:''">>
+Let's just say that you'll owe me one, okay? I need some brave girl that will try my newest stuff. Would you be up for it?<</speech>>
+<<speech "You" "''$name:''">>
+Do I have another option?<</speech>>
+<<speech "nobody" "''Bartender:''">>
+Heh... not really. I'll let you know when I need you, my little guinea pig... Meanwhile, here are your protein shakes.<</speech>>
+<div class="center"><img src="quest13/shakes.jpg" width="41%">
+
+ *''Protein Shakes'' were added to Inventory*</div>
+[[Return|Bar][$quest13 to 0, $proteinquest to "1/2 done", $proteinshakes to true, $badge to $badge +1]]
+
+
+\\<<else>><<if $shopitems is 1>><img src="passengers/bartender.jpg" width="40%">
+
+<<speech "nobody" "''Bartender:''">>
+Hi, would you like to spend your points on a treat? Here's what I have today:<</speech>>
+<div class="red"><<nobr>><<if $points gte 100>><<click "Chocolate Candies" Shopevents>><<set $points to $points - 100>><<set $shopevent to 1>><<set $chococandies to $chococandies +1>><</click>><<else>>Chocolate Candies<</if>><</nobr>></div>Cost: 100 points per unit.
+
+<div class="red"><<nobr>><<if $points gte 80>><<click "Pink Lollipop" Shopevents>><<set $points to $points - 80>><<set $shopevent to 2>><<set $pinklolli to $pinklolli +1>><</click>><<else>>Pink Lollipop<</if>><</nobr>></div>Cost: 80 points per unit.
+
+<div class="red"><<nobr>><<if $points gte 100>><<click "Just a coffee..." Shopevents>><<set $points to $points - 100>><<set $shopevent to 6>><<set $coffeee to $coffeee +1>><</click>><<else>>Just a coffee...<</if>><</nobr>></div>Cost: 100 points per unit.
+
+<div class="red"><<nobr>><<if $points gte 250>><<click "Black Chocolate" Shopevents>><<set $points to $points - 250>><<set $shopevent to 3>><<set $chocodick to $chocodick +1>><</click>><<else>>Black Chocolate<</if>><</nobr>></div>Cost: 250 points per unit.
+
+<div class="red"><<nobr>><<if $points gte 400>><<click "Penis Mug" Shopevents>><<set $points to $points - 400>><<set $shopevent to 4>><<set $penismug to $penismug +1>><</click>><<else>>Penis Mug<</if>><</nobr>></div>Cost: 400 points per unit.
+
+<div class="red"><<nobr>><<if $points gte 300>><<click "Special Yogurt" Shopevents>><<set $points to $points - 300>><<set $shopevent to 5>><<set $specialyogurt to $specialyogurt +1>><</click>><<else>>Special Yogurt<</if>><</nobr>></div>Cost: 300 points per unit.
+
+//Eating an item changes some stats. They may also be used as part of some main quests.//
+
+[[Return|Bar]]<<set $pinklolli to 0>><<set $chococandies to 0>><<set $chocodick to 0>><<set $penismug to 0>><<set $specialyogurt to 0>><<set $shopitems to 2>>
+
+
+\\<<elseif $shopitems is 2>><img src="passengers/bartender.jpg" width="40%">
+
+<<speech "nobody" "''Bartender:''">>
+Hi, would you like to spend your points on a treat? Here's what I have today:<</speech>>
+<div class="red"><<nobr>><<if $points gte 100>><<click "Chocolate Candies" Shopevents>><<set $points to $points - 100>><<set $shopevent to 1>><<set $chococandies to $chococandies +1>><</click>><<else>>Chocolate Candies<</if>><</nobr>></div>Cost: 100 points per unit.
+
+<div class="red"><<nobr>><<if $points gte 80>><<click "Pink Lollipop" Shopevents>><<set $points to $points - 80>><<set $shopevent to 2>><<set $pinklolli to $pinklolli +1>><</click>><<else>>Pink Lollipop<</if>><</nobr>></div>Cost: 80 points per unit.
+
+<div class="red"><<nobr>><<if $points gte 100>><<click "Just a coffee..." Shopevents>><<set $points to $points - 100>><<set $shopevent to 6>><<set $coffeee to $coffeee +1>><</click>><<else>>Just a coffee...<</if>><</nobr>></div>Cost: 100 points per unit.
+
+<div class="red"><<nobr>><<if $points gte 250>><<click "Black Chocolate" Shopevents>><<set $points to $points - 250>><<set $shopevent to 3>><<set $chocodick to $chocodick +1>><</click>><<else>>Black Chocolate<</if>><</nobr>></div>Cost: 250 points per unit.
+
+<div class="red"><<nobr>><<if $points gte 400>><<click "Penis Mug" Shopevents>><<set $points to $points - 400>><<set $shopevent to 4>><<set $penismug to $penismug +1>><</click>><<else>>Penis Mug<</if>><</nobr>></div>Cost: 400 points per unit.
+
+<div class="red"><<nobr>><<if $points gte 300>><<click "Special Yogurt" Shopevents>><<set $points to $points - 300>><<set $shopevent to 5>><<set $specialyogurt to $specialyogurt +1>><</click>><<else>>Special Yogurt<</if>><</nobr>></div>Cost: 300 points per unit.
+
+//Eating an item changes some stats. They may also be used as part of some main quests.//
+
+[[Return|Bar]]<</if>><</if>><<audio "menus" stop>>
+
+

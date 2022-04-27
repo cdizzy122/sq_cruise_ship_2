@@ -1,0 +1,254 @@
+:: Caught [noborder textback] {"position":"3001,245","size":"100,100"}
+<<if $caught is 1>>Suddenly, you feel how somebody grabs your arm from behind.
+
+<span class="shudder"><span class="onomatopeya">WHAM</span></span>
+
+<div class="center"><img src="classes/style/cherryhall.jpg" width="27%"></div>
+<<speech "style" "''Cherry:''">>
+Hey, $name! Why are you here? *smiles*<</speech>>
+<<speech "You" "''$name'':">>
+Hi... Well, I was just going to...<</speech>>
+<<speech "style" "''Cherry:''">>
+You're going to class, I hope, for your own good... *smiles*<</speech>>
+You thought that nobody would notice if you just arrived a little late to your next class, but, apparently, every one of your teacher is "watching over your learning"...
+
+<<speech "You" "''$name'':">>
+Oh, um... yeah, I was going to...<</speech>>
+<<speech "style" "''Cherry:''">>
+Cool! I'll take you there then!<</speech>>
+Cherry puts her arm around your shoulders and leads you to your class.
+
+<<nobr>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<</if>>
+
+<<else>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Mon">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Anatomy Class👩🏻‍🏫->Anatomyclass]]<<elseif $gameDate.getHours() is 18>>[[Anatomy Class👩🏻‍🏫->Anatomyclass]]<<elseif $gameDate.getHours() is 19>>[[Anatomy Class👩🏻‍🏫->Anatomyclass]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Tue">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Styling Class👗->Stylingclass]]<<elseif $gameDate.getHours() is 18>>[[Styling Class👗->Stylingclass]]<<elseif $gameDate.getHours() is 19>>[[Styling Class👗->Stylingclass]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Wed">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Psychologist👩🏾‍💼->Therapist]]<<elseif $gameDate.getHours() is 18>>[[Psychologist👩🏾‍💼->Therapist]]<<elseif $gameDate.getHours() is 19>>[[Psychologist👩🏾‍💼->Therapist]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Thu">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Sailing Class💃🏼->Sail]]<<elseif $gameDate.getHours() is 18>>[[Sailing Class💃🏼->Sail]]<<elseif $gameDate.getHours() is 19>>[[Sailing Class💃🏼->Sail]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Fri">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Health Center👩🏻‍🔬->Health Center]]<<elseif $gameDate.getHours() is 18>>[[Health Center👩🏻‍🔬->Health Center]]<<elseif $gameDate.getHours() is 19>>[[Health Center👩🏻‍🔬->Health Center]]<</if>><</if>><</if>><</nobr>>
+
+
+
+
+<<elseif $caught is 2>>Suddenly you feel a tight grip on your left shoulder.
+
+<span class="shudder"><span class="onomatopeya">WHAM</span></span>
+
+<<speech "You" "''$name'':">>
+Ow!<</speech>>
+<div class="center"><img src="cap/caphall2.jpg" width="36%"></div>
+<<speech "cap" "''Captain T:''">>
+Ahahaha, don't be such a pussy.<</speech>>
+<<speech "You" "''$name'':">>
+(Fuck, she's strong when she wants to...)<</speech>>
+<<speech "cap" "''Captain T:''">>
+So, are you going to tell me why you are not in class? Or do you expect me to ask you politely?<</speech>>
+<<speech "You" "''$name'':">>
+(Wouldn't hurt...) I just... didn't feel too well...<</speech>>
+<<speech "cap" "''Captain T:''">>
+I didn't ask that, are you deaf little boy? Why are you not in class? You know what? I don't even care! I'll take ''50 points'' from you! That'll teach you!<</speech>><<set $points to $points -50>>
+
+<div class="center"><span class="notless">''POINTS -50''</span></div>
+<<speech "You" "''$name'':">>
+(Aw, shit...)<</speech>>
+Captain roughly takes your arm and drags you around until you arrive to your class.
+
+<<speech "cap" "''Captain T:''">>
+And I better not find you out of class again! Don't try me!<</speech>>
+<<nobr>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<</if>>
+
+<<else>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Mon">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Anatomy Class👩🏻‍🏫->Anatomyclass]]<<elseif $gameDate.getHours() is 18>>[[Anatomy Class👩🏻‍🏫->Anatomyclass]]<<elseif $gameDate.getHours() is 19>>[[Anatomy Class👩🏻‍🏫->Anatomyclass]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Tue">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Styling Class👗->Stylingclass]]<<elseif $gameDate.getHours() is 18>>[[Styling Class👗->Stylingclass]]<<elseif $gameDate.getHours() is 19>>[[Styling Class👗->Stylingclass]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Wed">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Psychologist👩🏾‍💼->Therapist]]<<elseif $gameDate.getHours() is 18>>[[Psychologist👩🏾‍💼->Therapist]]<<elseif $gameDate.getHours() is 19>>[[Psychologist👩🏾‍💼->Therapist]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Thu">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Sailing Class💃🏼->Sail]]<<elseif $gameDate.getHours() is 18>>[[Sailing Class💃🏼->Sail]]<<elseif $gameDate.getHours() is 19>>[[Sailing Class💃🏼->Sail]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Fri">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Health Center👩🏻‍🔬->Health Center]]<<elseif $gameDate.getHours() is 18>>[[Health Center👩🏻‍🔬->Health Center]]<<elseif $gameDate.getHours() is 19>>[[Health Center👩🏻‍🔬->Health Center]]<</if>><</if>><</if>><</nobr>>
+
+
+
+
+<<elseif $caught is 3>>Suddenly, you notice a warm caress on your buttocks.
+
+<div class="center"><img src="tara/tarahall.jpg" width="50%"></div>
+<<speech "tara" "''Tara:''">>
+Oh, hi sweetcheeks... *rub, rub*<</speech>>
+The way Tara keeps patting your ass in public is making you increasingly uncomfortable, especially with her condescending smile.
+
+<<speech "You" "''$name'':">>
+ *whisper* Hi...<</speech>>
+<<speech "tara" "''Tara:''">>
+Why are you whispering, honey? Are you embarrased? *excited smile*<</speech>>
+You can tell by the way she's looking at you that she likes making you uncomfortable.
+
+<<speech "You" "''$name'':">>
+Uhm... no, it's just that here's too many people.<</speech>>
+<<speech "tara" "''Tara:''">>
+Oh, yeah, by the way, why are you here? Shouldn't you be in class right now?<</speech>>
+<<speech "You" "''$name'':">>
+Well, yeah, I-I- was just going to-<</speech>>
+<<speech "tara" "''Tara:''">>
+ *giggle* Listen baby, I think it's very cute that you think you can fool me, but I'm afraid you can't... thank god I was here shopping now, Holli is too busy to be watching this deck on Captain's behalf...<</speech>>
+Without letting you say anything else, she gives you a kiss and pats your ass, re-directing your steps to the next class.
+
+<<speech "tara" "''Tara:''">>
+There you go. Next time, try to arrive on time. I am a good girl, but I bet Captain would be angry if she sees you out of class... Bye-bye! *throws kiss and walks away*<</speech>>
+<<speech "You" "''$name'':">>
+*smile* (She's so sweet...)<</speech>>
+You find yourself looking at her ass leaving.
+
+<div class="center"><img src="tara/taraass.gif" width="50%"></div>
+<<nobr>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<</if>>
+
+<<else>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Mon">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Anatomy Class👩🏻‍🏫->Anatomyclass]]<<elseif $gameDate.getHours() is 18>>[[Anatomy Class👩🏻‍🏫->Anatomyclass]]<<elseif $gameDate.getHours() is 19>>[[Anatomy Class👩🏻‍🏫->Anatomyclass]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Tue">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Styling Class👗->Stylingclass]]<<elseif $gameDate.getHours() is 18>>[[Styling Class👗->Stylingclass]]<<elseif $gameDate.getHours() is 19>>[[Styling Class👗->Stylingclass]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Wed">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Psychologist👩🏾‍💼->Therapist]]<<elseif $gameDate.getHours() is 18>>[[Psychologist👩🏾‍💼->Therapist]]<<elseif $gameDate.getHours() is 19>>[[Psychologist👩🏾‍💼->Therapist]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Thu">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Sailing Class💃🏼->Sail]]<<elseif $gameDate.getHours() is 18>>[[Sailing Class💃🏼->Sail]]<<elseif $gameDate.getHours() is 19>>[[Sailing Class💃🏼->Sail]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Fri">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Health Center👩🏻‍🔬->Health Center]]<<elseif $gameDate.getHours() is 18>>[[Health Center👩🏻‍🔬->Health Center]]<<elseif $gameDate.getHours() is 19>>[[Health Center👩🏻‍🔬->Health Center]]<</if>><</if>><</if>><</nobr>>
+
+
+
+
+
+<<elseif $caught is 4>>
+
+<<elseif $caught is 5>>
+
+
+
+
+
+
+<<elseif $caught is 6>>Suddenly a strong pair of hands turn you around.
+
+<span class="shudder"><span class="onomatopeya">WHAM</span></span>
+
+<div class="center"><img src="classes/rae/raehall2.jpg" width="50%"></div>
+Her two muscled arms are holding you down so hard that your knees start trembling a little bit.
+
+<<speech "rae" "''Rae:''">>
+Hey little bitch, what are you doing at MY deck at this time, all by yourself?<</speech>>
+Rae is not letting you go, and you can see her face lighting up with the thought of punishing you.
+
+<<speech "You" "''$name:''">>
+W-What's wrong...?<</speech>>
+<<speech "rae" "''Rae:''">>
+You should be in class right now. I guess I'll have to tell Captain...<</speech>>
+<<speech "You" "''$name:''">>
+No please! I was just... going to class...<</speech>>
+<<speech "rae" "''Rae:''">>
+Yeah, right! Hahaha You lying pussy! I'll tell you what, how about I take you to class myself and we skip the Captain part? It'll be my way though... *devilish smile*<</speech>>
+<<speech "You" "''$name:''">>
+(I think that could be even worse...) Um...<</speech>>
+<<speech "rae" "''Rae:''">>
+C'mon then little gurl! *spank, spank*<</speech>>
+<<speech "You" "''$name:''">>
+Ow!ow!<</speech>>
+Rae spanks you all the way to your next class.
+
+<<nobr>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<</if>>
+
+<<else>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Mon">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Anatomy Class👩🏻‍🏫->Anatomyclass]]<<elseif $gameDate.getHours() is 18>>[[Anatomy Class👩🏻‍🏫->Anatomyclass]]<<elseif $gameDate.getHours() is 19>>[[Anatomy Class👩🏻‍🏫->Anatomyclass]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Tue">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Styling Class👗->Stylingclass]]<<elseif $gameDate.getHours() is 18>>[[Styling Class👗->Stylingclass]]<<elseif $gameDate.getHours() is 19>>[[Styling Class👗->Stylingclass]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Wed">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Psychologist👩🏾‍💼->Therapist]]<<elseif $gameDate.getHours() is 18>>[[Psychologist👩🏾‍💼->Therapist]]<<elseif $gameDate.getHours() is 19>>[[Psychologist👩🏾‍💼->Therapist]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Thu">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Sailing Class💃🏼->Sail]]<<elseif $gameDate.getHours() is 18>>[[Sailing Class💃🏼->Sail]]<<elseif $gameDate.getHours() is 19>>[[Sailing Class💃🏼->Sail]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Fri">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Health Center👩🏻‍🔬->Health Center]]<<elseif $gameDate.getHours() is 18>>[[Health Center👩🏻‍🔬->Health Center]]<<elseif $gameDate.getHours() is 19>>[[Health Center👩🏻‍🔬->Health Center]]<</if>><</if>><</if>><</nobr>>
+
+
+
+
+
+<<elseif $caught is 7>><<speech "foster" "''Foster:''">>
+Well, well, well...<</speech>>
+<div class="center"><img src="classes/anatomy/foster2.jpg" width="40%"></div>
+<<speech "You" "''$name:''">>
+(Oh, shit... wow...)<</speech>>
+At first you are scared to hear her, but you are also surprised by how hot she is.
+
+<<speech "foster" "''Foster:''">>
+So... going late to class, are we? I don't like unreliable dudes, or... gurls.<</speech>>
+Ms. Foster walks toward you and points at you with her finger.
+
+<<speech "foster" "''Foster:''">>
+You better learn from this one. I'll be taking ''50 points'' out. Come on, let me scort you to your class.<</speech>><<set $points to $points -50>>
+
+<div class="center"><span class="notless">''POINTS -50''</span></div>
+Ms. Foster guides you through the ship, with a disappointed look on her face.
+
+<<speech "You" "''$name:''">>
+I-I'm sorry...<</speech>>
+<<speech "foster" "''Foster:''">>
+Huh? This is not about validation, $name. You should be more involved in your learning process. But don't worry, I'll make sure it's that way.<</speech>>
+<<speech "You" "''$name:''">>
+(God... so strict...)<</speech>>
+Ms. Foster lets you go once you arrive to the next class.
+
+<<nobr>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<</if>>
+
+<<else>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Mon">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Anatomy Class👩🏻‍🏫->Anatomyclass]]<<elseif $gameDate.getHours() is 18>>[[Anatomy Class👩🏻‍🏫->Anatomyclass]]<<elseif $gameDate.getHours() is 19>>[[Anatomy Class👩🏻‍🏫->Anatomyclass]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Tue">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Styling Class👗->Stylingclass]]<<elseif $gameDate.getHours() is 18>>[[Styling Class👗->Stylingclass]]<<elseif $gameDate.getHours() is 19>>[[Styling Class👗->Stylingclass]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Wed">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Psychologist👩🏾‍💼->Therapist]]<<elseif $gameDate.getHours() is 18>>[[Psychologist👩🏾‍💼->Therapist]]<<elseif $gameDate.getHours() is 19>>[[Psychologist👩🏾‍💼->Therapist]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Thu">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Sailing Class💃🏼->Sail]]<<elseif $gameDate.getHours() is 18>>[[Sailing Class💃🏼->Sail]]<<elseif $gameDate.getHours() is 19>>[[Sailing Class💃🏼->Sail]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Fri">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Health Center👩🏻‍🔬->Health Center]]<<elseif $gameDate.getHours() is 18>>[[Health Center👩🏻‍🔬->Health Center]]<<elseif $gameDate.getHours() is 19>>[[Health Center👩🏻‍🔬->Health Center]]<</if>><</if>><</if>><</nobr>>
+
+
+
+
+
+<<elseif $caught is 8>><<speech "Anastasia" "''Anastasia:''">>
+Heeeeyy!<</speech>>
+<div class="center"><img src="classes/dance/anastasiahall.gif" width="32%"></div>
+You turn around and see Anastasia running to you from the other side of the deck. Her jumping breasts catch the attention of some of the women there. You notice how she is not slowing down as she gets closer, and eventually she crashes against you, hugging your head with her boobs.
+
+<span class="shudder"><span class="onomatopeya">WHAM</span></span>
+
+<<speech "Anastasia" "''Anastasia:''">>
+Whooops! Sorry! Hahahaha<</speech>>
+<<speech "You" "''$name:''">>
+ *sigh* Don't worry...<</speech>>
+<<speech "Anastasia" "''Anastasia:''">>
+I just got excited to see you! *smiles*<</speech>>
+<<speech "You" "''$name:''">>
+Oh, uhm... thanks! (Nice to know someone is...)<</speech>>
+<<speech "Anastasia" "''Anastasia:''">>
+But $name, you know if Captain T finds you here she will be angry... You don't want her to take points from you, do you?<</speech>>
+<<speech "You" "''$name:''">>
+Well, no, but-<</speech>>
+<<speech "Anastasia" "''Anastasia:''">>
+I understand, $name... I remember some of my training... *wonders*<</speech>>
+<<speech "You" "''$name:''">>
+(She was trained as well...?)<</speech>>
+<<speech "Anastasia" "''Anastasia:''">>
+Anyway, I think you should go back to your class! I wouldn't be anything without my training! C'mon, let's go!<</speech>>
+Anastasia eagerly grabs your hand and takes you to class. She is quite talkative, so the walk is fun at least...
+
+<<nobr>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<</if>>
+
+<<else>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Mon">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Anatomy Class👩🏻‍🏫->Anatomyclass]]<<elseif $gameDate.getHours() is 18>>[[Anatomy Class👩🏻‍🏫->Anatomyclass]]<<elseif $gameDate.getHours() is 19>>[[Anatomy Class👩🏻‍🏫->Anatomyclass]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Tue">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Styling Class👗->Stylingclass]]<<elseif $gameDate.getHours() is 18>>[[Styling Class👗->Stylingclass]]<<elseif $gameDate.getHours() is 19>>[[Styling Class👗->Stylingclass]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Wed">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Psychologist👩🏾‍💼->Therapist]]<<elseif $gameDate.getHours() is 18>>[[Psychologist👩🏾‍💼->Therapist]]<<elseif $gameDate.getHours() is 19>>[[Psychologist👩🏾‍💼->Therapist]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Thu">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Sailing Class💃🏼->Sail]]<<elseif $gameDate.getHours() is 18>>[[Sailing Class💃🏼->Sail]]<<elseif $gameDate.getHours() is 19>>[[Sailing Class💃🏼->Sail]]<</if>>
+
+<<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Fri">><<if $gameDate.getHours() is 9 and $gameDate.getMinutes() gte 15>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 10>>[[Gym🏋🏼‍♀️|Gym]]<<elseif $gameDate.getHours() is 11 and $gameDate.getMinutes() gte 15>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 12>>[[Captain's office👩🏻‍✈️|Captainoffice]]<<elseif $gameDate.getHours() is 13 and $gameDate.getMinutes() gte 15>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 14>>[[Cooking Class👩🏻‍🍳->Cookingclass]]<<elseif $gameDate.getHours() is 17 and $gameDate.getMinutes() gte 15>>[[Health Center👩🏻‍🔬->Health Center]]<<elseif $gameDate.getHours() is 18>>[[Health Center👩🏻‍🔬->Health Center]]<<elseif $gameDate.getHours() is 19>>[[Health Center👩🏻‍🔬->Health Center]]<</if>><</if>><</if>><</nobr>><</if>>
+
+

@@ -1,0 +1,11 @@
+:: Shower [textback] {"position":"566,348","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><<if $alreadyshowered is false>>Don't need one. You already showered last night.
+
+<img src="stuff/noshower.gif" width="60%"><<else>><<if ndef $mutefx>><<audio "shower" play>><<else>><</if>>You enter the shower like a zombie, mostly worried about going alone into a cruise. You also think of a thousand ways of telling $gfname that you are sorry. After 15 minutes under the running water you wash your body and hair.
+
+<img src="stuff/showersad.gif" width="80%">
+You're clean.<<set $alreadyshowered to true>><</if>>
+
+<<click "Bathroom" "Bathroom">><<audio "shower" stop>><</click>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

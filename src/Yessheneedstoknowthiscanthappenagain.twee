@@ -1,0 +1,9 @@
+:: Yes, she needs to know this can´t happen again [textback] {"position":"391,527","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><div class="center"><img src="places1/kimk.gif" width="80%"></div>
+<<speech "You" "''$name:''">>
+$gfname... You´ve blocked some channels on the TV! In my own home?! <span class="imgpop icbydt"><a class="specialeffects">I can´t believe you´ve done this...</a></span> *hang up*<</speech>> 
+That didn´t sound as intimidating as you had in mind... mainly because you now realize she wouldn´t have known that you´d tried to watch porn if you hadn´t left that message.
+
+[[Watch TV]]<<if ndef $mute>><<else>><</if>><<audio "menus" stop>>
+
+

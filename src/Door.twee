@@ -1,0 +1,23 @@
+:: Door [textback] {"position":"2162,1860","size":"100,100"}
+<<if ndef $mutefx>><<audio "locked" play>><<else>><</if>><<if ndef $tararoom>><img src="tara/taradooropen.jpg" width="40%">
+
+<<set $seconds to 5>>\
+HURRY! --> <span id="countdown">$seconds</span>\
+<<silently>>
+	<<repeat 1s>>
+		<<set $seconds to $seconds - 1>>
+		<<if $seconds gt 0>>
+			<<replace "#countdown">>$seconds<</replace>>
+		<<else>>
+			<<replace "#countdown">>She's coming<</replace>>
+			/* do something useful here */
+			<<stop>>
+		<</if>>
+	<</repeat>>
+<</silently>>
+<<timed 5s>><<goto "The bathroom door opens">><</timed>>
+The door doesn't open, it's closed! And she has the key with her.
+
+<<return>><<elseif $tararoom is 0>><</if>><<audio "menus" stop>><<if ndef $mute>><<audio "myroom" unmute>><<else>><</if>>
+
+

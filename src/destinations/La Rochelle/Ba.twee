@@ -1,0 +1,21 @@
+:: Ba [textback] {"position":"4232,1393","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<if ndef $mutefx>><<audio "robot1" volume 0.2 play loop>><<else>><</if>><<audio "french" mute>><div class="center"><img src="dockings/bar.jpg" width="80%"></div>
+<<if ndef $autobar>>As you enter the bar, the only puppets you can see are a white old man drinking on a table and a black barman with a bottle. After waiting a few seconds, the old man starts moving the glass to his mouth. When he notices that there's no liquid he makes a sound:
+
+<<speech "nobody" "''Old man:''">>
+Owww... c'mon, give me a drink! give me a drink!<</speech>>
+Then he lowers his arm and starts the loop again. The black man has the bottle, but he doesn't move at all.
+
+<<speech "You" "''$name:''">>
+Hm... maybe something's not working.<</speech>>
+[[Check the cable]]
+
+<<click "Return" "Automaton museum">><<audio "robot1" stop>><</click>><<elseif $autobar is 0>>There's the old man and the black barman again. Seems like the loop has started all over again:
+
+<<speech "nobody" "''Old man:''">>
+Owww... c'mon, give me a drink! give me a drink!<</speech>>
+<<speech "You" "''$name:''">>
+I'm out of here. Not standing this guy again.<</speech>>
+<<click "Return" "Automaton museum">><<audio "robot1" stop>><</click>><</if>><<addmins 1>><<audio "menus" stop>><<if ndef $mute>><<audio "mystery" unmute>><<else>><</if>>
+
+

@@ -1,0 +1,283 @@
+:: BFFF [textback] {"position":"3484,524","size":"100,100"}
+<<if ndef $bfff>><<removeclass "html">><<addclass "html" "street">><<audio "rome" stop>><<audio "out" volume 0 fadeto 0.8 loop>><div class="center"><img src="dockings/rome/piazza.jpg" width="60%"></div>
+You arrive to what seems to be a confluence of several streets. You look around to see the name of the place and finally see that, apparently, you are in the right piazza.
+
+<<speech "You" "''$name'':">>
+(Well, that was easy! I guess Lelu should be waiting around here...)<</speech>>
+After just walking around the piazza for a few minutes, you notice a woman with sunglasses that could be Lelu. You approach her.
+
+<<speech "You" "''$name'':">>
+Um, excuse me, are you Lelu?<</speech>>
+<<speech "lelu" "''Lelu'':">>
+Huh? *takes her sunglasses off* Oh, are you... $name?<</speech>>
+You can notice how Lelu is looking you back and forth, and she's not impressed. You can even feel how her first reaction is to walk away, but just as she told you on Tinder: she was trying to fight her own likings in men. So she tries to be nice, you can feel how much of an effort she's making.
+
+<<speech "You" "''$name'':">>
+Yeah, I am... nice to meet you! *you extend your hand*<</speech>>
+<<speech "lelu" "''Lelu'':">>
+ *forces a smile* Yeah... *shakes your hand* You are nothing like I expected...<</speech>>
+<<speech "You" "''$name'':">>
+(Jeez... she could at least try to have a good time and changer her behaviour...) ... ...<</speech>>
+<<speech "lelu" "''Lelu'':">>
+You are the shy type, huh? At least you are not a jerk like my last boyfriends... well, boyfriends, one-night-stands, etc... Where are my manners! Please, have a seat.<</speech>>
+You sit down with her while she asks the waiter for something you don't quite catch.
+
+<<speech "You" "''$name'':">>
+What was that?<</speech>>
+<<speech "lelu" "''Lelu'':">>
+Oh, nothing, just asking for some cocktails for us.<</speech>>
+After a very awkward silence, both cocktails arrive to the table. As soon as they arrive, Lelu takes a big gulp. You also take a sip.
+
+<<speech "You" "''$name'':">>
+So, you don't sound like you have an accent. Where are you from?<</speech>>
+<<speech "lelu" "''Lelu'':">>
+I'm actually from California, but I came here on a college trip and fell in love, so I had to stay.<</speech>>
+<<speech "You" "''$name'':">>
+Aw... that's cute.<</speech>>
+<<speech "lelu" "''Lelu'':">>
+Yeah... but the guy cheated on me a few times within the first year. *takes another gulp*<</speech>>
+<<speech "You" "''$name'':">>
+... ... Wow, what a jerk... You came here for him and he does... that?<</speech>>
+<<speech "lelu" "''Lelu'':">>
+Heh, I know... At first I felt horrible. He was also my first, in all ways. But you know, if there's something this city teaches you is that it's not worth wasting your life with any guy.<</speech>>
+<<speech "You" "''$name'':">>
+So, you've already given up on love? ... I don't want to be mean, but you know not all guys are like that, right?<</speech>>
+<<speech "lelu" "''Lelu'':">>
+Yeah, well... hm, I guess not...<</speech>>
+Lelu loudly ask the waiter for another round of cocktails, even if you are not done with yours. You see you are being left behind, so you try and keep up with her, drinking what's left in your glass in a few seconds. Just as you finish it, the waiter retrieves the empty ones and brings the other ones.
+
+<<speech "lelu" "''Lelu'':">>
+Hey, let's do a toast!<</speech>>
+<<speech "You" "''$name'':">>
+Alright...<</speech>>
+You raise your glass.
+
+<<speech "You" "''$name'':">>
+What to...?<</speech>>
+<<speech "lelu" "''Lelu'':">>
+For the possibilities, love and life! *wink*<</speech>>
+You smile and toast. This last wink gives you hope.
+
+<<speech "You" "''$name'':">>
+(Seems like she liked what I said! Maybe I'm going to be lucky, OMG...)<</speech>>
+After the toast, you both start talking more and more fluently. What started as a not very interesting conversation, slowly turns into a warm and playful flirting. You know that half of it might be the alcohol, but you can't help but feel confident and happy with the development of the date. After two more rounds of cocktails, Lelu asks for the check.
+
+<<speech "lelu" "''Lelu'':">>
+Hey, the check! Ooops, just said it in English! Hahahahaha<</speech>>
+<<speech "You" "''$name'':">>
+Hahahaha But look, the guy understood you!<</speech>>
+The waiter comes with the check, and as soon as you start worrying about money, Lelu takes the check by herself.
+
+<<speech "lelu" "''Lelu'':">>
+Don't even insist, honey! You are a sweetheart, this one is on me!<</speech>>
+Then, you both stand up, and Lelu guides you through the streets of Rome.
+
+<div class="center"><img src="dockings/rome/streetnight.jpg" width="60%"></div>
+You can see how the sky is getting dark, so it might be a bit late, maybe evening already... After a lot of laughing and flirting, Lelu stops when you arrive to a small fountain.
+
+<<speech "lelu" "''Lelu'':">>
+You know, they say if you drop a coin here while with a loved one next to you, a wish might come true...<</speech>>
+<<speech "You" "''$name'':">>
+... ...<</speech>>
+<<speech "lelu" "''Lelu'':">>
+... ...<</speech>>
+After 5 seconds of holding the laughter, you both burst out.
+
+<span class="onomatopeya">HAHAHAHAHA</span>
+
+<<speech "lelu" "''Lelu'':">>
+Yeah, right! Hahaha These fuckin' italians, I swear they are too much! But hey, how about we throw one, but not for a wish, or love or all that bullshit...<</speech>>
+<<speech "You" "''$name'':">>
+Then what for?<</speech>>
+<<speech "lelu" "''Lelu'':">>
+I don't know... you choose yours, I'll choose mine!<</speech>>
+Lelu brings out a coin and holds your hand. Then you close your eyes and stay still for a few seconds. You can't help but think of wishing for something. You've been so confused these last weeks... so much weird stuff happening. You could wish for $gfname to love you back, for Tara to treat you well and not only as a "project", for the fucking cruise to be over... but another thing comes to mind:
+
+<<speech "You" "''$name'':">>
+(I wish I find <span class="pink">who I really am... Who I want to be...</span>)<</speech>>
+Lelu throws the coin.
+
+<<speech "lelu" "''Lelu'':">>
+Shh, don't say out loud... *with a sarcastic tone* Otherwise it won't become real... Hahahaha<</speech>>
+<<speech "You" "''$name'':">>
+Hahaha...<</speech>>
+After this small moment, you continue walking around, until Lelu stops again, this time in front of a door of a small, 3 story building.
+
+<<speech "lelu" "''Lelu'':">>
+So, here we are. This is my place. You can come in. *smiles*<</speech>>
+<<linkreplace "... ...">><<removeclass "html">><<addclass "html" "home">><<if ndef $mutefx>><<audio "slam" play>><<else>><</if>><<audio "out" stop>>You smile back and get inside with her. After walking to the second story, she opens another door and closes it behind you.
+
+<<speech "lelu" "''Lelu'':">>
+And this, is home... make yourself comfortable, I'm going to do so...<</speech>>
+Lely walks into the bathroom and closes the door.
+
+Still affected by the cocktails, you wonder around with a vain smile on your face. You finally decide to go to the living room, which seems to be the most spacious room in the house.
+
+<div class="center"><img src="dockings/rome/livingroom.jpg" width="60%"></div>
+<<speech "You" "''$name'':">>
+(Is that a dildo? I don't even know why am I surprised anymore... hahaha)<</speech>>
+<<speech "lelu" "''Lelu'':">>
+Hey, cutie...<</speech>>
+<<speech "You" "''$name'':">>
+Wow...<</speech>>
+<<speech "lelu" "''Lelu'':">>
+I'm going to my room, I feel like I need some love... I'm hoping someone helps me...<</speech>>
+Before going to her room, she grabs your hand and swallows your index finger while directly looking at you.
+
+<<speech "You" "''$name'':">>
+(Damn...)<</speech>>
+Your free penis is very lazy, but it seems to be having a response to the stimulus, slowly getting a bit hard. You want to dive right in that pussy and eat her out, but you know once she sees your tiny clit, she's going to be disappointed. Who knows if she will even want anything with you then... Alcohol takes its toll on you and a thought comes to mind.
+
+[[Build up confidence|BFFF][$bfff to 0]]
+[[Feel ashamed|BFFF][$bfff to 1]]<</linkreplace>>
+
+
+
+\\<<elseif $bfff is 0>><<audio "myroom" volume 0.2 play loop>><<speech "You" "''$name'':">>
+(What the hell! I shouldn't be ashamed of myself, I have to play with what I got... I can eat a mean pussy! You better get yourself ready, girl...)<</speech>>
+You walk to her room and close the door. Lelu is already taking her bra off, revealing her perfect breasts. Naked, she stands up and puts some sexy sax music on. She gets on the bed and on her knees.
+
+<<speech "lelu" "''Lelu'':">>
+Come on... come closer, you little shy boy...<</speech>>
+You get closer, with a happy smile on your face. All your worries are suddenly masked by the alcohol and the nice sight. Once you are at reach, Lelu starts unbuckling your pants while licking her lips hungrily.
+
+<div class="center"><img src="dockings/rome/small1.jpg" width="50%"></div>
+<<speech "lelu" "''Lelu'':">>
+Huh?<</speech>>
+You try to keep your alcohol-based confidence even with her disappointed look on her face.
+
+<<speech "You" "''$name'':">>
+Don't worry... *caress her face* I assure you I am going to make you cum...<</speech>>
+<<speech "lelu" "''Lelu'':">>
+Hah! Not with this, baby, no...<</speech>>
+<<speech "You" "''$name'':">>
+No, with this! *you take your tongue out and move it side to side*<</speech>>
+Lelu looks at you with a strange look on her face. You know she's probably curious as well.
+
+<<speech "lelu" "''Lelu'':">>
+Well, you better know how to work that tongue... because this *flicks your tiny penis* is not coming near me...<</speech>>
+If you hadn't been in a ship full of dominant size queens, you would've been hurt by her comment. But instead, you are only turned on more in a weird way, and you also feel like she's challenging your oral skills.
+
+Unamused, Lelu lays on her back and opens her legs.
+
+<div class="center"><img src="dockings/rome/lelupussy1.jpg" width="30%"></div>
+<<speech "lelu" "''Lelu'':">>
+Alright then, go to town.<</speech>>
+You lick your lips and prepare to eat her out. It's not like you to act manly, so you don't grab her legs or anything like that. You just get closer and use your mouth and hands. After the first lick, you pick her taste, which is sweeter than Captain's, but definitely more bitter than Tara's.
+
+Instead of feeling like sex, you do it like if you were playing a game. You know which steps to follow, and so you do them one by one. At first you only tease her pussy lips, heating her up and ocasionaly passing by her clitoris.
+
+<<speech "lelu" "''Lelu'':">>
+Hm... damn...<</speech>>
+<<speech "You" "''$name'':">>
+(There we go...)<</speech>>
+When her pussy had gotten a bit lubed up, you take your fingers and, at the same time, penetrate her with them to try and open her up to find her G-spot. Before you know it, your whole mouth is has been covered in pussy juice, and you're feasting on it, constantly rolling your eyes.
+
+<<speech "lelu" "''Lelu'':">>
+Hmm... hahaha you almost like like you are enjoying that more than me... Fuck, yeah! Suck on that clit! Ah...<</speech>>
+<<speech "You" "''$name'':">>
+Hmm... *slurp, slurp*<</speech>>
+Lelu is taking her time to get to the orgasm, and your tongue is getting numb, but you are confused, since Captain T usually takes about the same, or even more time. It takes you a while to understand that the cocktails probably have something to do.
+
+You try to put the turbo on, poking her G-Spot and sucking on her clit as fast as you can.
+
+<<speech "lelu" "''Lelu'':">>
+Ah! Fuck! Ah, ah! Fuckin' eager bitch! You wanna get that juice?! Ah! Ah! AHHH!<</speech>>
+<span class="">SQUIRT</span>
+
+<<speech "You" "''$name'':">>
+Aaahg!! *cough, cough* *glug, glug*<</speech>>
+Suddenly, the biggest stream of squirt you've ever seen comes out of your date's pussy. Your neck hurts due to the pressure her legs were doing on it. Although she's still squirming and cumming, her grip hasn't ceased, and your face continues to be close to her pulsating pussy.
+
+<div class="center"><img src="dockings/rome/lelupussy2.jpg" width="50%"></div>
+...
+
+...
+
+...
+
+<<speech "lelu" "''Lelu'':">>
+Oh... my... god... another one, baby. I want another one...<</speech>>
+You comply and, with a smile on your face, start licking it again. But as soon as you have the first taste, you feel how your tongue is basically dead for now. You try to perform as well as you can, but it's simply not possible.
+
+<<speech "lelu" "''Lelu'':">>
+Huh? What's wrong? Do what you were doing before...<</speech>>
+You try again to activate your tongue, but it only makes worse. Your tongue has transformed into a limp piece of meat.
+
+<<speech "lelu" "''Lelu'':">>
+God, first time I see a guy have erectile dysfunction on two different places... Get off me, boy.<</speech>>
+She finally let's your head go and make you stand out of the bed. You take a look to your now impotent shriveled clit. All your confidence had been swiped out in just a second. The alcohol has now taken its toll on your tongue and dick, but also, you now feel a lot more sober, making the whole situation less fun...
+
+<<speech "You" "''$name'':">>
+Oh, um... I'm sorry, my tongue is just-<</speech>>
+<<speech "lelu" "''Lelu'':">>
+Look I don't fucking care about your shitty tongue, or your baby dick or your soy-boy's body! I'm done with all this "find love" bullshit. I just need a "real man" to fuck the shit out of me! You should be ashamed of yourself, pathetic prick! Get out of my house!<</speech>>
+Lelu lets you just enough time to put your clothes back on and then she pushes you out, slamming the door after you. All you can hear after that is the "bzzzzzt" sound of a vibrator and her soft moans.
+
+<<speech "You" "''$name'':">>
+(But... I gave her an orgasm... What does she want from me?)<</speech>>
+You know that question answers itself. You KNOW what she meant by "real man". And you KNOW you are not one. You are lacking the muscles, the height, the cock, the testosterone, etc, etc, etc...
+
+Feeling sad, you decide it's best to go back to the port and just get out of this city. You take one of the taxis in a street nearby.
+
+[[Go back to port|Cinema in piazza][$cinema to 2]]
+
+
+
+\\<<elseif $bfff is 1>><<audio "myroom" volume 0.2 play loop>><<speech "You" "''$name'':">>
+(Oh, no... if this is going to get like it got with Tara the first day of the cruise, it's going to be very embarrasing...)<</speech>>
+You just wish you were at least a bit more drunk, so this wouldn't seem such a big a deal. You know this is now inevitable, or maybe not...
+
+You walk to her room and leave the door ajar. Just as you come in, she takes her bra off, revealing her beautiful breasts. Naked, she stands up and puts some sexy sax music on. She gets on the bed and on her knees.
+
+<<speech "lelu" "''Lelu'':">>
+Come on... come closer, you little shy boy...<</speech>>
+You get closer, with a worried look on your face. Even if the sight is wonderful, your little dick has only gotten a bit plump, not even hard. Once you are at reach, Lelu starts unbuckling your pants while licking her lips hungrily. Your eyes open wide.
+
+<<speech "You" "''$name'':">>
+No, wait! Hehe... I think this would be hotter with the... light off?<</speech>>
+<<speech "lelu" "''Lelu'':">>
+Oh... I thought only italians were that romantic... Alright then!<</speech>>
+Lelu then presses a switch and the lights turn off. Without further ado, she starts kissing you, which startles you for a second. But then you are able to catch up and play the game right.
+
+<<speech "lelu" "''Lelu'':">>
+Hmm... You make me wet... (I can't believe it...) So you are one of those that want to whip the dick by themselves, huh? You do it, then! But come on, baby... don't make me wait...<</speech>>
+Lelu takes you by the shoulders and pulls you closer to her. Then she lays down completely and exposes her cunt, putting a leg on each side of you. The smell, next to her touch, makes you smile and forget about the worries for a second.
+
+<<speech "lelu" "''Lelu'':">>
+Come on baby, love me...<</speech>>
+You take your underwear and pull it down. The moment you feel your penis, you are surprised in a good way by the quality of the erection, which is not 100%, but more like a 65% hard. But that's the most erect you've been in a while, so it feels good enough. With your dick out, and her pussy in front of you, you can't help your insticts and stick it in.
+
+<<speech "You" "''$name'':">>
+Ah... *slowly thrust*<</speech>>
+You start making love to Lelu. After a few pumps, you notice she hasn't said a thing since you started. Suddenly, she turns the lights on.
+
+<span class="onomatopeya">FLASH</span>
+
+Your eyes hurt a little by the sudden flash, but you keep on pumping, just a tad slower. You can see Lelu stretching her neck, trying to take a look at the scene.
+
+<div class="center"><img src="dockings/rome/sph1.gif" width="50%"></div>
+<<speech "lelu" "''Lelu'':">>
+Is... "it" in...?<</speech>>
+You feel like you could cry right now.
+
+<<speech "You" "''$name'':">>
+... yes...<</speech>>
+Your pumping is getting slower and slower as you see her disappointment growing. Also, you can feel your cronic impotence kicking in again, as your semi-hard dicklet turns into a even smaller worm.
+
+<div class="center"><img src="dockings/rome/sph2.gif" width="50%"></div>
+Just that gesture is enough to make you stop completely. You don't even need to take your dick out, it just sadly falls off. Now that Lelu can clearly see your penis, her face says it all.
+
+<<speech "lelu" "''Lelu'':">>
+Why even bother, sissy? Get your things and get the fuck out. And get that fucking nub away from me. Gross...<</speech>>
+Lelu lets you just enough time to put your clothes back on and then she pushes you out, slamming the door after you. All you can hear after that is the "bzzzzzt" sound of a vibrator and her soft moans.
+
+<<speech "You" "''$name'':">>
+(... ... I knew this was going to happen... Does no woman love me?)<</speech>>
+You know that question answers itself. You know that if you look for a traditional relationship you will never be able to satisfy a woman. You've already learned that on that ship, but somehow, the date, the cocktails and the magic of the city made you forget. Now that reality has stomped you again, you can feel the weight on you.
+
+Feeling sad, you decide it's best to go back to the port and just get out of this city. You take one of the taxis in a street nearby.
+
+[[Go back to port|Cinema in piazza][$cinema to 2]]<</if>><<audio "menus" stop>>
+
+

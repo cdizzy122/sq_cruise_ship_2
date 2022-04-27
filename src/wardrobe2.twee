@@ -1,0 +1,23 @@
+:: wardrobe 2 [textback] {"position":"2169,1972","size":"100,100"}
+<<if ndef $mutefx>><<audio "wardrobe1" play>><<else>><</if>><<if ndef $tararoom>><img src="tara/wardrobe.jpg" width="60%">
+
+<<set $seconds to 5>>\
+HURRY! --> <span id="countdown">$seconds</span>\
+<<silently>>
+	<<repeat 1s>>
+		<<set $seconds to $seconds - 1>>
+		<<if $seconds gt 0>>
+			<<replace "#countdown">>$seconds<</replace>>
+		<<else>>
+			<<replace "#countdown">>She's coming<</replace>>
+			/* do something useful here */
+			<<stop>>
+		<</if>>
+	<</repeat>>
+<</silently>><<timed 5s>><<goto "The bathroom door opens">><</timed>>
+
+You look around but don't find anything interesting.
+
+<<return>><<elseif $tararoom is 0>><</if>><<audio "menus" stop>><<if ndef $mute>><<audio "myroom" unmute>><<else>><</if>>
+
+

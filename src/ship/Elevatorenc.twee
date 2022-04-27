@@ -1,0 +1,79 @@
+:: Elevatorenc [textback] {"position":"1291,588","size":"100,100"}
+<<if ndef $elevatorenc>>As you get to the elevators, you see a woman waiting for the next one.
+
+<div class="center"><img src="encounters/elevator1.jpg" width="50%"></div>
+She turns her head around, giving you a condescending look.
+
+<<speech "nobody" "Classy woman">>
+Are you coming in too?<</speech>>
+<<speech "You" "''$name'':">>
+Yeah...<</speech>>
+After a few moments, the elevator doors open and both of you get in.
+
+ *BING*
+
+Silence takes over the elevator, making the trip a bit awkward.
+
+<<speech "You" "''$name'':">>
+(I think I actually prefer this awkwardness instead of the usual humiliation)<</speech>>
+<<speech "nobody" "Classy woman">>
+Having a hard time? Don't let them get in your head.<</speech>>
+<<speech "You" "''$name'':">>
+Huh?<</speech>>
+<<speech "nobody" "Classy woman">>
+That's not a proper word, young one. I was just saying that you shouldn't let these women get in your head.<</speech>>
+A weird silence fills the elevator. Just as you are about to answer, she speaks again.
+
+<<speech "nobody" "Classy woman">>
+You remind me of my husband, you know? Of course, he's older, but you are both... sweethearts.<</speech>>
+<<speech "You" "''$name'':">>
+Aw... thank you.<</speech>>
+
+ *BING*
+
+<<speech "nobody" "Classy woman">>
+Take care, honey. *she rubs your shoulder and smiles*<</speech>>
+Her unexpected compliment puts a smile on your face.
+
+<<speech "You" "''$name'':">>
+(Wait... why is she here if she has a sweetheart for a husband...?)<</speech>>
+[[Elevator↕️][$elevatorenc to 0]]
+
+
+
+\\<<elseif $elevatorenc is 0>>As you get to the elevators, you see a woman waiting for the next one.
+
+<div class="center"><img src="encounters/elevator1.jpg" width="50%"></div>
+She turns her head around, giving you a condescending look.
+
+<<speech "nobody" "Classy woman">>
+Are you coming in too?<</speech>>
+<<speech "You" "''$name'':">>
+Yeah...<</speech>>
+After a few moments, the elevator doors open and both of you get in.
+
+ *BING*
+ 
+<<speech "nobody" "Classy woman">>
+So, how are you doing?<</speech>>
+<<speech "You" "''$name'':">>
+Rough... hey, the last time you told me you had a husband. No disrespect, but-<</speech>>
+<div class="center"><img src="encounters/elevator2.jpg" width="50%"></div>
+<<speech "nobody" "Classy woman">>
+You are being too nosey, young man!<</speech>>
+She turns around the other way, giving you a perfect view of her bum.
+
+<<speech "You" "''$name'':">>
+(Hm... nice...)<</speech>>
+Suddenly you notice her glaring at you in the reflection of the mirror. You quickly try to pretend you weren't looking, but it's too obvious she's caught you. 
+
+ *BING*
+
+The woman walks out, taking one last look at you.
+
+[[Elevator↕️]]
+
+
+\\<<elseif $elevatorenc is 1>><</if>><<audio "ship" mute>><<audio "elevator" volume 0.3 play loop>><<audio "menus" stop>><<audio "deck9" stop>><<if ndef $mute>><<audio "elevator" unmute>><<else>><</if>>
+
+

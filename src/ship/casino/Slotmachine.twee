@@ -1,0 +1,10 @@
+:: Slot machine [textback] {"position":"2619,1131","size":"100,100"}
+<<removeclass "html">><<addclass "html" "velvet">><div class="center"><img src="places2/slotmachine.jpg" width="80%"></div>
+<div class="center">Costs ''5 points'' (Difficulty: Hard)
+
+Prize: ''20 points'' (15,3%).
+
+[[Give it a go]]
+[[Return|Casino]]</div><<nobr>><<if $gameDate.getHours() is 0 or $gameDate.getHours() lt 8>><<goto [[Dreams]]>><<else>><</if>><</nobr>><<audio "menus" stop>><<if ndef $mute>><<audio "casino" unmute>><<else>><</if>>
+
+

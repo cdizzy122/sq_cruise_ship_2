@@ -1,0 +1,142 @@
+:: phase2 [textback] {"position":"1563,641","size":"100,100"}
+<<audio "dreams" stop>><<audio "babecock" volume 0.2 loop play>><div class="center">''MATCH:''
+
+<div class="center"><span class="notplus">RIGHT:</span> <<print $correct>> <span class="notless">WRONG:</span> <<print $wrong>></div>
+<<set $seconds to 10>>\
+HURRY! --> <span id="countdown">$seconds</span>\
+<<silently>>
+	<<repeat 1s>>
+		<<set $seconds to $seconds - 1>>
+		<<if $seconds gt 0>>
+			<<replace "#countdown">>$seconds<</replace>>
+		<<else>>
+			<<replace "#countdown">>Time's up!<<set $babecock to 3>><<goto "babecock">><</replace>>
+			/* do something useful here */
+			<<stop>>
+		<</if>>
+	<</repeat>>
+<</silently>>
+
+<<if ndef $match>><<set $correct to 0>><<set $wrong to 0>><img src="babecock/annal.jpg" width="35%">
+
+<div class="center"><div class="row3"><div class="column3">
+ <span class="noshit"><a data-passage="correct"><img src="babecock/annadd.jpg" width="60%"><<set $match to 0>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="correct"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/evadd.jpg" width="60%"><<set $match to 0>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/stonedd.jpg" width="60%"><<set $match to 0>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div></div><<elseif $match is 0>><img src="babecock/bellal.jpg" width="40%">
+
+<div class="center"><div class="row3"><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/belladd1.jpg" width="60%"><<set $match to 1>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="correct"><img src="babecock/belladd.jpg" width="60%"><<set $match to 1>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="correct"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/belladd2.jpg" width="60%"><<set $match to 1>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div></div><<elseif $match is 1>><img src="babecock/chloel.jpg" width="30%">
+
+<div class="center"><div class="row3"><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/robbiedd.jpg" width="70%"><<set $match to 2>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/clarkedd.jpg" width="60%"><<set $match to 2>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="correct"><img src="babecock/chloedd.jpg" width="60%"><<set $match to 2>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="correct"></span></div></div><<elseif $match is 2>><img src="babecock/aril.jpg" width="45%">
+
+<div class="center"><div class="row3"><div class="column3">
+ <span class="noshit"><a data-passage="correct"><img src="babecock/aridd.jpg" width="60%"><<set $match to 3>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="correct"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/keiradd.jpg" width="60%"><<set $match to 3>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/aridd1.jpg" width="60%"><<set $match to 3>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div></div><<elseif $match is 3>><img src="babecock/stonel.jpg" width="50%">
+
+<div class="center"><div class="row3"><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/evadd.jpg" width="60%"><<set $match to 4>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/annadd.jpg" width="60%"><<set $match to 4>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="correct"><img src="babecock/stonedd.jpg" width="60%"><<set $match to 4>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="correct"></span></div></div><<elseif $match is 4>><img src="babecock/swiftl.jpg" width="45%">
+
+<div class="center"><div class="row3"><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/kimdd.jpg" width="60%"><<set $match to 5>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="correct"><img src="babecock/swiftdd.jpg" width="60%"><<set $match to 5>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="correct"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/swiftdd1.jpg" width="60%"><<set $match to 5>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div></div><<elseif $match is 5>><img src="babecock/jlawl.jpg" width="50%">
+
+<div class="center"><div class="row3"><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/clarkedd.jpg" width="60%"><<set $match to 6>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="correct"><img src="babecock/jlawdd.png" width="60%"><<set $match to 6>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="correct"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/emmadd.jpg" width="50%"><<set $match to 6>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div></div><<elseif $match is 6>><img src="babecock/milal.png" width="40%">
+
+<div class="center"><div class="row3"><div class="column3">
+ <span class="noshit"><a data-passage="correct"><img src="babecock/miladd.png" width="70%"><<set $match to 7>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="correct"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/robbiedd.jpg" width="72%"><<set $match to 7>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/miladd1.jpg" width="70%"><<set $match to 7>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div></div><<elseif $match is 7>><img src="babecock/kiml.jpg" width="40%">
+
+<div class="center"><div class="row3"><div class="column3">
+ <span class="noshit"><a data-passage="correct"><img src="babecock/kimdd.jpg" width="50%"><<set $match to 8>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="correct"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/swiftdd1.jpg" width="50%"><<set $match to 8>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/kimdd1.jpg" width="50%"><<set $match to 8>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div></div><<elseif $match is 8>><img src="babecock/eval.jpg" width="60%">
+
+<div class="center"><div class="row3"><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/stonedd.jpg" width="50%"><<set $match to 9>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/evadd2.jpg" width="50%"><<set $match to 9>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="correct"><img src="babecock/evadd.jpg" width="50%"><<set $match to 9>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="correct"></span></div></div><<elseif $match is 9>><img src="babecock/robbiel.jpg" width="50%">
+
+<div class="center"><div class="row3"><div class="column3">
+ <span class="noshit"><a data-passage="correct"><img src="babecock/robbiedd.jpg" width="70%"><<set $match to 10>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="correct"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/jlawdd.png" width="50%"><<set $match to 10>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/miladd1.jpg" width="70%"><<set $match to 10>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div></div><<elseif $match is 10>><img src="babecock/meganl.jpg" width="40%">
+
+<div class="center"><div class="row3"><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/megandd1.jpg" width="50%"><<set $match to 11>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="correct"><img src="babecock/megandd.jpg" width="50%"><<set $match to 11>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="correct"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/megandd2.jpg" width="50%"><<set $match to 11>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div></div><<elseif $match is 11>><img src="babecock/clarkel.jpg" width="40%">
+
+<div class="center"><div class="row3"><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/robbiedd.jpg" width="60%"><<set $match to 12>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/chloedd.jpg" width="60%"><<set $match to 12>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="correct"><img src="babecock/clarkedd.jpg" width="50%"><<set $match to 12>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="correct"></span></div></div><<elseif $match is 12>><img src="babecock/keiral.jpg" width="33%">
+
+<div class="center"><div class="row3"><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/keiradd1.jpg" width="50%"><<set $match to 13>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="correct"><img src="babecock/keiradd.jpg" width="50%"><<set $match to 13>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="correct"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/keiradd2.jpg" width="50%"><<set $match to 13>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div></div><<elseif $match is 13>><img src="babecock/emmal.jpg" width="40%">
+
+<div class="center"><div class="row3"><div class="column3">
+ <span class="noshit"><a data-passage="correct"><img src="babecock/emmadd.jpg" width="50%"><<set $match to 14>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="correct"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/miladd1.jpg" width="60%"><<set $match to 14>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div><div class="column3">
+ <span class="noshit"><a data-passage="wrong"><img src="babecock/evadd2.jpg" width="50%"><<set $match to 14>></a>
+<area shape="rect" coords="25,25,75,75" data-passage="wrong"></span></div></div><</if>></div><<audio "menus" stop>>
+
+

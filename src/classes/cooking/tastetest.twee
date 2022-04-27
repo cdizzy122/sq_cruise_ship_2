@@ -1,0 +1,188 @@
+:: tastetest [noborder hideui textback] {"position":"1406,768","size":"100,100"}
+<<removeclass "html">><<if $tastetest is 0>><<set $right1 to 0>><<set $wrong1 to 0>><div class="center">''CORRECT:'' <<print $right1>> ''WRONG:'' <<print $wrong1>> </div>
+<<timed .5s>><div class="center"><span class="fade-ins">You sense Holli's arm coming up to your mouth and so you open it.</span></div><<next .5s>>
+
+<div class="center"><<timed .5s>><span class="brown"><span class="fade-ins">It smells earthy...</span></span><<next .5s>>
+<span class="green"><span class="fade-ins">Tastes kind of bitter... it's also crunchy...</span></span><<next .5s>>
+<span class="yellow"><span class="fade-ins">The shape seems round... but not big...</span></span><<next .5s>>
+<span class="fade-ins">
+An image of the ingredient partially takes form in your head:</span>
+
+<<next .5s>><div class="center"><span class="fade-ins"><img src="food/ing1.png" width="50%"></span></div>
+<<next .5s>><div class="row3"><div class="column3">[[Beans|tastetest][$tastetest to 1, $right1 to $right1 +1]]</div><div class="column3">[[Asparragus|tastetest][$tastetest to 1, $wrong1 to $wrong1 +1]]</div><div class="column3">[[Peas|tastetest][$tastetest to 1, $wrong1 to $wrong1 +1]]</div></div><</timed>></div><</timed>>
+
+
+
+
+\\<<elseif $tastetest is 1>><div class="center">''CORRECT:'' <<print $right1>> ''WRONG:'' <<print $wrong1>> </div>
+<<timed .5s>><div class="center"><span class="fade-ins">You sense Holli's arm coming up to your mouth and so you open it.</span></div><<next .5s>>
+
+<div class="center"><<timed .5s>><span class="yellow"><span class="fade-ins">It smells greasy...</span></span><<next .5s>>
+<span class="white"><span class="fade-ins">Tastes very salty... it's also crispy...</span></span><<next .5s>>
+<span class="orange"><span class="fade-ins">The piece is not representative of the shape, but it's definitely a slice...</span></span><<next .5s>>
+<span class="fade-ins">
+An image of the ingredient partially takes form in your head:</span>
+
+<<next .5s>><div class="center"><span class="fade-ins"><img src="food/ing2.png" width="50%"></span></div>
+<<next .5s>><div class="row3"><div class="column3">[[Beets|tastetest][$tastetest to 2, $wrong1 to $wrong1 +1]]</div><div class="column3">[[Bacon|tastetest][$tastetest to 2, $right1 to $right1 +1]]</div><div class="column3">[[Minced meat|tastetest][$tastetest to 2, $wrong1 to $wrong1 +1]]</div></div><</timed>></div><</timed>>
+
+
+
+
+
+\\<<elseif $tastetest is 2>><div class="center">''CORRECT:'' <<print $right1>> ''WRONG:'' <<print $wrong1>> </div>
+<<timed .5s>><div class="center"><span class="fade-ins">You sense Holli's arm coming up to your mouth and so you open it.</span></div><<next .5s>>
+
+<div class="center"><<timed 1s>><span class="white"><span class="fade-ins">It smells bright...</span></span><<next .5s>>
+<span class="green"><span class="fade-ins">Tastes kind of sour... it's also sweet...</span></span><<next .5s>>
+<span class="yellow"><span class="fade-ins">It's stringy and it gushes when you bite...</span></span><<next .5s>>
+<span class="fade-ins">
+An image of the ingredient partially takes form in your head:</span>
+
+<<next .5s>><div class="center"><span class="fade-ins"><img src="food/ing3.png" width="50%"></span></div>
+<<next .5s>><div class="row3"><div class="column3">[[Pineapple|tastetest][$tastetest to 3, $right1 to $right1 +1]]</div><div class="column3">[[Pear|tastetest][$tastetest to 3, $wrong1 to $wrong1 +1]]</div><div class="column3">[[Peach|tastetest][$tastetest to 3, $wrong1 to $wrong1 +1]]</div></div><</timed>></div><</timed>>
+
+
+
+
+
+\\<<elseif $tastetest is 3>><div class="center">''CORRECT:'' <<print $right1>> ''WRONG:'' <<print $wrong1>> </div>
+<<timed .5s>><div class="center"><span class="fade-ins">You sense Holli's arm coming up to your mouth and so you open it.</span></div><<next .5s>>
+
+<div class="center"><<timed .5s>><span class="blue"><span class="fade-ins">It smells of the sea...</span></span><<next .5s>>
+<span class="brown"><span class="fade-ins">Tastes kind of deep... it's also sweet, but salty...</span></span><<next .5s>>
+<span class="orange"><span class="fade-ins">It's definitely meat, but so soft and delicate...</span></span><<next .5s>>
+<span class="fade-ins">
+An image of the ingredient partially takes form in your head:</span>
+
+<<next .5s>><div class="center"><span class="fade-ins"><img src="food/ing4.png" width="50%"></span></div>
+<<next .5s>><div class="row3"><div class="column3">[[Crab|tastetest][$tastetest to 4, $wrong1 to $wrong1 +1]]</div><div class="column3">[[Shrimp|tastetest][$tastetest to 4, $wrong1 to $wrong1 +1]]</div><div class="column3">[[Lobster|tastetest][$tastetest to 4, $right1 to $right1 +1]]</div></div><</timed>></div><</timed>>
+
+
+
+
+
+\\<<elseif $tastetest is 4>><<audio "kitchen" mute>><<audio "mystery" loop play>><div class="center">''CORRECT:'' <<print $right1>> ''WRONG:'' <<print $wrong1>> </div>
+<<timed 1s>><div class="center"><span class="fade-ins">Holli is taking more time than usual. After a few seconds you can feel her rising her arm to your mouth.</span></div><<next 1.4s>>
+
+<div class="center"><<timed 1s>><span class="pink"><span class="shudder"><span class="fade-ins">This smell is more complex, but it's definitely familiar...</span></span></span><<next 1s>>
+<span class="pink"><span class="shudder"><span class="fade-ins">This one is filling your mouth... it's long...</span></span></span><<next 1s>>
+<span class="pink"><span class="shudder"><span class="fade-ins">Seems to be covered by a liquid... tastes salty and sweet...</span></span></span><<next 1s>>
+<span class="fade-ins">
+An image of the ingredient partially takes form in your head:</span>
+
+<<next 1s>><div class="center"><span class="fade-ins"><img src="food/ing5.png" width="40%"></span></div>
+<<speech "You" "''$name'':">>
+ *slurp* It's not fair! This one has two ingredients...<</speech>>
+<<speech "holli" "''Holli:''">>
+I guess you're right... *giggle* I thought I'd get a more appropriate receptacle for the... ingredient.<</speech>>
+Holli starts slowly sliding the long thing in and out your mouth.
+
+<<speech "You" "''$name'':">>
+Agh... *glug*<</speech>>
+<div class="center">[[???|tastere][$tastetest to 5, $wrong1 to $wrong1 +1]]</div><</timed>></div><</timed>>
+
+
+
+
+
+\\<<elseif $tastetest is 5>><<set $right1 to 0>><<set $wrong1 to 0>><div class="center">''CORRECT:'' <<print $right1>> ''WRONG:'' <<print $wrong1>> </div>
+<<timed .5s>><div class="center"><span class="fade-ins">You sense Holli's arm coming up to your mouth and so you open it.</span></div><<next .5s>>
+
+<div class="center"><<timed .5s>><span class="white"><span class="fade-ins">It smells nutty, like if it was aged...</span></span><<next .5s>>
+<span class="yellow"><span class="fade-ins">There some holes in it...</span></span><<next .5s>>
+<span class="gray"><span class="fade-ins">The texture is a bit crumbly and grainy...</span></span><<next .5s>>
+<span class="fade-ins">
+An image of the ingredient partially takes form in your head:</span>
+
+<<next .5s>><div class="center"><span class="fade-ins"><img src="food/ing6.png" width="50%"></span></div>
+<<next .5s>><div class="row3"><div class="column3">[[Butter|tastetest][$tastetest to 6, $wrong1 to $wrong1 +1]]</div><div class="column3">[[Mozzarella cheese|tastetest][$tastetest to 6, $wrong1 to $wrong1 +1]]</div><div class="column3">[[Swiss cheese|tastetest][$tastetest to 6, $right1 to $right1 +1]]</div></div><</timed>></div><</timed>>
+
+
+
+
+
+\\<<elseif $tastetest is 6>><div class="center">''CORRECT:'' <<print $right1>> ''WRONG:'' <<print $wrong1>> </div>
+<<timed .5s>><div class="center"><span class="fade-ins">You sense Holli's arm coming up to your mouth and so you open it.</span></div><<next .5s>>
+
+<div class="center"><<timed 1s>><span class="green"><span class="fade-ins">It has a very characteristic smell...</span></span><<next .5s>>
+<span class="white"><span class="fade-ins">Tastes like a cleaner...</span></span><<next .5s>>
+<span class="green"><span class="fade-ins">You can feel some leaves and stems...</span></span><<next .5s>>
+<span class="fade-ins">
+An image of the ingredient partially takes form in your head:</span>
+
+<<next .5s>><div class="center"><span class="fade-ins"><img src="food/ing7.png" width="50%"></span></div>
+<<next .5s>><div class="row3"><div class="column3">[[Coriander|tastetest][$tastetest to 7, $right1 to $right1 +1]]</div><div class="column3">[[Thyme|tastetest][$tastetest to 7, $wrong1 to $wrong1 +1]]</div><div class="column3">[[Basil|tastetest][$tastetest to 7, $wrong1 to $wrong1 +1]]</div></div><</timed>></div><</timed>>
+
+
+
+
+
+\\<<elseif $tastetest is 7>><div class="center">''CORRECT:'' <<print $right1>> ''WRONG:'' <<print $wrong1>> </div>
+<<timed .5s>><div class="center"><span class="fade-ins">You sense Holli's arm coming up to your mouth and so you open it.</span></div><<next .5s>>
+
+<div class="center"><<timed 1s>><span class="white"><span class="fade-ins">Wow, that is sour...</span></span><<next .5s>>
+<span class="green"><span class="fade-ins">It has a decent crunch, and liquid oozes out...</span></span><<next .5s>>
+<span class="gray"><span class="fade-ins">The shape is kind of cilindrincal...</span></span><<next .5s>>
+<span class="fade-ins">
+An image of the ingredient partially takes form in your head:</span>
+
+<<next .5s>><div class="center"><span class="fade-ins"><img src="food/ing8.png" width="50%"></span></div>
+<<next .5s>><div class="row3"><div class="column3">[[Melon|tastetest][$tastetest to 8, $wrong1 to $wrong1 +1]]</div><div class="column3">[[Pickle/Gherkin|tastetest][$tastetest to 8, $right1 to $right1 +1]]</div><div class="column3">[[Bell pepper|tastetest][$tastetest to 8, $wrong1 to $wrong1 +1]]</div></div><</timed>></div><</timed>>
+
+
+
+
+
+
+\\<<elseif $tastetest is 8>><div class="center">''CORRECT:'' <<print $right1>> ''WRONG:'' <<print $wrong1>> </div>
+<<timed .5s>><div class="center"><span class="fade-ins">You sense Holli's arm coming up to your mouth and so you open it.</span></div><<next .5s>>
+
+<div class="center"><<timed 1s>><span class="brown"><span class="fade-ins">*crunch, crunch* this is like a seed, or a grain...</span></span><<next .5s>>
+<span class="white"><span class="fade-ins">Doesn't taste like much...</span></span><<next .5s>>
+<span class="gray"><span class="fade-ins">I can't really feel the shape of each grain...</span></span><<next .5s>>
+<span class="fade-ins">
+An image of the ingredient partially takes form in your head:</span>
+
+<<next .5s>><div class="center"><span class="fade-ins"><img src="food/ing9.png" width="50%"></span></div>
+<<next .5s>><div class="row3"><div class="column3">[[Raw quinoa|tastetest][$tastetest to 9, $wrong1 to $wrong1 +1]]</div><div class="column3">[[Raw cous-cous|tastetest][$tastetest to 9, $wrong1 to $wrong1 +1]]</div><div class="column3">[[Raw rice|tastetest][$tastetest to 9, $right1 to $right1 +1]]</div></div><</timed>></div><</timed>>
+
+
+
+
+\\<<elseif $tastetest is 9>><div class="center">''CORRECT:'' <<print $right1>> ''WRONG:'' <<print $wrong1>> </div>
+<<timed 1s>><div class="center"><span class="fade-ins">Holli is taking more time than usual. After a few seconds you can feel her rising her arm to your mouth.</span></div><<next 1.4s>>
+
+<div class="center"><<timed 1s>><span class="brown"><span class="fade-ins">It smells like a fried something...</span></span><<next 1s>>
+<span class="red"><span class="fade-ins">There's some kind of ketchup on the tip, but...</span></span><<next 1s>>
+<span class="pink"><span class="shudder"><span class="fade-ins">The shape is long and the texture is semi-firm...</span></span></span><<next 1s>>
+<span class="fade-ins">
+Holli keeps sliding the object in and out of your mouth, while giggling. An image of the ingredient partially takes form in your head:</span>
+
+<<next 1s>><div class="center"><span class="fade-ins"><img src="food/ing5.png" width="40%"></span></div>
+<<speech "You" "''$name'':">>
+ *slurp* I can't taste it if you keep- *gag, gag*<</speech>>
+<<speech "holli" "''Holli:''">>
+ *giggle* I guess you're right...<</speech>>
+Holli pace slows down, but she is still sliding the long thing in and out your mouth.
+
+<<speech "You" "''$name'':">>
+Agh... *glug*<</speech>>
+<div class="center">[[???|tastere][$tastetest to 10, $wrong1 to $wrong1 +1]]</div><</timed>></div><</timed>>
+
+
+
+\\<<elseif $tastetest is 10>>
+
+
+
+
+<<elseif $tastetest is 11>><<elseif $tastetest is 12>><<elseif $tastetest is 13>><<elseif $tastetest is 14>><<elseif $tastetest is 15>>
+
+
+
+
+
+<</if>><<script>>UIBar.stow()<</script>><<audio "menus" stop>>
+
+

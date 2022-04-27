@@ -1,0 +1,7 @@
+:: StoryMenu [normal] {"position":"148,805","size":"100,100"}
+<<if $techphone is true>>[[Inventory]]
+[[Appearance]]
+<<if $newsms is -1>>[[Phone|Techphone]]<<elseif $newsms is 0>><span class="badge1" data-badge="1">[[Phone|Techphone]]</span><<elseif $newsms is 1>><span class="badge1" data-badge="2">[[Phone|Techphone]]</span><<elseif $newsms is 2>><span class="badge1" data-badge="3">[[Phone|Techphone]]</span><<elseif $newsms is 3>><span class="badge1" data-badge="4">[[Phone|Techphone]]</span><<elseif $newsms is 4>><span class="badge1" data-badge="5">[[Phone|Techphone]]</span><<elseif $newsms is 5>><span class="badge1" data-badge="6">[[Phone|Techphone]]</span><<elseif $newsms is 6>><span class="badge1" data-badge="7">[[Phone|Techphone]]</span><<elseif $newsms is 7>><span class="badge1" data-badge="8">[[Phone|Techphone]]</span><<elseif $newsms is 8>><span class="badge1" data-badge="9">[[Phone|Techphone]]</span><<elseif $newsms is 9>><span class="badge1" data-badge="10">[[Phone|Techphone]]</span><</if>><<else>><<if ndef $appearance>>[[Inventory]]<<elseif $appearance is 0>>[[Inventory]]
+[[Appearance]]<</if>><</if>>
+
+

@@ -1,0 +1,36 @@
+:: It'll get bigger. I'm just nervous... [textback] {"position":"2045,2244","size":"100,100"}
+<<speech "tara" "''Tara:''">>
+Oh, yeah? Well, it better at least triple its size. Come on, GET IT HARD.<</speech>>
+You start stroking at her comand. She is too intimidating. You feel nothing on your penis. It looks like if it was dead. Theres no blood going there. 
+ 
+<<speech "tara" "''Tara:''">>
+This is so sad to watch... Alright! I'm gonna help you. But if you don't reach my standards by then, you are going to be in trouble, boi.<</speech>>
+<img src="tara/suck.jpg" width="40%">
+
+As her soft lips come in contact with your glans, the blood in your body finaly starts rushing to the area, slowly filling and growing hard.
+After two minutes and a few disgusted stares of Tara you are fully hard. She keeps going. And you're going to... You start to tense up. It's only been 30 seconds since I grew fully hard, fuck. 
+
+<<speech "You" "''$name:''">>
+(I can't cum right now. That would be embarrasing...)<</speech>>
+You try with all your strength to hold it, but your body gives you up. Just when you think you are about to cum, she stops and looks at you.
+
+<img src="tara/dissapointed.png" width="70%">
+
+<<speech "tara" "''Tara:''">>
+You are a fucking liar, you pig! It hasn't even grown two inches. You've got a fucking pin dick. You shouldn't be here in this boat!...how did you even get in here??!! Out of my bed you prick!! *Pulls you out of her bed*<</speech>>
+<img src="tara/cum.gif" width="60%">
+
+<<speech "tara" "''Tara:''">>
+What...??? Are you actually CUMMING? You fucking pervert! Get out of my room. Out. Out! OUT!! *She opens the door*<</speech>>
+<<speech "You" "''$name:''">>
+I...I'm sorry, I...- you mumble as you get out to the corridor.<</speech>>
+<<speech "tara" "''Tara:''">>
+Yeah, save it boi. I've seen enough. The captain will know about this.<</speech>>
+<<nobr>><span class="shudder"><span class="onomatopeya"><div class="center">*SLAM*</div></span></span><</nobr>>
+ You stand there, in the middle of the DECK 3, all naked and alone. You start crying. You are feeling aweful. This trip was definitely a mistake. 
+
+<<speech "You" "''$name:''">>
+I have to get out of here as soon as we dock somewhere. But for now... I better run to my room.<</speech>>
+<<click "Go to room" embarrased>><<addhours 1>><<set $party to "Finished">><</click>><<set $gotoparty to false>><<set $stage to 0>><<audio "menus" stop>>
+
+

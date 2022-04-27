@@ -1,0 +1,39 @@
+:: neighbourhood Lana pool [textback] {"position":"851,625","size":"100,100"}
+<<removeclass "html">><<addclass "html" "street">><img src="places1/neighbourhood.png" width="70%">
+
+There's nobody on the street, everyone is having lunch.
+
+<<nobr>><span class="shudder"><span class="onomatopeya">*SPLASH*</span></span><</nobr>>
+You hear some noise coming from $gffname's place. 
+Do you <<linkappend "take a look?" t8n>><<scrolldown>><<if ndef $mutefx>><<audio "splash" volume 0.3 play>><<else>><</if>>
+ 
+<span class="fade-ins"><img src="lana/pooldive.jpg" width="80%"></span>
+<<speech "You" "''$name:''">>
+(Oh she's just diving in her pool. Thank god it's not one of her parties again)<</speech>>
+<<linkreplace "Continue looking" t8n>><<scrolldown>><span class="fade-ins"><img src="lana/lanaswim.gif" width="80%"></span>
+<<speech "You" "''$name:''">>
+Wait...is...is she-<</speech>>
+<<linkreplace "NAKED???" t8n>><<scrolldown>>She suddenly looks your way:
+
+<span class="fade-ins"><img src="lana/lanaboobs.gif" width="80%"></span>
+<span class="shudder"><span class="onomatopeya">*DUCK!!*</span></span>
+<<speech "You" "''$name:''">>
+(Fuck! I think she saw me...)<</speech>>
+Just before leaving, you hear her talking to someone.
+
+<<speech "lanad" "''$gffname:''">>
+Yayyy... you like my boobs? I bet you dooo...<</speech>>
+<<speech "You" "''$name:''">>
+(She's definitely talking to me now...)<</speech>>
+Your anxiety is rising fast until you hear her talk again.
+
+<<speech "lanad" "''$gffname:''">>
+Just for you, here at my ''OnlyFans''! Stay tuned for more! *wink*<</speech>>
+<<speech "You" "''$name:''">>
+(OnlyFans, really!? She's recording herself...?)<</speech>>
+You decide to get out of there before you get caught.<</linkreplace>><</linkreplace>><</linkappend>>
+
+
+<<click "Home" "Foyer">><<if ndef $mutefx>><<audio "door" play>><<else>><</if>><<audio "out" fadeoverto 2 0>><<audio "morning" volume 0 fadein>><</click>><<set $eat to false>><<set $nogetout to true>><<addmins 10>><<set $enablesleep to true>><<audio "menus" stop>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "touriststalk" stop>>
+
+

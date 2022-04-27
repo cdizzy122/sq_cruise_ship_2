@@ -1,0 +1,6 @@
+:: Untitled Passage 3 {"position":"1158,1412","size":"100,100"}
+[[Wardrobe]]
+[[bathship]]
+[[Show]]<<set $buyshoe1 to true>><<set $buyshoe5 to true>><<set $buyleg1 to true>><<set $buyleg3 to true>><<set $buyupper6 to true>><<set $buyupper5 to true>><<set $buyunder1 to true>><<set $buyunder2 to true>><<set $buyunder5 to true>><<set $buyunder6 to true>><<set $wardrobe to true>><<set $cage to false>><<set $needshower to true>><<set $trans to 3>><<set $upper to 1>><<set $under to 5>><<set $leg to 2>><<set $shoe to 1>><<set $cage to true>><<set $bbra to true>><<set $under2 to 1>><<set $buyunder21 to true>><<set $boobs to 1>><<set $shaving to 0>><<set $shavebath to true>><<set $cagekey to false>><<set $buttplug to true>><<set $dayn to 7>>
+
+

@@ -1,0 +1,26 @@
+:: Check the lockers [textback] {"position":"3582,1640","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<if $openlocker is 0>><img src="dockings/lockersaq.jpg" width="70%">
+
+A line of small lockers.
+
+<<nobr>><<if $lostit is 0>>[[Try the small key|Check the lockers][$openlocker to 1]]<<else>><</if>><</nobr>>
+[[Return|bathaq][$openlocker to 0]]<<elseif $openlocker is 1>>You try the key in each and every locker. Finally, you manage to find the corresponding one.
+
+<span class="onomatopeya">*CLICK*</span><<addmins 10>>
+
+<<speech "You" "''$name:''">>
+ *gasp*<</speech>>
+<<linkreplace "Open it!">><div class="center"><span class="fade-ins"><img src="dockings/lockerring.jpg" width="50%"></span></div>
+<<speech "You" "''$name:''">>
+Somebody must have left it here... Sweet!<</speech>>
+You take it and close the locker again.<<set $drug1 to "1/2 done">>
+ 
+  ''*Ring was added to the Inventory*''<<set $lockerring to true>><<set $smallkey to false>>
+  
+[[Return|bathaq][$realmoney to true, $openlocker to 2]]<</linkreplace>><<elseif $openlocker is 2>><img src="dockings/lockersaq.jpg" width="70%">
+
+A line of small lockers.
+
+[[Return|bathaq]]<</if>><<audio "menus" stop>><<if ndef $mute>><<audio "mystery" unmute>><<else>><</if>>
+
+

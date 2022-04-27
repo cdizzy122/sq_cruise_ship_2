@@ -1,0 +1,190 @@
+:: Museum [textback] {"position":"3483,266","size":"100,100"}
+<<removeclass "html">><<addclass "html" "museum">><<audio "touriststalk" volume 0.2 loop play>><<audio "casablanca" stop>><<if ndef $muslimmuseum>><div class="center"><img src="dockings/casablanca/museum1.jpg" width="60%"></div>
+As you get in, you notice how this is not the usual art museum, there's something different to it. Before you can even get further in, a woman talks to you.
+
+<<speech "nobody" "''Tourist guide'':">>
+Excuse me... sir? We only accept groups. Are you with the last tourist group?<</speech>>
+<<speech "You" "''$name'':">>
+Yes, um... Oh, I was just...<</speech>>
+<<speech "nobody" "''Tourist guide'':">>
+Hurry, they are about to start with the tour. Follow me please.<</speech>>
+Seems like this time you didn't even have to tell lies. The woman takes you to a larger group of multicultural tourists. There are some japanese, chinese and americans.
+
+<<speech "nobody" "''Tourist guide'':">>
+Come on, please follow me. We're going to start with the visit, follow me. Now, welcome to the ''Abderrahman Slaoui Museum''. It is named after Abderrahman Slaoui, Moroccan businessman and art collector. There are many legends about how he earned his fortune, some say he practiced ocultism and that he had certain special preferences in his sex life. This may have pushed him to create this wonderful place that compiles all the sex history of this country.<</speech>>
+You seem surprisingly interested by this.
+
+<<speech "You" "''$name'':">>
+(Sex history of Morocco? Sound fantastic! Wish Tara was with me though...)<</speech>>
+<<speech "nobody" "''Tourist guide'':">>
+As you can tell, this museum is not very large, since it is said that most of the object were stolen not long ago. But the place has been the same since the start. The object were not found, the are also theories about the owner being implicated on it, but those are just rumours, of course. Now, this first object is called a ''dildo''.<</speech>>
+<div class="center"><img src="dockings/casablanca/museum2.jpg" width="50%"></div>
+<<speech "nobody" "''Tourist guide'':">>
+Yes, I know that is not very unusual. Hahaha... but this one was the first kind, before plastic was invented. As you can imagine, the dairy use of this kind of materials caused all kinds of reactions. From allergies to intoxications. Not good. But we eventually got creative, as you can see:<</speech>>
+<div class="center"><img src="dockings/casablanca/museum3.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(Oh, wow!)<</speech>>
+<span class="onomatopeya">OOOOOOH</span>
+
+<<speech "nobody" "''Tourist guide'':">>
+Yes, I know. Some of you might already know this one, or so the stadistics say! This is a vaginal pear, you inserted it inside and then it opened. Expansion, expansion, expansion... Arabic men are known for having a bigger penis that most caucasian males, not even counting the secret penis enlargment techniques. That was the main reason why some women felt the need to use this artifact. Pain? Yes. But it's worth it. *wink* Now, for the next one.<</speech>>
+<div class="center"><img src="dockings/casablanca/museum4.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(Fuck, I know that one!)<</speech>>
+<<speech "nobody" "''Tourist guide'':">>
+This one was said to be the favourite of out founder. He said by using it on the appropiate people, the world turned a better place for all. Women, men and... does anybody know the other one?<</speech>>
+<<speech "You" "''$name'':">>
+ *ahem* Sissies...<</speech>>
+<<speech "nobody" "''Tourist guide'':">>
+Exactly, very good. Sissies! I see we might have one with us today as well. *smiles* This artifact compresses the small penis of the smaller males, shrinking it and making them be more submissive. We had a lot more objects for this section, but I'm afraid those were the stolen ones. So now we'll go to the drawings section. Follow me.<</speech>>
+The group starts walking and follows her to another room. You can't take your eyes of the old chastity cage. You can almost feel that there's something special about it. You stare at it for at least another minute, looking at every inch of it. Suddenly, you notice a small indentation in the wall, right on top of the glass.
+
+<<speech "You" "''$name'':">>
+(What's this...?)<</speech>>
+You rub it a bit and some paint falls off, exposing a key hole. There's also a triangle symbol surronding it.
+
+<div class="center"><img src="dockings/casablanca/keyhole.png" width="35%"></div>
+<<speech "You" "''$name'':">>
+Hm... that's weird...<</speech>>
+You let the time run and almost didn't notice how late it was.
+
+<<speech "You" "''$name'':">>
+Oops, I should get out.<</speech>>
+[[Get out|Casablancacenter][$muslimmuseum to 0, $casacenter to 0, $vmuseum to true]]<<addmins 30>>
+
+
+
+\\<<elseif $muslimmuseum is 0>>THIS SHOULDN'T BE SHOWING...
+
+
+
+\\<<elseif $muslimmuseum is 1>><<if $casakey is true>><div class="center"><img src="dockings/casablanca/museum1.jpg" width="60%"></div>
+The museum is as gorgeous as the first time. You get in and intantly hear the same guide with another group.
+
+<<speech "nobody" "''Tourist guide'':">>
+Ok, guys, gather around! We'll be starting with the artifacts corridor. Please, follow me!<</speech>>
+The guide continues with her presentation, talking about the founder of the museum and the conspiracy theories about him.
+
+<<speech "You" "''$name'':">>
+(Damn... doesn't she get tired of telling the exact same stuff over and over again?)<</speech>>
+You wait until the group has separated a bit and the corridor is empty. Then, you decide to try putting the key into the key hole. You put it in place fast but push and turn it gently.
+
+<span class="onomatopeya">CLICK... WOOOOOSH</span>
+
+<<speech "You" "''$name'':">>
+(Oh, fuck! That was loud...)<</speech>>
+You definitely heard something moving inside the wall, put everything seems the same to the eye... You pushed the collar back into the indent 3 more times to see if something else was supposed to be triggering, but that was all.
+
+<<speech "You" "''$name'':">>
+(Now what...?)<</speech>>
+Even though the museum has a rule not to touch the glass of the sex toys, you pass your hands through the three closer ones.
+
+<<speech "You" "''$name'':">>
+(Nothing... I thought this would do something... *sigh*)<</speech>>
+You lightly hit the glass and take a step back so you can rest your back on the opposite wall. To your surprise the wall is not as solid as it seemed, and it was almost bending. You turn back and take a look.
+
+<<speech "You" "''$name'':">>
+(Is this a door?...)<</speech>>
+<<linkreplace "Push it">><<removeclass "html">><<addclass "html" "home">><<audio "touriststalk" stop>><<audio "dreams" volume 0.2 loop play>><span class="fade-ins"><div class="center"><img src="dockings/casablanca/museum5.jpg" width="62%"></div>
+You know that this is not safe, but you're still curious about what the hell is down there.
+
+<<speech "You" "''$name'':">>
+(I shouldn't get in here, at least I should tell someone before I do. This could be really dangerous. I don't know what's down there.)<</speech>>
+But then, you start thinking about how impressed Tara would be if you actually managed to do learn the password. You could even be making a serious discovery here! You close your fists and gather all the courage you have.
+
+<<linkreplace "Go down the stairs">><<removeclass "html">><<addclass "html" "punish">>As soon as you walk the first 2 steps, the door closes behind you.
+
+<span class="onomatopeya">WOOOOOSH... CLICK</span>
+
+<<speech "You" "''$name'':">>
+No, no, no! (Fuck, great!)<</speech>>
+You breathe deeply a couple of times to relax yourself a bit and decide to continue down to the darkness. Once you reach the floor, you take out your phone so illuminate the room.
+
+<<speech "You" "''$name'':">>
+(Oh, that looks like a switch!)<</speech>>
+You hurry and press it.
+
+<span class="onomatopeya">FLASH</span>
+
+A dim light now let's you see a bit more of the place. You can hear a buzzing sound, coming surely from a generator nearby. The first thing that you notice are some inscriptions on the walls, but you don't really understand any of it.
+
+<<speech "You" "''$name'':">>
+(Seems like it's been carved... but it's definitely not english. Wait, what are those drawings?)<</speech>>
+<div class="center"><img src="dockings/casablanca/wall3.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(Looks kinda like... me...)<</speech>>
+You look to the sides and see all kinds of different crossdressers: brunettes, blondes, short, tall, big-dicked, clitties... and they are doing all kinds of nasty stuff.
+
+<div class="center"><img src="dockings/casablanca/wall1.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(What does this mean?)<</speech>>
+You keep walking around the room following the drawings. They seem to be ordered in such a way that they look like photograms of a video, like if they were in a sequence that could be played. You stop at the last one:
+
+<div class="center"><img src="dockings/casablanca/wall2.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(I recognize that! "She's" putting a dildo in her mouth...)<</speech>>
+You suddenly realize that you've reached the other side of the empty room. There is not a single thing here, except for an old door with some holes...
+
+<div class="center"><img src="dockings/casablanca/doorholes.jpg" width="45%"></div>
+<<speech "You" "''$name'':">>
+(What are those holes for... wait, no! Do you mean... this was a gloryhole? I guess nobody's here now...)<</speech>>
+You're disappointed. You were expecting something else, something more. And so, you decide to touch the holes in the door, passing some fingers through them. You can tell there's another room on the other side.
+
+<<speech "You" "''$name'':">>
+(That's probably where I need to go! Maybe I should just imitate these other sissies?)<</speech>>
+You go one by one, copying the drawings. No matter how much you try to crouch, stick you mouth in there, nothing's coming from the other side. You suddenly get another idea.
+
+<<speech "You" "''$name'':">>
+(Maybe it just needs to check that I am one of "them"?)<</speech>>
+You boldly step to one of the holes and stick you whole caged clit and balls in it.
+
+<<linkreplace "... ...">><<if ndef $mutefx>><<audio "robot2" play>><<else>><</if>><span class="onomatopeya">BZZZZZT</span>
+
+Suddenly, the hole closes tight around your crotch, trapping you there. One of the closed holes at your head's height starts opening and a quite cute dildo appears.
+
+<div class="center"><span class="noborder"><img src="dockings/casablanca/holedildo.png" width="35%"></span></div>
+<<speech "You" "''$name'':">>
+Oh, no! What do you want?!<</speech>>
+Nobody's answering, it's all automatized. The task is clear: you need to suck on that dildo. Compared to some of the tasks you've had to do this last week, that just sounds easy, and so you get to it. As you get closer, you can't help but realize how similar it actually is to yours.
+
+<<speech "You" "''$name'':">>
+Hm... *suck, suck, suck*<</speech>>
+You notice how something behind the door moves and retracts the dildo, as well as the grip on your little manhood.
+
+<span class="onomatopeya">BZZZZZT... CLICK</span>
+
+<<speech "You" "''$name'':">>
+Thank god...<</speech>>
+You step into the new room.
+
+<div class="center"><img src="dockings/casablanca/temple.jpg" width="70%"></div>
+This one looks the opposite to the other one. It reminds you of a sex dungeon, all filled with sexual artifacts on the sides. As you approach the center of the room, you see the same triangle you saw on the key and the indentation. Next to it, there are some symbols carved in the floor.
+
+<div class="center"><img src="dockings/casablanca/password.png" width="50%"></div>
+<<speech "You" "''$name'':">>
+This must be the password for sure... Let's see if I remember correctly... the first one is "Bigender", second one it "Transgender" and... that third one I don't think it's official, but...<</speech>>
+You know deep inside that that flopping line represents you impotent dickie.
+
+<<speech "You" "''$name'':">>
+Maybe... "sissy"? So the password must be: ''Bigender, Transgener, Sissy''.<</speech>>
+You take one last look at it before getting out. You look around as well, looking for something to take with you, a souvenir if you will. But it's all so old, that you wouldn't even know how to use any of the artifacts. You decide to leave it all just as it was, closing the door and going up the stairs again.
+
+Fortunately, the group you were with hasn't finished the visit yet, since you can hear them in another room. You turn the key again and the door closes.
+
+<<speech "You" "''$name'':">>
+(Perfect. Time to get out.)<</speech>>
+Taking pride in your boldness, you calmly get out of the building.
+
+[[Get out|Casablancacenter][$zoco to 2, $muslimmuseum to 2, $casaquest to "3/4 done", $badge to $badge +1]]<<addmins 30>><</linkreplace>><</linkreplace>></span><</linkreplace>>
+
+
+
+\\<<else>><div class="center"><img src="dockings/casablanca/museum1.jpg" width="60%"></div>
+You walk inside and get close to a group until you reach the key hole you found before.
+
+<div class="center"><img src="dockings/casablanca/keyhole.png" width="35%"></div>
+<<speech "You" "''$name'':">>
+I should search around for that symbol...<</speech>>
+[[Get out|Casablancacenter]]<</if>><</if>><<if ndef $mute>><<audio ":music" unmute>><<else>><</if>><<audio "menus" stop>><<audio "casablanca" stop>>
+
+

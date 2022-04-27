@@ -1,0 +1,134 @@
+:: Have a drink [textback] {"position":"2147,1273","size":"100,100"}
+<<removeclass "html">><<addclass "html" "lounge">><<if ndef $lounge>>A beautiful bartender approaches you:
+
+<img src="passengers/bartender.jpg" width="50%">
+
+<<speech "nobody" "''Bartender:''">>
+Something you need, my dear?<</speech>>
+<<nobr>><<if $nomarg is true>><<linkreplace "Margarita">>Definitely not going back to that poison...<</linkreplace>><<else>>[[Margarita]]<</if>><</nobr>>
+<<nobr>><<if $noblow is true>><<linkreplace "Blowjob">>No way! Not doing that again...<</linkreplace>><<else>>[[Blowjob]]<</if>><</nobr>>
+<<nobr>><<if $blob is true>>[[Sticky Blobby]]<<else>><<linkreplace "Sticky Blobby">>Out of stock...<</linkreplace>><</if>><</nobr>>
+
+[[Return|Lounge]]<<audio "menus" stop>><<if ndef $mute>><<audio "party" unmute>><<else>><</if>>
+
+\\<<elseif $lounge is 0>>A beautiful bartender approaches you:
+
+<img src="passengers/bartender.jpg" width="50%">
+
+<<speech "nobody" "''Bartender:''">>
+Oh hey, already here? Usually people wait until the show is over...<</speech>>
+<<speech "You" "''$name:''">>
+Oh, I got... stuck. Would you mind opening the door, please?<</speech>>
+<<speech "nobody" "''Bartender:''">>
+Yeah, sure... sweetie, I'm not blind. I know Captain doesn't want you out. But I'll tell you what: I will let you out if you help me preparing the room for later.<</speech>>
+<<speech "You" "''$name:''">>
+But the show is about to start!<</speech>>
+<<speech "nobody" "''Bartender:''">>
+Well, then you better start cleaning the bathroom. *smiles*<</speech>>
+<<speech "You" "''$name:''">>
+(Can't anybody just be nice for once??)<</speech>>
+[[Return|Lounge][$lounge to 1]]<<audio "menus" stop>><<if ndef $mute>><<audio "party" unmute>><<else>><</if>>
+
+
+\\<<elseif $lounge is 1>><<if $cleanstalls is true and $cleansinks is true and $cleanmirrors is true>><img src="passengers/bartender.jpg" width="50%">
+
+<<speech "nobody" "''Bartender:''">>
+Hey, that was fast! Are you done?<</speech>>
+<<speech "You" "''$name:''">>
+Yeah, all done!<</speech>>
+<<speech "nobody" "''Bartender:''">>
+Nice! Just one more thing I will need you to do for me-<</speech>>
+<span class="onomatopeya">STOMP</span>
+
+You hear noises and voices at the stage. The show must've already started a few minutes ago.
+
+<<speech "You" "''$name:''">>
+(We better make this quick!) Yeah, sure. What is it?<</speech>>
+<<speech "nobody" "''Bartender:''">>
+I don't know if you managed to have a try at the inauguration party. We were quickly out of stock, but thankfully I can get some more of the ingredients when we dock. This is a new "matured" version, with somewhat older ingredients...<</speech>>
+<<speech "You" "''$name:''">>
+Oh, so it's a drink? Sure, I'll have one!<</speech>>
+<<speech "nobody" "''Bartender:''">>
+I knew you'd be glad to try this one. *giggles*<</speech>>
+She turns back and starts preparing the drink. After pouring a couple of liquids in, she puts the shot glass on the counter. It appears to be of a brownish muddy color.
+
+<<speech "You" "''$name:''">>
+Is this it?<</speech>>
+<<speech "nobody" "''Bartender:''">>
+Nope! It still needs the secret ingredient.<</speech>>
+She opens a small fridge under the counter and picks up a small bag containing some kind of white goo.
+
+<<speech "nobody" "''Bartender:''">>
+It's stored with vacuum packaging, so that it stays as fresh as possible. But from what I've tasted, the taste changes a bit with time. This is almost a week old, but looks just as good as fresh.<</speech>>
+She cuts one of the tips of the bag and pours some of the thick white goo right in on your drink.
+
+<div class="center"><img src="food/blobby0.jpg" width="50%"></div>
+<<speech "You" "''$name:''">>
+Um... so what did you say this ingredient actually was?<</speech>>
+<<speech "nobody" "''Bartender:''">>
+Oh, I didn't! That's part of the fun! I'll tell you the drink's name, though: Sticky Blobby!<</speech>>
+<<speech "You" "''$name:''">>
+(Sounds as stupid as it looks... I better try it quick, I don't want to miss too much of the show!)<</speech>>
+You take the glass and drink the whole thing in one big gulp.
+
+<<linkreplace "... ...">><span class="onomatopeya">GULP</span>
+
+The taste is mostly sweet, but with a hint of savoriness... you can't really figure out what it is. The texture is probably the weirdest part of it, since you have this liquid, which probably is Rum and something else, but then you have this white stuff that sticks a bit down your throat. It's not as bad as it looked, but you can't recall having that texture anywhere before.
+
+<<speech "nobody" "''Bartender:''">>
+Soooo?<</speech>>
+<<speech "You" "''$name:''">>
+I quite like the taste. The salty white stuff mixes well with the sweet alcohols... but the texture-<</speech>>
+<<speech "nobody" "''Bartender:''">>
+I know! Quite unique, huh? It's weird the first time, but it gets you hooked I'm telling ya! Here, have another one, I'll stirr this one a bit, so the secret ingredients gets mixed up a bit better.<</speech>>
+<div class="center"><img src="food/blobby1.jpg" width="35%"></div>
+This time it looks more like muddy watter. Certainly less appealing, but ot could feel better.
+
+<span class="onomatopeya">GULP</span>
+
+<<speech "You" "''$name:''">>
+Hummm... *slurp, slurp* Wow! It's really good!<</speech>>
+This time, the liquid has thickened thanks to the white stuff and now it all feels like one unique texture, which makes it easier to enjoy.
+
+<<speech "nobody" "''Bartender:''">>
+Better? *smiles*<</speech>>
+<<speech "You" "''$name:''">>
+Yeah, for sure! I'm just... maybe... missing some of the previous saltiness. It's probably a bit too sweet now.<</speech>>
+<<speech "nobody" "''Bartender:''">>
+I'll tell you what: YOU are sweet. *rubs your cheek* Yeah, I guess that makes sense. I put less "secretness" on this one, I don't have much to spare! The thing about this drink is the balance between both tastes. I guess there's no harm in just doing different versions. This last one could be the "light" one... Hey, would you like to try a "rough" one? All white?<</speech>>
+<<speech "You" "''$name:''">>
+(I could have some of that saltiness to counter the sweet for sure...) Yeah, sure!<</speech>>
+The bartender smiles and pours half a glass of the secret ingredient, no alcohol. Now that it's isolated you can perceive the smell.
+
+<div class="center"><img src="food/blobby2.jpg" width="50%"></div>
+<<speech "You" "''$name:''">>
+(Huh, that seems familiar...) Bottoms up!<</speech>>
+You drink the whole thing. This time it's harder to swallow since it's thicker, but the taste... the taste is mindblowing... your eyes open and your tonsils almost explode from overdose.
+
+<<speech "You" "''$name:''">>
+ *gulp, slurp, slurp* Humm... wow... this is some really good stuff...<</speech>>
+<<speech "nobody" "''Bartender:''">>
+I only work with the best quality ingredients... hehe...<</speech>>
+You raise the shot glass in front of your eyes, looking for some remnants to lick. Suddenly, she takes the glass away.
+
+<<speech "nobody" "''Bartender:''">>
+C'mon, didn't you want to go watch the show? Follow me.<</speech>>
+The bartender unlocks the lounge door and points to the stairs on the side of the stage.
+
+<<speech "nobody" "''Bartender:''">>
+Just go up those stairs, they'll lead you to the amphitheater. There you will be able to enjoy the rest of the show without being caught or anything. Go, go! I'll keep you informed about progress on the Sticky Blobby. *winks*<</speech>>
+[[Go up to the amphitheater|Show][$drankblobby to true]]<</linkreplace>><<audio "menus" stop>><<if ndef $mute>><<audio "party" unmute>><<else>><</if>>
+
+\\<<else>><img src="passengers/bartender.jpg" width="50%">
+
+<<speech "nobody" "''Bartender:''">>
+Hey, that was fast! Are you done?<</speech>>
+<<speech "You" "''$name:''">>
+Um... yea-<</speech>>
+<<speech "nobody" "''Bartender:''">>
+Come on, dude. I can smell the shit from here. Go back in there and finish the job.<</speech>>
+She goes back to cleaning the glasses.
+
+[[Return|Lounge]]<<audio "menus" stop>><<if ndef $mute>><<audio "party" unmute>><<else>><</if>><</if>><</if>>
+
+

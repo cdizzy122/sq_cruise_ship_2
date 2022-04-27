@@ -1,0 +1,79 @@
+:: Start working [textback] {"position":"1406,975","size":"100,100"}
+<<removeclass "html">><<addclass "html" "kitchen">><<if $cooklesson is 1>><<if $sf is 0>>
+<img src="classes/cook/bad1.gif" width="60%">
+
+You poorly wash the dishes and leave them half dirty.
+
+[[Lunch Time][$lunch to 0]]<<run $gameDate.setHours (15) and $gameDate.setMinutes (0)>>
+<<elseif $sf is 1>>
+<img src="classes/cook/good1.gif" width="60%">
+
+You effectively wash the dishes for two hours straight.
+
+[[Lunch Time][$lunch to 1]]<<run $gameDate.setHours (15) and $gameDate.setMinutes (0)>><</if>>
+<<elseif $cooklesson is 2>><<if $sf is 0>>
+<img src="classes/cook/bad2.gif" width="60%">
+
+You can't even chop a tomatoe, WTF...
+
+[[Lunch Time][$lunch to 0]]<<run $gameDate.setHours (15) and $gameDate.setMinutes (0)>>
+<<elseif $sf is 1>>
+<img src="classes/cook/good2.gif" width="60%">
+
+You succesfully chop all the onions on the basket.
+
+[[Lunch Time][$lunch to 1]]<<run $gameDate.setHours (15) and $gameDate.setMinutes (0)>>
+<</if>>
+
+
+
+\\<<elseif $cooklesson is 3>><<if $sf is 0>><div class="center"><span class="notless">NO POINTS, NO FOOD</span></div>
+You try your best to cook it well, but once you are finished and try it, you notice that you haven't put any salt in.
+
+<<speech "holli" "''Holli:''">>
+Hm... no good. The pasta has no salt, you need to salt the pasta water, $name.<</speech>>
+<span class="onomatopeya">BZZZZT</span>
+
+<<speech "You" "''$name:''">>
+Ow, ow, ow...<</speech>>
+<<speech "holli" "''Holli:''">>
+You need to start over, and no food for you today, obviously.<</speech>>
+
+<<speech "Giada" "''Giada:''">>
+Hahaha-<</speech>>
+<span class="onomatopeya">BZZZZT</span>
+
+<<speech "Giada" "''Giada:''">>
+Aaaah... fuck...<</speech>>
+<<speech "holli" "''Holli:''">>
+You can't afford to laugh, Giada. Keep on working. *rubs her ass* Hm...<</speech>>
+Although you try to finish the dish again, time is over before you can. So Holli takes the vibrating thong off and let's you go.
+
+<<speech "holli" "''Holli:''">>
+Be ready for next class, I hope you do better then.<</speech>>
+[[Deck 4]]<<run $gameDate.setHours (15) and $gameDate.setMinutes (0)>>
+<<elseif $sf is 1>><div class="center"><span class="notplus">POINTS +100, HUNGER +20</span></div>
+<<speech "holli" "''Holli:''">>
+Hm... good enough, I guess. You can eat it.<</speech>>
+Holli takes the vibrating thong off you as you take the dish you made and eat it on the counter.
+
+<<speech "Giada" "''Giada:''">>
+I'm done too...<</speech>>
+You take a look at her dish, and it certainly looks good, but Holli doesn't think the same.
+
+<<speech "holli" "''Holli:''">>
+Hm, sorry, Giada, but it's lacking... conviction. Start over.<</speech>>
+<<speech "Giada" "''Giada:''">>
+What? What do you mean?!<</speech>>
+<span class="onomatopeya">BZZZZT</span>
+
+<<speech "holli" "''Holli:''">>
+I said start all over again. Any complaints?<</speech>>
+<<speech "Giada" "''Giada:''">>
+Ow! N-no... (fuck you)<</speech>>
+<<speech "You" "''$name:''">>
+(Damn, I'm almost feeling sorry for her...)<</speech>>
+[[Deck 4][$points to $points +100, $hunger to $hunger +20]]<<run $gameDate.setHours (15) and $gameDate.setMinutes (0)>>
+<</if>><</if>><<audio "menus" stop>>
+
+

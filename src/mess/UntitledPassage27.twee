@@ -1,0 +1,18 @@
+:: Untitled Passage 27 {"position":"399,2029","size":"100,100"}
+<<set $badge to 1>>[[try]]
+
+[[Beauty Products][$beautyproduct to 0]]
+[[Beauty Products][$beautyproduct to 1]]
+[[Beauty Products][$beautyproduct to 2]]
+[[Beauty Products][$beautyproduct to 3]]
+[[Beauty Products][$beautyproduct to 4]]
+[[Beauty Products][$beautyproduct to 5]]
+[[Beauty Products][$beautyproduct to 6]]
+[[Beauty Products][$beautyproduct to 7]]
+[[Beauty Products][$beautyproduct to 8]]
+[[Beauty Products][$beautyproduct to 9]]
+[[Beauty Products][$beautyproduct to 10]]
+[[Beauty Products][$beautyproduct to 11]]
+[[Beauty Products][$beautyproduct to 12]]
+
+

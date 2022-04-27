@@ -1,0 +1,8 @@
+:: Romeportt [textback] {"position":"3069,510","size":"100,100"}
+<<removeclass "html">><<addclass "html" "rome">><<audio "rome" volume 0.4 play loop>><<audio "ship" stop>><span class="fade-ins"><div class="center"><img src="dockings/rome/porto.jpg" width="75%"></div></span>
+
+Such a beautiful little town. Rome is an hour and a half in bus from here...
+
+[[Go to port|Romeport]]<<if ndef $mute>><<audio "rome" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

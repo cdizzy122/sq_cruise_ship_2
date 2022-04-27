@@ -1,0 +1,44 @@
+:: Try a classic pick up line [textback] {"position":"2043,1595","size":"100,100"}
+<<removeclass "html">><<addclass "html" "lounge">>After a few seconds of silence, finally something comes to mind:
+
+<<speech "You" "''$name:''">>
+Did it hurt when you fell from heaven?<</speech>>
+Instant regret floods you as you feel the awkwardness in the air...
+
+<<speech "nobody" "''Woman:''">>
+My god. This has to be one of the worst pick up lines I've ever heard dude. You really need to turn up your game, let me tell you...I think we have to go, don't we girls?<</speech>>
+They all look at you like a weirdo and walk away from the couch to the bar. They leave you there, alone and wondering if going on this trip was a mistake. You also think about $gfname. 
+
+<<speech "You" "''$name:''">>
+(She was so upset...if she knew about me being here with more than a hundred women she'd be even more pissed. I should at least call her and talk to her. I miss her...$gfname...)<</speech>>
+<<speech "tara" "''???:''">>
+I saw your move there.<</speech>>
+<img src="tara/taradark.jpg" width="60%">
+
+<<speech "tara" "''???:''">>
+Don't mind those bitches. They are that mean to everyone, it's not about you, honey...<</speech>>
+<<speech "You" "''$name:''">>
+Yeah, they don't seem kind.<</speech>>
+<<speech "tara" "''???:''">>
+Hey, you know, it's nice to see a boy that is not always trying to be manly. There's nothing wrong with not being an alpha, right? My name is Tara, nice to meet you.<</speech>>
+<<speech "You" "''$name:''">>
+Hi...<</speech>>
+<<speech "tara" "''Tara:''">>
+Hey... what do you say if we get out of here?<</speech>>
+<<speech "You" "''$name:''">>
+(Is...is she really saying what I think she is?) Um...I...<</speech>>
+<<speech "tara" "''Tara:''">>
+Oh, come on, sweetie... *She bites her lip and grabs your hand*<</speech>>
+<img src="tara/tarabite.gif" width="60%">
+
+<<speech "tara" "''Tara:''">>
+FOLLOW ME...<</speech>>
+<<speech "You" "''$name:''">>
+(Oh fuck, how is this happening to me? Is this some kind of dream?)<</speech>>
+She pulls you through the crowd to the door. Now that you see her standing in front of you, you notice that she's taller than you. Like top model tall. She kind of makes you feel small, but she's so hot that you can't barely stand it. Her perfume is intoxicating that as she pulls your arm through the girl-crowd you are almost asphyxiating in.
+
+Finally you two get out of the Lounge, and looking at you, she drives you to the elevator.<<addmins 15>>
+
+<<click "Elevator" "elevator2">><<audio "myroom" volume 0.2 play>><</click>><<audio "menus" stop>><<if ndef $mute>><<audio "party" unmute>><<else>><</if>>
+
+

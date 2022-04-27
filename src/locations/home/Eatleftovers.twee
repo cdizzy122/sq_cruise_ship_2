@@ -1,0 +1,8 @@
+:: Eat leftovers [textback] {"position":"391,685","size":"100,100"}
+<<if ndef $mutefx>><<audio "eat" play>><<else>><</if>><img src="food/leftovers.jpg" width="70%">
+
+Yummy and satisfying. You feel full of energy but a little heavy.
+
+[[Kitchen]]<<set $eat to true>><<addmins 5>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() gte 8 and $gameDate.getMinutes() gte 30>><<goto "Emergency">><<else>><</if>><<else>><</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

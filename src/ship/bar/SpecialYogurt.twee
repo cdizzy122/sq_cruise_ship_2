@@ -1,0 +1,9 @@
+:: Special Yogurt [noreturn] {"position":"156,1568","size":"100,100"}
+<img src="food/yogurt.jpg" width="70%">
+
+The bartender's special yogurt recipe. It's not too bitter, a little salty though... ''(LUST +50, SUB +3, INT -2, FEM +2, HUNGER +60)''
+
+<<click "Eat" "Inventory">><<set $specialyogurt to $specialyogurt -1>><<set $lust to $lust +50>><<set $sub to $sub +3>><<set $int to $int -2>><<set $fem to $fem +2>><<set $hunger to $hunger +60>><</click>>
+[[Return|Inventory]]
+
+

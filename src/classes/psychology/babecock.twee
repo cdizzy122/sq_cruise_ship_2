@@ -1,0 +1,137 @@
+:: babecock [textback] {"position":"1564,397","size":"100,100"}
+<<if $babecock is 0>><<nobr>><html>
+<title>MEMORY TEST</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+<h2 class="w3-center">MEMORY TEST</h2>
+<div class="w3-content w3-display-container">
+<div class="right"><span class="button"><button class="w3-button w3-red w3-display-right" onclick="plusDivs(1)">&#10095;</button></span></div>
+
+
+
+
+
+
+
+  <img class="mySlides" src="babecock/anna.jpg" style="width:100%">
+  <img class="mySlides" src="babecock/ari.jpg" style="width:110%">
+  <img class="mySlides" src="babecock/bella.jpg" style="width:100%">
+  <img class="mySlides" src="babecock/chloe.jpg" style="width:100%">
+  <img class="mySlides" src="babecock/clarke.jpg" style="width:90%">
+  <img class="mySlides" src="babecock/emma.jpg" style="width:105%">
+  <img class="mySlides" src="babecock/eva.jpg" style="width:95%">
+  <img class="mySlides" src="babecock/jlaw.png" style="width:95%">
+  <img class="mySlides" src="babecock/keira.jpg" style="width:90%">
+  <img class="mySlides" src="babecock/kim.jpg" style="width:90%">
+  <img class="mySlides" src="babecock/megan.jpg" style="width:90%">
+  <img class="mySlides" src="babecock/mila.png" style="width:80%">
+  <img class="mySlides" src="babecock/robbie.jpg" style="width:105%">
+  <img class="mySlides" src="babecock/stone.jpg" style="width:105%">
+  <img class="mySlides" src="babecock/swift.jpg" style="width:100%">
+</div>
+
+<div class="center">[[Finish memorizing|babecock][$babecock to 2]]</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script></body><</nobr>>
+
+
+
+
+
+
+
+
+<<elseif $babecock is 1>><<nobr>><html>
+<title>MEMORY TEST</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+<h2 class="w3-center">MEMORY TEST</h2>
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="" style="width:100%">
+  <img class="mySlides" src="" style="width:100%">
+  <img class="mySlides" src="" style="width:100%">
+  <img class="mySlides" src="" style="width:100%">
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script></body><</nobr>>
+
+
+
+
+
+
+
+
+<<elseif $babecock is 2>><<speech "psycho" "''Jada:''">>
+Ok, got it? Now it's time for the second phase, ready?<</speech>>
+<<speech "You" "''$name:''">>
+I think so...<</speech>>
+[[Match|phase2]]<<elseif $babecock is 3>><<audio "babecock" stop>><<audio "dreams" volume 0.7 loop play>><<if $correct lte 7>><<speech "psycho" "''Jada:''">>
+That was kind of a disaster... you only managed to recognize <<print $correct>> out of 15 images. You should learn to be more observant, $name. I will talk to Holli about this, you will need some suplements in your nutrition plan. For now I'm just going to let you go.
+
+Ah! Ms.Foster and me have put together a neat compilation of books and magazines in the ''Library''. Reading some of the articles could help you with your... personal growth.<</speech>>
+<<click "Finish" "Deck 8">><<audio "dreams" stop>><<set $jada to 2>><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><<set $rread to true>><</click>><<elseif $correct gt 7 and $correct lte 14>><<speech "psycho" "''Jada:''">>
+That wasn't too bad, was it? How did you feel?<</speech>>
+<<speech "You" "''$name:''">>
+Um... I'm not sure about some of them, but I think some might be okay...<</speech>>
+<<speech "psycho" "''Jada:''">>
+Well, you got <<print $correct>> out of 15, so although it is not perfect, you did good enough. If you develop a perfect awareness you will be able to understand women better, even feel what they feel. I will let Holli know about this, she may want you to take some of her suplements.
+
+Ah! Ms.Foster and me have put together a neat compilation of books and magazines in the ''Library''. Reading some of the articles could help you with your... personal growth.<</speech>>
+<<click "Finish" "Deck 8">><<audio "dreams" stop>><<set $jada to 2>><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><<set $rread to true>><</click>><<elseif $correct is 15>><<speech "psycho" "''Jada:''">>
+Wow, you are very good at this! You even got a perfect score! 15 out of 15. I didn't expect you to get them all, but I guess that the cards being about pretty girls really got you motivated, huh? *smiles*<</speech>>
+Jada looks at you with a grin on her face and makes you feel uncomfortable.
+<<speech "You" "''$name:''">>
+Um... no, it's just that I concentrate and...<</speech>>
+<<speech "psycho" "''Jada:''">>
+Oh, I see... so it's not the girls, huh? *writes on notebook* I'm glad to tell you that your treatments are going well for now, keep up the good work, $name! I will let Holli know about this, she may want you to take some of her suplements. Although your awareness is already good enough, it wouldn't hurt.
+
+Ah! Ms.Foster and me have put together a neat compilation of books and magazines in the ''Library''. Reading some of the articles could help you with your... personal growth.<</speech>>
+<<click "Finish" "Deck 8">><<audio "dreams" stop>><<set $jada to 2>><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><<set $rread to true>><</click>><</if>><</if>><<audio "menus" stop>><<audio "fireplace" stop>>
+
+

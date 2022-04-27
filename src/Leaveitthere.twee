@@ -1,0 +1,8 @@
+:: Leave it there [textback] {"position":"1098,219","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">>Smart boy! You did the right thing. Otherwise she would have probably known that you had entered her room.
+
+<img src="stuff/smart.gif" width="60%">
+
+[[Return|Underwear drawer]]<<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

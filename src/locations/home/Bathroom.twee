@@ -1,0 +1,9 @@
+:: Bathroom [textback] {"position":"567,139","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><div class="center"><img src="places1/bathroom.jpg" width="70%">
+
+[[Shower]]
+<<if $eat is true>>[[Brush teeth]]<<else>><<linkreplace "Brush teeth">>First eat. Then brush teeth.<</linkreplace>><</if>>
+
+[[Hall]]</div><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() gte 8 and $gameDate.getMinutes() gte 30>><<goto "Emergency">><<else>><</if>><<else>><</if>><<if ndef $mute>><<audio "menus" stop>><<audio ":back" unmute>><<else>><</if>>
+
+

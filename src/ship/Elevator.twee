@@ -1,0 +1,36 @@
+:: Elevator↕️ [noreturn textback] {"position":"1291,692","size":"100,100"}
+<<removeclass "html">><<addclass "html" "elevator">><<if $startclasses is true>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] isnot "Sun" and $gameDate.getHours() gte 8 and $gameDate.getHours() lt 11>><span class="fade-in-out"><span class="ad">GYM CLASS 9-11
+(DECK 7)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] isnot "Sun" and $gameDate.getHours() gte 11 and $gameDate.getHours() lt 13>><span class="fade-in-out"><span class="ad">CAPTAIN T CLASS 11-13
+(DECK 3)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] isnot "Sun" and $gameDate.getHours() gte 13 and $gameDate.getHours() lt 15>><span class="fade-in-out"><span class="ad">COOKING CLASS 13-15
+(DECK 4)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Mon" and $gameDate.getHours() gte 17 and $gameDate.getHours() lt 20>><span class="fade-in-out"><span class="ad">ANATOMY CLASS 17-20
+(LIBRARY)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Tue" and $gameDate.getHours() gte 17 and $gameDate.getHours() lt 20>><span class="fade-in-out"><span class="ad">STYLING CLASS 17-20
+(DECK 2)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Wed" and $gameDate.getHours() gte 17 and $gameDate.getHours() lt 20>><span class="fade-in-out"><span class="ad">PSYCHOLOGIST 17-20
+(DECK 8)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Thu" and $gameDate.getHours() gte 17 and $gameDate.getHours() lt 20>><span class="fade-in-out"><span class="ad">SAILING CLASS 17-20
+(DECK 9)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Fri" and $gameDate.getHours() gte 17 and $gameDate.getHours() lt 20>><span class="fade-in-out"><span class="ad">HEALTH REVIEW 17-20
+(DECK 8)</span></span><</if>><<else>><</if>><span class="deck"><div class="center">''ELEVATOR''</div></span><<if $stage is 1>><div class="center"><img src="places2/elevator.jpg" width="60%">
+OUT OF ORDER.
+<span class="fade-in-out">Go to the party!</span>
+
+[[Return|$return]]</div><<elseif $stage is 2>><div class="center"><img src="places2/elevator.jpg" width="60%">
+OUT OF ORDER.
+<span class="fade-in-out">Go to the stage!</span></div>
+[[Return|$return]]<<elseif $stage is 0>><<if $godown is true>>
+<div class="center"><img src="places2/elevator.jpg" width="60%">
+
+[[Deck 8]] | [[Deck 9]]
+[[Deck 6]] | [[Deck 7]]
+[[Deck 4]] | [[Deck 5]]
+[[Deck 2]] | [[Deck 3]]
+[[Deck 1]]</div>
+<<return>><<else>>
+<div class="center"><img src="places2/elevator.jpg" width="60%">
+
+[[Deck 8]]  |  [[Deck 9]]
+[[Deck 6]] | [[Deck 7]]
+[[Deck 4]] | [[Deck 5]]
+[[Deck 2]] | [[Deck 3]]
+Deck 1
+(only Lvl 1 staff members)</div>
+[[Return|$return]]<</if>><</if>><<nobr>><<if $gameDate.getHours() is 0 or $gameDate.getHours() lt 8>><<goto [[Dreams]]>><<else>><</if>><</nobr>><<audio "ship" mute>><<audio "elevator" volume 0.3 play loop>><<audio "menus" stop>><<audio "deck9" stop>><<if ndef $mute>><<audio "elevator" unmute>><<else>><</if>>
+
+

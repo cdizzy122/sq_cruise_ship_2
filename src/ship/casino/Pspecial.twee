@@ -1,0 +1,7 @@
+:: Pspecial {"position":"3198,837","size":"100,100"}
+You are granted an acces card to the Poker VIP table. Show it to the guard to enter the Poker table.
+
+This card does not grant you acces to other VIP games.<<set $pvip to true>>
+[[OK|Poker]]
+
+

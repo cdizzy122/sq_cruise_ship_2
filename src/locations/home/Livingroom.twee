@@ -1,0 +1,7 @@
+:: Living room [textback] {"position":"342,316","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><div class="center"><img src="places1/livingroom.jpg" width="90%">
+
+[[Watch TV]]</div>
+[[Return|Hall]]<<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() gte 8 and $gameDate.getMinutes() gte 30>><<goto "Emergency">><<else>><</if>><<else>><</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

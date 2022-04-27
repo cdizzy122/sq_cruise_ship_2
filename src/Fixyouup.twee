@@ -1,0 +1,92 @@
+:: Fix you up [noborder textback] {"position":"1905,1511","size":"100,100"}
+<<removeclass "html">><<addclass "html" "cherry">>Cherry takes you to the bathroom and undresses you completely. Tara gets in too, watching with a smile.
+
+<<speech "style" "''Cherry:''">>
+Oh, by the way Tara... she's such a cutie... and that little cage... we should talk about the color, but I won't deny, it suit "her" very well.<</speech>>
+<<speech "tara" "''Tara:''">>
+ *sigh* I know... she's kind of a hard work sometimes... but it definitely pays of... *bites lips*<</speech>>
+Your cheeks turn red because of their compliments.
+
+<<if $tprofile is 1>><<speech "style" "''Cherry:''">>
+Anyway, enough with this. Let me customize you a bit, honey.<</speech>>
+After half an hour of moving you around and changing from one piece of clothing to another, she lets you see yourself in the mirror.
+
+<<speech "You" "''$name:''">>
+But... I don't look more-<</speech>>
+<<speech "style" "''Cherry:''">>
+Manly? Yeah, well, I work with what I got. And like I said the first week: you need to enhance your natural attributes.<</speech>>
+<<speech "tara" "''Tara:''">>
+Look, honey. If that black thot thinks you aren't cute enough for her, she's the one who has a problem, I'll say that...<</speech>>
+Tara slaps your ass and they both laugh.
+
+<<speech "tara" "''Tara:''">>
+Anyway, you've got to get going honey. I'll take you outside.<</speech>>
+Tara leads you to the reception and the outside door.
+
+<<speech "You" "''$name:''">>
+Will... will you be coming too?<</speech>>
+You realize how childish you sound right now, but it really is strange how no matter where you are, you don't see any of these women out the ship... probably a question that Anastasia might answer...
+
+<<speech "tara" "''Tara:''">>
+Oh, honey, not today... *kiss on the forehead* Stay safe and have fun!<</speech>>
+[[Go to the port|Romeportt]]
+
+
+
+\\<<elseif $tprofile is 2>><<speech "style" "''Cherry:''">>
+Anyway, enough with this. Let me customize you a bit, honey.<</speech>>
+After half an hour of moving you around and changing from one piece of clothing to another, she lets you see yourself in the mirror.
+
+<<speech "You" "''$name:''">>
+But... I don't look more-<</speech>>
+<<speech "style" "''Cherry:''">>
+buff? Yeah, well, I work with what I got. And like I said the first week: you need to enhance your natural attributes.<</speech>>
+<<speech "tara" "''Tara:''">>
+Hey, $name. Don't be mad at Cherry for not being able to cover your body. This is what you are, and you've got to show it as well as you can. If that girl can't see a "good guy" in you, maybe she isn't looking for one on the first place.<</speech>>
+Despite the motivational speech, Tara slaps your ass and they both laugh.
+
+<<speech "tara" "''Tara:''">>
+Anyway, you've got to get going honey. I'll take you outside.<</speech>>
+Tara leads you to the reception and the outside door.
+
+<<speech "You" "''$name:''">>
+Will... will you be coming too?<</speech>>
+You realize how childish you sound right now, but it really is strange how no matter where you are, you don't see any of these women out the ship... probably a question that Anastasia might answer...
+
+<<speech "tara" "''Tara:''">>
+Oh, honey, not today... *kiss on the forehead* Stay safe and have fun!<</speech>>
+[[Go to the port|Romeportt]]
+
+
+
+
+\\<<elseif $tprofile is 3>><<speech "style" "''Cherry:''">>
+Anyway, enough with this. Let me customize you a bit, honey.<</speech>>
+After a whole hour of moving you around and changing from one piece of clothing to another, she lets you see yourself in the mirror.
+
+<div class="center"><img src="dockings/rome/mirror.jpg" width="50%"></div>
+<<speech "You" "''$name:''">>
+What?! I look like a-<</speech>>
+<<speech "style" "''Cherry:''">>
+slut? Hahaha Well, thanks! That's what I was aiming for!<</speech>>
+<<speech "tara" "''Tara:''">>
+You work magic, Cherry! Wow, I'm barely able to recognize you. I don't know if I would be able to tell that you have a caged cock...<</speech>>
+<<speech "You" "''$name:''">>
+Oh, no...<</speech>>
+You are constantly touching your red wig and complaining about it, so Cherry finally says something.
+
+<<speech "style" "''Cherry:''">>
+Look, $name. If you take off your wig, it is obvious you are a boy dressed as a girl. So you can take it off until you get to the date if you want.<</speech>>
+<<speech "tara" "''Tara:''">>
+That's a good idea! There, just carry it with you.<</speech>>
+Tara holds you and leads you to the reception and on to the outside door.
+
+<<speech "You" "''$name:''">>
+Will... will you be coming too?<</speech>>
+You realize how childish you sound right now, but it really is strange how no matter where you are, you don't see any of these women out the ship... probably a question that Anastasia might answer...
+
+<<speech "tara" "''Tara:''">>
+Oh, honey, not today... *kiss on the forehead* Stay safe and have fun!<</speech>>
+[[Go to the port|Romeportt]]<</if>>
+
+

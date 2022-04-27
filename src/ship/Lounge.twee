@@ -1,0 +1,14 @@
+:: Lounge [textback] {"position":"2038,1280","size":"100,100"}
+<<removeclass "html">><<addclass "html" "lounge">><<if ndef $lounge>><<audio "ship" stop>><<audio "stage1" stop>><<audio "party" loop play>><img src="places2/lounge.jpg" width="90%">
+
+[[Have a drink]]
+[[Try to talk to someone]]
+[[Go to the bathroom]]<<audio "menus" stop>><<if ndef $mute>><<audio "party" unmute>><<else>><</if>>
+
+
+\\<<elseif $lounge gte 0>><<audio "ship" stop>><<audio "stage1" stop>><<audio "party" loop play>><img src="places2/lounge.jpg" width="90%">
+
+[[Have a drink]]
+[[Go to the bathroom]]<<audio "menus" stop>><<if ndef $mute>><<audio "party" unmute>><<else>><</if>><</if>>
+
+

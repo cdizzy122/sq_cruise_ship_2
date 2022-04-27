@@ -1,0 +1,233 @@
+:: GF's work [textback] {"position":"848,735","size":"100,100"}
+<<if ndef $gfwork>><<removeclass "html">><<addclass "html" "street">><div class="center"><img src="places1/startbuilding.jpg" width="100%"></div>
+<<speech "You" "''$name'':">>
+(Wow...)<</speech>>
+Although $gfname has been working here for 2 weeks now, she didn't tell you how impressive the building was. There's a title on one of the sides of it:
+
+<div class="center"><span class="pink"><font size="+2">''FRITZ COSMETICS''</font></span></div>
+<<speech "You" "''$name'':">>
+(This must be it...)<</speech>>
+[[Get inside|GF's work][$gfwork to 0]]
+
+
+
+
+\\<<elseif $gfwork is 0>><<audio "touriststalk" stop>><<removeclass "html">><<addclass "html" "home">>As you get in, you go straight to the front desk.
+
+<div class="center"><img src="places1/frontdesk.jpg" width="50%"></div>
+<<speech "nobody" "''Receptionist'':">>
+ *fake smile* Hello sir, how can I help you?<</speech>>
+<<speech "You" "''$name'':">>
+(Jesus, why is she smiling so much...) Yeah, um... my girlfriend works here. I just came to bring her lunch.<</speech>>
+<<speech "nobody" "''Receptionist'':">>
+Really? Aww... that's cute!<</speech>>
+<<speech "You" "''$name'':">>
+Uh, yeah, thanks...<</speech>>
+<<speech "nobody" "''Receptionist'':">>
+Where are all the good men, huh? Am I right? She is a lucky girl...<</speech>>
+You smile confidently.
+
+<<speech "You" "''$name'':">>
+Oh, well... thanks! I'm sure you'll find a good one yourself.<</speech>>
+You stand there, waiting for the conversation to be over so you can actually take the food to $gfname, but she seems to be in a talkative mood.
+
+<<speech "nobody" "''Receptionist'':">>
+Yeah, I mean, I'm actually happy with my love life you know... it's just that I sometimes look at other people's lives and I think to myself: "Now that's stability!" I can't remember the last time I had a boyfriend for more than 2 months! Well, actually, I never have...<</speech>>
+She keeps going on and on, talking about her life. You stand there with a smile on, but you can feel the clock ticking and $gfname getting hungry.
+
+<<speech "You" "''$name'':">>
+Um... excuse me. I don't mean to come out rude, but I really need to deliver this food to my girl. Can you please tell me where she is?<</speech>>
+The receptionist stares at you for a moment, visibly annoyed.
+
+<<speech "nobody" "''Receptionist'':">>
+Oh, sure... *ahem* (wanker) *ahem* Her name?<</speech>>
+You hear her clearly, but decide to just smile and brush it off.
+
+<<speech "You" "''$name'':">>
+She's $gfname. I believe she's in marketing.<</speech>>
+<<speech "nobody" "''Receptionist'':">>
+Let me take a look...<</speech>>
+She purposely takes her time with the keyboard, typing as slow as you've ever seen a human type.
+
+<<speech "nobody" "''Receptionist'':">>
+Her place is at the 2nd floor, but she must be in a meeting the 8th floor right now.<</speech>>
+<<speech "You" "''$name'':">>
+Okay thanks!<</speech>>
+<<speech "nobody" "''Receptionist'':">>
+ *ahem* (twat) *ahem*<</speech>>
+You look back and she gives you a fake smile in return.
+
+<<speech "You" "''$name'':">>
+(Whatever...)<</speech>>
+[[Into the elevator|GF's work][$gfwork to 1]]
+
+
+
+
+\\<<elseif $gfwork is 1>><<removeclass "html">><<addclass "html" "elevator">><<audio "touriststalk" stop>><div class="center"><img src="places1/startelevator.jpg" width="60%"></div>
+<<speech "nobody" "''Suited man'':">>
+Hi, are you going up?<</speech>>
+<<speech "You" "''$name'':">>
+... Yes.<</speech>>
+You quickly step in the elevator.
+
+<<speech "nobody" "''Suited man'':">>
+Department?<</speech>>
+<<speech "You" "''$name'':">>
+Oh, um, marketing.<</speech>>
+<<speech "nobody" "''Suited man'':">>
+Right.<</speech>>
+After an uncomfortable silence, the elevator stops.
+
+<<speech "nobody" "''Suited man'':">>
+Your floor.<</speech>>
+<<speech "You" "''$name'':">>
+Oh, thanks. *smile*<</speech>>
+<<linkreplace "Step out">><<removeclass "html">><<addclass "html" "home">><div class="center"><img src="places1/startoffice.jpg" width="65%"></div>
+A bit confused you look back at the floor number, just to see a 2.
+
+<<speech "You" "''$name'':">>
+(Oh, great...)<</speech>>
+Before you can even call the elevator back to get to the 8th floor, someone approaches you.
+
+<div class="center"><img src="places1/coworker.jpg" width="50%"></div>
+<<speech "nobody" "''co-worker'':">>
+Oh hey, you must be $gfname's boyfriend, right? She told me you might be coming. She's on a meeting with the boss at his office, but now that you're here you can go and wait at her post. Here, I'll take you there.<</speech>>
+<<speech "You" "''$name'':">>
+Oh, okay.<</speech>>
+You follow her through the other posts until you arrive to $gfname's.
+
+<<speech "nobody" "''co-worker'':">>
+There, she should be back in a minute. *looks at her watch* She should be out by now...<</speech>>
+She walks away.
+
+<div class="center"><span class="noborder"><img src="places1/startdesk.png" width="60%"></span></div>
+<<speech "You" "''$name'':">>
+(Well...)<</speech>>
+You leave the bag on the the table and sit down. After a few seconds you start getting bored and curious, which is a dangerous combination.<<set $gfbag to false, $gflunchquest to "Finished">>
+
+[[Open the drawer|GF's work][$gfwork to 3]]
+[[Check post-it notes|GF's work][$gfwork to 4]]<</linkreplace>>
+
+
+
+
+\\<<elseif $gfwork is 2>><<audio "touriststalk" stop>><div class="center"><span class="noborder"><img src="places1/startdesk.png" width="60%"></span></div>
+$gfname's work desk...
+
+[[Open the drawer|GF's work][$gfwork to 3]]
+[[Check post-it notes|GF's work][$gfwork to 4]]
+
+
+
+
+\\<<elseif $gfwork is 3>><div class="center"><img src="places1/startdrawer.jpg" width="63%"></div>
+All you can see are some tampons, paper, pens and a change of panties... nothing unusual for an office.
+
+<<if $checkgfdrawer is true>><<speech "You" "''$name'':">>
+(Thank god, no dildo this time... although the panties are not that normal either)<</speech>><<else>><<speech "You" "''$name'':">>
+(The panties are not that normal...)<</speech>><</if>>
+
+[[Return|GF's work][$gfwork to 2]]
+
+
+
+
+
+\\<<elseif $gfwork is 4>><<audio "touriststalk" stop>><div class="center"><img src="stuff/password0.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(It looks like just some notes...)<</speech>>
+You keep looking through some post-its, but they all look similar. She has definitely been busy here, you can tell... When you leave the bloc on the table again, you notice there's another post-it sticked on the back of the computer.
+
+<<linkreplace "Reach for it">>You take a look at what's on it.
+
+<div class="center"><span class="noborder"><img src="stuff/password.png" width="40%"></span></div>
+<<speech "You" "''$name'':">>
+(What...? Passcodes? Why would anyone leave this out here for everyone to see...? And her laptop's is... ''moreinchnoflinch''...? whatever that means...)<</speech>>
+Although you don't like looking at this, you memorize them and put the post-it back in place.<<set $laptopquest to "1/2 done", $badge to $badge +1>>
+
+[[Return|GF's work][$gfwork to 5]]<</linkreplace>>
+
+
+
+\\<<elseif $gfwork is 5>><<audio "touriststalk" stop>><div class="center"><span class="rumbleshort"><img src="gf/work1.jpg" width="50%"></span></div>
+<<speech "gfd" "''$gfname:''">>
+Oh, hey, you came. *smiles*<</speech>>
+<<speech "You" "''$name:''">>
+I told you I would. *smile back*<</speech>>
+You stand up, trying to greet her in some way, but your relationship is so cold right now that you don't even know if she will be up for it. Fortunately, she is the one who comes closer and gives you a big hug.
+
+<<speech "gfd" "''$gfname:''">>
+Thank you so much...<</speech>>
+You hadn't noticed before, but her scent and clothes are very sexy. It's been a while since you two had any sex and you are certainly starting to feel it.
+
+<<speech "gfd" "''$gfname:''">>
+ *looks down* Oh... hahahaha<</speech>>
+You look down as well, just to see your penis head poking your pants a bit.
+
+<<speech "You" "''$name:''">>
+ *smile* I'm sorry, I can't help it honey.<</speech>>
+<<speech "gfd" "''$gfname:''">>
+I know you... it's not a surprise. *she lets go* So, did you find my pasta on the counter?<</speech>>
+She opens the bag to check.
+
+<<if $gflunchbag is "saucy">><<speech "gfd" "''$gfname:''">>
+Oh, you even added some sauce? *stares at you* You are a sweetie...<</speech>>
+Your smile widens.
+
+<<speech "You" "''$name:''">>
+I knew you would like it.<</speech>>
+<<elseif $gflunchbag is "plain">><<speech "gfd" "''$gfname:''">>
+Oh, it's plain... now I remember, I wanted to add some sauce but didn't have enough time. Oh, well, at least I got something to eat.<</speech>><</if>>
+She takes the tupperware out the bag and puts it on the table, preparing to take it to the cafeteria to re-heat. You decide it's a good move to keep the conversation going, she's in a good mood.
+
+<<speech "You" "''$name:''">>
+So, you just came from a meeting upstairs, right? How was that?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Um... very hard actually... the boss is... well... bossing around for sure. It's just that the pace is not easy at all, the company is wanting to change the whole brand after this summer.<</speech>>
+<<speech "You" "''$name:''">>
+A whole brand change? In 2 months?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+I know, it's just impossible. That's the issue here. But I'm trying to negociate with the boss, trying to soften his hard heart... *her eyes wander around*<</speech>>
+<<speech "You" "''$name:''">>
+Oh... now I get why you've had such a rough 2 weeks. And you have any help with that?<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Sure, I do. But since I'm the director of the department, it's all on me. It just feels like... *whoosh*<</speech>>
+<div class="center"><img src="gf/work2.gif" width="50%"></div>
+You're a bit confused by the gesture itself, but you laugh with her.
+
+<<speech "You" "''$name:''">>
+Hahahaha<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Yeah... it's just too much on my face...<</speech>>
+You both stare at each other, smiling. Seems like you're finally starting to re-connect. You don't want to ruin it.
+
+<<speech "You" "''$name:''">>
+Well honey, I better let you concentrate then.<</speech>>
+<<speech "gfd" "''$gfname:''">>
+Hey... come here...<</speech>>
+You come closer to her as she hugs you again, this time pressing your semi-hard penis against her tummy. She caresses your head as she whispers into your ear.
+
+<<speech "gfd" "''$gfname:''">>
+I'll see you tonight.<</speech>>
+She lets you go with a sexy smile on her face.
+
+<<speech "You" "''$name:''">>
+See you later. *smile* (That went great!)<</speech>>
+You head back to the elevator and press the ground floor button. Just as the doors are closing, you see $gfname opening her drawer and taking out some panties before heading to the bathroom. You just frown, confused.
+
+[[Ground floor|GF's work][$gfwork to 6, $gflunch to false]]
+
+
+
+
+\\<<elseif $gfwork is 6>><<audio "touriststalk" stop>><div class="center"><img src="places1/frontdesk.jpg" width="50%"></div>
+<<speech "nobody" "''Receptionist'':">>
+Did you manage to find her?<</speech>>
+<<speech "You" "''$name:''">>
+Yeah, she's all served now. *smile* Thanks! *wave as you walk out*<</speech>>
+<<speech "nobody" "''Receptionist'':">>
+ *indiferent face* Happy for you... *taps keyboard*<</speech>>
+[[Get out|Go to city][$newroom to true, $nogetout to true]]<</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>>
+
+

@@ -1,0 +1,227 @@
+:: Look around [noborder textback] {"position":"2039,1912","size":"100,100"}
+<<if ndef $tararoom>><img src="places2/tararoom.jpg" width="70%">
+
+<<set $seconds to 10>>\
+HURRY! --> <span id="countdown">$seconds</span>\
+<<silently>>
+	<<repeat 1s>>
+		<<set $seconds to $seconds - 1>>
+		<<if $seconds gt 0>>
+			<<replace "#countdown">>$seconds<</replace>>
+		<<else>>
+			<<replace "#countdown">>She's coming<</replace>>
+			/* do something useful here */
+			<<stop>>
+		<</if>>
+	<</repeat>>
+<</silently>>
+
+[[Wardrobe|wardrobe 2]]
+[[Bed drawer]]
+[[Door]]<<timed 10s>><<goto "The bathroom door opens">><</timed>><<elseif $tararoom is 0>>You knock on her door. Nobody answers. You decide to get it and snoop for a while.
+
+<img src="places2/tararoom.jpg" width="70%">
+
+[[Wardrobe|wardrobe 2]]
+[[Bed drawer]]
+[[Door]]
+
+
+\\<<elseif $tararoom is 1>><span class="rumbleshort">As you go through deck 3 you hear some subtle intermitent moaning...
+
+<span class="onomatopeya">SQUEAL</span>
+<<speech "nobody" "''???'':">>
+Ow, ow, ow! It's too much...<</speech>>
+You hear the sound coming from Tara's room and decide to investigate. As you walk towards the door, you notice it is ajar...
+
+[[Peek|Look around][$tararoom to 2]]
+
+\\<<elseif $tararoom is 2>><div class="center"><span class="fade-ins"><img src="quest12/etheldildo1.jpg" width="60%"></span></div>
+<<speech "You" "''$name'':">>
+Is that... Ethel?<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel'':</span>
+Ah, ah, ah... *whipers* shit...<</speechpatreon>>
+You are shocked by the size of the thing Ethel's taking, and also by how much she's enjoying it, even though it's also hurting her... You take a step closer and crouch, opening the door a bit more.
+
+<<speech "You" "''$name'':">>
+(Wow... that's amazing. But... where's Tar-)<</speech>>
+<span class="onomatopeya">KNOCK KNOCK</span>
+
+Suddenly, Tara appears above you with a big smile on her face.
+
+<div class="center"><img src="quest12/tarasmile.jpg" width="60%"></div>
+<<speech "tara" "''Tara'':">>
+Look who's coming to visit, Ethel!<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel'':</span>
+ *gasp* What!?<</speechpatreon>>
+Tara closes the door behind you and pushes you gently towards Ethel.
+
+<<speech "tara" "''Tara'':">>
+Have a seat, honey! Ethel is just trying to prepare for next week, you know... for the big guys. *giggles*<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel'':</span>
+I-it hurts, it's too much!<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+No, no. That's just 8 inches! You need to stretch it up a bit more, sweetie... God... what's up with you both! *she looks at you too* Your holes are as tight as a hose! You guys need to loosen up, or you will get recked, I'm telling you...<</speech>>
+Your palms get sweaty as you think of a man trying to fuck your tiny holes.
+
+<<speech "You" "''$name'':">>
+(OMG I don't think I'll be able to handle anything that big! <span class="pink">Although it could be... fun to try...</span> *ehem* b-by myself, of course...)<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel'':</span>
+I know, but- Ow!<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+Oh, god... Of course it's hurting! What did I tell you? You need to use a good amount of lube for that! *sigh*<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel'':</span>
+The bottle is empty! Ow!...<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+ *rolls her eyes* $name, honey, would you be so kind to bring this girl some more lube from the sex shop. I know I sometimes can complain about you not complying to my requests... but this girl is another level! I sure hope some strong man takes care of you, miss, because I'm not training you for the whole cruise!<</speech>>
+Tara gives you ''100 points'' to spend on the Silicone based lube.<<set $points to $points +100>>
+
+<<speech "tara" "''Tara'':">>
+Don't worry, I'll give you ''100'' extra points when you come back. *winks and says goodbye*<</speech>>
+[[Return|Deck 3][$lubequest to "Active"]]
+
+
+
+\\<<elseif $tararoom is 3>><<if $oilylube is true>><span class="rumbleshort"><span class="onomatopeya">KNOCK KNOCK</span></span>
+
+You knock on Tara's door with the silicone based lube in your hand. After just a few seconds, Tara opens it.
+
+<<speech "tara" "''Tara'':">>
+Yes? Oh, it's you! And I see you brought the lube as I asked. Although, I must tell you that Ethel finally managed to masturbate properly and adapt to the lack of lube. She just needed a proper motivation to secrete enough lube herself!<</speech>>
+<<speech "You" "''$name'':">>
+Does that mean she doesn't need it anymore? (Did I just went to buy this thing for nothing?)<</speech>>
+<<speech "tara" "''Tara'':">>
+Well, not exactly, she'll be right back for more- oohh, here she is! Come in, you both!<</speech>>
+<div class="center"><img src="quest12/ethelhot.jpg" width="50%"></div>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel'':</span>
+Hi, $name... *smiles*<</speechpatreon>>
+<<speech "You" "''$name'':">>
+(Wow, she's dressing more... slutty?) Oh, um... hi. *blush*<</speech>>
+Tara leads you both into her room and closes the door.
+
+<span class="onomatopeya">SLAM</span>
+
+<<speech "tara" "''Tara'':">>
+As you might have noticed, Ethel is already starting to show off a bit more! She's a quick learner... aren't you? *grabs her face*<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel'':</span>
+ *blushes* Y-yes I am...<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+Good girl. Oh, wow... I'm so excited to have both of my beautiful girls in my room... Gather around, girls!<</speech>>
+Ethel and you look at each other, half concerned, but half turned-on... You both do as Tara says and sit next to each other on her bed. Tara sits in front of you with a big grin on her face.
+
+<<speech "tara" "''Tara'':">>
+Come on, girls. No secrets between us, huh? We've all seen each other do all kinds of stuff!<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel'':</span>
+Actually, I haven't seen any of her... erm... //him//...<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+... ... She's absolutely right, $name! You can be such a prude sometimes! Here, let me help you fix that.<</speech>>
+Tara makes you stand up and slowly takes off your clothes while singing some obscene hip-hop lyrics.
+
+<<speech "You" "''$name'':">>
+I-I don't think we need to-<</speech>>
+<<speech "tara" "''Tara'':">>
+This is not about "need". This is about "joy"! And now for the final show! Are you ready, Ethel?<</speech>>
+Tara holds your underwear tight, ready to slip it off.
+
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel'':</span>
+ *blushes and smiles* Yeah...<</speechpatreon>>
+<<linkreplace "... ...">>Your locked clit and balls jump right out of your underwear, aching to see the light, and as soon as she sees it, Tara starts giggling and licking the tip.
+
+<span class="pulse"><div class="center"><img src="quest12/lickcage.gif" width="50%"></div></span>
+
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel'':</span>
+... ... ... w-what-<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+Hahaha! Yeah, exactly... awww, don't look at me like that, $name! I still think you're the cutest thing of the world, don't you Ethel?<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel'':</span>
+Yeah, it's just that... hehe... hahahaha... HAHAHAHA *points at your dick*<</speechpatreon>>
+Your semi-erect caged peni goes instantly flaccid as you see Ethel laugh at your cock without even a hint of embarrasment.
+
+<<speech "You" "''$name'':">>
+(I helped her... and now... she's laughing at me?)<</speech>>
+Tara continues exposing her work, like a kid proud of his science project.
+
+<<speech "tara" "''Tara'':">>
+See? And she's shaved aaaaall across the pubis to the back, including her tiny little blue balls. *she grabs your balls with only two fingers and swirls them* You can touch, but be careful: she's too smooth to handle... *giggles*<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel'':</span>
+Hahaha... OMG, I'm sorry, but this is... amazing. His-her ballsies are very small... *pouts and talks like a baby* cutie, cutie, cutie dwarf balls...<</speechpatreon>>
+Ethel strokes her fingers along your pubis and down your balls. A shiver runs through your spine. Past the first embarrasment, the size mock from both women are just making your penis strain harder against your cage.
+
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel'':</span>
+So she's just trapped in this cage? Can't we unlock it?<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+I would love to...<</speech>>
+<<speech "You" "''$name'':">>
+(For real?!)<</speech>>
+<<speech "tara" "''Tara'':">>
+BUT she need to learn some self-control first... We are still working on that, aren't we? *shakes the cage hard*<</speech>>
+<<speech "You" "''$name'':">>
+Ahh... yes...<</speech>>
+<div class="center"><img src="quest12/leak.gif" width="50%"></div>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel'':</span>
+But I'm confused... I thought you said only Alpha men could come aboard?<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+First of all: very good! You just noticed he is not an Alpha male, which is something you clearly couldn't do a few days ago. And, answering your question: it has definitely been a mistake. Happy mistake, I believe... *smiles and rubs your ass checks*<</speech>>
+<<speech "You" "''$name'':">>
+Aaahh...<</speech>>
+<<speech "tara" "''Tara'':">>
+She loves some attention back here... although she really needs training. She has got the tightest little hole I've ever felt...<</speech>>
+Ethel keeps rubbing your balls, but instead of laughing she now seems to be deep within her thoughts.
+
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel'':</span>
+So, my boyfri- I mean ex-boyfriend... he was a sissy too, just like... her?<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+With the proper training, yes. White guy, small dick... you don't really need any more ingredients for that if you know what I mean...<</speech>>
+Ethel leaves your balls go and sits back on the bed. Tara lets you go as well and you both sit as well. You cage is still leaking pre-cum, but by now you are used to not achieving climax.
+
+<<speech "You" "''$name'':">>
+(And of course, they just make me horny for nothing...)<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel'':</span>
+So... my ex has lied to me all along...?<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+Yes, girl.<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel'':</span>
+He made me feel bad and the problem was him all along. He was not even a MAN! I wasted years with this guy... faggot.<</speechpatreon>>
+You notice how she constantly switches from angry to disappointed.
+
+<<speech "tara" "''Tara'':">>
+Yes, exactly. But look at the bright side: You are in the best place to start a new love life. Be a new you and get what you DESERVE.<</speech>>
+<<speechpatreon "Ethel" "">><span class="imgpop Ethel">''Ethel'':</span>
+Yes, I-I will...<</speechpatreon>>
+You never thought Ethel could change her point of view so quickly, but apparently, Tara makes impossible things be possible...
+
+<<speech "tara" "''Tara'':">>
+ *smiles* Good girl. For now, focus on your training. Then... you'll have time to explore and make that boyfriend of your jealous.<</speech>>
+Tara nods and leaves the room, filled with determination.
+
+<<speech "tara" "''Tara'':">>
+Hehehe... we are a good team, $name... that girl will be eating dick as soon as we dock, I'm telling you!<</speech>>
+<<speech "You" "''$name'':">>
+Was taking my clothes off and exposing my...<span class="pink"> clit</span> necessary?<</speech>>
+<<speech "tara" "''Tara'':">>
+I don't really now. But it was fun, wasn't it? And pretty, for sure... *slaps your thighs* Come on, finish dressing up and leave your mistress alone. I need to train myself... *licks lips*<</speech>>
+You do as you are told and just as you are about to head out the door you see Tara opening her drawer and taking out a monster black dildo. You close the door and try to put your mind to other things.
+
+<<speech "You" "''$name'':">>
+(At least I managed to keep the lube... *smile*)<</speech>>
+<div class="center"><span class="notplus">''POINTS +100''</span></div>
+
+[[Return|Deck 3][$mistressinroom to false, $lubequest to "Finished", $points to $points +100]]<</linkreplace>>
+
+
+\\<<else>><span class="rumbleshort"><span class="onomatopeya">KNOCK KNOCK</span></span>
+
+<div class="center"><img src="quest12/tarasmile.jpg" width="50%"></div>
+<<speech "tara" "''Tara'':">>
+Yeah? Oh, it's you! Did you bring the lube?<</speech>>
+<<speech "You" "''$name'':">>
+Um... *you search your inventory* oops, I forgot it!<</speech>>
+<<speech "tara" "''Tara'':">>
+ *smiles* I'll forgive you, but just because you're too cute. *pouts and caresses your cheeks* Move that ass or I'll have to move it for you! *winks*<</speech>>
+Tara slams the door at your face.
+
+<<speech "You" "''$name'':">>
+(Sometimes I don't know if she's happy to see me or not at all...<span class="pink"> and that's sooo hot...</span>)<</speech>>
+[[Return|Deck 3]]<</if>><</if>><<audio "menus" stop>><<if ndef $mute>><<audio "myroom" unmute>><<else>><</if>>
+
+

@@ -1,0 +1,12 @@
+:: Stats {"position":"278,918","size":"100,100"}
+<span class="statedit">
+
+Fit.: <<print $fit>>
+Int.: <<print $int>>
+Sub.: <<print $sub>>
+Fem.: <<print $fem>>
+
+Horny: <<print $lust>> %
+Stress: <<print $stress>> %</span>
+
+

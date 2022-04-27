@@ -1,0 +1,23 @@
+:: Use shaving cream [textback] {"position":"1571,1542","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<audio "shave" play>><<if $shaving is 0>>You reach the shaving cream Cherry gave you and read the instructions:
+
+<div class="center">//''Shaving in 4 easy steps:''  Apply on wet skin. Let it dry for 10-15. Rinse with abundant water. Let others enjoy your smooth skin!//</div>
+<<speech "You" "''$name''">>
+(Let "others" enjoy? *sigh* Nothing surprises me anymore... Seems easy enough)<</speech>>
+You follow the instruction strictly. It's the first time you do anything like this. On the drying step you start to feel a burn in the area, but you don't want to overreact.
+
+<div class="center"><img src="places2/shavelegs.gif" width="60%"></div>
+<<speech "You" "''$name''">>
+(It must be burning the hairs or something)<</speech>>
+Once the necessary time has passed, you proceed to rinse the excess off your legs.
+
+<<speech "You" "''$name''">>
+ *squeak, squeak* Wow, they really are smooth... <span class="center">like butter...</span><</speech>>
+[[Finish shaving|bathship][$shaving to 1, $shave to "Finished", $ass to 1]]<<elseif $shaving is 2>>You follow the instructions of the product succesfully.
+
+<div class="center"><img src="places2/shavelegs.gif" width="60%"></div>
+<<speech "You" "''$name''">>
+This stuff really makes my legs smooth... they feel like a <span class="pink">girl's...</span> Ehem.<</speech>>
+[[Finish shaving|bathship]]<</if>><<audio "menus" stop>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>>
+
+

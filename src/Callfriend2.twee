@@ -1,0 +1,63 @@
+:: Callfriend2 [textback phone] {"position":"5,581","size":"100,100"}
+<<if ndef $mutefx>><<audio "calling" play>><<else>><</if>>$fname is calling!<<set $phonefriend to true>>
+
+<div class="center"><img src="places1/calling.gif" width="50%"></div>
+ *pick up*
+
+<<speech "mike" "''$fname:''">>
+Hey, it's $fname. Well, bad news. It seems like it's not going to be possible to have a refund or move the date. I'm really sorry for the whole thing, I gues I should've checked first with you and $gfname.<</speech>>
+<<speech "You" "''$name'':">>
+No, $fname, I'm sorry. I could've stopped you earlier and thought it through first.<</speech>>
+<<speech "mike" "''$fname:''">>
+Oh don't worry about me, I've got more cash where that came from! Hahahaha<</speech>>
+<<speech "You" "''$name'':">>
+Haha...<</speech>>
+You think to yourself that you're very lucky to have a friend like that. At least you've got him for you.
+
+<<speech "mike" "''$fname:''">>
+"Haha?" Are you alright? That doesn't sound good... is something going on?<</speech>>
+<<speech "You" "''$name'':">>
+ *sigh* Damn, you know me too well... Earlier today I got to look into $gfname's laptop and... (God, this is too embarrasing to tell) well, anyway, we're apparently taking some time apart.<</speech>>
+<<speech "mike" "''$fname:''">>
+What?! Wow, I know you said you guys were a bit distant, but this is different... Well, I'm sorry mate... I really did choose the worst day to give a present, did I?<</speech>>
+<<speech "You" "''$name'':">>
+Hahaha yeah, you kinda did... but I appreciate it anyway, you know that.<</speech>>
+<<speech "mike" "''$fname:''">>
+So, what are you going to do then? You live in the same house and all, isn't that going to be weird?<</speech>>
+<<speech "You" "''$name'':">>
+Well, yes...<</speech>>
+You both stop talking for a moment, but suddenly $fname comes up with an idea.
+
+<<speech "mike" "''$fname:''">>
+How about this: you actually go to the cruise by yourself. BOOM!<</speech>>
+You can't help but smile at how intense he's talking to you.
+
+<<speech "You" "''$name'':">>
+I don't know about that $fname...<</speech>>
+<<speech "mike" "''$fname:''">>
+Shut up! Look: $gfname has to work, but you don't. Plus, she's asked for space. Just think about it: you'll be gone and she'll have time to miss you, and then you'll come back all tanned and fresh. It's a master plan!<</speech>>
+You stay silent for a few seconds, thinking about that a bit.
+
+<<speech "You" "''$name'':">>
+(He's... not wrong... maybe...) Yeah, but what about her? Maybe she'll need me here or...<</speech>>
+<<speech "mike" "''$fname:''">>
+Man, are you listening to yourself? Just do what you want for once, because that's the only way she's going to respect you as a man! What do YOU want?<</speech>>
+You're actually very annoyed and frustrated with $gfname. The way she's been so distant these weeks have made you extra self-conscious, but the conversation you just had made it clear: you're trying too hard.
+
+<<speech "You" "''$name'':">>
+I mean... I think you're right, but...<</speech>>
+<<speech "mike" "''$fname:''">>
+But what?<</speech>>
+You try to answer, but you can't really come up with anything.
+
+<<speech "mike" "''$fname:''">>
+Exactly. Just go and have fun by yourself, you deserve it man...<</speech>>
+<<speech "You" "''$name'':">>
+You know what? You're right!<</speech>>
+<<speech "mike" "''$fname:''">>
+Yeah! Just pack your stuff and have some fun!<</speech>>
+<<speech "You" "''$name'':">>
+Alright, I'll do it!<</speech>>
+<<click "Sleep" "trysleep">><<set $nogetout to false>><<set $gotopark to false>><<set $gotocruise to true>><<set $Callfriend2 to true>><<set $eat to false>><<set $newroom to false>><<set $alreadyshowered to true>><<addmins 10>><</click>><<set $badge to $badge +1>><<set $port to "Active">><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() gte 8 and $gameDate.getMinutes() gte 30>><<goto "Emergency">><<else>><</if>><<else>><</if>><<audio "menus" stop>><<audio "dreams" stop>>
+
+

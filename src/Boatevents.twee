@@ -1,0 +1,12 @@
+:: Boat events {"position":"2621,1588","size":"100,100"}
+<<if $boatevents is 0>><img src="https://x.imagefapusercontent.com/u/BBCBeverley/3505002/2089997504/00007331.JPG">
+<img src="https://img.3movs.com/contents/videos_screenshots/7000/7571/preview.mp4.jpg">
+
+<img src="https://img-4.poringa.net/poringa/img/D/0/6/7/C/7/porongacabezona/3F1.jpg" width="50%">
+
+<img src="https://pbs.twimg.com/media/Cmz6Q1XXEAA8A9A.jpg" width="50%"><<elseif $boatevents is 1>>
+
+<img src="" width="50%">
+<img src="" width="50%"><</if>>
+
+

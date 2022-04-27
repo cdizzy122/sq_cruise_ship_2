@@ -1,0 +1,10 @@
+:: PEE NOW NOW NOW [textback] {"position":"1572,1433","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<audio "pee" volume 0.4 play>><div class="center"><img src="stuff/frodo.gif" width="70%">
+
+1:30 minute pee. Whew! That must be a record or something!
+
+You feel relieved...
+
+<<click "Return" "bathship">><<audio "pee" stop>><</click>><<set $needtopee to false>></div>
+
+

@@ -1,0 +1,4 @@
+:: probemoss {"position":"1670,2525","size":"100,100"}
+[[probemos]]<<set $cageroom to false>><<set $cage to false>><<set $cagekey to true>><<set $havecage to true>><<set $wardrobe to true>>
+
+

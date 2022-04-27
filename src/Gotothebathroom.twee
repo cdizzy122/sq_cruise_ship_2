@@ -1,0 +1,56 @@
+:: Go to the bathroom [textback] {"position":"2147,1378","size":"100,100"}
+<<removeclass "html">><<addclass "html" "lounge">><<if ndef $lounge>><img src="stuff/bathlounge.png" width="37%">
+
+The men's bathroom is closed. You think about entering the women bathroom, but you hear girls talking inside, and you don't want to start with the wrong foot. Plus, that sign is not inviting.
+
+[[Return|Lounge]]<<audio "menus" stop>><<if ndef $mute>><<audio "party" unmute>><<else>><</if>>
+
+\\<<elseif $lounge is 0>><img src="stuff/bathlounge.png" width="37%">
+
+The men's bathroom is closed.
+
+[[Return|Lounge]]<<audio "menus" stop>><<if ndef $mute>><<audio "party" unmute>><<else>><</if>>
+
+\\<<elseif $lounge is 1>><img src="stuff/bathlounge.png" width="37%">
+
+You use the key and open the door.
+
+<div class="center"><span class="fade-ins"><img src="places2/loungebath.jpg" width="60%"></span></div>
+<<speech "You" "''$name'':">>
+God... these women are messy... I better get to it.<</speech>>
+You grab the mop and start working on it.
+
+<<if $cleanstalls is true>>Stalls (already clean)<<else>>[[Stalls|Go to the bathroom][$lounge to 2]]<</if>>
+<<if $cleansinks is true>>Sinks (already clean)<<else>>[[Sinks|Go to the bathroom][$lounge to 3]]<</if>>
+<<if $cleanmirrors is true>>Mirrors (already clean)<<else>>[[Mirrors|Go to the bathroom][$lounge to 4]]<</if>>
+
+[[Return|Lounge]]<<audio "menus" stop>><<if ndef $mute>><<audio "party" unmute>><<else>><</if>>
+
+
+\\<<elseif $lounge is 2>><div class="center"><img src="stuff/tampon.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+What the fuck?! Don't they know they have to throw this shit in the bin? Gross...<</speech>>
+You close the stall's door:
+
+<div class="center"><img src="stuff/stalldoor.png" width="50%"></div>
+<<speech "You" "''$name'':">>
+Obesessed bitches... T-that's huge... is there really that much difference? *rub, rub*<</speech>>
+You rub the dirt off the poster, but it won't go off, no matter how much you stroke it...
+
+[[Finish|Go to the bathroom][$cleanstalls to true, $lounge to 1]]
+
+\\<<elseif $lounge is 3>><div class="center"><img src="stuff/sinks.png" width="50%"></div>
+<<speech "You" "''$name'':">>
+How is it possible? Condoms? There are no men in here yet! ...well, except me, of course...<</speech>>
+You run the water in all of the sinks and keep rubbing them with the cloth and some disinfectant until clean and pristine.
+
+[[Finish|Go to the bathroom][$cleansinks to true, $lounge to 1]]
+
+\\<<elseif $lounge is 4>><div class="center"><img src="stuff/mirror.png" width="60%"></div>
+<<speech "You" "''$name'':">>
+At least they are not only bad to me, but to each other as well...<</speech>>
+You pour some glass cleaner and wipe it out with a cloth.
+
+[[Finish|Go to the bathroom][$cleanmirrors to true, $lounge to 1]]<</if>>
+
+

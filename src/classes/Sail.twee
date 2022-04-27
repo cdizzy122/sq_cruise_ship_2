@@ -1,0 +1,206 @@
+:: Sail [noborder textback] {"position":"2113,105","size":"100,100"}
+<<removeclass "html">><<addclass "html" "dance">><<if ndef $dance>><img src="places2/danceclass.jpg" width="90%">
+
+As you arrive to Deck 9 you find a new tent in the middle of the deck. There seems to be a dancing pole and someone practicing.
+
+You go into the tent, which seems surprisingly bigger from the inside.
+
+<<linkreplace "... ...">><img src="classes/dance/anastasia1.jpg" width="42%">
+
+<<speech "You" "''$name:''">>
+Hi... I was looking for the sailing class, do you know where the instructor is?<</speech>>
+<<speech "Anastasia" "''???:''">>
+Ya! I'm the instructor.<</speech>>
+<<speech "You" "''$name:''">>
+But... why are you on a bikini?<</speech>>
+<<speech "Anastasia" "''???:''">>
+What's wrong! Can't a woman be on her bikini while on duty? That's kind of misogynistic, you know...<</speech>>
+<<speech "You" "''$name:''">>
+(God... please, don't get started on this shit)<</speech>>
+She doesn't seem to be as bright as the other women you've found of this ship. Her personality is kind of bubbly and she has a constant grin on her face.
+
+<<speech "Anastasia" "''Anastasia:''">>
+Weelll... my name is Anastasia... hehe<</speech>>
+<<speech "You" "''$name:''">>
+Ok...<</speech>>
+She's staring at you with her bimbo smile and is starting to make you feel uncomfortable...
+
+<<speech "You" "''$name:''">>
+Sooo... what are we going to do today?<</speech>>
+<<speech "Anastasia" "''Anastasia:''">>
+Oh, I was just practicing my pole dancing here. It makes the boys go WILD, you know...<</speech>>
+<<speech "You" "''$name:''">>
+(Jesus... That's not even what I asked) So what am ''I'' doing today?<</speech>>
+<<speech "Anastasia" "''Anastasia:''">>
+Oh, yeah! That's right, Captain T told me to teach you all about sailing. Well, you've been lucky, because my father made this ship and I know everything about it. So ask away!! hehe<</speech>>
+<<speech "You" "''$name:''">>
+(Sailing is not the same as making a ship! This is like talking to a rock...)<</speech>>
+She is waiting for you to ask her stuff.
+
+[[Why am I here if only women are allowed?|Answers][$answers to 0, $dance to 0]]
+[[So...do you like dancing?|Answers][$answers to 1, $dance to 0]]
+[[What's on Deck 1?|Answers][$answers to 2, $dance to 0]]
+
+<<click "Finish class" "Deck 9">><<run $gameDate.setHours(20)>><</click>><</linkreplace>><<elseif $dance is 0>><<speech "Anastasia" "''Anastasia:''">>
+Is there anything else you want to know? Try me! Hehe<</speech>>
+[[Why am I here if only women are allowed?|Answers][$answers to 0]]
+[[So...do you like dancing?|Answers][$answers to 1]]
+[[What's on Deck 1?|Answers][$answers to 2]]
+
+<<click "Finish class" "Deck 9">><<run $gameDate.setHours(20)>><</click>><<elseif $dance is 1>><img src="places2/danceclass.jpg" width="90%">
+
+As you arrive to Deck 9 you find a new tent in the middle of the deck. You can hear sounds coming from the inside.
+
+<<speech "You" "''$name:''">>
+Hi? Anastasia?<</speech>>
+<<linkreplace "Go in">><span class="onomatopeya">STOMP</span>
+
+<<speech "Anastasia" "''Anastasia:''">>
+Ooowwww!!<</speech>>
+<img src="classes/dance/fall.gif" width="42%">
+
+<<speech "You" "''$name:''">>
+OMG! I'm sorry! I didn't mean to scare you *you go near her to help her*<</speech>>
+Before you can get there, she suddenly stand up with a smile on her face.
+
+<<speech "Anastasia" "''Anastasia:''">>
+HAHAHA you should have seen your face!<</speech>>
+<div class="center"><img src="classes/dance/anastasia2.jpg" width="80%"></div>
+<<speech "You" "''$name:''">>
+Jesus... you totally got me there... Don't do that again<</speech>>
+<<speech "Anastasia" "''Anastasia:''">>
+That's so sweet that you actually worried about me. *she stands up and taps your chin* You. Are. So. Cute.<</speech>>
+She walks to a corner and grabs a towel.
+
+<<speech "Anastasia" "''Anastasia:''">>
+So, what do you want to do today?<</speech>>
+<<speech "You" "''$name:''">>
+(And I thought I was irresponsible...)<</speech>>
+[[What is Tara like?|Answers][$answers to 3, $dance to 2]]
+[[Can I see your key card, please?|Answers][$answers to 4, $dance to 2]]
+[[How can I get a casino VIP pass|Answers][$answers to 5, $dance to 2]]
+
+<<click "Finish class" "Deck 9">><<run $gameDate.setHours(20)>><</click>><</linkreplace>><<elseif $dance is 2>><<speech "Anastasia" "''Anastasia:''">>
+Is there anything else you want to know? Try me! Hehe<</speech>>
+[[What is Tara like?|Answers][$answers to 3, $dance to 2]]
+[[Can I see your key card, please?|Answers][$answers to 4, $dance to 2]]
+[[How can I get a casino VIP pass|Answers][$answers to 5, $dance to 2]]
+
+<<click "Finish class" "Deck 9">><<run $gameDate.setHours(20)>><</click>>
+
+\\<<elseif $dance is 3>><img src="places2/danceclass.jpg" width="90%">
+
+As you arrive to Deck 9 you find a new tent in the middle of the deck. You go into it just to find Anastasia working out on the pole.
+
+<<speech "Anastasia" "''Anastasia:''">>
+Hey!... Nice to finally see you... isn't it such a bummer we only see each other once a week? If it was my decision I wouldn't mind hanging with you more, but you know..."cap" is my boss and all that... *sigh* Anyway, is everything alright?<</speech>>
+<<speech "You" "''$name:''">>
+(This girl really is nice...) Yeah, I know... it's such a relief for me to talk to someone as nice as you! *smile*<</speech>>
+<<speech "Anastasia" "''Anastasia:''">>
+Well... I wasn't that nice a year ago. But "cap" definitely made a new woman out of me! *she gives you an absent smile*<</speech>>
+<<speech "You" "''$name:''">>
+(Poor thing... they did something to her...)<</speech>>
+<<speech "Anastasia" "''Anastasia:''">>
+Oh! Before you ask me anything, I actually have a present for you! Well, sort of... it is an errand from the "cap" herself, but I will do it gracefully if it's for you! *smiles*<</speech>>
+<<speech "You" "''$name:''">>
+(I'm not sure I want to know about that...)<</speech>>
+<<speech "Anastasia" "''Anastasia:''">>
+But feel free to ask me anything if there's something in your mind.<</speech>>
+<<if $gflask is true>><span class="Phone">[[Show her the green flask|Answers][$answers to 9]]</span><<elseif $rflask is true>><span class="Phone">[[Show her the red flask|Answers][$answers to 9]]</span><<else>>[[Nothing special...|Sail][$dance to 4]]<</if>>
+
+
+\\<<elseif $dance is 4>><<speech "Anastasia" "''Anastasia:''">>
+Is there anything else you want to know? Try me! Hehe<</speech>>
+<span class="Phone"><<if $presentt is true>><<else>>[[Ask for the present->Answers][$answers to 6, $dance to 4, $presentt to true]]<</if>></span>
+[[Try to make her talk about "M"|Answers][$answers to 7, $dance to 4]]
+[[Tell me more about your personality change|Answers][$answers to 8, $dance to 4]]
+[[What's that sculpture doing in the pool??|Answers][$answers to 11, $dance to 4]]
+
+<<click "Finish class" "Deck 9">><<run $gameDate.setHours(20) and $gameDate.setMinutes(0)>><<set $dance to 5, $smsm6 to true>><</click>>
+
+
+
+\\<<elseif $dance is 5>>You get into the tent, but you can't see a thing. Everything is dark. You look to each side, trying to find some light or a switch, but you can't. You suddenly hear some music playing, as some white lights turn on.
+
+<div class="center"><span class="fade-ins"><img src="classes/dance/anastasia2.jpg" width="40%"></span></div>
+<<speech "You" "''$name:''">>
+Wow...<</speech>>
+Anastasia slowly dances on the pole in a very sexy, but intimate way. She suddenly looks at you and smiles while she keeps on with the dacing until the song ends.
+
+<div class="center"><img src="classes/dance/anastasia4.jpg" width="50%"></div>
+With that last acrobatic show, she turns the lights on and walks towards you.
+
+<<speech "Anastasia" "''Anastasia:''">>
+You like the sweat? *rubs herself on you*<</speech>>
+<<speech "You" "''$name:''">>
+Ah! Hey! hahaha<</speech>>
+Anastasia laughs as well and goes to the back to change. In under two minutes, she comes back with less revealing clothes.
+
+<<speech "Anastasia" "''Anastasia:''">>
+I'm still waiting for the day when you come asking for classes.<</speech>>
+<<speech "You" "''$name:''">>
+And you can keep waiting! Hahaha<</speech>>
+<<speech "Anastasia" "''Anastasia:''">>
+Well, who knows... hahaha Anyway, it's time to start our "class", isn't it? Go on and ask whatever you want!<</speech>>
+<span class="Phone">[[Try to hypnotize her->Answers][$answers to 12]]</span>
+
+
+
+\\<<elseif $dance is 6>>You get into the tent, and as usual, you can see Anastasia dancing on the pole, just as last time. This time you entered in the middle of the show and you notice that she's a lot more focused in it.
+
+<div class="center"><img src="classes/dance/anastasia3.jpg" width="60%"></div>
+<<speech "You" "''$name'':">>
+(Oh, wow!)<</speech>>
+You decide to let her finish her show without interrupting this time, so you crouch, get inside the dark tent and sit on the floor to watch the rest of the show.
+
+You can't help but be very impressed by her strength and fexibility. With every jump, stretch and turn you skip a beat. Suddenly, the music changes from an electronic dance to a sexy poppy track, the light turn reddish and she smiles, preparing for the next part of the show.
+
+<<linkreplace "... ...">><div class="center"><img src="classes/dance/anastasia5.gif" width="55%"></div>
+<<speech "You" "''$name'':">>
+ *gasp*<</speech>>
+If you were surprised by her ability with the pole, now you are also impressed by how sexy and hot she can be. She takes off her bra with a smirk on her face while still dancing and being energetic on the pole.
+
+<div class="center"><img src="classes/dance/strip1.gif" width="50%"></div>
+Your eyes open wide just imagining her giving you a private lap dance.
+
+<<speech "You" "''$name'':">>
+(Oh my god... should I tell her I'm here?)<</speech>>
+Just as you're thinking about it, the lights turn on and the music stops. Anastasia gets off the stage and walks straight to you, her breasts swinging around.
+
+<div class="center"><img src="classes/dance/strip2.gif" width="50%"></div>
+<<speech "Anastasia" "''Anastasia:''">>
+Hey! Sorry for doing the show until the end. I saw you entering, but I need some practice. Did you like it?<</speech>>
+<<speech "You" "''$name'':">>
+... ... Oh, um... yeah!<</speech>>
+You can't help but stare at her beautiful sweaty boobs.
+
+<<speech "Anastasia" "''Anastasia:''">>
+Heh... oh, c'mon, you're making me blush! *points at the pole* You know, that pole needs some care, it's too slippery, I almost fell a few times during the first part!<</speech>>
+<<speech "You" "''$name'':">>
+The first part looked soooo difficult!<</speech>>
+<<speech "Anastasia" "''Anastasia:''">>
+It kinda is, but you know: practice makes perfect. I'm now working on the second part, it need some ending!<</speech>>
+Anastasia grabs a towel and rubs some of her sweat off.
+
+<<speech "Anastasia" "''Anastasia:''">>
+Oh, exactly that's what I wanted to talk to you about. Apparently, Captain T is really trying to integrate you into the ship. We have lots of work to do right now, preparing new shows for the boys, and she had the idea of getting you in there! You must have already had some experience on stage, right?<</speech>>
+<<speech "You" "''$name'':">>
+Well...<</speech>>
+<<speech "Anastasia" "''Anastasia:''">>
+It's ok, I know by now that you are more the reserved type. I'll tell you what: I'll teach you some moves, maybe move on to the pole, and then you'll choose either you want to perform or not! Sound good?<</speech>>
+<<speech "You" "''$name'':">>
+(<span class="pink">It actually does!</span>) Sound good, I think...<</speech>>
+<span class="onomatopeya">SLAP</span>
+
+Anastasia's butt slap makes you take a little jump.
+
+<<speech "Anastasia" "''Anastasia:''">>
+Hehehe you're so cute! Is there anything else you would like to ask me before we start the first contact with said subject?<</speech>>
+<span class="Phone">[[Try to hypnotize her->Answers][$answers to 13, $smsm11 to true]]</span>
+
+
+
+
+<</linkreplace>><</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

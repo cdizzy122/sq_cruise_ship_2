@@ -1,0 +1,14 @@
+:: Fifty Euros [noreturn] {"position":"510,1822","size":"100,100"}
+<<if ndef $fiftyeuros>><img src="stuff/fifty.jpg" width="50%">
+
+A total of 50 Euros. Not enough to take you to Rome... maybe you should ask for advice.
+
+
+\\<<else>><img src="stuff/fifty.jpg" width="30%">
+<img src="stuff/ten.jpg" width="30%">
+
+A total of 60 Euros. Enough to take you to Rome.<</if>>
+
+[[Return|Inventory]]
+
+

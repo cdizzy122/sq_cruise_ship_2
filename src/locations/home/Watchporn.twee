@@ -1,0 +1,11 @@
+:: Watch porn [textback] {"position":"448,422","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><img src="places1/restricted.gif" width="70%">
+
+<span class="fade-ins"><img src="places1/tvpass.jpg" width="70%"></span>
+
+<<speech "You" "''$name:''">>
+WHAT THE FUCK!? She put a parental control passcode! This is getting out of hand. She is living in my house! I should  be the one making rules around here...<</speech>>
+[[Call her]]
+[[Let it slide|Watch TV]]<<set $watchtvporn to true>><<addmins 5>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Sat">><<if $gameDate.getHours() gte 8 and $gameDate.getMinutes() gte 30>><<goto "Emergency">><<else>><</if>><<else>><</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

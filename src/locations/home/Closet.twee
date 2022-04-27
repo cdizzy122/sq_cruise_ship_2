@@ -1,0 +1,8 @@
+:: Closet [textback] {"position":"893,1","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><<if ndef $mutefx>><<audio "wardrobe1" play>><<else>><</if>><img src="places1/gfcloset.jpg" width="60%">
+
+Nothing catches your eye...
+
+[[Return|open gfdoor]]<<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

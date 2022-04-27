@@ -1,0 +1,316 @@
+:: obeyt [textback] {"position":"1790,1438","size":"100,100"}
+<<removeclass "html">><<addclass "html" "decks">><<if ndef $mutefx>><<audio "heels" loop play>><<audio "lick" volume 0.8 loop play>><<else>><</if>><<if $obeyt is 1>>You approach her and get on your knees.
+
+<img src="cap/desk2.jpg" width="50%">
+
+<<speech "cap" "''Captain T:''">>
+Good boi. *smiles* Now, I need you to be reaaaaally quiet, mommy's got to do some work on the desk. Get under it.<</speech>>
+You get under the desk and then she sits on the chair, leaving you alone with her beautiful legs. She puts a hand on your head and starts patting it like a dog's.
+
+<<speech "cap" "''Captain T:''">>
+Hmm...<</speech>>
+Then she opens them invitingly...
+
+<<speech "cap" "''Captain T:''">>
+Get your head between, now.<</speech>>
+She sounds a bit angry, like a totally different person.
+
+<<speech "cap" "''Captain T:''">>
+I said now! *She grabs your head with her hand and pushes your face until it's an inch away from her crotch* Put your nose on my panties, you perv. I want you to sniff my smelly cunt while I do my work. I bet you'll enjoy it.<</speech>>
+<<linkreplace "... ...">><<if ndef $mutefx>><<audio "desk" play>><<else>><</if>><img src="cap/pussypanties.jpg" width="40%">
+
+Her crotch is already wet, she seems to be enjoying the power of being practically sitting on your face. There's not a lot of space under that table, in fact, you are encased in it. You can barely move your arms and head. As you try to breathe, the scent of her juices stick on your nostrils, which both turns you on and makes you feel humiliated an emmasculated.
+
+<<speech "cap" "''Captain T:''">>
+Hey, c'mon! Nose. Pussy. It's not that hard!<</speech>>
+You don't want to make her angry so you comply and put your nose on her wetness.
+
+<<speech "cap" "''Captain T:''">>
+Yeah... mm...*smashes your face onto her pussy*<</speech>>
+After a few seconds you feel like you need to breathe.
+
+<<speech "You" "''$name:''">>
+Ahh! *catch air*<</speech>>
+<<speech "cap" "''Captain T:''">>
+Hahaha... ok enough air for you. In you go *pushes you back into her panties*<</speech>>
+The time of the class passes slowly, as she continues to push your face into her wet panties. Along the class, you feel how her breath gets a little heavier as she rubs her clit through the panties.
+
+<<speech "cap" "''Captain T:''">>
+Ok, you're done for today! Good job, panty-sniffer! I would wipe your face if I were you...<</speech>>
+You touch your face and feel how sticky and wet it is. It's all covered in Captain's pussy juice.
+
+You lick some on your lips, trying to clean them.
+
+<<speech "You" "''$name:''">>
+(It doesn't taste too bad... I guess...)<</speech>>
+ <div class="center">''<span class="pulse"><span class="notless">STRESS +20%  </span><span class="notplus">SUB +1  </span><span class="notless">LUST +30%  </span><span class="notplus">POINTS +50</span></span>''</div><<set $sub to $sub +1>><<set $stress to $stress +20>><<set $lust to $lust +30>><<set $points to $points +50>>
+
+<<click "Get out" "Deck 3">><<audio "lick" stop>><<audio "desk" stop>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><<set $obeyt to 2>><</click>><</linkreplace>><<elseif $obeyt is 2>>You approach Captain T and and get on your knees.
+
+<img src="cap/undertable2.gif" width="50%">
+
+<<speech "cap" "''Captain T:''">>
+Good boi. *smiles* You know what to do. Get down.<</speech>>
+You still doubt a little. It really wasn't a pleasant experience...
+
+<<speech "cap" "''Captain T:''">>
+Get your head between, now!<</speech>>
+She pushes your head between her legs.
+
+<<linkreplace "... ...">><<if ndef $mutefx>><<audio "desk" play>><<else>><</if>><img src="cap/pussypanties.jpg" width="40%">
+
+Her crotch is already wet, she seems to be enjoying the power of being practically sitting on your face. There's not a lot of space under that table, in fact, you are encased in it. You can barely move your arms and head. As you try to breathe, the scent of her juices stick on your nostrils, which both turns you on and makes you feel humiliated an emmasculated.
+
+<<speech "cap" "''Captain T:''">>
+Hey, c'mon! Nose. Pussy. It's not that hard!<</speech>>
+You don't want to make her angry so you comply and put your nose on her wetness.
+
+<<speech "cap" "''Captain T:''">>
+Yeah... mm...*smashes your face onto her pussy* It's time for the real stuff, sissy...<</speech>>
+She then slides her panties down her legs and pushes you towards her open pussy. You don't want to make her angry, so you decide to lick it a little.
+
+<<speech "You" "''$name:''">>
+(Aggghh... doesn't taste that good...)<</speech>>
+<<speech "cap" "''Captain T:''">>
+Keep it going! Faster!<</speech>>
+You try to keep up but you're lacking experience, and are not doing a good job... After a few licks the taste seems to be getting better.
+
+<<speech "cap" "''Captain T:''">>
+For fuck's sake, you are licking the wrong spot! You really don't have a clue of what you're doing, huh?!<</speech>>
+She roughly grabs your face and redirects your tongue to her clitoris.
+
+<img src="cap/eatpussy.gif">
+
+Time passes by slower than you would like, but finally the class comes to an end.
+
+<<speech "cap" "''Captain T:''">>
+Ok, that's enough for today! I would wipe my face if I were you... Hahaha<</speech>>
+Embarrased, you wipe your mouth with your forearm. Then, you instinctively lick up some on your lips, trying to clean them.
+
+<<speech "You" "''$name:''">>
+(It actually tastes... not bad!)<</speech>>
+<div class="center">''<span class="pulse"><span class="notplus">SUB +1  </span><span class="notless">LUST +50%  </span><span class="notplus">POINTS +50  </span><span class="notless">STRESS +20%  </span></span>''</div><<set $sub to $sub +1>><<set $stress to $stress +20>><<set $lust to $lust +20>><<set $points to $points +50>>
+<<click "Get out" "Deck 3">><<audio "lick" stop>><<audio "desk" stop>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><<set $capt to 2>><</click>><</linkreplace>><<elseif $obeyt is 3>>You approach Captain T and and get on your knees.
+
+<img src="cap/undertable2.gif" width="50%">
+
+<<speech "cap" "''Captain T:''">>
+Good boi. *smiles* You know what to do. Get down.<</speech>>
+You still doubt a little. It really wasn't a pleasant experience, but you want to try and make her cum. She might treat you better then.
+
+<<speech "cap" "''Captain T:''">>
+Get your head between, now!<</speech>>
+She pushes your head between her legs.
+
+<<linkreplace "... ...">><<if ndef $mutefx>><<audio "desk" play>><<else>><</if>><img src="cap/pussypanties.jpg" width="40%">
+
+Her crotch is already wet, she seems to be enjoying the power of being practically sitting on your face. There's not a lot of space under that table, in fact, you are encased in it. You can barely move your arms and head. As you try to breathe, the scent of her juices stick on your nostrils, which both turns you on and makes you feel humiliated an emmasculated.
+
+<<speech "cap" "''Captain T:''">>
+Hey, c'mon! Nose. Pussy. It's not that hard!<</speech>>
+You don't want to make her angry so you comply and put your nose on her wetness.
+
+<<speech "cap" "''Captain T:''">>
+Yeah... mm...*smashes your face onto her pussy* It's time for the real stuff, sissy...<</speech>>
+She then slides her panties down her legs and pushes you towards her open pussy. You don't want to make her angry, so you decide to lick it a little.
+
+<<speech "You" "''$name:''">>
+(Aggghh... doesn't taste that good...)<</speech>>
+<<speech "cap" "''Captain T:''">>
+Keep it going! Faster!<</speech>>
+You try to keep up but you're lacking experience, and are not doing a good job... After a few licks the taste seems to be getting better. You remember the Anatomy Class from the last day:
+
+You start by taking your time and licking the labia. Then you start licking the clitoris, from side to side and top to bottom. Sometimes you even do a quick circular lick.
+
+<<speech "cap" "''Captain T:''">>
+Hmm... yes... you are getting better at this, aren't you, sissy? *moan*<</speech>>
+
+<img src="cap/eatpussy.gif">
+
+After keeping it up for a few minutes, she suddenly grabs your hair and starts pressing her pussy against your face, moving her hips up and down.
+
+<<speech "cap" "''Captain T:''">>
+Ooohhhh... yeah...<</speech>>
+<<speech "You" "''$name:''">>
+(She really is getting heated up, I must be doing something right!)<</speech>>
+You can feel her pussy drenching your face in pussy juice, from the top of the nose to the chin, but you don't even care anymore, you've accepted it. Your mind is on the prize. You have to go on.
+
+Then you remember the "secret weapon" that Ms. Foster told you about.
+
+<<speech "You" "''$name:''">>
+(The G-Spot... I've never tried to reach it, I thought it was a myth... Ms. Foster said that it was a few inches inside, on the top wall of the vagina...)<</speech>>
+<<speech "cap" "''Captain T:''">>
+There you go... keep it up sissy... mmm... You like getting that pretty little face of yours wet, don't you?<</speech>>
+<<speech "You" "''$name:''">>
+Mhm... *slurp, slurp*<</speech>>
+When Captain T is distracted looking at the ceiling and groaning, you get out of her grip.
+
+<<speech "You" "''$name:''">>
+(This is my opportunity!)<</speech>>
+You quickly put two of your fingers inside her pussy while you keep sucking on her clitoris.
+
+<<speech "You" "''$name:''">>
+(Where is it?? I can't feel a thing, she's got a big vagina...)<</speech>>
+You move your fingers around for a few seconds, getting them as deep as you can. Your sucking motion is getting slower, and so, Captain gets a little impatient.
+
+<<speech "cap" "''Captain T:''">>
+Don't even think you can stop! Keep sucking!<</speech>>
+<<speech "You" "''$name:''">>
+ *suck faster* (Jeez... my tongue is getting numb! I have to find the G-Spot quick!)<</speech>>
+After touching every inch of her walls, you reach the spot. It feels like a coin sized wrinkled protuberance attached to the top.
+
+<<speech "You" "''$name:''">>
+(This must be it!) *You strongly rub it*<</speech>>
+<<speech "cap" "''Captain T:''">>
+AH! OH! Oh my god... Keep that up, my boy! Yes! *her grip gets tighter*<</speech>>
+<<speech "You" "''$name:''">>
+(My tongue is already totally numb, but I've got to go on, just for a little longer...) *speed it up*<</speech>>
+<<speech "cap" "''Captain T:''">>
+OH! OH! OH! *she grabs your head with both hands* My boy! You're gonna make me...<</speech>>
+<<linkappend "CUM!">>
+
+<div class="center"><img src="cap/capcum1.gif" width="60%"></div>
+
+All of the sudden her muscles clench hard around your fingers and her whole body trembles.
+
+<<speech "cap" "''Captain T:''">>
+OooOooOoooooHhhH.... mY GoDdd<</speech>>
+<<speech "You" "''$name:''">>
+(Yes! I think I did it!)<</speech>>
+Her grip is still as strong as before, keeping your face in place. You can closely see how her pussy pulsates periodically. Some liquid is coming out, but it certainly is not a squirt, at least not like the one Ms. Foster showed you on the TV.
+
+<<speech "cap" "''Captain T:''">>
+ *catches breath* Well... you can get up.<</speech>>
+You crawl from under the table and stand up. Captain is still on her seat, looking at you.
+
+<<speech "cap" "''Captain T:''">>
+That was good, not the best orgasm of my life, my I see that my Schedule idea is really working out. You are going to turn into a passable lover if you keep this up! Good boy... Now I am only expecting for you to get better. See you tomorrow... *wink*<</speech>>
+<<speech "You" "''$name:''">>
+(I'm not sure that changed her attitude, but she's finally complimented me about something.)<</speech>>
+<<speech "cap" "''Captain T:''">>
+By the way: wipe your face, boy. *smiles*<</speech>>
+You lick some of it with your tongue and decide to clean the rest later.
+
+<div class="center">''<span class="pulse"><span class="notplus">SUB +1  </span><span class="notless">LUST +50%  </span><span class="notplus">POINTS +50  </span><span class="notless">STRESS +20%  </span></span>''</div><<set $sub to $sub +1>><<set $stress to $stress +20>><<set $lust to $lust +20>><<set $points to $points +50>>
+<<click "Get out" "Deck 3">><<audio "lick" stop>><<audio "desk" stop>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><<set $capt to 4>><<set $anatomy1 to "Finished">><</click>><</linkappend>><</linkreplace>><<elseif $obeyt is 4>>You decide it's best not to complain. Plus, you seem to be getting the hang of this. You get on your knees and try to get a good angle for licking the clitoris.
+
+<<speech "You" "''$name:''">>
+(Damn, this angle is horrible...)<</speech>>
+You start licking the lower part of her vulva, trying sometimes to reach her clitoris without much success.
+
+<<speech "cap" "''Captain T:''">>
+You seem to be having trouble there, do you think you can figure it out, sissy? Hahahaha...<</speech>>
+<<speech "You" "''$name:''">>
+(Now it's a matter of pride)<</speech>>
+You keep on sucking the vulva and really try your best to reach the clitoris. Every time you reach it, your nose pokes her ass, which makes you feel disgusted.
+
+<<speech "You" "''$name:''">>
+(Ugh... not the asshole...)<</speech>>
+<<speech "cap" "''Captain T:''">>
+That's it, my little doggy. Mmm... yes... Now it's not that easy, huh? Keep eating it up, just like that...<</speech>>
+While you keep going, you close your eyes and savor the taste...
+
+You missed it, didn't you?
+
+The salty flavour...
+
+The pulsating flesh...
+
+Suddenly, Captain T wakes you up from your daydream:
+
+<<speech "cap" "''Captain T:''">>
+Yeah... my boy... my little boy... Lick it, my ass.<</speech>>
+<<speech "You" "''$name:''">>
+Mmmhsp... *slurp, slurp* Wait, what?<</speech>>
+<<speech "cap" "''Captain T:''">>
+Lick my ass little doggy!<</speech>>
+You act like you haven't heard her, continuing licking her pussy.
+
+<<speech "cap" "''Captain T:''">>
+Not there... THERE *she makes a sudden move*<</speech>>
+<div class="center"><img src="cap/caplickass.jpg" width="50%"></div>
+<<speech "cap" "''Captain T:''">>
+That's it...<</speech>>
+She slides her ass up and down, fucking your tongue.
+
+<<speech "You" "''$name:''">>
+(This is so... disgusting and...tight)<</speech>>
+After the first few insertions you find the feeling a lot more pleasurable. Her asshole is pressing against your tongue, just as her pussy did the other day. The thought of that makes you hornier.
+
+Captain T starts pressing harder against your face, almost like if she wanted to push you back. Meanwhile you notice that her fingers have been inside her vagina for a while now.
+
+<<speech "You" "''$name:''">>
+(Is she going to...?)<</speech>>
+<<speech "cap" "''Captain T:''">>
+Aaaaahhhh! Ssssshit!<</speech>>
+<<linkreplace "... ...">><<if ndef $mutefx>><<audio "squirt" volume 0.3 play>><<else>><</if>><div class="center"><span class="pulse"><img src="cap/squirt1.jpg" width="70%"></span></div>
+Your face is all covered in Captain's cum. You can feel the liquid in every oricife of your face. You rapidly get up and try to get rid of some of it.
+
+<<speech "cap" "''Captain T:''">>
+Wheew... hehehehe Don't be scared! It's just ejaculate, little sissy boy. You'll clean it up later. You're dismissed. *says byebye with her hand*<</speech>>
+<<speech "You" "''$name:''">>
+(What am I? A toy?)<</speech>>
+Horny AF and denied, you go out of class.
+
+ ''*New Fetish: Pussy eating*''
+ 
+ <div class="center"><span class="notplus">POINTS +50</span></div>
+<<click "Get out" "Deck 3">><<audio "lick" stop>><<audio "desk" stop>><<set $points to $points +50>><<set $fetish1 to true>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><<set $capt to 5>><</click>><</linkreplace>><<elseif $obeyt is 5>><<if $capchores is 0>>While Captain T starts working, you wander around the room looking for things to do (only one a day):
+
+[[Clean bathroom|obeyt][$capchores to 1, $capc to 1]]
+[[Change bed sheets|obeyt][$capchores to 1, $capc to 2]]
+[[Wipe floor|obeyt][$capchores to 1, $capc to 3]]<<else>><<if $capc is 1>><div class="center"><img src="cap/mop.gif" width="60%"></div>
+You spend quite some time cleaning the whole bathroom. It's not very dirty, but that doesn't make the experience pleasant.
+
+<<speech "You" "''$name:''">>
+(Maybe Captain T will give me a reward after I finish...)<</speech>>
+<<elseif $capc is 2>><div class="center"><img src="cap/sheets.jpg" width="42%"></div>
+You spend quite some time changing the bed sheets and folding her clothes. You can't help but notice the huge spots on the bed.
+
+<<speech "You" "''$name:''">>
+(This woman is not even shy about all these cummed-on sheets...)<</speech>>
+<<elseif $capc is 3>><div class="center"><img src="cap/dust.gif" width="60%"></div>
+You spend quite some time sweeping the floor, then moping it. It wasn't dirty at all, maybe some dust over here and there. At the end you feel like you did a good job.
+
+<<speech "You" "''$name:''">>
+(Maybe Captain T will give me a reward after I finish...)<</speech>>
+<</if>>[[Ask for reward|obeyt][$obeyt to 6]]
+<<click "Get out" "Deck 3">><<audio "lick" stop>><<audio "desk" stop>><<set $points to $points +50>><<set $fetish1 to true>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><<set $capt to 7>><<set $capchores to 0>><</click>><</if>><<elseif $obeyt is 6>>You approach Captain T once you've finished your daily chore.
+
+<<speech "You" "''$name:''">>
+Um, Captain...<</speech>>
+<<speech "cap" "''Captain T:''">>
+ *stops typing and looks at you* yeah?<</speech>>
+<<speech "You" "''$name:''">>
+I've finished with the chores... you said you would "let me have some fun"<</speech>>
+<<speech "cap" "''Captain T:''">>
+Oh, yeah sure, I kind of need it too. This organizing duties are tiring. Here you go, get in there.<</speech>>
+She leans to the side and leaves a space so you can get in your usual place under her desk.
+
+<<speech "You" "''$name:''">>
+Oh... um... I thought I was going to be-<</speech>>
+<<speech "cap" "''Captain T:''">>
+Don't you like sucking pussy, boi?<</speech>>
+You are startled by such a direct question. You know the answer at the moment: <<if $fetish1 is true>>You have been craving a pussy in your mouth the whole day.<<else>>You have certainly enjoyed eating her pussy the last sessions...<</if>> But you don't feel confident enough to tell her like that. She might try to do even something worse to you if she finds out how much it turns you on...
+
+<<speech "You" "''$name:''">>
+I- *you look at her crotch*<</speech>>
+<<speech "cap" "''Captain T:''">>
+ *smiles* C'mon, honey boi. Your mouth is watering... Go get a taste down there.<</speech>>
+You get on your knees and under her desk.
+
+<<linkreplace "... ...">><span class="fade-ins"><img src="cap/downpussy.jpg" width="60%">
+
+For the first time in the last days, this doesn't feel like a duty. This is a pleasure. For YOU.
+
+The smell is embracing...
+
+You lean in and start licking the lips and sucking on the clit, just as you've learned. You know you're doing it right as Captain T can't even keep her cool.
+
+<<speech "You" "''$name:''">>
+<span class="pink">(Mmm... tastes so good...)</span><</speech>>
+Time passes by as your tongue gets lost in the dreamy sex of your Captain...
+
+<<click "Get out" "Deck 3">><<audio "desk" stop>><<audio "lick" stop>><<set $points to $points +70>><<run $gameDate.setHours (13)>><<run $gameDate.setMinutes (0)>><<if ndef $fetish1 or $fetish1 is false>><<set $fetish1 to true>><<else>><</if>><<set $capt to 7>><<set $capchores to 0>><</click>></span><</linkreplace>><</if>><<audio "menus" stop>>
+
+

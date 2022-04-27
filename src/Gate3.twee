@@ -1,0 +1,44 @@
+:: Gate 3 [textback] {"position":"1208,115","size":"100,100"}
+<<removeclass "html">><<addclass "html" "port">><<if ndef $mutefx>><<audio "girltalk1" volume 0.4 play loop>><<else>><</if>><img src="places1/line.jpg" width="70%">
+
+The line slowly gets moving, and though your bladder is acking and it's making you impatient, you are managing to focus and control the uncomfortable annoyance. And it is not easy being surrounded as you are by ONLY women. 
+
+<<speech "You" "''$name:''">>
+(Why aren't there any men? Am I the only one?)<</speech>>
+That thought makes you equaly excited and worried. This morning you were thinking about meeting some people and making new friends, but talking to women had never been your strong point. This is starting to look like some kind of joke...
+
+<<linkappend "You look at your clock..." t8n>> 10 minutes have passed, although they've felt like an eternity for you. You're next in line so you put your fake smile on and take out your ticket.
+
+<<speech "nobody" "''Attendant:''">>
+Hi, Erm... Miss...ter? she stops talking and gives you a confused and disoriented look.<</speech>>
+<img src="stuff/confused.gif" width="60%">
+
+<<speech "You" "''$name:''">>
+(Well, that's weird. Why is everyone giving me that look? Dude, do I have something in my face or what?)<</speech>>
+The girl starts talking again:
+
+<<speech "nobody" "''Attendant:''">>
+Can I have your ticket, please?<</speech>>
+<<speech "You" "''$name:''">>
+Sure can, Miss! Here you go!- you say as you hand it to her.<</speech>>
+<img src="places1/onboarding.jpg" width="60%">
+
+<<speech "nobody" "''Attendant:''">>
+May I have your identification too? Just for a second, please.<</speech>>
+<<speech "You" "''$name:''">>
+Sure. *You give them to her*<</speech>>
+She takes a good look at both of the documents and starts looking at something related to the ticket in the computer. After a few seconds she releases an almost unperceptible giggle from the sides of her lips, as if she had finally solved a riddle, and apparently, it was amusing.
+
+<<speech "nobody" "''Attendant:''">>
+Here you go, all in order. Have a JUICY trip. *wink*<</speech>>
+<<speech "You" "''$name:''">>
+Thanks... (How should I even take that?)<</speech>>
+There's another line, outdoors, to get into the <<linkappend "actual ship." t8n>><<scrolldown>>
+
+After another fucking eternity, it is your turn to enter the ship. As tired and uncomfortable as you are right now, you can't help but feel a little tingle of excitement as you are about to start the first vacation you spend all by yourself AND with a ton of beautiful women. You can't wait to tell that last part to $fname, he's going to be so jealous.
+
+<img src="places1/intotheship.jpg" width="70%">
+
+[[Reception]]<</linkappend>><</linkappend>><<audio "menus" stop>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>>
+
+

@@ -1,0 +1,21 @@
+:: bathaq [textback] {"position":"3693,1642","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<if $bathaq is 0>><div class="center"><img src="dockings/bathaq.jpg" width="70%"></div>
+As you open the bathroom door the smell of bleach and chlorine hits your nose. There are five stalls and a sink, as well as a mirror and a hand dryer. Nothing out of the ordinary. On the opposite wall of the stalls there's a bunch of cheap lockers.
+
+[[Go into a stall|bathaq][$bathaq to 1]]
+[[Check the lockers]]
+
+[[Return|Into the Aquarium]]<<elseif $bathaq is 1>>You really don't need to pee, but you decide to give the one of the stalls a look. As you get in one you take a look at the cleanliness of the toilet, which is more than acceptable, and the quantity of toilet paper, which seems also in order.<<addmins 5>>
+
+You take a step forwards so you can close the door from the inside.
+
+<<linkreplace "Take a look">><div class="center"><span class="fade-ins"><span class="noborder"><img src="dockings/stall.jpg" width="70%"></span></span></div>
+<<speech "You" "''$name:''">>
+ *sigh* (I don't know what I was expecting... <span class="pink">guys are all the same...</span>)<</speech>>
+You are spending quite the time reading all those obscenities. Two minutes pass before you ginger up.
+
+<<speech "You" "''$name:''">>
+Ok. Enough of this.<</speech>>
+[[Return|bathaq][$bathaq to 0]]<</linkreplace>><</if>><<audio "menus" stop>><<if ndef $mute>><<audio "mystery" unmute>><<else>><</if>>
+
+

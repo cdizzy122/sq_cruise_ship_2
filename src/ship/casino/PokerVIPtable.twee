@@ -1,0 +1,181 @@
+:: Poker VIP table [textback] {"position":"3451,1124","size":"100,100"}
+<<if ndef $vippoker>><div class="center"><img src="places2/vippoker.jpg" width="50%"></div>
+As you get into the room, you're surprised by the amount of people on the only poker table. There are 3 middle-age women and 2 white men. You can hear them talking.
+
+<<speech "nobody" "''White man 1'':">>
+Are you sure about that bluff you're trying to pull?<</speech>>
+<<speech "nobody" "''White man 2'':">>
+Yeah, A bluff... sure...<</speech>>
+<<speech "nobody" "''White man 1'':">>
+... ...<</speech>>
+<<speech "nobody" "''Blonde woman'':">>
+Hah, you made him doubt.<</speech>>
+<<speech "nobody" "''White man 1'':">>
+I'm not doubting, but he could have a real deal there... hm...<</speech>>
+<<speech "nobody" "''White man 2'':">>
+C'mon man, we don't have all day!<</speech>>
+<<speech "nobody" "''Asian woman'':">>
+ *yawns* Well, I thought this was supposed to be a game...<</speech>>
+<<speech "m" "''Brunette woman'':">>
+Let the man think, it's a lot of money...<</speech>>
+<<speech "nobody" "''White man 1'':">>
+Let me tell you what: I think you are bluffing as well...<</speech>>
+Suddenly the croupier intervenes.
+
+<<speech "nobody" "''Croupier'':">>
+Ahem... ready?<</speech>>
+Everyone nods. As soon as they do, she puts out two more cards on the table.
+
+<<speech "nobody" "''White man 2'':">>
+... ...<</speech>>
+<<speech "nobody" "''White man 1'':">>
+See? I knew you were bluffing!<</speech>>
+<<speech "nobody" "''Asian woman'':">>
+Wow... you really did pull that off...<</speech>>
+<<speech "nobody" "''Blonde woman'':">>
+That means I win...?<</speech>>
+<<speech "m" "''Brunette woman'':">>
+Not really-<</speech>>
+The black-haired woman shows her cards, making everyone sigh.
+
+<div class="center"><img src="passengers/m3.gif" width="60%"></div>
+<<speech "nobody" "''Croupier'':">>
+The lady wins!<</speech>>
+<<speech "nobody" "''White man 1'':">>
+Oh, well fuck! Anyway, we're going girls, wanna come with us?<</speech>>
+<<speech "nobody" "''Asian woman'':">>
+I could take some pounding!<</speech>>
+<<speech "nobody" "''Blonde woman'':">>
+OMG, Violet! Hahaha sure!<</speech>>
+The four of them get out together, probably getting ready to fuck each other. You let them out, worried that maybe one of those two women was "M", but something's telling you that you might be on the right track.
+
+You approach the table.
+
+<<speech "nobody" "''Croupier'':">>
+Hi there, can I help you?<</speech>>
+<<speech "m" "''Brunette woman'':">>
+ *gasp* ... ...<</speech>>
+You take a seat at the table and decide to go straight to the point.
+
+<<speech "You" "''$name'':">>
+Hi, I would like to speak to "M", in private.<</speech>>
+...
+
+...
+
+...
+
+<<speech "m" "''M??'':">>
+... I'll be back in a minute, save my seat Tiff.<</speech>>
+<<speech "nobody" "''Croupier'':">>
+Okay...<</speech>>
+The woman gets out and you follow her.
+
+[[Talk to her|Poker VIP table][$vippoker to 0]]
+
+
+
+\\<<elseif $vippoker is 0>><<if ndef $minvip>><div class="center"><img src="passengers/m1.jpg" width="50%"></div>
+<<speech "m" "''M'':">>
+So I'm guessing you at least know who I am, then.<</speech>>
+<<speech "You" "''$name'':">>
+Kinda. (Better not give much information!) I think I've heard Stoya talk about you as her "superior"?<</speech>>
+You can see her relax a bit. That was a good move.
+
+<<speech "m" "''M'':">>
+Oh, yeah, well that's true. Everything fine?<</speech>>
+<<speech "You" "''$name'':">>
+I've been noticing a few changes in my behaviour and... body...<</speech>>
+<<speech "m" "''M'':">>
+Heh... yeah, I would know. What about it?<</speech>>
+You can tell she's like a brick wall, there's no way to break her. You know she's intelligent, definitely more than you. And she's also beautiful...
+
+<<speech "You" "''$name'':">>
+Well, I would just want to be informed about that. Could you share some information of that "treatment" Stoya won't stop talking about?<</speech>>
+''M'' takes a good look at you and smiles.
+
+<<speech "m" "''M'':">>
+I'm sorry, but I'm afraid that would be counterproductive.<</speech>>
+<<speech "You" "''$name'':">>
+But it's my body. I demand to know what is my treatment about.<</speech>>
+You try to be baddass, but no matter how much you try, there's really no way to do that.
+
+<<speech "m" "''M'':">>
+I cannot share information. I promise I'm not breaking any laws, we won't do anything you don't WANT to. We are just giving you the choice, and it seems to me like you're taking it. *smiles*<</speech>>
+You don't understand what she's saying. You CAN'T actually choose, right?
+
+<<speech "You" "''$name'':">>
+What do you mean by that? I can't choose, you put me to sleep.<</speech>>
+<<speech "m" "''M'':">>
+This is kind of awkward, you know... I don't usually speak with the patients. That's not my job, I'm a researcher.<</speech>>
+<<speech "You" "''$name'':">>
+Researching what?<</speech>>
+<<speech "m" "''M'':">>
+Um...<</speech>>
+Although at first she pulled that cold shtick, you are now seeing sign of it fading away. You can see her touching her own hands and looking to the sides. This is your moment to maybe convince her of your intentions, perhaps threatening is not your best option here.
+
+<<speech "You" "''$name'':">>
+Look... it's not like I'm going to jump out to the water, ok? I just like to know what exactly is going on. You know, knowledge.<</speech>>
+<<speech "m" "''M'':">>
+Exactly, that's why we do what we do. That's why we need you as much as you need us.<</speech>>
+<<speech "You" "''$name'':">>
+It's ok, I get it. You need to experiment and I might need a change in my life. But please, I need to know more.<</speech>>
+<<speech "m" "''M'':">>
+... ... Look, $name. You look like a very nice gir- boy, but you've got to understand that I can't give any information to anyone, let alone the patients. I'd be risking all my work and inversion. Please, be empathetic.<</speech>>
+[[Try getting a bit angry|Poker VIP table][$minvip to 0]]
+[[Keep calm and talk her into it|Poker VIP table][$minvip to 1]]
+
+
+\\<<elseif $minvip is 0>><<speech "You" "''$name'':">>
+Empathetic?! Are you for real? YOU need to be empathetic! I'm not even asking for you to stop your work, just a little bit of information for me to take it better.<</speech>>
+''M'' stays silent for a long time, looking at you.
+
+<<speech "m" "''M'':">>
+ *sigh* I've had ethical issues, I won't lie... But there's just no other way, and-<</speech>>
+<<speech "You" "''$name'':">>
+Don't give me any more reasons, I'm just asking for information. No, I'm begging!<</speech>>
+She lowers her head.
+
+<<speech "m" "''M'':">>
+I know... *sigh* I'm just a scientist, passionate about my job. As you can imagine, the purpose for which my research is being used is not mine. But "they" pay. I know it's not totally right, so I spend most time here, at the VIP area, gambling and letting the experiments run...<</speech>>
+<<speech "You" "''$name'':">>
+I'm not asking for much, "M"... just treat me as a human being. I won't interfere with your research, but just... have a heart.<</speech>>
+You take her hand, making her blush a bit.
+
+<<speech "m" "''M'':">>
+Um... o-ok. I'll do what I can. I'll go get you Saturday at your room. Then we'll go to my office. I don't think I can share much, but I'll do my best, $name.<</speech>>
+<<speech "You" "''$name'':">>
+Okay, thank you, "M"...<</speech>>
+You let her go and she goes back to the poker table.
+
+[[Return|VIPin][$vippoker to 1, $m1 to "Finished", $badge to $badge +1, $m2 to "Active"]]
+
+
+\\<<elseif $minvip is 1>><<speech "You" "''$name'':">>
+Yes, I understand you... But now I'm asking you to do the same for me. My life has changed drastically in just a month, and I don't even know if my family and friends will accept my new me. This is not easy, you know?<</speech>>
+<<speech "m" "''M'':">>
+... ... Hm...<</speech>>
+She lowers her eyes, letting you know that she's actually a bit ashamed of that.
+
+<<speech "You" "''$name'':">>
+Please, "M"... maybe we can talk about each other's problems? Wouldn't you like someone to talk?<</speech>>
+<<speech "m" "''M'':">>
+You look like a nice kid, but you're also a patient. I don't know...<</speech>>
+<<speech "You" "''$name'':">>
+Look at me... *you turn around* you did this to me. Now, please, just talk to me. Give me a reason and information so I can rationalize this.<</speech>>
+<<speech "m" "''M'':">>
+Hm... I think you are right, $name. I'm sorry, I know that usually these experiments need authorization. Although, this is not a normal one... I'll tell you what: I'll go get you Saturday at your room. Then we'll go to my office. I don't think I can share much, but I'll do my best, $name.<</speech>>
+You let her go and she goes back to the poker table.
+
+[[Return|VIPin][$m1 to "Finished", $badge to $badge +1, $m2 to "Active", $vippoker to 1, $vip1 to "Finished"]]<</if>>
+
+
+
+\\<<elseif $vippoker is 1>><div class="center"><img src="places2/vippoker2.jpg" width="50%"></div>
+You can see "M" playing poker by herself.
+
+<<speech "You" "''$name'':">>
+(Better not bother her, I already got what I wanted...)<</speech>>
+[[Return|VIPin]]<</if>>
+
+

@@ -1,0 +1,9 @@
+:: Chocolate Dick [noreturn] {"position":"156,1144","size":"100,100"}
+<img src="food/bigchoco.jpg" width="70%">
+
+A 10 inch big black chocolate dick. Melts in your mouth. ''(LUST +40, SUB +3, INT -2, HUNGER +40)''
+
+<<click "Eat" "Inventory">><<set $chocodick to $chocodick -1>><<set $lust to $lust +40>><<set $sub to $sub +3>><<set $int to $int -2>><<set $hunger to $hunger +40>><</click>>
+[[Return|Inventory]]
+
+

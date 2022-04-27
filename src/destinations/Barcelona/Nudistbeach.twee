@@ -1,0 +1,11 @@
+:: Nudist beach [nudist textback] {"position":"3990,747","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spanish">><<audio "ship" mute>><<if ndef $mutefx>><<audio "sea" volume 0.1 play loop>><<else>><</if>><<audio "spanish" volume 0.5 play loop>><<nobr>><div class="center"><<set $nbimg to random(1,6)>><<if $nbimg is 1>><img src="dockings/nudist/nude1.jpg" width="70%"><<elseif $nbimg is 2>><img src="dockings/nudist/nude2.jpg" width="70%"><<elseif $nbimg is 3>><img src="dockings/nudist/nude3.jpg" width="70%"><<elseif $nbimg is 4>><img src="dockings/nudist/nude4.jpg" width="60%"><<elseif $nbimg is 5>><img src="dockings/nudist/nude5.jpg" width="70%"><<elseif $nbimg is 6>><img src="dockings/nudist/nude6.jpg" width="70%"><</if>></div><</nobr>>
+<div class="center">Welcome to the Nudist Beach! No clothes allowed. Love and peace.<<set $busstop to 0>></div>
+                             
+<div class="center"><<nobr>><--------[[Left]]--------[[Road]]--------[[Right]]--------><</nobr>>
+
+<span class="no">[[Lifeguard Cabin->Life guard cabin]]</span></div>
+
+<<nobr>><<if $flyer is "Active" or $flyer is "1/3 done" or $flyer is "2/3 done">><<linkreplace "Return to Ship">>I have to do my errands first.<</linkreplace>><<elseif $flyer is "Finished" or $flyer is "Unstarted">><<click "Return to Ship" "Reception">><<audio "spanish" stop>><<audio "sea" stop>><<set $gym to 4, $dreams to 6, $capt to 6, $kitchen to 5, $anatomy to 4, $styleclass to 3, $jada to 1, $dance to 3, $officedoc to 3, $review to 3, $receptionship to 1, $dinner to 2, $arrival to false, $fetish to 2, $fetish3 to true>><<addhours 4>><</click>><</if>><</nobr>><<audio "menus" stop>><<if ndef $mute>><<audio "spanish" unmute>><<else>><</if>><<if ndef $mutefx>><<audio "sea" unmute>><<else>><</if>>
+
+

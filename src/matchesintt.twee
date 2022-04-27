@@ -1,0 +1,8 @@
+:: matchesintt [phone noreturn] {"position":"639,1583","size":"100,100"}
+<<removeclass "html">><<addclass "html" "tinder">><div class="center"><span class="noborder"><img src="stuff/tinder2.png" width="50%"></span>
+
+<<if $tmatch is 0>>No matches yet.<<else>><<nobr>><<if $tprofile1 is true>><span class="fade-in-out"><span class="Phone">[[Aryana$->blackgirl]]</span></span><<else>><</if>><</nobr>><<nobr>><<if $tprofile2 is true>><span class="fade-in-out"><span class="Phone">[[Lelu <3->BFF]]</span></span><<else>><</if>><</nobr>>
+<<nobr>><<if $tprofile3 is true>><span class="fade-in-out"><span class="Phone">[[Netflix n'Chill->netflix]]</span></span><<else>><</if>><</nobr>><</if>></div>
+[[Return|Tinder]]<<audio "menus" stop>><<if ndef $mute>><<audio "tinder" unmute>><<else>><</if>>
+
+

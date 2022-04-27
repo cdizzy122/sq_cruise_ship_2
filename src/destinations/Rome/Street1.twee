@@ -1,0 +1,8 @@
+:: Street1 [textback] {"position":"3277,517","size":"100,100"}
+<<removeclass "html">><<addclass "html" "rome">><<audio "rome" volume 0.4 play loop>><div class="center"><img src="dockings/rome/street.jpg" width="60%">
+A beautiful and quite wide street is in front of you. Just a few kids, turists and locals are on sight. At the end of the street you can see the a road.
+
+<<nobr>><--------[[Cinema in piazza]]--------[[Road|romeroad]]--------[[Stores|Bari]]--------><</nobr>></div>
+[[Return|Romeport]]<<if ndef $mute>><<audio "rome" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

@@ -1,0 +1,24 @@
+:: Get in lab [textback] {"position":"2328,407","size":"100,100"}
+<<removeclass "html">><<addclass "html" "lab">><<if ndef $getinlab>><span class="onomatopeya">*WOOSH*</span>
+
+<<speech "You" "''$name:''">>
+(Yes! It worked)<</speech>>
+You silently open the door. The overwhelming silence makes it hard to walk forward without making noise, making you feel paranoid about even breathing.
+
+With extreme care, you close the door behind you.<<set $lab1 to "Finished">>
+
+<div class="center"><img src="places2/labhall.jpg" width="50%"></div>
+<<speech "You" "''$name''">>
+(There's some noise coming from the front. Sounds like compressed gas being released or something like that...)<</speech>>
+<div class="center"><-------[[Go left][$getinlab to 0]]-------[[Go right][$getinlab to 0]]-------></div>
+[[Get out|Health Center]]<<elseif $getinlab is 0>><div class="center"><img src="places2/labhall.jpg" width="50%">
+You see the door you came in through.
+
+<<nobr>><<if $grabflask is 1 or $grabflask is 2>><<else>>There's a red flask in the middle of the hall [[Take|Get in lab][$rflask to true, $alreadyflask to true, $getinlab to 1]]<</if>><</nobr>></div>
+<div class="center"><------[[Go left]]------[[Go right]]------></div>
+[[Get out|Health Center]]<<elseif $getinlab is 1>><div class="center"><img src="places2/labhall.jpg" width="50%">
+You see the door you came in through.</div>
+<div class="center"><------[[Go left]]------[[Go right]]------></div>
+[[Get out|Health Center]]<</if>><<audio "menus" stop>><<if ndef $mute>><<audio "mystery" unmute>><<else>><</if>>
+
+

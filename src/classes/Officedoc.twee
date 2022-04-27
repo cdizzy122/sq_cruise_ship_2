@@ -1,0 +1,384 @@
+:: Officedoc [noborder textback] {"position":"2105,406","size":"100,100"}
+<<removeclass "html">><<addclass "html" "lab">><<audio "heels" loop play>><<if $officedoc is 0>><img src="places2/clinic.jpg" width="60%">
+
+You arrive to Stoya's office, where she already has everything ready for your revision.
+
+<<speech "stoya" "''Stoya:''">>
+Please, lay down on the bed. This will only be a moment, you won't even feel it.<</speech>>
+<img src="classes/stoya/mask.jpg" width="60%">
+
+<<click "Your vision fades away..." Officedoc>><<if ndef $trans>><<set $officedoc to 1>><<elseif $trans is 0>><<set $officedoc to 2>><<elseif $trans is 1>><<set $officedoc to 3>><<elseif $trans is 2>><<set $officedoc to 4>><</if>><</click>>
+<<elseif $officedoc is 1>>When you regain consciousness Stoya is just taking the mask off your face.
+
+<<speech "stoya" "''Stoya:''">>
+Allllright!! Everything seems fine!<div style="font-size:11px">But you are so interesting, hmm... Lets see how he reacts to the...</div>Oh sorry, I'm just thinking out loud! Anyway, you better get going. You may want to have a shower before dinner.<</speech>>
+You get up from the bed. Your legs feel weak and your chest and ass is burning. <<set $int to $int -1, $fem to $fem +1, $lust to $lust +50>>
+
+<div class="center">''<span class="pulse"><span class="notless">INT -1  </span><span class="notplus">FEM +1  </span><span class="notplus">LUST +50%  </span></span>''</div>
+<<click "Byebye." "Dining room">><<audio "mystery" stop>><<set $officedoc to 0>><<set $ownface to 1>><<set $trans to 0>><<run $gameDate.setHours (20)>><</click>>
+<<elseif $officedoc is 2>>When you regain consciousness Stoya is just taking the mask off your face.
+
+<<speech "stoya" "''Stoya:''">>
+Allllright!! Everything seems fine!<div style="font-size:11px">I can already see the changes on his face, it's amazing...</div>Oh sorry, I'm just thinking out loud! Anyway, you better get going. You may want to have a shower before dinner.<</speech>>
+You get up from the bed. Your legs feel weak and your chest and ass is burning. <<set $int to $int -1, $fem to $fem +1, $lust to $lust +50>>
+
+<div class="center">''<span class="pulse"><span class="notless">INT -1  </span><span class="notplus">FEM +1  </span><span class="notplus">LUST +50%  </span></span>''</div>
+<<click "Byebye." "Dining room">><<audio "mystery" stop>><<set $officedoc to 0>><<set $lab to 1>><<set $trans to 1>><<set $ass to 1>><<set $pen to 1>><<set $boobs to 1>><<run $gameDate.setHours (20)>><</click>>
+<<elseif $officedoc is 3>><span class="uihide"><span class="fade-ins">You can't open your eyes...</span>
+<span class="fade-ins">But you can feel how your body is being moved...</span>
+
+<<timed 1s>><<speech "stoya" "''Stoya:''">>
+So... what do you think?<</speech>>
+<<next 1s>><<speech "nobody" "''???:''">>
+The substance is working in a different way as we've previously observed. I think we might be onto something, but it's working slow... we're running out of time.<</speech>>
+<<next 1s>><<speech "stoya" "''Stoya:''">>
+So what should we do?<</speech>>
+<<next 1s>><<speech "nobody" "''???:''">>
+Make the experiment more intrusive.<</speech>>
+<<next 1s>><<speech "stoya" "''Stoya:''">>
+And... wouldn't that make him suspect?<</speech>>
+<<next 1s>><<speech "nobody" "''???:''">>
+... ... I think he already does... ...<</speech>>
+You hear some heels walking away...
+
+<<next 1s>><<speech "stoya" "''Stoya:''">>
+Ok, then... let's get you to the chamber, cutie...<</speech>>
+<<if $drinkflask is "red">>It seems like the red flask you drank before is letting you stay awake, but it's also making you feel not that great. Your guts are tickling, as well as your ass, and you notice your libido growing abnormally...
+
+<div class="center"><span class="notplus">LUST +30</span> <span class="notless">FEM +1</span></div>
+You can feel how Stoya is carrying you around on a wheeled table, transfering you to "the chamber". After what seems like more than a few steps, the movement stops.
+
+<<speech "stoya" "''Stoya:''">>
+Let's see how we're doing under there...<</speech>>
+She starts undressing you from the upper body to the bottom, all the way. To this point, you are shocked she is not commenting anything about your penis or something like that.
+
+<<speech "You" "''$name:''">>
+(I guess she has to keep a certain profesionality...)<</speech>>
+Once you are completely undressed, Stoya straps a couple of handles over your arms, and raises your legs to place them on a pair of floating handles, leaving your body at a very vulnerable position that inmediately reminds you of that of a woman at a gynechologist clinic.
+
+You start to worry, as Stoya seems to have gone out for a couple of minutes. Just after thinking that, you hear a machine warming up.
+<span class="onomatopeya">RRRRR</span>
+<<speech "You" "''$name:''">>
+(What the fuck is this?! It's like an x-ray machine or something worse! What if they're trying to kill me?! I've got to move!)<</speech>>
+You make your best effort and try to move a muscle, but your body is totally numb. It won't respond. No matter how hard you try. Just as you are at the brink of desperation, you feel something moving. The machine is pushing your legs to your body, exposing your anus even more. You also feel some kind of cushion lifting your head a bit and a bright light coming closer to your face...
+
+and closer...
+
+and <<linkappend "closer...">><<if ndef $mutefx>><<audio "robot1" volume 0.15 play loop>><<else>><</if>>
+
+<div class="center"><img src="classes/stoya/goggles.gif" width="60%"></div>
+Just as the machine is making full contact with your body, you feel a heavy pressure over certain parts of your body, as well as your mind. A sucesion of too-fast-to-process images cross through your brain. For a second it reminds you of Jada's treatment, but... this... is too much.
+
+<span class="shudder">too much....</span>
+
+<span class="shudder"><span class="fade-in-out">too...</span></span>
+
+<span class="shudder"><span class="fade-in-out">much...</span></span>
+
+[[... ...|Officedoc][$officedoc to 4, $flasks to "Finished"]]<</linkappend>>
+
+
+
+
+\\<<elseif $drinkflask is "green">>It seems like the green flask you drank before is letting you stay awake, but you are also feeling how your head is spinning, almost as if it weighted less...
+
+<div class="center"><span class="notless">INT -1</span></div><<set $int to $int -1>>
+
+You can feel how Stoya is carrying you around on a wheeled table, transfering you to "the chamber". After what seems like more than a few steps, the movement stops.
+
+<<speech "stoya" "''Stoya:''">>
+Let's see how we're doing under there...<</speech>>
+She starts undressing you from the upper body to the bottom, all the way. To this point, you are shocked she is not commenting anything about your penis or something like that.
+
+<<speech "You" "''$name:''">>
+(I guess she has to keep a certain profesionality...)<</speech>>
+Once you are completely undressed, Stoya straps a couple of handles over your arms, and raises your legs to place them on a pair of floating handles, leaving your body at a very vulnerable position that inmediately reminds you of that of a woman at a gynechologist clinic.
+
+You start to worry, as Stoya seems to have gone out for a couple of minutes. Just after thinking that, you hear a machine warming up.
+<span class="onomatopeya">RRRRR</span>
+<<speech "You" "''$name:''">>
+(What the fuck is this?! It's like an x-ray machine or something worse! What if they're trying to kill me?! I've got to move!)<</speech>>
+You make your best effort and try to move a muscle, but your body is totally numb. It won't respond. No matter how hard you try. Just as you are at the brink of desperation, you feel something moving. The machine is pushing your legs to your body, exposing your anus even more. You also feel some kind of cushion lifting your head a bit and a bright light coming closer to your face...
+
+and closer...
+
+and <<linkappend "closer...">><<if ndef $mutefx>><<audio "robot1" volume 0.15 play loop>><<else>><</if>>
+
+<div class="center"><img src="classes/stoya/goggles.gif" width="60%"></div>
+Just as the machine is making full contact with your body, you feel a heavy pressure over certain parts of your body, as well as your mind. A sucesion of too-fast-to-process images cross through your brain. For a second it reminds you of Jada's treatment, but... this... is too much.
+
+<span class="shudder">too much....</span>
+
+<span class="shudder"><span class="fade-in-out">too...</span></span>
+
+<span class="shudder"><span class="fade-in-out">much...</span></span>
+
+[[... ...|Officedoc][$officedoc to 4, $flasks to "Finished"]]<</linkappend>>
+<<else>><div class="center"><span class="onomatopeya">BRRRRRRR</span></div>
+You lose consciousness...
+
+[[... ...|Officedoc][$officedoc to 4, $flasks to "Failed"]]<</if>><</timed>><<script>>UIBar.stow()<</script>></span><<elseif $officedoc is 4>><<audio "robot1" stop>><<speech "stoya" "''Stoya:''">>
+Ooops! This is interesting...<div style="font-size:11px">This scan... it's as if he wasn't fully asleep, but that seems to have improved the- </div>Oh sorry! I'm just thinking out loud! Anyway, you better get going. You may want to have a shower before dinner.<</speech>>
+You get up from the bed. Your legs feel weak and your chest and ass is burning. <<set $int to $int -3, $fem to $fem +3, $lust to $lust +60>>
+
+<div class="center">''<span class="pulse"><span class="notless">INT -3  </span><span class="notless">FEM +3  </span><span class="notplus">LUST +60%  </span></span>''</div>
+<<click "Byebye." "Dining room">><<audio "mystery" stop>><<set $officedoc to 5>><<set $lab to 1>><<set $review to 3>><<set $ownface to 2>><<set $trans to 3>><<set $ass to 2>><<set $pen to 2>><<set $boobs to 2>><<run $gameDate.setHours (20)>><</click>><<script>>UIBar.unstow()<</script>>
+
+
+
+\\<<elseif $officedoc is 5>><<audio "robot1" stop>>When you regain consciousness Stoya is just taking the mask off your face.
+
+<<speech "stoya" "''Stoya:''">>
+Allllright!! Everything seems fine!<div style="font-size:11px">I can already see the changes on his face, it's amazing...</div>Oh sorry, I'm just thinking out loud! Anyway, you better get going. You may want to have a shower before dinner.<</speech>>
+You get up from the bed. Your legs feel weak and your chest and ass is burning. <<set $int to $int -2, $fem to $fem +1, $lust to $lust +60>>
+
+<div class="center">''<span class="pulse"><span class="notless">INT -2  </span><span class="notplus">FEM +1  </span><span class="notplus">LUST +60%  </span></span>''</div>
+<<click "Byebye." "Dining room">><<audio "mystery" stop>><<set $review to 3>><<set $officedoc to 0>><<set $lab to 1>><<set $trans to 3>><<set $ass to 2>><<set $pen to 2>><<set $boobs to 2>><<set $ownface to 2>><<run $gameDate.setHours (20)>><</click>>
+
+
+
+\\<<elseif $officedoc is 6>><img src="places2/clinic.jpg" width="60%">
+
+You arrive to Stoya's office, where she already has everything ready for your revision.
+
+<<speech "stoya" "''Stoya:''">>
+Please, lay down on the bed. This will only be a moment, you won't even feel it.<</speech>>
+<img src="classes/stoya/mask.jpg" width="60%">
+
+<<click "Your vision fades away..." Officedoc>><<set $officedoc to 7>><</click>>
+
+
+
+\\<<elseif $officedoc is 7>><<if $newvial is true>><span class="uihide"><span class="fade-ins">You can't open your eyes...</span>
+<span class="fade-ins">But you can feel how your body is being moved...</span>
+
+<<timed 1s>><<speech "stoya" "''Stoya:''">>
+So, apparently "her" mental changes are being noticed and the progress is being really awesome-<</speech>>
+<<next 1s>><<speech "nobody" "''???:''">>
+That is "awesome" news? No, Stoya, it is not. If the mental changes are coming together before the physical ones, that means that even though we've increased the quantity, we are having the same result.<</speech>>
+<<next 1s>><<speech "stoya" "''Stoya:''">>
+Oh... But you said that the changes wouldn't could come all at the same time once it reaches a certain state.<</speech>>
+<<next 1s>><<speech "nobody" "''???:''">>
+Yes, but we've changed at least one factor: the quantity. Now that we've doubled it, it would only make sense for the changes to show faster, unless...<</speech>>
+<<next 1s>><<speech "stoya" "''Stoya:''">>
+Unless?<</speech>>
+<<next 1s>><<speech "nobody" "''???:''">>
+Maybe the compound not only works on the outside... you said the mental changes were amazing, right? Hm... maybe we're making progress without knowing it... We need more than just physical tests. You know what to do... this could be a breakdown. I knew "she" would do well, the ''princess''...<</speech>>
+You feel Stoya putting some things around your head.
+
+<<speech "stoya" "''Stoya:''">>
+There... let's see what response we can get from "her"... Are you going to stay for it?<</speech>>
+<<speech "nobody" "''???:''">>
+No, not really. I need to relax... I'll be going to the ''VIP area'' now. Keep me informed.<</speech>>
+You hear some heels walking away...
+
+<<speech "stoya" "''Stoya:''">>
+Alright then... let's see... how about putting this inside your mouth, honey?<</speech>>
+Stoya sinks some large object inside your mouth. Although you can't really control your movements, you feel your mouth move by itself.
+
+<<speech "stoya" "''Stoya:''">>
+Wow! Look at that response! It's not only excited, but also like if you were... learning? Interesting...<</speech>>
+Suddenly, something starts making a loud noise.
+
+<div class="center"><span class="onomatopeya">BRRRRRRR</span></div>
+You lose consciousness...
+
+[[... ...|Officedoc][$officedoc to 8, $vip1 to "1/2 done"]]<</timed>><<script>>UIBar.stow()<</script>></span>
+
+\\<<else>><<goto "Officedoc">><<set $officedoc to 8>><</if>>
+
+
+
+\\<<elseif $officedoc is 8>><<audio "robot1" stop>><<if $newvial is true>><div class="center"><img src="classes/stoya/labceiling.gif" width="50%"></div>
+You slowly start waking up, but decide to keep your eyes almost closed. Seems like Stoya has almost finished with you, since you can feel how sore your muscles are.
+
+<<speech "stoya" "''Stoya:''">>
+ *Walks closer to you* Ok, seems like the heavy treatment is over... Cutie, cutie... *sigh*<</speech>>
+Stoya pinches and twirls one of your pink nipples.
+
+<<speech "You" "''$name:''">>
+(Ouch! Don't move a muscle, $name!)<</speech>>
+You try your hardest to stay quiet, and it seems like she is believing it.
+
+<<speech "stoya" "''Stoya:''">>
+Such a softer, smoother skin. And wow! These testicles have really gotten smaller during these weeks... Hm... C'mon, we've got to measure these... *giggle*<</speech>>
+<<speech "You" "''$name:''">>
+(Fuck, not even the doctor is taking things seriously on this ship...)<</speech>>
+Stoya picks you up from the machine you were in and makes you stand up with the help of some straps. You hadn't noticed before, but as you feel your tiny penis move around you can tell that she's unlocked it.
+
+<<speech "You" "''$name:''">>
+(God, it feels good to be free down there. But the first time I could enjoy it, I'm stuck with this doctor...)<</speech>>
+<<speech "stoya" "''Stoya:''">>
+ *extends measuring tape* Alright! Let's see... micropenis category... ugh, so hot... and these testies... half the original size...GOD<</speech>>
+You can feel Stoya's hands touching your parts much more than necessary. Seems like she's enjoying her job.
+
+<<speech "stoya" "''Stoya:''">>
+Who can tell what changes I'll find next week?! I can barely wait... I wish you asked me to change you, $name... *caresses your balls* It could be fun having a voluntary for a change, but... also... having you like this... all by myself... hmmm...<</speech>>
+You hear her walk away. After a minute you can still hear her, but she's... moaning? You decide to open one eye a bit:
+
+<div class="center"><img src="classes/stoya/stoyafap.gif" width="50%"></div>
+<<speech "You" "''$name:''">>
+(WTF She's masturbating?!)<</speech>>
+<<speech "stoya" "''Stoya:''">>
+ *fap, fap, fap* Ah... damn, I'm going to turn you into a fucking...ah... girly gurl! Yes! Look at that small little masculinity vestige! Sooo tiny... If it was on me, I would put a vag on you, little gurl! *fap, fap*<</speech>>
+<<speech "You" "''$name:''">>
+Her job turns her on?! God, that's twisted...<</speech>>
+Still rubbing herself, she stands up and comes closer. Without any advice, she start sucking on your nipples and grabs your dick.
+
+<<speech "You" "''$name:''">>
+(Oh, god, I can't let her make me horny... she will notice!)<</speech>>
+<<speech "stoya" "''Stoya:''">>
+Yeah... you know what I want to do with this tiny worm? You know this, $name, c'mon! Oh, right... you're a sleeping beauty, huh? Well, let's do it as usual...<</speech>>
+Stoya tightly grabs your flaccid penis with two of her fingers and pull out.
+
+<<speech "stoya" "''Stoya:''">>
+Small dicked white boys like you need to get rid of their little man remainings... *pulls from your dick*<</speech>>
+<<speech "You" "''$name:''">>
+(Ouch! Wha- she knows she can't really pull it out, right?)<</speech>>
+<<speech "stoya" "''Stoya:''">>
+Oh... didn't work... I'll keep trying until I can't tell the difference between you and a fucking bimbo doll, $name.<</speech>>
+Stoya keeps rhythmically trying to pull your dick out from your body.
+
+<div class="center"><img src="classes/stoya/stoyasph.gif" width="50%"></div>
+<<speech "You" "''$name:''">>
+(Well, she's not doing it so strong, so it must just be a fetish of hers... Ah...)<</speech>>
+You suddenly notice your small cock getting harder by the second. The fapping sounds of her vagina, and her dirty degrading talk seem to be getting to you the right way. Despite all your efforts for not getting a boner, the kinkiness of the situation is overwhelming.
+
+<<speech "stoya" "''Stoya:''">>
+Oh, wow, you also want to get rid of it, huh? I must say, I hadn't seen it hard until now, but it's not very impressive. It hasn't even grown, has it? *pull, pull*<</speech>>
+Your blood rushes as her grip on your cock tightens more. The stronger the grip, the harder you get. Suddenly, you can't help but breathe harder.
+
+<<speech "You" "''$name:''">>
+ *long loud inhale*<</speech>>
+Stoya stops masturbating.
+
+<<speech "stoya" "''Stoya:''">>
+... ... huh, that would explain the erection.<</speech>>
+She tickles the tip of your penis. It twitches.
+
+<<speech "stoya" "''Stoya:''">>
+I knew it. You must be half asleep...<</speech>>
+Stoya comes back with a gas mask and makes you go to sleep again.</div>
+...
+
+...
+
+...
+<<linkreplace "Go to sleep">>
+...
+
+...
+
+<<speech "stoya" "''Stoya:''">>
+Welcome honey, you are healthy! Do you happen to be taking too much caffeine or medicine that could keep you awake?<</speech>>
+<<speech "You" "''$name:''">>
+No, not that I know about... (oops...)<</speech>>
+<<speech "stoya" "''Stoya:''">>
+<div style="font-size:11px">Hmm... Interesting... Something's wrong here...</div> Oh sorry! I'm just thinking out loud! Anyway, you better get going. You may want to have a shower before dinner.<</speech>>
+You get up from the bed. Your legs feel weak and your chest and ass is burning. 
+
+<<speech "You" "''$name:''">>
+(Seems like the flasks are making a greater effect every time, is as if I was gaining resistance to the anesthesia... maybe if I had another chance and woke up earlier...)<</speech>><<set $int to $int -3, $fem to $fem +3, $lust to $lust +60>>
+
+<div class="center">''<span class="pulse"><span class="notless">INT -3  </span><span class="notless">FEM +3  </span><span class="notplus">LUST +60%  </span></span>''</div>
+<<click "Byebye." "Dining room">><<audio "mystery" stop>><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><<set $trans to 4>><<if $fit gte 20>><<set $ass to 3>><<else>><<set $ass to 4>><</if>><<set $pen to 3>><<if $fem gte 20>><<set $boobs to 6>><<else>><<set $boobs to 5>><</if>><<set $ownface to 3>><</click>><</linkreplace>>
+
+
+
+\\<<else>><<speech "stoya" "''Stoya:''">>
+Allllright!! Everything seems fine!<div style="font-size:11px">I can already see the changes on his face, it's amazing...</div>Oh sorry, I'm just thinking out loud! Anyway, you better get going. You may want to have a shower before dinner.<</speech>>
+You get up from the bed. Your legs feel weak and your chest and ass is burning. <<set $int to $int -3, $fem to $fem +3, $lust to $lust +60>>
+
+<div class="center">''<span class="pulse"><span class="notless">INT -3  </span><span class="notless">FEM +3  </span><span class="notplus">LUST +60%  </span></span>''</div>
+<<click "Byebye." "Dining room">><<audio "mystery" stop>><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><<set $trans to 4>><<if $fit gte 20>><<set $ass to 3>><<else>><<set $ass to 4>><</if>><<set $pen to 3>><<if $fem gte 20>><<set $boobs to 6>><<else>><<set $boobs to 5>><</if>><<set $ownface to 3>><</click>><</if>>
+
+
+
+
+
+
+
+
+\\<<elseif $officedoc is 9>><img src="places2/clinic.jpg" width="60%">
+
+You arrive to Stoya's office, where she already has everything ready for your revision.
+
+<<speech "stoya" "''Stoya:''">>
+Please, lay down on the bed. This will only be a moment, you won't even feel it.<</speech>>
+<img src="classes/stoya/mask.jpg" width="60%">
+
+Stoya turns away and you manage to dislodge the mask, so you are breathing half clean air.
+
+<<click "Pretend to fade away" Officedoc>><<set $labcount to 0, $pickfl to 0, $officedoc to 10>><</click>>
+
+
+
+
+\\<<elseif $officedoc is 10>><span class="uihide"><span class="fade-ins">You can feel how your body is being transferred somewhere else...
+
+<<speech "stoya" "''Stoya:''">>
+Alright then... let's see... how about putting this inside your mouth, honey?<</speech>>
+Stoya sinks some large object inside your mouth. Although you can't really control your movements, you feel your mouth move by itself.
+
+<<speech "stoya" "''Stoya:''">>
+Wow! Look at that response! A lot better than last week, huh? Good little slut...<</speech>>
+Stoya slides you into some kind of machine and proceeds to get out of the room.
+
+<<speech "stoya" "''Stoya:''">>
+Alright, I'll see you later cutie...<</speech>>
+<span class="onomatopeya">SLAM</span>
+
+<<if $newvial2 is true>>She closes the door behind her, and so you start opening your eyes and making sure you're alone. Then you try to take that thing in your mouth out.
+
+<div class="center"><img src="classes/stoya/drip.gif" width="30%"></div>
+<<speech "You" "''$name:''">>
+(Ok! Time to investigate... what is this thing... it's like a dipenser of something...? Anyway, I don't have much time...)<</speech>>
+
+\\<<else>>She closes the door behind her, and although you would want to wake up and walk around, the gas she gave you isn't letting you do so.
+
+<<speech "You" "''$name:''">>
+(Oh, shit, my eyes are closing... I forgot to take the blue vial!)<</speech>>
+With a lot of effort, you manage to grab the blue vial in your pocket and drink it. The effects of the anesthesia slowly go away and you're able to open your eyes. Then you try to take that thing in your mouth out.
+
+<div class="center"><img src="classes/stoya/drip.gif" width="50%"></div>
+<<speech "You" "''$name:''">>
+(Ok! Time to investigate... what is this thing... it's like a dipenser of something...? Anyway, I don't have much time...)<</speech>><</if>>
+[[Investigate|Lab2][$officedoc to 11, $bluevial to false]]</span>
+
+
+
+\\<<elseif $officedoc is 11>><<speech "stoya" "''Stoya:''">>
+Welcome back, my little project... You're making progress, as you should... and, by the way, I expect my secret experiments to remain a secret, understood? Not a word.<</speech>>
+You nod and get up from the bed. Your legs feel weak and your chest and ass is burning. <<set $int to $int -3, $fem to $fem +3, $lust to $lust +60>>
+
+<div class="center">''<span class="pulse"><span class="notless">INT -3  </span><span class="notless">FEM +3  </span><span class="notplus">LUST +60%  </span></span>''</div>
+
+<<if $stoyalips is true>>This time, you can feel something weirder. Your ''lips'' seem to be a bit more plump.
+
+<div class="center"><img src="classes/stoya/lips.jpg" width="40%"></div>
+<<speech "You" "''$name:''">>
+ *you touch them* What is this...?<</speech>>
+<<speech "stoya" "''Stoya:''">>
+Those are your new lips. Enjoy!<</speech>><<else>><<speech "You" "''$name:''">>
+Penny...<</speech>>
+<<speech "stoya" "''Stoya:''">>
+Heh, I see now you're starting to remember... I bet she'll like her new ''A cup'' tits.<</speech>><</if>>
+
+<<click "Have dinner" "Dining room">><<audio "mystery" stop>><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><<set $trans to 5>><<if $fit gte 20>><<set $ass to 4>><<else>><<set $ass to 5>><</if>><<set $pen to 4>><<if $fem gte 20>><<set $boobs to 6>><<else>><<set $boobs to 5>><</if>><<set $ownface to 5>><</click>>
+
+
+
+
+
+\\<<else>><<speech "stoya" "''Stoya:''">>
+Allllright!! Everything seems fine!<div style="font-size:11px">I can already see the changes on his face, it's amazing...</div>Oh sorry, I'm just thinking out loud! Anyway, you better get going. You may want to have a shower before dinner.<</speech>>
+You get up from the bed. Your legs feel weak and your chest and ass is burning. <<set $int to $int -3, $fem to $fem +3, $lust to $lust +60>>
+
+<div class="center">''<span class="pulse"><span class="notless">INT -3  </span><span class="notless">FEM +3  </span><span class="notplus">LUST +60%  </span></span>''</div>
+<<click "Byebye." "Dining room">><<audio "mystery" stop>><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><<set $trans to 4>><<if $fit gte 20>><<set $ass to 3>><<else>><<set $ass to 4>><</if>><<set $pen to 3>><<if $fem gte 20>><<set $boobs to 6>><<else>><<set $boobs to 5>><</if>><<set $ownface to 3>><</click>>
+
+
+<<script>>UIBar.unstow()<</script>><</if>><<set $dreams to 2>><<audio "menus" stop>><<audio "ship" mute>><<audio "mystery" mute>>
+<<nobr>><<if $ownface is 0>><<set $profileState to 0>><<elseif $ownface is 1>><<set $profileState to 1>><<elseif $ownface is 2>><<set $profileState to 2>><<elseif $ownface is 3>><<set $profileState to 3>><<elseif $ownface is 4>><<set $profileState to 4>><<elseif $ownface is 5>><<set $profileState to 5>><</if>><</nobr>>
+
+

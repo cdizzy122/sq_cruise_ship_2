@@ -1,0 +1,10 @@
+:: Brush teeth [textback] {"position":"567,243","size":"100,100"}
+<<if $eat is true>><img src="stuff/brush.gif" width="50%">
+
+All clean and shiny white.
+
+[[Bathroom]]<<addmins 5>><<else>>Better eat something first. If not, food might taste terrible. Aaaaaaaaand you would have to brush them again after.
+
+[[Bathroom]]<</if>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

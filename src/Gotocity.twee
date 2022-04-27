@@ -1,0 +1,11 @@
+:: Go to city [textback] {"position":"1057,731","size":"100,100"}
+<<removeclass "html">><<addclass "html" "street">><<if ndef $startcity>><div class="center"><img src="places1/startstreet.jpg" width="60%"></div>
+<<speech "You" "''$name'':">>
+(There quite some people on the street. You can tell they want this Friday to finish and start the weekend.)<</speech>>
+<div class="center"><div class="row3"><div class="column3"><<if $gfwork gte 0>>[[Park]]<<else>><<linkreplace "Park">>I should take lunch to $gfname first<</linkreplace>><</if>></div><div class="column3"><<if $gfwork gte 0>><<linkreplace "GF's work">>I already went there<</linkreplace>><<else>>[[GF's work]]<</if>></div><div class="column3">[[Stores]]</div></div></div>
+
+
+\\<<else>><</if>>
+<<audio "touriststalk" play>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>>
+
+

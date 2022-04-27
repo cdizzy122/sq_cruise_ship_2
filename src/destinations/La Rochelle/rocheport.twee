@@ -1,0 +1,8 @@
+:: rocheport [textback] {"position":"3982,1387","size":"100,100"}
+<<removeclass "html">><<addclass "html" "french">><div class="center"><img src="dockings/rochelleport.jpg" width="100%">
+You walk into a simple but beautiful port. There's not a lot of people, and the ones that pass by don't seem to mind you much.
+
+<<nobr>><--------[[Aquarium]]--------[[Center]]--------[[Automaton museum]]--------><</nobr>></div>
+<<nobr>><<if ndef $rochellee>><<linkreplace "Return to Ship">>I have to do my errands first.<</linkreplace>><<elseif $rochellee is 0>><<click "Return to Ship" "Reception">><<set $gym to 2, $capt to 2, $anatomy to 3, $arrival to false, $kitchen to 3, $styleclass to 2, $dance to 1>><<audio "french" stop>><</click>><</if>><</nobr>><<addmins 1>><<if ndef $mute>><<audio "french" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

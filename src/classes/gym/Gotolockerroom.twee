@@ -1,0 +1,84 @@
+:: Go to locker room [noborder textback] {"position":"2208,642","size":"100,100"}
+<<removeclass "html">><<addclass "html" "locker">><<audio "gym" stop>><<audio "shower" loop play>><<if $gymshower is 0>>There's only one locker room for men and women. Luckily there are a few individual showers which are separated from the rest.
+
+Before someone sees you, you get into one of those and close the door.
+
+<span class="fade-ins"><img src="classes/rae/shower1.jpg" width="40%"></span>
+
+You get a relaxing shower.<<set $stress to 0>> ''*Stress was reduced*''
+
+<<click "Finish" "Deck 7">><<audio "shower" stop>><</click>><<elseif $gymshower is 1>>There's only one locker room for men and women. Luckily there are a few individual showers which are separated from the rest.
+
+Before someone sees you, you get into one of those and close the door.
+
+<span class="fade-ins"><img src="classes/rae/shower1.jpg" width="40%"></span>
+
+The water drops feel a bit more agressive than the last time... Could it be just me? Maybe it's just a setting of the shower. Your skin feels tighter. <<set $lust to $lust +20>>
+
+<div class="center">''<span class="notless">LUST +20 </span>''</div>
+<<click "Finish" "Deck 7">><<audio "shower" stop>><</click>><<elseif $gymshower is 2>>
+There's only one locker room for men and women, but luckily there are a few individual showers which are separated from the rest.
+
+You get in one of those and close the door.
+
+<div class="center"><span class="pulse"><img src="classes/rae/shower2.jpg" width="80%"></span></div>
+The water drops feel a bit more agressive...but it makes you feel good, doesn't it? It makes you feel so smooth and awesome. You feel your clit getting hard. What is in this water...? <<set $lust to $lust +30>>
+
+<div class="center">''<span class="notless">LUST +30 </span>''</div>
+<<click "Finish" "Deck 7">><<audio "shower" stop>><</click>><<elseif $gymshower is 3>>
+There's only one locker room for men and women, but luckily there are a few individual showers which are separated from the rest.
+
+You get in one of those and close the door.
+
+<div class="center"><span class="pulse"><img src="classes/rae/shower2.jpg" width="80%"></span></div>
+The water drops feel a bit more agressive...but it makes you feel good, doesn't it? Your skin feels so smooth and awesome. Your small dick is getting hard. 
+
+<<speech "You" "''$name:''">>
+What is in this water...? <span class="pink">mmm...</span><</speech>><<set $lust to $lust +30>>
+<div class="center">''<span class="notless">LUST +30 </span>''</div>
+<<click "Finish" "Deck 7">><<audio "shower" stop>><</click>><<elseif $gymshower is 4>>
+There's only one locker room for men and women, but luckily there are a few individual showers which are separated from the rest.
+
+You get in one of those and close the door.
+
+<div class="center"><span class="pulse"><img src="classes/rae/shower2.jpg" width="90%"></span></div>
+The water drops feel a bit more agressive...but it makes you feel good, doesn't it? Your skin feels so smooth and awesome. Your small dick is getting hard<<if $cage is true>> inside its cage..<<else>><</if>>.
+
+<<speech "You" "''$name:''">>
+What is in this water...? <span class="pink">mmm... makes my skin feel slipery and smooth...</span><</speech>><<set $lust to $lust +30>>
+<div class="center">''<span class="notless">LUST +30 </span>''</div>
+<<click "Finish" "Deck 7">><<audio "shower" stop>><</click>><<elseif $gymshower is 5>>
+There's only one locker room for men and women, but luckily there are a few individual showers which are separated from the rest.
+
+You get in one of those and close the door.
+
+<div class="center"><span class="pulse"><img src="classes/rae/shower2.jpg" width="90%"></span></div>
+The water drops feel very agressive... it feels like it's not only cleaning you on the outside, but also the inside. The pain makes you feel a little mad, but you don't get out. Your response to pain is to stay still and receive it. Your skin feels so smooth and awesome. Your small dick is getting hard<<if $cage is true>> inside its cage..<<else>><</if>>.
+
+<<speech "You" "''$name:''">>
+What is in this water...? <span class="pink">Ouchie! It hurts a bit, but my body feels very sensitive... I like feeling cute...</span><</speech>><<set $lust to $lust +40>>
+<div class="center">''<span class="notless">LUST +40 </span>''</div>
+<<click "Finish" "Deck 7">><<audio "shower" stop>><</click>><<elseif $gymshower is 6>>There's only one locker room for men and women, but luckily there are a few individual showers which are separated from the rest.
+
+You get in one of those and close the <<linkappend "door.">>
+
+<div class="center"><span class="pulse"><img src="classes/rae/shower2.jpg" width="70%"></span></div>
+The water drops feel a bit more agressive...but it makes you feel good, doesn't it? It makes you feel so smooth and awesome. You feel your clit getting hard<<if $cage is true>> inside its cage..<<else>><</if>>.
+
+<<speech "You" "''$name:''">>
+What is in this water...? <span class="pink">Ouchie! It hurts a bit, but my body feels very sensitive... I like feeling cute...</span><</speech>><<set $lust to $lust +40>>
+<div class="center"><span class="notplus">LUST +40</span></div>
+<<click "Finish" "Deck 7">><<audio "shower" stop>><</click>><</linkappend>><<elseif $gymshower is 7>>There's only one locker room for men and women, but luckily there are a few individual showers which are separated from the rest. You can see Rae's office door at the end of the locker room, but even before you decide to go or not you get into an individual shower to get the sweat out.
+
+<div class="center"><span class="pulse"><img src="classes/rae/shower2.jpg" width="90%"></span></div>
+The water drops feel very agressive... it feels like it's not only cleaning you on the outside, but also the inside. The pain makes you feel a little mad, but you don't get out. Your response to pain is to stay still and receive it. Your skin feels so smooth and awesome. Your small dick is getting hard<<if $cage is true>> inside its cage..<<else>><</if>>.
+
+<<speech "You" "''$name:''">>
+What is in this water...? <span class="pink">Ouchie! It hurts a bit, but my body feels very sensitive... I like feeling cute...</span><</speech>>
+You can't help but feel your breasts and rub your bouncy ass.<<set $lust to $lust +30, $fem to $fem +1>>
+<div class="center">''<span class="notplus">FEM +1 </span><span class="notless">LUST +30 </span>''</div>
+[[Go to Rae's office]]
+
+<<click "Finish" "Deck 7">><<audio "shower" stop>><</click>><</if>>
+
+

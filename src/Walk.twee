@@ -1,0 +1,372 @@
+:: Walk [textback] {"position":"2006,109","size":"100,100"}
+<<if ndef $outdeck>><<if $dayn gte 9>><<if $deckpics is 0>><div class="center"><img src="places2/deck91.jpg" width="60%"></div><<elseif $deckpics is 1>><div class="center"><img src="places2/deck92.jpg" width="60%"></div><<elseif $deckpics is 2>><div class="center"><img src="places2/deck93.jpg" width="60%"></div><<elseif $deckpics is 3>><div class="center"><img src="places2/deck94.jpg" width="60%"></div><<elseif $deckpics is 4>><div class="center"><img src="places2/deck95.jpg" width="60%"></div><<elseif $deckpics is 5>><div class="center"><img src="places2/deck96.jpg" width="60%"></div><</if>>
+
+Once you arrive to the middle of the deck you let the fresh air flow in and out your lungs. You feel refreshed. Suddenly, an abrupt sound startles you:
+
+<span class="onomatopeya">CRASH</span>
+
+<<speech "nobody" "''Top model'':">>
+Oh, no! My mug!<</speech>>
+You quickly approach the woman.
+
+<div class="center"><img src="quest5/kelsey.jpg" width="65%"></div>
+<<speech "You" "''$name'':">>
+Hey, what happened?<</speech>>
+<<speech "nobody" "''Top model'':">>
+I just dropped my cute mug... Now I have to drink my tea out of the thermo...<</speech>>
+<<speech "You" "''$name'':">>
+Well, look at the bright side: It stays cold in the thermo, so maybe it's even better that way-<</speech>>
+<<speech "nobody" "''Top model'':">>
+No, but it's different... Although I'm on vacation, I have to prepare myself for the next season... I need to tan and get fit...<</speech>>
+<<speech "You" "''$name'':">>
+But you can still do all that without the mug-<</speech>>
+<<speech "nobody" "''Top model'':">>
+No, I can't! It's very different drinking tea on a mug or on a frickin' thermo. I read an article on a magazine that said the way you eat and drink is as important as what you eat.<</speech>>
+<<speech "You" "''$name'':">>
+(She has to be the poshest girl I've ever seen...)<</speech>>
+She crouches to pick up a piece of the broken mug. You see something written on it: "''Kelsey the QoS''".
+
+<<speech "You" "''$name'':">>
+ *mutter* Kelsey, the "QoS?"<</speech>>
+<<speech "nobody" "''Kelsey'':">>
+You know... Queen of Spades? *smiles*<</speech>>
+<<speech "You" "''$name'':">>
+Spades?<</speech>>
+<<speech "nobody" "''Kelsey'':">>
+Hahaha... C'mon... Black only? Once you go black, you never go back? Does that ring a bell? Hahaha<</speech>>
+<<speech "You" "''$name'':">>
+Do you mean...<</speech>>
+<<speech "nobody" "''Kelsey'':">>
+Yes! God, yes, I mean cocks, yes. It's trending now, white girls go black. I thought everyone knew about it! And the white boys go black too! You should see how my highschool boyfriend looks now... hahaha<</speech>>
+<<speech "You" "''$name'':">>
+ *gulp* (Although she's very posh, she's very intimidating too...)<</speech>>
+''*New Side-Quest: Buy Kelsey a new mug for her tea*''
+
+[[Return|Deck 9][$cupmission to "Active", $badge to $badge +1, $outdeck to 0]]
+
+
+
+\\<<else>><<if $deckpics is 0>><div class="center"><img src="places2/deck91.jpg" width="60%"></div><<elseif $deckpics is 1>><div class="center"><img src="places2/deck92.jpg" width="60%"></div><<elseif $deckpics is 2>><div class="center"><img src="places2/deck93.jpg" width="60%"></div><<elseif $deckpics is 3>><div class="center"><img src="places2/deck94.jpg" width="60%"></div><<elseif $deckpics is 4>><div class="center"><img src="places2/deck95.jpg" width="60%"></div><<elseif $deckpics is 5>><div class="center"><img src="places2/deck96.jpg" width="60%"></div><</if>>
+
+You walk along the upper deck. The sun and fresh sea air gives your stressed mind a little bit of peace. Some of the women you cross give you a weird look, but you decide to keep your pace and pretend like it's not happening.
+
+<div class="center"><span class="notplus">''STRESS -20%''</span></div>
+
+[[Return|Deck 9][$stress to $stress -20]]<</if>>
+ 
+
+
+\\<<elseif $outdeck is 0>><<if $penismug gte 1>><div class="center"><img src="quest5/deck95.jpg" width="60%"></div>
+You walk across the deck and approach Kelsey.
+
+<<speech "You" "''$name'':">>
+Hey, um...<</speech>>
+<<speech "nobody" "''Kelsey'':">>
+Hey, $name, right? Did you get me a substitute for my mug?<</speech>>
+<<speech "You" "''$name'':">>
+Well... I did what I could...<</speech>>
+You pull out the Penis Mug.
+
+<<speech "nobody" "''Kelsey'':">>
+What the... did you stick your dick into the mug or what? Hahaha...<</speech>>
+Kelsey grabs the mug and takes a closer look.
+
+<<speech "nobody" "''Kelsey'':">>
+Oh, so you actually grab it from there, huh?<</speech>>
+Kelsey takes the mug and sucks the penis on the mug.
+
+<<speech "nobody" "''Kelsey'':">>
+ *slurp, slurp* Hm... at least it's comfortable for the hand, but I think the "straw" might be a little small, don't you think? *giggles*<</speech>>
+<<speech "You" "''$name'':">>
+... ... (What am I supposed to say now?...)<</speech>>
+<<speech "nobody" "''Kelsey'':">>
+Here, come sit with me. Let's try it, it'll be fun!<</speech>>
+She grabs your forearm and makes you sit by her side. Then she pulls out her thermo and pours some of her special tea into the mug.
+
+<<speech "nobody" "''Kelsey'':">>
+There. *she offers you the filled mug*<</speech>>
+<<speech "You" "''$name'':">>
+Um... I don't... (not in front of all the people...)<</speech>>
+The deck 9 is one of the most crowded decks and groups of women are walking up and down, looking at you both, mumbling and giggling.
+
+<<speech "nobody" "''Kelsey'':">>
+Oh, come on... Don't be shy... I'm sure it's not the first time you put your lips on a dick, hahahaha!<</speech>>
+<<if $sub gte 15>>You already feel emabarrased enough just holding the mug between your hands, but drinking from the tip of that dick is just too much...
+
+<<speech "nobody" "''Kelsey'':">>
+ *sigh* Give it to me, then! I'll show you how it's done. I hope you don't treat your bulls like that, as a sissy you need to be more... easy-going!<</speech>>
+Kelsey holds the mug with one hand and sensually poses it on her lower lip. Then she reaches the glans of the penis-mug with her tongue. In one move, she closes her mouth and grips the penis, sucking some of the liquid.
+
+<<speech "nobody" "''Kelsey'':">>
+Ahh... yeah, this feels better than the thermo... Did you see a ghost, honey?<</speech>>
+You now realize that your mouth is open due to the overwhelming sexiness of Kelsey. With such a show, you couldn't help but get hard. If it wasn't for your cage, you would be in a very awkward situation.
+
+<<speech "You" "''$name'':">>
+ *blushing* N- no, I'm fine-<</speech>>
+<<speech "nobody" "''Kelsey'':">>
+Aww... do you like how Kelsey drinks? Do you want Kelsey to suck your dick like that?! Hahaha<</speech>>
+Kelsey's shouts are getting the attention of the women walking by and your face is getting even redder.
+
+<<speech "nobody" "''Kelsey'':">>
+Well, I'm sorry honey, but I don't do your kind... Do you think I go through all this work for "men" like you? Hahaha... Kelsey was made for BBC only!<</speech>>
+She takes your chin and pouts her lips.
+
+<<speech "nobody" "''Kelsey'':">>
+You are soooo cute when you blush, aren't you?<</speech>>
+<<speech "You" "''$name'':">>
+... ...<</speech>>
+She finally takes her hands off you.
+
+<<speech "You" "''$name'':">>
+... Doesn't it bother you that it's...<</speech>>
+<<speech "nobody" "''Kelsey'':">>
+White? Well, I would definitely prefer it to be black, but, since it's small it makes more sense this way. It's more manageable! hahaha<</speech>>
+<<speech "You" "''$name'':">>
+Well, I'm glad you like it.<</speech>>
+You stand up and start walking away before she says anything else.
+
+<<speech "nobody" "''Kelsey'':">>
+Hey, wait! *she walks towards you* I think it's really nice of you that you did this. How much was the mug?<</speech>>
+<<speech "You" "''$name'':">>
+400 points.<</speech>>
+<<speech "nobody" "''Kelsey'':">>
+I'll make sure you get those back and some more for the inconvenience. See? I'm not that awful of a person! I would never ever have sex with someone like you, but you are such a good little boy! I will also give you some of my beauty tea. That'll make your skin smoother (you'll catch the "real" guys attention *wink, wink*)<</speech>>
+''*You received Beauty Tea from Kelsey*''<<set $points to $points +500>>
+
+<div class="center"><span class="notplus">''+100 POINTS''</span></div>
+[[Return|Deck 9][$cupmission to "Finished", $outdeck to 1, $penismug to $penismug -1, $points to $points +500, $tea to 1]]
+
+
+\\<<else>>You already feel emabarrased enough just holding the mug between your hands, and you don't think wrapping your lips around it is going to make you any less embarrased...
+
+<<speech "You" "''$name'':">>
+No, I've never done anything like this...<</speech>>
+<<speech "nobody" "''Kelsey'':">>
+Oh, well that is a surprise! I thought all sissies had, but I guess you must be on the "cuckold" phase yet, am I right?<</speech>>
+<<speech "You" "''$name'':">>
+... *you take your eyes off her*<</speech>>
+<<speech "nobody" "''Kelsey'':">>
+Oh, poor baby... that must be hard, but you'll be thankful for it after you let go your lame masculinity. It's holding you from being happy.<</speech>>
+You stay in silence, surprised by the sudden speech about sissies and sexuality. It's like you are back in Anatomy class. Your eyes go back to the mug. You take a close look at it.
+
+<<speech "You" "''$name'':">>
+(Well, just a little sip won't hurt. It's just me drinking after all...)<</speech>>
+<span class="onomatopeya">GULP</span>
+
+As you drink you notice how some of the women stare at you and comment about it.
+
+<<speech "nobody" "''Kelsey'':">>
+Hell yeah! Hahaha, grab that dick firmly babe! Is that tea nice or what?<</speech>>
+<<speech "You" "''$name'':">>
+ *slurp* Hmm... yeah it tastes familiar in a way...<</speech>>
+<<speech "nobody" "''Kelsey'':">>
+I bet... *wink*<</speech>>
+Kelsey takes the mug and starts taking sips.
+
+<<speech "nobody" "''Kelsey'':">>
+Anyway, I think it's really nice of you that you did this. How much was the mug?<</speech>>
+<<speech "You" "''$name'':">>
+400 points.<</speech>>
+<<speech "nobody" "''Kelsey'':">>
+I'll make sure you get those back and some more for the inconvenience. See? I'm not that awful of a person! I would never ever have sex with someone like you, but you are such a good little boy! I will also give you some of my beauty tea. That'll make your skin smoother (you'll catch the "real" guys attention *wink, wink*)<</speech>>
+''*You received Beauty Tea from Kelsey*''<<set $points to $points +500>>
+
+[[Return|Deck 9][$cupmission to "Finished", $outdeck to 1, $penismug to $penismug -1, $points to $points +500, $tea to 1]]<</if>>
+
+
+\\<<else>><<if $deckpics is 0>><div class="center"><img src="places2/deck91.jpg" width="60%"></div><<elseif $deckpics is 1>><div class="center"><img src="places2/deck92.jpg" width="60%"></div><<elseif $deckpics is 2>><div class="center"><img src="places2/deck93.jpg" width="60%"></div><<elseif $deckpics is 3>><div class="center"><img src="places2/deck94.jpg" width="60%"></div><<elseif $deckpics is 4>><div class="center"><img src="places2/deck95.jpg" width="60%"></div><<elseif $deckpics is 5>><div class="center"><img src="places2/deck96.jpg" width="60%"></div><</if>>
+
+You walk along the upper deck. The sun and fresh sea air gives your stressed mind a little bit of peace. Some of the women you cross give you a weird look, but you decide to keep your pace and pretend like it's not happening.
+
+You see Kelsey laying down ''drinking from her thermo...''
+
+<<speech "You" "''$name'':">>
+(Oh, yeah, that's right! She dropped her QoS's mug... I could buy one for her at the store...)<</speech>>
+<div class="center"><span class="notplus">''STRESS -20%''</span></div>
+[[Return|Deck 9][$stress to $stress -20]]<</if>>
+
+
+
+
+
+
+
+\\<<elseif $outdeck is 1>><<if $newrandom lt 2>><<if $newencounter is 1>><<speech "nobody" "''Blonde with sunglasses'':">>
+🎶Iny weeny teeny weeny, Shriveled little short dick man🎶<</speech>>
+<<speech "nobody" "Blonde latina">>
+Sssh! Hahahaha *whispers* You're so bad!<</speech>>
+<<speech "nobody" "''Blonde with sunglasses'':">>
+What? I just LOVE that song! 🎶Shriveled little short dick man
+Don't want don't want don't want🎶<</speech>>
+<<speech "nobody" "Blonde friend">>
+Hahahaha!<</speech>>
+You take a look.
+
+<div class="center"><img src="encounters/3girls1.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(Ooh...)<</speech>>
+Even though your mind is getting twisted, you can still appreciate hot women when you see them, and to notice them looking straight at you makes your face blush with embarrasment. You give out a coy smile in return.
+
+<<speech "nobody" "''Blonde with sunglasses'':">>
+Hey, you like that song too? Come here.<</speech>>
+You keep your smile and take a couple steps closer.
+
+<<speech "nobody" "''Blonde latina'':">>
+No, don't be like that... *giggles*<</speech>>
+<<speech "nobody" "''Blonde with sunglasses'':">>
+Be like what? I just want to know if "he" likes this song. So tell me, "guy", do you?<</speech>>
+She brings out her phone.
+
+<<linkreplace "... ...">><<audio "sdm" volume 0.3 loop play>><div class="center"><img src="encounters/3girls2.jpg" width="50%"></div>
+<span class="onomatopeya">HAHAHAHAH</span>
+
+<<speech "nobody" "''Blonde friend'':">>
+Hahahahaha! I-I can't! Hahahaha!<</speech>>
+The friend on the right is laughing her ass out, grabbing her friend's boob. Meanwhile, the girl that was singing takes her sunglasses off to take a better look at you and puts her hand down her crotch.
+
+<<speech "nobody" "''Blonde with sunglasses'':">>
+C'mon, show us that "shriveled dick", you "short dick man".<</speech>>
+<div class="center"><img src="encounters/3girls3.gif" width="50%"></div>
+<<if $sub gte 40>><div class="center"><span class="fade-ins-out"><span class="pink">⬇︎IF ''SUB'' MORE THAN 40⬇︎</span></span></div>
+You look the other way, trying to pass on the offer, but something makes you stay right there in front of them, like if you were their little puppy.
+
+<<speech "nobody" "''Blonde with sunglasses'':">>
+Are you deaf too? Just let us know if you're a "short dick man", c'mon... *giggles*<</speech>>
+You blush, partially from the embarrasment, but also due to the female attention you're getting. Your heart starts pounding fast as your hand crawl onto your underwear, preparing to flash them your sissy clitty.
+
+<<speech "You" "''$name'':">>
+(Oh, fuck it!)<</speech>>
+<span class="onomatopeya">FLASH</span>
+
+<div class="center"><<if $cage is true>><img src="encounters/3girls5.png" width="40%"><<else>><img src="encounters/3girls4.jpg" width="50%"><</if>></div>
+<<speech "nobody" "''Blonde friend'':">>
+Pfffffhahahahahaha!<</speech>>
+<<speech "nobody" "''Blonde latina'':">>
+Hahaha, OMG what the hell is that?!<</speech>>
+Both of them take their phone cameras and start taking pictures.
+
+<<speech "nobody" "''Blonde latina'':">>
+The girls are not going to believe this...<</speech>>
+<<speech "nobody" "''Blonde with sunglasses'':">>
+It's even more disappointing than I thought... *sigh* Oh well, cover it up! We don't want seagulls flying in to eat that pathetic "worm"... *stops the music*<</speech>>
+She joins her friends, taking a vertical video of your clit while calling you names. After what seems like an eternity, you finally react and put your underwear back on.
+
+\\<<else>><div class="center"><span class="fade-ins-out"><span class="pink">⬇︎IF ''SUB'' LESS THAN 40⬇︎</span></span></div>With your smile still on, you decide it's best to just take a step back and keep walking.
+
+<<speech "You" "''$name'':">>
+(The whole deck can hear... that was embarrasing...)<</speech>>
+<div class="center"><span class="notplus">LUST +20</span></div><</if>>
+
+<<click "Return to Deck 9" "Deck 9">><<audio "sdm" stop>><</click>><</linkreplace>>
+
+
+
+
+
+
+\\<<elseif $newencounter is 2>><<if ndef $mutefx>><<audio "hey" volume 0.2 play>><<else>><</if>><<removeclass "html">><<addclass "html" "deck9">>As you're walking along the deck, you suddenly hear a woman calling your name.
+
+<<speech "nobody" "''Woman with a cap'':">>
+Hey, $name, why don't you come here a second.<</speech>>
+Although the woman is about 10 meters away, you walk the distance and sit on a chair next to hers.
+
+<div class="center"><img src="encounters/deck9woman.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+Did you call me?<</speech>>
+<<speech "nobody" "''Woman with a cap'':">>
+Well, yes. See, I know this ship must be overwhelming for you. *takes a long sip of her beer mug*<</speech>>
+<<speech "You" "''$name'':">>
+... ... (Sure, take your fucking time...) Um, and how did you know my actual name?<</speech>>
+<<speech "nobody" "''Woman with a cap'':">>
+Well, it doesn't take much, I know all the staff from seeing them all around for a month now. But I just wanted to tell you... *takes another long sip*<</speech>>
+<<speech "You" "''$name'':">>
+(She's getting on my nerves... That must be the tiniest sip I've seen in my life!)<</speech>>
+<div class="center"><img src="encounters/sip.jpg" width="50%"></div>
+<<speech "nobody" "''Woman with a cap'':">>
+I'm not like those young girls, I've been around, and I know how to appreciate the "small, tiny" thing in life. I love bitter beverages, like this beer. I am a woman of simple pleasures... *takes another sip*<</speech>>
+<<speech "You" "''$name'':">>
+Um... (so what??) thanks, I guess.<</speech>>
+You stand up and are ready to go, but she stops you.
+
+<<speech "nobody" "''Woman with a cap'':">>
+Wait, I'm not done. I've heard your training is going quite great. You remind me of my husband, and I certainly miss his lovely tongue. So tell me, do you eat fresh pussy or only fucked and cummed on?<</speech>>
+You are a bit perplex with her question, but you can tell she's being serious.
+
+<<speech "You" "''$name'':">>
+Um... well, I guess I'm more used to fresh.<</speech>>
+<<speech "nobody" "''Woman with a cap'':">>
+ *disappointed sigh* I see you're not "that" well trained yet, but I can help you with that. *inhales* Doesn't get better than this: sun, beer, and a sissy eating my freshly fucked pussy.<</speech>>
+As she says that last sentence, she pushes her bikini to the side, exposing her spent vagina.
+
+<div class="center"><img src="encounters/flashpussy.jpg" width="32%"></div>
+<<if $sub gte 40>><div class="center"><span class="fade-ins-out"><span class="pink">⬇︎IF ''SUB'' MORE THAN 40⬇︎</span></span></div>
+As if there wasn't another choice, you dive your face into her pussy and start licking it up and down.
+
+<<speech "nobody" "''Woman with a cap'':">>
+Yeah... oh, do you think you can guess who it was?<</speech>>
+<<speech "You" "''$name'':">>
+ *slurp, slurp* Who was the... guy?<</speech>>
+<<speech "nobody" "''Woman with a cap'':">>
+Yeah, the stud who fucked this pussy good. I used to play this game with my hubby, and I promised he could get out of chastity if he could guess it right. Of course, I wouldn't let him cum, but he appreciated it nonetheless... Yeah...<</speech>>
+<<speech "You" "''$name'':">>
+ *slurp, slurp* But I don't know everyone here...<</speech>>
+<<speech "nobody" "''Woman with a cap'':">>
+I guess penis size and color would be good enough in this case... *smiles and gently caresses your head*<</speech>>
+<div class="center"><img src="encounters/eatpussy.gif" width="50%"></div>
+You get your tongue further inside her pussy, engaged in this "game". Although you are trying your best, you can't really distiguish any weird taste besides what tastes like an average vagina. Suddenly, she pushes her muscles and a small thread of cum comes running down, so you give it a taste.
+
+<<speech "You" "''$name'':">>
+Hmmm... (This tastes... very sweet, almost like candy... Hmmm... it's good, but...)<</speech>>
+You suddenly remember the anatomy classes and the difference between black and white males.
+
+<<speech "nobody" "''Woman with a cap'':">>
+So? Found any hints on my sore pussy? *smiles*<</speech>>
+<<speech "You" "''$name'':">>
+It's sweet... I don't think it was a black man.<</speech>>
+<<speech "nobody" "''Woman with a cap'':">>
+ *gasp* Very good! What else? Can you guess his size?<</speech>>
+You sink back into her pussy, licking all the remnants.
+
+<<speech "You" "''$name'':">>
+(It's very stretched... but I'm not sure, that could just be how her pussy is...) He was very thick and-<</speech>>
+<<speech "nobody" "''Woman with a cap'':">>
+Meeeeh! Wrong answer, but nice try. He was actually just normal for what I'm used to. *sigh* White guys, you know... it's a real lottery...<</speech>>
+...
+
+...
+
+...
+
+You keep eating her out for a while, but she really seems to be too sore and worn out to even feel you that good. She suddenly stops you and lets you stand up.
+
+<<speech "nobody" "''Woman with a cap'':">>
+I say you've got talent for a good fluffer! I'll get in contact once your training has gone a bit further. *takes a long sip of her beer*<</speech>>
+You stand up and wipe your face.
+
+<<click "Return to Deck 9" "Deck 9">><</click>>
+
+
+\\<<else>><div class="center"><span class="fade-ins-out"><span class="pink">⬇︎IF ''SUB'' LESS THAN 40⬇︎</span></span></div>
+
+You look at her a bit mad. It's not that you don't like pussy or anything like that, but this really felt too condescending even for you.
+
+<<speech "You" "''$name'':">>
+I'm sorry, but I'm really not that interested.<</speech>>
+<<speech "nobody" "''Woman with a cap'':">>
+Interested? You're funny. This must be the first time I've ever heard a sissy speak like that to a woman. You've got balls... yet. I'll get back to you once those ballsies are... *makes a scissor gesture* cut off...<</speech>>
+<<speech "You" "''$name'':">>
+ *gulp*<</speech>>
+<<click "Return to Deck 9" "Deck 9">><</click>><</if>><</if>>
+
+
+
+
+\\<<else>><<if $deckpics is 0>><div class="center"><img src="places2/deck91.jpg" width="60%"></div><<elseif $deckpics is 1>><div class="center"><img src="places2/deck92.jpg" width="60%"></div><<elseif $deckpics is 2>><div class="center"><img src="places2/deck93.jpg" width="60%"></div><<elseif $deckpics is 3>><div class="center"><img src="places2/deck94.jpg" width="60%"></div><<elseif $deckpics is 4>><div class="center"><img src="places2/deck95.jpg" width="60%"></div><<elseif $deckpics is 5>><div class="center"><img src="places2/deck96.jpg" width="60%"></div><</if>>
+
+You walk along the upper deck. The sun and fresh sea air gives your stressed mind a little bit of peace. Some of the women you cross give you a weird look, but you decide to keep your pace and pretend like it's not happening.
+
+<div class="center"><span class="notplus">''STRESS -20%''</span></div>
+
+[[Return|Deck 9][$stress to $stress -20]]<</if>><</if>>
+
+

@@ -1,0 +1,8 @@
+:: Junk drawer [textback] {"position":"997,0","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><<if ndef $mutefx>><<audio "wardrobe1" play>><<else>><</if>><img src="places1/gfjunk.jpg" width="70%">
+
+<<speech "You" "''$name:''">>
+WTF!! I didn't know she had one of these things. This is unbelievable! I must talk to her as soon as possible.<</speech>>
+[[Return|open gfdoor]]<<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

@@ -1,0 +1,109 @@
+:: mscene [textback] {"position":"622,2426","size":"100,100"}
+<<if ndef $mutefx>><<audio "knock" play>><<else>><</if>>Just as you're about to go to bed, you hear someone knocking at your door.
+
+<span class="onomatopeya">KNOCK KNOCK KNOCK</span>
+
+You open the door.
+
+<div class="center"><img src="passengers/m2.gif" width="45%"></div>
+<<speech "m" "''M'':">>
+Hello... *whispers* it's not safe to speak here. Follow me from a distance.<</speech>>
+She's talking so quietly that you really have to make an effort to understand what she's saying. She suddenly starts walking and you follow her to the elevator. You both get inside and once the doors closes she presses the "HOLD" button, so it doesn't go anywhere.
+
+<div class="center"><img src="passengers/m4.jpg" width="40%"></div>
+<<speech "You" "''$name'':">>
+Why are we here?<</speech>>
+<<speech "m" "''M'':">>
+You'd be surprised how much surveillance there is on this ship... the elevator I know doesn't have audio at least, but there's a camera...<</speech>>
+She starts looking around and messing with the buttons.
+
+<<speech "m" "''M'':">>
+So, I hope you appreciate what I'm doing right here... I will try my best to help as long as my position and the experiment is not being affected. But we should make it quick.<</speech>>
+<<speech "You" "''$name'':">>
+Tell me about the company.<</speech>>
+<<speech "m" "''M'':">>
+... phew, you're coming in strong... All I can tell you is that they've been around for a while and they have A LOT of money.<</speech>>
+<<speech "You" "''$name'':">>
+But who are "they"?<</speech>>
+<<speech "m" "''M'':">>
+I told you, I can't tell you that.<</speech>>
+<<speech "You" "''$name'':">>
+Well, okay... then just tell me about the experiment. What is the goal of your investigations? What is the "Enhancer"? And the... z32p?<</speech>>
+<<speech "m" "''M'':">>
+Whoa, whoa, whoa... I see you've done your research! Let me explain: you see, the company has very strong beliefs about how our world should be, and they are using their money to change it. Have you ever noticed that you can't find your place? Like you maybe don't belong in a place? That's what we're trying to fix.
+
+There's a lot of sexual diversity in out society, but we KNOW there is a lot MORE than what we know about. The patriarchy hasn't let "straight" men to come out as Betas. You always feel the need to fight to be an Alpha.<</speech>>
+<<speech "You" "''$name'':">>
+(Well, yes. I've felt like that sometimes...)<</speech>>
+<<speech "m" "''M'':">>
+But here's the thing: You really don't need to do that. We are here to liberate all the people that are trapped in their own bodies and social norms!<</speech>>
+<<speech "You" "''$name'':">>
+Well, that sound... good...<</speech>>
+You are fairly surprised by how similar to the Anatomy classes that sounds.
+
+<<speech "You" "''$name'':">>
+But... I should be free to choose that.<</speech>>
+<<speech "m" "''M'':">>
+Well, yes, that would be the ideal... but since everyone is so influenced  by social norms, we are not letting ourselves advance. In the eyes of the company, we need progress right now. And the "Enhancer" (which is the same as the z32p) will do that. Actually, we're still modifying it as we find new info.<</speech>>
+<<speech "You" "''$name'':">>
+But what exactly does that thing do to the body?!<</speech>>
+You're starting to get anxious about it, as you see you're not getting much info with this.
+
+<<speech "m" "''M'':">>
+Well, it's not easy to know the exact effects, since it varies depending on the body. It's meant to ''help the person's body specialize in whichever hierarchy is most fitting: __Alpha__ or __Beta__ for men, __Submissive sluts__ or __Dominant amazons__ for women.''<</speech>>
+Although you don't really understand how it works, this is definitely useful info.
+
+<<speech "You" "''$name'':">>
+So... the effect depends on the subject?<</speech>>
+<<speech "m" "''M'':">>
+Yes, exactly.<</speech>>
+<<speech "You" "''$name'':">>
+Okay... but, but... but WHY ME?! Why am I here?!<</speech>>
+<<speech "m" "''M'':">>
+Well, I would be lying if I said it was just a coincidence or a mistake from the agency. The company must have had an eye on you for a while. I cannot talk about past test subjects, but you're probably much more suitable for our experiment. You're the reason why we're able to make so much progress!<</speech>>
+<<speech "You" "''$name'':">>
+But I'm a nobody, how did they know anything about me?<</speech>>
+<<speech "m" "''M'':">>
+I don't know, really... I just asked for a better subject, and they brought you.<</speech>>
+You approach ''M'' a bit too violently.
+
+<<speech "You" "''$name'':">>
+You're the reason I'm here!<</speech>>
+''M'' suddenly slaps you across the face.
+
+<span class="onomatopeya">SLAP</span>
+<div class="center"><img src="passengers/mslap.gif" width="50%"></div>
+You stare at her, a bit confused. She just smirks.
+
+<<speech "m" "''M'':">>
+I'm sorry... but I actually KNOW you are liking it here, since the compound is doing it's work on you. You cannot fool me, or science.<</speech>>
+You stare at her for a while, thinking about this. If that's what the "Enhancer" actually does... then it makes sense.
+
+<<speech "You" "''$name'':">>
+I'm getting... these boobs... because I-I want to?<</speech>>
+<<speech "m" "''M'':">>
+Exactly, yes! Well, Captain's classes are also a big part of it, stimulating your mind to explore its own desires. It's a magical combination, quite literally...<</speech>>
+''M'' extends her hands and squishes your breasts while smirking.
+
+<div class="center"><img src="passengers/mboob.gif" width="50%"></div>
+<<speech "You" "''$name'':">>
+ *gasp*<</speech>>
+Suddenly, some of the lights of the elevator glow up, letting you know that someone has called for it.
+
+<<speech "m" "''M'':">>
+Oh well, I guess we'll see each other again soon... By the way, do you really think there are no cameras at the LAB?<</speech>>
+<<speech "You" "''$name'':">>
+(Oh fuck!)<</speech>>
+<<speech "m" "''M'':">>
+ *smiles* It's ok, I'll act like I don't know anything about it. Just because at this point... it is probably not reversible. Bye-bye...<</speech>>
+She opens the doors and walks away. While you take a walk back to your room, you can't help but think about what she just said.
+
+<<speech "You" "''$name'':">>
+(Irreversible... really...? What am I going to say when my family sees me like this?)<</speech>>
+You lay down on your bed having existential thoughts, but just as you are about to fall asleep, another, more optimistic thought, appears:
+
+<<speech "You" "''$name'':">>
+<span class="pink">(So, if there's no going back... I should go all out! *giggles*)</span><</speech>>
+You keep that thought and fall <<click 'asleep' Dreams>><<set $m2 to "Finished">><<if $dayn is 35>><<adddays 1>><<else>><</if>><<if $gameDate.getHours() gte 0 and $gameDate.getHours() lt 8>><<run $gameDate.setHours (8)>><<run $gameDate.setMinutes (0)>><<else>><<run $gameDate.setHours (8)>><<run $gameDate.setMinutes (0)>><</if>><</click>>
+
+

@@ -1,0 +1,372 @@
+:: Pub [textback] {"position":"3590,59","size":"100,100"}
+<<removeclass "html">><<addclass "html" "casablanca1">><<if ndef $pub>><div class="center"><img src="dockings/casablanca/pub1.jpg" width="40%"></div>
+You try to look for information about the place, but you can only see a very suspicious door behind an empty stall.
+
+<<speech "You" "''$name'':">>
+(What is this place...? Are we supposed to get in there...?) Um... Tara, where are we going?<</speech>>
+<<speech "tara" "''Tara'':">>
+Don't worry baby, you'll see soon enough.<</speech>>
+You both approach the door and Tara knocks.
+
+<span class="onomatopeya">KNOCK KNOCK KNOCK</span>
+
+After just a few seconds, the door opens and a muslim woman comes out.
+
+<<linkreplace "... ...">><div class="center"><img src="dockings/casablanca/pub2.jpg" width="50%"></div>
+<<speech "nobody" "''???'':">>
+... ... We were not expecting outsiders today. Who are you?<</speech>>
+<<speech "tara" "''Tara'':">>
+I come on behalf of Captain T and the whole company.<</speech>>
+<<speech "nobody" "''???'':">>
+I'm sorry, but you didn't answer my question.<</speech>>
+<<speech "tara" "''Tara'':">>
+ *ahem* Yes, yes I have. We come on behalf of "the company".<</speech>>
+<<speech "nobody" "''???'':">>
+Huh... I didn't receive any notification about any visits happening today and we're not open for customers yet today.<</speech>>
+<<speech "tara" "''Tara'':">>
+I don't think your boss will be happy if you don't let us in. How long have you been here? A month? Don't be stupid and let us in.<</speech>>
+<<speech "nobody" "''???'':">>
+I can't. Unless you know the special customers password. But that's only for locals so... not happening.<</speech>>
+<<speech "tara" "''Tara'':">>
+Listen, you're interfering on some very important business. You better talk to your boss before doing anything you might regret.<</speech>>
+<<speech "nobody" "''???'':">>
+She's not here now, and won't be until she's done with her next praying.<</speech>>
+Tara takes a step back.
+
+<<speech "tara" "''Tara'':">>
+Whatever... I guess we'll have to wait then.<</speech>>
+<<speech "nobody" "''???'':">>
+You better know that password if you want to get in.<</speech>>
+<<speech "tara" "''Tara'':">>
+We already heard you. I'm telling you that your boss knows we're coming, you will be ashamed later, girl.<</speech>>
+You both walk back to the market.
+
+<<speech "tara" "''Tara'':">>
+Fuck that bitch... *sigh* I was planning on doing this part faster so I could get to do my other errands... Listen, I'm sorry. I thought this was going to be our day together, but it seems like I'll have to leave you alone for an hour. Would you please do me a favour and try to find out what that "password" is? We should be fine without it, but with that stupid girl in the door I don't even know...<</speech>>
+You finally see the chance to be helpful and are eager to accept.
+
+<<speech "You" "''$name'':">>
+Yes! I will try to find out what was that about.<</speech>>
+Tara smiles and slaps your ass.
+
+<<speech "tara" "''Tara'':">>
+That's my good gurl...<</speech>>
+As you blush, you see her walking away into the market.
+
+<<speech "You" "''$name'':">>
+Ah... (God, I love how she teases me...)<</speech>>
+[[Return|Central Market][$pub to 0, $zoco to 1, $muslimmuseum to 1, $mosque to 1, $casacenter to 2, $casaquest to "Active", $badge to $badge +1]]<</linkreplace>><<addmins 30>>
+
+
+
+\\<<elseif $pub is 0>><<if $zoco is 2>><div class="center"><img src="dockings/casablanca/pub2.jpg" width="60%"></div><<speech "tara" "''Tara'':">>
+Listen to me. This is not a joke. I will get Captain T on the phone, or even the fucking CEO of the company if you don't let me in.<</speech>>
+<<speech "nobody" "''???'':">>
+You listen: if you don't know the password that means you are not supposed to be here. I already told you, my boss agrees.<</speech>>
+<<speech "tara" "''Tara'':">>
+Oh, so she's back? Call her NOW.<</speech>>
+<<speech "You" "''$name'':">>
+Wait, Tara. I think I know the password...<</speech>>
+<<speech "nobody" "''???'':">>
+Whisper it to me...<</speech>>
+You get closer to the woman and whisper it.
+
+<<speech "You" "''$name'':">>
+''Bigender, Transgender, Sissy''<</speech>>
+The woman smiles and opens the door.
+
+<<speech "nobody" "''???'':">>
+See? Now that wasn't that hard, was it?<</speech>>
+<<speech "tara" "''Tara'':">>
+... ... I swear to God.<</speech>>
+Tara is visibly mad, but also impressed by your achievement. She takes your hand as you both get inside the place.
+
+<<speech "tara" "''Tara'':">>
+Nice job sweetie. *kiss on the cheek* You'll tell me about your Odyssey later, right? *wink*<</speech>>
+You smile and hold her hand tighter as the strange woman closes the door behind her.
+
+[[Walk into the dark place|Pub][$pub to 1, $casaquest to "Finished", $badge to $badge +1]]
+
+
+
+\\<<else>><div class="center"><img src="dockings/casablanca/pub1.jpg" width="40%"></div>
+You go straight to the door and knock three times.
+
+<span class="onomatopeya">KNOCK KNOCK KNOCK</span>
+
+The same woman as before opens the door.
+
+<div class="center"><img src="dockings/casablanca/pub2.jpg" width="50%"></div>
+<<speech "nobody" "''???'':">>
+Yes? Oh, it's you again, huh? You're not even with your bodyguard now. Did you want something, or can I get back in now?<</speech>>
+<<speech "You" "''$name'':">>
+Oh, um... I mean, c-can you give me any clue for the password?<</speech>>
+<<speech "nobody" "''???'':">>
+Wow, you really are stupid huh? Do you think I'm going to tell you shit? Wait until my boss comes back from the mosque, she'll have a fucking laugh for sure. Hahaha<</speech>>
+She gets inside and slams the door hard behind her.
+
+<<speech "You" "''$name'':">>
+Well, at least now I know where to look... the ''Mosque''<</speech>>
+[[Return|Central Market]]<</if>>
+
+
+
+\\<<elseif $pub is 1>><<removeclass "html">><<addclass "html" "home">><<audio "dreams" volume 0.2 loop play>><<audio "casablanca" stop>><<audio "touriststalk" stop>><div class="center"><img src="dockings/casablanca/pub3.jpg" width="70%"></div>
+You walk into what seems a pub, but with no clients. There's a woman behind the bar and you hear some people talking behind the numerous door at the back. The smooth lounge music soothes your soul a bit and relaxes you.
+
+<<speech "nobody" "''???'':">>
+Please, sit down.<</speech>>
+<<speech "tara" "''Tara'':">>
+Yeah, right.<</speech>>
+You both sit on one of the black couches, waiting for whoever Tara wants to see.
+
+...
+
+...
+
+...
+
+Ten minutes later, nobody seems to be coming. Suddenly, a door opens, lighting the room, and a beautiful woman greets you.
+
+<div class="center"><img src="dockings/casablanca/pub4.jpg" width="50%"></div>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''???'':</span>
+Well, well, well... it was about time! I'm so sorry for the delay, I missed the midday oration because of my... duties.<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+Yeah, well. You tell that girl of your to stay in line the next time. We were here an hour ago and she wouldn't go find you.<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''???'':</span>
+Excuse her, she's had it hard these last weeks, if you know what I mean.<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+Oh wow, she's one of your gurls? Nice job there!<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''???'':</span>
+You've only seen her covered, Tara. That's not much of an acomplishment. "She's" got pretty eyes, that's all. Anyway, come inside my office. We have business to do.<</speechpatreon>>
+You look at Tara and the woman again and again, but none of them seem to even notice you're there. You follow them to one of the rooms.
+
+<<linkreplace "... ...">><<if ndef $mutefx>><<audio "slam" play>><<else>><</if>><div class="center"><img src="dockings/casablanca/pub5.jpg" width="50%"></div>
+All of you sit down. Tara takes some papers out of her purse and puts them on the table. It's not long until the other woman takes them and searches for some stuff on her computer. Tara takes a look at you and smiles.
+
+<<speech "tara" "''Tara'':">>
+So, Zasha, this is $name.<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Huh? Still with her "male" name? That's odd.<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+I met him as a "him" and I feel like she still likes it when I call her by her real name. But she accepts female pronouns, don't you cutie? *pat, pat*<</speech>>
+<<speech "You" "''$name'':">>
+A-ha... (I don't like the way that woman looks at me...)<</speech>>
+<div class="center"><img src="dockings/casablanca/pub6.jpg" width="40%"></div>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+And I guess you're the one that knew the password, right? It's been passed through generations. Only the people in the order know about it. I don't even want to know how you learned it. *she looks closer at you* Hm... I can tell, there's potential. Hello there, $name. I'm Zasha. I'm glad you get the chance to visit us, I bet you'll like it. You might end up getting a present...<</speechpatreon>>
+You blush and smile again.
+
+<<speech "You" "''$name'':">>
+(She's not that bad!)<</speech>>
+Lorei keep typing on her computer for a while. Once she's finished, she makes a copy of Tara's papers and makes her sign both.
+
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Perfect. *takes one copy* So it's done. Now follow me, I'll show you the new generation.<</speechpatreon>>
+Both of you stand up and follow Zasha through the place. She leads you down the stairs and through one of the door. Although the place is not very big, they've worked on the inner space.
+
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Ok, we're here. Now, please, don't over estimulate them. Tara, this is for you.<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+C'mon, I love the teasing!<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Ok, just a bit. *smirks*<</speechpatreon>>
+<<linkreplace "Opens the door">><<if ndef $mutefx>><<audio "door" play>><<else>><</if>><div class="center"><img src="dockings/casablanca/sissy1.jpg" width="30%"></div>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Now, a week ago this was Jeremy. He's now becoming Jodie. Say hello, Jodie.<</speechpatreon>>
+<<speech "nobody" "''Jodie'':">>
+... ...<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+What did I just say?<</speechpatreon>>
+<<speech "nobody" "''Jodie'':">>
+... hello...<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Yeah, well, I guess this gurl needs some more work. You can go rub your clit now, sissy. We'll talk about this later.<</speechpatreon>>
+You can tell that Jodie is not comfortable with that cheap wig on.
+
+<<speech "You" "''$name'':">>
+(Fuck, this sounds so familiar. Poor Jodie...)<</speech>>
+Zasha calls another gurl.
+
+<<linkreplace "... ...">><<if ndef $mutefx>><<audio "door" play>><<else>><</if>><div class="center"><img src="dockings/casablanca/sissy2.jpg" width="50%"></div>
+<<speech "tara" "''Tara'':">>
+Oooh, you're a sexy one...<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Say hi, Cristina.<</speechpatreon>>
+<<speech "nobody" "''Cristina'':">>
+Hi! *giggles* I not speak very well english, but I like you!<</speech>>
+She seems to be extra happy to meet you.
+
+<<speech "tara" "''Tara'':">>
+So cute! What do you think, $name?<</speech>>
+<<speech "You" "''$name'':">>
+I think I...<</speech>>
+You look at Cristina and you see yourself in another month. You can't say anything to her, you can only feel her frustration and how brainwashed she is.
+
+<<speech "tara" "''Tara'':">>
+Hm... maybe a bit too far.<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Yeah, she's all into plastic. But I can guarantee, she will do as you say. She's really good with orders, aren't you?<</speechpatreon>>
+<<speech "nobody" "''Cristina'':">>
+ *smiles* Yes!<</speech>>
+<<speech "tara" "''Tara'':">>
+You're too cute Cristina... *whipers* show us another one.<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Aha. Good job, Cristina. Get back to your room, please. Sure, follow me.<</speechpatreon>>
+She takes you both to a nearby door. It's the only one of all the room that's actually closed.
+
+<<speech "You" "''$name'':">>
+Tara... *ahem* What are we doing?<</speech>>
+<<speech "tara" "''Tara'':">>
+We're finding you a little friend!<</speech>>
+Your eyes open. You don't know how you feel about this. You would like to share some experiences with anothes one in your situation, but at the same time you're already starting to feel jealous about Tara.
+
+<<speech "You" "''$name'':">>
+A f-friend?<</speech>>
+<<speech "tara" "''Tara'':">>
+Well, you know, it's actually an order from above.<</speech>>
+<<speech "You" "''$name'':">>
+(I thought they didn't want more "mistakes" onboard... maybe they really want another subject like... me.)<</speech>>
+You finally reach the door and Zasha opens it:
+
+<div class="center"><img src="dockings/casablanca/makeup.gif" width="50%"></div>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Penny, con you stop now. You have visit!<</speechpatreon>>
+The pretty crosdresser quickly stands up.
+
+<div class="center"><img src="dockings/casablanca/penny2.jpg" width="50%"></div>
+She is definitely less curvy than you, but there's a certain feminine attitude about her.
+
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Oh, hi! I'm Penny. Welcome to my room. *smiles*<</speechpatreon>>
+Penny walks towards Tara and gives two kisses, and does the same with you. You can't help but notice how neat her makeup really is up close.
+
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+Oh, are you new here? I love your skin! *giggles*<</speechpatreon>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Settle down, Penny. These are Tara and $name. They come together to take some of you with them.<</speechpatreon>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+ *looks excited at Tara* Are you going to be my Mistress?<</speechpatreon>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Penny! Don't be impertinent! Let them talk first, we've been through this.<</speechpatreon>>
+Zasha grabs Penny's arm and looks menacingly at her. Penny lowers her head.
+
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Well, Penny was Patrick a month and a half ago. She has developed a very bubbly personality as you can see, always happy and cheerful. She has very good make-up skills. She says she's always felt a bit like a girl, and so I believe she's more of a transgender than a sissy, that's why I've decided to leave the hormones up to her.<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+Awwww, you're so cute. What do you think $name?<</speech>>
+<<speech "You" "''$name'':">>
+I think... she's pretty. *blush*<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+ *giggle* No, you're cuter! I'd love to help you with your make-up. Some "gurl only" time!<</speechpatreon>>
+Penny's smile is contagious, making you forget about your problems for just moment.
+
+<<speech "You" "''$name'':">>
+ *smiles* That would be cool...<</speech>>
+<<speech "tara" "''Tara'':">>
+Heh, I think you two should get a room! Hahaha<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Hehe... I think you two could actually learn from each other. I bet $name would like to have someone to share some "sissy experiences". Now, you should also see "all of her" before making a decision.<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+Oooh, how about we compare? Here, $name, come to Tara...<</speech>>
+Tara takes ahold of you and lifts you skirt.
+
+<div class="center"><img src="dockings/casablanca/caged.jpg" width="50%"></div>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+So cute! And classic metallic cage, huh? Don't you think she's too advanced for that? A pink cage would be fitting.<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+Yeah, I guess you're right. We're busy on the ship!<</speech>>
+Tara keeps your skirt lifted, and you start getting embarrased. You can tell Penny is fixed on your tiny cage.
+
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+And how about her ass, is it all smooth and trained?<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+Well, she's definitely got the genetics right, but we're on it. She's still so tight though, but that only makes it more fun, doesn't it little gurl?<</speech>>
+She leans it and kisses you while grabbing your exposed ass hard.
+
+<<speech "You" "''$name'':">>
+ *blush* Um...<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Penny, show them.<</speechpatreon>>
+<<linkreplace "... ...">><div class="center"><img src="dockings/casablanca/penny1.gif" width="35%"></div>
+Tara's mouth opens by the surprise, and so does yours.
+
+<<speech "tara" "''Tara'':">>
+Oh my god... HOW?<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+As you said, genetics. It's all hers! But she was still a little sissy gurl, I could tell. She's one of those rare ones, and so, I decided not to shrink her penis. I thought it wouldn't be fair.<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+Wow, gurl... *goes closer and grabs it* I can tell it's quite thin, so it's not an alpha dick. But it sure is looooong.<</speech>>
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+AahAhhh... Please, don't touch it like that...<</speechpatreon>>
+Tara starts stroking it.
+
+<<speech "tara" "''Tara'':">>
+Like what? *giggles*<</speech>>
+She suddenly lets go.
+
+<<speech "tara" "''Tara'':">>
+She's got an easy trigger. Definitely a sissy gurl. And why haven't you caged her?<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+I believe that punishments should only come when someone performs badly. She just happens to have a lot of self control when it matters. She's a good girl. Although... *ahem*<</speechpatreon>>
+Zasha pulls Tara and you together and whispers:
+
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Her mind is really well trained. But I can only let you take her IF you compromise to continue her body and mind training.<</speechpatreon>>
+<<speech "tara" "''Tara'':">>
+Oh, we compromise alright. She's have a similar training that $name. Although Penny is a bit more advanced, so will the trainings.<</speech>>
+Zasha turns back to Penny.
+
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Alright, Penny! You can now greet your new friends. You're going to an awesome ship, where you will be able to expand what you've learned here. Behave properly. *waves her finger*<</speechpatreon>>
+You can tell Penny is very excited.
+
+<<speechpatreon "penny" "">><span class="imgpop penny">''Penny'':</span>
+OMG! Thank you, I love you!<</speechpatreon>>
+Penny runs to Tara and hugs her. Then she goes to you and does so.
+
+<<speech "You" "''$name'':">>
+(I can feel her "thing"!) ... ...<</speech>>
+<<speech "tara" "''Tara'':">>
+You'll get to know each other. I bet Penny can teach quite a few things. And Penny, don't worry. $name is not always that serious.<</speech>>
+Penny stand next to you and holds your hand. At first you though she was a bit over the top, but she's just being honest about her feelings.
+
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Ok, girls. Let's get back to the office so we can finish. I'll need to call Captain T for confirmation.<</speechpatreon>>
+[[Get back to office|Pub][$pub to 2]]<</linkreplace>><</linkreplace>><</linkreplace>><</linkreplace>>
+
+
+\\<<elseif $pub is 2>><<removeclass "html">><<addclass "html" "home">><div class="center"><img src="dockings/casablanca/pub5.jpg" width="50%"></div>
+You all sit down while Zasha calls Captain T. Penny smiles at you as she holds your hand, making you feel understood for the first time in a month.
+
+<<speech "You" "''$name'':">>
+(She's gone through a lot of the stuff I've gone through too. It's good to have someone like this to talk to...) *smile*<</speech>>
+<span class="onomatopeya">BEEP BEEP BEEP</span>
+
+<span class="blue"><<speech "cap" "''Captain T'':">>
+Yes, Captain T here?<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Hi, this is Zasha. Just a quick call to make sure that Tara is coming on your behalf.<</speechpatreon>>
+<<speech "cap" "''Captain T'':">>
+Yes, orders from above. Oh, also Zasha, you need to come as well.<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+What? I haven't been notified! I have work to do, you know?<</speechpatreon>>
+<<speech "cap" "''Captain T'':">>
+I know, but... orders from above. We need you here.<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+ *sigh* I guess I can delegate for the next month. But this is not how it should be, you know that T!<</speechpatreon>>
+<<speech "cap" "''Captain T'':">>
+I know, sorry. But we're making unexpected advances, and we need more staff.<</speech>>
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+... ... Ok, see you later then.<</speechpatreon>>
+<span class="onomatopeya">HANGS UP</span></span>
+
+After a few seconds of silence, Zasha just stands up and goes to the door.
+
+<<speechpatreon "zasha" "">><span class="imgpop zasha">''Zasha'':</span>
+Well? What are we waiting for? Go pack your stuff, Penny. We're going to the ship.<</speechpatreon>>
+Penny's smile widens and grabs your hand with both hands, clearly excited.
+
+[[Wait for them to pack and get out|Casablancaout]]<</if>><<if ndef $mute>><<audio ":music" unmute>><<else>><</if>><<audio "menus" stop>>
+
+

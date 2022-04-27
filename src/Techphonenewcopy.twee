@@ -1,0 +1,20 @@
+:: Techphone (new) copy [textback] {"position":"516,1473","size":"100,100"}
+<<removeclass "html">><<addclass "html" "spades">><<if ndef $mutefx>><<audio "button" play>><<else>><</if>><span class="clean">It looks like a good phone, but practically everything is blocked.
+<<if $tinderphone is 1>>
+<div class="row3"><div class="column3"><span class="noshit"><a data-passage="Phone"><img src="stuff/whatsapp.png" width="100%"></a>
+<area shape="rect" coords="25,25,75,75" data-passage="Phone">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="+1"><<if $receivemessages is true>><span class="fade-ins-out">[[Stop receiving SMSs|Techphone][$receivemessages to false]]</span><<else>>[[Activate SMSs|Techphone][$receivemessages to true]]<</if>></font></span></div><div class="column3"><span class="noshit"><a data-passage="2048"><img src="stuff/games.png" width="80%"></a>
+<area shape="rect" coords="25,25,75,75" data-passage="2048"></span></div><div class="column3"><span class="noshit"><a data-passage="Tinder"><img src="stuff/tinder.png" width="65%"></a>
+<area shape="rect" coords="25,25,75,75" data-passage="2048"></span></div>
+<<elseif $tinderphone is 2>>
+[[Messages|Phone]]
+[[2048]]
+[[Tinder]]
+[[Grindr]]
+<<else>>
+<div class="row3"><div class="column3"><span class="noshit"><a data-passage="Phone"><img src="stuff/whatsapp.png" width="100%"></a>
+<area shape="rect" coords="25,25,75,75" data-passage="Phone">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="+1"><<if $receivemessages is true>><span class="fade-ins-out">[[Stop receiving SMSs|Techphone][$receivemessages to false]]</span><<else>>[[Activate SMSs|Techphone][$receivemessages to true]]<</if>></font></span></div><div class="column3"><span class="noshit"><a data-passage="2048"><img src="stuff/games.png" width="80%"></a><area shape="rect" coords="25,25,75,75" data-passage="2048"></span></div><div class="column3"><span class="noshit"><a data-passage="TikTok"><img src="stuff/tiktok.png" width="80%"></a><area shape="rect" coords="25,25,75,75" data-passage="TikTok"></span></div><</if>></span>
+[[Return|$return]]<<set $dos to 4>><<audio ":back" mute>><<audio "menus" volume 0.15 loop play>><<audio "party" mute>><<audio "stage1" mute>><<audio "tinder" mute>><<audio "casino" mute>><<audio "kitchen" mute>><<audio "dorky" mute>><<audio "tinder" stop>><<if ndef $mute>><<audio "menus" unmute>><<else>><</if>>
+
+
