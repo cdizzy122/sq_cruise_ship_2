@@ -12,7 +12,7 @@
 <<nobr>><<click "Stairs down👇🏻" "Deck 8">><<if $dayn gte 3>><<set $encrandom to random(0,20)>><<if $encrandom lt 1>><<set $renc to random(3,4)>><<goto "Random encounters">><<else>><</if>><<else>><</if>><</click>><</nobr>> | <<nobr>><<click "Elevator↕️" "Elevator↕️">><<if $dayn gte 3>><<set $encrandomel to random(0,10)>><<if $encrandomel is 0>><<goto "Elevatorenc">><<else>><</if>><<else>><</if>><</click>><</nobr>>
 <div class="row3"><div class="column3">
 ''← [[Golf]]''</div><div class="column3">
-''<<click "Walk" "Walk">><<set $deckpics to random (0,5)>><<set $newrandom to random (0,20)>><<set $newencounter to random (1,2)>><</click>>''</div><div class="column3">
+''<<click "Walk" "Walk">><<addmins 20>><<set $deckpics to random (0,5)>><<set $newrandom to random (0,20)>><<set $newencounter to random (1,2)>><</click>>''</div><div class="column3">
   ''[[Suntanning]] →''</div>
 <div class="center"><<nobr>><<if $startclasses is true>><<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Thu" and $gameDate.getHours() gte 17 and $gameDate.getHours() lt 20>><span class="fade-ins-out"><span class="Phone">''[[Sailing Class💃🏼->Sail]]''</span></span><<else>><<linkreplace "''Sailing Class💃🏼''">>It's not class time.<</linkreplace>><</if>><<else>><</if>><</nobr>></div><<nobr>><<if $gameDate.getHours() is 0 or $gameDate.getHours() lt 8>><<goto [[Dreams]]>><<else>><</if>><</nobr>><<addmins 1>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>><<audio "menus" stop>><<audio "elevator" stop>><<audio "deck9" volume 0.7 play loop>><<audio "kiss" stop>>
 <<nobr>><<if $dayn is 28>><<if $gameDate.getHours() gte 16>><<goto "Costume contest">><<else>><</if>><<else>><</if>><</nobr>>

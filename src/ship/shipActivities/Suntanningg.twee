@@ -52,7 +52,7 @@ That you know of... *giggle* Look, it may just be me, but you know... that's wha
 \\<<elseif $hat is 0>><span class="fade-ins"><div class="center"><img src="quest7/woman.jpg" width="50%"></div></span>
 
 <<speech "You" "''$name'':">>
-Hey, excuse me... those hats... do you think you could maybe loose one of them?<</speech>>
+Hey, excuse me... those hats... do you think you could maybe lose one of them?<</speech>>
 <<speech "nobody" "''Brazilian woman'':">>
 What? Excuse me, are you just asking for me to give you one of my hats?<</speech>>
 <<speech "You" "''$name'':">>
