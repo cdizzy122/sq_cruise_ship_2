@@ -179,7 +179,7 @@ How's that? Now you will really have to focus. But the real challenge is yet to 
 <<speech "nobody" "''Molly'':">>
 Oh, well... nothing to worry about... just some strawberry spray, to distract your sense of smell as well...<</speech>>
 <<speech "You" "''$name'':">>
-(Not even her is believing that made up shit.)<</speech>>
+(Not even she believes that made up shit.)<</speech>>
 Molly appears to be blushing and a stupid smile crosses her face. Then she just lays face down on the floor, holding her head with her hands.
 
 <<speech "nobody" "''Molly'':">>
@@ -238,7 +238,7 @@ You open your mouth and extend your tongue. You give the plastic glans a taste..
 Oh, I didn't! It's cum!<</speech>>
 <<speech "You" "''$name'':">>
  *gasp* Oh no!<</speech>>
-The word "cum" triggers your common sense back on, and you manage to stand back up. You notice the pink clouds have already disipated and you feel like you're back in reality.
+The word "cum" triggers your common sense back on, and you manage to stand back up. You notice the pink clouds have already dissipated and you feel like you're back in reality.
 
 <<speech "nobody" "''Molly'':">>
 I know! The taste is very well done, but the texture... that's not very good. Well, at least for the guys I suck! Maybe yours is this watery... *giggle*<</speech>>
@@ -337,7 +337,7 @@ Much better now that I have a hat!<</speech>>
 Do you think I could play inside again?<</speech>>
 <<speech "nobody" "''Molly'':">>
 Uh-uh, not for now, sorry...<</speech>>
-[[Return|Play][$instructor to 3]]<</if>>
+[[Return|PlayGolfResult][$instructor to 3]]<</if>>
 
 
 \\<<elseif $instructor is 2>><<if $golfer is "Active" or $golfer is "1/3 done">><div class="center"><img src="quest7/golf1.jpg" width="50%"></div>
@@ -439,7 +439,7 @@ How's that? Now you will really have to focus. But the real challenge is yet to 
 <<speech "nobody" "''Molly'':">>
 Oh, well... nothing to worry about... just some strawberry spray, to distract your sense of smell as well...<</speech>>
 <<speech "You" "''$name'':">>
-(Not even her is believing that made up shit.)<</speech>>
+(Not even she believes that made up shit.)<</speech>>
 Molly appears to be blushing and a stupid smile crosses her face. Then she just lays face down on the floor, holding her head with her hands.
 
 <<speech "nobody" "''Molly'':">>
@@ -498,7 +498,7 @@ You open your mouth and extend your tongue. You give the plastic glans a taste..
 Oh, I didn't! It's cum!<</speech>>
 <<speech "You" "''$name'':">>
  *gasp* Oh no!<</speech>>
-The word "cum" triggers your common sense back on, and you manage to stand back up. You notice the pink clouds have already disipated and you feel like you're back in reality.
+The word "cum" triggers your common sense back on, and you manage to stand back up. You notice the pink clouds have already dissipated and you feel like you're back in reality.
 
 <<speech "nobody" "''Molly'':">>
 I know! The taste is very well done, but the texture... that's not very good. Well, at least for the guys I suck! Maybe yours is this watery... *giggle*<</speech>>

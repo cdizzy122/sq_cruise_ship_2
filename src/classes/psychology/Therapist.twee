@@ -448,7 +448,7 @@ Hello, darling, come in and have a seat.<</speech>>
 You do as you're told, and just before you are going to talk, Jada starts talking first.
 
 <<speech "psycho" "''Jada:''">>
-You see, I bet you already know I can't share certain thing about your treatment with you, because it would be counterproductive. But I also want you to know where we are on the treatment. So, right now, I'd say we are doing fine, the results are acceptable and shows us we are going to the right direction. But I also need you to know that we will need to introduce a heavier treatment, so we can dig deeper into your consciousness and erase the possibility to question your new thoughts.<</speech>>
+You see, I bet you already know I can't share certain things about your treatment with you, because it would be counterproductive. But I also want you to know where we are in the treatment. So, right now, I'd say we are doing fine, the results are acceptable and show us we are going to the right direction. But I also need you to know that we will need to introduce a heavier treatment, so we can dig deeper into your consciousness and erase the possibility to question your new thoughts.<</speech>>
 <<speech "You" "''$name'':">>
 Um... ok.<</speech>>
 You really don't understand what she means by that, but you kind of trust her. This is one of the most comfortable classes, no doubt about that.
@@ -511,7 +511,7 @@ Well, I certainly didn't expect a black woman to take advantage of me, and then 
 Well, I thought I was going on a date with a beautiful woman that wanted a sensible boyfriend. But once we were... you know... she pushed me over and made me leave... That was a very embarrasing experience...<</speech>>
 
 \\<<elseif $tprofile is 3>><<speech "You" "''$name'':">>
-I don't know why, but I thought I was going to chill with a nice guy in his house while whatching series... but instead I basically got raped. At least I managed to escape. And it's not like he was awful, but... I don't know if I wanted to do that stuff...<</speech>><</if>>
+I don't know why, but I thought I was going to chill with a nice guy in his house while watching a series... but instead I basically got raped. At least I managed to escape. And it's not like he was awful, but... I don't know if I wanted to do that stuff...<</speech>><</if>>
 <<speech "psycho" "''Jada:''">>
 Hm... well you can't control most of the things in life. Don't think about that. You're not going to fix anything. Just think about the positive things about the trip. Come on, just think. There must be a few.<</speech>>
 <<speech "You" "''$name'':">>
