@@ -1,0 +1,90 @@
+:: Weird Store [textback] {"position":"3588,269","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><<if ndef $weird>>Most of the stalls on the market are food, clothes and cute items, but a strange store catches your attention. It's not that there's something striking, but instead it's the lack of loud people shouting from it. It's also completely covered, as if they didn't need to display their stuff.
+
+Since it seems like the safest stall, you approach it.
+
+<div class="center"><img src="dockings/casablanca/store1.jpg" width="60%"></div>
+As you get inside, you get this vibe of mediocre souvenir store at the coast. A woman approaches you:
+
+<div class="center"><img src="dockings/casablanca/store2.jpg" width="37%"></div>
+<<speech "nobody" "''Owner'':">>
+Hi there, welcome to my store.<</speech>>
+You can tell she has some accent, but it's kinda cute.
+
+<<speech "nobody" "''Owner'':">>
+Are you looking for a souvenir?<</speech>>
+<<speech "You" "''$name'':">>
+No, not really. I think I'm in the wrong place, sorry.<</speech>>
+You start walking away to get out, but the woman interrupts you.
+
+<<speech "nobody" "''Owner'':">>
+You are a tourist, aren't you? I see you're not interested on souvenirs. May I offer the real Moroccan delights?<</speech>>
+<<speech "You" "''$name'':">>
+... um... I guess that sounds interesting, yes.<</speech>>
+The woman leads you to the counter and starts rummaging and searching for some stuff. With some loud noises, she puts some glass bottles on the table and points to them.
+
+<div class="center"><img src="dockings/casablanca/store3.jpg" width="50%"></div>
+<<speech "nobody" "''Owner'':">>
+This one is for stroooong wee-wee. This other one will let you do wife even in ramadan. This one is for longer wee-wee, ... ...<</speech>>
+She keeps on showing you all kinds of weird powders, but you don't seem very convinced by any of it.
+
+<<speech "You" "''$name'':">>
+I-I'm sorry to interrupt you miss, but I'm really not interested. (I bet this is all a scam for tourists).<</speech>>
+<<speech "nobody" "''Owner'':">>
+Come on, I'll give you a full tube of strong "wee-wee powder" for only 50 Dirhams! That's around 14 dollars, it's a bargain!<</speech>>
+<<speech "You" "''$name'':">>
+(Even if I wanted, I don't have any money...) Sorry, I've got to go. But thanks!<</speech>>
+A bit overwhelmed by how loud she was talking, you step out of the store.
+
+[[Return|Central Market][$weird to 0]]
+
+
+
+\\<<elseif $weird is 0>>THIS SHOULDN'T BE SHOWING
+
+
+\\<<elseif $weird is 1>>Most of the stalls on the market are food, clothes and cute items, but a strange store catches your attention. It's not that there's something striking, but instead it's the lack of loud people shouting from it. It's also completely covered, as if they didn't need to display their stuff.
+
+Since it seems like the safest stall, you approach it.
+
+<div class="center"><img src="dockings/casablanca/store1.jpg" width="50%"></div>
+As you get inside, you get this vibe of mediocre souvenir store at the coast. A woman approaches you:
+
+<div class="center"><img src="dockings/casablanca/store2.jpg" width="50%"></div>
+<<speech "nobody" "''Owner'':">>
+Hi there, welcome to my store.<</speech>>
+You can tell she has some accent, but it's kinda cute.
+
+<<speech "nobody" "''Owner'':">>
+Are you looking for a souvenir?<</speech>>
+<<speech "You" "''$name'':">>
+No, not really. I'm looking for some... (this name is ridiculous) some "wee-wee" powder?<</speech>>
+The owner takes you to the counter and brings out a jar full of powder.
+
+<div class="center"><img src="dockings/casablanca/store3.jpg" width="50%"></div>
+<<speech "nobody" "''Owner'':">>
+This is the best wee-wee powder. Little boy like you need it, a lot. You buy a full tube for only 50 Dirhams, 14 dollars.<</speech>>
+<<speech "You" "''$name'':">>
+I don't have any money, sorry...<</speech>>
+<<speech "nobody" "''Owner'':">>
+Oh well, then you don't buy! Shoo, shoo!<</speech>>
+<<speech "You" "''$name'':">>
+But wait! It's just that... I don't know if it will work. I think this is fake.<</speech>>
+<<speech "nobody" "''Owner'':">>
+Fake? I use it with husband and it works! It's better than viagra, lasts for days and only when horny.<</speech>>
+<<speech "You" "''$name'':">>
+Well, I'm sorry but I won't buy it if I don't know if it works.<</speech>>
+...
+
+...
+
+After a few seconds of silence, she talks again.
+
+<<speech "nobody" "''Owner'':">>
+I give you sample. You try, you have sex, and come back to buy more.<</speech>>
+<<speech "You" "''$name'':">>
+(Well that was easy!) Perfect, thanks!<</speech>>
+<<set $weewee to true>><div class="center">''Wee-wee powder added to Inventory''</div>
+[[Return|Central Market][$mosque to 4, $weird to 2]]<</if>><<if ndef $mute>><<audio ":music" unmute>><<else>><</if>><<audio "menus" stop>><<audio "casablanca" stop>><<audio "touriststalk" stop>><<addmins 10>>
+
+

@@ -1,13 +1,13 @@
 :: Dining room [textback] {"position":"1765,1044","size":"100,100"}
 <<removeclass "html">><<addclass "html" "dining">><<audio ":back" mute>><<audio "kitchen" volume 0.3 play loop>><<if $dayn is 6 or $dayn is 13 or $dayn is 20 or $dayn is 27 or $dayn is 34>><div class="center"><img src="places2/diningroom.jpg" width="63%"></div>
-As you enter the dining room, a whole collection of different smells fill your nostrils. It all smells amazing! Then you go down the stairs and sit on one of the tables.
+As you enter the dining room, a whole collection of different smells fill your nostrils. It all smells amazing! Then you go down the stairs and sit at one of the tables.
 
 You enjoy the food as if it was your only meal in a lifetime, but you can't help but notice the way the other girls look at you. Some are laughing and some are looking at you with a dissapproving face. Just after you finish your dinner, you see Tara making you signs to follow her.
 
 <<speech "tara" "''Tara:''">>
  *wink, wink*<</speech>>
 <<click "Follow her" Reviews>><<audio "kitchen" stop>><<set $hunger to $hunger +20>><<addmins 30>><<if $dayn is 6>><<set $review to 1>><<elseif $dayn is 13>><<set $review to 2>><</if>><</click>><<else>><<if ndef $dinner>><div class="center"><img src="places2/diningroom.jpg" width="63%"></div>
-As you enter the dining room, a whole collection of different smells fill your nostrils. It all smells amazing! Then you go down the stairs and sit on one of the tables.
+As you enter the dining room, a whole collection of different smells fill your nostrils. It all smells amazing! Then you go down the stairs and sit at one of the tables.
 
 The are already a few girls in the room. They seem to be grabbing food from a buffet bar in the middle. You go right to the buffet and feast on the food.
 
