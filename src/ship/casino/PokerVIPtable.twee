@@ -97,7 +97,7 @@ Well, I would just want to be informed about that. Could you share some informat
 <<speech "m" "''M'':">>
 I'm sorry, but I'm afraid that would be counterproductive.<</speech>>
 <<speech "You" "''$name'':">>
-But it's my body. I demand to know what is my treatment about.<</speech>>
+But it's my body. I demand to know what my treatment is about.<</speech>>
 You try to be baddass, but no matter how much you try, there's really no way to do that.
 
 <<speech "m" "''M'':">>

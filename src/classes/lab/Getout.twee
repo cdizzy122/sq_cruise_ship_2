@@ -1,0 +1,14 @@
+:: Get out [textback] {"position":"959,628","size":"100,100"}
+<<removeclass "html">><<addclass "html" "street">><img src="places1/street.jpg" width="100%">
+
+<<speech "mike" "''$fname:''">>
+Well, I've gotta go. Give $gfname a hug for me. And you two better have. It sure as hell wasn't cheap, so you better enjoy it! *Gives you the tickets*<</speech>>
+ ''*You received tickets*''
+ 
+$fname says bye as he waves his hand and leaves.
+You suddenly remember you've got to tell $gfname about this. After your argument yesterday this might be problematic...
+ 
+<<speech "You" "''$name:''">>
+(I'll wait for her at [[home)|neighbourhood Lana pool]]<<set $newroom to true>><<set $walkpark to "Finished">><</speech>><<set $tickets to true>><<audio "menus" stop>><<audio "girltalk1" stop>><<if ndef $mute>><<audio ":back" unmute>><<else>><</if>>
+
+

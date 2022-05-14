@@ -1,0 +1,56 @@
+:: Health Center [textback] {"position":"2000,408","size":"100,100"}
+<<removeclass "html">><<addclass "html" "lab">><<audio "mystery" loop play>><<if $lab is 0>><img src="classes/stoya/stoya.gif" width="40%">
+
+<<speech "stoya" "''???:''">>
+Hi sweetie. Oh! Fascinating!<</speech>>
+She walks around watching you closely. 
+
+<<speech "stoya" "''???:''">>
+Fascinating! ... ... ... Fascinating!<</speech>>
+<<speech "You" "''$name:''">>
+Ejem...excuse me, who are you?<</speech>>
+<<speech "stoya" "''Stoya:''">>
+Oh, yeah, I guess you don't know me. hehe I am Doctor Stoya, but you can call me Stoya. Or Doc, doesn't really matter, does it? *She puts a hand on your shoulder* Please, follow me.<</speech>>
+<<linkreplace "... ...">>You pass through what seems like a big lab, where some women are concentrated on their work.
+
+<span class="noborder"><img src="places2/lab.jpg" width="100%"></span>
+
+She notices you looking at the lab.
+
+<<speech "stoya" "''Stoya:''">>
+We are always researching, you see. This is not an ordinary ship, we need to make sure everybody is in optimum shape at all times. I'd tell you more, but I have a bussy schedule so we better get started with your weekly health review.<</speech>>
+<<speech "You" "''$name:''">>
+(A top tier lab... on a cruise ship?! This looks fishy...)<</speech>>
+<<set $lab to 1>><<set $lab1 to "Active">><<set $badge to $badge +1>><<click "Here we are!" Officedoc>><<set $officedoc to 0>><</click>> *She opens her office's door*<</linkreplace>>
+<<elseif $lab is 1>><img src="places2/lab.jpg" width="100%">
+
+There's an empty hallway that lead to Stoya's office. You can see a lab through the glass at your right.
+
+[[Lab door]]
+<<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Fri" and $gameDate.getHours() gte 17 and $gameDate.getHours() lt 20>>[[Stoya's office|Officedoc]]<<else>><<linkreplace "Stoya's office">>Locked (Health Review on Friday)<</linkreplace>><</if>>
+
+<<click "Return" "Deck 8">><<audio "mystery" stop>><</click>><<elseif $lab is 2>><img src="places2/lab.jpg" width="100%">
+
+There's an empty hallway that leads to Stoya's office. You can see a lab through the glass at your right.
+
+<<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Fri" and $gameDate.getHours() gte 17 and $gameDate.getHours() lt 20>>[[Stoya's office|Officedoc]]<<else>><<linkreplace "Stoya's office">>Locked (Health Review on Friday)<</linkreplace>><</if>>
+
+<<click "Return" "Deck 8">><<audio "mystery" stop>><</click>><<elseif $lab is 3>><img src="places2/lab.jpg" width="100%">
+
+There's an empty hallway that leads to Stoya's office. You can see a lab through the glass at your right.
+
+<<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Fri" and $gameDate.getHours() gte 17 and $gameDate.getHours() lt 20>>[[Stoya's office|Officedoc]]<<else>><<linkreplace "Stoya's office">>Locked (Health Review on Friday)<</linkreplace>><</if>>
+
+<<click "Return" "Deck 8">><<audio "mystery" stop>><</click>><<elseif $lab is 4>><img src="places2/lab.jpg" width="100%">
+
+You go through the lab where the female scientists are working. I wonder what exactly are they doing...
+
+<<if String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] is "Fri" and $gameDate.getHours() gte 17 and $gameDate.getHours() lt 20>>[[Stoya's office|Officedoc]]<<else>><<linkreplace "Stoya's office">>Locked (Health Review on Fridays)<</linkreplace>><</if>>
+
+<<click "Return" "Deck 8">><<audio "mystery" stop>><</click>><<elseif $lab is 5>><img src="places2/lab.jpg" width="100%">
+
+You go through the lab where the female scientists are working. I wonder what exactly are they doing...
+
+[[Stoya's office|Officedoc]]<</if>><<nobr>><<if $gameDate.getHours() is 0 or $gameDate.getHours() lt 8>><<goto [[Dreams]]>><<else>><</if>><</nobr>><<audio "menus" stop>><<audio "ship" mute>><<if ndef $mute>><<audio "mystery" unmute>><<else>><</if>>
+
+

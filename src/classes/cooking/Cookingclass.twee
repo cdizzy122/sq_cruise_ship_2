@@ -285,9 +285,9 @@ Giada looks at her lost drink with sadness as Holli puts on both of your vibrati
 
 <div class="center"><img src="classes/cook/giada4.jpg" width="50%"></div>
 <<speech "You" "''$name:''">>
-Oh, hi... what is on that drink?<</speech>>
+Oh, hi... what is in that drink?<</speech>>
 <<speech "Giada" "''Giada:''">>
-Oh, nothing... just some fucked up cocktail for the french bitch, but I'm still needing some extra ingredient... That Captain... ''she put something on mine, but I can't figure out what that is...''<</speech>>
+Oh, nothing... just some fucked up cocktail for the french bitch, but I'm still needing some extra ingredient... That Captain... ''she put something in mine, but I can't figure out what that is...''<</speech>>
 <span class="onomatopeya">SLAM</span>
 
 <<speech "holli" "''Holli:''">>
@@ -306,9 +306,9 @@ Giada looks at her lost drink with sadness as Holli puts on both of your vibrati
 
 <div class="center"><img src="classes/cook/giada4.jpg" width="50%"></div>
 <<speech "You" "''$name:''">>
-Oh, hi... what is on that drink?<</speech>>
+Oh, hi... what is in that drink?<</speech>>
 <<speech "Giada" "''Giada:''">>
-Oh, nothing... just some fucked up cocktail for the french bitch, but I'm still needing some extra ingredient... That Captain... ''she put something on mine, but I can't figure out what that is...''<</speech>>
+Oh, nothing... just some fucked up cocktail for the french bitch, but I'm still needing some extra ingredient... That Captain... ''she put something in mine, but I can't figure out what that is...''<</speech>>
 <span class="onomatopeya">SLAM</span>
 
 <<speech "holli" "''Holli:''">>
@@ -352,9 +352,9 @@ As you place yourself in front of your station, you try to remember all the less
 
 <div class="center"><img src="classes/cook/giada4.jpg" width="50%"></div>
 <<speech "You" "''$name:''">>
-Oh, hi... what is on that drink?<</speech>>
+Oh, hi... what is in that drink?<</speech>>
 <<speech "Giada" "''Giada:''">>
-Oh, nothing... just some fucked up cocktail for the french bitch, but I'm still needing some extra ingredient... That Captain... ''she put something on mine, but I can't figure out what that is...''<</speech>>
+Oh, nothing... just some fucked up cocktail for the french bitch, but I'm still needing some extra ingredient... That Captain... ''she put something in mine, but I can't figure out what that is...''<</speech>>
 <<linkreplace "Spike it">>//Not implemented yet//<</linkreplace>>
 
 ...

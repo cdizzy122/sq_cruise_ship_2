@@ -79,16 +79,16 @@
 [[Return|Phone]]
 
 
-\\<<else>><<if $lanasms is 0>><<click "$gffname 1" 4>><</click>>---->
+\\<<else>><<if $lanasms is 0>><<click "$gffname 1" "4">><</click>>---->
 
-\\<<elseif $lanasms is 1>><<click "$gffname 1" 4>><</click>>---->
+\\<<elseif $lanasms is 1>><<click "$gffname 1" "4">><</click>>---->
 <<click "$gffname 2" "7.5">><</click>>---->
 
-\\<<elseif $lanasms is 2>><<click "$gffname 1" 4>><</click>>---->
+\\<<elseif $lanasms is 2>><<click "$gffname 1" "4">><</click>>---->
 <<click "$gffname 2" "7.5">><</click>>---->
 <<click "$gffname 3" "9">><</click>>---->
 
-\\<<elseif $lanasms is 3>><<click "$gffname 1" 4>><</click>>---->
+\\<<elseif $lanasms is 3>><<click "$gffname 1" "4">><</click>>---->
 <<click "$gffname 2" "7.5">><</click>>---->
 <<click "$gffname 3" "9">><</click>>---->
 <<click "$gffname 4" "10">><</click>>----><</if>>

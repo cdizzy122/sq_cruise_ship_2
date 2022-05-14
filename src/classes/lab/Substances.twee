@@ -1,0 +1,135 @@
+:: Substances [textback] {"position":"2704,362","size":"100,100"}
+<<removeclass "html">><<addclass "html" "home">><<if $substances is 0>><<set $labcount to $labcount +1>>You approach the station labelled as "Testosterone" to your left. All you can see are empty microscopes and closed flasks. All of them look semi-transparent and cloudy.
+
+<<speech "You" "''$name'':">>
+(Hm... I'm getting nothing from this.)<</speech>>
+You reach the drawers and open them, looking for some kind of information.
+
+<<speech "You" "''$name'':">>
+(Ah! Bingo!)<</speech>>
+<<linkreplace "... ...">><div class="center"><img src="classes/stoya/labtoy1.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(These girls can't help themselves, huh?)<</speech>>
+You grab the papers and take a look:
+
+<div class="center"><img src="classes/rae/testosterone.jpg" width="50%">
+
+//The testicles primarily make testosterone in men. Women’s ovaries also make testosterone, though in much smaller amounts. We've decided to only use male testosterone, since we can then also use it for testing its reaction to the z32p, having a more accurate result of what would actually happen outside the lab.
+
+The production of testosterone starts to increase significantly during puberty, and begins to dip after age 30 or so, meaning all extractions need to be done before said age for it to be as pure as possible.
+
+Testosterone is most often associated with sex drive, and plays a vital role in sperm production. It also affects bone and muscle mass, the way men store fat in the body, and even red blood cell production. A man’s testosterone levels can also affect his mood.
+
+The normal range of testosterone for men is between ''280 and 1,100 nanograms per deciliter (ng/dL) for adult males'', and between ''15 and 70 ng/dL for adult females''. Tests show that men on the lower end of the spectrum (less than 600 ng/L) are more susceptible to a decrease of their testosterone levels once exposed to the compound z32p.
+
+Once the compound is being tested, Beta subjects start experiencing an absence of this hormone, producing the following symptoms:
+
+''- decreased sex drive
+- less energy
+- weight gain
+- feelings of depression
+- moodiness
+- low self-esteem
+- less body hair
+- thinner bones''
+
+Weight gain should be countered by exercising often, which would also help the body adapt to the new changes and not reject the absence of said hormone. Depression should not be avoided, engaging in sexual activities often, therefore generating intense waves of dopamine and producing an addiction to it.//
+
+[[Return|Lab2]]</div><</linkreplace>>
+
+
+
+
+\\<<elseif $substances is 1>><<set $labcount to $labcount +1>>You approach the station labelled as "Estrogen" to your right. All you can see are empty microscopes and closed flasks. These look quite opaque and a pinkish.
+
+<<speech "You" "''$name'':">>
+(Hm... I'm getting nothing from this.)<</speech>>
+You reach the drawers and open them, looking for some kind of information.
+
+<<speech "You" "''$name'':">>
+(Ah! Bingo!)<</speech>>
+<<linkreplace "... ...">><div class="center"><img src="classes/stoya/labtoy3.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(What kind of scientist need all these objects in a lab??)<</speech>>
+You grab the papers and take a look:
+
+<div class="center"><img src="classes/rae/estrogen.jpg" width="30%">
+
+//This hormone is commonly associated with the female body. Men also produce estrogen, but women produce it in higher levels. It is known that it is crucial when reaching puberty, for the correct sexual development. Presumably, well developed breasts and general women's attributes are controlled by it. A woman will achieve her maximum genetical potencial if exposed to the proper amount of estrogen before the age of 30.
+
+There is a direct correlation to the growth of the uterine lining during the menstrual cycle and at the beginning of a pregnancy. It also causes breast changes in teenagers and women who are pregnant, making lactation possible. 
+
+Estrogen's levels can be somewhat regulated through food, although it's certainly not enough to notice a big change like the one we're looking for. Seems like this hormone is a bit harder to manage, especially if we're looking for an application for both men and women who have been exposed to the z32p.
+
+Average levels for the average menstruating woman range from ''15 to 350 picograms per milliliter (pg/mL)'', while men's range from ''10-60 pg/ml or 10-40 pg/ml''.
+
+Our experiments show that women on the menopause or generally low levels of estrogen are likely to experience an Alpha shift when exposed to the compound z32p, encouraging an intake of testosterone and rejecting estrogen.
+
+Once the compound is being tested in men, they might start experiencing a sudden growth in the production of estrogen, producing the following symptoms:
+
+''- reduced sex drive
+- reduced sperm concentration in semen
+- feeling exhausted
+- losing hair all over your body
+- shrinking muscle mass
+- reduced growth of penis and testicles
+- loss of bone density (osteoporosis)
+- sudden feeling that you’re hot (hot flashes)
+- having trouble focusing''
+
+Since the objective of the z32p is for Beta males to meets all those characteristics, none of these would need to be countered.//
+
+[[Return|Lab2]]</div><</linkreplace>>
+
+
+
+
+\\<<elseif $substances is 2>><<set $labcount to $labcount +1>>You approach the station labelled as "Glucose" to your front. Just as you reach the station, another woman comes out of one of the further stations. You duck quickly and hide.
+
+<<speech "nobody" "''???'':">>
+Hey, I'm getting out, you coming?<</speech>>
+<<speech "nobody" "''???'':">>
+Nope, I think I'm up to something.<</speech>>
+<<speech "nobody" "''???'':">>
+Suit yourself...<</speech>>
+She walks out of the room.
+
+<<speech "You" "''$name'':">>
+(Phew... too bad that woman is still in there. I won't be able to get in. Hm... I'm getting nothing from this.)<</speech>>
+You reach the drawers and open them, looking for some kind of information.
+
+<<speech "You" "''$name'':">>
+(Ah! Bingo!)<</speech>>
+<<linkreplace "... ...">><div class="center"><img src="classes/stoya/labtoy2.jpg" width="50%"></div>
+<<speech "You" "''$name'':">>
+(What kind of scientist need all these objects in a lab??)<</speech>>
+You grab the papers and take a look:
+
+<div class="center">//Glucose might prove to be helpful when trying to expose subjects to the coumpound. An appropiately created addiction to it would produce a sugar rush every time it was consumed, making it easier for the subject to get used to the changes, or even become dependand to-//
+
+...
+
+...
+
+...</div>
+<<speech "You" "''$name'':">>
+(Hm... the paper is ripped.)<</speech>>
+[[Return|Lab2]]<</linkreplace>>
+
+
+
+\\<<elseif $substances is 3>><<set $labcount to $labcount +1>>You approach a board on one of the tables.
+
+<<speech "You" "''$name'':">>
+(What is this...? Compatibility?)<</speech>>
+<div class="center">z32p BLOOD COMPATIBILITY (Beta male, high estrogen, low testosterone):
+
+''0-'' → Blank canvass, accepts all. Very fast development, long lasting.
+''0+'' → Proclivity to absorb estrogen elements. Fast development, long lasting.
+''A-, A+'' → Average, no toxicity whatsoever. Medium development, long lasting.
+''AB-, AB+'' → Rejects all. Needs gradual treatment to start producing own hormones. Long development, needs perpetual treatment to maintain results.</div>
+<<speech "You" "''$name'':">>
+(Which blood type was I...? I think I am 0+, or was I 0-?)<</speech>>
+[[Return|Lab2]]<</if>>
+
+

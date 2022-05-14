@@ -1,0 +1,12 @@
+:: Lab door [textback] {"position":"2209,408","size":"100,100"}
+<<removeclass "html">><<addclass "html" "lab">><img src="places2/labdoor.jpg" width="50%">
+
+You walk the few steps to the lab door in the middle of the hallway. You know you are not supposed to be sniffing around in here. You are worried, continuously looking at Stoya's door.
+
+<<speech "You" "''$name:''">>
+(If someone sees me, I'm pretty much dead)<</speech>>
+
+<<if $staffkey is true>><<if $drug2 is "Active">><<click "Try to open the lab door" "Get in lab">><<if ndef $mutefx>><<audio "door2" play>><<else>><</if>><</click>><<else>><<linkreplace "Try to open the lab door">>You can't risk it again.<</linkreplace>><</if>><<else>><<linkreplace "Try to open the lab door">>You card does nothing here. You need a Lvl 2 staff card.<</linkreplace>><</if>>
+[[Return|Health Center]]<<audio "menus" stop>><<audio "ship" mute>><<if ndef $mute>><<audio "mystery" unmute>><<else>><</if>>
+
+

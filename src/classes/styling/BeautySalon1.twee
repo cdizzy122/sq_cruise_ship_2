@@ -1,0 +1,69 @@
+:: Beauty Salon1 [textback] {"position":"2947,536","size":"100,100"}
+<<if ndef $bsalonn>><div class="center"><img src="places2/beautysalon.jpg" width="60%"></div>
+The women in the salon keep staring at you, which makes you feel somewhere in-between embarrasment and excitement.
+
+<<speech "nobody" "''Lifeguard:''">>
+Oh, hey! Did you manage to do any advancements with our beloved ''hunk at the pool''?<</speech>>
+<<speech "You" "''$name:''">>
+...Um... I'm on it... the guy just wants a shampoo.<</speech>>
+<<speech "nobody" "''Lifeguard:''">>
+Oooh, I see. So he wants some "cuddles in the shower" *wink, wink*<</speech>>
+<span class="onomatopeya">HAHAHA</span>
+
+All the women laugh at you while you walk towards Lola.
+
+<<speech "lola" "''Lola:''">>
+Hi. Can I help you?<</speech>>
+<<speech "You" "''$name:''">>
+Do you happen to have any manly shampoo?<</speech>>
+<<speech "lola" "''Lola:''">>
+Manly shampoo? Are you trying to grow some hair down there? I believe it's not the hair you should try to grow, honey... *snicker*<</speech>>
+<<speech "You" "''$name:''">>
+No, it's not for me... I just need a small dose of men's shower gel or shampoo.<</speech>>
+<<speech "lola" "''Lola:''">>
+Oh, I see... well, we don't really have men's products here, but I can let you have some neutral scented gel. Would that be good enough?<</speech>>
+<<speech "You" "''$name:''">>
+I-I guess so.<</speech>>
+Lola brings out some neutral gel from the back.
+
+<div class="center"><img src="quest14/neutralgel.jpg" width="30%"></div>
+<<speech "lola" "''Lola:''">>
+I'll let you have it for free. *wink* Just have fun with your "boyfriend".<</speech>>
+<<speech "You" "''$name:''">>
+It's not like that- ugh, whatever... thanks.<</speech>>
+You take it and get going.
+<font size="+1"><div class="center"> *''Neutral shower gel added to Inventory''*</div></font>
+[[Go back to the spa|Spa pool1][$spahunk to 1, $neutralgel to true]]
+
+
+\\<<else>><div class="center"><img src="places2/beautysalon.jpg" width="60%"></div>
+<<speech "nobody" "''Lifeguard:''">>
+Oh, hey! Are you finished jerking your daddy?<</speech>>
+<span class="onomatopeya">HAHAHA</span>
+
+<<speech "You" "''$name:''">>
+Shut up. I've been doing your fucking job. You're welcome.<</speech>>
+All the girls in the salon stare at the lifeguard in silence.
+
+<<speech "nobody" "''Lifeguard:''">>
+Oh, wait a second. Did you actually manage to make him go?<</speech>>
+<<speech "You" "''$name:''">>
+Well, yes. I'm starting to think that I should be getting paid at this ship, really.<</speech>>
+<<speech "nobody" "''Lifeguard:''">>
+Well, thank you... I'll cut you some slack from now on. Here you have 200 points for this.<</speech>>
+<div class="center"><span class="notplus">''POINTS +200''</span></div>
+<<set $points to $points +200>>
+
+<<speech "nobody" "''Lifeguard:''">>
+Alright, girls. Back to work.<</speech>>
+She storms out to the pool. Suddenly, Lola comes from the side.
+
+<<speech "lola" "''Lola:''">>
+ *whispers* BAD-ASSSSS... *winks and pinches your ass*<</speech>>
+You blush and smile.
+
+<<speech "You" "''$name:''">>
+Thanks...<</speech>>
+[[Return to Spa|Spa][$spavariable to false, $spahunkquest to "Finished"]]<</if>><<audio "menus" stop>><<audio "dorky" stop>><<audio "shower" stop>>
+
+
